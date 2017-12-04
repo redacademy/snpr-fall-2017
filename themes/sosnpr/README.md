@@ -1,7 +1,6 @@
-# RED Starter
+# SOSNPR themes
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
-
+blah blah blahh
 ## Installation
 
 ### 1. Download me (don't clone me!)
