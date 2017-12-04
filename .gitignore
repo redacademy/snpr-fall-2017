@@ -1,0 +1,46 @@
+# COMMUNITY PROJECT - SOSNPR GITIGNORE #
+
+# Ignore OS files #
+# =============== #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*[Tt]humbs.db
+*.Trashes
+
+# Ignore logs and databases #
+# ========================= #
+*.log
+*.sql
+error_log
+access_log
+
+# Ignore everything in "wp-content" except the "plugins" and "themes" directories. #
+# ================================================================================ #
+/*
+!.gitignore
+!plugins/
+!themes/
+!README.md
+
+# Ignore everything in "plugins" except certain plugins. #
+# ========================================================== #
+plugins/*
+!plugins/sosnpr-functionality/
+
+# Ignore everything in "themes" except the active theme. #
+# ====================================================== #
+themes/*
+!themes/sosnpr/
+
+# Ignore npm packages #
+# =================== #
+themes/sosnpr/node_modules/*
+
+# Ignore build files #
+# ================== #
+themes/sosnpr/gulpfile.js
+themes/sosnpr/build/*
