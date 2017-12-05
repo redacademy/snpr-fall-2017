@@ -1,6 +1,7 @@
 # SOSNPR themes
 
 blah blah blahh
+edit!
 ## Installation
 
 ### 1. Download me (don't clone me!)
