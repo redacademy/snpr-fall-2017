@@ -10,3 +10,79 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+//Screen sizes
+
+@mixin tablet {
+  @media all and (min-width: $tablet_width) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media all and (min-width: $desktop_width) {
+    @content;
+  }
+}
+
+//Mobile Fonts
+
+//the green title for page headings
+@mixin mobile-title {
+	color: $forest;
+	font-family: $miriam;
+	font-size: 28px;
+}
+
+//the orange title for recent updates
+@mixin mobile-orange-title {
+	color: $rugged;
+	font-family: $miriam;
+	font-size: 28px;
+}
+
+//description under page title
+@mixin mobile-description {
+	color: $forest;
+	font-family: $miriam;
+	font-size: 12px;
+}
+
+//white text in the footer
+@mixin mobile-small-header {
+	color: #fff;
+	font-family: $miriam;
+	font-size: 18px;
+}
+
+
+//Desktop Fonts
+
+//desktop main page title
+@mixin desktop-page-title {
+	color: $forest;
+	font-family: $miriam;
+	font-size: 54px;
+}
+
+//desktop description
+@mixin desktop-description {
+	color: $forest;
+	font-family: $miriam;
+	font-size: 25px;
+}
+
+//white text in footer
+@mixin desktop-small-header {
+	color: #fff;
+	font-family: $miriam;
+	font-size: 20px;
+}
+
+//menu items in desktop
+@mixin desktop-nav {
+	color: $rugged;
+	font-family: $miriam;
+	font-size: 33px;
+	
+}
