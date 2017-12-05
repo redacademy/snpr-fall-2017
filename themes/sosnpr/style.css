@@ -666,3 +666,7 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+#secondary, .widget-areagulp {
+  height: 284px;
+  width: 100vw;
+  background-color: #EB8E26; }
