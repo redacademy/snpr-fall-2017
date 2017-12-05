@@ -667,3 +667,11 @@ object {
   height: 284px;
   width: 100vw;
   background-color: #e47a1e; }
+
+.front-page-hero {
+  background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom center;
+  height: 50vh; }

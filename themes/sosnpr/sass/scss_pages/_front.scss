@@ -1,5 +1,8 @@
 .front-page-hero{
-  background:linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(../../sos_assets/home-page/south-okanagan-grasslands0,25.jpg) no-repeat top;;
+  background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg) ;
   background-size: cover;
-  height:100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom center;
+  height:50vh;
 }
