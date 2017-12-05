@@ -102,3 +102,12 @@ require get_template_directory() . '/inc/template-tags.php';
  * Custom functions that act independently of the theme templates.
  */
 require get_template_directory() . '/inc/extras.php';
+
+function wpgood_nav_search($items, $args) {
+	// If this isn't the primary menu, do nothing
+	if( !($args->theme_location == 'primary') ) 
+	return $items;
+	// Otherwise, add search form
+	return $items . '<li>' . get_search_form(false) . '</li>';
+}
+add_filter('wp_nav_menu_items', 'wpgood_nav_search', 10, 2);
