@@ -751,12 +751,33 @@ object {
         -ms-flex-align: start;
             align-items: flex-start;
     background-color: #eb8e26;
-    padding-top: 2.5rem; } }
+    padding-top: 2.5rem; }
+    #secondary .wp-image-62, #secondary .wp-image-63, .widget_area .wp-image-62, .widget_area .wp-image-63 {
+      padding-top: 1.5rem;
+      height: 80px;
+      width: 60px; } }
 
 .page-template-about-us .custom-hero {
-  background: url(../../sos_assets/about-us/mt-kobau-quarter.jpg) no-repeat center bottom;
-  height: 80vh;
-  width: 100vw; }
+  background: url(../../sos_assets/about-us/mt-kobauproto.jpg) no-repeat center bottom;
+  background-size: cover;
+  height: 70vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-about-us .custom-hero .post-13 {
+    padding-top: 50px; }
+    .page-template-about-us .custom-hero .post-13 .entry-header {
+      text-align: center; }
+
+.page-template-about-us .about-us-content-wrapper {
+  list-style-type: none;
+  margin: 0; }
+  .page-template-about-us .about-us-content-wrapper h2::before {
+    content: "\f105"; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
