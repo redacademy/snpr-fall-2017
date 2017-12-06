@@ -12,6 +12,7 @@
       text-align: center;      
       text-transform: uppercase;
       font-family: $miriam;
+      font-size: 1.2rem;
       color: white;
     }
 
@@ -20,14 +21,21 @@
       color: white;
       margin: 0;     
     }
+    a{
+      margin: 0rem 0.5rem;
+    }
     .subscribe-button, .feedback-button{
       width: 200px;
       height: 40px;
       border-radius: 0px;
+      border: none;
       text-transform: uppercase;
       background: white;      
       color: $main-orange;
-      font-size: 1.2rem;
+      font-family: $source;      
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
 
     }
   }
@@ -42,8 +50,9 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     background-color: $main-orange;
+    padding-top: 3.5rem;
     
     .widget_text{
       max-width: 20vw;
