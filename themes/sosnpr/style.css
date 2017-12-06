@@ -668,6 +668,23 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.text {
+  display: none; }
+
+.menu-item {
+  cursor: pointer; }
+
+.show {
+  display: inline; }
+
+.proposed-hero {
+  background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 85vh;
+  font-family: "Miriam Libre"; }
+
 #secondary, .widget_area {
   height: 540px;
   width: 100vw;
@@ -684,17 +701,19 @@ object {
         -ms-flex-align: center;
             align-items: center; }
     #secondary .widget_text h2, #secondary .textwidget h2, .widget_area .widget_text h2, .widget_area .textwidget h2 {
-      text-align: center;
       text-transform: uppercase;
       font-family: "Miriam Libre";
       font-size: 1.2rem;
       color: white; }
     #secondary .widget_text p, #secondary .textwidget p, .widget_area .widget_text p, .widget_area .textwidget p {
-      line-height: 1.5rem;
+      line-height: 1.8rem;
       color: white;
-      margin: 0; }
+      margin: 0;
+      font-weight: 300; }
     #secondary .widget_text a, #secondary .textwidget a, .widget_area .widget_text a, .widget_area .textwidget a {
       margin: 0rem 0.5rem; }
+    #secondary .widget_text i, #secondary .textwidget i, .widget_area .widget_text i, .widget_area .textwidget i {
+      color: white; }
     #secondary .widget_text .subscribe-button, #secondary .widget_text .feedback-button, #secondary .textwidget .subscribe-button, #secondary .textwidget .feedback-button, .widget_area .widget_text .subscribe-button, .widget_area .widget_text .feedback-button, .widget_area .textwidget .subscribe-button, .widget_area .textwidget .feedback-button {
       width: 200px;
       height: 40px;
@@ -707,6 +726,13 @@ object {
       font-size: 1.3rem;
       font-weight: 700;
       margin-bottom: 1rem; }
+  #secondary .custom-html-widget, .widget_area .custom-html-widget {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
 
 @media all and (min-width: 1000px) {
   #secondary, .widget_area {
@@ -725,28 +751,7 @@ object {
         -ms-flex-align: start;
             align-items: flex-start;
     background-color: #eb8e26;
-    padding-top: 3.5rem; }
-    #secondary .widget_text, .widget_area .widget_text {
-      max-width: 20vw;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-flow: column wrap;
-              flex-flow: column wrap; }
-    #secondary .textwidget, .widget_area .textwidget {
-      max-width: 20vw;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-flow: column wrap;
-              flex-flow: column wrap;
-      -webkit-box-align: start;
-          -ms-flex-align: start;
-              align-items: flex-start; } }
+    padding-top: 2.5rem; } }
 
 .page-template-about-us .custom-hero {
   background: url(../../sos_assets/about-us/mt-kobauproto.jpg) no-repeat center bottom;
@@ -806,15 +811,38 @@ object {
 
 .search-field {
   width: 0px;
-  background-color: transparent; }
+  color: white; }
+
+.search-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .main-navigation input[type=search] {
-  background-color: transparent;
+  background-color: white;
   border: none;
   font-family: "Miriam Libre";
   position: relative;
   top: 10px;
-  float: right; }
+  float: right;
+  width: 0;
+  padding: 0;
+  margin: 0; }
+
+.main-navigation fieldset {
+  border: none; }
+
+.main-navigation .search-submit {
+  border: none;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 50px;
+  width: 50px;
+  color: white; }
 
 .search-open,
 .no-js .search {
@@ -822,6 +850,9 @@ object {
 
 .search-bar-open {
   display: none; }
+
+.search-bar-white {
+  background-color: white; }
 
 .main-navigation {
   display: -webkit-box;
@@ -831,4 +862,9 @@ object {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #eb8e26;
-  height: 50px; }
+  height: 50px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }

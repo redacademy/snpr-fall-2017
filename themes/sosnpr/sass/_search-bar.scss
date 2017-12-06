@@ -3,8 +3,12 @@
 
 .search-field{
   width:0px;
-  background-color:transparent;
-  
+ 
+  color:white;
+}
+.search-form{
+  display:flex;
+  align-items:center;
 }
 .main-navigation{
 
@@ -13,12 +17,30 @@
 input[type=search]{
   
   
-  background-color:transparent;
+  background-color:white;
   border:none;
   font-family:$miriam;
   position: relative; top: 10px;
   float:right;
+  width:0;
+  padding:0;
+  margin:0;
 }
+fieldset{
+  border:none;
+}
+
+.search-submit{
+  border:none;
+  background:transparent;
+  box-shadow:none;
+
+  height:50px;
+  width:50px;
+  color:white;
+
+}
+
 
 }
 
@@ -30,5 +52,8 @@ input[type=search]{
 }
 .search-bar-open{
   display:none;
+}
+.search-bar-white{
+  background-color:white;
 }
 
