@@ -773,3 +773,27 @@ object {
     padding: 15px;
     font-weight: 100;
     font-family: "Miriam Libre"; }
+
+.search-field {
+  width: 0px;
+  background-color: transparent; }
+
+.main-navigation input[type=search] {
+  background-color: transparent;
+  border: none;
+  font-family: "Miriam Libre";
+  position: relative;
+  top: 10px;
+  float: right; }
+
+.search-open,
+.no-js .search {
+  width: 200px; }
+
+.main-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
