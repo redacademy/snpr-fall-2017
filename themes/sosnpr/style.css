@@ -679,17 +679,19 @@ object {
         -ms-flex-align: center;
             align-items: center; }
     #secondary .widget_text h2, #secondary .textwidget h2, .widget_area .widget_text h2, .widget_area .textwidget h2 {
-      text-align: center;
       text-transform: uppercase;
       font-family: "Miriam Libre";
       font-size: 1.2rem;
       color: white; }
     #secondary .widget_text p, #secondary .textwidget p, .widget_area .widget_text p, .widget_area .textwidget p {
-      line-height: 1.5rem;
+      line-height: 1.8rem;
       color: white;
-      margin: 0; }
+      margin: 0;
+      font-weight: 300; }
     #secondary .widget_text a, #secondary .textwidget a, .widget_area .widget_text a, .widget_area .textwidget a {
       margin: 0rem 0.5rem; }
+    #secondary .widget_text i, #secondary .textwidget i, .widget_area .widget_text i, .widget_area .textwidget i {
+      color: white; }
     #secondary .widget_text .subscribe-button, #secondary .widget_text .feedback-button, #secondary .textwidget .subscribe-button, #secondary .textwidget .feedback-button, .widget_area .widget_text .subscribe-button, .widget_area .widget_text .feedback-button, .widget_area .textwidget .subscribe-button, .widget_area .textwidget .feedback-button {
       width: 200px;
       height: 40px;
@@ -702,6 +704,13 @@ object {
       font-size: 1.3rem;
       font-weight: 700;
       margin-bottom: 1rem; }
+  #secondary .custom-html-widget, .widget_area .custom-html-widget {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
 
 @media all and (min-width: 1000px) {
   #secondary, .widget_area {
@@ -720,28 +729,7 @@ object {
         -ms-flex-align: start;
             align-items: flex-start;
     background-color: #eb8e26;
-    padding-top: 3.5rem; }
-    #secondary .widget_text, .widget_area .widget_text {
-      max-width: 20vw;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-flow: column wrap;
-              flex-flow: column wrap; }
-    #secondary .textwidget, .widget_area .textwidget {
-      max-width: 20vw;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-flow: column wrap;
-              flex-flow: column wrap;
-      -webkit-box-align: start;
-          -ms-flex-align: start;
-              align-items: flex-start; } }
+    padding-top: 2.5rem; } }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
@@ -802,4 +790,6 @@ object {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  background-color: #eb8e26;
+  height: 50px; }
