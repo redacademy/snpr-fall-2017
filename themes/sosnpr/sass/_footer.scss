@@ -19,6 +19,16 @@
       color: white;
       margin: 0;     
     }
+    .subscribe-button, .feedback-button{
+      width: 200px;
+      height: 40px;
+      border-radius: 0px;
+      text-transform: uppercase;
+      background: white;      
+      color: $rugged;
+      font-size: 1.2rem;
+
+    }
   }
 
 

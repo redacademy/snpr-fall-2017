@@ -686,6 +686,14 @@ object {
       line-height: 1.5rem;
       color: white;
       margin: 0; }
+    #secondary .widget_text .subscribe-button, #secondary .widget_text .feedback-button, #secondary .textwidget .subscribe-button, #secondary .textwidget .feedback-button, .widget_area .widget_text .subscribe-button, .widget_area .widget_text .feedback-button, .widget_area .textwidget .subscribe-button, .widget_area .textwidget .feedback-button {
+      width: 200px;
+      height: 40px;
+      border-radius: 0px;
+      text-transform: uppercase;
+      background: white;
+      color: #e47a1e;
+      font-size: 1.2rem; }
 
 @media all and (min-width: 1000px) {
   #secondary, .widget_area {
