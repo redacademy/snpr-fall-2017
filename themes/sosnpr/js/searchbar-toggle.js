@@ -21,5 +21,13 @@
         $('.search-field').toggleClass("search-bar-white");
   
     });
+
+
+
+
+
+   $('.menu-item').on('click', function(){
+     $(this).children().toggleClass('show');
+   })
   
   })(jQuery);
