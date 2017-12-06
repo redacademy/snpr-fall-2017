@@ -739,13 +739,31 @@ object {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  height: 75vh;
+  height: 85vh;
   font-family: "Miriam Libre"; }
   .front-page-hero h1 {
     color: #285817;
     font-family: "Miriam Libre";
-    text-align: center; }
-    .front-page-hero h1 .bold-title-span {
-      font-weight: 1000; }
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    display: block;
+    padding: 15px; }
   .front-page-hero h2 {
-    text-align: center; }
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 15px; }
+  .front-page-hero .learn-more-button {
+    border: none;
+    border-radius: 1px;
+    background-color: #e47a1e;
+    margin-top: 100px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 15px;
+    font-weight: 100;
+    font-family: "Miriam Libre"; }

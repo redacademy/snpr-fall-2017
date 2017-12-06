@@ -4,18 +4,42 @@
   background-repeat: no-repeat;
  
   background-position: bottom center;
-  height:75vh;
+  height:85vh;
   font-family:$miriam;
   
   h1{
     color:$forest;
     font-family:$miriam;
     text-align:center;
+    font-size:28px;
+    text-transform:uppercase;
+    display:block;
     .bold-title-span{
-      font-weight:1000;
+      
     }
+    padding:15px;
   }
   h2{
     text-align:center;
+    font-size:12px;
+    font-weight:100;
+    padding:15px;
   }
+  .learn-more-button{
+    border:none;
+    border-radius:1px;
+    background-color:$rugged;
+    margin-top: 100px;
+    color:white;
+    text-transform:uppercase;
+    font-size:20px;
+    box-shadow:none;
+    padding:15px;
+    font-weight:100;
+    font-family:$miriam;
+  }
+
 }
+
+
+
