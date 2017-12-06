@@ -4,3 +4,25 @@
 
 /* Front page */
 
+.text {
+  display: none;
+}
+
+.menu-item {
+  cursor: pointer;
+}
+
+.show {
+  display: inline;
+  
+}
+
+.proposed-hero {
+  background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  background-position: bottom center;
+  height:85vh;
+  font-family:$miriam;
+}

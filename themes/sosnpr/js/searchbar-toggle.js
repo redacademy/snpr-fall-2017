@@ -5,7 +5,8 @@
   
       $('.search-field').stop().animate(
         {width:200},"slow").focus();
-      $('.search-submit').toggleClass("search-bar-open")
+      $('.search-submit').toggleClass("search-bar-open");
+      $('.search-field').toggleClass("search-bar-white");
   
   
       
@@ -17,7 +18,16 @@
       $('.search-field').stop().animate(
         {width:0},"slow");
         $('.search-submit').toggleClass("search-bar-open");
+        $('.search-field').toggleClass("search-bar-white");
   
     });
+
+
+
+
+
+   $('.menu-item').on('click', function(){
+     $(this).children().toggleClass('show');
+   })
   
   })(jQuery);
