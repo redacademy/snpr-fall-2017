@@ -1,16 +1,21 @@
 .front-page-hero{
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg) ;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
  
   background-position: bottom center;
-  height:50vh;
+  height:75vh;
   font-family:$miriam;
+  
   h1{
     color:$forest;
     font-family:$miriam;
+    text-align:center;
     .bold-title-span{
-      font-weight:bold;
+      font-weight:1000;
     }
+  }
+  h2{
+    text-align:center;
   }
 }
