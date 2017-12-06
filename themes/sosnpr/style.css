@@ -668,22 +668,69 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.text {
-  display: none; }
+.page-template-proposed-park .entry-title {
+  color: #285817;
+  font-family: "Miriam Libre";
+  font-size: 28px;
+  text-align: center;
+  padding-top: 60px; }
 
-.menu-item {
-  cursor: pointer; }
+.page-template-proposed-park .entry-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-proposed-park .entry-content p {
+    color: #285817;
+    font-family: "Miriam Libre";
+    font-size: 12px;
+    max-width: 75%;
+    text-align: center; }
 
-.show {
-  display: inline; }
+.page-template-proposed-park h2 {
+  color: #bf6d0a;
+  font-family: "Miriam Libre";
+  margin: 8px 0; }
 
-.proposed-hero {
+.page-template-proposed-park .text {
+  height: 0;
+  overflow: hidden;
+  font-family: "Source Sans Pro";
+  padding-right: 10px; }
+
+.page-template-proposed-park .menu-item {
+  cursor: pointer;
+  padding-left: 25px; }
+
+.page-template-proposed-park .show {
+  height: auto; }
+
+.page-template-proposed-park .proposed-hero {
   background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
   height: 85vh;
   font-family: "Miriam Libre"; }
+
+.page-template-proposed-park .down {
+  display: none; }
+
+.page-template-proposed-park .see {
+  display: inline; }
+
+.page-template-proposed-park .hide {
+  display: none; }
+
+.page-template-proposed-park i {
+  padding-right: 10px; }
+
+.page-template-proposed-park .border {
+  border-top: 1px solid #CC8005;
+  border-left: 4px solid #CC8005;
+  border-bottom: 1px solid #CC8005; }
 
 #secondary, .widget_area {
   height: 540px;
