@@ -1,9 +1,51 @@
 //Custom styling for About Us page
 .page-template-about-us{
   .custom-hero{
-    background: url(../../sos_assets/about-us/mt-kobau-quarter.jpg) no-repeat center bottom;
-    // background-size: cover;
-    height: 80vh;
+    background: url(../../sos_assets/about-us/mt-kobauproto.jpg) no-repeat center bottom;
+    background-size: cover;
+    height: 70vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    .post-13{
+      padding-top: 50px;
+      // color: 
+      .entry-header{
+        text-align: center;
+      }
+    }
+  }
+  .about-us-content-wrapper{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 40px;
+    font-size: $font_size-paragraph;
+    line-height: $font__line-height-body;
+
+    li{
+      .about-us-essay-hide{
+        height: 0;
+        overflow: hidden;
+
+      }
+      .about-us-essay-show{
+
+        height: auto;
+
+      }
+    }
+    h2{
+      font-size: $font_size-heading;
+      padding: 5px 0;
+      &::before{
+        font-family: FontAwesome;
+        content: '\f105  ';
+      }
+    }
+    .heading-click::before{
+        font-family: FontAwesome;
+        content: '\f107  ';
+      }
   }
 }
