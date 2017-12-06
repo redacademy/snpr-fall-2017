@@ -42,6 +42,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Galleries
 # Page Templates
 	## Front page
+# scss_pages
+	## about us page
+	## front page
+	## proposed park page
+	## resources page
 --------------------------------------------------------------*/
 html {
   font-family: sans-serif;
@@ -699,19 +704,26 @@ object {
       text-align: center;
       text-transform: uppercase;
       font-family: "Miriam Libre";
+      font-size: 1.2rem;
       color: white; }
     #secondary .widget_text p, #secondary .textwidget p, .widget_area .widget_text p, .widget_area .textwidget p {
       line-height: 1.5rem;
       color: white;
       margin: 0; }
+    #secondary .widget_text a, #secondary .textwidget a, .widget_area .widget_text a, .widget_area .textwidget a {
+      margin: 0rem 0.5rem; }
     #secondary .widget_text .subscribe-button, #secondary .widget_text .feedback-button, #secondary .textwidget .subscribe-button, #secondary .textwidget .feedback-button, .widget_area .widget_text .subscribe-button, .widget_area .widget_text .feedback-button, .widget_area .textwidget .subscribe-button, .widget_area .textwidget .feedback-button {
       width: 200px;
       height: 40px;
       border-radius: 0px;
+      border: none;
       text-transform: uppercase;
       background: white;
       color: #eb8e26;
-      font-size: 1.2rem; }
+      font-family: "Source Sans Pro";
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 1rem; }
 
 @media all and (min-width: 1000px) {
   #secondary, .widget_area {
@@ -726,10 +738,11 @@ object {
             flex-flow: row wrap;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-color: #eb8e26; }
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background-color: #eb8e26;
+    padding-top: 3.5rem; }
     #secondary .widget_text, .widget_area .widget_text {
       max-width: 20vw;
       display: -webkit-box;
@@ -752,12 +765,17 @@ object {
           -ms-flex-align: start;
               align-items: flex-start; } }
 
+.page-template-about-us .custom-hero {
+  background: url(../../sos_assets/about-us/mt-kobau-quarter.jpg) no-repeat center bottom;
+  height: 80vh;
+  width: 100vw; }
+
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  height: 85vh;
+  height: 100vh;
   font-family: "Miriam Libre"; }
   .front-page-hero h1 {
     color: #285817;
@@ -788,19 +806,46 @@ object {
 
 .search-field {
   width: 0px;
-  background-color: transparent; }
+  color: white; }
 
 .main-navigation input[type=search] {
-  background-color: transparent;
+  background-color: white;
   border: none;
   font-family: "Miriam Libre";
   position: relative;
   top: 10px;
-  float: right; }
+  float: right;
+  width: 0;
+  padding: 0;
+  margin: 0; }
+
+.main-navigation fieldset {
+  border: none; }
+
+.main-navigation .search-submit {
+  border: none;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 50px;
+  width: 50px; }
+
+.main-navigation .search-submit:before {
+  font-family: FontAwesome;
+  content: "\f095";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle; }
 
 .search-open,
 .no-js .search {
   width: 200px; }
+
+.search-bar-open {
+  display: none; }
+
+.search-bar-white {
+  background-color: white; }
 
 .main-navigation {
   display: -webkit-box;
@@ -808,4 +853,6 @@ object {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  background-color: #eb8e26;
+  height: 50px; }
