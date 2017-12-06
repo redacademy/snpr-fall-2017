@@ -9,9 +9,11 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+    <div class="front-page-hero">
   <h1> <span class="bold-title-span">South Okanagan SimilKameen</span> National Park</h1>
   <h2 class="front-page-blurb">A place where biodiversity is preserved for future generations to enjoy<h2>
   <button class="learn-more-button">Learn More</button>
+  </div>
 		<?php if ( have_posts() ) : ?>
 
 			<?php if ( is_home() && ! is_front_page() ) : ?>
