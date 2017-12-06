@@ -771,15 +771,36 @@ object {
 
 .search-field {
   width: 0px;
-  background-color: transparent; }
+  color: white; }
 
 .main-navigation input[type=search] {
-  background-color: transparent;
+  background-color: white;
   border: none;
   font-family: "Miriam Libre";
   position: relative;
   top: 10px;
-  float: right; }
+  float: right;
+  width: 0;
+  padding: 0;
+  margin: 0; }
+
+.main-navigation fieldset {
+  border: none; }
+
+.main-navigation .search-submit {
+  border: none;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 50px;
+  width: 50px; }
+
+.main-navigation .search-submit:before {
+  font-family: FontAwesome;
+  content: "\f095";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle; }
 
 .search-open,
 .no-js .search {
@@ -788,10 +809,15 @@ object {
 .search-bar-open {
   display: none; }
 
+.search-bar-white {
+  background-color: white; }
+
 .main-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  background-color: #eb8e26;
+  height: 50px; }
