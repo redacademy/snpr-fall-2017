@@ -239,7 +239,7 @@ textarea {
   font-family: sans-serif;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 1.5; }
+  line-height: 20px; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
@@ -771,9 +771,24 @@ object {
 
 .page-template-about-us .about-us-content-wrapper {
   list-style-type: none;
-  margin: 0; }
-  .page-template-about-us .about-us-content-wrapper h2::before {
-    content: "\f105"; }
+  margin: 0;
+  padding: 0 40px;
+  font-size: 14px;
+  line-height: 20px; }
+  .page-template-about-us .about-us-content-wrapper li .about-us-essay-hide {
+    height: 0;
+    overflow: hidden; }
+  .page-template-about-us .about-us-content-wrapper li .about-us-essay-show {
+    height: auto; }
+  .page-template-about-us .about-us-content-wrapper h2 {
+    font-size: 22px;
+    padding: 5px 0; }
+    .page-template-about-us .about-us-content-wrapper h2::before {
+      font-family: FontAwesome;
+      content: '\f105  '; }
+  .page-template-about-us .about-us-content-wrapper .heading-click::before {
+    font-family: FontAwesome;
+    content: '\f107  '; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
