@@ -841,6 +841,16 @@ object {
     font-family: FontAwesome;
     content: '\f107  '; }
 
+.page-template-resources .resources-hero {
+  background: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw; }
+
+.page-template-resources .entry-header, .page-template-resources .entry-title {
+  text-transform: uppercase;
+  text-align: center; }
+
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
   background-size: cover;
