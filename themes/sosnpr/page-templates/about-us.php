@@ -22,38 +22,50 @@ get_header();
       
         <li>
           <?php $props = CFS()->get_field_info( 'ssosnp_network' );?> 
-          <h2><?php echo $props['label'];?></h2>
-          <p><?php echo CFS()->get('ssosnp_network');?></p>
+          <h2 class="about-us-heading"><?php echo $props['label'];?></h2>
+          <div class="about-us-essay-hide">
+            <p><?php echo CFS()->get('ssosnp_network');?></p>
+          </div>
         </li>
 
         <li>
           <?php $props = CFS()->get_field_info( 'first_nation_support' );?> 
-          <h2><?php echo $props['label'];?></h2>
-          <p><?php echo CFS()->get('first_nation_support');?></p>
+          <h2 class="about-us-heading"><?php echo $props['label'];?></h2>
+          <div class="about-us-essay-hide">
+            <p><?php echo CFS()->get('first_nation_support');?></p>
+          </div>
         </li>
 
         <li>
           <?php $props = CFS()->get_field_info( 'community_support' );?> 
-          <h2><?php echo $props['label'];?></h2>
+          <h2 class="about-us-heading"><?php echo $props['label'];?></h2>
+          <div class="about-us-essay-hide">
           <p><?php echo CFS()->get('community_support');?></p>
+          </div>
         </li>
 
         <li>
           <?php $props = CFS()->get_field_info( 'provincial_government_support' );?> 
-          <h2><?php echo $props['label'];?></h2>
+          <h2 class="about-us-heading"><?php echo $props['label'];?></h2>
+          <div class="about-us-essay-hide">
           <p><?php echo CFS()->get('provincial_government_support');?></p>
+          </div>
         </li>
 
         <li>
           <?php $props = CFS()->get_field_info( 'federal_government_parks_canada_support' );?> 
-          <h2><?php echo $props['label'];?></h2>
+          <h2 class="about-us-heading"><?php echo $props['label'];?></h2>
+          <div class="about-us-essay-hide">
           <p><?php echo CFS()->get('federal_government_parks_canada_support');?></p>
+          </div>
         </li>
-        
+
         <li>
           <?php $props = CFS()->get_field_info( 'proposal_history' );?> 
-          <h2><?php echo $props['label'];?></h2>
+          <h2 class="about-us-heading"><?php echo $props['label'];?></h2>
+          <div class="about-us-essay-hide">
           <p><?php echo CFS()->get('proposal_history');?></p>
+          </div>
         </li>
 
       </ul>
