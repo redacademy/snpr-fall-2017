@@ -6,6 +6,10 @@
  
   color:white;
 }
+.search-form{
+  display:flex;
+  align-items:center;
+}
 .main-navigation{
 
 
@@ -33,15 +37,8 @@ fieldset{
 
   height:50px;
   width:50px;
-  
+  color:white;
 
-}
-.search-submit:before{
-  font-family: FontAwesome;
-  content: "\f095";
-  display: inline-block;
-  padding-right: 3px;
-  vertical-align: middle;
 }
 
 

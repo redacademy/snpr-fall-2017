@@ -791,6 +791,14 @@ object {
   width: 0px;
   color: white; }
 
+.search-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
 .main-navigation input[type=search] {
   background-color: white;
   border: none;
@@ -811,14 +819,8 @@ object {
   -webkit-box-shadow: none;
           box-shadow: none;
   height: 50px;
-  width: 50px; }
-
-.main-navigation .search-submit:before {
-  font-family: FontAwesome;
-  content: "\f095";
-  display: inline-block;
-  padding-right: 3px;
-  vertical-align: middle; }
+  width: 50px;
+  color: white; }
 
 .search-open,
 .no-js .search {
@@ -838,4 +840,9 @@ object {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #eb8e26;
-  height: 50px; }
+  height: 50px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
