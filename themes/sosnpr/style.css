@@ -740,6 +740,11 @@ object {
           -ms-flex-align: start;
               align-items: flex-start; } }
 
+.page-template-about-us .custom-hero {
+  background: url(../../sos_assets/about-us/mt-kobau-quarter.jpg) no-repeat center bottom;
+  height: 80vh;
+  width: 100vw; }
+
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
   background-size: cover;
@@ -799,4 +804,6 @@ object {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  background-color: #eb8e26;
+  height: 50px; }
