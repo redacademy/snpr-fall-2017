@@ -31,7 +31,19 @@
 }
 
 .header-logo{
-  color:white;
+  
+  height:30px;
+  width:15px;
+  margin-left:10px;
+  margin-top:10px
+}
+.menu-non-logo{
+  display:flex;
+}
+.menu-toggle{
   height:50px;
   width:50px;
+  background-color:transparent;
+  box-shadow:none;
+  border:none;
 }

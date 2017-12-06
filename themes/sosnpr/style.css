@@ -865,7 +865,8 @@ object {
     font-size: 28px;
     text-transform: uppercase;
     display: block;
-    padding: 15px; }
+    padding: 15px;
+    line-height: 1; }
   .front-page-hero h2 {
     text-align: center;
     font-size: 12px;
@@ -972,6 +973,20 @@ object {
   display: block; }
 
 .header-logo {
-  color: white;
+  height: 30px;
+  width: 15px;
+  margin-left: 10px;
+  margin-top: 10px; }
+
+.menu-non-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.menu-toggle {
   height: 50px;
-  width: 50px; }
+  width: 50px;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none; }
