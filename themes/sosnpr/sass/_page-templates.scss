@@ -4,17 +4,57 @@
 
 /* Front page */
 
+//proposed
+
+
+.page-template-proposed-park {
+
+  .entry-title {
+    @include mobile-title;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  .entry-content {
+    display: flex;
+    justify-content: center;
+    p {
+      @include mobile-description;
+      max-width: 75%;
+      text-align: center;
+      
+      
+    }
+  }
+
+  h2 {
+    color: $brown-orange;
+    font-family: $miriam;
+    margin: 8px 0;
+  }
+
 .text {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  font-family: $source;
+  padding-right: 10px;
+  
+ 
 }
 
 .menu-item {
   cursor: pointer;
+  padding-left: 25px;
+  
+
 }
 
 .show {
-  display: inline;
+  // display: inline;
+  height: auto;
   
+  
+ 
 }
 
 .proposed-hero {
@@ -25,4 +65,29 @@
   background-position: bottom center;
   height:85vh;
   font-family:$miriam;
+}
+
+
+.down {
+  display: none;
+}
+
+.see {
+  display: inline;
+}
+
+.hide {
+  display: none;
+}
+
+i {
+  padding-right: 10px;
+}
+
+.border {
+  border-top: 1px solid $border-orange;
+  border-left: 4px solid $border-orange;
+  border-bottom: 1px solid $border-orange;
+}
+
 }
