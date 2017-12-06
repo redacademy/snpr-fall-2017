@@ -1,6 +1,59 @@
-
 #secondary, .widget_area{
-  height: 284px;
+  height: 540px;
   width: 100vw;
   background-color: $rugged;
+  
+  .widget_text, .textwidget{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    h2{
+      text-align: center;      
+      text-transform: uppercase;
+      color: white;
+    }
+
+    p{
+      line-height: 1.5rem;
+      color: white;
+      margin: 0;     
+    }
+    .subscribe-button, .feedback-button{
+      width: 200px;
+      height: 40px;
+      border-radius: 0px;
+      text-transform: uppercase;
+      background: white;      
+      color: $rugged;
+      font-size: 1.2rem;
+
+    }
+  }
+
+
+}
+
+@include desktop{
+  #secondary, .widget_area{
+    height: 284px;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $rugged;
+    
+    .widget_text{
+      max-width: 20vw;
+      display: flex;
+      flex-flow: column wrap;
+    }
+    .textwidget{
+      max-width: 20vw;
+      display: flex;
+      flex-flow: column wrap;
+      align-items: flex-start;
+    }
+  }
 }

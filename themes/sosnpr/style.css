@@ -552,7 +552,7 @@ a {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-  margin: 0 0 1.5rem;
+  margin: 0 0;
   /* Make sure select elements fit in widgets. */ }
   .widget select {
     max-width: 100%; }
@@ -664,9 +664,75 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 #secondary, .widget_area {
-  height: 284px;
+  height: 540px;
   width: 100vw;
   background-color: #e47a1e; }
+  #secondary .widget_text, #secondary .textwidget, .widget_area .widget_text, .widget_area .textwidget {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    #secondary .widget_text h2, #secondary .textwidget h2, .widget_area .widget_text h2, .widget_area .textwidget h2 {
+      text-align: center;
+      text-transform: uppercase;
+      color: white; }
+    #secondary .widget_text p, #secondary .textwidget p, .widget_area .widget_text p, .widget_area .textwidget p {
+      line-height: 1.5rem;
+      color: white;
+      margin: 0; }
+    #secondary .widget_text .subscribe-button, #secondary .widget_text .feedback-button, #secondary .textwidget .subscribe-button, #secondary .textwidget .feedback-button, .widget_area .widget_text .subscribe-button, .widget_area .widget_text .feedback-button, .widget_area .textwidget .subscribe-button, .widget_area .textwidget .feedback-button {
+      width: 200px;
+      height: 40px;
+      border-radius: 0px;
+      text-transform: uppercase;
+      background: white;
+      color: #e47a1e;
+      font-size: 1.2rem; }
+
+@media all and (min-width: 1000px) {
+  #secondary, .widget_area {
+    height: 284px;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #e47a1e; }
+    #secondary .widget_text, .widget_area .widget_text {
+      max-width: 20vw;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column wrap;
+              flex-flow: column wrap; }
+    #secondary .textwidget, .widget_area .textwidget {
+      max-width: 20vw;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column wrap;
+              flex-flow: column wrap;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; } }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
