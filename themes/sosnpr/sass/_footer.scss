@@ -1,7 +1,7 @@
 #secondary, .widget_area{
   height: 540px;
   width: 100vw;
-  background-color: $rugged;
+  background-color: $main-orange;
   
   .widget_text, .textwidget{
     display: flex;
@@ -11,6 +11,7 @@
     h2{
       text-align: center;      
       text-transform: uppercase;
+      font-family: $miriam;
       color: white;
     }
 
@@ -25,7 +26,7 @@
       border-radius: 0px;
       text-transform: uppercase;
       background: white;      
-      color: $rugged;
+      color: $main-orange;
       font-size: 1.2rem;
 
     }
@@ -42,7 +43,7 @@
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: $rugged;
+    background-color: $main-orange;
     
     .widget_text{
       max-width: 20vw;

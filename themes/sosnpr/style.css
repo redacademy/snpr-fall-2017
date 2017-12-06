@@ -666,7 +666,7 @@ object {
 #secondary, .widget_area {
   height: 540px;
   width: 100vw;
-  background-color: #e47a1e; }
+  background-color: #eb8e26; }
   #secondary .widget_text, #secondary .textwidget, .widget_area .widget_text, .widget_area .textwidget {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -681,6 +681,7 @@ object {
     #secondary .widget_text h2, #secondary .textwidget h2, .widget_area .widget_text h2, .widget_area .textwidget h2 {
       text-align: center;
       text-transform: uppercase;
+      font-family: "Miriam Libre";
       color: white; }
     #secondary .widget_text p, #secondary .textwidget p, .widget_area .widget_text p, .widget_area .textwidget p {
       line-height: 1.5rem;
@@ -692,7 +693,7 @@ object {
       border-radius: 0px;
       text-transform: uppercase;
       background: white;
-      color: #e47a1e;
+      color: #eb8e26;
       font-size: 1.2rem; }
 
 @media all and (min-width: 1000px) {
@@ -711,7 +712,7 @@ object {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #e47a1e; }
+    background-color: #eb8e26; }
     #secondary .widget_text, .widget_area .widget_text {
       max-width: 20vw;
       display: -webkit-box;
