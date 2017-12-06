@@ -16,5 +16,13 @@
         {width:0},"slow")
   
     });
+
+
+
+
+
+   $('.menu-item').on('click', function(){
+     $(this).children().toggleClass('show');
+   })
   
   })(jQuery);

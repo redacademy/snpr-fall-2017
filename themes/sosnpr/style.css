@@ -663,6 +663,23 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.text {
+  display: none; }
+
+.menu-item {
+  cursor: pointer; }
+
+.show {
+  display: inline; }
+
+.proposed-hero {
+  background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 85vh;
+  font-family: "Miriam Libre"; }
+
 #secondary, .widget_area {
   height: 540px;
   width: 100vw;
@@ -758,7 +775,7 @@ object {
   .front-page-hero .learn-more-button {
     border: none;
     border-radius: 1px;
-    background-color: #e47a1e;
+    background-color: #eb8e26;
     margin-top: 100px;
     color: white;
     text-transform: uppercase;
