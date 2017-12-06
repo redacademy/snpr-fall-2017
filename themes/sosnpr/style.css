@@ -42,6 +42,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Galleries
 # Page Templates
 	## Front page
+# scss_pages
+	## about us page
+	## front page
+	## proposed park page
+	## resources page
 --------------------------------------------------------------*/
 html {
   font-family: sans-serif;
@@ -758,7 +763,7 @@ object {
   .front-page-hero .learn-more-button {
     border: none;
     border-radius: 1px;
-    background-color: #e47a1e;
+    background-color: #e47b1e;
     margin-top: 100px;
     color: white;
     text-transform: uppercase;
