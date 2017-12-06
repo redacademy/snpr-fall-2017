@@ -751,7 +751,11 @@ object {
         -ms-flex-align: start;
             align-items: flex-start;
     background-color: #eb8e26;
-    padding-top: 2.5rem; } }
+    padding-top: 2.5rem; }
+    #secondary .wp-image-62, #secondary .wp-image-63, .widget_area .wp-image-62, .widget_area .wp-image-63 {
+      padding-top: 1.5rem;
+      height: 80px;
+      width: 60px; } }
 
 .page-template-about-us .custom-hero {
   background: url(../../sos_assets/about-us/mt-kobau-quarter.jpg) no-repeat center bottom;
