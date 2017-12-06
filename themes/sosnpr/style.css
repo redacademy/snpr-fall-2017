@@ -670,8 +670,13 @@ object {
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: bottom center;
-  height: 50vh; }
+  height: 50vh;
+  font-family: "Miriam Libre"; }
+  .front-page-hero h1 {
+    color: #285817;
+    font-family: "Miriam Libre"; }
+    .front-page-hero h1 .bold-title-span {
+      font-weight: bold; }
