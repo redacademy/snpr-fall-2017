@@ -745,7 +745,7 @@ object {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  height: 85vh;
+  height: 100vh;
   font-family: "Miriam Libre"; }
   .front-page-hero h1 {
     color: #285817;
@@ -789,6 +789,9 @@ object {
 .search-open,
 .no-js .search {
   width: 200px; }
+
+.search-bar-open {
+  display: none; }
 
 .main-navigation {
   display: -webkit-box;
