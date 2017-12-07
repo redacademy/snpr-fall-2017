@@ -26,8 +26,10 @@ $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", Courier, monospace;
 $font__line-height-body: 20px;
 $font__line-height-pre: 1.6;
-$font_size-paragraph: 14px;
-$font_size-heading: 22px;
+$font_size-paragraph-main: 14px;
+$font_size-paragraph-secondary: 12px;
+$font_size-heading1: 28px;
+$font_size-heading2: 20px;
 //custom
 
 //color
@@ -37,8 +39,8 @@ $brown-orange: #bf6d0a;
 $border-orange: #CC8005;
 
 //fonts
-$miriam: 'Miriam Libre';
-$source: 'Source Sans Pro';
+$miriam: 'Miriam Libre',sans-serif;
+$source: 'Source Sans Pro',sans-serif;
 
 //screen
 $tablet_width: 600px;
