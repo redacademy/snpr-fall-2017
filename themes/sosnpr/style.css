@@ -407,7 +407,7 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-  padding: 3px; }
+  padding: 0px; }
 
 textarea {
   padding-left: 3px;
@@ -692,13 +692,19 @@ object {
 .page-template-proposed-park h2 {
   color: #bf6d0a;
   font-family: "Miriam Libre", sans-serif;
-  margin: 8px 0; }
+  margin: 8px 0; 
+  font-family: "Miriam Libre";
+  margin: 10px 0;
+  line-height: 30px; }
 
 .page-template-proposed-park .text {
   height: 0;
   overflow: hidden;
   font-family: "Source Sans Pro", sans-serif;
   padding-right: 10px; }
+  @media all and (min-width: 1000px) {
+    .page-template-proposed-park .text {
+      height: auto; } }
 
 .page-template-proposed-park .menu-item {
   cursor: pointer;
@@ -717,6 +723,10 @@ object {
 
 .page-template-proposed-park .down {
   display: none; }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .right {
+    display: none; } }
 
 .page-template-proposed-park .see {
   display: inline; }
@@ -873,15 +883,22 @@ object {
 
 .page-template-resources .entry-header, .page-template-resources .entry-title {
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  color: #285817;
+  font-family: "Miriam Libre"; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
+<<<<<<< HEAD
   height: 100vh;
   font-family: "Miriam Libre", sans-serif; }
+=======
+  height: 600px;
+  font-family: "Miriam Libre"; }
+>>>>>>> ae161f8d806e7043ebf9cb3864eb7f991b464cd2
   .front-page-hero h1 {
     color: #285817;
     font-family: "Miriam Libre", sans-serif;
@@ -889,7 +906,8 @@ object {
     font-size: 28px;
     text-transform: uppercase;
     display: block;
-    padding: 15px; }
+    padding: 15px;
+    line-height: 1; }
   .front-page-hero h2 {
     text-align: center;
     font-size: 12px;
@@ -962,7 +980,7 @@ object {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #eb8e26;
-  height: 50px;
+  min-height: 50px;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -996,6 +1014,21 @@ object {
   display: block; }
 
 .header-logo {
-  color: white;
-  height: 50px;
-  width: 50px; }
+  height: 30px;
+  width: 15px;
+  margin-left: 10px;
+  margin-top: 10px; }
+
+.menu-non-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.menu-toggle {
+  min-height: 50px;
+  min-width: 50px;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  background-image: url(../../sos_assets/ui-icons/hamburger-icon.svg); }

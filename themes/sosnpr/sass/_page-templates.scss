@@ -30,7 +30,8 @@
   h2 {
     color: $brown-orange;
     font-family: $miriam;
-    margin: 8px 0;
+    margin: 10px 0;
+    line-height: 30px;
   }
 
 .text {
@@ -38,9 +39,13 @@
   overflow: hidden;
   font-family: $source;
   padding-right: 10px;
-  
- 
+
+  @include desktop {
+    height: auto;
+  }
 }
+
+
 
 .menu-item {
   cursor: pointer;
@@ -53,8 +58,6 @@
   // display: inline;
   height: auto;
   
-  
- 
 }
 
 .proposed-hero {
@@ -67,9 +70,17 @@
   font-family:$miriam;
 }
 
-
+//down arrow
 .down {
   display: none;
+}
+//
+
+//right arrow
+.right {
+  @include desktop{
+    display: none;
+  }
 }
 
 .see {
@@ -89,5 +100,6 @@ i {
   border-left: 4px solid $border-orange;
   border-bottom: 1px solid $border-orange;
 }
+
 
 }
