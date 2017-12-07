@@ -2,9 +2,10 @@
   display:flex;
   justify-content:space-between;
   background-color:#eb8e26;
-  height:50px;
+  min-height:50px;
   align-content:center;
   align-items:center;
+  
 }
 
 .menu{
@@ -31,7 +32,21 @@
 }
 
 .header-logo{
-  color:white;
-  height:50px;
-  width:50px;
+  
+  height:30px;
+  width:15px;
+  margin-left:10px;
+  margin-top:10px
+}
+.menu-non-logo{
+  display:flex;
+  // align-content:center;
+}
+.menu-toggle{
+  min-height:50px;
+  min-width:50px;
+  background-color:transparent;
+  box-shadow:none;
+  border:none;
+  background-image:url(../../sos_assets/ui-icons/hamburger-icon.svg) ;
 }
