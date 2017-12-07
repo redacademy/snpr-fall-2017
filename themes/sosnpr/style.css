@@ -470,7 +470,7 @@ a {
 .main-navigation.toggled ul {
   display: block; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
   .menu-toggle {
     display: none; }
   .main-navigation ul {
@@ -923,7 +923,7 @@ object {
 
 .search-field {
   width: 0px;
-  color: white; }
+  color: black; }
 
 .search-form {
   display: -webkit-box;
@@ -984,28 +984,41 @@ object {
   position: fixed;
   top: 0px; }
 
-.menu {
+.menu1 {
   position: absolute;
-  height: 200px;
+  height: 300px;
+  width: 250px;
   z-index: 10;
   background: white;
-  top: 50px;
-  right: 0px;
+  top: 3px;
+  right: 3px;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
   border: 1px solid;
   border-color: #ccc #ccc #bbb;
   display: none; }
-  .menu ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-line-pack: distribute;
-        align-content: space-around; }
+  .menu1 .menu-menu-1-container {
+    padding-right: 20px; }
+    .menu1 .menu-menu-1-container ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+      .menu1 .menu-menu-1-container ul li {
+        text-align: center;
+        line-height: 3.5;
+        font-family: "Miriam Libre", sans-serif; }
+        .menu1 .menu-menu-1-container ul li a {
+          color: #285817; }
+      .menu1 .menu-menu-1-container ul .menu-item-77 {
+        background: #eb8e26; }
+        .menu1 .menu-menu-1-container ul .menu-item-77 a {
+          color: white; }
 
 .menu-show {
   display: block; }
@@ -1022,16 +1035,19 @@ object {
   display: flex; }
 
 .menu-toggle {
-  min-height: 50px;
-  min-width: 50px;
+  min-height: 40px;
+  min-width: 40px;
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
   border: none;
-  background-image: url(../../sos_assets/ui-icons/hamburger-icon.svg); }
+  background-image: url(../../sos_assets/ui-icons/hamburger-icon-rugged-orange.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px; }
 
-@media screen and (min-width: 768px) {
-  .menu {
+@media screen and (min-width: 600px) {
+  .menu1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1040,7 +1056,7 @@ object {
             justify-content: space-between;
     position: relative;
     height: 50px;
-    width: 600px;
+    width: 500px;
     -webkit-box-shadow: none;
             box-shadow: none;
     z-index: 10;
@@ -1053,8 +1069,8 @@ object {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    .menu ul {
-      width: 600px;
+    .menu1 .menu-menu-1-container ul {
+      width: 500px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -1064,7 +1080,62 @@ object {
               flex-direction: row;
       -ms-flex-pack: distribute;
           justify-content: space-around; }
-      .menu ul a {
-        color: #eb8e26;
-        font-family: "Miriam Libre", sans-serif;
-        font-size: 33px; } }
+      .menu1 .menu-menu-1-container ul li {
+        text-align: center;
+        line-height: 1;
+        font-family: "Miriam Libre", sans-serif; }
+        .menu1 .menu-menu-1-container ul li a {
+          color: #eb8e26;
+          font-family: "Miriam Libre", sans-serif;
+          font-size: 16px; }
+      .menu1 .menu-menu-1-container ul .menu-item-77 {
+        background: #eb8e26; }
+        .menu1 .menu-menu-1-container ul .menu-item-77 a {
+          color: white; } }
+
+@media screen and (min-width: 1000px) {
+  .menu1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    height: 50px;
+    width: 700px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    z-index: 10;
+    background: transparent;
+    top: 0;
+    right: 0px;
+    border: none;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .menu1 .menu-menu-1-container ul {
+      width: 700px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+      .menu1 .menu-menu-1-container ul li {
+        text-align: center;
+        line-height: 1;
+        font-family: "Miriam Libre", sans-serif; }
+        .menu1 .menu-menu-1-container ul li a {
+          color: #eb8e26;
+          font-family: "Miriam Libre", sans-serif;
+          font-size: 25px; }
+      .menu1 .menu-menu-1-container ul .menu-item-77 {
+        background: #eb8e26; }
+        .menu1 .menu-menu-1-container ul .menu-item-77 a {
+          color: white; } }
