@@ -27,6 +27,6 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 		</div><!-- #page -->
 
 		<?php wp_footer(); ?>
-
+		
 	</body>
 </html>
