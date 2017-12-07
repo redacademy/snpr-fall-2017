@@ -407,7 +407,7 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-  padding: 3px; }
+  padding: 0px; }
 
 textarea {
   padding-left: 3px;
@@ -849,14 +849,16 @@ object {
 
 .page-template-resources .entry-header, .page-template-resources .entry-title {
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  color: #285817;
+  font-family: "Miriam Libre"; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  height: 100vh;
+  height: 600px;
   font-family: "Miriam Libre"; }
   .front-page-hero h1 {
     color: #285817;
@@ -939,7 +941,7 @@ object {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #eb8e26;
-  height: 50px;
+  min-height: 50px;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -984,9 +986,10 @@ object {
   display: flex; }
 
 .menu-toggle {
-  height: 50px;
-  width: 50px;
+  min-height: 50px;
+  min-width: 50px;
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: none; }
+  border: none;
+  background-image: url(../../sos_assets/ui-icons/hamburger-icon.svg); }
