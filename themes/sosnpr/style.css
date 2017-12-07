@@ -692,8 +692,6 @@ object {
 .page-template-proposed-park h2 {
   color: #bf6d0a;
   font-family: "Miriam Libre", sans-serif;
-  margin: 8px 0; 
-  font-family: "Miriam Libre";
   margin: 10px 0;
   line-height: 30px; }
 
@@ -885,20 +883,16 @@ object {
   text-transform: uppercase;
   text-align: center;
   color: #285817;
-  font-family: "Miriam Libre"; }
+  font-family: "Miriam Libre", sans-serif; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-<<<<<<< HEAD
-  height: 100vh;
-  font-family: "Miriam Libre", sans-serif; }
-=======
   height: 600px;
-  font-family: "Miriam Libre"; }
->>>>>>> ae161f8d806e7043ebf9cb3864eb7f991b464cd2
+  font-family: "Miriam Libre", sans-serif;
+  padding-top: 50px; }
   .front-page-hero h1 {
     color: #285817;
     font-family: "Miriam Libre", sans-serif;
@@ -960,7 +954,7 @@ object {
           box-shadow: none;
   height: 50px;
   width: 50px;
-  color: white; }
+  color: #eb8e26; }
 
 .search-open,
 .no-js .search {
@@ -979,13 +973,16 @@ object {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #eb8e26;
+  background-color: white;
   min-height: 50px;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0px; }
 
 .menu {
   position: absolute;
@@ -1032,3 +1029,42 @@ object {
           box-shadow: none;
   border: none;
   background-image: url(../../sos_assets/ui-icons/hamburger-icon.svg); }
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    height: 50px;
+    width: 600px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    z-index: 10;
+    background: transparent;
+    top: 0;
+    right: 0px;
+    border: none;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .menu ul {
+      width: 600px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+      .menu ul a {
+        color: #eb8e26;
+        font-family: "Miriam Libre", sans-serif;
+        font-size: 33px; } }

@@ -1,10 +1,14 @@
 .main-navigation{
   display:flex;
   justify-content:space-between;
-  background-color:#eb8e26;
+  background-color:white;
   min-height:50px;
   align-content:center;
   align-items:center;
+  width:100%;
+  position:fixed;
+  top:0px;
+  
   
 }
 
@@ -20,6 +24,9 @@
   border: 1px solid;
   border-color: #ccc #ccc #bbb;
   display:none;
+  
+    
+
   ul{
     display:flex;
     flex-direction:column;
@@ -49,4 +56,38 @@
   box-shadow:none;
   border:none;
   background-image:url(../../sos_assets/ui-icons/hamburger-icon.svg) ;
+}
+
+@media screen and (min-width: 768px) {
+	.menu{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    height:50px;
+    width:600px;
+    box-shadow:none;
+    z-index: 10;
+    background:transparent;
+    top:0;
+    right:0px;
+    border:none;
+    align-content:center;
+    align-items:center;
+
+   
+    
+    ul{
+      width:600px;
+      display:flex;
+      flex-direction:row;
+      justify-content:space-around;
+      a{
+        color:$main-orange;
+        font-family:$miriam;
+        font-size:33px;
+      }
+    }
+    
+	}
+	
 }
