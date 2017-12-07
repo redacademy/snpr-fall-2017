@@ -692,8 +692,6 @@ object {
 .page-template-proposed-park h2 {
   color: #bf6d0a;
   font-family: "Miriam Libre", sans-serif;
-  margin: 8px 0; 
-  font-family: "Miriam Libre";
   margin: 10px 0;
   line-height: 30px; }
 
@@ -820,7 +818,7 @@ object {
     color: #285817;
     background: url(../../sos_assets/about-us/mt-kobauproto.jpg) no-repeat center bottom;
     background-size: cover;
-    height: 70vh;
+    height: 75vh;
     width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -835,32 +833,98 @@ object {
         .page-template-about-us .custom-hero .post-13 .entry-header .entry-title {
           font-size: 28px;
           text-transform: uppercase; }
-        .page-template-about-us .custom-hero .post-13 .entry-header .entry-content p {
-          font-size: 12px; }
+      .page-template-about-us .custom-hero .post-13 .entry-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .page-template-about-us .custom-hero .post-13 .entry-content p {
+          font-size: 12px;
+          text-align: center;
+          max-width: 75%; }
     @media all and (min-width: 600px) {
       .page-template-about-us .custom-hero {
-        background: url(../../sos_assets/about-us/mt-kobau-quarter.jpg) no-repeat bottom -200px right 0;
+        background: url(../../sos_assets/about-us/mt-kobau-quarter.jpg) no-repeat bottom -100px right 0;
         background-size: cover;
-        height: 90vh; } }
+        max-height: 80vh; } }
+    @media all and (min-width: 1000px) {
+      .page-template-about-us .custom-hero {
+        background-position: bottom -350px right 0;
+        max-height: 90vh; } }
+  .page-template-about-us .about-us-page-navigation {
+    list-style-type: none;
+    display: none;
+    margin: 0;
+    padding: 20px 30px; }
+    @media all and (min-width: 600px) {
+      .page-template-about-us .about-us-page-navigation {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+        background-color: #eb8e26; }
+        .page-template-about-us .about-us-page-navigation li {
+          -ms-flex-preferred-size: 33%;
+              flex-basis: 33%;
+          text-transform: uppercase;
+          text-align: center;
+          margin: 20px 0;
+          font-size: 16px;
+          color: #fff; } }
+    @media all and (min-width: 600px) and (min-width: 1000px) {
+      .page-template-about-us .about-us-page-navigation li {
+        font-size: 20px; } }
+    @media all and (min-width: 600px) {
+          .page-template-about-us .about-us-page-navigation li a {
+            text-decoration: none;
+            color: #fff; } }
   .page-template-about-us .about-us-content-wrapper {
     list-style-type: none;
-    margin: 0;
-    padding: 0 40px;
+    margin: 20px 0;
+    padding: 0;
     font-size: 14px;
     line-height: 20px; }
-    .page-template-about-us .about-us-content-wrapper li .about-us-essay-hide {
-      height: 0;
-      overflow: hidden; }
+    @media all and (min-width: 600px) {
+      .page-template-about-us .about-us-content-wrapper {
+        margin-bottom: 0; } }
+    .page-template-about-us .about-us-content-wrapper .list-item-click {
+      border-top: 1px #eb8e26 solid;
+      border-bottom: 1px #eb8e26 solid;
+      border-left: 5px #eb8e26 solid; }
       @media all and (min-width: 600px) {
-        .page-template-about-us .about-us-content-wrapper li .about-us-essay-hide {
-          height: auto; } }
-    .page-template-about-us .about-us-content-wrapper li .about-us-essay-show {
-      height: auto; }
-    .page-template-about-us .about-us-content-wrapper li p {
-      font-family: "Source Sans Pro", sans-serif; }
+        .page-template-about-us .about-us-content-wrapper .list-item-click {
+          border-top: none;
+          border-left: none; } }
+    .page-template-about-us .about-us-content-wrapper li {
+      padding: 0 30px; }
+      @media all and (min-width: 600px) {
+        .page-template-about-us .about-us-content-wrapper li {
+          padding: 20px 0;
+          margin: 30px;
+          border-bottom: 1px #eb8e26 solid; }
+          .page-template-about-us .about-us-content-wrapper li:last-child {
+            margin-bottom: 0;
+            border: none; } }
+      .page-template-about-us .about-us-content-wrapper li .about-us-essay-hide {
+        height: 0;
+        overflow: hidden; }
+        @media all and (min-width: 600px) {
+          .page-template-about-us .about-us-content-wrapper li .about-us-essay-hide {
+            height: auto; } }
+      .page-template-about-us .about-us-content-wrapper li .about-us-essay-show {
+        height: auto; }
+      .page-template-about-us .about-us-content-wrapper li p {
+        font-family: "Source Sans Pro", sans-serif; }
     .page-template-about-us .about-us-content-wrapper h2 {
       font-size: 20px;
-      padding: 5px 0;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 15px 0;
       color: #bf6d0a; }
       .page-template-about-us .about-us-content-wrapper h2::before {
         font-family: FontAwesome;
@@ -885,20 +949,15 @@ object {
   text-transform: uppercase;
   text-align: center;
   color: #285817;
-  font-family: "Miriam Libre"; }
+  font-family: "Miriam Libre", sans-serif; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-<<<<<<< HEAD
-  height: 100vh;
-  font-family: "Miriam Libre", sans-serif; }
-=======
   height: 600px;
-  font-family: "Miriam Libre"; }
->>>>>>> ae161f8d806e7043ebf9cb3864eb7f991b464cd2
+  font-family: "Miriam Libre", sans-serif; }
   .front-page-hero h1 {
     color: #285817;
     font-family: "Miriam Libre", sans-serif;

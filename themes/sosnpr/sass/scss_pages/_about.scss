@@ -5,7 +5,7 @@
     color: $forest;
     background: url(../../sos_assets/about-us/mt-kobauproto.jpg) no-repeat center bottom;
     background-size: cover;
-    height: 70vh;
+    height: 75vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -19,26 +19,86 @@
           font-size: $font_size-heading1;
           text-transform: uppercase;
         }
-        .entry-content p{
-          font-size: $font_size-paragraph-secondary;
-        }
       }
+      .entry-content{
+                display: flex;
+          justify-content: center;
+          p{
+          font-size: $font_size-paragraph-secondary;
+          text-align: center;
+          max-width: 75%;
+        } 
+          
+        }  
     }
     @include tablet{
-      background: url(../../sos_assets/about-us/mt-kobau-quarter.jpg) no-repeat bottom -200px right 0;
+      background: url(../../sos_assets/about-us/mt-kobau-quarter.jpg) no-repeat bottom -100px right 0;
       // background-position: 0 
       background-size: cover;
-      height: 90vh;
+      max-height: 80vh;
+    }
+    @include desktop{
+      background-position: bottom -350px right 0;
+      max-height: 90vh;
+    }
+  }
+  .about-us-page-navigation{
+    list-style-type: none;
+    display: none;
+    margin: 0;
+    padding: 20px 30px;
+    @include tablet{
+      display: flex;
+      flex-flow: row wrap;
+      background-color: $main-orange;
+      li{
+        flex-basis: 33%;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 20px 0;
+        font-size: $font_size-heading3;
+        color: $color__background-body;
+        @include desktop{
+          font-size: $font_size-heading2;
+        }
+        a{
+          text-decoration: none;
+          color: $color__background-body;
+        }
+      }
     }
   }
   .about-us-content-wrapper{
     list-style-type: none;
-    margin: 0;
-    padding: 0 40px;
+    margin: 20px 0;
+    // padding: 0 40px;
+    padding: 0;
     font-size: $font_size-paragraph-main;
     line-height: $font__line-height-body;
-
+    @include tablet{
+      margin-bottom: 0;
+    }
+    .list-item-click{
+      border-top: 1px $main-orange solid;
+      border-bottom: 1px $main-orange solid;
+      border-left: 5px $main-orange solid;
+      @include tablet{
+        border-top: none;
+        border-left: none;
+      }
+    }
     li{
+      padding: 0 30px;
+      // margin: 20px 0;
+      @include tablet{
+        padding: 20px 0;
+        margin: 30px;
+        border-bottom: 1px $main-orange solid;
+        &:last-child{
+          margin-bottom: 0;
+          border: none;
+        }
+      }
       .about-us-essay-hide{
         height: 0;
         overflow: hidden;
@@ -53,10 +113,18 @@
         font-family: $source;
       }
     }
+    
     h2{
       font-size: $font_size-heading2;
-      padding: 5px 0;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 15px 0;
+      
+      // margin-left: 15px;
       color: $brown-orange;
+      @include tablet{
+        // padding-bottom: 0;
+      }
       &::before{
         font-family: FontAwesome;
         content: '\f105  ';
@@ -65,12 +133,15 @@
         }
       }
     }
-    .heading-click::before{
+    .heading-click{
+      
+      &::before{
         font-family: FontAwesome;
         content: '\f107  ';
         @include tablet{
           content: none;
         }
       }
+    }
   }
 }
