@@ -692,13 +692,17 @@ object {
 .page-template-proposed-park h2 {
   color: #bf6d0a;
   font-family: "Miriam Libre";
-  margin: 8px 0; }
+  margin: 10px 0;
+  line-height: 30px; }
 
 .page-template-proposed-park .text {
   height: 0;
   overflow: hidden;
   font-family: "Source Sans Pro";
   padding-right: 10px; }
+  @media all and (min-width: 1000px) {
+    .page-template-proposed-park .text {
+      height: auto; } }
 
 .page-template-proposed-park .menu-item {
   cursor: pointer;
@@ -717,6 +721,10 @@ object {
 
 .page-template-proposed-park .down {
   display: none; }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .right {
+    display: none; } }
 
 .page-template-proposed-park .see {
   display: inline; }
