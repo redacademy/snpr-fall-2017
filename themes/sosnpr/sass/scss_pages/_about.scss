@@ -1,6 +1,8 @@
 //Custom styling for About Us page
 .page-template-about-us{
+  font-family: $miriam;
   .custom-hero{
+    color: $forest;
     background: url(../../sos_assets/about-us/mt-kobauproto.jpg) no-repeat center bottom;
     background-size: cover;
     height: 70vh;
@@ -13,39 +15,62 @@
       // color: 
       .entry-header{
         text-align: center;
+        .entry-title{
+          font-size: $font_size-heading1;
+          text-transform: uppercase;
+        }
+        .entry-content p{
+          font-size: $font_size-paragraph-secondary;
+        }
       }
+    }
+    @include tablet{
+      background: url(../../sos_assets/about-us/mt-kobau-quarter.jpg) no-repeat bottom -200px right 0;
+      // background-position: 0 
+      background-size: cover;
+      height: 90vh;
     }
   }
   .about-us-content-wrapper{
     list-style-type: none;
     margin: 0;
     padding: 0 40px;
-    font-size: $font_size-paragraph;
+    font-size: $font_size-paragraph-main;
     line-height: $font__line-height-body;
 
     li{
       .about-us-essay-hide{
         height: 0;
         overflow: hidden;
-
+        @include tablet{
+          height: auto;
+        }
       }
       .about-us-essay-show{
-
         height: auto;
-
+      }
+      p{
+        font-family: $source;
       }
     }
     h2{
-      font-size: $font_size-heading;
+      font-size: $font_size-heading2;
       padding: 5px 0;
+      color: $brown-orange;
       &::before{
         font-family: FontAwesome;
         content: '\f105  ';
+        @include tablet{
+          content: none;
+        }
       }
     }
     .heading-click::before{
         font-family: FontAwesome;
         content: '\f107  ';
+        @include tablet{
+          content: none;
+        }
       }
   }
 }
