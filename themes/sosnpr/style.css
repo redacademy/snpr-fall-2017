@@ -971,6 +971,28 @@ object {
   text-transform: uppercase;
   color: #bf6d0a; }
 
+<<<<<<< HEAD
+=======
+.blog .owl-item {
+  height: 320px; }
+
+.blog .carousel-cell {
+  padding: 10px; }
+  .blog .carousel-cell img {
+    height: 320px; }
+
+.blog .entry-header {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  position: absolute;
+  bottom: 30px;
+  padding: 10px;
+  font-size: 12px; }
+  .blog .entry-header a {
+    color: white;
+    text-decoration: none; }
+
+>>>>>>> 81ba9f71212afa360b300f81b866c739466a5b80
 .page-template-proposed-park .entry-title {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
