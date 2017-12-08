@@ -6,10 +6,15 @@
     width: 100vw;
   }
   
-  .entry-header, .entry-title{
-    text-transform: uppercase;
-    text-align: center;
-    color: $forest;
-    font-family: $miriam;
+  .post-17{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        .entry-title{
+        text-transform: uppercase;
+        text-align: center;
+        color: $forest;
+        font-family: $miriam;
+    }
   }
 }
