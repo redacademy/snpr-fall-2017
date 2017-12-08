@@ -86,12 +86,22 @@ function red_starter_scripts() {
 	wp_enqueue_style('sosnpr-font-awesome','https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
-	
+
+	wp_enqueue_style( 'owl-carousel-style', 'https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css' );
+
 	wp_enqueue_script('jquery');
+
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
+
 	wp_enqueue_script( 'searchbar-toggle', get_template_directory_uri() . '/build/js/searchbar-toggle.min.js', array(), '20130115', true );
+
 	wp_enqueue_script( 'about-us-toggle', get_template_directory_uri() . '/build/js/about-us-toggle.min.js', array(),null, true );
-	wp_enqueue_script( 'menu-toggle', get_template_directory_uri() . '/build/js/menu-toggle.min.js', array(), '20130115', true );
+
+	wp_enqueue_script('owl-carousel', 'https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js', array('jquery'), false, true );
+
+	
+	wp_enqueue_script( 'menu-toggle', get_template_directory_uri() . '/build/js/menu-toggle.min.js', array('jquery', 'owl-carousel'), false, true );
+
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -109,11 +119,4 @@ require get_template_directory() . '/inc/template-tags.php';
  */
 require get_template_directory() . '/inc/extras.php';
 
-function wpgood_nav_search($items, $args) {
-	// If this isn't the primary menu, do nothing
-	if( !($args->theme_location == 'primary') ) 
-	return $items;
-	// Otherwise, add search form
-	return $items . '<li>' . get_search_form(false) . '</li>';
-}
-add_filter('wp_nav_menu_items', 'wpgood_nav_search', 10, 2);
+

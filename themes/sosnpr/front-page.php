@@ -13,29 +13,53 @@ get_header(); ?>
   <h1> <span class="bold-title-span">South Okanagan SimilKameen</span> <span>National Park</span></h1>
   <h2 class="front-page-blurb">A place where biodiversity is preserved for future generations to enjoy<h2>
   <button class="learn-more-button">Learn More</button>
-  </div>
-		<?php if ( have_posts() ) : ?>
+	</div>
+	<h1 class="recent-updates-header">Recent Updates</h1>
+  <div class="owl-carousel">
+		<?php query_posts(array(
+'category__not_in' => array(),
+'paged' => $paged,
+'posts_per_page' => 3,
+)); if ( have_posts() ) : ?>
 
-			<?php if ( is_home() && ! is_front_page() ) : ?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-			<?php endif; ?>
+
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'template-parts/content' ); ?>
+			<div class="carousel-cell">
+	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+		<header class="entry-header">
+			<?php if ( has_post_thumbnail() ) : ?>
+				<?php the_post_thumbnail( 'large' ); ?>
+			<?php endif; ?>
+
+			<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+
+			<?php if ( 'post' === get_post_type() ) : ?>
+			<div class="entry-meta">
+				<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php red_starter_posted_by(); ?>
+			</div><!-- .entry-meta -->
+				<?php endif; ?>
+			</header><!-- .entry-header -->
+		</article><!-- #post-## -->
+</div>
 
 			<?php endwhile; ?>
 
-			<?php the_posts_navigation(); ?>
+		
+</div><!-- owl-carousel -->
+
+<?php the_posts_navigation(); ?>
 
 		<?php else : ?>
 
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
+
+
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
