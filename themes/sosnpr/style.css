@@ -320,7 +320,8 @@ ul, ol {
   margin: 0 0 1.5rem 3rem; }
 
 ul {
-  list-style: disc; }
+  list-style: none;
+  margin: auto; }
 
 ol {
   list-style: decimal; }
@@ -743,7 +744,7 @@ object {
 .page-template-about-us {
   font-family: "Miriam Libre", sans-serif; }
   .page-template-about-us .custom-hero {
-    color: #285817;
+    color: #5B7914;
     background: url(../../sos_assets/about-us/mt-kobauproto.jpg) no-repeat center bottom;
     background-size: cover;
     height: 75vh;
@@ -908,25 +909,90 @@ object {
               order: -1; }
 
 .page-template-resources .resources-hero {
-  background: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg);
+  background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
   background-size: cover;
   height: 100vh;
-  width: 100vw; }
-
-.page-template-resources .post-17 {
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center; }
-  .page-template-resources .post-17 .entry-title {
-    text-transform: uppercase;
-    text-align: center;
-    color: #285817;
-    font-family: "Miriam Libre", sans-serif; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .resources-hero {
+      background-size: cover;
+      background-repeat: none;
+      background-position: 0% 60%;
+      height: 65vh;
+      width: 100vw;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+
+.page-template-resources .post-17 .entry-header {
+  color: #5B7914;
+  font-family: "Miriam Libre", sans-serif;
+  text-transform: uppercase;
+  text-align: center; }
+
+.page-template-resources .post-17 .entry-content {
+  padding-bottom: 15rem; }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .post-17 .entry-content {
+      padding-bottom: 20rem; } }
+
+.page-template-resources .post-17 p {
+  text-align: center; }
+
+.page-template-resources h2 {
+  color: #eb8e26;
+  font-family: "Miriam Libre", sans-serif; }
+
+.page-template-resources a {
+  color: #0096ff;
+  text-decoration: underline;
+  font-weight: 300; }
+
+.page-template-resources p {
+  font-weight: 300; }
+
+.page-template-resources ul li:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-resources ul li:nth-child(2) h2 {
+    width: 100vw; }
+
+.page-template-resources ul li:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-resources ul li:nth-child(3) h2 {
+    width: 100vw; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
@@ -937,7 +1003,7 @@ object {
   font-family: "Miriam Libre", sans-serif;
   padding-top: 50px; }
   .front-page-hero h1 {
-    color: #285817;
+    color: #5B7914;
     font-family: "Miriam Libre", sans-serif;
     text-align: center;
     font-size: 28px;
@@ -950,7 +1016,7 @@ object {
     font-size: 12px;
     font-weight: 100;
     padding-bottom: 15px;
-    color: #285817; }
+    color: #5B7914; }
   .front-page-hero .learn-more-button {
     border: none;
     border-radius: 1px;
@@ -971,8 +1037,6 @@ object {
   text-transform: uppercase;
   color: #bf6d0a; }
 
-<<<<<<< HEAD
-=======
 .blog .owl-item {
   height: 320px; }
 
@@ -992,9 +1056,8 @@ object {
     color: white;
     text-decoration: none; }
 
->>>>>>> 81ba9f71212afa360b300f81b866c739466a5b80
 .page-template-proposed-park .entry-title {
-  color: #285817;
+  color: #5B7914;
   font-family: "Miriam Libre", sans-serif;
   font-size: 28px;
   text-align: center;
@@ -1008,7 +1071,7 @@ object {
       -ms-flex-pack: center;
           justify-content: center; }
   .page-template-proposed-park .entry-content p {
-    color: #285817;
+    color: #5B7914;
     font-family: "Miriam Libre", sans-serif;
     font-size: 12px;
     max-width: 75%;
@@ -1277,25 +1340,90 @@ object {
           flex-basis: 50%; } }
 
 .page-template-resources .resources-hero {
-  background: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg);
+  background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
   background-size: cover;
   height: 100vh;
-  width: 100vw; }
-
-.page-template-resources .post-17 {
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center; }
-  .page-template-resources .post-17 .entry-title {
-    text-transform: uppercase;
-    text-align: center;
-    color: #285817;
-    font-family: "Miriam Libre", sans-serif; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .resources-hero {
+      background-size: cover;
+      background-repeat: none;
+      background-position: 0% 60%;
+      height: 65vh;
+      width: 100vw;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+
+.page-template-resources .post-17 .entry-header {
+  color: #5B7914;
+  font-family: "Miriam Libre", sans-serif;
+  text-transform: uppercase;
+  text-align: center; }
+
+.page-template-resources .post-17 .entry-content {
+  padding-bottom: 15rem; }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .post-17 .entry-content {
+      padding-bottom: 20rem; } }
+
+.page-template-resources .post-17 p {
+  text-align: center; }
+
+.page-template-resources h2 {
+  color: #eb8e26;
+  font-family: "Miriam Libre", sans-serif; }
+
+.page-template-resources a {
+  color: #0096ff;
+  text-decoration: underline;
+  font-weight: 300; }
+
+.page-template-resources p {
+  font-weight: 300; }
+
+.page-template-resources ul li:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-resources ul li:nth-child(2) h2 {
+    width: 100vw; }
+
+.page-template-resources ul li:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-resources ul li:nth-child(3) h2 {
+    width: 100vw; }
 
 .search-field {
   width: 0px;
@@ -1390,7 +1518,7 @@ object {
         line-height: 3.5;
         font-family: "Miriam Libre", sans-serif; }
         .menu1 .menu-menu-1-container ul li a {
-          color: #285817; }
+          color: #5B7914; }
       .menu1 .menu-menu-1-container ul .menu-item-77 {
         background: #eb8e26; }
         .menu1 .menu-menu-1-container ul .menu-item-77 a {
