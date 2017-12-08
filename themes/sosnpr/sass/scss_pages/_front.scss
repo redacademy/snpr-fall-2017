@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
  
   background-position: bottom center;
-  height:600px;
+  height:510px;
   font-family:$miriam;
   padding-top:50px;
   
@@ -18,14 +18,15 @@
     .bold-title-span{
       
     }
-    padding:15px;
+    padding-top:15px;
     line-height:1;
   }
   h2{
     text-align:center;
     font-size:12px;
     font-weight:100;
-    padding:15px;
+    padding-bottom:15px;
+    color:$forest;
   }
   .learn-more-button{
     border:none;
@@ -46,6 +47,8 @@
 .recent-updates-header{
   text-align:center;
   font-family:$miriam;
+  text-transform:uppercase;
+  color:$brown-orange
 }
 
 

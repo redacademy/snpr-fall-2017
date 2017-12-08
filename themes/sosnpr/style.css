@@ -956,7 +956,7 @@ object {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  height: 600px;
+  height: 510px;
   font-family: "Miriam Libre", sans-serif;
   padding-top: 50px; }
   .front-page-hero h1 {
@@ -966,13 +966,14 @@ object {
     font-size: 28px;
     text-transform: uppercase;
     display: block;
-    padding: 15px;
+    padding-top: 15px;
     line-height: 1; }
   .front-page-hero h2 {
     text-align: center;
     font-size: 12px;
     font-weight: 100;
-    padding: 15px; }
+    padding-bottom: 15px;
+    color: #285817; }
   .front-page-hero .learn-more-button {
     border: none;
     border-radius: 1px;
@@ -986,6 +987,12 @@ object {
     padding: 15px;
     font-weight: 100;
     font-family: "Miriam Libre", sans-serif; }
+
+.recent-updates-header {
+  text-align: center;
+  font-family: "Miriam Libre", sans-serif;
+  text-transform: uppercase;
+  color: #bf6d0a; }
 
 .search-field {
   width: 0px;
@@ -1047,7 +1054,6 @@ object {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  position: fixed;
   top: 0px;
   z-index: 1000; }
 
