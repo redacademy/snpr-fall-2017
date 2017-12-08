@@ -33,15 +33,22 @@
   //  })
 
 
-
+  // displaying on click for proposed parks
    $('.menu-item').on('click', function(){
     $(this).find('.text').toggleClass('show');
     $(this).toggleClass('border');
     
     $(this).find('.down').toggleClass('see');
     $(this).find('.right').toggleClass('hide');
-    
-    
   })
+
+ //smooth scroll
+  $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 2000);
+  });
   
   })(jQuery);

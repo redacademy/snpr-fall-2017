@@ -1030,6 +1030,9 @@ object {
     padding: 15px;
     font-weight: 100;
     font-family: "Miriam Libre", sans-serif; }
+    .front-page-hero .learn-more-button a {
+      color: white;
+      text-decoration: none; }
 
 .recent-updates-header {
   text-align: center;
@@ -1040,8 +1043,16 @@ object {
 .blog .owl-item {
   height: 320px; }
 
+<<<<<<< HEAD
+.recent-updates-header {
+  text-align: center;
+  font-family: "Miriam Libre", sans-serif; }
+
+=======
 .blog .carousel-cell {
-  padding: 10px; }
+  padding: 10px;
+  height: 320px;
+  overflow: hidden; }
   .blog .carousel-cell img {
     height: 320px; }
 
@@ -1056,12 +1067,23 @@ object {
     color: white;
     text-decoration: none; }
 
+<<<<<<< HEAD
+=======
+>>>>>>> 81ba9f71212afa360b300f81b866c739466a5b80
+>>>>>>> fc33d120f207414d223dfc94c3aa6d129b2820cb
+>>>>>>> f741a4d89f00ef102891c60050a5c435c3e83853
 .page-template-proposed-park .entry-title {
   color: #5B7914;
   font-family: "Miriam Libre", sans-serif;
   font-size: 28px;
   text-align: center;
-  padding-top: 60px; }
+  padding-top: 60px;
+  text-transform: uppercase;
+  color: #36730a; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .entry-title {
+      padding-top: 90px;
+      font-size: 54px; } }
 
 .page-template-proposed-park .entry-content {
   display: -webkit-box;
@@ -1075,7 +1097,53 @@ object {
     font-family: "Miriam Libre", sans-serif;
     font-size: 12px;
     max-width: 75%;
-    text-align: center; }
+    text-align: center;
+    color: #36730a; }
+    @media all and (min-width: 600px) {
+      .page-template-proposed-park .entry-content p {
+        font-size: 18px; } }
+
+.page-template-proposed-park .proposed-banner {
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .proposed-banner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      min-height: 180px;
+      background: #bf6d0a; }
+      .page-template-proposed-park .proposed-banner .banner-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+        margin: 3% 0;
+        padding: 0; }
+        .page-template-proposed-park .proposed-banner .banner-list li {
+          padding: 14px 0;
+          list-style: none;
+          text-transform: uppercase;
+          font-family: "Miriam Libre", sans-serif;
+          min-width: -webkit-max-content;
+          min-width: -moz-max-content;
+          min-width: max-content; } }
+      @media all and (min-width: 600px) and (min-width: 600px) {
+        .page-template-proposed-park .proposed-banner .banner-list li {
+          font-size: 18px; } }
+      @media all and (min-width: 600px) and (min-width: 1000px) {
+        .page-template-proposed-park .proposed-banner .banner-list li {
+          font-size: 25px; } }
+  @media all and (min-width: 600px) {
+        .page-template-proposed-park .proposed-banner .banner-list a {
+          color: #fff;
+          text-decoration: none;
+          text-transform: uppercase; } }
 
 .page-template-proposed-park .proposed-container .image {
   display: none; }
@@ -1104,7 +1172,7 @@ object {
   overflow: hidden;
   font-family: "Source Sans Pro", sans-serif;
   padding-right: 10px; }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 600px) {
     .page-template-proposed-park .text {
       height: auto; }
       .page-template-proposed-park .text p {
@@ -1115,7 +1183,7 @@ object {
 .page-template-proposed-park .menu-item {
   cursor: pointer;
   padding-left: 25px; }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 600px) {
     .page-template-proposed-park .menu-item {
       border-bottom: 1px solid #bf6d0a;
       margin-left: 5%;
@@ -1134,11 +1202,17 @@ object {
   background-position: bottom center;
   height: 85vh;
   font-family: "Miriam Libre", sans-serif; }
+<<<<<<< HEAD
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .proposed-hero {
+      background-image: url(../../sos_assets/proposed-park/proposed-hero.jpg); } }
+=======
+>>>>>>> fc33d120f207414d223dfc94c3aa6d129b2820cb
 
 .page-template-proposed-park .down {
   display: none; }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 600px) {
   .page-template-proposed-park .right {
     display: none; } }
 
@@ -1214,23 +1288,61 @@ object {
         flex-wrap: wrap;
     padding-bottom: 30px; }
     .page-template-proposed-park .three .content-container .content-container-one {
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%;
-      padding-bottom: 25px; }
+      -ms-flex-preferred-size: 42%;
+          flex-basis: 42%;
+      padding-bottom: 25px; } }
+    @media all and (min-width: 1000px) and (min-width: 1100px) {
+      .page-template-proposed-park .three .content-container .content-container-one {
+        -ms-flex-preferred-size: 45%;
+            flex-basis: 45%; } }
+    @media all and (min-width: 1000px) and (min-width: 1200px) {
+      .page-template-proposed-park .three .content-container .content-container-one {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
       .page-template-proposed-park .three .content-container .content-container-one .text:nth-child(2) {
         text-align: right;
         font-weight: bold; }
     .page-template-proposed-park .three .content-container .content-container-two {
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%;
-      padding-left: 5%; }
-    .page-template-proposed-park .three .content-container .content-container-three {
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%; }
-    .page-template-proposed-park .three .content-container .content-container-four {
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%;
+      -ms-flex-preferred-size: 42%;
+          flex-basis: 42%;
       padding-left: 5%; } }
+    @media all and (min-width: 1000px) and (min-width: 1100px) {
+      .page-template-proposed-park .three .content-container .content-container-two {
+        -ms-flex-preferred-size: 45%;
+            flex-basis: 45%; } }
+    @media all and (min-width: 1000px) and (min-width: 1200px) {
+      .page-template-proposed-park .three .content-container .content-container-two {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+    .page-template-proposed-park .three .content-container .content-container-three {
+      -ms-flex-preferred-size: 42%;
+          flex-basis: 42%; } }
+    @media all and (min-width: 1000px) and (min-width: 1100px) {
+      .page-template-proposed-park .three .content-container .content-container-three {
+        -ms-flex-preferred-size: 45%;
+            flex-basis: 45%; } }
+    @media all and (min-width: 1000px) and (min-width: 1200px) {
+      .page-template-proposed-park .three .content-container .content-container-three {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+    .page-template-proposed-park .three .content-container .content-container-four {
+      -ms-flex-preferred-size: 42%;
+          flex-basis: 42%;
+      padding-left: 5%; } }
+    @media all and (min-width: 1000px) and (min-width: 1100px) {
+      .page-template-proposed-park .three .content-container .content-container-four {
+        -ms-flex-preferred-size: 45%;
+            flex-basis: 45%; } }
+    @media all and (min-width: 1000px) and (min-width: 1200px) {
+      .page-template-proposed-park .three .content-container .content-container-four {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
 
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .four .content-container {
@@ -1257,7 +1369,8 @@ object {
           flex-basis: 50%; }
     .page-template-proposed-park .five .content-container .text {
       -ms-flex-preferred-size: 50%;
-          flex-basis: 50%; } }
+          flex-basis: 50%;
+      padding-left: 2%; } }
 
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .six .content-container {
@@ -1284,7 +1397,8 @@ object {
           flex-basis: 50%; }
     .page-template-proposed-park .seven .content-container .text {
       -ms-flex-preferred-size: 50%;
-          flex-basis: 50%; } }
+          flex-basis: 50%;
+      padding-left: 2%; } }
 
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .eight .content-container {
@@ -1309,6 +1423,9 @@ object {
     .page-template-proposed-park .nine .content-container-one .image {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
+      .page-template-proposed-park .nine .content-container-one .image img {
+        -ms-flex-item-align: end;
+            align-self: flex-end; }
     .page-template-proposed-park .nine .content-container-one .text {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
@@ -1322,7 +1439,8 @@ object {
           flex-basis: 50%; }
     .page-template-proposed-park .nine .content-container-two .text {
       -ms-flex-preferred-size: 50%;
-          flex-basis: 50%; }
+          flex-basis: 50%;
+      padding-left: 2%; }
   .page-template-proposed-park .nine .content-container-three {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1442,8 +1560,7 @@ object {
   border: none;
   font-family: "Miriam Libre", sans-serif;
   position: relative;
-  top: 10px;
-  float: right;
+  top: 5px;
   width: 0;
   padding: 0;
   margin: 0; }
@@ -1458,7 +1575,7 @@ object {
           box-shadow: none;
   height: 50px;
   width: 50px;
-  color: #eb8e26; }
+  color: #bf6d0a; }
 
 .search-open,
 .no-js .search {
@@ -1469,6 +1586,9 @@ object {
 
 .search-bar-white {
   background-color: white; }
+
+.icon-search .fa {
+  font-size: 28px; }
 
 .main-navigation {
   display: -webkit-box;
@@ -1486,7 +1606,8 @@ object {
           align-items: center;
   width: 100%;
   top: 0px;
-  z-index: 1000; }
+  z-index: 1000;
+  padding-right: 20px; }
 
 .menu1 {
   position: absolute;
@@ -1529,9 +1650,7 @@ object {
 
 .header-logo {
   height: 50px;
-  width: 50px;
-  margin-left: 10px;
-  margin-top: 10px; }
+  width: 50px; }
 
 .menu-non-logo {
   display: -webkit-box;
@@ -1548,7 +1667,8 @@ object {
   background-image: url(../../sos_assets/ui-icons/hamburger-icon-rugged-orange.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 10px; }
+  padding: 10px;
+  background-position: center; }
 
 @media screen and (min-width: 600px) {
   .menu1 {
