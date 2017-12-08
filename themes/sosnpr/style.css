@@ -668,78 +668,6 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.page-template-proposed-park .entry-title {
-  color: #285817;
-  font-family: "Miriam Libre";
-  font-size: 28px;
-  text-align: center;
-  padding-top: 60px; }
-
-.page-template-proposed-park .entry-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .page-template-proposed-park .entry-content p {
-    color: #285817;
-    font-family: "Miriam Libre";
-    font-size: 12px;
-    max-width: 75%;
-    text-align: center; }
-
-.page-template-proposed-park h2 {
-  color: #bf6d0a;
-  font-family: "Miriam Libre";
-  margin: 10px 0;
-  line-height: 30px; }
-
-.page-template-proposed-park .text {
-  height: 0;
-  overflow: hidden;
-  font-family: "Source Sans Pro";
-  padding-right: 10px; }
-  @media all and (min-width: 1000px) {
-    .page-template-proposed-park .text {
-      height: auto; } }
-
-.page-template-proposed-park .menu-item {
-  cursor: pointer;
-  padding-left: 25px; }
-
-.page-template-proposed-park .show {
-  height: auto; }
-
-.page-template-proposed-park .proposed-hero {
-  background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  height: 85vh;
-  font-family: "Miriam Libre"; }
-
-.page-template-proposed-park .down {
-  display: none; }
-
-@media all and (min-width: 1000px) {
-  .page-template-proposed-park .right {
-    display: none; } }
-
-.page-template-proposed-park .see {
-  display: inline; }
-
-.page-template-proposed-park .hide {
-  display: none; }
-
-.page-template-proposed-park i {
-  padding-right: 10px; }
-
-.page-template-proposed-park .border {
-  border-top: 1px solid #CC8005;
-  border-left: 4px solid #CC8005;
-  border-bottom: 1px solid #CC8005; }
-
 #secondary, .widget_area {
   height: 540px;
   width: 100vw;
@@ -895,6 +823,289 @@ object {
     padding: 15px;
     font-weight: 100;
     font-family: "Miriam Libre"; }
+
+.page-template-proposed-park .entry-title {
+  color: #285817;
+  font-family: "Miriam Libre";
+  font-size: 28px;
+  text-align: center;
+  padding-top: 60px; }
+
+.page-template-proposed-park .entry-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-proposed-park .entry-content p {
+    color: #285817;
+    font-family: "Miriam Libre";
+    font-size: 12px;
+    max-width: 75%;
+    text-align: center; }
+
+.page-template-proposed-park .proposed-container .image {
+  display: none; }
+  @media all and (min-width: 1000px) {
+    .page-template-proposed-park .proposed-container .image {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+
+.page-template-proposed-park h2 {
+  color: #bf6d0a;
+  font-family: "Miriam Libre";
+  margin: 10px 0;
+  line-height: 30px; }
+  @media all and (min-width: 1000px) {
+    .page-template-proposed-park h2 {
+      padding-bottom: 20px;
+      padding-top: 20px; } }
+
+.page-template-proposed-park .text {
+  height: 0;
+  overflow: hidden;
+  font-family: "Source Sans Pro";
+  padding-right: 10px; }
+  @media all and (min-width: 1000px) {
+    .page-template-proposed-park .text {
+      height: auto; }
+      .page-template-proposed-park .text p {
+        font-size: 14px;
+        margin-bottom: 8px;
+        margin-top: 0; } }
+
+.page-template-proposed-park .menu-item {
+  cursor: pointer;
+  padding-left: 25px; }
+  @media all and (min-width: 1000px) {
+    .page-template-proposed-park .menu-item {
+      border-bottom: 1px solid #bf6d0a;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding-bottom: 50px;
+      padding-left: 0;
+      cursor: unset; } }
+
+.page-template-proposed-park .show {
+  height: auto; }
+
+.page-template-proposed-park .proposed-hero {
+  background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 85vh;
+  font-family: "Miriam Libre"; }
+
+.page-template-proposed-park .down {
+  display: none; }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .right {
+    display: none; } }
+
+.page-template-proposed-park .see {
+  display: inline; }
+
+.page-template-proposed-park .hide {
+  display: none; }
+
+.page-template-proposed-park i {
+  padding-right: 10px; }
+
+.page-template-proposed-park .border {
+  border-top: 1px solid #CC8005;
+  border-left: 4px solid #CC8005;
+  border-bottom: 1px solid #CC8005; }
+
+.page-template-proposed-park .image img {
+  max-width: -webkit-min-content;
+  max-width: -moz-min-content;
+  max-width: min-content; }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .page-template-proposed-park .one h2 {
+      padding-bottom: 20px; }
+    .page-template-proposed-park .one .content-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .page-template-proposed-park .one .content-container .text {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; }
+      .page-template-proposed-park .one .content-container .image {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; }
+        .page-template-proposed-park .one .content-container .image img {
+          min-height: 330px;
+          -ms-flex-item-align: end;
+              align-self: flex-end; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .two h2 {
+    padding-bottom: 20px; }
+  .page-template-proposed-park .two .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 25px; }
+    .page-template-proposed-park .two .content-container .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .two .content-container .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      padding-right: 5%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .three h2 {
+    padding-bottom: 20px; }
+  .page-template-proposed-park .three .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 30px; }
+    .page-template-proposed-park .three .content-container .content-container-one {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      padding-bottom: 25px; }
+      .page-template-proposed-park .three .content-container .content-container-one .text:nth-child(2) {
+        text-align: right;
+        font-weight: bold; }
+    .page-template-proposed-park .three .content-container .content-container-two {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      padding-left: 5%; }
+    .page-template-proposed-park .three .content-container .content-container-three {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .three .content-container .content-container-four {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      padding-left: 5%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .four .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .page-template-proposed-park .four .content-container .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .four .content-container .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+      .page-template-proposed-park .four .content-container .image img {
+        -ms-flex-item-align: end;
+            align-self: flex-end; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .five .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .page-template-proposed-park .five .content-container .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .five .content-container .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .six .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .page-template-proposed-park .six .content-container .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+      .page-template-proposed-park .six .content-container .image img {
+        -ms-flex-item-align: end;
+            align-self: flex-end; }
+    .page-template-proposed-park .six .content-container .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .seven .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .page-template-proposed-park .seven .content-container .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .seven .content-container .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .eight .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .page-template-proposed-park .eight .content-container .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .eight .content-container .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .nine p {
+    margin: 0; }
+  .page-template-proposed-park .nine .content-container-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 15px; }
+    .page-template-proposed-park .nine .content-container-one .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .nine .content-container-one .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+  .page-template-proposed-park .nine .content-container-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 20px; }
+    .page-template-proposed-park .nine .content-container-two .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .nine .content-container-two .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+  .page-template-proposed-park .nine .content-container-three {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .page-template-proposed-park .nine .content-container-three .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+      .page-template-proposed-park .nine .content-container-three .image img {
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+        height: 100%;
+        width: 100%; }
+    .page-template-proposed-park .nine .content-container-three .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
 
 .search-field {
   width: 0px;

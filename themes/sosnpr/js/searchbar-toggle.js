@@ -22,14 +22,26 @@
 
 
 
+  //  $('.menu-item').on('click', function(){
+  //    $(this).children().toggleClass('show');
+  //    $(this).toggleClass('border');
+     
+  //    $(this).find('.down').toggleClass('see');
+  //    $(this).find('.right').toggleClass('hide');
+     
+     
+  //  })
+
+
+
    $('.menu-item').on('click', function(){
-     $(this).children().toggleClass('show');
-     $(this).toggleClass('border');
-     
-     $(this).find('.down').toggleClass('see');
-     $(this).find('.right').toggleClass('hide');
-     
-     
-   })
+    $(this).find('.text').toggleClass('show');
+    $(this).toggleClass('border');
+    
+    $(this).find('.down').toggleClass('see');
+    $(this).find('.right').toggleClass('hide');
+    
+    
+  })
   
   })(jQuery);
