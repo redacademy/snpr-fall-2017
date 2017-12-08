@@ -51,5 +51,31 @@
   color:$brown-orange
 }
 
+.blog{
+  .owl-item{
+    height:320px;
+  }
+  .carousel-cell{
+    padding:10px;
+    img{
+      height:320px;
+    }
+  }
 
+  
+  .entry-header{
+    color:white;
+    font-family:$source;
+    position:absolute;
+    bottom:30px;
+    padding:10px;
+    font-size:12px;
+    a{
+      color:white;
+      text-decoration:none;
+    }
+  }
+  
+
+}
 

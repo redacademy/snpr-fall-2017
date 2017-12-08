@@ -668,78 +668,6 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.page-template-proposed-park .entry-title {
-  color: #285817;
-  font-family: "Miriam Libre", sans-serif;
-  font-size: 28px;
-  text-align: center;
-  padding-top: 60px; }
-
-.page-template-proposed-park .entry-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .page-template-proposed-park .entry-content p {
-    color: #285817;
-    font-family: "Miriam Libre", sans-serif;
-    font-size: 12px;
-    max-width: 75%;
-    text-align: center; }
-
-.page-template-proposed-park h2 {
-  color: #bf6d0a;
-  font-family: "Miriam Libre", sans-serif;
-  margin: 10px 0;
-  line-height: 30px; }
-
-.page-template-proposed-park .text {
-  height: 0;
-  overflow: hidden;
-  font-family: "Source Sans Pro", sans-serif;
-  padding-right: 10px; }
-  @media all and (min-width: 1000px) {
-    .page-template-proposed-park .text {
-      height: auto; } }
-
-.page-template-proposed-park .menu-item {
-  cursor: pointer;
-  padding-left: 25px; }
-
-.page-template-proposed-park .show {
-  height: auto; }
-
-.page-template-proposed-park .proposed-hero {
-  background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  height: 85vh;
-  font-family: "Miriam Libre", sans-serif; }
-
-.page-template-proposed-park .down {
-  display: none; }
-
-@media all and (min-width: 1000px) {
-  .page-template-proposed-park .right {
-    display: none; } }
-
-.page-template-proposed-park .see {
-  display: inline; }
-
-.page-template-proposed-park .hide {
-  display: none; }
-
-.page-template-proposed-park i {
-  padding-right: 10px; }
-
-.page-template-proposed-park .border {
-  border-top: 1px solid #CC8005;
-  border-left: 4px solid #CC8005;
-  border-bottom: 1px solid #CC8005; }
-
 #secondary, .widget_area {
   height: 540px;
   width: 100vw;
@@ -1033,9 +961,29 @@ object {
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
   color: #bf6d0a; }
+
+.blog .owl-item {
+  height: 320px; }
+
+.blog .carousel-cell {
+  padding: 10px; }
+  .blog .carousel-cell img {
+    height: 320px; }
+
+.blog .entry-header {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  position: absolute;
+  bottom: 30px;
+  padding: 10px;
+  font-size: 12px; }
+  .blog .entry-header a {
+    color: white;
+    text-decoration: none; }
+
 .page-template-proposed-park .entry-title {
   color: #285817;
-  font-family: "Miriam Libre";
+  font-family: "Miriam Libre", sans-serif;
   font-size: 28px;
   text-align: center;
   padding-top: 60px; }
@@ -1049,7 +997,7 @@ object {
           justify-content: center; }
   .page-template-proposed-park .entry-content p {
     color: #285817;
-    font-family: "Miriam Libre";
+    font-family: "Miriam Libre", sans-serif;
     font-size: 12px;
     max-width: 75%;
     text-align: center; }
@@ -1068,7 +1016,7 @@ object {
 
 .page-template-proposed-park h2 {
   color: #bf6d0a;
-  font-family: "Miriam Libre";
+  font-family: "Miriam Libre", sans-serif;
   margin: 10px 0;
   line-height: 30px; }
   @media all and (min-width: 1000px) {
@@ -1079,7 +1027,7 @@ object {
 .page-template-proposed-park .text {
   height: 0;
   overflow: hidden;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
   padding-right: 10px; }
   @media all and (min-width: 1000px) {
     .page-template-proposed-park .text {
@@ -1110,7 +1058,7 @@ object {
   background-repeat: no-repeat;
   background-position: bottom center;
   height: 85vh;
-  font-family: "Miriam Libre"; }
+  font-family: "Miriam Libre", sans-serif; }
 
 .page-template-proposed-park .down {
   display: none; }
