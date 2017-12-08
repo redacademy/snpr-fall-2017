@@ -900,6 +900,10 @@ object {
         .page-template-about-us .about-us-content-wrapper .list-item-click {
           border-top: none;
           border-left: none; } }
+    .page-template-about-us .about-us-content-wrapper .section-two .essay-content .image-wrapper, .page-template-about-us .about-us-content-wrapper .section-four .essay-content .image-wrapper {
+      -webkit-box-ordinal-group: 0;
+          -ms-flex-order: -1;
+              order: -1; }
     .page-template-about-us .about-us-content-wrapper li {
       padding: 0 30px; }
       @media all and (min-width: 600px) {
@@ -910,12 +914,37 @@ object {
           .page-template-about-us .about-us-content-wrapper li:last-child {
             margin-bottom: 0;
             border: none; } }
+      .page-template-about-us .about-us-content-wrapper li .essay-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+      .page-template-about-us .about-us-content-wrapper li .image-wrapper {
+        display: none; }
+        .page-template-about-us .about-us-content-wrapper li .image-wrapper img {
+          width: 100%;
+          height: 80%; }
+        @media all and (min-width: 1000px) {
+          .page-template-about-us .about-us-content-wrapper li .image-wrapper {
+            display: inline-block;
+            -ms-flex-preferred-size: 50%;
+                flex-basis: 50%;
+            width: 50vw;
+            position: relative;
+            padding: 0 20px; } }
       .page-template-about-us .about-us-content-wrapper li .about-us-essay-hide {
         height: 0;
-        overflow: hidden; }
+        overflow: hidden;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+        padding: 0 20px; }
         @media all and (min-width: 600px) {
           .page-template-about-us .about-us-content-wrapper li .about-us-essay-hide {
             height: auto; } }
+        @media all and (min-width: 1000px) {
+          .page-template-about-us .about-us-content-wrapper li .about-us-essay-hide {
+            -ms-flex-preferred-size: 50%;
+                flex-basis: 50%;
+            width: 50vw; } }
       .page-template-about-us .about-us-content-wrapper li .about-us-essay-show {
         height: auto; }
       .page-template-about-us .about-us-content-wrapper li p {
@@ -924,7 +953,7 @@ object {
       font-size: 20px;
       text-transform: uppercase;
       margin: 0;
-      padding: 15px 0;
+      padding: 15px 0 15px 20px;
       color: #bf6d0a; }
       .page-template-about-us .about-us-content-wrapper h2::before {
         font-family: FontAwesome;
@@ -938,6 +967,17 @@ object {
       @media all and (min-width: 600px) {
         .page-template-about-us .about-us-content-wrapper .heading-click::before {
           content: none; } }
+    .page-template-about-us .about-us-content-wrapper .section-six .essay-content-1,
+    .page-template-about-us .about-us-content-wrapper .section-six .essay-content-2,
+    .page-template-about-us .about-us-content-wrapper .section-six .essay-content-3 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .page-template-about-us .about-us-content-wrapper .section-six .essay-content-1 .image-wrapper,
+    .page-template-about-us .about-us-content-wrapper .section-six .essay-content-3 .image-wrapper {
+      -webkit-box-ordinal-group: 0;
+          -ms-flex-order: -1;
+              order: -1; }
 
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg);

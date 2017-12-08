@@ -21,15 +21,14 @@
         }
       }
       .entry-content{
-                display: flex;
-          justify-content: center;
-          p{
-          font-size: $font_size-paragraph-secondary;
-          text-align: center;
-          max-width: 75%;
+        display: flex;
+        justify-content: center;
+        p{
+        font-size: $font_size-paragraph-secondary;
+        text-align: center;
+        max-width: 75%;
         } 
-          
-        }  
+      }  
     }
     @include tablet{
       background: url(../../sos_assets/about-us/mt-kobau-quarter.jpg) no-repeat bottom -100px right 0;
@@ -65,6 +64,7 @@
           text-decoration: none;
           color: $color__background-body;
         }
+        
       }
     }
   }
@@ -87,6 +87,11 @@
         border-left: none;
       }
     }
+    .section-two,.section-four{
+      .essay-content .image-wrapper{
+        order: -1;
+      }
+    } 
     li{
       padding: 0 30px;
       // margin: 20px 0;
@@ -99,11 +104,43 @@
           border: none;
         }
       }
+      .essay-content{
+        display: flex;
+      }
+      .image-wrapper{
+        display: none;
+        img{
+          width: 100%;
+          height: 80%;
+          // object-fit: cover;
+
+          // max-width: min-content;
+          // z-index: 1;
+        }
+        @include desktop{
+          display: inline-block;
+          flex-basis: 50%;
+          width: 50vw;
+          // max-width: 50%;
+          position: relative;
+          // top: 20px;
+          // padding-left: 40px;
+          padding: 0 20px;
+        }
+      }
+      
       .about-us-essay-hide{
         height: 0;
         overflow: hidden;
+        flex-basis: 100%;
+        padding: 0 20px;
+        // order: 1;
         @include tablet{
           height: auto;
+        }
+        @include desktop{
+          flex-basis: 50%;
+          width: 50vw;
         }
       }
       .about-us-essay-show{
@@ -118,7 +155,7 @@
       font-size: $font_size-heading2;
       text-transform: uppercase;
       margin: 0;
-      padding: 15px 0;
+      padding: 15px 0 15px 20px;
       
       // margin-left: 15px;
       color: $brown-orange;
@@ -140,6 +177,20 @@
         content: '\f107  ';
         @include tablet{
           content: none;
+        }
+      }
+    }
+    //proposal history section
+    .section-six{
+      .essay-content-1,
+      .essay-content-2,
+      .essay-content-3{
+        display: flex;
+      }
+      .essay-content-1,
+      .essay-content-3{
+        .image-wrapper{
+          order: -1;
         }
       }
     }
