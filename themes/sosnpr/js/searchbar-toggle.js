@@ -12,9 +12,15 @@
   
     $('.search-field').on('blur', function(){
       $('.search-field').stop().animate(
-        {width:0},"slow");
-        $('.search-submit').toggleClass("search-bar-open");
-        $('.menu-toggle').toggleClass("search-bar-open");
+        {width:0}, 500);
+
+        function showIcons(){
+          $('.search-submit').toggleClass("search-bar-open");
+          $('.menu-toggle').toggleClass("search-bar-open");
+        }
+        setTimeout(showIcons, 501);
+
+       
   
     });
 

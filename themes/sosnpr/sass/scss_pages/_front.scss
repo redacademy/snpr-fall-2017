@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
  
   background-position: bottom center;
-  height:510px;
+  height:90vh;
   font-family:$miriam;
   padding-top:50px;
   
@@ -56,6 +56,19 @@
 }
 
 .blog{
+
+  .posts-navigation{
+    display:flex;
+    justify-content:space-around;
+    .nav-previous{
+      width:auto;
+      a{
+        color:$brown_orange;
+        text-transform:uppercase;
+        font-family:$miriam;
+      }
+    }
+  }
   .owl-item{
     height:320px;
   }
@@ -78,6 +91,7 @@
     bottom:30px;
     padding:10px;
     font-size:12px;
+    text-transform:titlecase;
     a{
       color:white;
       text-decoration:none;
@@ -87,3 +101,30 @@
 
 }
 
+
+@media screen and (min-width: 600px){
+  .front-page-hero{
+    background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg) ;
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+   
+    background-position: bottom center;
+    height:90vh;
+    font-family:$miriam;
+    padding-top:50px;
+
+  }
+}
+@media screen and (min-width: 1000px){
+  .front-page-hero{
+    background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg) ;
+    background-size: 100% 140%;
+    background-repeat: no-repeat;
+   
+    background-position: bottom center;
+    height:90vh;
+    font-family:$miriam;
+    padding-top:50px;
+
+  }
+}
