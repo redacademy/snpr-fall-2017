@@ -744,7 +744,7 @@ object {
 .page-template-about-us {
   font-family: "Miriam Libre", sans-serif; }
   .page-template-about-us .custom-hero {
-    color: #5B7914;
+    color: #285817;
     background: url(../../sos_assets/about-us/mt-kobauproto.jpg) no-repeat center bottom;
     background-size: cover;
     height: 75vh;
@@ -940,7 +940,7 @@ object {
               align-items: center; } }
 
 .page-template-resources .post-17 .entry-header {
-  color: #5B7914;
+  color: #285817;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
   text-align: center; }
@@ -1003,7 +1003,7 @@ object {
   font-family: "Miriam Libre", sans-serif;
   padding-top: 50px; }
   .front-page-hero h1 {
-    color: #5B7914;
+    color: #285817;
     font-family: "Miriam Libre", sans-serif;
     text-align: center;
     font-size: 28px;
@@ -1016,7 +1016,7 @@ object {
     font-size: 12px;
     font-weight: 100;
     padding-bottom: 15px;
-    color: #5B7914; }
+    color: #285817; }
   .front-page-hero .learn-more-button {
     border: none;
     border-radius: 1px;
@@ -1043,12 +1043,6 @@ object {
 .blog .owl-item {
   height: 320px; }
 
-<<<<<<< HEAD
-.recent-updates-header {
-  text-align: center;
-  font-family: "Miriam Libre", sans-serif; }
-
-=======
 .blog .carousel-cell {
   padding: 10px;
   height: 320px;
@@ -1067,19 +1061,14 @@ object {
     color: white;
     text-decoration: none; }
 
-<<<<<<< HEAD
-=======
->>>>>>> 81ba9f71212afa360b300f81b866c739466a5b80
->>>>>>> fc33d120f207414d223dfc94c3aa6d129b2820cb
->>>>>>> f741a4d89f00ef102891c60050a5c435c3e83853
 .page-template-proposed-park .entry-title {
-  color: #5B7914;
+  color: #285817;
   font-family: "Miriam Libre", sans-serif;
   font-size: 28px;
   text-align: center;
   padding-top: 60px;
   text-transform: uppercase;
-  color: #36730a; }
+  color: #285817; }
   @media all and (min-width: 600px) {
     .page-template-proposed-park .entry-title {
       padding-top: 90px;
@@ -1093,12 +1082,12 @@ object {
       -ms-flex-pack: center;
           justify-content: center; }
   .page-template-proposed-park .entry-content p {
-    color: #5B7914;
+    color: #285817;
     font-family: "Miriam Libre", sans-serif;
     font-size: 12px;
     max-width: 75%;
     text-align: center;
-    color: #36730a; }
+    color: #285817; }
     @media all and (min-width: 600px) {
       .page-template-proposed-park .entry-content p {
         font-size: 18px; } }
@@ -1202,12 +1191,9 @@ object {
   background-position: bottom center;
   height: 85vh;
   font-family: "Miriam Libre", sans-serif; }
-<<<<<<< HEAD
   @media all and (min-width: 600px) {
     .page-template-proposed-park .proposed-hero {
       background-image: url(../../sos_assets/proposed-park/proposed-hero.jpg); } }
-=======
->>>>>>> fc33d120f207414d223dfc94c3aa6d129b2820cb
 
 .page-template-proposed-park .down {
   display: none; }
@@ -1489,7 +1475,7 @@ object {
               align-items: center; } }
 
 .page-template-resources .post-17 .entry-header {
-  color: #5B7914;
+  color: #285817;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
   text-align: center; }
@@ -1639,7 +1625,7 @@ object {
         line-height: 3.5;
         font-family: "Miriam Libre", sans-serif; }
         .menu1 .menu-menu-1-container ul li a {
-          color: #5B7914; }
+          color: #285817; }
       .menu1 .menu-menu-1-container ul .menu-item-77 {
         background: #eb8e26; }
         .menu1 .menu-menu-1-container ul .menu-item-77 a {

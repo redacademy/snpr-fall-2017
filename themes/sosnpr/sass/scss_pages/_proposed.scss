@@ -5,7 +5,7 @@
     text-align: center;
     padding-top: 60px;
     text-transform: uppercase;
-    color: $light-green;
+    color: $forest;
     
     @include tablet {
       padding-top: 90px;
@@ -22,7 +22,7 @@
       @include mobile-description;
       max-width: 75%;
       text-align: center;
-      color: $light-green;
+      color: $forest;
       
       @include tablet {
         font-size: 18px;
