@@ -19,7 +19,7 @@ get_header(); ?>
 		<?php query_posts(array(
 'category__not_in' => array(),
 'paged' => $paged,
-'posts_per_page' => 3,
+'posts_per_page' => 5,
 )); if ( have_posts() ) : ?>
 
 

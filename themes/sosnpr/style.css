@@ -955,6 +955,9 @@ object {
     padding: 15px;
     font-weight: 100;
     font-family: "Miriam Libre", sans-serif; }
+    .front-page-hero .learn-more-button a {
+      color: white;
+      text-decoration: none; }
 
 .recent-updates-header {
   text-align: center;
@@ -966,7 +969,9 @@ object {
   height: 320px; }
 
 .blog .carousel-cell {
-  padding: 10px; }
+  padding: 10px;
+  height: 320px;
+  overflow: hidden; }
   .blog .carousel-cell img {
     height: 320px; }
 
@@ -1281,8 +1286,7 @@ object {
   border: none;
   font-family: "Miriam Libre", sans-serif;
   position: relative;
-  top: 10px;
-  float: right;
+  top: 5px;
   width: 0;
   padding: 0;
   margin: 0; }
@@ -1297,7 +1301,7 @@ object {
           box-shadow: none;
   height: 50px;
   width: 50px;
-  color: #eb8e26; }
+  color: #bf6d0a; }
 
 .search-open,
 .no-js .search {
@@ -1308,6 +1312,9 @@ object {
 
 .search-bar-white {
   background-color: white; }
+
+.icon-search .fa {
+  font-size: 28px; }
 
 .main-navigation {
   display: -webkit-box;
@@ -1325,7 +1332,8 @@ object {
           align-items: center;
   width: 100%;
   top: 0px;
-  z-index: 1000; }
+  z-index: 1000;
+  padding-right: 20px; }
 
 .menu1 {
   position: absolute;
@@ -1368,9 +1376,7 @@ object {
 
 .header-logo {
   height: 50px;
-  width: 50px;
-  margin-left: 10px;
-  margin-top: 10px; }
+  width: 50px; }
 
 .menu-non-logo {
   display: -webkit-box;
@@ -1387,7 +1393,8 @@ object {
   background-image: url(../../sos_assets/ui-icons/hamburger-icon-rugged-orange.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 10px; }
+  padding: 10px;
+  background-position: center; }
 
 @media screen and (min-width: 600px) {
   .menu1 {

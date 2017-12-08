@@ -18,9 +18,9 @@
             nav:true
         },
         1000:{
-            items:5,
+            items:3,
             nav:true,
-            loop:false
+            loop:true,
         }
     }
 });
