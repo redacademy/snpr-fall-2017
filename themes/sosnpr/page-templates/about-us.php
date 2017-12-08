@@ -41,51 +41,113 @@ get_header();
 
       <ul class="about-us-content-wrapper">
       
-        <li id="sosnp-network">
-          <?php $props = CFS()->get_field_info( 'ssosnp_network' );?> 
+        <li id="sosnp-network" class="section-one">
+          <?php $props = CFS()->get_field_info( 'sosnp_network' );?> 
           <h2 class="about-us-heading" ><?php echo $props['label'];?></h2>
-          <div class="about-us-essay-hide">
-            <p><?php echo CFS()->get('ssosnp_network');?></p>
+          <div class="essay-content">
+            <div class="about-us-essay-hide">
+              <p><?php echo CFS()->get('sosnp_network');?></p>
+            </div>
+            <div class="image-wrapper">
+              <img src="<?php echo CFS()->get('sosnp_network_image');?>" alt="sosnp network support image">
+            </div>
+            
           </div>
         </li>
 
-        <li id="first-nation-support">
+        <li id="first-nation-support" class="section-two">
           <?php $props = CFS()->get_field_info( 'first_nation_support' );?> 
           <h2 class="about-us-heading"><?php echo $props['label'];?></h2>
-          <div class="about-us-essay-hide">
-            <p><?php echo CFS()->get('first_nation_support');?></p>
+          <div class="essay-content">
+            <div class="about-us-essay-hide">
+              <p><?php echo CFS()->get('first_nation_support');?></p>
+            </div>
+            <div class="image-wrapper">
+              <img src="<?php echo CFS()->get('first_nation_support_image');?>" alt="first nation support image">
+            </div>
           </div>
         </li>
 
-        <li id="community-support">
+        <li id="community-support" class="section-three">
           <?php $props = CFS()->get_field_info( 'community_support' );?> 
           <h2 class="about-us-heading"><?php echo $props['label'];?></h2>
-          <div class="about-us-essay-hide">
-          <p><?php echo CFS()->get('community_support');?></p>
+          <div class="essay-content">
+
+            <div class="about-us-essay-hide">
+              <p><?php echo CFS()->get('community_support');?></p>
+            </div>
+
+            <div class="image-wrapper">
+              <img src="<?php echo CFS()->get('community_support_image');?>" class="section-three-image" alt="community conference image">
+            </div>
+            
           </div>
         </li>
 
-        <li id="government-support">
+        <li id="government-support" class="section-four">
           <?php $props = CFS()->get_field_info( 'provincial_government_support' );?> 
           <h2 class="about-us-heading"><?php echo $props['label'];?></h2>
-          <div class="about-us-essay-hide">
-          <p><?php echo CFS()->get('provincial_government_support');?></p>
+          <div class="essay-content">
+
+            <div class="about-us-essay-hide">
+              <p><?php echo CFS()->get('provincial_government_support');?></p>
+            </div>
+
+            <div class="image-wrapper">
+              <img src="<?php echo CFS()->get('provincial_gov_support_image');?>" class="section-four-image" alt="provincial flag image">
+            </div>
+            
           </div>
         </li>
 
-        <li id="parks-canada-support">
+        <li id="parks-canada-support" class="section-five">
           <?php $props = CFS()->get_field_info( 'federal_government_parks_canada_support' );?> 
           <h2 class="about-us-heading"><?php echo $props['label'];?></h2>
-          <div class="about-us-essay-hide">
-          <p><?php echo CFS()->get('federal_government_parks_canada_support');?></p>
+          <div class="essay-content">
+
+            <div class="about-us-essay-hide">
+              <p><?php echo CFS()->get('federal_government_parks_canada_support');?></p>
+            </div>
+
+            <div class="image-wrapper">
+              <img src="<?php echo CFS()->get('federal_gov_support_image');?>" class="section-five-image" alt="canadian flag">
+            </div>
+            
           </div>
         </li>
 
-        <li id="proposal-history">
+        <li id="proposal-history" class="section-six"> 
           <?php $props = CFS()->get_field_info( 'proposal_history' );?> 
           <h2 class="about-us-heading"><?php echo $props['label'];?></h2>
-          <div class="about-us-essay-hide">
-          <p><?php echo CFS()->get('proposal_history');?></p>
+          <div class="essay-content-1">
+            <div class="about-us-essay-hide">
+              <p><?php echo CFS()->get('proposal_history');?></p>
+            </div>
+            <div class="image-wrapper">
+              <img src="<?php echo CFS()->get('proposal_history_image_1');?>" class="section-six-image" alt="park field research image">
+            </div>
+          </div>
+          <div class="essay-content-2">
+
+            <div class="about-us-essay-hide">
+              <p><?php echo CFS()->get('proposal_history_2');?></p>
+            </div>
+
+            <div class="image-wrapper">
+              <img src="<?php echo CFS()->get('proposal_history_image_2');?>" class="section-six-image" alt="group field research of the park">
+            </div>
+            
+          </div>
+          <div class="essay-content-3">
+
+            <div class="about-us-essay-hide">
+              <p><?php echo CFS()->get('proposal_history_3');?></p>
+            </div>
+
+            <div class="image-wrapper">
+              <img src="<?php echo CFS()->get('proposal_history_image_3');?>" class="section-six-image" alt="group taking pictures of the park">
+            </div>
+            
           </div>
         </li>
 
