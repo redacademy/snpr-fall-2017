@@ -913,18 +913,27 @@ object {
   height: 100vh;
   width: 100vw; }
 
-.page-template-resources .entry-header, .page-template-resources .entry-title {
-  text-transform: uppercase;
-  text-align: center;
-  color: #285817;
-  font-family: "Miriam Libre", sans-serif; }
+.page-template-resources .post-17 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center; }
+  .page-template-resources .post-17 .entry-title {
+    text-transform: uppercase;
+    text-align: center;
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  height: 600px;
+  height: 510px;
   font-family: "Miriam Libre", sans-serif;
   padding-top: 50px; }
   .front-page-hero h1 {
@@ -934,13 +943,14 @@ object {
     font-size: 28px;
     text-transform: uppercase;
     display: block;
-    padding: 15px;
+    padding-top: 15px;
     line-height: 1; }
   .front-page-hero h2 {
     text-align: center;
     font-size: 12px;
     font-weight: 100;
-    padding: 15px; }
+    padding-bottom: 15px;
+    color: #285817; }
   .front-page-hero .learn-more-button {
     border: none;
     border-radius: 1px;
@@ -954,11 +964,47 @@ object {
     padding: 15px;
     font-weight: 100;
     font-family: "Miriam Libre", sans-serif; }
+    .front-page-hero .learn-more-button a {
+      color: white;
+      text-decoration: none; }
 
+.recent-updates-header {
+  text-align: center;
+  font-family: "Miriam Libre", sans-serif;
+  text-transform: uppercase;
+  color: #bf6d0a; }
+
+<<<<<<< HEAD
+=======
+.blog .owl-item {
+  height: 320px; }
+
+<<<<<<< HEAD
 .recent-updates-header {
   text-align: center;
   font-family: "Miriam Libre", sans-serif; }
 
+=======
+.blog .carousel-cell {
+  padding: 10px;
+  height: 320px;
+  overflow: hidden; }
+  .blog .carousel-cell img {
+    height: 320px; }
+
+.blog .entry-header {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  position: absolute;
+  bottom: 30px;
+  padding: 10px;
+  font-size: 12px; }
+  .blog .entry-header a {
+    color: white;
+    text-decoration: none; }
+
+>>>>>>> 81ba9f71212afa360b300f81b866c739466a5b80
+>>>>>>> fc33d120f207414d223dfc94c3aa6d129b2820cb
 .page-template-proposed-park .entry-title {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
@@ -1089,9 +1135,12 @@ object {
   background-position: bottom center;
   height: 85vh;
   font-family: "Miriam Libre", sans-serif; }
+<<<<<<< HEAD
   @media all and (min-width: 600px) {
     .page-template-proposed-park .proposed-hero {
       background-image: url(../../sos_assets/proposed-park/proposed-hero.jpg); } }
+=======
+>>>>>>> fc33d120f207414d223dfc94c3aa6d129b2820cb
 
 .page-template-proposed-park .down {
   display: none; }
@@ -1341,6 +1390,27 @@ object {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
 
+.page-template-resources .resources-hero {
+  background: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw; }
+
+.page-template-resources .post-17 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center; }
+  .page-template-resources .post-17 .entry-title {
+    text-transform: uppercase;
+    text-align: center;
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif; }
+
 .search-field {
   width: 0px;
   color: black; }
@@ -1358,8 +1428,7 @@ object {
   border: none;
   font-family: "Miriam Libre", sans-serif;
   position: relative;
-  top: 10px;
-  float: right;
+  top: 5px;
   width: 0;
   padding: 0;
   margin: 0; }
@@ -1374,7 +1443,7 @@ object {
           box-shadow: none;
   height: 50px;
   width: 50px;
-  color: #eb8e26; }
+  color: #bf6d0a; }
 
 .search-open,
 .no-js .search {
@@ -1385,6 +1454,9 @@ object {
 
 .search-bar-white {
   background-color: white; }
+
+.icon-search .fa {
+  font-size: 28px; }
 
 .main-navigation {
   display: -webkit-box;
@@ -1401,9 +1473,9 @@ object {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  position: fixed;
   top: 0px;
-  z-index: 1000; }
+  z-index: 1000;
+  padding-right: 20px; }
 
 .menu1 {
   position: absolute;
@@ -1446,9 +1518,7 @@ object {
 
 .header-logo {
   height: 50px;
-  width: 50px;
-  margin-left: 10px;
-  margin-top: 10px; }
+  width: 50px; }
 
 .menu-non-logo {
   display: -webkit-box;
@@ -1465,7 +1535,8 @@ object {
   background-image: url(../../sos_assets/ui-icons/hamburger-icon-rugged-orange.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 10px; }
+  padding: 10px;
+  background-position: center; }
 
 @media screen and (min-width: 600px) {
   .menu1 {
