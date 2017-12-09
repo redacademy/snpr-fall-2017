@@ -48,7 +48,10 @@
   }
   
   //subscribe button
-  .subscribe-button{
+  .subscribe-form{
+    display: none;
+  }
+  .subscribe-form-show{
     position: absolute;
     bottom: 50px;
     background: white;

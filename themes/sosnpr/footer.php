@@ -32,7 +32,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 
 		<?php wp_footer(); ?>
 		
-
+		<?php echo do_shortcode("[mc4wp_form id='98']");?>
 		
 		
 	</body>
