@@ -4,3 +4,25 @@
 
 /* Front page */
 
+//feedback form
+
+
+.site-info {
+  display: flex;
+  justify-content: center;
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 60px;
+  min-width: 500px;
+  background: #fff;
+  align-self: center;
+  display: none;
+
+    
+ }
+}
+

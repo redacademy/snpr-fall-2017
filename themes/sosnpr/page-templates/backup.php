@@ -1,17 +1,23 @@
-<div class="content-container-one">
-          <div class="text"><?php echo CFS()->get('land_use_regulations');?></div>
-          <div class="text"><?php echo CFS()->get('land_two');?></div>
-        </div>
+<?php
+/**
+ * Template part for displaying posts.
+ */
 
-        <div class="content-container-two">
-          <div class="image"><img src="<?php echo CFS()->get('land_use_one');?>"/></div>
-        </div>
+?>
+<li class="carousel-cell">
+	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+		<header class="entry-header">
+			<?php if ( has_post_thumbnail() ) : ?>
+				<?php the_post_thumbnail( 'large' ); ?>
+			<?php endif; ?>
 
-        <div class="content-container-three">
-          <div class="image"><img src="<?php echo CFS()->get('land_use_two');?>"/></div>
-        </div>
+			<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
-        <div class="content-container-four">
-          <div class="text"><?php echo CFS()->get('land_three');?></div>
-          <div class="text"><?php echo CFS()->get('land_four');?></div>
-        </div>
+			<?php if ( 'post' === get_post_type() ) : ?>
+			<div class="entry-meta">
+				<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php red_starter_posted_by(); ?>
+			</div><!-- .entry-meta -->
+				<?php endif; ?>
+			</header><!-- .entry-header -->
+		</article><!-- #post-## -->
+	</li>
