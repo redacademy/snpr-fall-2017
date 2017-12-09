@@ -20,11 +20,12 @@ input[type=search]{
   background-color:white;
   border:none;
   font-family:$miriam;
-  position: relative; top: 10px;
-  float:right;
+  position: relative; top: 5px;
+  
   width:0;
   padding:0;
   margin:0;
+  line-height:2;
 }
 fieldset{
   border:none;
@@ -36,8 +37,9 @@ fieldset{
   box-shadow:none;
 
   height:50px;
-  width:50px;
-  color:$main-orange;
+  width:65px;
+  color:$brown-orange;
+  
 
 }
 
@@ -55,5 +57,11 @@ fieldset{
 }
 .search-bar-white{
   background-color:white;
+}
+
+.icon-search{
+  .fa{
+    font-size:28px;
+  }
 }
 

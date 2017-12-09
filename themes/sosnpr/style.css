@@ -320,7 +320,8 @@ ul, ol {
   margin: 0 0 1.5rem 3rem; }
 
 ul {
-  list-style: disc; }
+  list-style: none;
+  margin: auto; }
 
 ol {
   list-style: decimal; }
@@ -668,77 +669,31 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.page-template-proposed-park .entry-title {
-  color: #285817;
-  font-family: "Miriam Libre", sans-serif;
-  font-size: 28px;
-  text-align: center;
-  padding-top: 60px; }
-
-.page-template-proposed-park .entry-content {
+.site-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-proposed-park .entry-content p {
-    color: #285817;
-    font-family: "Miriam Libre", sans-serif;
-    font-size: 12px;
-    max-width: 75%;
-    text-align: center; }
-
-.page-template-proposed-park h2 {
-  color: #bf6d0a;
-  font-family: "Miriam Libre", sans-serif;
-  margin: 10px 0;
-  line-height: 30px; }
-
-.page-template-proposed-park .text {
-  height: 0;
-  overflow: hidden;
-  font-family: "Source Sans Pro", sans-serif;
-  padding-right: 10px; }
-  @media all and (min-width: 1000px) {
-    .page-template-proposed-park .text {
-      height: auto; } }
-
-.page-template-proposed-park .menu-item {
-  cursor: pointer;
-  padding-left: 25px; }
-
-.page-template-proposed-park .show {
-  height: auto; }
-
-.page-template-proposed-park .proposed-hero {
-  background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  height: 85vh;
-  font-family: "Miriam Libre", sans-serif; }
-
-.page-template-proposed-park .down {
-  display: none; }
-
-@media all and (min-width: 1000px) {
-  .page-template-proposed-park .right {
-    display: none; } }
-
-.page-template-proposed-park .see {
-  display: inline; }
-
-.page-template-proposed-park .hide {
-  display: none; }
-
-.page-template-proposed-park i {
-  padding-right: 10px; }
-
-.page-template-proposed-park .border {
-  border-top: 1px solid #CC8005;
-  border-left: 4px solid #CC8005;
-  border-bottom: 1px solid #CC8005; }
+  .site-info .feedback {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    bottom: 60px;
+    min-width: 500px;
+    background: #fff;
+    -ms-flex-item-align: center;
+        align-self: center;
+    display: none; }
 
 #secondary, .widget_area {
   height: 540px;
@@ -984,23 +939,97 @@ object {
               order: -1; }
 
 .page-template-resources .resources-hero {
-  background: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg);
+  background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
   background-size: cover;
   height: 100vh;
-  width: 100vw; }
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .resources-hero {
+      background-size: cover;
+      background-repeat: none;
+      background-position: 0% 60%;
+      height: 65vh;
+      width: 100vw;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
 
-.page-template-resources .entry-header, .page-template-resources .entry-title {
-  text-transform: uppercase;
-  text-align: center;
+.page-template-resources .post-17 .entry-header {
   color: #285817;
+  font-family: "Miriam Libre", sans-serif;
+  text-transform: uppercase;
+  text-align: center; }
+
+.page-template-resources .post-17 .entry-content {
+  padding-bottom: 15rem; }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .post-17 .entry-content {
+      padding-bottom: 20rem; } }
+
+.page-template-resources .post-17 p {
+  text-align: center; }
+
+.page-template-resources h2 {
+  color: #eb8e26;
   font-family: "Miriam Libre", sans-serif; }
+
+.page-template-resources a {
+  color: #0096ff;
+  text-decoration: underline;
+  font-weight: 300; }
+
+.page-template-resources p {
+  font-weight: 300; }
+
+.page-template-resources ul li:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-resources ul li:nth-child(2) h2 {
+    width: 100vw; }
+
+.page-template-resources ul li:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-resources ul li:nth-child(3) h2 {
+    width: 100vw; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  height: 600px;
+  height: 90vh;
   font-family: "Miriam Libre", sans-serif;
   padding-top: 50px; }
   .front-page-hero h1 {
@@ -1010,13 +1039,14 @@ object {
     font-size: 28px;
     text-transform: uppercase;
     display: block;
-    padding: 15px;
+    padding-top: 15px;
     line-height: 1; }
   .front-page-hero h2 {
     text-align: center;
     font-size: 12px;
     font-weight: 100;
-    padding: 15px; }
+    padding-bottom: 15px;
+    color: #285817; }
   .front-page-hero .learn-more-button {
     border: none;
     border-radius: 1px;
@@ -1030,6 +1060,547 @@ object {
     padding: 15px;
     font-weight: 100;
     font-family: "Miriam Libre", sans-serif; }
+    .front-page-hero .learn-more-button a {
+      color: white;
+      text-decoration: none; }
+
+.recent-updates-header {
+  text-align: center;
+  font-family: "Miriam Libre", sans-serif;
+  text-transform: uppercase;
+  color: #bf6d0a; }
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.blog .posts-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .blog .posts-navigation .nav-previous {
+    width: auto; }
+    .blog .posts-navigation .nav-previous a {
+      color: #bf6d0a;
+      text-transform: uppercase;
+      font-family: "Miriam Libre", sans-serif; }
+
+=======
+>>>>>>> 17176742772ea115389ee42e36f2223654063dac
+>>>>>>> 56464c32f90b32b233bc491cde788a427df579e8
+.blog .owl-item {
+  height: 320px; }
+
+.blog .carousel-cell {
+  padding: 10px;
+  height: 320px;
+  overflow: hidden; }
+  .blog .carousel-cell img {
+    height: 320px; }
+
+.blog .entry-header {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  position: absolute;
+  bottom: 30px;
+  padding: 10px;
+  font-size: 12px;
+  text-transform: titlecase; }
+  .blog .entry-header a {
+    color: white;
+    text-decoration: none; }
+
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 600px) {
+  .front-page-hero {
+    background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 90vh;
+    font-family: "Miriam Libre", sans-serif;
+    padding-top: 50px; } }
+
+@media screen and (min-width: 1000px) {
+  .front-page-hero {
+    background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
+    background-size: 100% 140%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 90vh;
+    font-family: "Miriam Libre", sans-serif;
+    padding-top: 50px; } }
+
+>>>>>>> 56464c32f90b32b233bc491cde788a427df579e8
+.page-template-proposed-park .entry-title {
+  color: #285817;
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 60px;
+  text-transform: uppercase;
+  color: #285817; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .entry-title {
+      padding-top: 90px;
+      font-size: 54px; } }
+
+.page-template-proposed-park .entry-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-proposed-park .entry-content p {
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    font-size: 12px;
+    max-width: 75%;
+    text-align: center;
+    color: #285817; }
+    @media all and (min-width: 600px) {
+      .page-template-proposed-park .entry-content p {
+        font-size: 18px; } }
+
+.page-template-proposed-park .proposed-banner {
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .proposed-banner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      min-height: 180px;
+      background: #bf6d0a; }
+      .page-template-proposed-park .proposed-banner .banner-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+        margin: 3% 0;
+        padding: 0; }
+        .page-template-proposed-park .proposed-banner .banner-list li {
+          padding: 14px 0;
+          list-style: none;
+          text-transform: uppercase;
+          font-family: "Miriam Libre", sans-serif;
+          min-width: -webkit-max-content;
+          min-width: -moz-max-content;
+          min-width: max-content; } }
+      @media all and (min-width: 600px) and (min-width: 600px) {
+        .page-template-proposed-park .proposed-banner .banner-list li {
+          font-size: 18px; } }
+      @media all and (min-width: 600px) and (min-width: 1000px) {
+        .page-template-proposed-park .proposed-banner .banner-list li {
+          font-size: 25px; } }
+  @media all and (min-width: 600px) {
+        .page-template-proposed-park .proposed-banner .banner-list a {
+          color: #fff;
+          text-decoration: none;
+          text-transform: uppercase; } }
+
+.page-template-proposed-park .proposed-container .image {
+  display: none; }
+  @media all and (min-width: 1000px) {
+    .page-template-proposed-park .proposed-container .image {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+
+.page-template-proposed-park h2 {
+  color: #bf6d0a;
+  font-family: "Miriam Libre", sans-serif;
+  margin: 10px 0;
+  line-height: 30px; }
+  @media all and (min-width: 1000px) {
+    .page-template-proposed-park h2 {
+      padding-bottom: 20px;
+      padding-top: 20px; } }
+
+.page-template-proposed-park .text {
+  height: 0;
+  overflow: hidden;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-right: 10px; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .text {
+      height: auto; }
+      .page-template-proposed-park .text p {
+        font-size: 14px;
+        margin-bottom: 8px;
+        margin-top: 0; } }
+
+.page-template-proposed-park .menu-item {
+  cursor: pointer;
+  padding-left: 25px; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .menu-item {
+      border-bottom: 1px solid #bf6d0a;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding-bottom: 50px;
+      padding-left: 0;
+      cursor: unset; } }
+
+.page-template-proposed-park .show {
+  height: auto; }
+
+.page-template-proposed-park .proposed-hero {
+  background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 85vh;
+  font-family: "Miriam Libre", sans-serif; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .proposed-hero {
+      background-image: url(../../sos_assets/proposed-park/proposed-hero.jpg); } }
+
+.page-template-proposed-park .down {
+  display: none; }
+
+@media all and (min-width: 600px) {
+  .page-template-proposed-park .right {
+    display: none; } }
+
+.page-template-proposed-park .see {
+  display: inline; }
+
+.page-template-proposed-park .hide {
+  display: none; }
+
+.page-template-proposed-park i {
+  padding-right: 10px; }
+
+.page-template-proposed-park .border {
+  border-top: 1px solid #CC8005;
+  border-left: 4px solid #CC8005;
+  border-bottom: 1px solid #CC8005; }
+
+.page-template-proposed-park .image img {
+  max-width: -webkit-min-content;
+  max-width: -moz-min-content;
+  max-width: min-content; }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .page-template-proposed-park .one h2 {
+      padding-bottom: 20px; }
+    .page-template-proposed-park .one .content-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .page-template-proposed-park .one .content-container .text {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; }
+      .page-template-proposed-park .one .content-container .image {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; }
+        .page-template-proposed-park .one .content-container .image img {
+          min-height: 330px;
+          -ms-flex-item-align: end;
+              align-self: flex-end; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .two h2 {
+    padding-bottom: 20px; }
+  .page-template-proposed-park .two .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 25px; }
+    .page-template-proposed-park .two .content-container .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .two .content-container .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      padding-right: 5%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .three h2 {
+    padding-bottom: 20px; }
+  .page-template-proposed-park .three .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 30px; }
+    .page-template-proposed-park .three .content-container .content-container-one {
+      -ms-flex-preferred-size: 42%;
+          flex-basis: 42%;
+      padding-bottom: 25px; } }
+    @media all and (min-width: 1000px) and (min-width: 1100px) {
+      .page-template-proposed-park .three .content-container .content-container-one {
+        -ms-flex-preferred-size: 45%;
+            flex-basis: 45%; } }
+    @media all and (min-width: 1000px) and (min-width: 1200px) {
+      .page-template-proposed-park .three .content-container .content-container-one {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+      .page-template-proposed-park .three .content-container .content-container-one .text:nth-child(2) {
+        text-align: right;
+        font-weight: bold; }
+    .page-template-proposed-park .three .content-container .content-container-two {
+      -ms-flex-preferred-size: 42%;
+          flex-basis: 42%;
+      padding-left: 5%; } }
+    @media all and (min-width: 1000px) and (min-width: 1100px) {
+      .page-template-proposed-park .three .content-container .content-container-two {
+        -ms-flex-preferred-size: 45%;
+            flex-basis: 45%; } }
+    @media all and (min-width: 1000px) and (min-width: 1200px) {
+      .page-template-proposed-park .three .content-container .content-container-two {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+    .page-template-proposed-park .three .content-container .content-container-three {
+      -ms-flex-preferred-size: 42%;
+          flex-basis: 42%; } }
+    @media all and (min-width: 1000px) and (min-width: 1100px) {
+      .page-template-proposed-park .three .content-container .content-container-three {
+        -ms-flex-preferred-size: 45%;
+            flex-basis: 45%; } }
+    @media all and (min-width: 1000px) and (min-width: 1200px) {
+      .page-template-proposed-park .three .content-container .content-container-three {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+    .page-template-proposed-park .three .content-container .content-container-four {
+      -ms-flex-preferred-size: 42%;
+          flex-basis: 42%;
+      padding-left: 5%; } }
+    @media all and (min-width: 1000px) and (min-width: 1100px) {
+      .page-template-proposed-park .three .content-container .content-container-four {
+        -ms-flex-preferred-size: 45%;
+            flex-basis: 45%; } }
+    @media all and (min-width: 1000px) and (min-width: 1200px) {
+      .page-template-proposed-park .three .content-container .content-container-four {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .four .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .page-template-proposed-park .four .content-container .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .four .content-container .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+      .page-template-proposed-park .four .content-container .image img {
+        -ms-flex-item-align: end;
+            align-self: flex-end; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .five .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .page-template-proposed-park .five .content-container .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .five .content-container .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      padding-left: 2%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .six .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .page-template-proposed-park .six .content-container .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+      .page-template-proposed-park .six .content-container .image img {
+        -ms-flex-item-align: end;
+            align-self: flex-end; }
+    .page-template-proposed-park .six .content-container .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .seven .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .page-template-proposed-park .seven .content-container .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .seven .content-container .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      padding-left: 2%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .eight .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .page-template-proposed-park .eight .content-container .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .eight .content-container .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .nine p {
+    margin: 0; }
+  .page-template-proposed-park .nine .content-container-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 15px; }
+    .page-template-proposed-park .nine .content-container-one .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+      .page-template-proposed-park .nine .content-container-one .image img {
+        -ms-flex-item-align: end;
+            align-self: flex-end; }
+    .page-template-proposed-park .nine .content-container-one .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+  .page-template-proposed-park .nine .content-container-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 20px; }
+    .page-template-proposed-park .nine .content-container-two .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .nine .content-container-two .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      padding-left: 2%; }
+  .page-template-proposed-park .nine .content-container-three {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .page-template-proposed-park .nine .content-container-three .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+      .page-template-proposed-park .nine .content-container-three .image img {
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+        height: 100%;
+        width: 100%; }
+    .page-template-proposed-park .nine .content-container-three .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
+
+.page-template-resources .resources-hero {
+  background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .resources-hero {
+      background-size: cover;
+      background-repeat: none;
+      background-position: 0% 60%;
+      height: 65vh;
+      width: 100vw;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+
+.page-template-resources .post-17 .entry-header {
+  color: #285817;
+  font-family: "Miriam Libre", sans-serif;
+  text-transform: uppercase;
+  text-align: center; }
+
+.page-template-resources .post-17 .entry-content {
+  padding-bottom: 15rem; }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .post-17 .entry-content {
+      padding-bottom: 20rem; } }
+
+.page-template-resources .post-17 p {
+  text-align: center; }
+
+.page-template-resources h2 {
+  color: #eb8e26;
+  font-family: "Miriam Libre", sans-serif; }
+
+.page-template-resources a {
+  color: #0096ff;
+  text-decoration: underline;
+  font-weight: 300; }
+
+.page-template-resources p {
+  font-weight: 300; }
+
+.page-template-resources ul li:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-resources ul li:nth-child(2) h2 {
+    width: 100vw; }
+
+.page-template-resources ul li:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-resources ul li:nth-child(3) h2 {
+    width: 100vw; }
 
 .recent-updates-header {
   text-align: center;
@@ -1052,11 +1623,11 @@ object {
   border: none;
   font-family: "Miriam Libre", sans-serif;
   position: relative;
-  top: 10px;
-  float: right;
+  top: 5px;
   width: 0;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  line-height: 2; }
 
 .main-navigation fieldset {
   border: none; }
@@ -1067,8 +1638,8 @@ object {
   -webkit-box-shadow: none;
           box-shadow: none;
   height: 50px;
-  width: 50px;
-  color: #eb8e26; }
+  width: 65px;
+  color: #bf6d0a; }
 
 .search-open,
 .no-js .search {
@@ -1079,6 +1650,9 @@ object {
 
 .search-bar-white {
   background-color: white; }
+
+.icon-search .fa {
+  font-size: 28px; }
 
 .main-navigation {
   display: -webkit-box;
@@ -1095,14 +1669,14 @@ object {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  position: fixed;
   top: 0px;
-  z-index: 1000; }
+  z-index: 1000;
+  padding-right: 20px; }
 
 .menu1 {
   position: absolute;
-  height: 300px;
-  width: 250px;
+  height: 330px;
+  width: 200px;
   z-index: 10;
   background: white;
   top: 3px;
@@ -1113,6 +1687,7 @@ object {
   border-color: #ccc #ccc #bbb;
   display: none; }
   .menu1 .menu-menu-1-container {
+    padding-left: 20px;
     padding-right: 20px; }
     .menu1 .menu-menu-1-container ul {
       display: -webkit-box;
@@ -1125,24 +1700,25 @@ object {
       -ms-flex-pack: distribute;
           justify-content: space-around; }
       .menu1 .menu-menu-1-container ul li {
-        text-align: center;
+        text-align: left;
         line-height: 3.5;
+        font-size: 18px;
+        text-transform: uppercase;
         font-family: "Miriam Libre", sans-serif; }
         .menu1 .menu-menu-1-container ul li a {
           color: #285817; }
       .menu1 .menu-menu-1-container ul .menu-item-77 {
         background: #eb8e26; }
         .menu1 .menu-menu-1-container ul .menu-item-77 a {
-          color: white; }
+          color: white;
+          text-align: center; }
 
 .menu-show {
   display: block; }
 
 .header-logo {
   height: 50px;
-  width: 50px;
-  margin-left: 10px;
-  margin-top: 10px; }
+  width: 50px; }
 
 .menu-non-logo {
   display: -webkit-box;
@@ -1159,7 +1735,8 @@ object {
   background-image: url(../../sos_assets/ui-icons/hamburger-icon-rugged-orange.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 10px; }
+  padding: 10px;
+  background-position: center; }
 
 @media screen and (min-width: 600px) {
   .menu1 {
@@ -1198,15 +1775,21 @@ object {
       .menu1 .menu-menu-1-container ul li {
         text-align: center;
         line-height: 1;
+        padding-top: 20px;
+        padding-bottom: 20px;
         font-family: "Miriam Libre", sans-serif; }
         .menu1 .menu-menu-1-container ul li a {
           color: #eb8e26;
           font-family: "Miriam Libre", sans-serif;
           font-size: 16px; }
       .menu1 .menu-menu-1-container ul .menu-item-77 {
+        padding-left: 15px;
+        padding-right: 15px;
         background: #eb8e26; }
         .menu1 .menu-menu-1-container ul .menu-item-77 a {
-          color: white; } }
+          color: white;
+          padding-left: 5px;
+          padding-right: 5px; } }
 
 @media screen and (min-width: 1000px) {
   .menu1 {
@@ -1249,7 +1832,7 @@ object {
         .menu1 .menu-menu-1-container ul li a {
           color: #eb8e26;
           font-family: "Miriam Libre", sans-serif;
-          font-size: 25px; }
+          font-size: 20px; }
       .menu1 .menu-menu-1-container ul .menu-item-77 {
         background: #eb8e26; }
         .menu1 .menu-menu-1-container ul .menu-item-77 a {

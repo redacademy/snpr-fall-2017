@@ -12,9 +12,15 @@
   
     $('.search-field').on('blur', function(){
       $('.search-field').stop().animate(
-        {width:0},"slow");
-        $('.search-submit').toggleClass("search-bar-open");
-        $('.menu-toggle').toggleClass("search-bar-open");
+        {width:0}, 500);
+
+        function showIcons(){
+          $('.search-submit').toggleClass("search-bar-open");
+          $('.menu-toggle').toggleClass("search-bar-open");
+        }
+        setTimeout(showIcons, 501);
+
+       
   
     });
 
@@ -22,14 +28,33 @@
 
 
 
+  //  $('.menu-item').on('click', function(){
+  //    $(this).children().toggleClass('show');
+  //    $(this).toggleClass('border');
+     
+  //    $(this).find('.down').toggleClass('see');
+  //    $(this).find('.right').toggleClass('hide');
+     
+     
+  //  })
+
+
+  // displaying on click for proposed parks
    $('.menu-item').on('click', function(){
-     $(this).children().toggleClass('show');
-     $(this).toggleClass('border');
-     
-     $(this).find('.down').toggleClass('see');
-     $(this).find('.right').toggleClass('hide');
-     
-     
-   })
+    $(this).find('.text').toggleClass('show');
+    $(this).toggleClass('border');
+    
+    $(this).find('.down').toggleClass('see');
+    $(this).find('.right').toggleClass('hide');
+  })
+
+ //smooth scroll
+  $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 2000);
+  });
   
   })(jQuery);

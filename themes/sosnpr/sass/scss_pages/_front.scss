@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
  
   background-position: bottom center;
-  height:600px;
+  height:90vh;
   font-family:$miriam;
   padding-top:50px;
   
@@ -18,14 +18,15 @@
     .bold-title-span{
       
     }
-    padding:15px;
+    padding-top:15px;
     line-height:1;
   }
   h2{
     text-align:center;
     font-size:12px;
     font-weight:100;
-    padding:15px;
+    padding-bottom:15px;
+    color:$forest;
   }
   .learn-more-button{
     border:none;
@@ -39,6 +40,10 @@
     padding:15px;
     font-weight:100;
     font-family:$miriam;
+    a{
+      color:white;
+      text-decoration:none;
+    }
   }
 
 }
@@ -46,7 +51,81 @@
 .recent-updates-header{
   text-align:center;
   font-family:$miriam;
+  text-transform:uppercase;
+  color:$brown-orange
+}
+
+.blog{
+
+  .posts-navigation{
+    display:flex;
+    justify-content:space-around;
+    .nav-previous{
+      width:auto;
+      a{
+        color:$brown_orange;
+        text-transform:uppercase;
+        font-family:$miriam;
+      }
+    }
+  }
+  .owl-item{
+    height:320px;
+  }
+  .carousel-cell{
+    padding:10px;
+    height:320px; 
+    overflow:hidden;
+    
+    img{
+      height:320px;
+      
+    }
+    .entry-header{
+      color:white;
+      font-family:$source;
+      position:absolute;
+      bottom:30px;
+      padding:10px;
+      font-size:12px;
+     
+      a{
+        color:white;
+        text-decoration:none;
+      }
+    }
+  }
+
+  
+  
+  
+
 }
 
 
+@media screen and (min-width: 600px){
+  .front-page-hero{
+    background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg) ;
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+   
+    background-position: bottom center;
+    height:90vh;
+    font-family:$miriam;
+    padding-top:50px;
 
+  }
+}
+@media screen and (min-width: 1000px){
+  .front-page-hero{
+    background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg) ;
+    background-size: 100% 140%;
+    background-repeat: no-repeat;
+   
+    background-position: bottom center;
+    height:90vh;
+    font-family:$miriam;
+    padding-top:50px;
+
+  }
+}

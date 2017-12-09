@@ -1,15 +1,73 @@
 .page-template-resources{
   .resources-hero{
-    background: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg);
+    background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include desktop{
+      background-size: cover;
+      background-repeat: none;
+      background-position: 0% 60%;
+      height: 65vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
   
-  .entry-header, .entry-title{
-    text-transform: uppercase;
-    text-align: center;
-    color: $forest;
+  .post-17{
+    .entry-header{
+      color: $forest;
+      font-family: $miriam;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .entry-content{
+      padding-bottom: 15rem;     
+      @include desktop{
+      padding-bottom: 20rem;
+      }     
+    }
+    p{
+      text-align: center;
+    }
+  }
+  h2{
+    color: $main-orange;
     font-family: $miriam;
+  }
+  a{
+    color: rgb(0, 150, 255);
+    text-decoration: underline;
+    font-weight: 300;
+  }
+  p{
+    font-weight: 300;
+  }
+  
+  ul{
+    li:nth-child(2) {
+      h2{
+        width: 100vw;
+      }
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+    li:nth-child(3) {
+      h2{
+        width: 100vw;
+      }
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+  }
+  .wp-image-70{
   }
 }
