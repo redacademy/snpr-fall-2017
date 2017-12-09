@@ -788,6 +788,10 @@ object {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start; }
+  #secondary .subscribe-button, .widget_area .subscribe-button {
+    position: absolute;
+    bottom: 50px;
+    background: white; }
 
 @media all and (min-width: 1000px) {
   #secondary, .widget_area {
@@ -1026,6 +1030,10 @@ object {
     padding: 15px;
     font-weight: 100;
     font-family: "Miriam Libre", sans-serif; }
+
+.recent-updates-header {
+  text-align: center;
+  font-family: "Miriam Libre", sans-serif; }
 
 .search-field {
   width: 0px;

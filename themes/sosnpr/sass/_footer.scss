@@ -47,6 +47,14 @@
     align-items: flex-start;
   }
   
+  //subscribe button
+  .subscribe-button{
+    position: absolute;
+    bottom: 50px;
+    background: white;
+  }
+
+
 }
 
 @include desktop{
