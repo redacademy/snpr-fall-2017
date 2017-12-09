@@ -81,22 +81,23 @@
       height:320px;
       
     }
+    .entry-header{
+      color:white;
+      font-family:$source;
+      position:absolute;
+      bottom:30px;
+      padding:10px;
+      font-size:12px;
+     
+      a{
+        color:white;
+        text-decoration:none;
+      }
+    }
   }
 
   
-  .entry-header{
-    color:white;
-    font-family:$source;
-    position:absolute;
-    bottom:30px;
-    padding:10px;
-    font-size:12px;
-    text-transform:titlecase;
-    a{
-      color:white;
-      text-decoration:none;
-    }
-  }
+  
   
 
 }
