@@ -669,6 +669,106 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.site-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .site-info .feedback {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    position: fixed;
+    bottom: 80px;
+    max-width: 450px;
+    max-height: 450px;
+    min-width: 430px;
+    min-height: 430px;
+    border-radius: 3%;
+    background: #fff;
+    -ms-flex-item-align: center;
+        align-self: center; }
+    .site-info .feedback .para {
+      font-family: "Source Sans Pro", sans-serif;
+      text-align: center; }
+    .site-info .feedback p {
+      margin: 0; }
+    .site-info .feedback .wpcf7 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: 0;
+      border: 8px solid #eb8e26;
+      border-radius: 3%;
+      max-width: 96%;
+      padding-top: 8px;
+      padding-bottom: 15px; }
+      .site-info .feedback .wpcf7 form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        max-width: 90%;
+        margin: 0; }
+        .site-info .feedback .wpcf7 form input:not(.wpcf7-submit) {
+          min-height: 50px;
+          min-width: 370px;
+          background: #F7F6F6;
+          font-family: "Source Sans Pro", sans-serif; }
+        .site-info .feedback .wpcf7 form textarea {
+          max-height: 100px;
+          min-width: -webkit-max-content;
+          min-width: -moz-max-content;
+          min-width: max-content;
+          background: #F7F6F6;
+          font-family: "Source Sans Pro", sans-serif; }
+        .site-info .feedback .wpcf7 form .wpcf7-submit {
+          margin-left: 110px;
+          height: 50px;
+          width: 150px;
+          margin-top: 15px;
+          background: #eb8e26;
+          color: #fff;
+          text-shadow: none;
+          -webkit-box-shadow: none;
+                  box-shadow: none;
+          font-family: "Source Sans Pro", sans-serif;
+          font-size: 20px; }
+  .site-info .hide {
+    display: none; }
+  .site-info .show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .site-info .wpcf7-response-output {
+    margin: 0;
+    border: none;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center; }
+
 #secondary, .widget_area {
   height: 540px;
   width: 100vw;
@@ -693,7 +793,8 @@ object {
       line-height: 1.8rem;
       color: white;
       margin: 0;
-      font-weight: 300; }
+      font-weight: 300;
+      text-align: left; }
     #secondary .widget_text a, #secondary .textwidget a, .widget_area .widget_text a, .widget_area .textwidget a {
       margin: 0rem 0.5rem; }
     #secondary .widget_text i, #secondary .textwidget i, .widget_area .widget_text i, .widget_area .textwidget i {
@@ -717,6 +818,15 @@ object {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start; }
+<<<<<<< HEAD
+=======
+  #secondary .subscribe-form, .widget_area .subscribe-form {
+    display: none; }
+  #secondary .subscribe-form-show, .widget_area .subscribe-form-show {
+    position: absolute;
+    bottom: 50px;
+    background: white; }
+>>>>>>> 5f738e49badea247d7065f555cfb424a47ff7b8e
 
 @media all and (min-width: 1000px) {
   #secondary, .widget_area {
@@ -735,7 +845,7 @@ object {
         -ms-flex-align: start;
             align-items: flex-start;
     background-color: #eb8e26;
-    padding-top: 2.5rem; }
+    padding-top: rem; }
     #secondary .wp-image-62, #secondary .wp-image-63, .widget_area .wp-image-62, .widget_area .wp-image-63 {
       padding-top: 1.5rem;
       height: 80px;
@@ -939,16 +1049,95 @@ object {
           -ms-flex-align: center;
               align-items: center; } }
 
+.page-template-resources .resources-nav {
+  width: 100vw;
+  height: 15rem;
+  background: #eb8e26;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-template-resources .resources-nav .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 90vw; }
+  .page-template-resources .resources-nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-family: "Miriam Libre", sans-serif; }
+  .page-template-resources .resources-nav .resources-nav-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .page-template-resources .resources-nav .resources-nav-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .page-template-resources .resources-nav .resources-nav-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
 .page-template-resources .post-17 .entry-header {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
   text-align: center; }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .post-17 .entry-header {
+      font-size: 1.5rem; } }
 
 .page-template-resources .post-17 .entry-content {
   padding-bottom: 15rem; }
   @media all and (min-width: 1000px) {
     .page-template-resources .post-17 .entry-content {
+      font-size: 1.2rem;
       padding-bottom: 20rem; } }
 
 .page-template-resources .post-17 p {
@@ -956,7 +1145,8 @@ object {
 
 .page-template-resources h2 {
   color: #eb8e26;
-  font-family: "Miriam Libre", sans-serif; }
+  font-family: "Miriam Libre", sans-serif;
+  padding: 3rem 0rem 0rem 3rem; }
 
 .page-template-resources a {
   color: #0096ff;
@@ -964,9 +1154,10 @@ object {
   font-weight: 300; }
 
 .page-template-resources p {
-  font-weight: 300; }
+  font-weight: 300;
+  padding-left: 3rem; }
 
-.page-template-resources ul li:nth-child(2) {
+.page-template-resources .resources-ul li:nth-child(2) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -977,10 +1168,10 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-resources ul li:nth-child(2) h2 {
+  .page-template-resources .resources-ul li:nth-child(2) h2 {
     width: 100vw; }
 
-.page-template-resources ul li:nth-child(3) {
+.page-template-resources .resources-ul li:nth-child(3) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -991,8 +1182,28 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-resources ul li:nth-child(3) h2 {
+  .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
+
+.page-template-resources .resources-ul li:nth-child(7) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 50%; }
+
+.page-template-resources .resources-ul li:nth-child(8) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 50%; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands.jpg);
@@ -1506,16 +1717,95 @@ object {
           -ms-flex-align: center;
               align-items: center; } }
 
+.page-template-resources .resources-nav {
+  width: 100vw;
+  height: 15rem;
+  background: #eb8e26;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-template-resources .resources-nav .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 90vw; }
+  .page-template-resources .resources-nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-family: "Miriam Libre", sans-serif; }
+  .page-template-resources .resources-nav .resources-nav-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .page-template-resources .resources-nav .resources-nav-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .page-template-resources .resources-nav .resources-nav-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
 .page-template-resources .post-17 .entry-header {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
   text-align: center; }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .post-17 .entry-header {
+      font-size: 1.5rem; } }
 
 .page-template-resources .post-17 .entry-content {
   padding-bottom: 15rem; }
   @media all and (min-width: 1000px) {
     .page-template-resources .post-17 .entry-content {
+      font-size: 1.2rem;
       padding-bottom: 20rem; } }
 
 .page-template-resources .post-17 p {
@@ -1523,7 +1813,8 @@ object {
 
 .page-template-resources h2 {
   color: #eb8e26;
-  font-family: "Miriam Libre", sans-serif; }
+  font-family: "Miriam Libre", sans-serif;
+  padding: 3rem 0rem 0rem 3rem; }
 
 .page-template-resources a {
   color: #0096ff;
@@ -1531,9 +1822,10 @@ object {
   font-weight: 300; }
 
 .page-template-resources p {
-  font-weight: 300; }
+  font-weight: 300;
+  padding-left: 3rem; }
 
-.page-template-resources ul li:nth-child(2) {
+.page-template-resources .resources-ul li:nth-child(2) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1544,10 +1836,10 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-resources ul li:nth-child(2) h2 {
+  .page-template-resources .resources-ul li:nth-child(2) h2 {
     width: 100vw; }
 
-.page-template-resources ul li:nth-child(3) {
+.page-template-resources .resources-ul li:nth-child(3) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1558,9 +1850,10 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-resources ul li:nth-child(3) h2 {
+  .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
 
+<<<<<<< HEAD
 .single-hero {
   background-image: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg);
   background-size: 100% 140%;
@@ -1588,11 +1881,90 @@ object {
   text-transform: uppercase; }
 
 .single-post .nav-links {
+=======
+<<<<<<< HEAD
+.page-template-resources .resources-ul li:nth-child(7) {
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.page-template-resources ul li:nth-child(7) {
+>>>>>>> 5f738e49badea247d7065f555cfb424a47ff7b8e
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 50%; }
+
+.page-template-resources .resources-ul li:nth-child(8) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 50%; }
+
+.error404 .hero-404 {
+  background: url("../../sos_assets/error404/error404.jpg");
+  background-size: cover;
+  height: 90vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 1000px) {
+    .error404 .hero-404 {
+      background-position: 30% 30%; } }
+
+.error404 .page-title {
+  color: #285817;
+  font-family: "Miriam Libre", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.5rem; }
+  @media all and (min-width: 1000px) {
+    .error404 .page-title {
+      font-size: 3.5rem; } }
+
+.error404 .page-content {
+  width: 90vw;
+  padding-bottom: 20rem;
+  margin-top: -20px;
+  font-family: "Source Sans Pro", sans-serif; }
+  @media all and (min-width: 1000px) {
+    .error404 .page-content {
+      font-size: 1.2rem;
+      padding-bottom: 25rem; } }
+
+.error404 p {
+  text-align: center;
+  color: #285817;
+  line-height: 0.7rem;
+  margin-bottom: 0rem; }
+
+.error404 .search-form {
+>>>>>>> 422ce569a1c2210e64f99c37abf83b3fb1f3d8f6
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
+<<<<<<< HEAD
           justify-content: center; }
   .single-post .nav-links .nav-previous {
     width: 100px;
@@ -1607,6 +1979,24 @@ object {
     background-size: 200% 200%;
     background-position: center center; }
 
+=======
+          justify-content: center;
+  margin-top: 5rem; }
+
+.error404 .search-field {
+  width: 200px;
+  height: 30px;
+  border: #eb8e26 solid 3px; }
+
+.error404 .search-submit {
+  border: none;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #eb8e26; }
+
+>>>>>>> 0d66976818f782f58fcca6649536fb7426188631
+>>>>>>> 422ce569a1c2210e64f99c37abf83b3fb1f3d8f6
 .search-field {
   width: 0px;
   color: black; }

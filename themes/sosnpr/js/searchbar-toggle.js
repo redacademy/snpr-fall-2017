@@ -56,5 +56,57 @@
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 2000);
   });
+
+
+  //feedback form appear on click and remove if anywhere else is clicked
+var remove = true;
+
+
+$(".feedback-button").click(function () {
+    $(".feedback").toggleClass('show');
+    remove = false;
+});
+
+
+$(".feedback").click(function() {
+    remove = false;
+});
+
+
+$("html").click(function () {
+    if (remove) {
+        $(".feedback").removeClass('show');
+        
+    }
+    remove = true;
+});
+
+$('.wpcf7-submit').on('click', function(){
+  if ( $('.wpcf7').find('.wpcf7-response-output')) {
+    $('.para').css('display', 'none');
+    
+    $('.feedback').css('min-height', '480px');
+     
+  var truth = $('form').hasClass('sent');
+
+  console.log(truth);
+
+    
+    
+    
+  }
+});
+
+
+
+
+
+
+
+
+
+  
+  
+  
   
   })(jQuery);

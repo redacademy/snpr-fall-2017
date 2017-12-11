@@ -4,3 +4,114 @@
 
 /* Front page */
 
+//feedback form
+
+
+.site-info {
+  display: flex;
+  justify-content: center;
+
+  
+
+.feedback {
+
+  .para {
+    font-family: $source;
+    text-align: center;
+    
+   
+  }
+  p {
+    margin: 0;
+  }
+  
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  bottom: 80px;
+  max-width: 450px;
+  max-height: 450px;
+  min-width: 430px;
+  min-height: 430px;
+  border-radius: 3%;
+  
+  background: #fff;
+  align-self: center;
+ 
+  .wpcf7 {
+     display: flex;
+    
+     justify-content: center;  
+     margin: 0;
+     border: 8px solid $main-orange;
+     border-radius: 3%;
+     max-width: 96%;
+     padding-top: 8px;
+     padding-bottom: 15px;
+    
+     form {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       max-width: 90%;
+       margin: 0;
+      
+       
+       
+      input:not(.wpcf7-submit) {
+        min-height: 50px;
+        min-width: 370px;
+        background: #F7F6F6;
+        font-family: $source;
+      }
+
+     textarea {
+       max-height: 100px;
+       min-width: max-content;
+       background: #F7F6F6;
+       font-family: $source;
+     }
+     .wpcf7-submit {
+       margin-left: 110px;
+       height: 50px;
+       width: 150px;
+       margin-top: 15px;
+       background: $main-orange;
+       color: #fff;
+       text-shadow: none;
+       box-shadow: none;
+       font-family: $source;
+       font-size: 20px;
+      
+     }
+   }
+  }
+ }
+
+ .hide {
+   display: none;
+ }
+
+ .show {
+   display: flex;
+ }
+
+ .wpcf7-response-output {
+   margin: 0;
+   border: none;
+   font-family: $source;
+   text-align: center;
+ }
+
+ 
+}
+
+
+
+
+
+

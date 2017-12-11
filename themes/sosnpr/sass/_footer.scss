@@ -20,6 +20,7 @@
       color: white;
       margin: 0;
       font-weight: 300;
+      text-align: left;      
     }
     a{
       margin: 0rem 0.5rem;
@@ -47,6 +48,21 @@
     align-items: flex-start;
   }
   
+  //subscribe button
+<<<<<<< HEAD
+
+=======
+  .subscribe-form{
+    display: none;
+  }
+  .subscribe-form-show{
+    position: absolute;
+    bottom: 50px;
+    background: white;
+  }
+>>>>>>> 5f738e49badea247d7065f555cfb424a47ff7b8e
+
+
 }
 
 @include desktop{
@@ -58,7 +74,7 @@
     justify-content: space-around;
     align-items: flex-start;
     background-color: $main-orange;
-    padding-top: 2.5rem;
+    padding-top: rem;
     
     .wp-image-62, .wp-image-63{
       padding-top: 1.5rem;
