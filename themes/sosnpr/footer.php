@@ -21,9 +21,11 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
 </div><!-- #secondary -->
 
-     <div class="feedback">
-			 <p>Feedback or concerns? Send us a message and let us know how we can help you!</p>
-		  <?php echo do_shortcode('[contact-form-7 id="99" title="Contact form 1"]'); ?>
+     <div class="feedback hide">
+			 
+			 
+			 <?php echo do_shortcode('[contact-form-7 id="99" title="Contact form 1"]'); ?>
+      
 		</div>
 		
 				</div><!-- .site-info -->
@@ -32,7 +34,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 
 		<?php wp_footer(); ?>
 		
-
+		<?php echo do_shortcode("[mc4wp_form id='98']");?>
 		
 		
 	</body>
