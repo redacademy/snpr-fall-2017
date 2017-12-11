@@ -769,6 +769,77 @@ object {
     font-family: "Source Sans Pro", sans-serif;
     text-align: center; }
 
+.blog .updates-hero {
+  background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 60%;
+  height: 85vh;
+  font-family: "Miriam Libre", sans-serif;
+  margin-bottom: 70px; }
+  .blog .updates-hero h2 {
+    text-align: center;
+    padding-right: 200px;
+    color: #629749;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 20px; }
+
+.blog .stories-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .blog .stories-container .journal-container {
+    position: relative;
+    margin-bottom: 50px;
+    border: none; }
+    .blog .stories-container .journal-container img {
+      min-width: 800px; }
+    .blog .stories-container .journal-container .button-container {
+      position: absolute;
+      bottom: 5px;
+      background: rgba(0, 0, 0, 0.6);
+      border: none;
+      width: 100%;
+      min-height: 120px; }
+      .blog .stories-container .journal-container .button-container .post-title {
+        max-width: 500px;
+        color: #fff;
+        font-family: "Miriam Libre", sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+        padding-left: 20px; }
+      .blog .stories-container .journal-container .button-container .read-more {
+        position: absolute;
+        left: 600px;
+        bottom: 40px;
+        color: #fff;
+        background: #eb8e26;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: "Miriam Libre", sans-serif;
+        min-width: 170px;
+        border: 6px solid #fff;
+        border-radius: 5px;
+        opacity: 0.8; }
+      .blog .stories-container .journal-container .button-container .posted-on {
+        color: #fff;
+        font-family: "Miriam Libre", sans-serif;
+        padding-left: 20px; }
+
+.blog .search-pagination {
+  margin-bottom: 20px; }
+
 #secondary, .widget_area {
   height: 540px;
   width: 100vw;
@@ -1912,7 +1983,16 @@ object {
   .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
 
+<<<<<<< HEAD
 .page-template-resources .resources-ul .lc-groups {
+=======
+<<<<<<< HEAD
+.page-template-resources ul li:nth-child(7) {
+=======
+<<<<<<< HEAD
+.page-template-resources .resources-ul li:nth-child(7) {
+>>>>>>> 48ce252afbfeac03d78f1b6922a8036eed792c65
+>>>>>>> ce27800e8937744017cdd7635346c21cdaa07dc5
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2125,6 +2205,10 @@ object {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
+<<<<<<< HEAD
+          justify-content: center; }
+
+=======
           justify-content: center;
   margin-top: 5rem; }
 
@@ -2140,6 +2224,18 @@ object {
           box-shadow: none;
   color: #eb8e26; }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 0d66976818f782f58fcca6649536fb7426188631
+>>>>>>> 422ce569a1c2210e64f99c37abf83b3fb1f3d8f6
+>>>>>>> 27d8bf8fc6febefdb88d66bb5cef7fc5cd1116bb
+>>>>>>> 8af0e6f8b32fc1c720cab24129810a2e74d469f1
+>>>>>>> 48ce252afbfeac03d78f1b6922a8036eed792c65
+>>>>>>> ce27800e8937744017cdd7635346c21cdaa07dc5
 .search-field {
   width: 0px;
   padding-left: 15px;
