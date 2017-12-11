@@ -995,7 +995,7 @@ object {
     width: 100vw; }
 
 .front-page-hero {
-  background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
+  background-image: url(../../sos_assets/home-page/south-okanagan-grasslands.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -1040,7 +1040,6 @@ object {
   text-transform: uppercase;
   color: #bf6d0a; }
 
-<<<<<<< HEAD
 .blog .posts-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1054,8 +1053,6 @@ object {
       text-transform: uppercase;
       font-family: "Miriam Libre", sans-serif; }
 
-=======
->>>>>>> 17176742772ea115389ee42e36f2223654063dac
 .blog .owl-item {
   height: 320px; }
 
@@ -1065,18 +1062,16 @@ object {
   overflow: hidden; }
   .blog .carousel-cell img {
     height: 320px; }
-
-.blog .entry-header {
-  color: white;
-  font-family: "Source Sans Pro", sans-serif;
-  position: absolute;
-  bottom: 30px;
-  padding: 10px;
-  font-size: 12px;
-  text-transform: titlecase; }
-  .blog .entry-header a {
+  .blog .carousel-cell .entry-header {
     color: white;
-    text-decoration: none; }
+    font-family: "Source Sans Pro", sans-serif;
+    position: absolute;
+    bottom: 30px;
+    padding: 10px;
+    font-size: 12px; }
+    .blog .carousel-cell .entry-header a {
+      color: white;
+      text-decoration: none; }
 
 @media screen and (min-width: 600px) {
   .front-page-hero {
@@ -1565,6 +1560,52 @@ object {
           justify-content: center; }
   .page-template-resources ul li:nth-child(3) h2 {
     width: 100vw; }
+
+.single-hero {
+  background-image: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg);
+  background-size: 100% 140%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 90vh;
+  font-family: "Miriam Libre", sans-serif;
+  padding-top: 50px; }
+  .single-hero h1 {
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 15px;
+    line-height: 1; }
+
+.single-post .site-main {
+  padding: 15px; }
+
+.single-post .entry-title {
+  line-height: 1.5;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase; }
+
+.single-post .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .single-post .nav-links .nav-previous {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../sos_assets/ui-icons/pagination-prev.svg);
+    background-size: 200% 200%;
+    background-position: center center; }
+  .single-post .nav-links .nav-next {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../sos_assets/ui-icons/pagination-next.svg);
+    background-size: 200% 200%;
+    background-position: center center; }
 
 .search-field {
   width: 0px;
