@@ -1070,9 +1070,6 @@ object {
   text-transform: uppercase;
   color: #bf6d0a; }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 .blog .posts-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1086,9 +1083,6 @@ object {
       text-transform: uppercase;
       font-family: "Miriam Libre", sans-serif; }
 
-=======
->>>>>>> 17176742772ea115389ee42e36f2223654063dac
->>>>>>> 56464c32f90b32b233bc491cde788a427df579e8
 .blog .owl-item {
   height: 320px; }
 
@@ -1098,21 +1092,17 @@ object {
   overflow: hidden; }
   .blog .carousel-cell img {
     height: 320px; }
-
-.blog .entry-header {
-  color: white;
-  font-family: "Source Sans Pro", sans-serif;
-  position: absolute;
-  bottom: 30px;
-  padding: 10px;
-  font-size: 12px;
-  text-transform: titlecase; }
-  .blog .entry-header a {
+  .blog .carousel-cell .entry-header {
     color: white;
-    text-decoration: none; }
+    font-family: "Source Sans Pro", sans-serif;
+    position: absolute;
+    bottom: 30px;
+    padding: 10px;
+    font-size: 12px; }
+    .blog .carousel-cell .entry-header a {
+      color: white;
+      text-decoration: none; }
 
-<<<<<<< HEAD
-=======
 @media screen and (min-width: 600px) {
   .front-page-hero {
     background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
@@ -1133,7 +1123,6 @@ object {
     font-family: "Miriam Libre", sans-serif;
     padding-top: 50px; } }
 
->>>>>>> 56464c32f90b32b233bc491cde788a427df579e8
 .page-template-proposed-park .entry-title {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
@@ -1601,10 +1590,6 @@ object {
           justify-content: center; }
   .page-template-resources ul li:nth-child(3) h2 {
     width: 100vw; }
-
-.recent-updates-header {
-  text-align: center;
-  font-family: "Miriam Libre", sans-serif; }
 
 .search-field {
   width: 0px;
