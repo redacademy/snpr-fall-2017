@@ -1,0 +1,59 @@
+.single-hero{
+  background-image: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg) ;
+  background-size: 100% 140%;
+  background-repeat: no-repeat;
+ 
+  background-position: bottom center;
+  height:90vh;
+  font-family:$miriam;
+  padding-top:50px;
+
+  h1{
+    color:$forest;
+    font-family:$miriam;
+    text-align:center;
+    font-size:28px;
+    text-transform:uppercase;
+    display:block;
+    .bold-title-span{
+      
+    }
+    padding-top:15px;
+    line-height:1;
+  }
+}
+
+.single-post{
+  .site-main{
+    padding:15px;
+  }
+
+  .entry-title{
+    line-height:1.5;
+    font-family:$source;
+    text-transform:uppercase;
+
+  }
+
+  .nav-links{
+    display:flex;
+    justify-content:center;
+    .nav-previous{
+      width:100px;
+      height:100px;
+      background-image: url(../../sos_assets/ui-icons/pagination-prev.svg) ;
+      background-size:200% 200%;
+      background-position: center center;
+
+    }
+    .nav-next{
+      width:100px;
+      height:100px;
+      background-image: url(../../sos_assets/ui-icons/pagination-next.svg) ;
+      background-size:200% 200%;
+      background-position: center center;
+    }
+
+  }
+
+}
