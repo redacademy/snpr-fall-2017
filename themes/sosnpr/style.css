@@ -719,7 +719,8 @@ object {
       line-height: 1.8rem;
       color: white;
       margin: 0;
-      font-weight: 300; }
+      font-weight: 300;
+      text-align: left; }
     #secondary .widget_text a, #secondary .textwidget a, .widget_area .widget_text a, .widget_area .textwidget a {
       margin: 0rem 0.5rem; }
     #secondary .widget_text i, #secondary .textwidget i, .widget_area .widget_text i, .widget_area .textwidget i {
@@ -743,10 +744,6 @@ object {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start; }
-  #secondary .subscribe-button, .widget_area .subscribe-button {
-    position: absolute;
-    bottom: 50px;
-    background: white; }
 
 @media all and (min-width: 1000px) {
   #secondary, .widget_area {
@@ -765,7 +762,7 @@ object {
         -ms-flex-align: start;
             align-items: flex-start;
     background-color: #eb8e26;
-    padding-top: 1rem; }
+    padding-top: rem; }
     #secondary .wp-image-62, #secondary .wp-image-63, .widget_area .wp-image-62, .widget_area .wp-image-63 {
       padding-top: 1.5rem;
       height: 80px;
@@ -972,18 +969,92 @@ object {
 .page-template-resources .resources-nav {
   width: 100vw;
   height: 15rem;
-  background: #eb8e26; }
+  background: #eb8e26;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-template-resources .resources-nav .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 90vw; }
+  .page-template-resources .resources-nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-family: "Miriam Libre", sans-serif; }
+  .page-template-resources .resources-nav .resources-nav-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .page-template-resources .resources-nav .resources-nav-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .page-template-resources .resources-nav .resources-nav-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 .page-template-resources .post-17 .entry-header {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
   text-align: center; }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .post-17 .entry-header {
+      font-size: 1.5rem; } }
 
 .page-template-resources .post-17 .entry-content {
   padding-bottom: 15rem; }
   @media all and (min-width: 1000px) {
     .page-template-resources .post-17 .entry-content {
+      font-size: 1.2rem;
       padding-bottom: 20rem; } }
 
 .page-template-resources .post-17 p {
@@ -1003,7 +1074,7 @@ object {
   font-weight: 300;
   padding-left: 3rem; }
 
-.page-template-resources ul li:nth-child(2) {
+.page-template-resources .resources-ul li:nth-child(2) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1014,10 +1085,10 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-resources ul li:nth-child(2) h2 {
+  .page-template-resources .resources-ul li:nth-child(2) h2 {
     width: 100vw; }
 
-.page-template-resources ul li:nth-child(3) {
+.page-template-resources .resources-ul li:nth-child(3) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1028,10 +1099,10 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-resources ul li:nth-child(3) h2 {
+  .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
 
-.page-template-resources ul li:nth-child(7) {
+.page-template-resources .resources-ul li:nth-child(7) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1041,7 +1112,7 @@ object {
           flex-flow: column wrap;
   width: 50%; }
 
-.page-template-resources ul li:nth-child(8) {
+.page-template-resources .resources-ul li:nth-child(8) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1097,9 +1168,6 @@ object {
   text-transform: uppercase;
   color: #bf6d0a; }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 .blog .posts-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1113,9 +1181,6 @@ object {
       text-transform: uppercase;
       font-family: "Miriam Libre", sans-serif; }
 
-=======
->>>>>>> 17176742772ea115389ee42e36f2223654063dac
->>>>>>> 56464c32f90b32b233bc491cde788a427df579e8
 .blog .owl-item {
   height: 320px; }
 
@@ -1125,21 +1190,17 @@ object {
   overflow: hidden; }
   .blog .carousel-cell img {
     height: 320px; }
-
-.blog .entry-header {
-  color: white;
-  font-family: "Source Sans Pro", sans-serif;
-  position: absolute;
-  bottom: 30px;
-  padding: 10px;
-  font-size: 12px;
-  text-transform: titlecase; }
-  .blog .entry-header a {
+  .blog .carousel-cell .entry-header {
     color: white;
-    text-decoration: none; }
+    font-family: "Source Sans Pro", sans-serif;
+    position: absolute;
+    bottom: 30px;
+    padding: 10px;
+    font-size: 12px; }
+    .blog .carousel-cell .entry-header a {
+      color: white;
+      text-decoration: none; }
 
-<<<<<<< HEAD
-=======
 @media screen and (min-width: 600px) {
   .front-page-hero {
     background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
@@ -1160,7 +1221,6 @@ object {
     font-family: "Miriam Libre", sans-serif;
     padding-top: 50px; } }
 
->>>>>>> 56464c32f90b32b233bc491cde788a427df579e8
 .page-template-proposed-park .entry-title {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
@@ -1577,18 +1637,92 @@ object {
 .page-template-resources .resources-nav {
   width: 100vw;
   height: 15rem;
-  background: #eb8e26; }
+  background: #eb8e26;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-template-resources .resources-nav .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 90vw; }
+  .page-template-resources .resources-nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-family: "Miriam Libre", sans-serif; }
+  .page-template-resources .resources-nav .resources-nav-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .page-template-resources .resources-nav .resources-nav-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .page-template-resources .resources-nav .resources-nav-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 .page-template-resources .post-17 .entry-header {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
   text-align: center; }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .post-17 .entry-header {
+      font-size: 1.5rem; } }
 
 .page-template-resources .post-17 .entry-content {
   padding-bottom: 15rem; }
   @media all and (min-width: 1000px) {
     .page-template-resources .post-17 .entry-content {
+      font-size: 1.2rem;
       padding-bottom: 20rem; } }
 
 .page-template-resources .post-17 p {
@@ -1608,7 +1742,7 @@ object {
   font-weight: 300;
   padding-left: 3rem; }
 
-.page-template-resources ul li:nth-child(2) {
+.page-template-resources .resources-ul li:nth-child(2) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1619,10 +1753,10 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-resources ul li:nth-child(2) h2 {
+  .page-template-resources .resources-ul li:nth-child(2) h2 {
     width: 100vw; }
 
-.page-template-resources ul li:nth-child(3) {
+.page-template-resources .resources-ul li:nth-child(3) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1633,11 +1767,10 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-resources ul li:nth-child(3) h2 {
+  .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
 
-<<<<<<< HEAD
-.page-template-resources ul li:nth-child(7) {
+.page-template-resources .resources-ul li:nth-child(7) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1647,7 +1780,7 @@ object {
           flex-flow: column wrap;
   width: 50%; }
 
-.page-template-resources ul li:nth-child(8) {
+.page-template-resources .resources-ul li:nth-child(8) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1683,23 +1816,27 @@ object {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  line-height: 1.5rem; }
   @media all and (min-width: 1000px) {
     .error404 .page-title {
-      font-size: 3rem; } }
+      font-size: 3.5rem; } }
 
 .error404 .page-content {
   width: 90vw;
   padding-bottom: 20rem;
-  margin-top: -20px; }
+  margin-top: -20px;
+  font-family: "Source Sans Pro", sans-serif; }
   @media all and (min-width: 1000px) {
     .error404 .page-content {
       font-size: 1.2rem;
-      padding-bottom: 20rem; } }
+      padding-bottom: 25rem; } }
 
 .error404 p {
   text-align: center;
-  color: #285817; }
+  color: #285817;
+  line-height: 0.7rem;
+  margin-bottom: 0rem; }
 
 .error404 .search-form {
   display: -webkit-box;
@@ -1707,12 +1844,20 @@ object {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
-=======
-.recent-updates-header {
-  text-align: center;
-  font-family: "Miriam Libre", sans-serif; }
->>>>>>> e854b258165020e7593c6201310cf90d072a984f
+          justify-content: center;
+  margin-top: 5rem; }
+
+.error404 .search-field {
+  width: 200px;
+  height: 30px;
+  border: #eb8e26 solid 3px; }
+
+.error404 .search-submit {
+  border: none;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #eb8e26; }
 
 .search-field {
   width: 0px;

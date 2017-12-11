@@ -19,7 +19,9 @@ get_header(); ?>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-					<p><?php echo esc_html( "We can't find the page your looking for. Please use our search bar below:" ); ?></p>
+					<p><?php echo esc_html( "We can't find the page your looking for." ); ?></p>
+					<p><?php echo esc_html( "Please use the search bar below:" ); ?></p>
+
 
 					<?php get_search_form(); ?>
 

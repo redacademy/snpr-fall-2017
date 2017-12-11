@@ -20,6 +20,7 @@
       color: white;
       margin: 0;
       font-weight: 300;
+      text-align: left;      
     }
     a{
       margin: 0rem 0.5rem;
@@ -48,11 +49,7 @@
   }
   
   //subscribe button
-  .subscribe-button{
-    position: absolute;
-    bottom: 50px;
-    background: white;
-  }
+
 
 
 }
@@ -66,7 +63,7 @@
     justify-content: space-around;
     align-items: flex-start;
     background-color: $main-orange;
-    padding-top: 1rem;
+    padding-top: rem;
     
     .wp-image-62, .wp-image-63{
       padding-top: 1.5rem;

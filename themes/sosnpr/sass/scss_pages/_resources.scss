@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     @include desktop{
       background-size: cover;
       background-repeat: none;
@@ -19,24 +19,65 @@
       align-items: center;
     }
   }
-
+  
   .resources-nav{
     width: 100vw;
     height: 15rem;
     background: $main-orange;
-  }
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+    .nav-links{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      width: 90vw;
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: $source;
+      font-size: 1.5rem;
+      line-height: 3rem;
+      font-family: $miriam;      
+    }
+    .resources-nav-1{
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: flex-start;      
+      align-items: center;
+    }
+    .resources-nav-2{
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: flex-start;      
+      align-items: center;      
+    }
+    .resources-nav-3{
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: flex-start;      
+      align-items: center;      
+    }
+  }
+  
   .post-17{
     .entry-header{
       color: $forest;
       font-family: $miriam;
       text-transform: uppercase;
       text-align: center;
+      @include desktop{
+        font-size: 1.5rem;
+      }
     }
     .entry-content{
-      padding-bottom: 15rem;     
+      padding-bottom: 15rem;
       @include desktop{
-      padding-bottom: 20rem;
+        font-size: 1.2rem;        
+        padding-bottom: 20rem;
       }     
     }
     p{
@@ -58,7 +99,7 @@
     padding-left: 3rem;	    
   }
   
-  ul{
+  .resources-ul{
     li:nth-child(2) {
       h2{
         width: 100vw;
@@ -85,7 +126,5 @@
       flex-flow: column wrap;
       width: 50%;
     }
-  }
-  .wp-image-70{
   }
 }
