@@ -818,15 +818,12 @@ object {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start; }
-<<<<<<< HEAD
-=======
   #secondary .subscribe-form, .widget_area .subscribe-form {
     display: none; }
   #secondary .subscribe-form-show, .widget_area .subscribe-form-show {
     position: absolute;
     bottom: 50px;
     background: white; }
->>>>>>> 5f738e49badea247d7065f555cfb424a47ff7b8e
 
 @media all and (min-width: 1000px) {
   #secondary, .widget_area {
@@ -1131,14 +1128,16 @@ object {
   text-align: center; }
   @media all and (min-width: 1000px) {
     .page-template-resources .post-17 .entry-header {
-      font-size: 1.5rem; } }
+      font-size: 1.8rem; } }
 
 .page-template-resources .post-17 .entry-content {
+  color: #285817;
+  font-family: "Source Sans Pro", sans-serif;
   padding-bottom: 15rem; }
   @media all and (min-width: 1000px) {
     .page-template-resources .post-17 .entry-content {
-      font-size: 1.2rem;
-      padding-bottom: 20rem; } }
+      font-size: 1.5rem;
+      padding-bottom: 18rem; } }
 
 .page-template-resources .post-17 p {
   text-align: center; }
@@ -1185,25 +1184,62 @@ object {
   .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
 
-.page-template-resources .resources-ul li:nth-child(7) {
+.page-template-resources .resources-ul .lc-groups {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  width: 50%; }
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  .page-template-resources .resources-ul .lc-groups li:nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap; }
+  .page-template-resources .resources-ul .lc-groups li:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
 
-.page-template-resources .resources-ul li:nth-child(8) {
+.page-template-resources .divider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  width: 50%; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-resources .divider .scroll-up {
+    position: relative;
+    background: #555454;
+    border-radius: 30px;
+    padding: 17px 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    z-index: 200; }
+  .page-template-resources .divider .divider-line {
+    position: absolute;
+    border-bottom: #eb8e26 solid 2px;
+    width: 92vw;
+    margin-top: 20px;
+    z-index: 0; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
@@ -1799,14 +1835,16 @@ object {
   text-align: center; }
   @media all and (min-width: 1000px) {
     .page-template-resources .post-17 .entry-header {
-      font-size: 1.5rem; } }
+      font-size: 1.8rem; } }
 
 .page-template-resources .post-17 .entry-content {
+  color: #285817;
+  font-family: "Source Sans Pro", sans-serif;
   padding-bottom: 15rem; }
   @media all and (min-width: 1000px) {
     .page-template-resources .post-17 .entry-content {
-      font-size: 1.2rem;
-      padding-bottom: 20rem; } }
+      font-size: 1.5rem;
+      padding-bottom: 18rem; } }
 
 .page-template-resources .post-17 p {
   text-align: center; }
@@ -1853,32 +1891,62 @@ object {
   .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
 
-<<<<<<< HEAD
-.page-template-resources .resources-ul li:nth-child(7) {
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-.page-template-resources ul li:nth-child(7) {
->>>>>>> 5f738e49badea247d7065f555cfb424a47ff7b8e
+.page-template-resources .resources-ul .lc-groups {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  width: 50%; }
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  .page-template-resources .resources-ul .lc-groups li:nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap; }
+  .page-template-resources .resources-ul .lc-groups li:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
 
-.page-template-resources .resources-ul li:nth-child(8) {
+.page-template-resources .divider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  width: 50%; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-resources .divider .scroll-up {
+    position: relative;
+    background: #555454;
+    border-radius: 30px;
+    padding: 17px 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    z-index: 200; }
+  .page-template-resources .divider .divider-line {
+    position: absolute;
+    border-bottom: #eb8e26 solid 2px;
+    width: 92vw;
+    margin-top: 20px;
+    z-index: 0; }
 
 .error404 .hero-404 {
   background: url("../../sos_assets/error404/error404.jpg");
@@ -1949,7 +2017,6 @@ object {
           box-shadow: none;
   color: #eb8e26; }
 
->>>>>>> 0d66976818f782f58fcca6649536fb7426188631
 .search-field {
   width: 0px;
   color: black; }
