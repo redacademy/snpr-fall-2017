@@ -669,6 +669,32 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.site-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .site-info .feedback {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    bottom: 60px;
+    min-width: 500px;
+    background: #fff;
+    -ms-flex-item-align: center;
+        align-self: center;
+    display: none; }
+
 #secondary, .widget_area {
   height: 540px;
   width: 100vw;
@@ -717,6 +743,10 @@ object {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start; }
+  #secondary .subscribe-button, .widget_area .subscribe-button {
+    position: absolute;
+    bottom: 50px;
+    background: white; }
 
 @media all and (min-width: 1000px) {
   #secondary, .widget_area {
@@ -1026,7 +1056,7 @@ object {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  height: 510px;
+  height: 90vh;
   font-family: "Miriam Libre", sans-serif;
   padding-top: 50px; }
   .front-page-hero h1 {
@@ -1067,6 +1097,25 @@ object {
   text-transform: uppercase;
   color: #bf6d0a; }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.blog .posts-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .blog .posts-navigation .nav-previous {
+    width: auto; }
+    .blog .posts-navigation .nav-previous a {
+      color: #bf6d0a;
+      text-transform: uppercase;
+      font-family: "Miriam Libre", sans-serif; }
+
+=======
+>>>>>>> 17176742772ea115389ee42e36f2223654063dac
+>>>>>>> 56464c32f90b32b233bc491cde788a427df579e8
 .blog .owl-item {
   height: 320px; }
 
@@ -1083,11 +1132,35 @@ object {
   position: absolute;
   bottom: 30px;
   padding: 10px;
-  font-size: 12px; }
+  font-size: 12px;
+  text-transform: titlecase; }
   .blog .entry-header a {
     color: white;
     text-decoration: none; }
 
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 600px) {
+  .front-page-hero {
+    background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 90vh;
+    font-family: "Miriam Libre", sans-serif;
+    padding-top: 50px; } }
+
+@media screen and (min-width: 1000px) {
+  .front-page-hero {
+    background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
+    background-size: 100% 140%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 90vh;
+    font-family: "Miriam Libre", sans-serif;
+    padding-top: 50px; } }
+
+>>>>>>> 56464c32f90b32b233bc491cde788a427df579e8
 .page-template-proposed-park .entry-title {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
@@ -1563,6 +1636,7 @@ object {
   .page-template-resources ul li:nth-child(3) h2 {
     width: 100vw; }
 
+<<<<<<< HEAD
 .page-template-resources ul li:nth-child(7) {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1634,6 +1708,11 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+=======
+.recent-updates-header {
+  text-align: center;
+  font-family: "Miriam Libre", sans-serif; }
+>>>>>>> e854b258165020e7593c6201310cf90d072a984f
 
 .search-field {
   width: 0px;
@@ -1655,7 +1734,8 @@ object {
   top: 5px;
   width: 0;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  line-height: 2; }
 
 .main-navigation fieldset {
   border: none; }
@@ -1666,7 +1746,7 @@ object {
   -webkit-box-shadow: none;
           box-shadow: none;
   height: 50px;
-  width: 50px;
+  width: 65px;
   color: #bf6d0a; }
 
 .search-open,
@@ -1703,8 +1783,8 @@ object {
 
 .menu1 {
   position: absolute;
-  height: 300px;
-  width: 250px;
+  height: 330px;
+  width: 200px;
   z-index: 10;
   background: white;
   top: 3px;
@@ -1715,6 +1795,7 @@ object {
   border-color: #ccc #ccc #bbb;
   display: none; }
   .menu1 .menu-menu-1-container {
+    padding-left: 20px;
     padding-right: 20px; }
     .menu1 .menu-menu-1-container ul {
       display: -webkit-box;
@@ -1727,15 +1808,18 @@ object {
       -ms-flex-pack: distribute;
           justify-content: space-around; }
       .menu1 .menu-menu-1-container ul li {
-        text-align: center;
+        text-align: left;
         line-height: 3.5;
+        font-size: 18px;
+        text-transform: uppercase;
         font-family: "Miriam Libre", sans-serif; }
         .menu1 .menu-menu-1-container ul li a {
           color: #285817; }
       .menu1 .menu-menu-1-container ul .menu-item-77 {
         background: #eb8e26; }
         .menu1 .menu-menu-1-container ul .menu-item-77 a {
-          color: white; }
+          color: white;
+          text-align: center; }
 
 .menu-show {
   display: block; }
@@ -1799,15 +1883,21 @@ object {
       .menu1 .menu-menu-1-container ul li {
         text-align: center;
         line-height: 1;
+        padding-top: 20px;
+        padding-bottom: 20px;
         font-family: "Miriam Libre", sans-serif; }
         .menu1 .menu-menu-1-container ul li a {
           color: #eb8e26;
           font-family: "Miriam Libre", sans-serif;
           font-size: 16px; }
       .menu1 .menu-menu-1-container ul .menu-item-77 {
+        padding-left: 15px;
+        padding-right: 15px;
         background: #eb8e26; }
         .menu1 .menu-menu-1-container ul .menu-item-77 a {
-          color: white; } }
+          color: white;
+          padding-left: 5px;
+          padding-right: 5px; } }
 
 @media screen and (min-width: 1000px) {
   .menu1 {
@@ -1850,7 +1940,7 @@ object {
         .menu1 .menu-menu-1-container ul li a {
           color: #eb8e26;
           font-family: "Miriam Libre", sans-serif;
-          font-size: 25px; }
+          font-size: 20px; }
       .menu1 .menu-menu-1-container ul .menu-item-77 {
         background: #eb8e26; }
         .menu1 .menu-menu-1-container ul .menu-item-77 a {

@@ -16,8 +16,8 @@
 
 .menu1{
   position:absolute;
-  height:300px;
-  width:250px;
+  height:330px;
+  width:200px;
   z-index: 10;
   background:white;
   top:3px;
@@ -29,15 +29,17 @@
   
     
   .menu-menu-1-container{
+    padding-left:20px;
     padding-right:20px;
   ul{
     display:flex;
     flex-direction:column;
     justify-content:space-around;
     li{
-      text-align:center;
+      text-align:left;
       line-height:3.5;
-      
+      font-size:18px;
+      text-transform:uppercase;
       font-family:$miriam;
       a{
         color:$forest;
@@ -46,6 +48,7 @@
     .menu-item-77{
       a{
         color:white;
+        text-align:center;
       }
       background:$main_orange;
     }
@@ -106,6 +109,8 @@
       li{
         text-align:center;
         line-height:1;
+        padding-top:20px;
+        padding-bottom:20px;
         
         font-family:$miriam;
         a{
@@ -115,8 +120,13 @@
         }
       }
       .menu-item-77{
+        
+        padding-left:15px;
+        padding-right:15px;
         a{
           color:white;
+          padding-left:5px;
+          padding-right:5px;
         }
         background:$main_orange;
       }
@@ -157,7 +167,7 @@
           a{
             color:$main-orange;
             font-family:$miriam;
-            font-size:25px;
+            font-size:20px;
           }
         }
         .menu-item-77{
