@@ -60,13 +60,10 @@
   .posts-navigation{
     display:flex;
     justify-content:space-around;
-    .nav-previous{
-      width:auto;
-      a{
+    a{
         color:$brown_orange;
         text-transform:uppercase;
         font-family:$miriam;
-      }
     }
   }
   .owl-item{

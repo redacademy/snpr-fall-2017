@@ -1293,12 +1293,10 @@ object {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
-  .page-id-101 .posts-navigation .nav-previous {
-    width: auto; }
-    .page-id-101 .posts-navigation .nav-previous a {
-      color: #bf6d0a;
-      text-transform: uppercase;
-      font-family: "Miriam Libre", sans-serif; }
+  .page-id-101 .posts-navigation a {
+    color: #bf6d0a;
+    text-transform: uppercase;
+    font-family: "Miriam Libre", sans-serif; }
 
 .page-id-101 .owl-item {
   height: 320px; }
@@ -1914,147 +1912,7 @@ object {
   .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
 
-<<<<<<< HEAD
-.page-template-resources .resources-ul li:nth-child(7) {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  width: 50%; }
-
-.page-template-resources .resources-ul li:nth-child(8) {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  width: 50%; }
-
-=======
-<<<<<<< HEAD
 .page-template-resources .resources-ul .lc-groups {
-=======
-<<<<<<< HEAD
->>>>>>> 8af0e6f8b32fc1c720cab24129810a2e74d469f1
-.single-hero {
-  background-image: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg);
-  background-size: 100% 140%;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  height: 90vh;
-  font-family: "Miriam Libre", sans-serif;
-  padding-top: 50px; }
-  .single-hero h1 {
-    color: #285817;
-    font-family: "Miriam Libre", sans-serif;
-    text-align: center;
-    font-size: 28px;
-    text-transform: uppercase;
-    display: block;
-    padding-top: 15px;
-    line-height: 1; }
-
-.single-post .site-main {
-  padding: 15px;
-  font-family: "Source Sans Pro", sans-serif; }
-
-.single-post .single-navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%; }
-
-.single-post .return-home {
-  background-image: url(../../sos_assets/ui-icons/pagination-ret.svg);
-  background-size: 260% 200%;
-  background-position: 43% 48%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  width: 100px;
-  height: 100px; }
-  .single-post .return-home a {
-    position: absolute;
-    bottom: 0;
-    text-transform: uppercase;
-    padding-top: 63px;
-    padding-left: 10px;
-    color: black;
-    font-size: 10px;
-    text-decoration: none; }
-
-.single-post .entry-title {
-  line-height: 1.5;
-  font-family: "Source Sans Pro", sans-serif;
-  text-transform: uppercase; }
-
-.single-post .nav-links {
-<<<<<<< HEAD
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
-  .single-post .nav-links .nav-previous {
-    width: 100px;
-    height: 100px;
-    background-image: url(../../sos_assets/ui-icons/pagination-prev.png);
-    background-size: 200% 200%;
-    background-position: center center;
-    text-align: center;
-    vertical-align: bottom;
-    position: relative; }
-    .single-post .nav-links .nav-previous a {
-      position: absolute;
-      bottom: 0;
-      left: 29%;
-      color: black;
-      text-transform: uppercase;
-      padding-top: 60px;
-      padding-left: 15px;
-      padding-left: 15px;
-      font-size: 10px;
-      text-decoration: none; }
-  .single-post .nav-links .nav-next {
-    width: 100px;
-    height: 100px;
-    background-image: url(../../sos_assets/ui-icons/pagination-next.png);
-    background-size: 200% 200%;
-    background-position: center center;
-    text-align: center;
-    vertical-align: bottom;
-    position: relative; }
-    .single-post .nav-links .nav-next a {
-      position: absolute;
-      bottom: 0;
-      left: 28%;
-      color: black;
-      text-transform: uppercase;
-      padding-top: 60px;
-      padding-right: 30px;
-      text-decoration: none;
-      font-size: 10px; }
-=======
-=======
-<<<<<<< HEAD
-.page-template-resources .resources-ul li:nth-child(7) {
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-.page-template-resources ul li:nth-child(7) {
->>>>>>> 5f738e49badea247d7065f555cfb424a47ff7b8e
->>>>>>> 27d8bf8fc6febefdb88d66bb5cef7fc5cd1116bb
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2110,7 +1968,108 @@ object {
     width: 92vw;
     margin-top: 20px;
     z-index: 0; }
->>>>>>> 8af0e6f8b32fc1c720cab24129810a2e74d469f1
+
+.single-hero {
+  background-image: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg);
+  background-size: 100% 140%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 90vh;
+  font-family: "Miriam Libre", sans-serif;
+  padding-top: 50px; }
+  .single-hero h1 {
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 15px;
+    line-height: 1; }
+
+.single-post .site-main {
+  padding: 15px;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.single-post .single-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%; }
+
+.single-post .return-home {
+  background-image: url(../../sos_assets/ui-icons/pagination-ret.svg);
+  background-size: 260% 200%;
+  background-position: 43% 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100px;
+  height: 100px; }
+  .single-post .return-home a {
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+    padding-top: 63px;
+    padding-left: 20px;
+    color: black;
+    font-size: 10px;
+    text-decoration: none; }
+
+.single-post .entry-title {
+  line-height: 1.5;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase; }
+
+.single-post .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  .single-post .nav-links .nav-previous {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../sos_assets/ui-icons/pagination-prev.png);
+    background-size: 200% 200%;
+    background-position: center center;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative; }
+    .single-post .nav-links .nav-previous a {
+      position: absolute;
+      bottom: 0;
+      left: 29%;
+      color: black;
+      text-transform: uppercase;
+      padding-top: 60px;
+      padding-left: 21px;
+      font-size: 10px;
+      text-decoration: none; }
+  .single-post .nav-links .nav-next {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../sos_assets/ui-icons/pagination-next.png);
+    background-size: 200% 200%;
+    background-position: center center;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative; }
+    .single-post .nav-links .nav-next a {
+      position: absolute;
+      bottom: 0;
+      left: 28%;
+      color: black;
+      text-transform: uppercase;
+      padding-top: 60px;
+      padding-right: 30px;
+      text-decoration: none;
+      font-size: 10px; }
 
 .error404 .hero-404 {
   background: url("../../sos_assets/error404/error404.jpg");
@@ -2181,16 +2140,9 @@ object {
           box-shadow: none;
   color: #eb8e26; }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 0d66976818f782f58fcca6649536fb7426188631
->>>>>>> 422ce569a1c2210e64f99c37abf83b3fb1f3d8f6
->>>>>>> 27d8bf8fc6febefdb88d66bb5cef7fc5cd1116bb
->>>>>>> 8af0e6f8b32fc1c720cab24129810a2e74d469f1
 .search-field {
   width: 0px;
+  padding-left: 15px;
   color: black; }
 
 .search-form {
@@ -2222,7 +2174,7 @@ object {
           box-shadow: none;
   height: 50px;
   width: 65px;
-  color: #bf6d0a; }
+  color: #CC8005; }
 
 .search-open,
 .no-js .search {
@@ -2362,9 +2314,9 @@ object {
         padding-bottom: 20px;
         font-family: "Miriam Libre", sans-serif; }
         .menu1 .menu-menu-1-container ul li a {
-          color: #eb8e26;
+          color: #CC8005;
           font-family: "Miriam Libre", sans-serif;
-          font-size: 16px; }
+          font-size: 14px; }
       .menu1 .menu-menu-1-container ul .menu-item-77 {
         padding-left: 15px;
         padding-right: 15px;
@@ -2413,7 +2365,7 @@ object {
         line-height: 1;
         font-family: "Miriam Libre", sans-serif; }
         .menu1 .menu-menu-1-container ul li a {
-          color: #eb8e26;
+          color: #CC8005;
           font-family: "Miriam Libre", sans-serif;
           font-size: 20px; }
       .menu1 .menu-menu-1-container ul .menu-item-77 {
