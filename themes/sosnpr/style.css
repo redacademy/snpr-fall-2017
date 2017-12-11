@@ -1627,9 +1627,6 @@ object {
   .page-template-resources ul li:nth-child(3) h2 {
     width: 100vw; }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 .page-template-resources ul li:nth-child(7) {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1701,13 +1698,7 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-=======
-.recent-updates-header {
-  text-align: center;
-  font-family: "Miriam Libre", sans-serif; }
->>>>>>> e854b258165020e7593c6201310cf90d072a984f
 
->>>>>>> 0d66976818f782f58fcca6649536fb7426188631
 .search-field {
   width: 0px;
   color: black; }
