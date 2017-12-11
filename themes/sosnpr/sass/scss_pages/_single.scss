@@ -1,0 +1,118 @@
+.single-hero{
+  background-image: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg) ;
+  background-size: 100% 140%;
+  background-repeat: no-repeat;
+ 
+  background-position: bottom center;
+  height:90vh;
+  font-family:$miriam;
+  padding-top:50px;
+
+  h1{
+    color:$forest;
+    font-family:$miriam;
+    text-align:center;
+    font-size:28px;
+    text-transform:uppercase;
+    display:block;
+    .bold-title-span{
+      
+    }
+    padding-top:15px;
+    line-height:1;
+  }
+}
+
+.single-post{
+  .site-main{
+    padding:15px;
+    font-family:$source;
+  }
+.single-navigation{
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+}
+.return-home{
+  background-image: url(../../sos_assets/ui-icons/pagination-ret.svg) ;
+  background-size:260% 200%;
+  background-position: 43% 48%;
+  display:flex;
+  position:relative;
+  width:100px;
+  height:100px;
+  a{
+    position:absolute;
+    bottom:0;
+    
+    text-transform:uppercase;
+    padding-top:63px;
+    
+    padding-left:10px;
+    color:black;
+    font-size:10px;
+    text-decoration:none;
+  }
+}
+
+
+  .entry-title{
+    line-height:1.5;
+    font-family:$source;
+    text-transform:uppercase;
+    
+
+  }
+
+  .nav-links{
+    display:flex;
+    justify-content:flex-end;
+    .nav-previous{
+      width:100px;
+      height:100px;
+      background-image: url(../../sos_assets/ui-icons/pagination-prev.png) ;
+      background-size:200% 200%;
+      background-position: center center;
+      text-align: center;
+      vertical-align:bottom;
+      position:relative;
+      a{
+        position:absolute;
+        bottom:0;
+        left:29%;
+        color:black;
+        text-transform:uppercase;
+        padding-top:60px;
+        
+        padding-left:15px;
+        padding-left:15px;
+        font-size:10px;
+        text-decoration:none;
+      }
+
+    }
+    .nav-next{
+      width:100px;
+      height:100px;
+      background-image: url(../../sos_assets/ui-icons/pagination-next.png) ;
+      background-size:200% 200%;
+      background-position: center center;
+      text-align: center;
+      vertical-align: bottom;
+      position:relative;
+      a{
+        position:absolute;
+        bottom:0;
+        left:28%;
+        color:black;
+        text-transform:uppercase;
+        padding-top:60px;
+        padding-right:30px;
+        text-decoration:none;
+        font-size:10px;
+      }
+    }
+
+  }
+
+}
