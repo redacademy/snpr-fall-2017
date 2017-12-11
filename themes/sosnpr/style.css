@@ -767,7 +767,7 @@ object {
         -ms-flex-align: start;
             align-items: flex-start;
     background-color: #eb8e26;
-    padding-top: 2.5rem; }
+    padding-top: 1rem; }
     #secondary .wp-image-62, #secondary .wp-image-63, .widget_area .wp-image-62, .widget_area .wp-image-63 {
       padding-top: 1.5rem;
       height: 80px;
@@ -971,6 +971,11 @@ object {
           -ms-flex-align: center;
               align-items: center; } }
 
+.page-template-resources .resources-nav {
+  width: 100vw;
+  height: 15rem;
+  background: #eb8e26; }
+
 .page-template-resources .post-17 .entry-header {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
@@ -988,7 +993,8 @@ object {
 
 .page-template-resources h2 {
   color: #eb8e26;
-  font-family: "Miriam Libre", sans-serif; }
+  font-family: "Miriam Libre", sans-serif;
+  padding: 3rem 0rem 0rem 3rem; }
 
 .page-template-resources a {
   color: #0096ff;
@@ -996,7 +1002,8 @@ object {
   font-weight: 300; }
 
 .page-template-resources p {
-  font-weight: 300; }
+  font-weight: 300;
+  padding-left: 3rem; }
 
 .page-template-resources ul li:nth-child(2) {
   display: -webkit-box;
@@ -1025,6 +1032,26 @@ object {
           justify-content: center; }
   .page-template-resources ul li:nth-child(3) h2 {
     width: 100vw; }
+
+.page-template-resources ul li:nth-child(7) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 50%; }
+
+.page-template-resources ul li:nth-child(8) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 50%; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
@@ -1538,6 +1565,11 @@ object {
           -ms-flex-align: center;
               align-items: center; } }
 
+.page-template-resources .resources-nav {
+  width: 100vw;
+  height: 15rem;
+  background: #eb8e26; }
+
 .page-template-resources .post-17 .entry-header {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
@@ -1555,7 +1587,8 @@ object {
 
 .page-template-resources h2 {
   color: #eb8e26;
-  font-family: "Miriam Libre", sans-serif; }
+  font-family: "Miriam Libre", sans-serif;
+  padding: 3rem 0rem 0rem 3rem; }
 
 .page-template-resources a {
   color: #0096ff;
@@ -1563,7 +1596,8 @@ object {
   font-weight: 300; }
 
 .page-template-resources p {
-  font-weight: 300; }
+  font-weight: 300;
+  padding-left: 3rem; }
 
 .page-template-resources ul li:nth-child(2) {
   display: -webkit-box;
@@ -1593,6 +1627,87 @@ object {
   .page-template-resources ul li:nth-child(3) h2 {
     width: 100vw; }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.page-template-resources ul li:nth-child(7) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 50%; }
+
+.page-template-resources ul li:nth-child(8) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 50%; }
+
+.error404 .hero-404 {
+  background: url("../../sos_assets/error404/error404.jpg");
+  background-size: cover;
+  height: 90vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 1000px) {
+    .error404 .hero-404 {
+      background-position: 30% 30%; } }
+
+.error404 .page-title {
+  color: #285817;
+  font-family: "Miriam Libre", sans-serif;
+  text-transform: uppercase;
+  text-align: center; }
+  @media all and (min-width: 1000px) {
+    .error404 .page-title {
+      font-size: 3rem; } }
+
+.error404 .page-content {
+  width: 90vw;
+  padding-bottom: 20rem;
+  margin-top: -20px; }
+  @media all and (min-width: 1000px) {
+    .error404 .page-content {
+      font-size: 1.2rem;
+      padding-bottom: 20rem; } }
+
+.error404 p {
+  text-align: center;
+  color: #285817; }
+
+.error404 .search-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+=======
+.recent-updates-header {
+  text-align: center;
+  font-family: "Miriam Libre", sans-serif; }
+>>>>>>> e854b258165020e7593c6201310cf90d072a984f
+
+>>>>>>> 0d66976818f782f58fcca6649536fb7426188631
 .search-field {
   width: 0px;
   color: black; }
