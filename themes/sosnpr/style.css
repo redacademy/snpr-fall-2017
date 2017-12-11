@@ -687,13 +687,87 @@ object {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     position: fixed;
-    bottom: 60px;
-    min-width: 500px;
+    bottom: 80px;
+    max-width: 450px;
+    max-height: 450px;
+    min-width: 430px;
+    min-height: 430px;
+    border-radius: 3%;
     background: #fff;
     -ms-flex-item-align: center;
-        align-self: center;
+        align-self: center; }
+    .site-info .feedback .para {
+      font-family: "Source Sans Pro", sans-serif;
+      text-align: center; }
+    .site-info .feedback p {
+      margin: 0; }
+    .site-info .feedback .wpcf7 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: 0;
+      border: 8px solid #eb8e26;
+      border-radius: 3%;
+      max-width: 96%;
+      padding-top: 8px;
+      padding-bottom: 15px; }
+      .site-info .feedback .wpcf7 form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        max-width: 90%;
+        margin: 0; }
+        .site-info .feedback .wpcf7 form input:not(.wpcf7-submit) {
+          min-height: 50px;
+          min-width: 370px;
+          background: #F7F6F6;
+          font-family: "Source Sans Pro", sans-serif; }
+        .site-info .feedback .wpcf7 form textarea {
+          max-height: 100px;
+          min-width: -webkit-max-content;
+          min-width: -moz-max-content;
+          min-width: max-content;
+          background: #F7F6F6;
+          font-family: "Source Sans Pro", sans-serif; }
+        .site-info .feedback .wpcf7 form .wpcf7-submit {
+          margin-left: 110px;
+          height: 50px;
+          width: 150px;
+          margin-top: 15px;
+          background: #eb8e26;
+          color: #fff;
+          text-shadow: none;
+          -webkit-box-shadow: none;
+                  box-shadow: none;
+          font-family: "Source Sans Pro", sans-serif;
+          font-size: 20px; }
+  .site-info .hide {
     display: none; }
+  .site-info .show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .site-info .wpcf7-response-output {
+    margin: 0;
+    border: none;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center; }
 
 #secondary, .widget_area {
   height: 540px;
@@ -1066,9 +1140,6 @@ object {
   text-transform: uppercase;
   color: #bf6d0a; }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 .blog .posts-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1082,9 +1153,6 @@ object {
       text-transform: uppercase;
       font-family: "Miriam Libre", sans-serif; }
 
-=======
->>>>>>> 17176742772ea115389ee42e36f2223654063dac
->>>>>>> 56464c32f90b32b233bc491cde788a427df579e8
 .blog .owl-item {
   height: 320px; }
 
@@ -1094,21 +1162,17 @@ object {
   overflow: hidden; }
   .blog .carousel-cell img {
     height: 320px; }
-
-.blog .entry-header {
-  color: white;
-  font-family: "Source Sans Pro", sans-serif;
-  position: absolute;
-  bottom: 30px;
-  padding: 10px;
-  font-size: 12px;
-  text-transform: titlecase; }
-  .blog .entry-header a {
+  .blog .carousel-cell .entry-header {
     color: white;
-    text-decoration: none; }
+    font-family: "Source Sans Pro", sans-serif;
+    position: absolute;
+    bottom: 30px;
+    padding: 10px;
+    font-size: 12px; }
+    .blog .carousel-cell .entry-header a {
+      color: white;
+      text-decoration: none; }
 
-<<<<<<< HEAD
-=======
 @media screen and (min-width: 600px) {
   .front-page-hero {
     background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
@@ -1129,7 +1193,6 @@ object {
     font-family: "Miriam Libre", sans-serif;
     padding-top: 50px; } }
 
->>>>>>> 56464c32f90b32b233bc491cde788a427df579e8
 .page-template-proposed-park .entry-title {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
