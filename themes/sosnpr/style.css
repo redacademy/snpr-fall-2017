@@ -818,15 +818,12 @@ object {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start; }
-<<<<<<< HEAD
-=======
   #secondary .subscribe-form, .widget_area .subscribe-form {
     display: none; }
   #secondary .subscribe-form-show, .widget_area .subscribe-form-show {
     position: absolute;
     bottom: 50px;
     background: white; }
->>>>>>> 5f738e49badea247d7065f555cfb424a47ff7b8e
 
 @media all and (min-width: 1000px) {
   #secondary, .widget_area {
@@ -1251,38 +1248,49 @@ object {
   text-transform: uppercase;
   color: #bf6d0a; }
 
-.blog .posts-navigation {
+.page-id-101 .posts-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
-  .blog .posts-navigation .nav-previous {
+  .page-id-101 .posts-navigation .nav-previous {
     width: auto; }
-    .blog .posts-navigation .nav-previous a {
+    .page-id-101 .posts-navigation .nav-previous a {
       color: #bf6d0a;
       text-transform: uppercase;
       font-family: "Miriam Libre", sans-serif; }
 
-.blog .owl-item {
+.page-id-101 .owl-item {
   height: 320px; }
 
-.blog .carousel-cell {
+.page-id-101 .carousel-cell {
   padding: 10px;
   height: 320px;
   overflow: hidden; }
-  .blog .carousel-cell img {
+  .page-id-101 .carousel-cell img {
     height: 320px; }
-  .blog .carousel-cell .entry-header {
+  .page-id-101 .carousel-cell .entry-header {
     color: white;
     font-family: "Source Sans Pro", sans-serif;
     position: absolute;
     bottom: 30px;
     padding: 10px;
     font-size: 12px; }
-    .blog .carousel-cell .entry-header a {
+    .page-id-101 .carousel-cell .entry-header a {
       color: white;
       text-decoration: none; }
+
+.page-id-101 .page-id-101 .entry-header {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  position: absolute;
+  bottom: 30px;
+  padding: 10px;
+  font-size: 12px; }
+  .page-id-101 .page-id-101 .entry-header a {
+    color: white;
+    text-decoration: none; }
 
 @media screen and (min-width: 600px) {
   .front-page-hero {
@@ -1296,13 +1304,25 @@ object {
 
 @media screen and (min-width: 1000px) {
   .front-page-hero {
-    background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
-    background-size: 100% 140%;
-    background-repeat: no-repeat;
-    background-position: bottom center;
+    background: url("../../sos_assets/error404/error404.jpg");
+    background-size: cover;
     height: 90vh;
-    font-family: "Miriam Libre", sans-serif;
-    padding-top: 50px; } }
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-position: 30% 21%;
+    font-family: "Miriam Libre", sans-serif; } }
 
 .page-template-proposed-park .entry-title {
   color: #285817;
@@ -1853,7 +1873,26 @@ object {
   .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
 
-<<<<<<< HEAD
+.page-template-resources .resources-ul li:nth-child(7) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 50%; }
+
+.page-template-resources .resources-ul li:nth-child(8) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 50%; }
+
 .single-hero {
   background-image: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg);
   background-size: 100% 140%;
@@ -1873,7 +1912,37 @@ object {
     line-height: 1; }
 
 .single-post .site-main {
-  padding: 15px; }
+  padding: 15px;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.single-post .single-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%; }
+
+.single-post .return-home {
+  background-image: url(../../sos_assets/ui-icons/pagination-ret.svg);
+  background-size: 260% 200%;
+  background-position: 43% 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100px;
+  height: 100px; }
+  .single-post .return-home a {
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+    padding-top: 63px;
+    padding-left: 10px;
+    color: black;
+    font-size: 10px;
+    text-decoration: none; }
 
 .single-post .entry-title {
   line-height: 1.5;
@@ -1881,33 +1950,51 @@ object {
   text-transform: uppercase; }
 
 .single-post .nav-links {
-=======
-<<<<<<< HEAD
-.page-template-resources .resources-ul li:nth-child(7) {
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-.page-template-resources ul li:nth-child(7) {
->>>>>>> 5f738e49badea247d7065f555cfb424a47ff7b8e
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  width: 50%; }
-
-.page-template-resources .resources-ul li:nth-child(8) {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  width: 50%; }
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  .single-post .nav-links .nav-previous {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../sos_assets/ui-icons/pagination-prev.png);
+    background-size: 200% 200%;
+    background-position: center center;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative; }
+    .single-post .nav-links .nav-previous a {
+      position: absolute;
+      bottom: 0;
+      left: 29%;
+      color: black;
+      text-transform: uppercase;
+      padding-top: 60px;
+      padding-left: 15px;
+      padding-left: 15px;
+      font-size: 10px;
+      text-decoration: none; }
+  .single-post .nav-links .nav-next {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../sos_assets/ui-icons/pagination-next.png);
+    background-size: 200% 200%;
+    background-position: center center;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative; }
+    .single-post .nav-links .nav-next a {
+      position: absolute;
+      bottom: 0;
+      left: 28%;
+      color: black;
+      text-transform: uppercase;
+      padding-top: 60px;
+      padding-right: 30px;
+      text-decoration: none;
+      font-size: 10px; }
 
 .error404 .hero-404 {
   background: url("../../sos_assets/error404/error404.jpg");
@@ -1958,28 +2045,11 @@ object {
   margin-bottom: 0rem; }
 
 .error404 .search-form {
->>>>>>> 422ce569a1c2210e64f99c37abf83b3fb1f3d8f6
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-<<<<<<< HEAD
-          justify-content: center; }
-  .single-post .nav-links .nav-previous {
-    width: 100px;
-    height: 100px;
-    background-image: url(../../sos_assets/ui-icons/pagination-prev.svg);
-    background-size: 200% 200%;
-    background-position: center center; }
-  .single-post .nav-links .nav-next {
-    width: 100px;
-    height: 100px;
-    background-image: url(../../sos_assets/ui-icons/pagination-next.svg);
-    background-size: 200% 200%;
-    background-position: center center; }
-
-=======
           justify-content: center;
   margin-top: 5rem; }
 
@@ -1995,8 +2065,6 @@ object {
           box-shadow: none;
   color: #eb8e26; }
 
->>>>>>> 0d66976818f782f58fcca6649536fb7426188631
->>>>>>> 422ce569a1c2210e64f99c37abf83b3fb1f3d8f6
 .search-field {
   width: 0px;
   color: black; }
