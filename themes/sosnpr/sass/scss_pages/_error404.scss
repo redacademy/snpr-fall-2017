@@ -1,0 +1,59 @@
+.error404{
+  .hero-404{
+    background: url('../../sos_assets/error404/error404.jpg');
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    @include desktop{
+      background-position: 30% 30%;
+    }     
+  }
+  
+  .page-title{
+    color: $forest;
+    font-family: $miriam;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5rem;    
+    @include desktop{
+      font-size: 3.5rem;
+    }     
+  }
+  .page-content{
+    width: 90vw;
+    padding-bottom: 20rem;       
+    margin-top: -20px;
+    font-family: $source;
+    @include desktop{
+      font-size: 1.2rem;      
+      padding-bottom: 25rem;
+    }     
+  }
+  p{
+    text-align: center;
+    color: $forest;
+    line-height: 0.7rem;
+    margin-bottom: 0rem;
+  }
+  .search-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;           
+  }
+  .search-field{
+    width: 200px;
+    height: 30px;
+    border: $main-orange solid 3px;
+  }
+
+  .search-submit{
+    border: none;
+    background: none;
+    box-shadow: none;    
+    color: $main-orange;
+  }
+}

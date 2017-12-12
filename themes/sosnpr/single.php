@@ -7,23 +7,27 @@
 
 get_header(); ?>
 
+<div class="single-hero"><h1 class="single-header">Recent Updates</h1>
+</div>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
+			<div class="single-navigation">
+				<div class="return-home">
+				<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Recent Updates' ) ) ); ?>">	Back to List</a>
+</div>
+			<?php 
+			the_post_navigation(); 
+			?> 
+</div>
+		
 
-			<?php the_post_navigation(); ?>
-
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-			?>
 
 		<?php endwhile; // End of the loop. ?>
+		
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     @include desktop{
       background-size: cover;
       background-repeat: none;
@@ -20,17 +20,66 @@
     }
   }
   
+  .resources-nav{
+    width: 100vw;
+    height: 15rem;
+    background: $main-orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    .nav-links{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      width: 90vw;
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: $source;
+      font-size: 1.5rem;
+      line-height: 3rem;
+      font-family: $miriam;      
+    }
+    .resources-nav-1{
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: flex-start;      
+      align-items: center;
+    }
+    .resources-nav-2{
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: flex-start;      
+      align-items: center;      
+    }
+    .resources-nav-3{
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: flex-start;      
+      align-items: center;      
+    }
+  }
+  
   .post-17{
     .entry-header{
       color: $forest;
       font-family: $miriam;
       text-transform: uppercase;
       text-align: center;
+      @include desktop{
+        font-size: 1.8rem;
+      }
     }
     .entry-content{
-      padding-bottom: 15rem;     
+      color: $forest;
+      font-family: $source;
+      padding-bottom: 15rem;
       @include desktop{
-      padding-bottom: 20rem;
+        font-size: 1.5rem;        
+        padding-bottom: 18rem;
       }     
     }
     p{
@@ -40,6 +89,7 @@
   h2{
     color: $main-orange;
     font-family: $miriam;
+    padding: 3rem 0rem 0rem 3rem;	    
   }
   a{
     color: rgb(0, 150, 255);
@@ -48,9 +98,10 @@
   }
   p{
     font-weight: 300;
+    padding-left: 3rem;	    
   }
   
-  ul{
+  .resources-ul{
     li:nth-child(2) {
       h2{
         width: 100vw;
@@ -67,7 +118,44 @@
       flex-flow: row wrap;
       justify-content: center;
     }
+    .lc-groups{
+      display: flex;
+      flex-flow: row;
+      justify-content: flex-start;
+      li:nth-child(1) {
+        display: flex;
+        flex-flow: column wrap;
+      }
+      li:nth-child(2) {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-end;
+      }
+    }
   }
-  .wp-image-70{
+  
+  .divider{
+    display: flex;
+    justify-content: center;
+    .scroll-up{
+      position: relative;
+      background: #555454;
+      border-radius: 30px;
+      padding: 17px 10px;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      font-size: 35px;
+      font-weight: 100;
+      color: white;
+      z-index: 200;
+    }
+    .divider-line{
+      position: absolute;
+      border-bottom: $main-orange solid 2px;
+      width: 92vw;
+      margin-top: 20px;
+      z-index: 0;
+    }
   }
 }

@@ -1,24 +1,52 @@
 (function($){
+  var clearForm= false;
+
   $('.subscribe-button').on('click', function(event){
     event.preventDefault();
-    // var url = ";
-
-    $.ajax({
-      url: "https://us17.api.mailchimp.com/3.0/lists/",
-      method: 'GET',
-      user: 'anystring:9fb90cee90e677f026434397fede5bbf-us17',
-      header: 'content-type: application/json'
-      // header: ['content-type: application/json' ,"Authorization: apikey 9fb90cee90e677f026434397fede5bbf-us17"]
-    })
-
-    //DATA PROCESSING IF RETRIVING DATA WAS SUCCESSFUL
-    .done(function(result){
-      console.log(result);
-    })
-
-
+    
+    $('.form-popup').addClass('form-popup-show');
+    $('#mce-EMAIL').focus();
+    // clearForm = true;
+    clearForm= false;
   })
+
+  $('.form-popup').on('click',function(){
+    clearForm= false;
+  })
+
+
+
+  $('#mc-embedded-subscribe').on('click',function(){
+    // event.preventDefault();
+    $('#mc-embedded-subscribe-form').submit();
+    // // on('submit',function(){
+    //   console.log('works');
+
+    // $('#mce-EMAIL').val('');
+    // // });
+    $(document).ajaxSuccess(function(){
+      console.log('hey');
+      // $('#mce-EMAIL').val('');
+      $('#mc-embedded-subscribe-form').trigger('reset');
+    })
+    clearForm= false;
+  })
+
   
 
+  $('html').click(function(){
+    // e.preventDefault();
+    if (clearForm){
+    $('.form-popup').removeClass('form-popup-show');
+    }
+    clearForm = true;
+  })
+
+  $('#closing-icon').click(function(){
+    $('.form-popup').removeClass('form-popup-show');
+  })
+ 
+  
+  
 
 })(jQuery)

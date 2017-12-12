@@ -11,18 +11,200 @@
   display: flex;
   justify-content: center;
 
+  
+
 .feedback {
+
+  .para {
+    font-family: $source;
+    text-align: center;
+    
+   
+  }
+  p {
+    margin: 0;
+  }
+  
+  
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  align-content: center;
   position: fixed;
-  bottom: 60px;
-  min-width: 500px;
+  bottom: 80px;
+  max-width: 450px;
+  max-height: 450px;
+  min-width: 430px;
+  min-height: 430px;
+  border-radius: 3%;
+  
   background: #fff;
   align-self: center;
-  display: none;
-
+ 
+  .wpcf7 {
+     display: flex;
     
+     justify-content: center;  
+     margin: 0;
+     border: 8px solid $main-orange;
+     border-radius: 3%;
+     max-width: 96%;
+     padding-top: 8px;
+     padding-bottom: 15px;
+    
+     form {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       max-width: 90%;
+       margin: 0;
+      
+       
+       
+      input:not(.wpcf7-submit) {
+        min-height: 50px;
+        min-width: 370px;
+        background: #F7F6F6;
+        font-family: $source;
+      }
+
+     textarea {
+       max-height: 100px;
+       min-width: max-content;
+       background: #F7F6F6;
+       font-family: $source;
+     }
+     .wpcf7-submit {
+       margin-left: 110px;
+       height: 50px;
+       width: 150px;
+       margin-top: 15px;
+       background: $main-orange;
+       color: #fff;
+       text-shadow: none;
+       box-shadow: none;
+       font-family: $source;
+       font-size: 20px;
+      
+     }
+   }
+  }
  }
+
+ .hide {
+   display: none;
+ }
+
+ .show {
+   display: flex;
+ }
+
+ .wpcf7-response-output {
+   margin: 0;
+   border: none;
+   font-family: $source;
+   text-align: center;
+ }
+
+ 
 }
+
+
+
+//Recent Updates
+
+.blog {
+
+  .updates-hero {
+    background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 60%;
+    height:85vh;
+    font-family:$miriam;
+    margin-bottom: 70px;
+
+    h2 {
+      text-align: center;
+      padding-right: 200px;
+      color: #629749;
+      text-transform: uppercase;
+      font-size: 50px;
+      padding-top: 20px;
+    }
+  }
+
+  .stories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  .journal-container {
+   position: relative;
+   margin-bottom: 50px;
+   border: none;
+  
+
+  img {
+    min-width: 800px;
+  }
+
+  .button-container {
+   position: absolute;
+   bottom: 5px;
+   background: rgba(0, 0, 0, 0.6);
+   border: none;
+   width: 100%;
+   min-height: 120px;
+   
+    
+    
+  .post-title {
+    max-width: 500px;
+    color: #fff;
+    font-family: $miriam;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-left: 20px;
+    
+    
+    
+  }
+
+  .read-more {
+    position: absolute;
+    left: 600px;
+    bottom: 40px;
+    
+    color: #fff;
+    background: $main-orange;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: $miriam;
+    min-width: 170px;
+    border: 6px solid #fff;
+    border-radius: 5px;
+    opacity: 0.8;
+  }
+
+  .posted-on {
+    color: #fff;
+    font-family: $miriam;
+    padding-left: 20px;
+  }
+    
+  }
+}
+}
+
+.search-pagination {
+  margin-bottom: 20px;
+}
+
+}
+
+
 
