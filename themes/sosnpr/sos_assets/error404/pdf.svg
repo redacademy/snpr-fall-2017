@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="271px" height="241px" viewBox="0 0 271 241" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Tablet Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-9.2%" y="-7.1%" width="118.4%" height="114.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.298039216   0 0 0 0 0.819607843   0 0 0 0 0.996078431  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M36.8941176,1.15454545 C52.2666667,0.384848485 72.6352941,3.84743819e-12 98,4.54747351e-12 L98,127 L0,127 C0,78.1242424 0,47.3363636 0,34.6363636 C5.76470588,27.7090909 28.8235294,6.92727273 36.8941176,1.15454545 Z" id="path-2"></path>
+        <path d="M36.8941176,1.15454545 C56.8784314,0.384848485 77.2470588,3.84743819e-12 98,4.54747351e-12 L98,127 L0,127 C0,80.4333333 0,49.6454545 0,34.6363636 C2.06154563,32.1590666 14.3595848,32.1590666 36.8941176,34.6363636 C34.3998894,14.0992222 34.3998894,2.9386161 36.8941176,1.15454545 Z" id="path-3"></path>
+        <text id="text-4" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="23" font-weight="500" fill="#555454">
+            <tspan x="31.9774852" y="65.7363636">pdf</tspan>
+        </text>
+        <filter x="-9.3%" y="-25.9%" width="118.5%" height="151.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.298039216   0 0 0 0 0.819607843   0 0 0 0 0.996078431  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M140,165 L153,165 L130.5,193 L108,165 L119,165 L119,138 L140,138 L140,165 Z" id="path-6"></path>
+        <filter x="-16.7%" y="-13.6%" width="133.3%" height="127.3%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.298039216   0 0 0 0 0.819607843   0 0 0 0 0.996078431  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet-Copy">
+            <g id="pdg" filter="url(#filter-1)" transform="translate(78.000000, 50.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <path stroke="#4CD1FE" stroke-width="2" d="M37.2388322,2.13861605 C28.9203004,8.16836664 6.87721544,28.1144661 1,35.0016243 C1,62.5863163 1,63.0063773 1,126 L97,126 L97,1.00019863 C72.2758142,1.0101418 52.3544315,1.38972864 37.2388322,2.13861605 Z"></path>
+                </g>
+                <g id="Rectangle-2">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <path stroke="#4CD1FE" stroke-width="2" d="M37.2853547,2.14025989 C35.473401,4.14635302 35.5499354,15.2741783 37.8868232,34.5157999 L38.0389318,35.7682414 L36.7848426,35.6303752 C15.6645566,33.3085511 3.40083986,33.2233659 1,35.0580561 C1,64.8777994 1,65.3232003 1,126 L97,126 L97,1.0002982 C76.7273929,1.01239293 56.8225093,1.39238447 37.2853547,2.14025989 Z"></path>
+                </g>
+                <g id="pdf" opacity="0.566576087" fill="#555454" fill-opacity="1">
+                    <use filter="url(#filter-5)" xlink:href="#text-4"></use>
+                    <use xlink:href="#text-4"></use>
+                </g>
+            </g>
+            <g id="Combined-Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-6"></use>
+                <path stroke="#4CD1FE" stroke-width="1" d="M139.5,138.5 L119.5,138.5 L119.5,165.5 L109.043215,165.5 L130.5,192.201777 L151.956785,165.5 L139.5,165.5 L139.5,138.5 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

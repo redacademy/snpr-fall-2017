@@ -71,7 +71,8 @@
 
      textarea {
        max-height: 100px;
-       min-width: max-content;
+       min-width: 370px;
+       max-width: 370px;
        background: #F7F6F6;
        font-family: $source;
      }

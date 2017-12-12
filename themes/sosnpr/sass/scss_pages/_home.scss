@@ -91,17 +91,17 @@
   
   .search-pagination {
     margin-bottom: 20px;
+    color: $main-orange;
+    font-size: 25px;
 
-    .next {
-      width:100px;
-      height:100px;
-      background-image: url(../../sos_assets/ui-icons/pagination-next.png) ;
-      background-size:200% 200%;
-      background-position: center center;
-      text-align: center;
-      vertical-align: bottom;
-      position:relative;
+    a {
+      color: $main-orange;
+      text-decoration: none;
+      font-family: $miriam;
+      font-size: 25px;
     }
+
+   
   }
   
   }

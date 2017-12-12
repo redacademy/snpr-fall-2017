@@ -30,6 +30,7 @@ get_header(); ?>
 			
 
 			<?php endwhile; // End of the loop. ?>
+
 			<?php red_starter_numbered_pagination(); ?>
       
 		</section>

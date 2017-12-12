@@ -741,9 +741,8 @@ object {
           font-family: "Source Sans Pro", sans-serif; }
         .site-info .feedback .wpcf7 form textarea {
           max-height: 100px;
-          min-width: -webkit-max-content;
-          min-width: -moz-max-content;
-          min-width: max-content;
+          min-width: 370px;
+          max-width: 370px;
           background: #F7F6F6;
           font-family: "Source Sans Pro", sans-serif; }
         .site-info .feedback .wpcf7 form .wpcf7-submit {
@@ -1530,9 +1529,6 @@ a:visited {
   background-position: bottom center;
   height: 85vh;
   font-family: "Miriam Libre", sans-serif; }
-  @media all and (min-width: 600px) {
-    .page-template-proposed-park .proposed-hero {
-      background-image: url(../../sos_assets/proposed-park/proposed-hero.jpg); } }
 
 .page-template-proposed-park .down {
   display: none; }
@@ -2243,16 +2239,14 @@ a:visited {
         padding-left: 20px; }
 
 .blog .search-pagination {
-  margin-bottom: 20px; }
-  .blog .search-pagination .next {
-    width: 100px;
-    height: 100px;
-    background-image: url(../../sos_assets/ui-icons/pagination-next.png);
-    background-size: 200% 200%;
-    background-position: center center;
-    text-align: center;
-    vertical-align: bottom;
-    position: relative; }
+  margin-bottom: 20px;
+  color: #eb8e26;
+  font-size: 25px; }
+  .blog .search-pagination a {
+    color: #eb8e26;
+    text-decoration: none;
+    font-family: "Miriam Libre", sans-serif;
+    font-size: 25px; }
 
 .search-field {
   width: 0px;
