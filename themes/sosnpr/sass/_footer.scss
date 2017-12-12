@@ -1,6 +1,7 @@
 #secondary, .widget_area{
   height: 540px;
   width: 100vw;
+  padding-top: 1rem;
   background-color: $main-orange;
   
   .widget_text, .textwidget{
@@ -13,6 +14,7 @@
       font-family: $miriam;
       font-size: 1.2rem;
       color: white;
+      
     }
     
     p{
@@ -111,7 +113,7 @@
   }
 }
 
-@include desktop{
+@include tablet{
   #secondary, .widget_area{
     height: 284px;
     width: 100vw;
