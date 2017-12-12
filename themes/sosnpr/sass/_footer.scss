@@ -57,14 +57,14 @@
 //subscribe button
 .form-popup{
   display: none;
-  .clear{
-    // width: 50px;
+  // .clear{
+  //   // width: 50px;
     
-    //subscribe button
+  //   //subscribe button
     
-    .subscribe-form{
-      display: none;
-    }
+  //   .subscribe-form{
+  //     display: none;
+  //   }
   }
   .form-popup-show{
     display: flex;
@@ -123,7 +123,7 @@
   a:visited{
     color: $forest;
   }
-}
+
 
 @media screen and (min-width: 800px){
   #secondary, .widget_area{
