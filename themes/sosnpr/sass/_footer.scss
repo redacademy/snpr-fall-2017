@@ -57,14 +57,14 @@
 //subscribe button
 .form-popup{
   display: none;
-  .clear{
-    // width: 50px;
+  // .clear{
+  //   // width: 50px;
     
-    //subscribe button
+  //   //subscribe button
     
-    .subscribe-form{
-      display: none;
-    }
+  //   .subscribe-form{
+  //     display: none;
+  //   }
   }
   .form-popup-show{
     display: flex;
@@ -104,26 +104,18 @@
         border: none;
       }
     }
-    .fa-times{
-      position: absolute;
-      right: 190px;
-      top: 25px;
-    }
-    a,
-    a:visited{
-      color: $forest;
-    }
+    
   }
-  .fa-times{
-    position: absolute;
-    right: 190px;
-    top: 25px;
-  }
-  a,
-  a:visited{
-    color: $forest;
-  }
+.fa-times{
+  position: relative;
+  right: 30px;
+  top: 15px;
 }
+a,
+a:visited{
+  color: $forest;
+}  
+
 
 @media screen and (min-width: 800px){
   #secondary, .widget_area{
