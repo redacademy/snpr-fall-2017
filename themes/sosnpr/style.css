@@ -910,7 +910,8 @@ object {
   padding: 20px 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  z-index: 10; }
   .form-popup-show form {
     width: 400px;
     background: white;

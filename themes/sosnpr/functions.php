@@ -98,9 +98,12 @@ function sosnpr_scripts() {
 
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 
+
+	wp_enqueue_script( 'smooth-scroll', get_template_directory_uri() . '/build/js/smooth-scroll.min.js', array('jquery'),null, true );
+
 	wp_enqueue_script( 'searchbar-toggle', get_template_directory_uri() . '/build/js/searchbar-toggle.min.js', array('jquery'), '20130115', true );
 
-	wp_enqueue_script( 'about-us-toggle', get_template_directory_uri() . '/build/js/about-us-toggle.min.js', array('jquery'),null, true );
+	wp_enqueue_script( 'about-us-toggle', get_template_directory_uri() . '/build/js/about-us-toggle.min.js', array('jquery', 'menu-toggle', 'smooth-scroll'),null, true );
 
 	wp_enqueue_script( 'mail-subscription', get_template_directory_uri() . '/build/js/mail-subscription.min.js', array('jquery'),null, true );
 
