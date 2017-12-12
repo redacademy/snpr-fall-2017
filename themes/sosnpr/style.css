@@ -1422,16 +1422,16 @@ object {
   height: 320px;
   overflow: hidden; }
   .page-id-101 .carousel-cell img {
-    height: 320px; }
+    height: auto; }
   .page-id-101 .carousel-cell .entry-header {
-    color: white;
+    color: #CC8005;
     font-family: "Source Sans Pro", sans-serif;
     position: absolute;
     bottom: 30px;
     padding: 10px;
     font-size: 12px; }
     .page-id-101 .carousel-cell .entry-header a {
-      color: white;
+      color: #CC8005;
       text-decoration: none; }
 
 .page-id-101 .page-id-101 .entry-header {
