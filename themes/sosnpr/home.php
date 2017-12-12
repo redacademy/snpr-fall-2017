@@ -23,7 +23,7 @@ get_header(); ?>
 					<div class="button-container">
 					 <p class="post-title"><?php the_title();?></p>
 					 <?php red_starter_posted_on(); ?>
-					 <button class="read-more">Read More</button>
+					 <a href="<?php echo the_permalink();?>"><button class="read-more">Read More</button></a>
          </div>
         </div>
 				
