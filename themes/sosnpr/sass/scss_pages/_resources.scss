@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     
-    @include desktop{
+    @include tablet{
       background-size: cover;
       background-repeat: none;
       background-position: 0% 60%;
@@ -21,45 +21,48 @@
   }
   
   .resources-nav{
-    width: 100vw;
-    height: 15rem;
-    background: $main-orange;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-    .nav-links{
+    display: none;
+    @include tablet{
+      width: 100vw;
+      height: 15rem;
+      background: $main-orange;
       display: flex;
-      flex-flow: row wrap;
-      justify-content: flex-start;
-      width: 90vw;
-    }
-    a{
-      color: white;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-family: $source;
-      font-size: 1.5rem;
-      line-height: 3rem;
-      font-family: $miriam;      
-    }
-    .resources-nav-1{
-      display: flex;
-      flex-flow: column wrap;
-      justify-content: flex-start;      
+      justify-content: space-around;
       align-items: center;
-    }
-    .resources-nav-2{
-      display: flex;
-      flex-flow: column wrap;
-      justify-content: flex-start;      
-      align-items: center;      
-    }
-    .resources-nav-3{
-      display: flex;
-      flex-flow: column wrap;
-      justify-content: flex-start;      
-      align-items: center;      
+      
+      .nav-links{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        width: 90vw;
+      }
+      a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: $source;
+        font-size: 1.5rem;
+        line-height: 3rem;
+        font-family: $miriam;      
+      }
+      .resources-nav-1{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;      
+        align-items: center;
+      }
+      .resources-nav-2{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;      
+        align-items: center;      
+      }
+      .resources-nav-3{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;      
+        align-items: center;      
+      }
     }
   }
   
@@ -69,7 +72,7 @@
       font-family: $miriam;
       text-transform: uppercase;
       text-align: center;
-      @include desktop{
+      @include tablet{
         font-size: 1.8rem;
       }
     }
@@ -77,39 +80,59 @@
       color: $forest;
       font-family: $source;
       padding-bottom: 15rem;
-      @include desktop{
+      @include tablet{
         font-size: 1.5rem;        
         padding-bottom: 18rem;
-      }     
+      }
     }
     p{
+      font-weight: 300;
+      padding-left: 3rem;
       text-align: center;
     }
+    h2{
+      color: $main-orange;
+      font-family: $miriam;
+      padding: 3rem 0rem 0rem 3rem;	    
+    }
+    a{
+      color: rgb(0, 150, 255);
+      text-decoration: underline;
+      font-weight: 300;
+    }
+   
   }
-  h2{
-    color: $main-orange;
-    font-family: $miriam;
-    padding: 3rem 0rem 0rem 3rem;	    
-  }
-  a{
-    color: rgb(0, 150, 255);
-    text-decoration: underline;
-    font-weight: 300;
-  }
-  p{
-    font-weight: 300;
-    padding-left: 3rem;	    
+
+  
+  .divider{
+    display: flex;
+    justify-content: center;
+    .scroll-up{
+      position: relative;
+      background: #555454;
+      border-radius: 30px;
+      padding: 5px 10px;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      font-size: 35px;
+      font-weight: 100;
+      color: white;
+      z-index: 200;
+    }
+    .divider-line{
+      position: absolute;
+      border-bottom: $main-orange solid 2px;
+      width: 96vw;
+      margin-top: 20px;
+      z-index: 0;
+    }
+    a{
+      text-decoration: none;
+    }
   }
   
   .resources-ul{
-    li:nth-child(2) {
-      h2{
-        width: 100vw;
-      }
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-    }
     li:nth-child(3) {
       h2{
         width: 100vw;
@@ -130,32 +153,9 @@
         display: flex;
         flex-flow: column wrap;
         justify-content: flex-end;
+        margin-left: 5rem;
       }
     }
   }
-  
-  .divider{
-    display: flex;
-    justify-content: center;
-    .scroll-up{
-      position: relative;
-      background: #555454;
-      border-radius: 30px;
-      padding: 17px 10px;
-      width: 50px;
-      height: 50px;
-      text-align: center;
-      font-size: 35px;
-      font-weight: 100;
-      color: white;
-      z-index: 200;
-    }
-    .divider-line{
-      position: absolute;
-      border-bottom: $main-orange solid 2px;
-      width: 92vw;
-      margin-top: 20px;
-      z-index: 0;
-    }
-  }
+
 }
