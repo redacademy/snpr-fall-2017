@@ -1,4 +1,5 @@
-#secondary, .widget_area{
+#secondary, 
+.widget_area{
   height: 540px;
   width: 100vw;
   padding-top: 1rem;
@@ -18,7 +19,7 @@
     justify-content: space-around;
     align-items: flex-start;
     background-color: $main-orange;
-    padding-top: 42px;
+    padding-top: 40px;
   }
   .widget_text,
   .textwidget{
@@ -32,6 +33,7 @@
       font-size: 1.2rem;
       color: white;
       text-decoration: none;
+      padding-bottom: 20px;
     }
     
     p{
@@ -40,7 +42,7 @@
       margin: 0;
       font-weight: 300;
       text-align: left;
-      padding: 1vh 0;
+      padding: 1.2vh 0;
       
     }
     i{
@@ -66,6 +68,7 @@
     display: flex;
     align-items: flex-start;
     line-height: 18px;
+    
     .contact-info-section{
       font-family: $source;
       display: flex;
@@ -85,8 +88,11 @@
       
     }
     }
-    
-    
+  }
+  .widget_custom_html{
+    h2{
+      margin-bottom: 0;
+    }
   }
   @include tablet{
     .wp-image-62, .wp-image-63{

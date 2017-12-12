@@ -842,18 +842,21 @@ object {
 .blog .search-pagination {
   margin-bottom: 20px; }
 
-#secondary, .widget_area {
+#secondary,
+.widget_area {
   height: 540px;
   width: 100vw;
   padding-top: 1rem;
   background-color: #eb8e26; }
   #secondary a,
-  #secondary a:visited, .widget_area a,
+  #secondary a:visited,
+  .widget_area a,
   .widget_area a:visited {
     margin: 0rem 0.5rem;
     text-decoration: none; }
   @media all and (min-width: 800px) {
-    #secondary, .widget_area {
+    #secondary,
+    .widget_area {
       height: 284px;
       width: 100vw;
       display: -webkit-box;
@@ -869,9 +872,10 @@ object {
           -ms-flex-align: start;
               align-items: flex-start;
       background-color: #eb8e26;
-      padding-top: 42px; } }
+      padding-top: 40px; } }
   #secondary .widget_text,
-  #secondary .textwidget, .widget_area .widget_text,
+  #secondary .textwidget,
+  .widget_area .widget_text,
   .widget_area .textwidget {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -884,30 +888,35 @@ object {
         -ms-flex-align: center;
             align-items: center; }
     #secondary .widget_text h2,
-    #secondary .textwidget h2, .widget_area .widget_text h2,
+    #secondary .textwidget h2,
+    .widget_area .widget_text h2,
     .widget_area .textwidget h2 {
       text-transform: uppercase;
       font-family: "Miriam Libre", sans-serif;
       font-size: 1.2rem;
       color: white;
-      text-decoration: none; }
+      text-decoration: none;
+      padding-bottom: 20px; }
     #secondary .widget_text p,
-    #secondary .textwidget p, .widget_area .widget_text p,
+    #secondary .textwidget p,
+    .widget_area .widget_text p,
     .widget_area .textwidget p {
       line-height: 18px;
       color: white;
       margin: 0;
       font-weight: 300;
       text-align: left;
-      padding: 1vh 0; }
+      padding: 1.2vh 0; }
     #secondary .widget_text i,
-    #secondary .textwidget i, .widget_area .widget_text i,
+    #secondary .textwidget i,
+    .widget_area .widget_text i,
     .widget_area .textwidget i {
       color: white; }
     #secondary .widget_text .subscribe-button,
     #secondary .widget_text .feedback-button,
     #secondary .textwidget .subscribe-button,
-    #secondary .textwidget .feedback-button, .widget_area .widget_text .subscribe-button,
+    #secondary .textwidget .feedback-button,
+    .widget_area .widget_text .subscribe-button,
     .widget_area .widget_text .feedback-button,
     .widget_area .textwidget .subscribe-button,
     .widget_area .textwidget .feedback-button {
@@ -922,7 +931,8 @@ object {
       font-size: 1.3rem;
       font-weight: 700;
       margin-bottom: 1rem; }
-  #secondary .custom-html-widget, .widget_area .custom-html-widget {
+  #secondary .custom-html-widget,
+  .widget_area .custom-html-widget {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -930,7 +940,8 @@ object {
         -ms-flex-align: start;
             align-items: flex-start;
     line-height: 18px; }
-    #secondary .custom-html-widget .contact-info-section, .widget_area .custom-html-widget .contact-info-section {
+    #secondary .custom-html-widget .contact-info-section,
+    .widget_area .custom-html-widget .contact-info-section {
       font-family: "Source Sans Pro", sans-serif;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -939,17 +950,24 @@ object {
           -ms-flex-align: center;
               align-items: center;
       margin-bottom: 10px; }
-      #secondary .custom-html-widget .contact-info-section i, .widget_area .custom-html-widget .contact-info-section i {
+      #secondary .custom-html-widget .contact-info-section i,
+      .widget_area .custom-html-widget .contact-info-section i {
         font-size: 20px;
         padding-top: 2px;
         min-width: 30px; }
-      #secondary .custom-html-widget .contact-info-section p, .widget_area .custom-html-widget .contact-info-section p {
+      #secondary .custom-html-widget .contact-info-section p,
+      .widget_area .custom-html-widget .contact-info-section p {
         max-width: 230px;
         padding: 0 10px;
         border-left: 1px solid #fff;
         margin-top: 0; }
+  #secondary .widget_custom_html h2,
+  .widget_area .widget_custom_html h2 {
+    margin-bottom: 0; }
   @media all and (min-width: 800px) {
-    #secondary .wp-image-62, #secondary .wp-image-63, .widget_area .wp-image-62, .widget_area .wp-image-63 {
+    #secondary .wp-image-62, #secondary .wp-image-63,
+    .widget_area .wp-image-62,
+    .widget_area .wp-image-63 {
       padding-top: 1.5rem;
       height: 80px;
       width: 60px; } }
