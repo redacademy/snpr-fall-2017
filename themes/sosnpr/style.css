@@ -821,6 +821,7 @@ object {
         position: absolute;
         left: 600px;
         bottom: 40px;
+        padding-top: 5px;
         color: #fff;
         background: #eb8e26;
         -webkit-box-shadow: none;
