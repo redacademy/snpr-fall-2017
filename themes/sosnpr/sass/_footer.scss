@@ -3,6 +3,11 @@
   width: 100vw;
   padding-top: 1rem;
   background-color: $main-orange;
+
+  a, a:visited{
+    margin: 0rem 0.5rem;
+    text-decoration: none;
+  }
   
   .widget_text, .textwidget{
     display: flex;
@@ -14,7 +19,7 @@
       font-family: $miriam;
       font-size: 1.2rem;
       color: white;
-      
+      text-decoration: none;
     }
     
     p{
@@ -23,9 +28,6 @@
       margin: 0;
       font-weight: 300;
       text-align: left;      
-    }
-    a{
-      margin: 0rem 0.5rem;
     }
     i{
       color: white;
@@ -49,69 +51,69 @@
     display: flex;
     align-items: flex-start;
   }
-
+  
 }
 
- //subscribe button
+//subscribe button
 .form-popup{
   display: none;
   .clear{
     // width: 50px;
-  
-  //subscribe button
-
-  .subscribe-form{
-    display: none;
-  }
-}
-.form-popup-show{
-  display: flex;
-  position: fixed;
-  bottom: 300px;
-  width: 100vw;
-  left: 0;
-  margin: 0 auto;
-  padding: 20px 0;
-  justify-content: center;
-
-  form{
-    width: 400px;  
-    background: white;
-    text-align: center;
-    label p{
-      font-family: $source;
-      line-height: $font__line-height-body;
-      margin: 15px 0;
-    }
-    input[type="email"]{
-      width: 300px;
-      height: 30px;
-      margin: 10px 50px;
-      padding: 0 10px;
-    }
-    button{
-      position: relative;
-      font-size: 16px;
-      bottom: 40px;
-      left: 140px;
-      padding: 6.5px 10px;
-      color: white;
-      background-color: $forest;
-      border-radius: 10%;
-      box-shadow: none;
-      border: none;
+    
+    //subscribe button
+    
+    .subscribe-form{
+      display: none;
     }
   }
-  .fa-times{
-    position: absolute;
-    right: 190px;
-    top: 25px;
+  .form-popup-show{
+    display: flex;
+    position: fixed;
+    bottom: 300px;
+    width: 100vw;
+    left: 0;
+    margin: 0 auto;
+    padding: 20px 0;
+    justify-content: center;
+    
+    form{
+      width: 400px;  
+      background: white;
+      text-align: center;
+      label p{
+        font-family: $source;
+        line-height: $font__line-height-body;
+        margin: 15px 0;
+      }
+      input[type="email"]{
+        width: 300px;
+        height: 30px;
+        margin: 10px 50px;
+        padding: 0 10px;
+      }
+      button{
+        position: relative;
+        font-size: 16px;
+        bottom: 40px;
+        left: 140px;
+        padding: 6.5px 10px;
+        color: white;
+        background-color: $forest;
+        border-radius: 10%;
+        box-shadow: none;
+        border: none;
+      }
+    }
+    .fa-times{
+      position: absolute;
+      right: 190px;
+      top: 25px;
+    }
+    a,
+    a:visited{
+      color: $forest;
+    }
   }
-  a,
-  a:visited{
-    color: $forest;
-  }
-
 }
 
 @include tablet{
