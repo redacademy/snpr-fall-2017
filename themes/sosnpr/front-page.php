@@ -12,7 +12,7 @@ get_header(); ?>
     <div class="front-page-hero">
   <h1> <span class="bold-title-span">South Okanagan SimilKameen</span> <span>National Park</span></h1>
   <h2 class="front-page-blurb">A place where biodiversity is preserved for future generations to enjoy<h2>
-  <button class="learn-more-button"><a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Proposed Park' ) ) ); ?>">Learn More</a></button>
+  <button class="learn-more-button"><a href="<?php echo esc_url( get_permalink( get_page_by_path( 'Proposed Park' ) ) ); ?>">Learn More</a></button>
 	</div>
 	<h1 class="recent-updates-header">Recent Updates</h1>
   <div class="owl-carousel">
@@ -50,7 +50,7 @@ get_header(); ?>
 		
 </div><!-- owl-carousel -->
 
-<div class="posts-navigation"><a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">Older Posts</div>
+<div class="posts-navigation"><a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">Older Posts</a></div>
 
 		<?php else : ?>
 
