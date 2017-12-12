@@ -3,7 +3,7 @@
 
   $('.subscribe-button').on('click', function(event){
     event.preventDefault();
-    
+    console.log('yo');
     $('.form-popup').addClass('form-popup-show');
     $('#mce-EMAIL').focus();
     // clearForm = true;
