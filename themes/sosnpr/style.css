@@ -943,8 +943,15 @@ object {
     .form-popup .form-popup-show a,
     .form-popup .form-popup-show a:visited {
       color: #285817; }
+  .form-popup .fa-times {
+    position: absolute;
+    right: 190px;
+    top: 25px; }
+  .form-popup a,
+  .form-popup a:visited {
+    color: #285817; }
 
-@media all and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   #secondary, .widget_area {
     height: 284px;
     width: 100vw;

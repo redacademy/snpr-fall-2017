@@ -3,7 +3,7 @@
   width: 100vw;
   padding-top: 1rem;
   background-color: $main-orange;
-
+  
   a, a:visited{
     margin: 0rem 0.5rem;
     text-decoration: none;
@@ -114,8 +114,6 @@
       color: $forest;
     }
   }
-<<<<<<< HEAD
-=======
   .fa-times{
     position: absolute;
     right: 190px;
@@ -125,10 +123,9 @@
   a:visited{
     color: $forest;
   }
->>>>>>> 77736ada3c9be70ce40c66bafebd472d33092914
 }
 
-@include tablet{
+@media screen and (min-width: 800px){
   #secondary, .widget_area{
     height: 284px;
     width: 100vw;
@@ -145,5 +142,4 @@
       width: 60px;
     }
   }
-}
 }
