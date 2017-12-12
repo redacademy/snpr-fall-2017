@@ -894,75 +894,75 @@ object {
 
 .form-popup {
   display: none; }
-
-.form-popup-show {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: fixed;
-  bottom: 300px;
-  width: 100vw;
-  left: 0;
-  margin: 0 auto;
-  padding: 20px 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .form-popup-show form {
-    width: 400px;
-    background: white;
-    text-align: center; }
-    .form-popup-show form label p {
-      font-family: "Source Sans Pro", sans-serif;
-      line-height: 20px;
-      margin: 15px 0; }
-    .form-popup-show form input[type="email"] {
-      width: 300px;
-      height: 30px;
-      margin: 10px 50px;
-      padding: 0 10px; }
-    .form-popup-show form button {
-      position: relative;
-      font-size: 16px;
-      bottom: 40px;
-      left: 140px;
-      padding: 6.5px 10px;
-      color: white;
-      background-color: #285817;
-      border-radius: 10%;
-      -webkit-box-shadow: none;
-              box-shadow: none;
-      border: none; }
-  .form-popup-show .fa-times {
-    position: absolute;
-    right: 190px;
-    top: 25px; }
-  .form-popup-show a,
-  .form-popup-show a:visited {
-    color: #285817; }
-
-@media all and (min-width: 600px) {
-  #secondary, .widget_area {
-    height: 284px;
-    width: 100vw;
+  .form-popup .clear .subscribe-form {
+    display: none; }
+  .form-popup .form-popup-show {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    background-color: #eb8e26;
-    padding-top: rem; }
-    #secondary .wp-image-62, #secondary .wp-image-63, .widget_area .wp-image-62, .widget_area .wp-image-63 {
-      padding-top: 1.5rem;
-      height: 80px;
-      width: 60px; } }
+    position: fixed;
+    bottom: 300px;
+    width: 100vw;
+    left: 0;
+    margin: 0 auto;
+    padding: 20px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .form-popup .form-popup-show form {
+      width: 400px;
+      background: white;
+      text-align: center; }
+      .form-popup .form-popup-show form label p {
+        font-family: "Source Sans Pro", sans-serif;
+        line-height: 20px;
+        margin: 15px 0; }
+      .form-popup .form-popup-show form input[type="email"] {
+        width: 300px;
+        height: 30px;
+        margin: 10px 50px;
+        padding: 0 10px; }
+      .form-popup .form-popup-show form button {
+        position: relative;
+        font-size: 16px;
+        bottom: 40px;
+        left: 140px;
+        padding: 6.5px 10px;
+        color: white;
+        background-color: #285817;
+        border-radius: 10%;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        border: none; }
+    .form-popup .form-popup-show .fa-times {
+      position: absolute;
+      right: 190px;
+      top: 25px; }
+    .form-popup .form-popup-show a,
+    .form-popup .form-popup-show a:visited {
+      color: #285817; }
+  @media all and (min-width: 600px) {
+    .form-popup #secondary, .form-popup .widget_area {
+      height: 284px;
+      width: 100vw;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      background-color: #eb8e26;
+      padding-top: rem; }
+      .form-popup #secondary .wp-image-62, .form-popup #secondary .wp-image-63, .form-popup .widget_area .wp-image-62, .form-popup .widget_area .wp-image-63 {
+        padding-top: 1.5rem;
+        height: 80px;
+        width: 60px; } }
 
 .page-template-about-us {
   font-family: "Miriam Libre", sans-serif; }
@@ -2033,10 +2033,6 @@ object {
   .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
 
-<<<<<<< HEAD
-=======
-/* .page-template-resources ul li:nth-child(7) { */
->>>>>>> 1e5575530744f699095bd456435e529420adc94a
 .page-template-resources .resources-ul .lc-groups {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2068,52 +2064,6 @@ object {
         -ms-flex-pack: end;
             justify-content: flex-end;
     margin-left: 5rem; }
-
-.single-hero {
-  background-image: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg);
-  background-size: 100% 140%;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  height: 90vh;
-  font-family: "Miriam Libre", sans-serif;
-  padding-top: 50px; }
-  .single-hero h1 {
-    color: #285817;
-    font-family: "Miriam Libre", sans-serif;
-    text-align: center;
-    font-size: 28px;
-    text-transform: uppercase;
-    display: block;
-    padding-top: 15px;
-    line-height: 1; }
-
-.single-post .site-main {
-  padding: 15px; }
-
-.single-post .entry-title {
-  line-height: 1.5;
-  font-family: "Source Sans Pro", sans-serif;
-  text-transform: uppercase; }
-
-.single-post .nav-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .single-post .nav-links .nav-previous {
-    width: 100px;
-    height: 100px;
-    background-image: url(../../sos_assets/ui-icons/pagination-prev.svg);
-    background-size: 200% 200%;
-    background-position: center center; }
-  .single-post .nav-links .nav-next {
-    width: 100px;
-    height: 100px;
-    background-image: url(../../sos_assets/ui-icons/pagination-next.svg);
-    background-size: 200% 200%;
-    background-position: center center; }
 
 .single-hero {
   background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
@@ -2273,10 +2223,6 @@ object {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-<<<<<<< HEAD
-=======
-          justify-content: center; 
->>>>>>> 1e5575530744f699095bd456435e529420adc94a
           justify-content: center;
   margin-top: 5rem; }
 
