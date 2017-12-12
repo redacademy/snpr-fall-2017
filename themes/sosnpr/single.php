@@ -15,11 +15,14 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
-			
+			<div class="single-navigation">
+				<div class="return-home">
+				<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Recent Updates' ) ) ); ?>">	Back to List</a>
+</div>
 			<?php 
 			the_post_navigation(); 
 			?> 
-
+</div>
 		
 
 
