@@ -2330,7 +2330,8 @@ object {
 .menu-non-logo {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  padding-right: 10px; }
 
 .menu-toggle {
   min-height: 40px;
