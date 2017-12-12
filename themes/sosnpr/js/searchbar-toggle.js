@@ -48,14 +48,14 @@
     $(this).find('.right').toggleClass('hide');
   })
 
- //smooth scroll
-  $(document).on('click', 'a[href^="#"]', function (event) {
-    event.preventDefault();
+//  //smooth scroll
+//   $(document).on('click', 'a[href^="#"]', function (event) {
+//     event.preventDefault();
 
-    $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
-    }, 2000);
-  });
+//     $('html, body').animate({
+//         scrollTop: $($.attr(this, 'href')).offset().top
+//     }, 2000);
+//   });
 
 
 //feedback form appear on click and remove if anywhere else is clicked
