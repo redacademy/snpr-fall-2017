@@ -365,7 +365,6 @@ input[type="submit"] {
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1;
-  padding: .6rem 1rem .4rem;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
   button:hover,
   input[type="button"]:hover,
@@ -1983,16 +1982,7 @@ object {
   .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
 
-<<<<<<< HEAD
 .page-template-resources .resources-ul .lc-groups {
-=======
-<<<<<<< HEAD
-.page-template-resources ul li:nth-child(7) {
-=======
-<<<<<<< HEAD
-.page-template-resources .resources-ul li:nth-child(7) {
->>>>>>> 48ce252afbfeac03d78f1b6922a8036eed792c65
->>>>>>> ce27800e8937744017cdd7635346c21cdaa07dc5
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2050,11 +2040,12 @@ object {
     z-index: 0; }
 
 .single-hero {
-  background-image: url(../../sos_assets/resources/similkameen-river-bend-damproto.jpg);
-  background-size: 100% 140%;
+  background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom center;
-  height: 90vh;
+  background-position: 0 60%;
+  height: 85vh;
+  margin-bottom: 70px;
   font-family: "Miriam Libre", sans-serif;
   padding-top: 50px; }
   .single-hero h1 {
@@ -2068,7 +2059,8 @@ object {
     line-height: 1; }
 
 .single-post .site-main {
-  padding: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
   font-family: "Source Sans Pro", sans-serif; }
 
 .single-post .single-navigation {
@@ -2205,10 +2197,6 @@ object {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-<<<<<<< HEAD
-          justify-content: center; }
-
-=======
           justify-content: center;
   margin-top: 5rem; }
 
@@ -2224,18 +2212,6 @@ object {
           box-shadow: none;
   color: #eb8e26; }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 0d66976818f782f58fcca6649536fb7426188631
->>>>>>> 422ce569a1c2210e64f99c37abf83b3fb1f3d8f6
->>>>>>> 27d8bf8fc6febefdb88d66bb5cef7fc5cd1116bb
->>>>>>> 8af0e6f8b32fc1c720cab24129810a2e74d469f1
->>>>>>> 48ce252afbfeac03d78f1b6922a8036eed792c65
->>>>>>> ce27800e8937744017cdd7635346c21cdaa07dc5
 .search-field {
   width: 0px;
   padding-left: 15px;
@@ -2302,7 +2278,7 @@ object {
   width: 100%;
   top: 0px;
   z-index: 1000;
-  padding-right: 20px; }
+  padding-left: 20px; }
 
 .menu1 {
   position: absolute;
@@ -2338,9 +2314,9 @@ object {
         font-family: "Miriam Libre", sans-serif; }
         .menu1 .menu-menu-1-container ul li a {
           color: #285817; }
-      .menu1 .menu-menu-1-container ul .menu-item-77 {
+      .menu1 .menu-menu-1-container ul .menu-item-106 {
         background: #eb8e26; }
-        .menu1 .menu-menu-1-container ul .menu-item-77 a {
+        .menu1 .menu-menu-1-container ul .menu-item-106 a {
           color: white;
           text-align: center; }
 
@@ -2392,35 +2368,37 @@ object {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    .menu1 .menu-menu-1-container ul {
-      width: 500px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -ms-flex-pack: distribute;
-          justify-content: space-around; }
-      .menu1 .menu-menu-1-container ul li {
-        text-align: center;
-        line-height: 1;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        font-family: "Miriam Libre", sans-serif; }
-        .menu1 .menu-menu-1-container ul li a {
-          color: #CC8005;
-          font-family: "Miriam Libre", sans-serif;
-          font-size: 14px; }
-      .menu1 .menu-menu-1-container ul .menu-item-77 {
-        padding-left: 15px;
-        padding-right: 15px;
-        background: #eb8e26; }
-        .menu1 .menu-menu-1-container ul .menu-item-77 a {
-          color: white;
-          padding-left: 5px;
-          padding-right: 5px; } }
+    .menu1 .menu-menu-1-container {
+      padding-left: 0px; }
+      .menu1 .menu-menu-1-container ul {
+        width: 500px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+        .menu1 .menu-menu-1-container ul li {
+          text-align: center;
+          line-height: 1;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          font-family: "Miriam Libre", sans-serif; }
+          .menu1 .menu-menu-1-container ul li a {
+            color: #CC8005;
+            font-family: "Miriam Libre", sans-serif;
+            font-size: 14px; }
+        .menu1 .menu-menu-1-container ul .menu-item-106 {
+          padding-left: 15px;
+          padding-right: 15px;
+          background: #eb8e26; }
+          .menu1 .menu-menu-1-container ul .menu-item-106 a {
+            color: white;
+            padding-left: 5px;
+            padding-right: 5px; } }
 
 @media screen and (min-width: 1000px) {
   .menu1 {
@@ -2464,9 +2442,9 @@ object {
           color: #CC8005;
           font-family: "Miriam Libre", sans-serif;
           font-size: 20px; }
-      .menu1 .menu-menu-1-container ul .menu-item-77 {
+      .menu1 .menu-menu-1-container ul .menu-item-106 {
         background: #eb8e26; }
-        .menu1 .menu-menu-1-container ul .menu-item-77 a {
+        .menu1 .menu-menu-1-container ul .menu-item-106 a {
           color: white; } }
 
 /*! Flickity v2.0.10

@@ -1,12 +1,14 @@
 (function ($) {
   
-    // $('.menu-toggle').on('click', function (e) {
-    //   e.preventDefault();
-  
-    //   $(".menu").toggleClass("menu-show").focus();
+    $('.menu-item-106 a').on('click', function (e) {
+      e.preventDefault();
   
       
-    // })
+  
+      
+    });
+    $('.menu-item-106').addClass('subcribe-button');
+
     $('.menu-toggle').click(function() {
       
       
@@ -30,7 +32,8 @@
       
      
     
-    })
+    });
+    
    
    
     
