@@ -22,9 +22,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 </div><!-- #secondary -->
 
      <div class="feedback hide">
-			 
-			 
-			 <?php echo do_shortcode('[contact-form-7 id="99" title="Contact form 1"]'); ?>
+			 <?php echo do_shortcode('[contact-form-7 id="100" title="Contact form 1"]'); ?>
       
 		</div>
 		
