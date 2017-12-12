@@ -6,7 +6,9 @@
       
   
       
+
     });
+    
     $('.menu-item-106').addClass('subscribe-button');
 
     $('.menu-toggle').click(function() {
