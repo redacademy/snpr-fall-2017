@@ -935,18 +935,11 @@ object {
       -webkit-box-shadow: none;
               box-shadow: none;
       border: none; }
-  .form-popup-show .fa-times {
-    position: absolute;
-    right: 190px;
-    top: 25px; }
-  .form-popup-show a,
-  .form-popup-show a:visited {
-    color: #285817; }
 
 .fa-times {
-  position: absolute;
-  right: 190px;
-  top: 25px; }
+  position: relative;
+  right: 30px;
+  top: 15px; }
 
 a,
 a:visited {
