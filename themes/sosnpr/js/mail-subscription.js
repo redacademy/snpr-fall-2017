@@ -24,15 +24,21 @@
 
     // $('#mce-EMAIL').val('');
     // // });
-    $(document).ajaxSuccess(function(){
-      console.log('hey');
-      // $('#mce-EMAIL').val('');
-      $('#mc-embedded-subscribe-form').trigger('reset');
-    })
+   
     clearForm= false;
   })
 
-  
+
+  // $('.subscribe-submit').click(function(){
+  //   console.log('hey');
+  //   $(document).ajaxSuccess(function(){
+  //     $('#mce-EMAIL').val('');
+
+  //   })
+   
+  //   // $('#mc-embedded-subscribe-form').trigger('reset');
+  // })
+
 
   $('html').click(function(){
     // e.preventDefault();

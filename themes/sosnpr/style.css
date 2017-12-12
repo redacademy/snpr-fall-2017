@@ -1666,7 +1666,8 @@ a:visited {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-bottom: 25px; }
+    padding-bottom: 25px;
+    border-bottom: 1px solid orange; }
     .page-template-proposed-park .two .content-container .text {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
