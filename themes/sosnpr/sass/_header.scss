@@ -9,12 +9,13 @@
   
   top:0px;
   z-index:1000;
-  padding-right:20px;
+  padding-left:20px;
   
   
 }
 
 .menu1{
+
   position:absolute;
   height:330px;
   width:200px;
@@ -45,7 +46,7 @@
         color:$forest;
       }
     }
-    .menu-item-77{
+    .menu-item-106{
       a{
         color:white;
         text-align:center;
@@ -98,9 +99,9 @@
     border:none;
     align-content:center;
     align-items:center;
-
+    
     .menu-menu-1-container{
-      
+      padding-left:0px;
     ul{
       width:500px;
       display:flex;
@@ -114,12 +115,12 @@
         
         font-family:$miriam;
         a{
-          color:$main-orange;
+          color:$border-orange;
           font-family:$miriam;
-          font-size:16px;
+          font-size:14px;
         }
       }
-      .menu-item-77{
+      .menu-item-106{
         
         padding-left:15px;
         padding-right:15px;
@@ -165,12 +166,12 @@
           
           font-family:$miriam;
           a{
-            color:$main-orange;
+            color:$border-orange;
             font-family:$miriam;
             font-size:20px;
           }
         }
-        .menu-item-77{
+        .menu-item-106{
           a{
             color:white;
           }

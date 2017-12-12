@@ -17,52 +17,87 @@ get_header();
   
  </header>
 
-<ul class="resources-nav">
-        <li>
-          <a href="#reports">reports</a>
-        </li>
-</ul>
+<section class="resources-nav">
+  <div class="nav-links">
+  <ul class="resources-nav-1">
+      <li>
+        <a href="#reports">Reports</a>
+      </li>
+      <li>
+        <a href="#books">Books</a>
+      </li>
+  </ul>
+  <ul class="resources-nav-2">
+      <li>
+        <a href="#videos">Videos</a>
+      </li>
+      <li>
+        <a href="#news">In the News</a>
+      </li>
+      <li>
+        <a href="#lc-groups">Local Conservation Groups</a>
+      </li>
+  </ul>
+  <ul class="resources-nav-3">
+      <li>
+        <a href="#photos">Photos</a>
+      </li>
+      <li>
+        <a href="#radio">Radio</a>
+      </li>
+  </ul>
+</div>
+</section>
 
  <ul class="resources-ul">
  
-   <li>
+   <li id="reports">
      <?php $props = CFS()->get_field_info( 'reports' );?> 
      <h2><?php echo $props['label'];?></h2>
      <p><?php echo CFS()->get('reports');?></p>
    </li>
 
-   <li>
-     <?php $props = CFS()->get_field_info( 'video' );?> 
+<section class="divider">
+   <div class="scroll-up">
+   ^
+    </div>
+  <div class="divider-line">
+  </div>
+</section>
+
+   <li id="videos">
+   <?php $props = CFS()->get_field_info( 'videos' );?> 
      <h2><?php echo $props['label'];?></h2>
-     <p><?php echo CFS()->get('video');?></p>
+     <p><?php echo CFS()->get('videos');?></p>
    </li>
 
-   <li>
-     <?php $props = CFS()->get_field_info( 'photos' );?> 
+   <li id="photos">
+   <?php $props = CFS()->get_field_info( 'photos' );?> 
      <h2><?php echo $props['label'];?></h2>
      <p><?php echo CFS()->get('photos');?></p>
    </li>
 
-   <li>
-     <?php $props = CFS()->get_field_info( 'books' );?> 
+   <li id="#books">
+   <?php $props = CFS()->get_field_info( 'books' );?> 
      <h2><?php echo $props['label'];?></h2>
      <p><?php echo CFS()->get('books');?></p>
    </li>
 
-   <li>
-     <?php $props = CFS()->get_field_info( 'in_the_news' );?> 
+   <li id="news">
+   <?php $props = CFS()->get_field_info( 'in_the_news' );?> 
      <h2><?php echo $props['label'];?></h2>
      <p><?php echo CFS()->get('in_the_news');?></p>
    </li>
    
-   <li>
-     <?php $props = CFS()->get_field_info( 'radio' );?> 
+   <li id="radio">
+   <?php $props = CFS()->get_field_info( 'radio' );?> 
      <h2><?php echo $props['label'];?></h2>
      <p><?php echo CFS()->get('radio');?></p>
    </li>
 
-   <li>
-     <?php $props = CFS()->get_field_info( 'local_conservation_groups' );?> 
+   <div class="lc-groups">
+   <li id="lc-groups">
+   <?php $props = CFS()->get_field_info( 'local_conservation_groups' );?> 
      <h2><?php echo $props['label'];?></h2>
      <p><?php echo CFS()->get('local_conservation_groups');?></p>
    </li>
@@ -71,10 +106,8 @@ get_header();
      <?php $props = CFS()->get_field_info( 'local_conservation_groups_2' );?> 
      <p><?php echo CFS()->get('local_conservation_groups_2');?></p>
    </li>
-
+</div>
  </ul>
-
-
 
 </main><!-- #main -->
 

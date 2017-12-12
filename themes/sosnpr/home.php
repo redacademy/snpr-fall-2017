@@ -10,11 +10,30 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+		  <div class="updates-hero">
+		   <h2><?php echo wp_title();?></h2>
+			</div>
+
+		<section class="stories-container">
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'template-parts/content' ); ?>
+      
+				<div class="journal-container">
+					<?php the_post_thumbnail( 'large' ); ?>
+					<div class="button-container">
+					 <p class="post-title"><?php the_title();?></p>
+					 <?php red_starter_posted_on(); ?>
+					 <button class="read-more">Read More</button>
+         </div>
+        </div>
+				
+			
 
 			<?php endwhile; // End of the loop. ?>
+			<?php red_starter_numbered_pagination(); ?>
+      
+		</section>
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

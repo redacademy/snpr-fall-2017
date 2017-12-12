@@ -50,7 +50,7 @@ get_header(); ?>
 		
 </div><!-- owl-carousel -->
 
-<?php the_posts_navigation(); ?>
+<div class="posts-navigation"><a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">Older Posts</div>
 
 		<?php else : ?>
 

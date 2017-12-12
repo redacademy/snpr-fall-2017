@@ -365,7 +365,6 @@ input[type="submit"] {
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1;
-  padding: .6rem 1rem .4rem;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
   button:hover,
   input[type="button"]:hover,
@@ -688,13 +687,158 @@ object {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     position: fixed;
-    bottom: 60px;
-    min-width: 500px;
+    bottom: 80px;
+    max-width: 450px;
+    max-height: 450px;
+    min-width: 430px;
+    min-height: 430px;
+    border-radius: 3%;
     background: #fff;
     -ms-flex-item-align: center;
-        align-self: center;
+        align-self: center; }
+    .site-info .feedback .para {
+      font-family: "Source Sans Pro", sans-serif;
+      text-align: center; }
+    .site-info .feedback p {
+      margin: 0; }
+    .site-info .feedback .wpcf7 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: 0;
+      border: 8px solid #eb8e26;
+      border-radius: 3%;
+      max-width: 96%;
+      padding-top: 8px;
+      padding-bottom: 15px; }
+      .site-info .feedback .wpcf7 form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        max-width: 90%;
+        margin: 0; }
+        .site-info .feedback .wpcf7 form input:not(.wpcf7-submit) {
+          min-height: 50px;
+          min-width: 370px;
+          background: #F7F6F6;
+          font-family: "Source Sans Pro", sans-serif; }
+        .site-info .feedback .wpcf7 form textarea {
+          max-height: 100px;
+          min-width: -webkit-max-content;
+          min-width: -moz-max-content;
+          min-width: max-content;
+          background: #F7F6F6;
+          font-family: "Source Sans Pro", sans-serif; }
+        .site-info .feedback .wpcf7 form .wpcf7-submit {
+          margin-left: 110px;
+          height: 50px;
+          width: 150px;
+          margin-top: 15px;
+          background: #eb8e26;
+          color: #fff;
+          text-shadow: none;
+          -webkit-box-shadow: none;
+                  box-shadow: none;
+          font-family: "Source Sans Pro", sans-serif;
+          font-size: 20px; }
+  .site-info .hide {
     display: none; }
+  .site-info .show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .site-info .wpcf7-response-output {
+    margin: 0;
+    border: none;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center; }
+
+.blog .updates-hero {
+  background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 60%;
+  height: 85vh;
+  font-family: "Miriam Libre", sans-serif;
+  margin-bottom: 70px; }
+  .blog .updates-hero h2 {
+    text-align: center;
+    padding-right: 200px;
+    color: #629749;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 20px; }
+
+.blog .stories-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .blog .stories-container .journal-container {
+    position: relative;
+    margin-bottom: 50px;
+    border: none; }
+    .blog .stories-container .journal-container img {
+      min-width: 800px; }
+    .blog .stories-container .journal-container .button-container {
+      position: absolute;
+      bottom: 5px;
+      background: rgba(0, 0, 0, 0.6);
+      border: none;
+      width: 100%;
+      min-height: 120px; }
+      .blog .stories-container .journal-container .button-container .post-title {
+        max-width: 500px;
+        color: #fff;
+        font-family: "Miriam Libre", sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+        padding-left: 20px; }
+      .blog .stories-container .journal-container .button-container .read-more {
+        position: absolute;
+        left: 600px;
+        bottom: 40px;
+        color: #fff;
+        background: #eb8e26;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: "Miriam Libre", sans-serif;
+        min-width: 170px;
+        border: 6px solid #fff;
+        border-radius: 5px;
+        opacity: 0.8; }
+      .blog .stories-container .journal-container .button-container .posted-on {
+        color: #fff;
+        font-family: "Miriam Libre", sans-serif;
+        padding-left: 20px; }
+
+.blog .search-pagination {
+  margin-bottom: 20px; }
 
 #secondary, .widget_area {
   height: 540px;
@@ -720,7 +864,8 @@ object {
       line-height: 1.8rem;
       color: white;
       margin: 0;
-      font-weight: 300; }
+      font-weight: 300;
+      text-align: left; }
     #secondary .widget_text a, #secondary .textwidget a, .widget_area .widget_text a, .widget_area .textwidget a {
       margin: 0rem 0.5rem; }
     #secondary .widget_text i, #secondary .textwidget i, .widget_area .widget_text i, .widget_area .textwidget i {
@@ -811,7 +956,7 @@ object {
         -ms-flex-align: start;
             align-items: flex-start;
     background-color: #eb8e26;
-    padding-top: 1rem; }
+    padding-top: rem; }
     #secondary .wp-image-62, #secondary .wp-image-63, .widget_area .wp-image-62, .widget_area .wp-image-63 {
       padding-top: 1.5rem;
       height: 80px;
@@ -1018,19 +1163,95 @@ object {
 .page-template-resources .resources-nav {
   width: 100vw;
   height: 15rem;
-  background: #eb8e26; }
+  background: #eb8e26;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-template-resources .resources-nav .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 90vw; }
+  .page-template-resources .resources-nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-family: "Miriam Libre", sans-serif; }
+  .page-template-resources .resources-nav .resources-nav-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .page-template-resources .resources-nav .resources-nav-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .page-template-resources .resources-nav .resources-nav-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 .page-template-resources .post-17 .entry-header {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
   text-align: center; }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .post-17 .entry-header {
+      font-size: 1.8rem; } }
 
 .page-template-resources .post-17 .entry-content {
+  color: #285817;
+  font-family: "Source Sans Pro", sans-serif;
   padding-bottom: 15rem; }
   @media all and (min-width: 1000px) {
     .page-template-resources .post-17 .entry-content {
-      padding-bottom: 20rem; } }
+      font-size: 1.5rem;
+      padding-bottom: 18rem; } }
 
 .page-template-resources .post-17 p {
   text-align: center; }
@@ -1049,7 +1270,7 @@ object {
   font-weight: 300;
   padding-left: 3rem; }
 
-.page-template-resources ul li:nth-child(2) {
+.page-template-resources .resources-ul li:nth-child(2) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1060,10 +1281,10 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-resources ul li:nth-child(2) h2 {
+  .page-template-resources .resources-ul li:nth-child(2) h2 {
     width: 100vw; }
 
-.page-template-resources ul li:nth-child(3) {
+.page-template-resources .resources-ul li:nth-child(3) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1074,31 +1295,68 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-resources ul li:nth-child(3) h2 {
+  .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
 
-.page-template-resources ul li:nth-child(7) {
+.page-template-resources .resources-ul .lc-groups {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  width: 50%; }
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  .page-template-resources .resources-ul .lc-groups li:nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap; }
+  .page-template-resources .resources-ul .lc-groups li:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
 
-.page-template-resources ul li:nth-child(8) {
+.page-template-resources .divider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  width: 50%; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-resources .divider .scroll-up {
+    position: relative;
+    background: #555454;
+    border-radius: 30px;
+    padding: 17px 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    z-index: 200; }
+  .page-template-resources .divider .divider-line {
+    position: absolute;
+    border-bottom: #eb8e26 solid 2px;
+    width: 92vw;
+    margin-top: 20px;
+    z-index: 0; }
 
 .front-page-hero {
-  background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
+  background-image: url(../../sos_assets/home-page/south-okanagan-grasslands.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -1143,38 +1401,47 @@ object {
   text-transform: uppercase;
   color: #bf6d0a; }
 
-.blog .posts-navigation {
+.page-id-101 .posts-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
-  .blog .posts-navigation .nav-previous {
-    width: auto; }
-    .blog .posts-navigation .nav-previous a {
-      color: #bf6d0a;
-      text-transform: uppercase;
-      font-family: "Miriam Libre", sans-serif; }
+  .page-id-101 .posts-navigation a {
+    color: #bf6d0a;
+    text-transform: uppercase;
+    font-family: "Miriam Libre", sans-serif; }
 
-.blog .owl-item {
+.page-id-101 .owl-item {
   height: 320px; }
 
-.blog .carousel-cell {
+.page-id-101 .carousel-cell {
   padding: 10px;
   height: 320px;
   overflow: hidden; }
-  .blog .carousel-cell img {
+  .page-id-101 .carousel-cell img {
     height: 320px; }
-  .blog .carousel-cell .entry-header {
+  .page-id-101 .carousel-cell .entry-header {
     color: white;
     font-family: "Source Sans Pro", sans-serif;
     position: absolute;
     bottom: 30px;
     padding: 10px;
     font-size: 12px; }
-    .blog .carousel-cell .entry-header a {
+    .page-id-101 .carousel-cell .entry-header a {
       color: white;
       text-decoration: none; }
+
+.page-id-101 .page-id-101 .entry-header {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  position: absolute;
+  bottom: 30px;
+  padding: 10px;
+  font-size: 12px; }
+  .page-id-101 .page-id-101 .entry-header a {
+    color: white;
+    text-decoration: none; }
 
 @media screen and (min-width: 600px) {
   .front-page-hero {
@@ -1188,13 +1455,25 @@ object {
 
 @media screen and (min-width: 1000px) {
   .front-page-hero {
-    background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg);
-    background-size: 100% 140%;
-    background-repeat: no-repeat;
-    background-position: bottom center;
+    background: url("../../sos_assets/error404/error404.jpg");
+    background-size: cover;
     height: 90vh;
-    font-family: "Miriam Libre", sans-serif;
-    padding-top: 50px; } }
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-position: 30% 21%;
+    font-family: "Miriam Libre", sans-serif; } }
 
 .page-template-proposed-park .entry-title {
   color: #285817;
@@ -1612,19 +1891,95 @@ object {
 .page-template-resources .resources-nav {
   width: 100vw;
   height: 15rem;
-  background: #eb8e26; }
+  background: #eb8e26;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-template-resources .resources-nav .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 90vw; }
+  .page-template-resources .resources-nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-family: "Miriam Libre", sans-serif; }
+  .page-template-resources .resources-nav .resources-nav-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .page-template-resources .resources-nav .resources-nav-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .page-template-resources .resources-nav .resources-nav-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 .page-template-resources .post-17 .entry-header {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
   text-align: center; }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .post-17 .entry-header {
+      font-size: 1.8rem; } }
 
 .page-template-resources .post-17 .entry-content {
+  color: #285817;
+  font-family: "Source Sans Pro", sans-serif;
   padding-bottom: 15rem; }
   @media all and (min-width: 1000px) {
     .page-template-resources .post-17 .entry-content {
-      padding-bottom: 20rem; } }
+      font-size: 1.5rem;
+      padding-bottom: 18rem; } }
 
 .page-template-resources .post-17 p {
   text-align: center; }
@@ -1643,7 +1998,7 @@ object {
   font-weight: 300;
   padding-left: 3rem; }
 
-.page-template-resources ul li:nth-child(2) {
+.page-template-resources .resources-ul li:nth-child(2) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1654,10 +2009,10 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-resources ul li:nth-child(2) h2 {
+  .page-template-resources .resources-ul li:nth-child(2) h2 {
     width: 100vw; }
 
-.page-template-resources ul li:nth-child(3) {
+.page-template-resources .resources-ul li:nth-child(3) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1668,28 +2023,170 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-resources ul li:nth-child(3) h2 {
+  .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
 
-.page-template-resources ul li:nth-child(7) {
+/* .page-template-resources ul li:nth-child(7) { */
+.page-template-resources .resources-ul .lc-groups {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  width: 50%; }
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  .page-template-resources .resources-ul .lc-groups li:nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap; }
+  .page-template-resources .resources-ul .lc-groups li:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
 
-.page-template-resources ul li:nth-child(8) {
+.page-template-resources .divider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  width: 50%; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-resources .divider .scroll-up {
+    position: relative;
+    background: #555454;
+    border-radius: 30px;
+    padding: 17px 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    z-index: 200; }
+  .page-template-resources .divider .divider-line {
+    position: absolute;
+    border-bottom: #eb8e26 solid 2px;
+    width: 92vw;
+    margin-top: 20px;
+    z-index: 0; }
+
+.single-hero {
+  background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 60%;
+  height: 85vh;
+  margin-bottom: 70px;
+  font-family: "Miriam Libre", sans-serif;
+  padding-top: 50px; }
+  .single-hero h1 {
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 15px;
+    line-height: 1; }
+
+.single-post .site-main {
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.single-post .single-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%; }
+
+.single-post .return-home {
+  background-image: url(../../sos_assets/ui-icons/pagination-ret.svg);
+  background-size: 260% 200%;
+  background-position: 43% 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100px;
+  height: 100px; }
+  .single-post .return-home a {
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+    padding-top: 63px;
+    padding-left: 20px;
+    color: black;
+    font-size: 10px;
+    text-decoration: none; }
+
+.single-post .entry-title {
+  line-height: 1.5;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase; }
+
+.single-post .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  .single-post .nav-links .nav-previous {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../sos_assets/ui-icons/pagination-prev.png);
+    background-size: 200% 200%;
+    background-position: center center;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative; }
+    .single-post .nav-links .nav-previous a {
+      position: absolute;
+      bottom: 0;
+      left: 29%;
+      color: black;
+      text-transform: uppercase;
+      padding-top: 60px;
+      padding-left: 21px;
+      font-size: 10px;
+      text-decoration: none; }
+  .single-post .nav-links .nav-next {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../sos_assets/ui-icons/pagination-next.png);
+    background-size: 200% 200%;
+    background-position: center center;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative; }
+    .single-post .nav-links .nav-next a {
+      position: absolute;
+      bottom: 0;
+      left: 28%;
+      color: black;
+      text-transform: uppercase;
+      padding-top: 60px;
+      padding-right: 30px;
+      text-decoration: none;
+      font-size: 10px; }
 
 .error404 .hero-404 {
   background: url("../../sos_assets/error404/error404.jpg");
@@ -1717,23 +2214,27 @@ object {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  line-height: 1.5rem; }
   @media all and (min-width: 1000px) {
     .error404 .page-title {
-      font-size: 3rem; } }
+      font-size: 3.5rem; } }
 
 .error404 .page-content {
   width: 90vw;
   padding-bottom: 20rem;
-  margin-top: -20px; }
+  margin-top: -20px;
+  font-family: "Source Sans Pro", sans-serif; }
   @media all and (min-width: 1000px) {
     .error404 .page-content {
       font-size: 1.2rem;
-      padding-bottom: 20rem; } }
+      padding-bottom: 25rem; } }
 
 .error404 p {
   text-align: center;
-  color: #285817; }
+  color: #285817;
+  line-height: 0.7rem;
+  margin-bottom: 0rem; }
 
 .error404 .search-form {
   display: -webkit-box;
@@ -1741,10 +2242,25 @@ object {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center; 
+          justify-content: center;
+  margin-top: 5rem; }
+
+.error404 .search-field {
+  width: 200px;
+  height: 30px;
+  border: #eb8e26 solid 3px; }
+
+.error404 .search-submit {
+  border: none;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #eb8e26; }
 
 .search-field {
   width: 0px;
+  padding-left: 15px;
   color: black; }
 
 .search-form {
@@ -1776,7 +2292,7 @@ object {
           box-shadow: none;
   height: 50px;
   width: 65px;
-  color: #bf6d0a; }
+  color: #CC8005; }
 
 .search-open,
 .no-js .search {
@@ -1808,7 +2324,7 @@ object {
   width: 100%;
   top: 0px;
   z-index: 1000;
-  padding-right: 20px; }
+  padding-left: 20px; }
 
 .menu1 {
   position: absolute;
@@ -1844,9 +2360,9 @@ object {
         font-family: "Miriam Libre", sans-serif; }
         .menu1 .menu-menu-1-container ul li a {
           color: #285817; }
-      .menu1 .menu-menu-1-container ul .menu-item-77 {
+      .menu1 .menu-menu-1-container ul .menu-item-106 {
         background: #eb8e26; }
-        .menu1 .menu-menu-1-container ul .menu-item-77 a {
+        .menu1 .menu-menu-1-container ul .menu-item-106 a {
           color: white;
           text-align: center; }
 
@@ -1898,35 +2414,37 @@ object {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    .menu1 .menu-menu-1-container ul {
-      width: 500px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -ms-flex-pack: distribute;
-          justify-content: space-around; }
-      .menu1 .menu-menu-1-container ul li {
-        text-align: center;
-        line-height: 1;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        font-family: "Miriam Libre", sans-serif; }
-        .menu1 .menu-menu-1-container ul li a {
-          color: #eb8e26;
-          font-family: "Miriam Libre", sans-serif;
-          font-size: 16px; }
-      .menu1 .menu-menu-1-container ul .menu-item-77 {
-        padding-left: 15px;
-        padding-right: 15px;
-        background: #eb8e26; }
-        .menu1 .menu-menu-1-container ul .menu-item-77 a {
-          color: white;
-          padding-left: 5px;
-          padding-right: 5px; } }
+    .menu1 .menu-menu-1-container {
+      padding-left: 0px; }
+      .menu1 .menu-menu-1-container ul {
+        width: 500px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+        .menu1 .menu-menu-1-container ul li {
+          text-align: center;
+          line-height: 1;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          font-family: "Miriam Libre", sans-serif; }
+          .menu1 .menu-menu-1-container ul li a {
+            color: #CC8005;
+            font-family: "Miriam Libre", sans-serif;
+            font-size: 14px; }
+        .menu1 .menu-menu-1-container ul .menu-item-106 {
+          padding-left: 15px;
+          padding-right: 15px;
+          background: #eb8e26; }
+          .menu1 .menu-menu-1-container ul .menu-item-106 a {
+            color: white;
+            padding-left: 5px;
+            padding-right: 5px; } }
 
 @media screen and (min-width: 1000px) {
   .menu1 {
@@ -1967,12 +2485,12 @@ object {
         line-height: 1;
         font-family: "Miriam Libre", sans-serif; }
         .menu1 .menu-menu-1-container ul li a {
-          color: #eb8e26;
+          color: #CC8005;
           font-family: "Miriam Libre", sans-serif;
           font-size: 20px; }
-      .menu1 .menu-menu-1-container ul .menu-item-77 {
+      .menu1 .menu-menu-1-container ul .menu-item-106 {
         background: #eb8e26; }
-        .menu1 .menu-menu-1-container ul .menu-item-77 a {
+        .menu1 .menu-menu-1-container ul .menu-item-106 a {
           color: white; } }
 
 /*! Flickity v2.0.10
