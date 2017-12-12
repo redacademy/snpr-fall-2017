@@ -114,6 +114,18 @@
       color: $forest;
     }
   }
+<<<<<<< HEAD
+=======
+  .fa-times{
+    position: absolute;
+    right: 190px;
+    top: 25px;
+  }
+  a,
+  a:visited{
+    color: $forest;
+  }
+>>>>>>> 77736ada3c9be70ce40c66bafebd472d33092914
 }
 
 @include tablet{
@@ -133,4 +145,5 @@
       width: 60px;
     }
   }
+}
 }
