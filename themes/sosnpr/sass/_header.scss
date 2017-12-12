@@ -87,59 +87,67 @@
 }
 
 @media screen and (min-width: 600px) {
-	.menu1{
-    display: flex;
-    justify-content: space-between;
-    position:relative;
-    height:50px;
-    width:500px;
-    box-shadow:none;
-    z-index: 10;
-    background:transparent;
-    top:0;
-    right:0px;
-    border:none;
-    align-content:center;
-    align-items:center;
+  .menu-non-logo  {
+                      .search-icon{
+                            order:2;
+                                  }
+          .menu1{
+                order:1;
+                display: flex;
+                justify-content: space-between;
+                position:relative;
+                height:50px;
+                width:500px;
+                box-shadow:none;
+                z-index: 10;
+                background:transparent;
+                top:0;
+                right:0px;
+                border:none;
+                align-content:center;
+                align-items:center;
     
-    .menu-menu-1-container{
-      padding-left:0px;
-    ul{
-      width:500px;
-      display:flex;
-      flex-direction:row;
-      justify-content:space-around;
-      li{
-        text-align:center;
-        line-height:1;
-        padding-top:20px;
-        padding-bottom:20px;
+                          .menu-menu-1-container{
+                            padding-left:0px;
+                          ul{
+                            width:500px;
+                            display:flex;
+                            flex-direction:row;
+                            justify-content:space-around;
+                            li{
+                              text-align:center;
+                              line-height:1;
+                              padding-top:20px;
+                              padding-bottom:20px;
+                              
+                              font-family:$miriam;
+                              a{
+                                color:$border-orange;
+                                font-family:$miriam;
+                                font-size:14px;
+                              }
+                            }
+                        .menu-item-106{
         
-        font-family:$miriam;
-        a{
-          color:$border-orange;
-          font-family:$miriam;
-          font-size:14px;
-        }
-      }
-      .menu-item-106{
-        
-        padding-left:15px;
-        padding-right:15px;
-        a{
-          color:white;
-          padding-left:5px;
-          padding-right:5px;
-        }
-        background:$main_orange;
-      }
-    }
+                          padding-left:15px;
+                    padding-right:15px;
+                  a{
+                        color:white;
+                      padding-left:5px;
+                      padding-right:5px;
+                    }
+                    background:$main_orange;
+                  }
+                            }
     
-	}
+	                          }
 	
-  }}
-
+                }
+}
+}
   @media screen and (min-width: 1000px) {
+    
+    .menu-non-logo{
     .menu1{
       display: flex;
       justify-content: space-between;
@@ -183,10 +191,10 @@
       
     }
     
-    }
+    }}}
 
 
 
 
     
-  }
+  
