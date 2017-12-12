@@ -38,18 +38,20 @@ ul, ol {
 }
 
 ul {
-	list-style: none;
+	list-style-type: none;
 	margin: auto;
 }
 
 ol {
-	list-style: decimal;
+	list-style-type: none;
 }
 
 li > ul,
 li > ol {
 	margin-bottom: 0;
 	margin-left: $base__space-unit;
+	list-style-type: none;
+	
 }
 
 dt {

@@ -320,16 +320,17 @@ ul, ol {
   margin: 0 0 1.5rem 3rem; }
 
 ul {
-  list-style: none;
+  list-style-type: none;
   margin: auto; }
 
 ol {
-  list-style: decimal; }
+  list-style-type: none; }
 
 li > ul,
 li > ol {
   margin-bottom: 0;
-  margin-left: 1.5rem; }
+  margin-left: 1.5rem;
+  list-style-type: none; }
 
 dt {
   font-weight: bold; }
@@ -393,7 +394,8 @@ input[type="search"],
 textarea {
   color: #666;
   border: 1px solid #ccc;
-  border-radius: 3px; }
+  border-radius: 3px;
+  display: block; }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="url"]:focus,
@@ -842,7 +844,11 @@ object {
 #secondary, .widget_area {
   height: 540px;
   width: 100vw;
+  padding-top: 1rem;
   background-color: #eb8e26; }
+  #secondary a, #secondary a:visited, .widget_area a, .widget_area a:visited {
+    margin: 0rem 0.5rem;
+    text-decoration: none; }
   #secondary .widget_text, #secondary .textwidget, .widget_area .widget_text, .widget_area .textwidget {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -858,15 +864,14 @@ object {
       text-transform: uppercase;
       font-family: "Miriam Libre", sans-serif;
       font-size: 1.2rem;
-      color: white; }
+      color: white;
+      text-decoration: none; }
     #secondary .widget_text p, #secondary .textwidget p, .widget_area .widget_text p, .widget_area .textwidget p {
       line-height: 1.8rem;
       color: white;
       margin: 0;
       font-weight: 300;
       text-align: left; }
-    #secondary .widget_text a, #secondary .textwidget a, .widget_area .widget_text a, .widget_area .textwidget a {
-      margin: 0rem 0.5rem; }
     #secondary .widget_text i, #secondary .textwidget i, .widget_area .widget_text i, .widget_area .textwidget i {
       color: white; }
     #secondary .widget_text .subscribe-button, #secondary .widget_text .feedback-button, #secondary .textwidget .subscribe-button, #secondary .textwidget .feedback-button, .widget_area .widget_text .subscribe-button, .widget_area .widget_text .feedback-button, .widget_area .textwidget .subscribe-button, .widget_area .textwidget .feedback-button {
@@ -888,14 +893,58 @@ object {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start; }
-  #secondary .subscribe-form, .widget_area .subscribe-form {
-    display: none; }
-  #secondary .subscribe-form-show, .widget_area .subscribe-form-show {
-    position: absolute;
-    bottom: 50px;
-    background: white; }
 
-@media all and (min-width: 1000px) {
+.form-popup {
+  display: none; }
+  .form-popup .clear .subscribe-form {
+    display: none; }
+  .form-popup .form-popup-show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    bottom: 300px;
+    width: 100vw;
+    left: 0;
+    margin: 0 auto;
+    padding: 20px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .form-popup .form-popup-show form {
+      width: 400px;
+      background: white;
+      text-align: center; }
+      .form-popup .form-popup-show form label p {
+        font-family: "Source Sans Pro", sans-serif;
+        line-height: 20px;
+        margin: 15px 0; }
+      .form-popup .form-popup-show form input[type="email"] {
+        width: 300px;
+        height: 30px;
+        margin: 10px 50px;
+        padding: 0 10px; }
+      .form-popup .form-popup-show form button {
+        position: relative;
+        font-size: 16px;
+        bottom: 40px;
+        left: 140px;
+        padding: 6.5px 10px;
+        color: white;
+        background-color: #285817;
+        border-radius: 10%;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        border: none; }
+    .form-popup .form-popup-show .fa-times {
+      position: absolute;
+      right: 190px;
+      top: 25px; }
+    .form-popup .form-popup-show a,
+    .form-popup .form-popup-show a:visited {
+      color: #285817; }
+
+@media all and (min-width: 600px) {
   #secondary, .widget_area {
     height: 284px;
     width: 100vw;
@@ -1099,7 +1148,7 @@ object {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 600px) {
     .page-template-resources .resources-hero {
       background-size: cover;
       background-repeat: none;
@@ -1117,86 +1166,89 @@ object {
               align-items: center; } }
 
 .page-template-resources .resources-nav {
-  width: 100vw;
-  height: 15rem;
-  background: #eb8e26;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  .page-template-resources .resources-nav .nav-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    width: 90vw; }
-  .page-template-resources .resources-nav a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.5rem;
-    line-height: 3rem;
-    font-family: "Miriam Libre", sans-serif; }
-  .page-template-resources .resources-nav .resources-nav-1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  .page-template-resources .resources-nav .resources-nav-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  .page-template-resources .resources-nav .resources-nav-3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .resources-nav {
+      width: 100vw;
+      height: 15rem;
+      background: #eb8e26;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .page-template-resources .resources-nav .nav-links {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        width: 90vw; }
+      .page-template-resources .resources-nav a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 1.5rem;
+        line-height: 3rem;
+        font-family: "Miriam Libre", sans-serif; }
+      .page-template-resources .resources-nav .resources-nav-1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+      .page-template-resources .resources-nav .resources-nav-2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+      .page-template-resources .resources-nav .resources-nav-3 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
 
 .page-template-resources .post-17 .entry-header {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
   text-align: center; }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 600px) {
     .page-template-resources .post-17 .entry-header {
       font-size: 1.8rem; } }
 
@@ -1204,41 +1256,53 @@ object {
   color: #285817;
   font-family: "Source Sans Pro", sans-serif;
   padding-bottom: 15rem; }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 600px) {
     .page-template-resources .post-17 .entry-content {
       font-size: 1.5rem;
       padding-bottom: 18rem; } }
 
 .page-template-resources .post-17 p {
+  font-weight: 300;
+  padding-left: 3rem;
   text-align: center; }
 
-.page-template-resources h2 {
+.page-template-resources .post-17 h2 {
   color: #eb8e26;
   font-family: "Miriam Libre", sans-serif;
   padding: 3rem 0rem 0rem 3rem; }
 
-.page-template-resources a {
+.page-template-resources .post-17 a {
   color: #0096ff;
   text-decoration: underline;
   font-weight: 300; }
 
-.page-template-resources p {
-  font-weight: 300;
-  padding-left: 3rem; }
-
-.page-template-resources .resources-ul li:nth-child(2) {
+.page-template-resources .divider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-resources .resources-ul li:nth-child(2) h2 {
-    width: 100vw; }
+  .page-template-resources .divider .scroll-up {
+    position: relative;
+    background: #555454;
+    border-radius: 30px;
+    padding: 5px 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    z-index: 200; }
+  .page-template-resources .divider .divider-line {
+    position: absolute;
+    border-bottom: #eb8e26 solid 2px;
+    width: 96vw;
+    margin-top: 20px;
+    z-index: 0; }
+  .page-template-resources .divider a {
+    text-decoration: none; }
 
 .page-template-resources .resources-ul li:nth-child(3) {
   display: -webkit-box;
@@ -1283,33 +1347,8 @@ object {
             flex-flow: column wrap;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            justify-content: flex-end; }
-
-.page-template-resources .divider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .page-template-resources .divider .scroll-up {
-    position: relative;
-    background: #555454;
-    border-radius: 30px;
-    padding: 17px 10px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 100;
-    color: white;
-    z-index: 200; }
-  .page-template-resources .divider .divider-line {
-    position: absolute;
-    border-bottom: #eb8e26 solid 2px;
-    width: 92vw;
-    margin-top: 20px;
-    z-index: 0; }
+            justify-content: flex-end;
+    margin-left: 5rem; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands.jpg);
@@ -1827,7 +1866,7 @@ object {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 600px) {
     .page-template-resources .resources-hero {
       background-size: cover;
       background-repeat: none;
@@ -1845,86 +1884,89 @@ object {
               align-items: center; } }
 
 .page-template-resources .resources-nav {
-  width: 100vw;
-  height: 15rem;
-  background: #eb8e26;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  .page-template-resources .resources-nav .nav-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    width: 90vw; }
-  .page-template-resources .resources-nav a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.5rem;
-    line-height: 3rem;
-    font-family: "Miriam Libre", sans-serif; }
-  .page-template-resources .resources-nav .resources-nav-1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  .page-template-resources .resources-nav .resources-nav-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  .page-template-resources .resources-nav .resources-nav-3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .resources-nav {
+      width: 100vw;
+      height: 15rem;
+      background: #eb8e26;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .page-template-resources .resources-nav .nav-links {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        width: 90vw; }
+      .page-template-resources .resources-nav a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 1.5rem;
+        line-height: 3rem;
+        font-family: "Miriam Libre", sans-serif; }
+      .page-template-resources .resources-nav .resources-nav-1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+      .page-template-resources .resources-nav .resources-nav-2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+      .page-template-resources .resources-nav .resources-nav-3 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
 
 .page-template-resources .post-17 .entry-header {
   color: #285817;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
   text-align: center; }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 600px) {
     .page-template-resources .post-17 .entry-header {
       font-size: 1.8rem; } }
 
@@ -1932,41 +1974,53 @@ object {
   color: #285817;
   font-family: "Source Sans Pro", sans-serif;
   padding-bottom: 15rem; }
-  @media all and (min-width: 1000px) {
+  @media all and (min-width: 600px) {
     .page-template-resources .post-17 .entry-content {
       font-size: 1.5rem;
       padding-bottom: 18rem; } }
 
 .page-template-resources .post-17 p {
+  font-weight: 300;
+  padding-left: 3rem;
   text-align: center; }
 
-.page-template-resources h2 {
+.page-template-resources .post-17 h2 {
   color: #eb8e26;
   font-family: "Miriam Libre", sans-serif;
   padding: 3rem 0rem 0rem 3rem; }
 
-.page-template-resources a {
+.page-template-resources .post-17 a {
   color: #0096ff;
   text-decoration: underline;
   font-weight: 300; }
 
-.page-template-resources p {
-  font-weight: 300;
-  padding-left: 3rem; }
-
-.page-template-resources .resources-ul li:nth-child(2) {
+.page-template-resources .divider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .page-template-resources .resources-ul li:nth-child(2) h2 {
-    width: 100vw; }
+  .page-template-resources .divider .scroll-up {
+    position: relative;
+    background: #555454;
+    border-radius: 30px;
+    padding: 5px 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    z-index: 200; }
+  .page-template-resources .divider .divider-line {
+    position: absolute;
+    border-bottom: #eb8e26 solid 2px;
+    width: 96vw;
+    margin-top: 20px;
+    z-index: 0; }
+  .page-template-resources .divider a {
+    text-decoration: none; }
 
 .page-template-resources .resources-ul li:nth-child(3) {
   display: -webkit-box;
@@ -2011,33 +2065,8 @@ object {
             flex-flow: column wrap;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            justify-content: flex-end; }
-
-.page-template-resources .divider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .page-template-resources .divider .scroll-up {
-    position: relative;
-    background: #555454;
-    border-radius: 30px;
-    padding: 17px 10px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 100;
-    color: white;
-    z-index: 200; }
-  .page-template-resources .divider .divider-line {
-    position: absolute;
-    border-bottom: #eb8e26 solid 2px;
-    width: 92vw;
-    margin-top: 20px;
-    z-index: 0; }
+            justify-content: flex-end;
+    margin-left: 5rem; }
 
 .single-hero {
   background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
