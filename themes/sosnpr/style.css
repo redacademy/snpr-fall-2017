@@ -846,6 +846,9 @@ object {
   width: 100vw;
   padding-top: 1rem;
   background-color: #eb8e26; }
+  #secondary a, #secondary a:visited, .widget_area a, .widget_area a:visited {
+    margin: 0rem 0.5rem;
+    text-decoration: none; }
   #secondary .widget_text, #secondary .textwidget, .widget_area .widget_text, .widget_area .textwidget {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -861,15 +864,14 @@ object {
       text-transform: uppercase;
       font-family: "Miriam Libre", sans-serif;
       font-size: 1.2rem;
-      color: white; }
+      color: white;
+      text-decoration: none; }
     #secondary .widget_text p, #secondary .textwidget p, .widget_area .widget_text p, .widget_area .textwidget p {
       line-height: 1.8rem;
       color: white;
       margin: 0;
       font-weight: 300;
       text-align: left; }
-    #secondary .widget_text a, #secondary .textwidget a, .widget_area .widget_text a, .widget_area .textwidget a {
-      margin: 0rem 0.5rem; }
     #secondary .widget_text i, #secondary .textwidget i, .widget_area .widget_text i, .widget_area .textwidget i {
       color: white; }
     #secondary .widget_text .subscribe-button, #secondary .widget_text .feedback-button, #secondary .textwidget .subscribe-button, #secondary .textwidget .feedback-button, .widget_area .widget_text .subscribe-button, .widget_area .widget_text .feedback-button, .widget_area .textwidget .subscribe-button, .widget_area .textwidget .feedback-button {
@@ -941,28 +943,36 @@ object {
     .form-popup .form-popup-show a,
     .form-popup .form-popup-show a:visited {
       color: #285817; }
-  @media all and (min-width: 600px) {
-    .form-popup #secondary, .form-popup .widget_area {
-      height: 284px;
-      width: 100vw;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-flow: row wrap;
-              flex-flow: row wrap;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
-      -webkit-box-align: start;
-          -ms-flex-align: start;
-              align-items: flex-start;
-      background-color: #eb8e26;
-      padding-top: rem; }
-      .form-popup #secondary .wp-image-62, .form-popup #secondary .wp-image-63, .form-popup .widget_area .wp-image-62, .form-popup .widget_area .wp-image-63 {
-        padding-top: 1.5rem;
-        height: 80px;
-        width: 60px; } }
+  .form-popup .fa-times {
+    position: absolute;
+    right: 190px;
+    top: 25px; }
+  .form-popup a,
+  .form-popup a:visited {
+    color: #285817; }
+
+@media all and (min-width: 600px) {
+  #secondary, .widget_area {
+    height: 284px;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background-color: #eb8e26;
+    padding-top: rem; }
+    #secondary .wp-image-62, #secondary .wp-image-63, .widget_area .wp-image-62, .widget_area .wp-image-63 {
+      padding-top: 1.5rem;
+      height: 80px;
+      width: 60px; } }
 
 .page-template-about-us {
   font-family: "Miriam Libre", sans-serif; }
