@@ -135,9 +135,9 @@ get_header();
          <div class="content-container">
           <div class="text"><?php echo CFS()->get('economic_benefits');?></div>
           <div class="image"> 
-            <div class="pdf-container"></div>
+            <a href="<?php echo get_site_url() . '/wp-content/uploads/2017/12/sos_economicreport_lr.pdf'?>"><div class="pdf-container">
               <p>Download Full Report </p>
-            
+            </div></a>
             
         </div>
        </div>

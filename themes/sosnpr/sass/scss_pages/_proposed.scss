@@ -102,7 +102,7 @@
     margin: 10px 0;
     line-height: 30px;
     
-    @include desktop {
+    @include tablet {
       padding-bottom: 20px;
       padding-top: 20px;
     }
@@ -256,7 +256,7 @@
       .content-container {
         display: flex;
         padding-bottom: 25px;
-        border-bottom: 1px solid orange;
+       
         
         .text {
           flex-basis: 50%;
@@ -415,28 +415,59 @@
       }
     }
   }
-  
+
+  //economic
+
   .eight {
     @include desktop {
+    padding-bottom: 20px;
+
+      h2 {
+        margin: 0;
+        padding: 30px 0 0 0;
+        
+      }
       
       .content-container {
         display: flex;
         
         .image {
           flex-basis: 50%;
+          position: relative;
           display: flex;
           flex-direction: column;
-          justify-content: flex-end;
-          min-height: 150px;
-          display: flex;
-          background-image: url(../../sos_assets/pdf.svg) ;
-          background-repeat: no-repeat;
-          background-size: 50%;
-          background-position: 0 50%;
+          // justify-content: flex-end;
+          // min-height: 220px;
+          a {
+            color: #2E84E6;
+            font-family: $source;
+          }
+          
+         
+
+          .pdf-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            min-height: 200px;
+            background-image: url(../../sos_assets/pdf-first.svg);
+            background-repeat: no-repeat;
+            background-position: 50% 100%;
+
           
 
         }
+
+        .pdf-container:hover {
+          background-image: url(../../sos_assets/pdf.svg);
+          
+        }
+      }
+
         .text {
+          margin-top: 10px;
+          padding-top: 25px;
           flex-basis: 50%;
         }
       }

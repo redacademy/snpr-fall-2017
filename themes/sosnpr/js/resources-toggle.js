@@ -3,7 +3,6 @@
   // if ($('.resources-ul').length){
   
   $('.resources-ul .fa-angle-down').toggleClass('hide');
-  $('.resourecs-ul .borders').toggleClass('hide');
   $('.resources-heading').on('click', function(){
     $(this).parent().find('.resources-content').toggleClass('hide');
     
