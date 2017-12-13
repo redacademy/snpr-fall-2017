@@ -1,8 +1,11 @@
  .widget-area{
-  height: auto;
   width: 100vw;
   padding-top: 1rem;
   background-color: $main-orange;
+  @include tablet-footer{
+    display: flex;
+    flex-flow: row wrap;
+  }
   
   a, 
   a:visited{
@@ -10,8 +13,7 @@
     text-decoration: none;
   }
   
-  @include tablet{
-    // height: 740px;
+  @include tablet-footer{
     width: 100vw;
     display: flex;
     flex-flow: row wrap;
@@ -33,20 +35,17 @@
       font-size: 1.2rem;
       color: white;
       text-decoration: none;
-      padding-bottom: 20px;
       @include tablet{
-        padding: 0;
-        margin: 0;
+        padding-bottom: 20px;
       }
     }
     
     p{
-      line-height: 18px;
       color: white;
       margin: 0;
       font-weight: 300;
       text-align: left;
-      padding: 1.2vh 0;
+      padding-bottom: 10px;
     }
     i{
       color: white;
@@ -78,51 +77,39 @@
     align-items: flex-start;
     line-height: 18px;
     margin-bottom: 20px;
-    .contact-info-section{
-      font-family: $source;
-      display: flex;
-      align-items: center;
-      // justify-content: center;
-      margin-bottom: 10px;
-      margin-left: 70px;
-      width: 100vw;
-      i{
-        font-size: 20px;
-        padding-top: 2px;
-        min-width: 30px;
- 
-      }
-      p{
+    i{
+      font-size: 20px;
+      padding-top: 2px;
+      min-width: 30px;
+    }
+    p{
       max-width: 230px;
-      padding: 0 10px;
+      margin: 10px 0px;
+      padding-left: 10px;
       border-left: 1px solid #fff;
       margin-top: 0;
-      
-    }
     }
   }
   .widget_custom_html{
-    h2{
-      margin-bottom: 0;
+    .contact-row{
+      display: flex;
+      flex-flow: row wrap;
     }
   }
-  @include tablet{
-    
+  
+  .textwidget{
+    .contact{
+      display: flex;
+      flex-flow: column wrap;
+    }
   }
 }
 
 //subscribe button
 .form-popup{
   display: none;
-  // .clear{
-  //   // width: 50px;
-    
-  //   //subscribe button
-    
-  //   .subscribe-form{
-  //     display: none;
-  //   }
 }
+
 .form-popup-show{
   display: flex;
   position: fixed;
@@ -134,12 +121,25 @@
   margin: 0 auto;
   padding: 20px 0;
   justify-content: center;
+  align-items: center;
   z-index: 10;
+
+  // @include tablet{
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+    top: 0;
+    padding: 0;
+  // }
   form{
     width: 280px;  
     background: white;
     text-align: center;
-    margin: 0 auto;
+    // margin: 0 auto;
+    border-radius: 10%;
+    border: 5px solid $forest;
+    @include tablet{
+      width: 380px;
+    }
     label p{
       font-family: $source;
       line-height: $font__line-height-body;
@@ -150,6 +150,10 @@
       height: 30px;
       margin: 10px 40px;
       padding: 0 10px;
+      @include tablet{
+        width: 235px;
+        margin-left: 70px;
+      }
     }
     button{
       position: relative;
@@ -162,21 +166,24 @@
       border-radius: 10%;
       box-shadow: none;
       border: none;
-      i{
-        position: relative;
-        left: 5px;
-      }
+      // i{
+      //   position: relative;
+      //   // left: 2px;
+      // }
     }
   }
 }
-a{
+.closing-icon{
   display: flex;
   justify-content: flex-end;
   text-decoration: none;
+  
   .fa-times{
+    cursor: pointer;
+    font-size: 22px;
     position: relative;
-    right: 0px;
-    top: 25px;
+    right: 15px;
+    top: 20px;
   }
 }
 

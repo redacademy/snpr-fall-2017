@@ -19,6 +19,12 @@
   }
 }
 
+@mixin tablet-footer {
+  @media all and (min-width: $tablet_width_footer) {
+    @content;
+  }
+}
+
 @mixin desktop {
   @media all and (min-width: $desktop_width) {
     @content;
