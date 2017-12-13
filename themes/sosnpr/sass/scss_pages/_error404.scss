@@ -1,16 +1,19 @@
 .error404{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
   .hero-404{
-    background: url('../../sos_assets/error404/error404.jpg');
-    background-size: cover;
-    height: 90vh;
-    width: 100vw;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    background: url('../../sos_assets/error404/error404.jpg');
+    background-size: cover;
+    width: 100vw;
     @include desktop{
       background-position: 30% 30%;
-    }     
+    }
   }
   
   .page-title{
@@ -18,12 +21,17 @@
     font-family: $miriam;
     text-transform: uppercase;
     text-align: center;
-    line-height: 1.5rem;    
+    line-height: 1.5rem;  
+    padding-top: 5rem;  
     @include desktop{
       font-size: 3.5rem;
     }     
   }
   .page-content{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
     width: 90vw;
     padding-bottom: 20rem;       
     margin-top: -20px;
@@ -33,27 +41,41 @@
       padding-bottom: 25rem;
     }     
   }
-  p{
+  .error-p{
     text-align: center;
     color: $forest;
     line-height: 0.7rem;
     margin-bottom: 0rem;
   }
-  .search-form{
+  
+  .wpcf7-form{
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
-    margin-top: 5rem;           
-  }
-  .search-field{
-    width: 200px;
-    height: 30px;
-    border: $main-orange solid 3px;
-  }
-
-  .search-submit{
-    border: none;
-    background: none;
-    box-shadow: none;    
-    color: $main-orange;
+    align-items: center;
+    width: 80vw;
+    background: rgba(255,255,255,0.8);    
+    padding: 20px;
+    margin: 3rem 0rem;
+    .para{
+      display: none;
+    }
+    .wpcf7-text, .wpcf7-textarea{
+      max-width: 40vw;
+      max-height: 40vw;
+      font-family: $source;
+      color: $forest;
+    }
+    .wpcf7-submit{
+      background: rgba(255,255,255,0.8);
+      font-family: $source;
+      color: $forest;
+      @include desktop{
+        font-size: 1.5rem;
+      }
+    }
+    @include desktop{
+      width: 50vw;
+    }
   }
 }

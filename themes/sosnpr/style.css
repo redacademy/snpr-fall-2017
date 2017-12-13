@@ -790,12 +790,31 @@ object {
     border: none;
     font-family: "Source Sans Pro", sans-serif;
     text-align: center; }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+.widget-area {
+=======
+<<<<<<< HEAD
+>>>>>>> 945e9945999917feaf8ccdaf1d82874de0309fab
+>>>>>>> 8432faaaa73d1e9b56bc504b3625bef9e0bbdda4
   .site-info .center {
     margin-bottom: 100px; }
   .site-info .response-width {
     max-width: 100%; }
 
 .widget-area {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> eb9c8c550f8d7c7b741afdb376bd6ad99172fe9f
+>>>>>>> c8cc98fb506d15a3dd372dd349eb654bfc7c1481
+>>>>>>> 945e9945999917feaf8ccdaf1d82874de0309fab
+>>>>>>> 8432faaaa73d1e9b56bc504b3625bef9e0bbdda4
   width: 100vw;
   padding-top: 1rem;
   background-color: #eb8e26; }
@@ -1742,7 +1761,7 @@ a:visited {
       -ms-flex-pack: distribute;
           justify-content: space-around;
       min-height: 180px;
-      background: #bf6d0a; }
+      background: #eb8e26; }
       .page-template-proposed-park .site-content .proposed-banner .banner-list {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1752,7 +1771,7 @@ a:visited {
             -ms-flex-direction: column;
                 flex-direction: column;
         text-align: center;
-        margin: 3% 0;
+        margin: 1% 0;
         padding: 0; }
         .page-template-proposed-park .site-content .proposed-banner .banner-list li {
           padding: 14px 0;
@@ -1764,10 +1783,10 @@ a:visited {
           min-width: max-content; } }
       @media all and (min-width: 600px) and (min-width: 600px) {
         .page-template-proposed-park .site-content .proposed-banner .banner-list li {
-          font-size: 18px; } }
+          font-size: 16px; } }
       @media all and (min-width: 600px) and (min-width: 1000px) {
         .page-template-proposed-park .site-content .proposed-banner .banner-list li {
-          font-size: 25px; } }
+          font-size: 20px; } }
   @media all and (min-width: 600px) {
         .page-template-proposed-park .site-content .proposed-banner .banner-list a {
           color: #fff;
@@ -1787,7 +1806,7 @@ a:visited {
               flex-direction: column; } }
 
 .page-template-proposed-park .site-content h2 {
-  color: #bf6d0a;
+  color: #eb8e26;
   font-family: "Miriam Libre", sans-serif;
   margin: 10px 0;
   line-height: 30px; }
@@ -1833,7 +1852,7 @@ a:visited {
   font-family: "Miriam Libre", sans-serif; }
   @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .proposed-hero {
-      background-image: url(../../sos_assets/proposed-park/proposed-hero.jpg); } }
+      background-image: url(../../sos_assets/proposed-park/horse.jpg); } }
 
 .page-template-proposed-park .site-content .down {
   display: none; }
@@ -2524,11 +2543,7 @@ a:visited {
       text-decoration: none;
       font-size: 10px; }
 
-.error404 .hero-404 {
-  background: url("../../sos_assets/error404/error404.jpg");
-  background-size: cover;
-  height: 90vh;
-  width: 100vw;
+.error404 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2542,56 +2557,98 @@ a:visited {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  @media all and (min-width: 1000px) {
-    .error404 .hero-404 {
-      background-position: 30% 30%; } }
-
-.error404 .page-title {
-  color: #285817;
-  font-family: "Miriam Libre", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 1.5rem; }
-  @media all and (min-width: 1000px) {
-    .error404 .page-title {
-      font-size: 3.5rem; } }
-
-.error404 .page-content {
-  width: 90vw;
-  padding-bottom: 20rem;
-  margin-top: -20px;
-  font-family: "Source Sans Pro", sans-serif; }
-  @media all and (min-width: 1000px) {
-    .error404 .page-content {
-      font-size: 1.2rem;
-      padding-bottom: 25rem; } }
-
-.error404 p {
-  text-align: center;
-  color: #285817;
-  line-height: 0.7rem;
-  margin-bottom: 0rem; }
-
-.error404 .search-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 5rem; }
-
-.error404 .search-field {
-  width: 200px;
-  height: 30px;
-  border: #eb8e26 solid 3px; }
-
-.error404 .search-submit {
-  border: none;
-  background: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  color: #eb8e26; }
+  .error404 .hero-404 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: url("../../sos_assets/error404/error404.jpg");
+    background-size: cover;
+    width: 100vw; }
+    @media all and (min-width: 1000px) {
+      .error404 .hero-404 {
+        background-position: 30% 30%; } }
+  .error404 .page-title {
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5rem;
+    padding-top: 5rem; }
+    @media all and (min-width: 1000px) {
+      .error404 .page-title {
+        font-size: 3.5rem; } }
+  .error404 .page-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90vw;
+    padding-bottom: 20rem;
+    margin-top: -20px;
+    font-family: "Source Sans Pro", sans-serif; }
+    @media all and (min-width: 1000px) {
+      .error404 .page-content {
+        font-size: 1.2rem;
+        padding-bottom: 25rem; } }
+  .error404 .error-p {
+    text-align: center;
+    color: #285817;
+    line-height: 0.7rem;
+    margin-bottom: 0rem; }
+  .error404 .wpcf7-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80vw;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 3rem 0rem; }
+    .error404 .wpcf7-form .para {
+      display: none; }
+    .error404 .wpcf7-form .wpcf7-text, .error404 .wpcf7-form .wpcf7-textarea {
+      max-width: 40vw;
+      max-height: 40vw;
+      font-family: "Source Sans Pro", sans-serif;
+      color: #285817; }
+    .error404 .wpcf7-form .wpcf7-submit {
+      background: rgba(255, 255, 255, 0.8);
+      font-family: "Source Sans Pro", sans-serif;
+      color: #285817; }
+      @media all and (min-width: 1000px) {
+        .error404 .wpcf7-form .wpcf7-submit {
+          font-size: 1.5rem; } }
+    @media all and (min-width: 1000px) {
+      .error404 .wpcf7-form {
+        width: 50vw; } }
 
 .blog .site-content .updates-hero {
   background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
