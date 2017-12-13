@@ -81,11 +81,12 @@
     .contact-info-section{
       font-family: $source;
       display: flex;
+      // flex-wrap: wrap;
       align-items: center;
-      // justify-content: center;
+      justify-content: flex-start;
       margin-bottom: 10px;
-      margin-left: 70px;
-      width: 100vw;
+      padding-left: 70px;
+      width: 100px;
       i{
         font-size: 20px;
         padding-top: 2px;

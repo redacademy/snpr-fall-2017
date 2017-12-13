@@ -872,9 +872,12 @@ object {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
       margin-bottom: 10px;
-      margin-left: 70px;
-      width: 100vw; }
+      padding-left: 70px;
+      width: 100px; }
       .widget-area .custom-html-widget .contact-info-section i {
         font-size: 20px;
         padding-top: 2px;
