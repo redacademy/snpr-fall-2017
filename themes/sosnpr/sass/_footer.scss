@@ -135,12 +135,25 @@
   margin: 0 auto;
   padding: 20px 0;
   justify-content: center;
+  align-items: center;
   z-index: 10;
+
+  @include tablet{
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+    top: 0;
+    padding: 0;
+  }
   form{
     width: 280px;  
     background: white;
     text-align: center;
-    margin: 0 auto;
+    // margin: 0 auto;
+    border-radius: 10%;
+    border: 5px solid $forest;
+    @include tablet{
+      width: 380px;
+    }
     label p{
       font-family: $source;
       line-height: $font__line-height-body;
@@ -151,6 +164,10 @@
       height: 30px;
       margin: 10px 40px;
       padding: 0 10px;
+      @include tablet{
+        width: 240px;
+        margin-left: 70px;
+      }
     }
     button{
       position: relative;
@@ -163,21 +180,24 @@
       border-radius: 10%;
       box-shadow: none;
       border: none;
-      i{
-        position: relative;
-        left: 5px;
-      }
+      // i{
+      //   position: relative;
+      //   // left: 2px;
+      // }
     }
   }
 }
-a{
+.closing-icon{
   display: flex;
   justify-content: flex-end;
   text-decoration: none;
+  
   .fa-times{
+    cursor: pointer;
+    font-size: 22px;
     position: relative;
-    right: 0px;
-    top: 25px;
+    right: 15px;
+    top: 20px;
   }
 }
 
