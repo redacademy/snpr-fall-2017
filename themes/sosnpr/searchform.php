@@ -9,7 +9,7 @@
 			<span class="screen-reader-text"><?php echo esc_html( 'Search' ); ?></span>
 		</button>
 		<label><a href="#">
-			<input type="search" class="search-field" placeholder="Search ..." value="<?php echo esc_attr( get_search_query() ); ?>" name="s" title="Search for:" style="padding-left:3px"/></a>
+			<input type="search" class="search-field" placeholder="Type and Hit Enter" value="<?php echo esc_attr( get_search_query() ); ?>" name="s" title="Search for:" style="padding-left:3px, font-family:$miriam, text-transform:uppercase"/></a>
 		</label>
 	<!-- </fieldset> -->
 </form>
