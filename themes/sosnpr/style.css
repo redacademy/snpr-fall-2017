@@ -790,31 +790,12 @@ object {
     border: none;
     font-family: "Source Sans Pro", sans-serif;
     text-align: center; }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-.widget-area {
-=======
-<<<<<<< HEAD
->>>>>>> 945e9945999917feaf8ccdaf1d82874de0309fab
->>>>>>> 8432faaaa73d1e9b56bc504b3625bef9e0bbdda4
   .site-info .center {
     margin-bottom: 100px; }
   .site-info .response-width {
     max-width: 100%; }
 
 .widget-area {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> eb9c8c550f8d7c7b741afdb376bd6ad99172fe9f
->>>>>>> c8cc98fb506d15a3dd372dd349eb654bfc7c1481
->>>>>>> 945e9945999917feaf8ccdaf1d82874de0309fab
->>>>>>> 8432faaaa73d1e9b56bc504b3625bef9e0bbdda4
   width: 100vw;
   padding-top: 1rem;
   background-color: #eb8e26; }
@@ -943,7 +924,6 @@ object {
 
 .form-popup {
   display: none; }
-<<<<<<< HEAD
 
 .form-popup-show {
   display: -webkit-box;
@@ -1023,77 +1003,6 @@ object {
 a,
 a:visited {
   color: #285817; }
-=======
-  .form-popup .clear .subscribe-form {
-    display: none; }
-  .form-popup .form-popup-show {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: fixed;
-    bottom: 300px;
-    width: 100vw;
-    left: 0;
-    margin: 0 auto;
-    padding: 20px 0;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    .form-popup .form-popup-show form {
-      width: 400px;
-      background: white;
-      text-align: center; }
-      .form-popup .form-popup-show form label p {
-        font-family: "Source Sans Pro", sans-serif;
-        line-height: 20px;
-        margin: 15px 0; }
-      .form-popup .form-popup-show form input[type="email"] {
-        width: 300px;
-        height: 30px;
-        margin: 10px 50px;
-        padding: 0 10px; }
-      .form-popup .form-popup-show form button {
-        position: relative;
-        font-size: 16px;
-        bottom: 40px;
-        left: 140px;
-        padding: 6.5px 10px;
-        color: white;
-        background-color: #285817;
-        border-radius: 10%;
-        -webkit-box-shadow: none;
-                box-shadow: none;
-        border: none; }
-    .form-popup .form-popup-show .fa-times {
-      position: absolute;
-      right: 190px;
-      top: 25px; }
-    .form-popup .form-popup-show a,
-    .form-popup .form-popup-show a:visited {
-      color: #285817; }
-  @media all and (min-width: 1000px) {
-    .form-popup #secondary, .form-popup .widget_area {
-      height: 284px;
-      width: 100vw;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-flow: row wrap;
-              flex-flow: row wrap;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
-      -webkit-box-align: start;
-          -ms-flex-align: start;
-              align-items: flex-start;
-      background-color: #eb8e26;
-      padding-top: rem; }
-      .form-popup #secondary .wp-image-62, .form-popup #secondary .wp-image-63, .form-popup .widget_area .wp-image-62, .form-popup .widget_area .wp-image-63 {
-        padding-top: 1.5rem;
-        height: 80px;
-        width: 60px; } }
->>>>>>> bd45e38d8c571c72b164d26f47df5e887ab3e7a9
 
 .page-template-about-us {
   font-family: "Miriam Libre", sans-serif; }
@@ -2392,11 +2301,7 @@ a:visited {
   .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
 
-<<<<<<< HEAD
 .page-template-resources .resources-ul .lc-groups-container {
-=======
-.page-template-resources .resources-ul .lc-groups {
->>>>>>> bd45e38d8c571c72b164d26f47df5e887ab3e7a9
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
