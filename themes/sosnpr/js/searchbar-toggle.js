@@ -1,26 +1,40 @@
 (function ($) {
   
-    $('.search-submit').on('click', function (e) {
+    $('.main-navigation  .search-submit').on('click', function (e) {
       e.preventDefault();
-  
-      $('.search-field').stop().animate(
+      
+      $('.main-navigation  .search-field').stop().animate(
         {width:200},"slow").focus();
-      $('.search-submit').toggleClass("search-bar-open");
-      $('.menu-toggle').toggleClass("search-bar-open");
+      $('.main-navigation  .search-submit').addClass("search-bar-open");
+      $('.main-navigation  .menu-toggle').addClass("search-bar-open");
+      
+      // listen for enter key and submit form
+      $(document).on('keydown', function(event){
+        if(event.which == 13 && $('.main-navigation  .search-field').val() != ''){
+          $('.main-navigation .search-form').submit();
+        }
+        if(event.which == 13 && $('.main-navigation  .search-field').val() == ''){
+          event.preventDefault();
+        }
+      });
   
     });
   
-    $('.search-field').on('blur', function(){
-      $('.search-field').stop().animate(
-        {width:0}, 500);
+    $('.main-navigation .search-field').on('blur', function(){
+      $('.main-navigation .search-field').stop().animate(
+        {
+          width:0
+        }, 500
+      );
 
+      $(document).unbind('keydown');
+        
         function showIcons(){
-          $('.search-submit').toggleClass("search-bar-open");
-          $('.menu-toggle').toggleClass("search-bar-open");
+          $('.main-navigation .search-submit').removeClass("search-bar-open");
+          $('.main-navigation .menu-toggle').removeClass("search-bar-open");
         }
-        setTimeout(showIcons, 501);
 
-       
+        setTimeout(showIcons, 501);  
   
     });
 

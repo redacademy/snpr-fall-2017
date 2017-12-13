@@ -57,13 +57,16 @@ get_header();
      <i class="fa fa-angle-right"></i>
      <i class="fa fa-angle-down"></i>
      <?php echo $props['label'];?></h2>
-     <div class="resources-content hide"><p><?php echo CFS()->get('reports');?></p></div>
+     <div class="resources-content hide">
+       <p><?php echo CFS()->get('reports');?></p>
+       <div class="borders"></div>
+      </div>
    </li>
 
 <section class="divider">
-<a href="#top" class="scroll-up">
-<i class="fa fa-angle-up" aria-hidden="true"></i>
-</a>
+  <a href="#top" class="scroll-up">
+  <i class="fa fa-angle-up" aria-hidden="true"></i>
+  </a>
   <div class="divider-line">
   </div>
 </section>
@@ -77,10 +80,10 @@ get_header();
      <div class="resources-content hide"><p><?php echo CFS()->get('videos');?></p></div>
      </li>
 
-   <section class="divider">
-   <a href="#top" class="scroll-up">
-   <i class="fa fa-angle-up" aria-hidden="true"></i>
-   </a>
+<section class="divider">
+  <a href="#top" class="scroll-up">
+  <i class="fa fa-angle-up" aria-hidden="true"></i>
+  </a>
   <div class="divider-line">
   </div>
 </section>
@@ -94,10 +97,10 @@ get_header();
      <div class="resources-content hide"><p><?php echo CFS()->get('photos');?></p></div>
      </li>
 
-   <section class="divider">
-   <a href="#top" class="scroll-up">
-   <i class="fa fa-angle-up" aria-hidden="true"></i>
-   </a>
+<section class="divider">
+  <a href="#top" class="scroll-up">
+  <i class="fa fa-angle-up" aria-hidden="true"></i>
+  </a>
   <div class="divider-line">
   </div>
 </section>
@@ -111,10 +114,10 @@ get_header();
      <div class="resources-content hide"><p><?php echo CFS()->get('books');?></p></div>
      </li>
 
-   <section class="divider">
-   <a href="#top" class="scroll-up">
-   <i class="fa fa-angle-up" aria-hidden="true"></i>
-   </a>
+<section class="divider">
+  <a href="#top" class="scroll-up">
+  <i class="fa fa-angle-up" aria-hidden="true"></i>
+  </a>
   <div class="divider-line">
   </div>
 </section>
@@ -128,10 +131,10 @@ get_header();
      <div class="resources-content hide"><p><?php echo CFS()->get('in_the_news');?></p></div>
      </li>
 
-   <section class="divider">
-   <a href="#top" class="scroll-up">
-   <i class="fa fa-angle-up" aria-hidden="true"></i>
-   </a>
+<section class="divider">
+  <a href="#top" class="scroll-up">
+  <i class="fa fa-angle-up" aria-hidden="true"></i>
+  </a>
   <div class="divider-line">
   </div>
 </section>
@@ -145,13 +148,13 @@ get_header();
      <div class="resources-content hide"><p><?php echo CFS()->get('radio');?></p></div>
      </li>
 
-   <section class="divider">
-   <a href="#top" class="scroll-up">
-   <i class="fa fa-angle-up" aria-hidden="true"></i>
-   </a>
+  <section class="divider">
+  <a href="#top" class="scroll-up">
+  <i class="fa fa-angle-up" aria-hidden="true"></i>
+  </a>
   <div class="divider-line">
   </div>
-</section>
+  </section>
 
    <div class="lc-groups-container" id="lc-groups">
    <?php $props = CFS()->get_field_info( 'local_conservation_groups' );?> 
@@ -170,6 +173,12 @@ get_header();
 </div>
 </div>
  </ul>
+
+<section class="divider">
+  <a href="#top" class="scroll-up-from-bottom">
+  <i class="fa fa-angle-up" aria-hidden="true"></i>
+  </a>
+</section>
 
 </main><!-- #main -->
 

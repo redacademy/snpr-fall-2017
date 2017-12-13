@@ -24,8 +24,10 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 
 <div class="form-popup">
 	<!-- Begin MailChimp Signup Form -->
+	
 	<form action="https://facebook.us17.list-manage.com/subscribe/post?u=c0f3e105252be2f936f3920b6&amp;id=d1e5c1f991" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 			<!-- <div id="mc_embed_signup_scroll"> -->
+		<div class="closing-icon"><i class="fa fa-times" aria-hidden="true" id="closing-icon"></i></div>
 		<label for="mce-EMAIL"><p>Want to stay updated?<br>Enter your email and we'll be in touch!</p></label>
 		<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
 			<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
@@ -34,7 +36,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 			<button type="submit" class="subscribe-submit"><i class="fa fa-angle-right" aria-hidden="true" id="mc-embedded-subscribe"></i></button>
 			<!-- </div> -->
 	</form>
-	<a href="#"><i class="fa fa-times" aria-hidden="true" id="closing-icon"></i></a>
+	
 </div>
 <!--End mc_embed_signup-->
 

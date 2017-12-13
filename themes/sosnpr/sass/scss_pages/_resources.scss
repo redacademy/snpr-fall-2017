@@ -22,7 +22,7 @@
   
   .resources-nav{
     display: none;
-    @include tablet{
+    @include tablet-footer{
       width: 100vw;
       height: 15rem;
       background: $main-orange;
@@ -82,6 +82,7 @@
       color: $forest;
       font-family: $source;
       padding-bottom: 15rem;
+      text-align: center;
       @include tablet{
         font-size: 1.5rem;        
         padding-bottom: 18rem;
@@ -99,7 +100,17 @@
       display: block;
     }
   }
-  
+
+  .borders{
+    border: $main-orange solid 1px;
+    border-left: $main-orange solid 3px;
+    margin-top: 20px;
+    height: 20vw;
+    @include tablet{
+      display: none;
+    }
+  }
+
   .fa-angle-right{
     padding-right: 6.5px;
     @include tablet{
@@ -119,39 +130,10 @@
       padding-left: 0px;
     }
   }
-  
-  .divider{
-    display: none;
-    @include tablet{
-      display: flex;
-      justify-content: center;
-      .scroll-up{
-        position: relative;
-        background: #555454;
-        border-radius: 30px;
-        padding: 5px 10px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 200;
-      }
-      .divider-line{
-        position: absolute;
-        border-bottom: $main-orange solid 2px;
-        width: 96vw;
-        margin-top: 20px;
-        z-index: 0;
-      }
-      a, .fa{
-        color: white;
-        text-decoration: none;
-      }
-    }
+
+  @include scroll-to-top-buttons-divider{
   }
-  
+
   .resources-ul{
     p{
       font-weight: 300;
@@ -179,9 +161,6 @@
       display: flex;
       flex-flow: column;
       justify-content: flex-start;
-      h2{
-        width: 100vw;
-      }
       @include tablet{
         .lc-groups{
           display: flex;

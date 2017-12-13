@@ -5,8 +5,8 @@
   min-height:50px;
   align-content:center;
   align-items:center;
-  width:100%;
-  
+  width:92%;
+  position:fixed;
   top:0px;
   z-index:1000;
   padding-left:20px;
@@ -87,12 +87,14 @@
 }
 
 @media screen and (min-width: 600px) {
+  .main-navigation{
+    position:static;
+    width:100%;
+  }
   .menu-non-logo  {
-                      .search-icon{
-                            order:2;
-                                  }
+                      
           .menu1{
-                order:1;
+                
                 display: flex;
                 justify-content: space-between;
                 position:relative;
@@ -148,7 +150,11 @@
   @media screen and (min-width: 1000px) {
     
     .menu-non-logo{
+      .search-icon{
+        order:2;
+              }
     .menu1{
+      order:1;
       display: flex;
       justify-content: space-between;
       position:relative;
