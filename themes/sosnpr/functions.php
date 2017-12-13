@@ -85,7 +85,7 @@ add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
 function sosnpr_scripts() {
 	wp_enqueue_style('sosnpr-font-awesome','https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-	wp_enqueue_style( 'sosnpr	-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'sosnpr-style', get_stylesheet_uri() );
 
 	wp_enqueue_style( 'owl-carousel', 'https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css' );
 
@@ -98,9 +98,12 @@ function sosnpr_scripts() {
 
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 
-	wp_enqueue_script( 'searchbar-toggle', get_template_directory_uri() . '/build/js/searchbar-toggle.min.js', array('jquery'), '20130115', true );
 
-	wp_enqueue_script( 'about-us-toggle', get_template_directory_uri() . '/build/js/about-us-toggle.min.js', array('jquery'),null, true );
+	wp_enqueue_script( 'smooth-scroll', get_template_directory_uri() . '/build/js/smooth-scroll.min.js', array('jquery'),null, true );
+
+	wp_enqueue_script( 'searchbar-toggle', get_template_directory_uri() . '/build/js/searchbar-toggle.min.js', array('jquery','smooth-scroll'), '20130115', true );
+
+	wp_enqueue_script( 'about-us-toggle', get_template_directory_uri() . '/build/js/about-us-toggle.min.js', array('jquery', 'menu-toggle', 'smooth-scroll'),null, true );
 
 	wp_enqueue_script( 'resources-toggle', get_template_directory_uri() . '/build/js/resources-toggle.min.js', array('jquery'),null, true );	
 

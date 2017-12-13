@@ -20,7 +20,10 @@ get_header(); ?>
 				<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Recent Updates' ) ) ); ?>">	Back to List</a>
 </div>
 			<?php 
-			the_post_navigation(); 
+			the_post_navigation(array(
+				'prev_text' => 'Prev',
+				'next_text' => 'Next'
+			)); 
 			?> 
 </div>
 		

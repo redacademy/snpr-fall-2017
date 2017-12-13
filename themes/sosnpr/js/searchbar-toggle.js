@@ -48,14 +48,14 @@
     $(this).find('.right').toggleClass('hide');
   })
 
- //smooth scroll
-  $(document).on('click', 'a[href^="#"]', function (event) {
-    event.preventDefault();
+//  //smooth scroll
+//   $(document).on('click', 'a[href^="#"]', function (event) {
+//     event.preventDefault();
 
-    $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
-    }, 2000);
-  });
+//     $('html, body').animate({
+//         scrollTop: $($.attr(this, 'href')).offset().top
+//     }, 2000);
+//   });
 
 
 //feedback form appear on click and remove if anywhere else is clicked
@@ -72,6 +72,7 @@ $(".feedback-button").click(function () {
   $('.para').show();
   $('.feedback').css('min-height', '430px');
   $('.wpcf7-not-valid-tip').hide();
+  $('.wpcf7-response-output').css('padding-bottom', '0');
  
   
   remove = false;
@@ -107,7 +108,9 @@ $('.wpcf7-submit').on('click', function(){
       $('input').show();
       $('textarea').show();
       $('.feedback').css('min-height', '480px');
-      
+      $('.wpcf7-response-output').css('padding-bottom', '0');
+    
+
     } else {
       $('.feedback').css('min-height', '300px');
       

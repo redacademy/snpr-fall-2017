@@ -75,19 +75,19 @@
     overflow:hidden;
     
     img{
-      height:320px;
+      height:auto;
       
     }
     .entry-header{
-      color:white;
+      color:$border_orange;
       font-family:$source;
       position:absolute;
-      bottom:30px;
+      top:160px;
       padding:10px;
       font-size:12px;
      
       a{
-        color:white;
+        color:$border_orange;
         text-decoration:none;
       }
     }
