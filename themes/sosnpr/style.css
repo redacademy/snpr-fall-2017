@@ -770,10 +770,6 @@ object {
     text-align: center; }
 
 .widget-area {
-<<<<<<< HEAD
-  height: auto;
-=======
->>>>>>> d7cca80de9e3705be800d3896ce9cc99e23cbca6
   width: 100vw;
   padding-top: 1rem;
   background-color: #eb8e26; }
@@ -1079,8 +1075,7 @@ a:visited {
       @media all and (min-width: 600px) {
         .page-template-about-us .about-us-content-wrapper li {
           padding: 20px 0;
-          margin: 30px;
-          border-bottom: 1px #eb8e26 solid; }
+          margin: 30px; }
           .page-template-about-us .about-us-content-wrapper li:last-child {
             margin-bottom: 0;
             border: none; } }
@@ -1148,6 +1143,55 @@ a:visited {
       -webkit-box-ordinal-group: 0;
           -ms-flex-order: -1;
               order: -1; }
+  .page-template-about-us .divider {
+    display: none; }
+    @media all and (min-width: 600px) {
+      .page-template-about-us .divider {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .page-template-about-us .divider .scroll-up {
+          position: relative;
+          background: #555454;
+          border-radius: 30px;
+          padding: 5px 10px;
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 100;
+          color: white;
+          z-index: 200; }
+        .page-template-about-us .divider .scroll-up-from-bottom {
+          position: relative;
+          background: #555454;
+          border-radius: 30px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          padding: 5px 10px;
+          width: 60px;
+          height: 50px;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 100;
+          color: white;
+          z-index: 200; }
+          .page-template-about-us .divider .scroll-up-from-bottom a, .page-template-about-us .divider .scroll-up-from-bottom .fa {
+            color: white;
+            text-decoration: none;
+            font-size: 3rem; }
+        .page-template-about-us .divider .divider-line {
+          position: absolute;
+          border-bottom: #eb8e26 solid 2px;
+          width: 96vw;
+          margin-top: 20px;
+          z-index: 0; }
+        .page-template-about-us .divider a, .page-template-about-us .divider .fa {
+          color: white;
+          text-decoration: none; } }
 
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
