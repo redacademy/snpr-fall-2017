@@ -2,7 +2,7 @@
   width: 100vw;
   padding-top: 1rem;
   background-color: $main-orange;
-  @include tablet{
+  @include tablet-footer{
     display: flex;
     flex-flow: row wrap;
   }
@@ -13,8 +13,7 @@
     text-decoration: none;
   }
   
-  @include tablet{
-    // height: 740px;
+  @include tablet-footer{
     width: 100vw;
     display: flex;
     flex-flow: row wrap;
