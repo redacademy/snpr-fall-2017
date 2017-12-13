@@ -31,7 +31,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 			<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 			<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c0f3e105252be2f936f3920b6_d1e5c1f991" tabindex="-1" value=""></div>
 			<!-- <div class="clear"> -->
-			<button type="submit"><i class="fa fa-angle-right" aria-hidden="true" id="mc-embedded-subscribe"></i></button>
+			<button type="submit" class="subscribe-submit"><i class="fa fa-angle-right" aria-hidden="true" id="mc-embedded-subscribe"></i></button>
 			<!-- </div> -->
 	</form>
 	<a href="#"><i class="fa fa-times" aria-hidden="true" id="closing-icon"></i></a>
