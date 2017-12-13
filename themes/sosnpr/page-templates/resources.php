@@ -174,6 +174,11 @@ get_header();
 </div>
  </ul>
 
+ <section class="divider">
+   <a href="#top" class="scroll-up-from-bottom">
+   <i class="fa fa-angle-up" aria-hidden="true"></i>
+   </a>
+
 </main><!-- #main -->
 
 </div><!-- #primary -->

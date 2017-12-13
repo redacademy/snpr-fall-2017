@@ -14,21 +14,21 @@
 //Screen sizes
 
 @mixin tablet {
-  @media all and (min-width: $tablet_width) {
-    @content;
-  }
+	@media all and (min-width: $tablet_width) {
+		@content;
+	}
 }
 
 @mixin tablet-footer {
-  @media all and (min-width: $tablet_width_footer) {
-    @content;
-  }
+	@media all and (min-width: $tablet_width_footer) {
+		@content;
+	}
 }
 
 @mixin desktop {
-  @media all and (min-width: $desktop_width) {
-    @content;
-  }
+	@media all and (min-width: $desktop_width) {
+		@content;
+	}
 }
 
 //Mobile Fonts
@@ -91,4 +91,63 @@
 	font-family: $miriam;
 	font-size: 33px;
 	
+}
+
+// scroll to top button(s) and divider
+
+@mixin scroll-to-top-buttons-divider{
+	@content;	
+	.divider{
+		display: none;
+		@include tablet{
+			display: flex;
+			justify-content: center;
+			.scroll-up{
+				position: relative;
+				background: #555454;
+				border-radius: 30px;     
+				padding: 5px 10px;
+				width: 50px;
+				height: 50px;
+				text-align: center;
+				font-size: 35px;
+				font-weight: 100;
+				color: white;
+				z-index: 200;
+			}
+			.scroll-up-from-bottom{
+				position: relative;
+				background: #555454;
+				border-radius: 30px;
+				border-bottom-left-radius: 0px;
+				border-bottom-right-radius: 0px; 
+				padding: 5px 10px;
+				width: 60px;
+				height: 50px;
+				text-align: center;
+				font-size: 35px;
+				font-weight: 100;
+				color: white;
+				z-index: 200;
+				a, .fa{
+					color: white;
+					text-decoration: none;
+					font-size: 3rem;
+				}
+			}
+			
+			
+			.divider-line{
+				position: absolute;
+				border-bottom: $main-orange solid 2px;
+				width: 96vw;
+				margin-top: 20px;
+				z-index: 0;
+			}
+			a, .fa{
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
 }
