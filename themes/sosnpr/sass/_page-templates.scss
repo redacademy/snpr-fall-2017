@@ -15,12 +15,12 @@
 
 .feedback {
 
+  
   .para {
     font-family: $source;
     text-align: center;
-    
-   
   }
+
   p {
     margin: 0;
   }
@@ -33,11 +33,16 @@
   align-content: center;
   position: fixed;
   bottom: 80px;
+  border-radius: 3%;
+  max-width: 400px;
+  max-height: 450px;
+
+  @include tablet {
   max-width: 450px;
   max-height: 450px;
   min-width: 430px;
   min-height: 430px;
-  border-radius: 3%;
+  }
   
   background: #fff;
   align-self: center;
@@ -63,21 +68,45 @@
        
        
       input:not(.wpcf7-submit) {
+
+        max-width: 340px;
+        min-width: 340px;
+        min-height: 50px;
+
+        @include tablet {
         min-height: 50px;
         min-width: 370px;
+        }
+
         background: #F7F6F6;
         font-family: $source;
+        padding-left: 10px;
       }
 
      textarea {
+
+      background: #F7F6F6;
+      font-family: $source;
+      padding-left: 10px;
+      max-height: 100px;
+      min-width: 340px;
+      max-width: 340px;
+     
+
+      @include tablet {
        max-height: 100px;
        min-width: 370px;
        max-width: 370px;
-       background: #F7F6F6;
-       font-family: $source;
+       
+      }
      }
      .wpcf7-submit {
-       margin-left: 110px;
+       margin-left: 95px;
+
+      @include tablet {
+       margin-left: 114px;
+      }
+
        height: 50px;
        width: 150px;
        margin-top: 15px;
@@ -88,6 +117,10 @@
        font-family: $source;
        font-size: 20px;
       
+     }
+     .wpcf7-not-valid-tip {
+       color: $main-orange;
+       font-family: $source;
      }
    }
   }
@@ -106,6 +139,15 @@
    border: none;
    font-family: $source;
    text-align: center;
+ }
+
+ .center {
+   margin-bottom: 100px;
+   
+ }
+
+ .response-width {
+   max-width: 100%;
  }
 
  
