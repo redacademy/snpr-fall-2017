@@ -13,6 +13,9 @@
         if(event.which == 13 && $('.main-navigation  .search-field').val() != ''){
           $('.main-navigation .search-form').submit();
         }
+        if(event.which == 13 && $('.main-navigation  .search-field').val() == ''){
+          event.preventDefault();
+        }
       });
   
     });
