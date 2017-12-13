@@ -37,6 +37,7 @@ get_header();
         <li>
           <a href="#proposal-history">proposal history</a>
         </li>
+        
       </ul>
 
       <ul class="about-us-content-wrapper">
