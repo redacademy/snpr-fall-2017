@@ -15,15 +15,14 @@ get_header(); ?>
 			<section class="error-404 not-found">
 				<div class="hero-404">
 					<header class="page-header">
-					<h1 class="page-title"><?php echo esc_html( "Sorry" ); ?></h1>
+					<h1 class="page-title"><?php echo esc_html( "Page Not Found" ); ?></h1>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-					<p><?php echo esc_html( "We can't find the page your looking for." ); ?></p>
-					<p><?php echo esc_html( "Please use the search bar below:" ); ?></p>
+					<p class="error-p"><?php echo esc_html( "Sorry, we can't find the page your looking for." ); ?></p>
+					<p class="error-p"><?php echo esc_html( "Please contact us to request for more information." ); ?></p>
 
-
-					<?php get_search_form(); ?>
+		<?php echo do_shortcode('[contact-form-7 id="100" title="Contact form 1"]'); ?>
 
 					<!-- <?php
 					// the_widget( 'WP_Widget_Recent_Posts' ); ?> -->
@@ -52,10 +51,10 @@ get_header(); ?>
 					<!-- <?php
 						// $archive_content = '<p>' . sprintf( esc_html( 'Try looking in the monthly archives. %1$s' ), convert_smilies( ':)' ) ) . '</p>';
 						// the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
-					?>
+					?>-->
 
-				</div><! .page-content -->
 				</div>
+				</div><!-- .hero-404 -->
 			</section><!-- .error-404 -->
 
 		</main><!-- #main -->
