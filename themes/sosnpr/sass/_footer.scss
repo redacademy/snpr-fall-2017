@@ -1,8 +1,11 @@
  .widget-area{
-  height: auto;
   width: 100vw;
   padding-top: 1rem;
   background-color: $main-orange;
+  @include tablet{
+    display: flex;
+    flex-flow: row wrap;
+  }
   
   a, 
   a:visited{
@@ -33,20 +36,17 @@
       font-size: 1.2rem;
       color: white;
       text-decoration: none;
-      padding-bottom: 20px;
       @include tablet{
-        padding: 0;
-        margin: 0;
+        padding-bottom: 20px;
       }
     }
     
     p{
-      line-height: 18px;
       color: white;
       margin: 0;
       font-weight: 300;
       text-align: left;
-      padding: 1.2vh 0;
+      padding-bottom: 10px;
     }
     i{
       color: white;
@@ -78,36 +78,31 @@
     align-items: flex-start;
     line-height: 18px;
     margin-bottom: 20px;
-    .contact-info-section{
-      font-family: $source;
-      display: flex;
-      align-items: center;
-      // justify-content: center;
-      margin-bottom: 10px;
-      margin-left: 70px;
-      width: 100vw;
-      i{
-        font-size: 20px;
-        padding-top: 2px;
-        min-width: 30px;
- 
-      }
-      p{
+    i{
+      font-size: 20px;
+      padding-top: 2px;
+      min-width: 30px;
+    }
+    p{
       max-width: 230px;
-      padding: 0 10px;
+      margin: 10px 0px;
+      padding-left: 10px;
       border-left: 1px solid #fff;
       margin-top: 0;
-      
-    }
     }
   }
   .widget_custom_html{
-    h2{
-      margin-bottom: 0;
+    .contact-row{
+      display: flex;
+      flex-flow: row wrap;
     }
   }
-  @include tablet{
-    
+  
+  .textwidget{
+    .contact{
+      display: flex;
+      flex-flow: column wrap;
+    }
   }
 }
 
@@ -115,72 +110,73 @@
 .form-popup{
   display: none;
   // .clear{
-  //   // width: 50px;
+    //   // width: 50px;
     
-  //   //subscribe button
+    //   //subscribe button
     
-  //   .subscribe-form{
-  //     display: none;
-  //   }
-}
-.form-popup-show{
-  display: flex;
-  position: fixed;
-  flex-direction: column;
-  bottom: 250px;
-  width: 100vw;
-  // width: 400px;
-  left: 0;
-  margin: 0 auto;
-  padding: 20px 0;
-  justify-content: center;
-  z-index: 10;
-  form{
-    width: 280px;  
-    background: white;
-    text-align: center;
-    margin: 0 auto;
-    label p{
-      font-family: $source;
-      line-height: $font__line-height-body;
-      margin: 15px 0;
+    //   .subscribe-form{
+      //     display: none;
+      //   }
     }
-    input[type="email"]{
-      width: 190px;
-      height: 30px;
-      margin: 10px 40px;
-      padding: 0 10px;
-    }
-    button{
-      position: relative;
-      font-size: 16px;
-      bottom: 40px;
-      left: 108px;
-      padding: 6.5px 10px;
-      color: white;
-      background-color: $forest;
-      border-radius: 10%;
-      box-shadow: none;
-      border: none;
-      i{
-        position: relative;
-        left: 5px;
+    .form-popup-show{
+      display: flex;
+      position: fixed;
+      flex-direction: column;
+      bottom: 250px;
+      width: 100vw;
+      // width: 400px;
+      left: 0;
+      margin: 0 auto;
+      padding: 20px 0;
+      justify-content: center;
+      z-index: 10;
+      form{
+        width: 280px;  
+        background: white;
+        text-align: center;
+        margin: 0 auto;
+        label p{
+          font-family: $source;
+          line-height: $font__line-height-body;
+          margin: 15px 0;
+        }
+        input[type="email"]{
+          width: 190px;
+          height: 30px;
+          margin: 10px 40px;
+          padding: 0 10px;
+        }
+        button{
+          position: relative;
+          font-size: 16px;
+          bottom: 40px;
+          left: 108px;
+          padding: 6.5px 10px;
+          color: white;
+          background-color: $forest;
+          border-radius: 10%;
+          box-shadow: none;
+          border: none;
+          i{
+            position: relative;
+            left: 5px;
+          }
+        }
       }
     }
-  }
-}
-a{
-  display: flex;
-  justify-content: flex-end;
-  text-decoration: none;
-  .fa-times{
-    position: relative;
-    right: 0px;
-    top: 25px;
-  }
-}
-
-a,
-a:visited{
-  color: $forest;
-}  
+    a{
+      display: flex;
+      justify-content: flex-end;
+      text-decoration: none;
+      .fa-times{
+        position: relative;
+        right: 0px;
+        top: 25px;
+      }
+    }
+    
+    a,
+    a:visited{
+      color: $forest;
+    }  
+    
