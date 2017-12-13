@@ -99,7 +99,18 @@
       display: block;
     }
   }
-  
+
+  .borders{
+    border: $main-orange solid 1px;
+    border-left: $main-orange solid 3px;
+    margin-top: 20px;
+    height: 20vw;
+    @include tablet{
+      border: none;
+      margin-top: none;
+    }
+  }
+
   .fa-angle-right{
     padding-right: 6.5px;
     @include tablet{
@@ -179,9 +190,6 @@
       display: flex;
       flex-flow: column;
       justify-content: flex-start;
-      h2{
-        width: 100vw;
-      }
       @include tablet{
         .lc-groups{
           display: flex;
