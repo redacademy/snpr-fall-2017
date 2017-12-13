@@ -11,7 +11,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		  <div class="updates-hero">
-		   <h2><?php echo wp_title();?></h2>
+		   <h2><?php echo single_post_title();?></h2>
 			</div>
 
 		<section class="stories-container">

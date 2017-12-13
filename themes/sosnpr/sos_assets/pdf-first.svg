@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="271px" height="241px" viewBox="0 0 271 241" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Tablet</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M36.8941176,1.15454545 C52.2666667,0.384848485 72.6352941,3.84743819e-12 98,4.54747351e-12 L98,127 L0,127 C0,78.1242424 0,47.3363636 0,34.6363636 C5.76470588,27.7090909 28.8235294,6.92727273 36.8941176,1.15454545 Z" id="path-1"></path>
+        <path d="M36.8941176,1.15454545 C56.8784314,0.384848485 77.2470588,3.84743819e-12 98,4.54747351e-12 L98,127 L0,127 C0,80.4333333 0,49.6454545 0,34.6363636 C2.06154563,32.1590666 14.3595848,32.1590666 36.8941176,34.6363636 C34.3998894,14.0992222 34.3998894,2.9386161 36.8941176,1.15454545 Z" id="path-2"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet">
+            <g id="pdg" transform="translate(84.000000, 50.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <path stroke="#EDECEC" stroke-width="2" d="M37.2388322,2.13861605 C28.9203004,8.16836664 6.87721544,28.1144661 1,35.0016243 C1,62.5863163 1,63.0063773 1,126 L97,126 L97,1.00019863 C72.2758142,1.0101418 52.3544315,1.38972864 37.2388322,2.13861605 Z"></path>
+                </g>
+                <g id="Rectangle-2">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <path stroke="#EDECEC" stroke-width="1" d="M37.0763792,1.64790522 C34.9360068,3.538992 34.9755225,14.6917241 37.3904704,34.5760818 L37.4665247,35.2023025 L36.8394801,35.1333694 C15.0219596,32.7348959 2.73142111,32.6904338 0.5,34.8324786 C0.5,64.9580325 0.5,65.1719669 0.5,126.5 L97.5,126.5 L97.5,0.500074505 C76.9826458,0.506190317 56.8414379,0.888802785 37.0763792,1.64790522 Z"></path>
+                </g>
+                <text id="pdf" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="23" font-weight="500" fill="#555454">
+                    <tspan x="29.6774852" y="65.7363636"> pdf</tspan>
+                </text>
+            </g>
+            <path d="M146,165 L159,165 L136.5,193 L114,165 L125,165 L125,138 L146,138 L146,165 Z" id="Combined-Shape" fill="#D8D8D8"></path>
+        </g>
+    </g>
+</svg>
