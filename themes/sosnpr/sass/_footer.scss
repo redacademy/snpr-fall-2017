@@ -183,7 +183,29 @@
   }
 }
 
+<<<<<<< HEAD
 a,
 a:visited{
   color: $forest;
 }  
+=======
+@include desktop{
+  #secondary, .widget_area{
+    height: 284px;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: $main-orange;
+    padding-top: rem;
+    
+    .wp-image-62, .wp-image-63{
+      padding-top: 1.5rem;
+      height: 80px;
+      width: 60px;
+    }
+  }
+}
+}
+>>>>>>> bd45e38d8c571c72b164d26f47df5e887ab3e7a9
