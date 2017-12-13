@@ -5,8 +5,8 @@
       
       $('.main-navigation  .search-field').stop().animate(
         {width:200},"slow").focus();
-      $('.main-navigation  .search-submit').toggleClass("search-bar-open");
-      $('.main-navigation  .menu-toggle').toggleClass("search-bar-open");
+      $('.main-navigation  .search-submit').addClass("search-bar-open");
+      $('.main-navigation  .menu-toggle').addClass("search-bar-open");
       
       // listen for enter key and submit form
       $(document).on('keydown', function(event){
@@ -27,8 +27,8 @@
       $(document).unbind('keydown');
         
         function showIcons(){
-          $('.main-navigation .search-submit').toggleClass("search-bar-open");
-          $('.main-navigation .menu-toggle').toggleClass("search-bar-open");
+          $('.main-navigation .search-submit').removeClass("search-bar-open");
+          $('.main-navigation .menu-toggle').removeClass("search-bar-open");
         }
 
         setTimeout(showIcons, 501);  
