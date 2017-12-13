@@ -1,6 +1,5 @@
-#secondary, 
-.widget_area{
-  height: 540px;
+ .widget-area{
+  height: auto;
   width: 100vw;
   padding-top: 1rem;
   background-color: $main-orange;
@@ -12,7 +11,7 @@
   }
   
   @include tablet{
-    height: 284px;
+    // height: 740px;
     width: 100vw;
     display: flex;
     flex-flow: row wrap;
@@ -35,6 +34,10 @@
       color: white;
       text-decoration: none;
       padding-bottom: 20px;
+      @include tablet{
+        padding: 0;
+        margin: 0;
+      }
     }
     
     p{
@@ -44,7 +47,7 @@
       font-weight: 300;
       text-align: left;
       padding: 1.2vh 0;
-      
+      // display: flex;
     }
     i{
       color: white;
@@ -65,11 +68,16 @@
       
     }
   }
+  .wp-image-62, .wp-image-63{
+    padding-top: 1.5rem;
+    height: 80px;
+    width: 60px;
+  }
   .custom-html-widget{
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     line-height: 18px;
-    
     .contact-info-section{
       font-family: $source;
       display: flex;
@@ -96,11 +104,7 @@
     }
   }
   @include tablet{
-    .wp-image-62, .wp-image-63{
-      padding-top: 1.5rem;
-      height: 80px;
-      width: 60px;
-    }
+    
   }
 }
 
@@ -119,66 +123,60 @@
 .form-popup-show{
   display: flex;
   position: fixed;
-  bottom: 300px;
+  flex-direction: column;
+  bottom: 250px;
   width: 100vw;
+  // width: 400px;
   left: 0;
   margin: 0 auto;
   padding: 20px 0;
   justify-content: center;
   z-index: 10;
   form{
-    width: 400px;  
+    width: 280px;  
     background: white;
     text-align: center;
+    margin: 0 auto;
     label p{
       font-family: $source;
       line-height: $font__line-height-body;
       margin: 15px 0;
     }
     input[type="email"]{
-      width: 300px;
+      width: 190px;
       height: 30px;
-      margin: 10px 50px;
+      margin: 10px 40px;
       padding: 0 10px;
     }
     button{
       position: relative;
       font-size: 16px;
       bottom: 40px;
-      left: 140px;
+      left: 108px;
       padding: 6.5px 10px;
       color: white;
       background-color: $forest;
       border-radius: 10%;
       box-shadow: none;
       border: none;
+      i{
+        position: relative;
+        left: 5px;
+      }
     }
+  }
+}
+a{
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  .fa-times{
+    position: relative;
+    right: 0px;
+    top: 25px;
   }
 }
 
-@media screen and (min-width: 800px){
-  #secondary, .widget_area{
-    height: 284px;
-    width: 100vw;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    background-color: $main-orange;
-    padding-top: rem;
-    
-    .wp-image-62, .wp-image-63{
-      padding-top: 1.5rem;
-      height: 80px;
-      width: 60px;
-    }
-  }
-}
-.fa-times{
-  position: relative;
-  right: 30px;
-  top: 15px;
-}
 a,
 a:visited{
   color: $forest;
