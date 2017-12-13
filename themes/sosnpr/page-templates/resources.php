@@ -153,7 +153,7 @@ get_header();
   </div>
 </section>
 
-   <div "lc-groups-container" id="lc-groups">
+   <div class="lc-groups-container" id="lc-groups">
    <?php $props = CFS()->get_field_info( 'local_conservation_groups' );?> 
    <h2 class="resources-heading">
    <i class="fa fa-angle-right"></i>
@@ -163,7 +163,6 @@ get_header();
    <li>
    <p><?php echo CFS()->get('local_conservation_groups');?></p>
    </li>
-
    <li>
      <?php $props = CFS()->get_field_info( 'local_conservation_groups_2' );?> 
      <p><?php echo CFS()->get('local_conservation_groups_2');?></p>

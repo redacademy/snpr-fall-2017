@@ -1015,6 +1015,29 @@ object {
               box-shadow: none;
       border: none; }
 
+@media screen and (min-width: 800px) {
+  #secondary, .widget_area {
+    height: 284px;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background-color: #eb8e26;
+    padding-top: rem; }
+    #secondary .wp-image-62, #secondary .wp-image-63, .widget_area .wp-image-62, .widget_area .wp-image-63 {
+      padding-top: 1.5rem;
+      height: 80px;
+      width: 60px; } }
+
 .fa-times {
   position: relative;
   right: 30px;
@@ -1338,17 +1361,17 @@ a:visited {
 
 .page-template-resources .hide {
   display: none; }
-  @media all and (min-width: 600px) {
+  @media all and (min-width: 800px) {
     .page-template-resources .hide {
       display: block; } }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 800px) {
   .page-template-resources .fa-angle-right, .page-template-resources .fa-angle-down {
     display: none; } }
 
 .page-template-resources .divider {
   display: none; }
-  @media all and (min-width: 600px) {
+  @media all and (min-width: 800px) {
     .page-template-resources .divider {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1405,36 +1428,37 @@ a:visited {
           justify-content: flex-start; }
   .page-template-resources .resources-ul .lc-groups-container h2 {
     width: 100vw; }
-  .page-template-resources .resources-ul .lc-groups-container .lc-groups {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row;
-            flex-flow: row;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start; }
-    .page-template-resources .resources-ul .lc-groups-container .lc-groups p {
-      max-width: 40vw; }
-    .page-template-resources .resources-ul .lc-groups-container .lc-groups li:nth-child(1) {
+  @media all and (min-width: 800px) {
+    .page-template-resources .resources-ul .lc-groups-container .lc-groups {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: vertical;
+      -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
-          -ms-flex-flow: column wrap;
-              flex-flow: column wrap; }
-    .page-template-resources .resources-ul .lc-groups-container .lc-groups li:nth-child(2) {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-flow: column wrap;
-              flex-flow: column wrap;
-      margin-left: 5rem; }
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; }
+      .page-template-resources .resources-ul .lc-groups-container .lc-groups li:nth-child(1) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap;
+        max-width: 40vw; }
+      .page-template-resources .resources-ul .lc-groups-container .lc-groups li:nth-child(2) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap;
+        max-width: 40vw;
+        margin-left: 5rem; } }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands.jpg);
@@ -2086,17 +2110,17 @@ a:visited {
 
 .page-template-resources .hide {
   display: none; }
-  @media all and (min-width: 600px) {
+  @media all and (min-width: 800px) {
     .page-template-resources .hide {
       display: block; } }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 800px) {
   .page-template-resources .fa-angle-right, .page-template-resources .fa-angle-down {
     display: none; } }
 
 .page-template-resources .divider {
   display: none; }
-  @media all and (min-width: 600px) {
+  @media all and (min-width: 800px) {
     .page-template-resources .divider {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2153,36 +2177,37 @@ a:visited {
           justify-content: flex-start; }
   .page-template-resources .resources-ul .lc-groups-container h2 {
     width: 100vw; }
-  .page-template-resources .resources-ul .lc-groups-container .lc-groups {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row;
-            flex-flow: row;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start; }
-    .page-template-resources .resources-ul .lc-groups-container .lc-groups p {
-      max-width: 40vw; }
-    .page-template-resources .resources-ul .lc-groups-container .lc-groups li:nth-child(1) {
+  @media all and (min-width: 800px) {
+    .page-template-resources .resources-ul .lc-groups-container .lc-groups {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: vertical;
+      -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
-          -ms-flex-flow: column wrap;
-              flex-flow: column wrap; }
-    .page-template-resources .resources-ul .lc-groups-container .lc-groups li:nth-child(2) {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-flow: column wrap;
-              flex-flow: column wrap;
-      margin-left: 5rem; }
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; }
+      .page-template-resources .resources-ul .lc-groups-container .lc-groups li:nth-child(1) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap;
+        max-width: 40vw; }
+      .page-template-resources .resources-ul .lc-groups-container .lc-groups li:nth-child(2) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap;
+        max-width: 40vw;
+        margin-left: 5rem; } }
 
 .single-hero {
   background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);

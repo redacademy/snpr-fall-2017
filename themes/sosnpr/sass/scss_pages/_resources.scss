@@ -101,24 +101,24 @@
     text-decoration: underline;
     font-weight: 300;
   }
-
+  
   .fa{
     color: $main-orange;
   }
- 
+  
   .hide{
     display: none;
     @include tablet{
       display: block;
     }
   }
-
+  
   @include tablet{
     .fa-angle-right, .fa-angle-down{
       display: none;
     }
   }
-
+  
   .divider{
     display: none;
     @include tablet{
@@ -167,21 +167,22 @@
       h2{
         width: 100vw;
       }
-      .lc-groups{
-        display: flex;
-        flex-flow: row;
-        justify-content: flex-start;
-        p{
-          max-width: 40vw;
-        }
-        li:nth-child(1) {
+      @include tablet{
+        .lc-groups{
           display: flex;
-          flex-flow: column wrap;
-        }
-        li:nth-child(2) {
-          display: flex;
-          flex-flow: column wrap;
-          margin-left: 5rem;
+          flex-flow: row wrap;
+          justify-content: flex-start;    
+          li:nth-child(1) {
+            display: flex;
+            flex-flow: column wrap;
+            max-width: 40vw;
+          }
+          li:nth-child(2) {
+            display: flex;
+            flex-flow: column wrap;
+            max-width: 40vw;            
+            margin-left: 5rem;
+          }
         }
       }
     }
