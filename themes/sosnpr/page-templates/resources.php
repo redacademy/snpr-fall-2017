@@ -57,7 +57,10 @@ get_header();
      <i class="fa fa-angle-right"></i>
      <i class="fa fa-angle-down"></i>
      <?php echo $props['label'];?></h2>
-     <div class="resources-content hide"><p><?php echo CFS()->get('reports');?></p></div>
+     <div class="resources-content hide">
+       <p><?php echo CFS()->get('reports');?></p>
+       <div class="borders"></div>
+      </div>
    </li>
 
 <section class="divider">
