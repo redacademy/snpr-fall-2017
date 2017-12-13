@@ -1,15 +1,28 @@
-#secondary, .widget_area{
+#secondary, 
+.widget_area{
   height: 540px;
   width: 100vw;
   padding-top: 1rem;
   background-color: $main-orange;
   
-  a, a:visited{
+  a, 
+  a:visited{
     margin: 0rem 0.5rem;
     text-decoration: none;
   }
   
-  .widget_text, .textwidget{
+  @include tablet{
+    height: 284px;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: $main-orange;
+    padding-top: 40px;
+  }
+  .widget_text,
+  .textwidget{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -20,22 +33,26 @@
       font-size: 1.2rem;
       color: white;
       text-decoration: none;
+      padding-bottom: 20px;
     }
     
     p{
-      line-height: 1.8rem;
+      line-height: 18px;
       color: white;
       margin: 0;
       font-weight: 300;
-      text-align: left;      
+      text-align: left;
+      padding: 1.2vh 0;
+      
     }
     i{
       color: white;
     }
-    .subscribe-button, .feedback-button{
-      width: 200px;
+    .subscribe-button, 
+    .feedback-button{
+      width: 154px;
       height: 40px;
-      border-radius: 0px;
+      border-radius: 3px;
       border: none;
       text-transform: uppercase;
       background: white;      
@@ -50,8 +67,40 @@
   .custom-html-widget{
     display: flex;
     align-items: flex-start;
+    line-height: 18px;
+    
+    .contact-info-section{
+      font-family: $source;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      i{
+        font-size: 20px;
+        padding-top: 2px;
+        min-width: 30px;
+ 
+      }
+      p{
+      max-width: 230px;
+      padding: 0 10px;
+      border-left: 1px solid #fff;
+      margin-top: 0;
+      
+    }
+    }
   }
-  
+  .widget_custom_html{
+    h2{
+      margin-bottom: 0;
+    }
+  }
+  @include tablet{
+    .wp-image-62, .wp-image-63{
+      padding-top: 1.5rem;
+      height: 80px;
+      width: 60px;
+    }
+  }
 }
 
 //subscribe button
@@ -65,65 +114,46 @@
   //   .subscribe-form{
   //     display: none;
   //   }
-  }
-  .form-popup-show{
-    display: flex;
-    position: fixed;
-    bottom: 300px;
-    width: 100vw;
-    left: 0;
-    margin: 0 auto;
-    padding: 20px 0;
-    justify-content: center;
-    
-    form{
-      width: 400px;  
-      background: white;
-      text-align: center;
-      label p{
-        font-family: $source;
-        line-height: $font__line-height-body;
-        margin: 15px 0;
-      }
-      input[type="email"]{
-        width: 300px;
-        height: 30px;
-        margin: 10px 50px;
-        padding: 0 10px;
-      }
-      button{
-        position: relative;
-        font-size: 16px;
-        bottom: 40px;
-        left: 140px;
-        padding: 6.5px 10px;
-        color: white;
-        background-color: $forest;
-        border-radius: 10%;
-        box-shadow: none;
-        border: none;
-      }
+}
+.form-popup-show{
+  display: flex;
+  position: fixed;
+  bottom: 300px;
+  width: 100vw;
+  left: 0;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: center;
+  z-index: 10;
+  form{
+    width: 400px;  
+    background: white;
+    text-align: center;
+    label p{
+      font-family: $source;
+      line-height: $font__line-height-body;
+      margin: 15px 0;
     }
-    .fa-times{
-      position: absolute;
-      right: 190px;
-      top: 25px;
+    input[type="email"]{
+      width: 300px;
+      height: 30px;
+      margin: 10px 50px;
+      padding: 0 10px;
     }
-    a,
-    a:visited{
-      color: $forest;
+    button{
+      position: relative;
+      font-size: 16px;
+      bottom: 40px;
+      left: 140px;
+      padding: 6.5px 10px;
+      color: white;
+      background-color: $forest;
+      border-radius: 10%;
+      box-shadow: none;
+      border: none;
     }
   }
-  .fa-times{
-    position: absolute;
-    right: 190px;
-    top: 25px;
-  }
-  a,
-  a:visited{
-    color: $forest;
-  }
-
+}
 
 @media screen and (min-width: 800px){
   #secondary, .widget_area{
@@ -143,3 +173,12 @@
     }
   }
 }
+.fa-times{
+  position: relative;
+  right: 30px;
+  top: 15px;
+}
+a,
+a:visited{
+  color: $forest;
+}  

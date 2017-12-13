@@ -30,7 +30,7 @@
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<p class="header-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri() . '/sos_assets/logo/svg/lines-rugged-orange.svg'?>" class="header-logo"></img></a></p>
 				<div class="menu-non-logo">
-					<?php get_search_form() ?>
+					<div class="search-icon"><?php get_search_form() ?></div>
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
 					<div class="menu1">
 					
