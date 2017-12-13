@@ -706,7 +706,7 @@ object {
       text-align: center; }
     .site-info .feedback p {
       margin: 0; }
-    @media all and (min-width: 800px) {
+    @media all and (min-width: 600px) {
       .site-info .feedback {
         max-width: 450px;
         max-height: 450px;
@@ -745,7 +745,7 @@ object {
           background: #F7F6F6;
           font-family: "Source Sans Pro", sans-serif;
           padding-left: 10px; }
-          @media all and (min-width: 800px) {
+          @media all and (min-width: 600px) {
             .site-info .feedback .wpcf7 form input:not(.wpcf7-submit) {
               min-height: 50px;
               min-width: 370px; } }
@@ -756,7 +756,7 @@ object {
           max-height: 100px;
           min-width: 340px;
           max-width: 340px; }
-          @media all and (min-width: 800px) {
+          @media all and (min-width: 600px) {
             .site-info .feedback .wpcf7 form textarea {
               max-height: 100px;
               min-width: 370px;
@@ -773,7 +773,7 @@ object {
                   box-shadow: none;
           font-family: "Source Sans Pro", sans-serif;
           font-size: 20px; }
-          @media all and (min-width: 800px) {
+          @media all and (min-width: 600px) {
             .site-info .feedback .wpcf7 form .wpcf7-submit {
               margin-left: 114px; } }
         .site-info .feedback .wpcf7 form .wpcf7-not-valid-tip {
@@ -790,19 +790,12 @@ object {
     border: none;
     font-family: "Source Sans Pro", sans-serif;
     text-align: center; }
-<<<<<<< HEAD
   .site-info .center {
     margin-bottom: 100px; }
   .site-info .response-width {
     max-width: 100%; }
 
-#secondary,
-.widget_area {
-  height: 540px;
-=======
-
 .widget-area {
->>>>>>> eb9c8c550f8d7c7b741afdb376bd6ad99172fe9f
   width: 100vw;
   padding-top: 1rem;
   background-color: #eb8e26; }
@@ -1642,11 +1635,7 @@ a:visited {
   padding-top: 60px;
   text-transform: uppercase;
   color: #285817; }
-<<<<<<< HEAD
-  @media all and (min-width: 800px) {
-=======
   @media all and (min-width: 600px) {
->>>>>>> eb9c8c550f8d7c7b741afdb376bd6ad99172fe9f
     .page-template-proposed-park .site-content .entry-title {
       padding-top: 90px;
       font-size: 54px; } }
@@ -1665,21 +1654,13 @@ a:visited {
     max-width: 75%;
     text-align: center;
     color: #285817; }
-<<<<<<< HEAD
-    @media all and (min-width: 800px) {
-=======
     @media all and (min-width: 600px) {
->>>>>>> eb9c8c550f8d7c7b741afdb376bd6ad99172fe9f
       .page-template-proposed-park .site-content .entry-content p {
         font-size: 18px; } }
 
 .page-template-proposed-park .site-content .proposed-banner {
   display: none; }
-<<<<<<< HEAD
-  @media all and (min-width: 800px) {
-=======
   @media all and (min-width: 600px) {
->>>>>>> eb9c8c550f8d7c7b741afdb376bd6ad99172fe9f
     .page-template-proposed-park .site-content .proposed-banner {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1687,7 +1668,7 @@ a:visited {
       -ms-flex-pack: distribute;
           justify-content: space-around;
       min-height: 180px;
-      background: #bf6d0a; }
+      background: #eb8e26; }
       .page-template-proposed-park .site-content .proposed-banner .banner-list {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1697,7 +1678,7 @@ a:visited {
             -ms-flex-direction: column;
                 flex-direction: column;
         text-align: center;
-        margin: 3% 0;
+        margin: 1% 0;
         padding: 0; }
         .page-template-proposed-park .site-content .proposed-banner .banner-list li {
           padding: 14px 0;
@@ -1707,23 +1688,13 @@ a:visited {
           min-width: -webkit-max-content;
           min-width: -moz-max-content;
           min-width: max-content; } }
-<<<<<<< HEAD
-      @media all and (min-width: 800px) and (min-width: 800px) {
-        .page-template-proposed-park .site-content .proposed-banner .banner-list li {
-          font-size: 18px; } }
-      @media all and (min-width: 800px) and (min-width: 1000px) {
-        .page-template-proposed-park .site-content .proposed-banner .banner-list li {
-          font-size: 25px; } }
-  @media all and (min-width: 800px) {
-=======
       @media all and (min-width: 600px) and (min-width: 600px) {
         .page-template-proposed-park .site-content .proposed-banner .banner-list li {
-          font-size: 18px; } }
+          font-size: 16px; } }
       @media all and (min-width: 600px) and (min-width: 1000px) {
         .page-template-proposed-park .site-content .proposed-banner .banner-list li {
-          font-size: 25px; } }
+          font-size: 20px; } }
   @media all and (min-width: 600px) {
->>>>>>> eb9c8c550f8d7c7b741afdb376bd6ad99172fe9f
         .page-template-proposed-park .site-content .proposed-banner .banner-list a {
           color: #fff;
           text-decoration: none;
@@ -1742,11 +1713,11 @@ a:visited {
               flex-direction: column; } }
 
 .page-template-proposed-park .site-content h2 {
-  color: #bf6d0a;
+  color: #eb8e26;
   font-family: "Miriam Libre", sans-serif;
   margin: 10px 0;
   line-height: 30px; }
-  @media all and (min-width: 800px) {
+  @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content h2 {
       padding-bottom: 20px;
       padding-top: 20px; } }
@@ -1756,11 +1727,7 @@ a:visited {
   overflow: hidden;
   font-family: "Source Sans Pro", sans-serif;
   padding-right: 10px; }
-<<<<<<< HEAD
-  @media all and (min-width: 800px) {
-=======
   @media all and (min-width: 600px) {
->>>>>>> eb9c8c550f8d7c7b741afdb376bd6ad99172fe9f
     .page-template-proposed-park .site-content .text {
       height: auto; }
       .page-template-proposed-park .site-content .text p {
@@ -1771,11 +1738,7 @@ a:visited {
 .page-template-proposed-park .site-content .prop-item {
   cursor: pointer;
   padding-left: 25px; }
-<<<<<<< HEAD
-  @media all and (min-width: 800px) {
-=======
   @media all and (min-width: 600px) {
->>>>>>> eb9c8c550f8d7c7b741afdb376bd6ad99172fe9f
     .page-template-proposed-park .site-content .prop-item {
       border-bottom: 1px solid #bf6d0a;
       margin-left: 5%;
@@ -1794,28 +1757,20 @@ a:visited {
   background-position: bottom center;
   height: 85vh;
   font-family: "Miriam Libre", sans-serif; }
-<<<<<<< HEAD
-  @media all and (min-width: 800px) {
-=======
   @media all and (min-width: 600px) {
->>>>>>> eb9c8c550f8d7c7b741afdb376bd6ad99172fe9f
     .page-template-proposed-park .site-content .proposed-hero {
-      background-image: url(../../sos_assets/proposed-park/proposed-hero.jpg); } }
+      background-image: url(../../sos_assets/proposed-park/horse.jpg); } }
 
 .page-template-proposed-park .site-content .down {
   display: none; }
 
-<<<<<<< HEAD
-@media all and (min-width: 800px) {
-=======
 @media all and (min-width: 600px) {
->>>>>>> eb9c8c550f8d7c7b741afdb376bd6ad99172fe9f
   .page-template-proposed-park .site-content .right {
     display: none; } }
 
 .page-template-proposed-park .site-content .see {
   display: inline; }
-  @media all and (min-width: 800px) {
+  @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .see {
       display: none; } }
 
@@ -1829,7 +1784,7 @@ a:visited {
   border-top: 1px solid #CC8005;
   border-left: 4px solid #CC8005;
   border-bottom: 1px solid #CC8005; }
-  @media all and (min-width: 800px) {
+  @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .border {
       border-left: none;
       border-top: none; } }
@@ -1872,12 +1827,7 @@ a:visited {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-<<<<<<< HEAD
     padding-bottom: 25px; }
-=======
-    padding-bottom: 25px;
-    border-bottom: 1px solid orange; }
->>>>>>> eb9c8c550f8d7c7b741afdb376bd6ad99172fe9f
     .page-template-proposed-park .site-content .two .content-container .text {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
@@ -2579,7 +2529,7 @@ a:visited {
     padding-top: 20px;
     color: #629749;
     text-transform: uppercase; }
-    @media all and (min-width: 800px) {
+    @media all and (min-width: 600px) {
       .blog .site-content .updates-hero h2 {
         font-size: 40px;
         padding-right: 200px; } }
@@ -2616,7 +2566,7 @@ a:visited {
       width: 100%;
       max-height: 75px;
       min-height: 50%; }
-      @media all and (min-width: 800px) {
+      @media all and (min-width: 600px) {
         .blog .site-content .stories-container .journal-container .button-container {
           min-height: 100px;
           max-height: 100px; } }
@@ -2632,7 +2582,7 @@ a:visited {
         max-width: 70%;
         font-size: 14px;
         padding-left: 10px; }
-        @media all and (min-width: 800px) {
+        @media all and (min-width: 600px) {
           .blog .site-content .stories-container .journal-container .button-container .post-title {
             padding-left: 20px;
             font-size: 15px;
@@ -2660,7 +2610,7 @@ a:visited {
         opacity: 0.8;
         font-family: "Miriam Libre", sans-serif;
         padding-top: 3px; }
-        @media all and (min-width: 800px) {
+        @media all and (min-width: 600px) {
           .blog .site-content .stories-container .journal-container .button-container .read-more {
             left: 450px;
             bottom: 30px;
@@ -2689,7 +2639,7 @@ a:visited {
         bottom: 45%;
         left: 70%;
         max-width: 90px; }
-        @media all and (min-width: 800px) {
+        @media all and (min-width: 600px) {
           .blog .site-content .stories-container .journal-container .button-container .posted-on {
             position: static; } }
         @media all and (min-width: 1000px) {
