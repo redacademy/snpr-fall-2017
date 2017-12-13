@@ -862,7 +862,8 @@ object {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    line-height: 18px; }
+    line-height: 18px;
+    margin-bottom: 20px; }
     .widget-area .custom-html-widget .contact-info-section {
       font-family: "Source Sans Pro", sans-serif;
       display: -webkit-box;
@@ -871,7 +872,9 @@ object {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      margin-left: 70px;
+      width: 100vw; }
       .widget-area .custom-html-widget .contact-info-section i {
         font-size: 20px;
         padding-top: 2px;

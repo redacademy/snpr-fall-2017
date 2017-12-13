@@ -47,7 +47,6 @@
       font-weight: 300;
       text-align: left;
       padding: 1.2vh 0;
-      // display: flex;
     }
     i{
       color: white;
@@ -78,11 +77,15 @@
     flex-direction: row;
     align-items: flex-start;
     line-height: 18px;
+    margin-bottom: 20px;
     .contact-info-section{
       font-family: $source;
       display: flex;
       align-items: center;
+      // justify-content: center;
       margin-bottom: 10px;
+      margin-left: 70px;
+      width: 100vw;
       i{
         font-size: 20px;
         padding-top: 2px;
