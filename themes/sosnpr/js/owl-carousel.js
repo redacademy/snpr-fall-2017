@@ -1,5 +1,5 @@
 (function ($) {
-  console.log('test');
+  
   $('.owl-carousel').owlCarousel({
     nav:true,
     dots:true,
