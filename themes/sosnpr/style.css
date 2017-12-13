@@ -1077,8 +1077,7 @@ a:visited {
       @media all and (min-width: 600px) {
         .page-template-about-us .about-us-content-wrapper li {
           padding: 20px 0;
-          margin: 30px;
-          border-bottom: 1px #eb8e26 solid; }
+          margin: 30px; }
           .page-template-about-us .about-us-content-wrapper li:last-child {
             margin-bottom: 0;
             border: none; } }
@@ -1146,6 +1145,55 @@ a:visited {
       -webkit-box-ordinal-group: 0;
           -ms-flex-order: -1;
               order: -1; }
+  .page-template-about-us .divider {
+    display: none; }
+    @media all and (min-width: 600px) {
+      .page-template-about-us .divider {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .page-template-about-us .divider .scroll-up {
+          position: relative;
+          background: #555454;
+          border-radius: 30px;
+          padding: 5px 10px;
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 100;
+          color: white;
+          z-index: 200; }
+        .page-template-about-us .divider .scroll-up-from-bottom {
+          position: relative;
+          background: #555454;
+          border-radius: 30px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          padding: 5px 10px;
+          width: 60px;
+          height: 50px;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 100;
+          color: white;
+          z-index: 200; }
+          .page-template-about-us .divider .scroll-up-from-bottom a, .page-template-about-us .divider .scroll-up-from-bottom .fa {
+            color: white;
+            text-decoration: none;
+            font-size: 3rem; }
+        .page-template-about-us .divider .divider-line {
+          position: absolute;
+          border-bottom: #eb8e26 solid 2px;
+          width: 96vw;
+          margin-top: 20px;
+          z-index: 0; }
+        .page-template-about-us .divider a, .page-template-about-us .divider .fa {
+          color: white;
+          text-decoration: none; } }
 
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
@@ -1180,7 +1228,7 @@ a:visited {
 
 .page-template-resources .resources-nav {
   display: none; }
-  @media all and (min-width: 600px) {
+  @media all and (min-width: 750px) {
     .page-template-resources .resources-nav {
       width: 100vw;
       height: 15rem;
@@ -1273,7 +1321,8 @@ a:visited {
 .page-template-resources .post-17 .entry-content {
   color: #285817;
   font-family: "Source Sans Pro", sans-serif;
-  padding-bottom: 15rem; }
+  padding-bottom: 15rem;
+  text-align: center; }
   @media all and (min-width: 600px) {
     .page-template-resources .post-17 .entry-content {
       font-size: 1.5rem;
@@ -1295,8 +1344,7 @@ a:visited {
   height: 20vw; }
   @media all and (min-width: 600px) {
     .page-template-resources .borders {
-      border: none;
-      margin-top: none; } }
+      display: none; } }
 
 .page-template-resources .fa-angle-right {
   padding-right: 6.5px; }
@@ -1336,6 +1384,24 @@ a:visited {
         font-weight: 100;
         color: white;
         z-index: 200; }
+      .page-template-resources .divider .scroll-up-from-bottom {
+        position: relative;
+        background: #555454;
+        border-radius: 30px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding: 5px 10px;
+        width: 60px;
+        height: 50px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        z-index: 200; }
+        .page-template-resources .divider .scroll-up-from-bottom a, .page-template-resources .divider .scroll-up-from-bottom .fa {
+          color: white;
+          text-decoration: none;
+          font-size: 3rem; }
       .page-template-resources .divider .divider-line {
         position: absolute;
         border-bottom: #eb8e26 solid 2px;
@@ -1976,7 +2042,7 @@ a:visited {
 
 .page-template-resources .resources-nav {
   display: none; }
-  @media all and (min-width: 600px) {
+  @media all and (min-width: 750px) {
     .page-template-resources .resources-nav {
       width: 100vw;
       height: 15rem;
@@ -2069,7 +2135,8 @@ a:visited {
 .page-template-resources .post-17 .entry-content {
   color: #285817;
   font-family: "Source Sans Pro", sans-serif;
-  padding-bottom: 15rem; }
+  padding-bottom: 15rem;
+  text-align: center; }
   @media all and (min-width: 600px) {
     .page-template-resources .post-17 .entry-content {
       font-size: 1.5rem;
@@ -2091,8 +2158,7 @@ a:visited {
   height: 20vw; }
   @media all and (min-width: 600px) {
     .page-template-resources .borders {
-      border: none;
-      margin-top: none; } }
+      display: none; } }
 
 .page-template-resources .fa-angle-right {
   padding-right: 6.5px; }
@@ -2132,6 +2198,24 @@ a:visited {
         font-weight: 100;
         color: white;
         z-index: 200; }
+      .page-template-resources .divider .scroll-up-from-bottom {
+        position: relative;
+        background: #555454;
+        border-radius: 30px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding: 5px 10px;
+        width: 60px;
+        height: 50px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        z-index: 200; }
+        .page-template-resources .divider .scroll-up-from-bottom a, .page-template-resources .divider .scroll-up-from-bottom .fa {
+          color: white;
+          text-decoration: none;
+          font-size: 3rem; }
       .page-template-resources .divider .divider-line {
         position: absolute;
         border-bottom: #eb8e26 solid 2px;

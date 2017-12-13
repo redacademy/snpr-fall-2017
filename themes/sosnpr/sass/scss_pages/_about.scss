@@ -98,7 +98,6 @@
       @include tablet{
         padding: 20px 0;
         margin: 30px;
-        border-bottom: 1px $main-orange solid;
         &:last-child{
           margin-bottom: 0;
           border: none;
@@ -195,4 +194,8 @@
       }
     }
   }
+
+  @include scroll-to-top-buttons-divider{
+  }
+
 }
