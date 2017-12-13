@@ -769,8 +769,14 @@ object {
     font-family: "Source Sans Pro", sans-serif;
     text-align: center; }
 
+<<<<<<< HEAD
+#secondary,
+.widget_area {
+  height: 540px;
+=======
 .widget-area {
   height: auto;
+>>>>>>> f081127464f6533794f3c8f1af8db0b62b64f7e4
   width: 100vw;
   padding-top: 1rem;
   background-color: #eb8e26; }
@@ -1266,6 +1272,16 @@ a:visited {
     .page-template-resources .hide {
       display: block; } }
 
+.page-template-resources .borders {
+  border: #eb8e26 solid 1px;
+  border-left: #eb8e26 solid 3px;
+  margin-top: 20px;
+  height: 20vw; }
+  @media all and (min-width: 800px) {
+    .page-template-resources .borders {
+      border: none;
+      margin-top: none; } }
+
 .page-template-resources .fa-angle-right {
   padding-right: 6.5px; }
   @media all and (min-width: 600px) {
@@ -1353,9 +1369,13 @@ a:visited {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start; }
+<<<<<<< HEAD
+  @media all and (min-width: 800px) {
+=======
   .page-template-resources .resources-ul .lc-groups-container h2 {
     width: 100vw; }
   @media all and (min-width: 600px) {
+>>>>>>> f081127464f6533794f3c8f1af8db0b62b64f7e4
     .page-template-resources .resources-ul .lc-groups-container .lc-groups {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1515,7 +1535,11 @@ a:visited {
   padding-top: 60px;
   text-transform: uppercase;
   color: #285817; }
+<<<<<<< HEAD
+  @media all and (min-width: 800px) {
+=======
   @media all and (min-width: 600px) {
+>>>>>>> f081127464f6533794f3c8f1af8db0b62b64f7e4
     .page-template-proposed-park .site-content .entry-title {
       padding-top: 90px;
       font-size: 54px; } }
@@ -1534,13 +1558,21 @@ a:visited {
     max-width: 75%;
     text-align: center;
     color: #285817; }
+<<<<<<< HEAD
+    @media all and (min-width: 800px) {
+=======
     @media all and (min-width: 600px) {
+>>>>>>> f081127464f6533794f3c8f1af8db0b62b64f7e4
       .page-template-proposed-park .site-content .entry-content p {
         font-size: 18px; } }
 
 .page-template-proposed-park .site-content .proposed-banner {
   display: none; }
+<<<<<<< HEAD
+  @media all and (min-width: 800px) {
+=======
   @media all and (min-width: 600px) {
+>>>>>>> f081127464f6533794f3c8f1af8db0b62b64f7e4
     .page-template-proposed-park .site-content .proposed-banner {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1568,6 +1600,15 @@ a:visited {
           min-width: -webkit-max-content;
           min-width: -moz-max-content;
           min-width: max-content; } }
+<<<<<<< HEAD
+      @media all and (min-width: 800px) and (min-width: 800px) {
+        .page-template-proposed-park .site-content .proposed-banner .banner-list li {
+          font-size: 18px; } }
+      @media all and (min-width: 800px) and (min-width: 1000px) {
+        .page-template-proposed-park .site-content .proposed-banner .banner-list li {
+          font-size: 25px; } }
+  @media all and (min-width: 800px) {
+=======
       @media all and (min-width: 600px) and (min-width: 600px) {
         .page-template-proposed-park .site-content .proposed-banner .banner-list li {
           font-size: 18px; } }
@@ -1575,6 +1616,7 @@ a:visited {
         .page-template-proposed-park .site-content .proposed-banner .banner-list li {
           font-size: 25px; } }
   @media all and (min-width: 600px) {
+>>>>>>> f081127464f6533794f3c8f1af8db0b62b64f7e4
         .page-template-proposed-park .site-content .proposed-banner .banner-list a {
           color: #fff;
           text-decoration: none;
@@ -1607,7 +1649,11 @@ a:visited {
   overflow: hidden;
   font-family: "Source Sans Pro", sans-serif;
   padding-right: 10px; }
+<<<<<<< HEAD
+  @media all and (min-width: 800px) {
+=======
   @media all and (min-width: 600px) {
+>>>>>>> f081127464f6533794f3c8f1af8db0b62b64f7e4
     .page-template-proposed-park .site-content .text {
       height: auto; }
       .page-template-proposed-park .site-content .text p {
@@ -1618,7 +1664,11 @@ a:visited {
 .page-template-proposed-park .site-content .prop-item {
   cursor: pointer;
   padding-left: 25px; }
+<<<<<<< HEAD
+  @media all and (min-width: 800px) {
+=======
   @media all and (min-width: 600px) {
+>>>>>>> f081127464f6533794f3c8f1af8db0b62b64f7e4
     .page-template-proposed-park .site-content .prop-item {
       border-bottom: 1px solid #bf6d0a;
       margin-left: 5%;
@@ -1637,20 +1687,28 @@ a:visited {
   background-position: bottom center;
   height: 85vh;
   font-family: "Miriam Libre", sans-serif; }
+<<<<<<< HEAD
+  @media all and (min-width: 800px) {
+=======
   @media all and (min-width: 600px) {
+>>>>>>> f081127464f6533794f3c8f1af8db0b62b64f7e4
     .page-template-proposed-park .site-content .proposed-hero {
       background-image: url(../../sos_assets/proposed-park/proposed-hero.jpg); } }
 
 .page-template-proposed-park .site-content .down {
   display: none; }
 
+<<<<<<< HEAD
+@media all and (min-width: 800px) {
+=======
 @media all and (min-width: 600px) {
+>>>>>>> f081127464f6533794f3c8f1af8db0b62b64f7e4
   .page-template-proposed-park .site-content .right {
     display: none; } }
 
 .page-template-proposed-park .site-content .see {
   display: inline; }
-  @media all and (min-width: 600px) {
+  @media all and (min-width: 800px) {
     .page-template-proposed-park .site-content .see {
       display: none; } }
 
@@ -1664,7 +1722,7 @@ a:visited {
   border-top: 1px solid #CC8005;
   border-left: 4px solid #CC8005;
   border-bottom: 1px solid #CC8005; }
-  @media all and (min-width: 600px) {
+  @media all and (min-width: 800px) {
     .page-template-proposed-park .site-content .border {
       border-left: none;
       border-top: none; } }
@@ -2054,6 +2112,16 @@ a:visited {
     .page-template-resources .hide {
       display: block; } }
 
+.page-template-resources .borders {
+  border: #eb8e26 solid 1px;
+  border-left: #eb8e26 solid 3px;
+  margin-top: 20px;
+  height: 20vw; }
+  @media all and (min-width: 800px) {
+    .page-template-resources .borders {
+      border: none;
+      margin-top: none; } }
+
 .page-template-resources .fa-angle-right {
   padding-right: 6.5px; }
   @media all and (min-width: 600px) {
@@ -2141,9 +2209,13 @@ a:visited {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start; }
+<<<<<<< HEAD
+  @media all and (min-width: 800px) {
+=======
   .page-template-resources .resources-ul .lc-groups-container h2 {
     width: 100vw; }
   @media all and (min-width: 600px) {
+>>>>>>> f081127464f6533794f3c8f1af8db0b62b64f7e4
     .page-template-resources .resources-ul .lc-groups-container .lc-groups {
       display: -webkit-box;
       display: -ms-flexbox;
