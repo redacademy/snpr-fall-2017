@@ -39,7 +39,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 <!--End mc_embed_signup-->
 
      
-     <div class="feedback hide">
+     <div class="feedback no-see">
 			 
 			 
 			 <?php echo do_shortcode('[contact-form-7 id="100" title="Contact form 1"]'); ?>

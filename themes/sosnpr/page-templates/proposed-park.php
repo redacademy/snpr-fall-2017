@@ -41,7 +41,7 @@ get_header();
 
       <section class="proposed-container">
 
-        <div class="menu-item one" id="land">
+        <div class="prop-item one" id="land">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'the_land' )['label'];?></h2>
 
          <div class="content-container">
@@ -50,7 +50,7 @@ get_header();
         </div>
        </div> <!-- close one -->
 
-       <div class="menu-item two" id="location">
+       <div class="prop-item two" id="location">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'location_of_the_park' )['label'];?></h2>
 
         <div class="content-container">
@@ -60,7 +60,7 @@ get_header();
 
         </div> <!-- close two -->
 
-       <div class="menu-item three" id="land-use">
+       <div class="prop-item three" id="land-use">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'land_use_regulations' )['label'];?></h2>
 
         <div class="content-container">
@@ -88,7 +88,7 @@ get_header();
 
        </div> <!-- close three -->
 
-       <div class="menu-item four" id="why">
+       <div class="prop-item four" id="why">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'why_a_national_park' )['label'];?></h2>
 
          <div class="content-container">
@@ -98,7 +98,7 @@ get_header();
        </div> <!-- closes four-->
 
 
-       <div class="menu-item five" id="ranch">
+       <div class="prop-item five" id="ranch">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'ranching_agriculture' )['label'];?></h2>
 
 
@@ -109,7 +109,7 @@ get_header();
 
        </div> <!-- closes five -->
 
-       <div class="menu-item six" id="human">
+       <div class="prop-item six" id="human">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'human_impact' )['label'];?></h2>
 
          <div class="content-container">
@@ -118,7 +118,7 @@ get_header();
         </div>
        </div> <!-- closes six -->
 
-       <div class="menu-item seven" id="ecological">
+       <div class="prop-item seven" id="ecological">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'ecological_benefits' )['label'];?></h2>
 
 
@@ -129,17 +129,22 @@ get_header();
 
        </div> <!-- closes seven -->
 
-       <div class="menu-item eight" id="economic">
+       <div class="prop-item eight" id="economic">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'economic_benefits' )['label'];?></h2>
 
          <div class="content-container">
           <div class="text"><?php echo CFS()->get('economic_benefits');?></div>
-          <div class="image"> <p>Placeholder for a pdf</p></div>
+          <div class="image"> 
+            <div class="pdf-container"></div>
+              <p>Download Full Report </p>
+            
+            
         </div>
+       </div>
 
        </div> <!-- closes eight -->
 
-       <div class="menu-item nine" id="faq">
+       <div class="prop-item nine" id="faq">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'faq' )['label'];?></h2>
 
          <div class="content-container-one">

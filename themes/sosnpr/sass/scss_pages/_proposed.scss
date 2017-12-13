@@ -1,4 +1,6 @@
 .page-template-proposed-park {
+
+  .site-content {
   
   .entry-title {
     @include mobile-title;
@@ -125,7 +127,7 @@
   
   
   
-  .menu-item {
+  .prop-item {
     cursor: pointer;
     padding-left: 25px;
     
@@ -158,7 +160,7 @@
     font-family:$miriam;
     
     @include tablet {
-      // background-image: url(../../sos_assets/proposed-park/proposed-hero.jpg) ;
+      background-image: url(../../sos_assets/proposed-park/proposed-hero.jpg) ;
     }
     
   }
@@ -166,6 +168,7 @@
   //down arrow
   .down {
     display: none;
+   
   }
   //
   
@@ -178,6 +181,9 @@
   
   .see {
     display: inline;
+    @include tablet {
+      display: none;
+    }
   }
   
   .hide {
@@ -192,6 +198,11 @@
     border-top: 1px solid $border-orange;
     border-left: 4px solid $border-orange;
     border-bottom: 1px solid $border-orange;
+
+    @include tablet {
+      border-left: none;
+      border-top: none;
+    }
     
     
   }
@@ -413,7 +424,17 @@
         
         .image {
           flex-basis: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          min-height: 150px;
+          display: flex;
+          background-image: url(../../sos_assets/pdf.svg) ;
+          background-repeat: no-repeat;
+          background-size: 50%;
+          background-position: 0 50%;
           
+
         }
         .text {
           flex-basis: 50%;
@@ -475,5 +496,5 @@
     }
   }
   
-  
+}
 }

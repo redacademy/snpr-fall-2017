@@ -27,20 +27,8 @@
 
 
 
-
-  //  $('.menu-item').on('click', function(){
-  //    $(this).children().toggleClass('show');
-  //    $(this).toggleClass('border');
-     
-  //    $(this).find('.down').toggleClass('see');
-  //    $(this).find('.right').toggleClass('hide');
-     
-     
-  //  })
-
-
   // displaying on click for proposed parks
-   $('.menu-item').on('click', function(){
+   $('.prop-item').on('click', function(){
     $(this).find('.text').toggleClass('show');
     $(this).toggleClass('border');
     
@@ -48,14 +36,7 @@
     $(this).find('.right').toggleClass('hide');
   })
 
-//  //smooth scroll
-//   $(document).on('click', 'a[href^="#"]', function (event) {
-//     event.preventDefault();
 
-//     $('html, body').animate({
-//         scrollTop: $($.attr(this, 'href')).offset().top
-//     }, 2000);
-//   });
 
 
 //feedback form appear on click and remove if anywhere else is clicked
@@ -64,7 +45,7 @@ var remove;
 
 $(".feedback-button").click(function () {
  
-  $(".feedback").toggleClass('show');
+  $(".feedback").toggleClass('see');
   $('.wpcf7-form').trigger('reset');
   $('input').show();
   $('textarea').show();
@@ -86,7 +67,7 @@ $(".feedback").click(function() {
 
 $("html").click(function () {
     if (remove) {
-        $(".feedback").removeClass('show');
+        $(".feedback").removeClass('see');
         
     }
     remove = true;
