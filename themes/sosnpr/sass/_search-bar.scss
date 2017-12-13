@@ -1,18 +1,18 @@
 
 
-
+.main-navigation{
 .search-field{
   width:0px;
   margin-left:20px;
   color:black;
   background:grey;
-  float:right;
+  
 }
 .search-form{
   display:flex;
   align-items:center;
 }
-.main-navigation{
+
 
 
 
@@ -22,7 +22,7 @@ input[type=search]{
   background-color:white;
   border:none;
   font-family:$miriam;
-  position: relative; top: 8px;right: 20px;
+  position: relative; top: 0px;right: 20px;
   
   width:0px;
   padding:0;
@@ -30,9 +30,14 @@ input[type=search]{
   line-height:2;
   
 }
+
+
 fieldset{
   border:none;
 }
+
+
+
 
 .search-submit{
   border:none;
@@ -47,7 +52,7 @@ fieldset{
 }
 
 
-}
+
 
 
 .search-open,
@@ -78,3 +83,9 @@ fieldset{
   display:none;
 }
 
+@media screen and (min-width: 600px) {
+  input[type=search]{
+    margin-top:8px;
+  }
+}
+}

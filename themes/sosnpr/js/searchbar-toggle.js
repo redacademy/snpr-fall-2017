@@ -7,14 +7,14 @@
         {width:200},"slow").focus();
       $('.search-submit').toggleClass("search-bar-open");
       $('.menu-toggle').toggleClass("search-bar-open");
-      $('.search-closing-icon').addClass("display-block");
+      
   
     });
   
     $('.search-field').on('blur', function(){
       $('.search-field').stop().animate(
         {width:0}, 500);
-        $('.search-closing-icon').removeClass("display-block");
+        
 
         function showIcons(){
           $('.search-submit').toggleClass("search-bar-open");
