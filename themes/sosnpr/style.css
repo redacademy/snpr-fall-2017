@@ -2456,7 +2456,7 @@ a:visited {
   margin-left: 20px;
   color: black;
   background: grey;
-  display: none; }
+  float: right; }
 
 .search-form {
   display: -webkit-box;
@@ -2471,11 +2471,11 @@ a:visited {
   border: none;
   font-family: "Miriam Libre", sans-serif;
   position: relative;
-  top: 0px;
+  top: 8px;
   right: 20px;
-  width: -10px;
+  width: 0px;
   padding: 0;
-  margin: 0;
+  margin-left: 20px;
   line-height: 2; }
 
 .main-navigation fieldset {
@@ -2504,7 +2504,9 @@ a:visited {
   font-size: 28px; }
 
 .display-block {
-  display: block; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 .search-closing-icon {
   position: absolute;
