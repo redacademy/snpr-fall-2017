@@ -5,7 +5,7 @@
   min-height:50px;
   align-content:center;
   align-items:center;
-  width:92%;
+  width:100%;
   position:fixed;
   top:0px;
   z-index:1000;
@@ -124,7 +124,7 @@
                               
                               font-family:$miriam;
                               a{
-                                color:$border-orange;
+                                color:$main-orange;
                                 font-family:$miriam;
                                 font-size:14px;
                               }
@@ -138,7 +138,7 @@
                       padding-left:5px;
                       padding-right:5px;
                     }
-                    background:$main_orange;
+                    background:$main-orange;
                   }
                             }
     
@@ -182,7 +182,7 @@
           
           font-family:$miriam;
           a{
-            color:$border-orange;
+            color:$main-orange;
             font-family:$miriam;
             font-size:20px;
           }
@@ -191,7 +191,7 @@
           a{
             color:white;
           }
-          background:$main_orange;
+          background:$main-orange;
         }
       }
       

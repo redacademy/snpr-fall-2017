@@ -1,500 +1,397 @@
 .page-template-proposed-park {
-
   .site-content {
-  
-  .entry-title {
-    @include mobile-title;
-    text-align: center;
-    padding-top: 60px;
-    text-transform: uppercase;
-    color: $forest;
-    
-    @include tablet {
-      padding-top: 90px;
-      font-size: 54px;
-      
-    }
-  }
-  
-  .entry-content {
-    display: flex;
-    justify-content: center;
-    
-    p {
-      @include mobile-description;
-      max-width: 75%;
+    .entry-title {
+      @include mobile-title;
       text-align: center;
+      padding-top: 60px;
+      text-transform: uppercase;
       color: $forest;
-      
       @include tablet {
-        font-size: 18px;
+        padding-top: 90px;
+        font-size: 54px;
       }
-      
-      
     }
-  }
-  
-  //banner 
-  
-  .proposed-banner {
-    display: none;
-    
-    @include tablet {
+    .entry-content {
       display: flex;
-      justify-content: space-around;
-      
-      min-height: 180px;
-      background: $brown-orange;
-      
-      .banner-list {
-        
-        display: flex;
-        flex-direction: column;
-        // margin: 2% 5%;
-        text-align: center;
-        margin: 3% 0;
-        padding: 0;
-        
-        
-        li {
-          
-          @include tablet {
-            font-size: 18px;
-          }
-          
-          padding: 14px 0;
-          list-style: none;
-          text-transform: uppercase;
-          font-family: $miriam;
-          min-width: max-content;
-          
-          @include desktop {
-            font-size: 25px;
-          }
-        }
-        a {
-          color: #fff;
-          text-decoration: none;
-          text-transform: uppercase;
-        }
-      }
-    }
-  }
-  
-  
-  
-  //fields container
-  .proposed-container {
-    .image {
-      display: none;
-      
-      @include desktop {
-        display: flex;
-        flex-direction: column;
-      }
-    }
-  }
-  
-  h2 {
-    
-    color: $brown-orange;
-    font-family: $miriam;
-    margin: 10px 0;
-    line-height: 30px;
-    
-    @include desktop {
-      padding-bottom: 20px;
-      padding-top: 20px;
-    }
-  }
-  
-  .text {
-    height: 0;
-    overflow: hidden;
-    font-family: $source;
-    padding-right: 10px;
-    
-    @include tablet {
-      height: auto;
-      
+      justify-content: center;
       p {
-        font-size: 14px;
-        margin-bottom: 8px;
-        margin-top: 0;
+        @include mobile-description;
+        max-width: 75%;
+        text-align: center;
+        color: $forest;
+        @include tablet {
+          font-size: 18px;
+        }
       }
-    }
-  }
-  
-  
-  
-  .prop-item {
-    cursor: pointer;
-    padding-left: 25px;
-    
-    
-    
-    @include tablet {
-      border-bottom: 1px solid $brown-orange;
-      margin-left: 5%;
-      margin-right: 5%;
-      padding-bottom: 50px;
-      padding-left: 0;
-      cursor: unset;
-    }
-    
-    
-  }
-  
-  .show {
-    height: auto;
-    
-    
-  }
-  
-  .proposed-hero {
-    background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    height:85vh;
-    font-family:$miriam;
-    
-    @include tablet {
-      background-image: url(../../sos_assets/proposed-park/proposed-hero.jpg) ;
-    }
-    
-  }
-  
-  //down arrow
-  .down {
-    display: none;
-   
-  }
-  //
-  
-  //right arrow
-  .right {
-    @include tablet{
+    } //banner 
+    .proposed-banner {
       display: none;
-    }
-  }
-  
-  .see {
-    display: inline;
-    @include tablet {
-      display: none;
-    }
-  }
-  
-  .hide {
-    display: none;
-  }
-  
-  i {
-    padding-right: 10px;
-  }
-  
-  .border {
-    border-top: 1px solid $border-orange;
-    border-left: 4px solid $border-orange;
-    border-bottom: 1px solid $border-orange;
-
-    @include tablet {
-      border-left: none;
-      border-top: none;
-    }
-    
-    
-  }
-  
-  .image {
-    img {
-      max-width: min-content;
-    }
-  }
-  
-  //land
-  .one {
-    @include desktop {
-      
-      h2 {
-        padding-bottom: 20px;
-        
-      }
-      display: flex;
-      flex-direction: column;
-      .content-container {
+      @include tablet {
         display: flex;
-        
-        .text {
-          flex-basis: 50%;
-        }
-        .image {
-          flex-basis: 50%;
-          
-          
-          img {
-            min-height: 330px;
-            
-            align-self: flex-end;
-            // padding-left: 549px - 480px;
+        justify-content: space-around;
+        min-height: 180px;
+        background: $main-orange;
+        .banner-list {
+          display: flex;
+          flex-direction: column; // margin: 2% 5%;
+          text-align: center;
+          margin: 1% 0;
+          padding: 0;
+          li {
+            @include tablet {
+              font-size: $font-size-heading3;
+            }
+            padding: 14px 0;
+            list-style: none;
+            text-transform: uppercase;
+            font-family: $miriam;
+            min-width: max-content;
+            @include desktop {
+              font-size: $font_size-heading2;
+            }
+          }
+          a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
           }
         }
       }
-    }
-  }
-  
-  //location
-  
-  .two {
-    
-    
-    @include desktop{
-      h2 {
-        padding-bottom: 20px;
-      }
-      .content-container {
-        display: flex;
-        padding-bottom: 25px;
-        border-bottom: 1px solid orange;
-        
-        .text {
-          flex-basis: 50%;
-        }
-        .image {
-          flex-basis: 50%;
-          padding-right: 5%;
-        }
-      }
-    }
-    
-  }
-  
-  //regulations
-  
-  .three {
-    
-    @include desktop {
-      
-      h2 {
-        padding-bottom: 20px;
-      }
-      
-      .content-container {
-        display: flex;
-        flex-wrap: wrap;
-        padding-bottom: 30px;
-        
-        .content-container-one {
-          flex-basis: 42%;
-          @media all and (min-width: 1100px){
-            flex-basis: 45%;
-          }
-          @media all and (min-width: 1200px){
-            flex-basis: 50%;
-          }
-          .text:nth-child(2){
-            text-align: right;
-            font-weight: bold;
-            
-          }
-          padding-bottom: 25px;
-          
-        }
-        .content-container-two {
-          flex-basis: 42%;
-          @media all and (min-width: 1100px){
-            flex-basis: 45%;
-          }
-          @media all and (min-width: 1200px){
-            flex-basis: 50%;
-          }
-          padding-left: 5%;
-        }
-        .content-container-three {
-          flex-basis: 42%;
-          @media all and (min-width: 1100px){
-            flex-basis: 45%;
-          }
-          @media all and (min-width: 1200px){
-            flex-basis: 50%;
-          }
-          
-        }
-        .content-container-four {
-          flex-basis: 42%;
-          @media all and (min-width: 1100px){
-            flex-basis: 45%;
-          }
-          @media all and (min-width: 1200px){
-            flex-basis: 50%;
-          }
-          padding-left: 5%;
-        }
-        
-      }
-    }
-  }
-  
-  //why a national park
-  
-  .four {
-    @include desktop {
-      .content-container {
-        display: flex;
-        
-        .text {
-          flex-basis: 50%;
-        }
-        .image {
-          flex-basis: 50%;
-          
-          img {
-            align-self: flex-end;
-          }
-        }
-      }
-    }
-  }
-  
-  //ranch 
-  
-  .five {
-    @include desktop {
-      .content-container{
-        display: flex;
-        
-        .image {
-          flex-basis: 50%;
-          
-        }
-        .text {
-          flex-basis: 50%;
-          padding-left: 2%;
-        }
-      }
-    }
-  }
-  
-  //human 
-  
-  .six {
-    @include desktop {
-      
-      .content-container {
-        display: flex;
-        
-        .image {
-          flex-basis: 50%;
-          img {
-            align-self: flex-end;
-          }
-        }
-        .text {
-          flex-basis: 50%;
-        }
-        
-      }
-    }
-  }
-  
-  //ecological 
-  
-  .seven {
-    @include desktop {
-      .content-container {
-        display: flex;
-        .image {
-          flex-basis: 50%;
-          
-        }
-        .text {
-          flex-basis: 50%;
-          padding-left: 2%;
-        }
-      }
-    }
-  }
-  
-  .eight {
-    @include desktop {
-      
-      .content-container {
-        display: flex;
-        
-        .image {
-          flex-basis: 50%;
+    } //fields container
+    .proposed-container {
+      .image {
+        display: none;
+        @include desktop {
           display: flex;
           flex-direction: column;
-          justify-content: flex-end;
-          min-height: 150px;
-          display: flex;
-          background-image: url(../../sos_assets/pdf.svg) ;
-          background-repeat: no-repeat;
-          background-size: 50%;
-          background-position: 0 50%;
-          
-
-        }
-        .text {
-          flex-basis: 50%;
         }
       }
     }
-  }
-  
-  //faq
-  .nine {
-    @include desktop {
-      
-      p {
-        margin: 0;
-      }
-      .content-container-one {
-        display: flex;
-        padding-bottom: 15px;
-        .image {
-          flex-basis: 50%;
-          img {
-            align-self: flex-end;
-          }
-          
-        }
-        .text {
-          flex-basis: 50%;
-          
-        }
-      }
-      .content-container-two {
-        display: flex;
+    h2 {
+      color: $main-orange;
+      font-family: $miriam;
+      margin: 10px 0;
+      line-height: 30px;
+      @include tablet {
         padding-bottom: 20px;
-        .image {
-          flex-basis: 50%;
-          
-        }
-        .text {
-          flex-basis: 50%;
-          padding-left: 2%;
-        }
-        
+        padding-top: 20px;
       }
-      .content-container-three {
-        display: flex;
-        .image {
-          flex-basis: 50%;
-          img {
-            align-self: flex-end;
-            height: 100%;
-            width: 100%;
-          }
-          
+    }
+    .text {
+      height: 0;
+      overflow: hidden;
+      font-family: $source;
+      padding-right: 10px;
+      @include tablet {
+        height: auto;
+        p {
+          font-size: 14px;
+          margin-bottom: 8px;
+          margin-top: 0;
         }
-        .text {
-          flex-basis: 50%;
+      }
+    }
+    .prop-item {
+      cursor: pointer;
+      padding-left: 25px;
+      @include tablet {
+        border-bottom: 1px solid $brown-orange;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 50px;
+        padding-left: 0;
+        cursor: unset;
+      }
+    }
+    .show {
+      height: auto;
+    }
+    .proposed-hero {
+      background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      height: 85vh;
+      font-family: $miriam;
+      @include tablet {
+        background-image: url(../../sos_assets/proposed-park/horse.jpg);
+      }
+    } //down arrow
+    .down {
+      display: none;
+    } //
+    //right arrow
+    .right {
+      @include tablet {
+        display: none;
+      }
+    }
+    .see {
+      display: inline;
+      @include tablet {
+        display: none;
+      }
+    }
+    .hide {
+      display: none;
+    }
+    i {
+      padding-right: 10px;
+    }
+    .border {
+      border-top: 1px solid $border-orange;
+      border-left: 4px solid $border-orange;
+      border-bottom: 1px solid $border-orange;
+      @include tablet {
+        border-left: none;
+        border-top: none;
+      }
+    }
+    .image {
+      img {
+        max-width: min-content;
+      }
+    } //land
+    .one {
+      @include desktop {
+        h2 {
+          padding-bottom: 20px;
+        }
+        display: flex;
+        flex-direction: column;
+        .content-container {
+          display: flex;
+          .text {
+            flex-basis: 50%;
+          }
+          .image {
+            flex-basis: 50%;
+            img {
+              min-height: 330px;
+              align-self: flex-end; // padding-left: 549px - 480px;
+            }
+          }
+        }
+      }
+    } //location
+    .two {
+      @include desktop {
+        h2 {
+          padding-bottom: 20px;
+        }
+        .content-container {
+          display: flex;
+          padding-bottom: 25px;
+          .text {
+            flex-basis: 50%;
+          }
+          .image {
+            flex-basis: 50%;
+            padding-right: 5%;
+          }
+        }
+      }
+    } //regulations
+    .three {
+      @include desktop {
+        h2 {
+          padding-bottom: 20px;
+        }
+        .content-container {
+          display: flex;
+          flex-wrap: wrap;
+          padding-bottom: 30px;
+          .content-container-one {
+            flex-basis: 42%;
+            @media all and (min-width: 1100px) {
+              flex-basis: 45%;
+            }
+            @media all and (min-width: 1200px) {
+              flex-basis: 50%;
+            }
+            .text:nth-child(2) {
+              text-align: right;
+              font-weight: bold;
+            }
+            padding-bottom: 25px;
+          }
+          .content-container-two {
+            flex-basis: 42%;
+            @media all and (min-width: 1100px) {
+              flex-basis: 45%;
+            }
+            @media all and (min-width: 1200px) {
+              flex-basis: 50%;
+            }
+            padding-left: 5%;
+          }
+          .content-container-three {
+            flex-basis: 42%;
+            @media all and (min-width: 1100px) {
+              flex-basis: 45%;
+            }
+            @media all and (min-width: 1200px) {
+              flex-basis: 50%;
+            }
+          }
+          .content-container-four {
+            flex-basis: 42%;
+            @media all and (min-width: 1100px) {
+              flex-basis: 45%;
+            }
+            @media all and (min-width: 1200px) {
+              flex-basis: 50%;
+            }
+            padding-left: 5%;
+          }
+        }
+      }
+    } //why a national park
+    .four {
+      @include desktop {
+        .content-container {
+          display: flex;
+          .text {
+            flex-basis: 50%;
+          }
+          .image {
+            flex-basis: 50%;
+            img {
+              align-self: flex-end;
+            }
+          }
+        }
+      }
+    } //ranch 
+    .five {
+      @include desktop {
+        .content-container {
+          display: flex;
+          .image {
+            flex-basis: 50%;
+          }
+          .text {
+            flex-basis: 50%;
+            padding-left: 2%;
+          }
+        }
+      }
+    } //human 
+    .six {
+      @include desktop {
+        .content-container {
+          display: flex;
+          .image {
+            flex-basis: 50%;
+            img {
+              align-self: flex-end;
+            }
+          }
+          .text {
+            flex-basis: 50%;
+          }
+        }
+      }
+    } //ecological 
+    .seven {
+      @include desktop {
+        .content-container {
+          display: flex;
+          .image {
+            flex-basis: 50%;
+          }
+          .text {
+            flex-basis: 50%;
+            padding-left: 2%;
+          }
+        }
+      }
+    } //economic
+    .eight {
+      @include desktop {
+        padding-bottom: 20px;
+        h2 {
+          margin: 0;
+          padding: 30px 0 0 0;
+        }
+        .content-container {
+          display: flex;
+          .image {
+            flex-basis: 50%;
+            position: relative;
+            display: flex;
+            flex-direction: column; // justify-content: flex-end;
+            // min-height: 220px;
+            a {
+              color: #2E84E6;
+              font-family: $source;
+            }
+            .pdf-container {
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-end;
+              align-items: center;
+              min-height: 200px;
+              background-image: url(../../sos_assets/pdf-first.svg);
+              background-repeat: no-repeat;
+              background-position: 50% 100%;
+            }
+            .pdf-container:hover {
+              background-image: url(../../sos_assets/pdf.svg);
+            }
+          }
+          .text {
+            margin-top: 10px;
+            padding-top: 25px;
+            flex-basis: 50%;
+          }
+        }
+      }
+    } //faq
+    .nine {
+      @include desktop {
+        p {
+          margin: 0;
+        }
+        .content-container-one {
+          display: flex;
+          padding-bottom: 15px;
+          .image {
+            flex-basis: 50%;
+            img {
+              align-self: flex-end;
+            }
+          }
+          .text {
+            flex-basis: 50%;
+          }
+        }
+        .content-container-two {
+          display: flex;
+          padding-bottom: 20px;
+          .image {
+            flex-basis: 50%;
+          }
+          .text {
+            flex-basis: 50%;
+            padding-left: 2%;
+          }
+        }
+        .content-container-three {
+          display: flex;
+          .image {
+            flex-basis: 50%;
+            img {
+              align-self: flex-end;
+              height: 100%;
+              width: 100%;
+            }
+          }
+          .text {
+            flex-basis: 50%;
+          }
         }
       }
     }
   }
-  
-}
 }
