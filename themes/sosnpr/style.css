@@ -44,9 +44,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Front page
 # scss_pages
 	## about us page
+	## 404 page
 	## front page
+	## journal archive (home) page
 	## proposed park page
 	## resources page
+	## search results/no results page
+	## single journal page
 --------------------------------------------------------------*/
 html {
   font-family: sans-serif;
@@ -2343,6 +2347,37 @@ a:visited {
                 flex-flow: column wrap;
         max-width: 40vw;
         margin-left: 5rem; } }
+
+.search-results .page-title {
+  padding: 50px 0;
+  margin: 0 100px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e4e4e4; }
+
+.search-results article {
+  margin: 50px 100px; }
+
+.search-results .search-pagination {
+  margin: 50px 100px; }
+
+.search-no-results .page-content {
+  background: url("../../sos_assets/error404/error404.jpg") no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .search-no-results .page-content p {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 50px;
+    width: 50vw;
+    padding-top: 50px; }
 
 .single-hero {
   background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
