@@ -50,6 +50,14 @@ get_header();
         </div>
        </div> <!-- close one -->
 
+    <section class="divider">
+      <a href="#top" class="scroll-up">
+      <i class="fa fa-angle-up" aria-hidden="true"></i>
+      </a>
+      <div class="divider-line">
+      </div>
+    </section>
+
        <div class="prop-item two" id="location">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'location_of_the_park' )['label'];?></h2>
 
@@ -59,6 +67,14 @@ get_header();
        </div>
 
         </div> <!-- close two -->
+
+  <section class="divider">
+    <a href="#top" class="scroll-up">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </a>
+    <div class="divider-line">
+    </div>
+  </section>
 
        <div class="prop-item three" id="land-use">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'land_use_regulations' )['label'];?></h2>
@@ -84,9 +100,15 @@ get_header();
         </div>
 
        </div> <!-- closes content-container -->
-         
-
        </div> <!-- close three -->
+
+  <section class="divider">
+    <a href="#top" class="scroll-up">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </a>
+    <div class="divider-line">
+    </div>
+  </section>
 
        <div class="prop-item four" id="why">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'why_a_national_park' )['label'];?></h2>
@@ -97,6 +119,13 @@ get_header();
          </div>
        </div> <!-- closes four-->
 
+  <section class="divider">
+    <a href="#top" class="scroll-up">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </a>
+    <div class="divider-line">
+    </div>
+  </section>
 
        <div class="prop-item five" id="ranch">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'ranching_agriculture' )['label'];?></h2>
@@ -109,6 +138,14 @@ get_header();
 
        </div> <!-- closes five -->
 
+  <section class="divider">
+    <a href="#top" class="scroll-up">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </a>
+    <div class="divider-line">
+    </div>
+  </section>
+
        <div class="prop-item six" id="human">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'human_impact' )['label'];?></h2>
 
@@ -117,6 +154,14 @@ get_header();
           <div class="image"><img src="<?php echo CFS()->get('human_image');?>"/></div>
         </div>
        </div> <!-- closes six -->
+
+  <section class="divider">
+    <a href="#top" class="scroll-up">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </a>
+    <div class="divider-line">
+    </div>
+  </section>
 
        <div class="prop-item seven" id="ecological">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'ecological_benefits' )['label'];?></h2>
@@ -128,6 +173,14 @@ get_header();
          </div>
 
        </div> <!-- closes seven -->
+
+  <section class="divider">
+    <a href="#top" class="scroll-up">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </a>
+    <div class="divider-line">
+    </div>
+  </section>
 
        <div class="prop-item eight" id="economic">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'economic_benefits' )['label'];?></h2>
@@ -143,6 +196,14 @@ get_header();
        </div>
 
        </div> <!-- closes eight -->
+
+  <section class="divider">
+    <a href="#top" class="scroll-up">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </a>
+    <div class="divider-line">
+    </div>
+  </section>
 
        <div class="prop-item nine" id="faq">
          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span><?php echo CFS()->get_field_info( 'faq' )['label'];?></h2>
@@ -164,15 +225,15 @@ get_header();
 
         </div> <!-- closes nine-->
 
-
-
-
-      
-        
-      
     </section>
 
     </article>
+
+    <section class="divider">
+      <a href="#top" class="scroll-up-from-bottom">
+      <i class="fa fa-angle-up" aria-hidden="true"></i>
+      </a>
+    </section>
 
   </main><!-- #main -->
 

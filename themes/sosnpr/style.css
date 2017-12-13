@@ -790,25 +790,12 @@ object {
     border: none;
     font-family: "Source Sans Pro", sans-serif;
     text-align: center; }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-.widget-area {
-=======
-<<<<<<< HEAD
->>>>>>> 945e9945999917feaf8ccdaf1d82874de0309fab
   .site-info .center {
     margin-bottom: 100px; }
   .site-info .response-width {
     max-width: 100%; }
 
 .widget-area {
-<<<<<<< HEAD
-=======
->>>>>>> eb9c8c550f8d7c7b741afdb376bd6ad99172fe9f
->>>>>>> c8cc98fb506d15a3dd372dd349eb654bfc7c1481
->>>>>>> 945e9945999917feaf8ccdaf1d82874de0309fab
   width: 100vw;
   padding-top: 1rem;
   background-color: #eb8e26; }
@@ -937,7 +924,6 @@ object {
 
 .form-popup {
   display: none; }
-<<<<<<< HEAD
 
 .form-popup-show {
   display: -webkit-box;
@@ -1017,77 +1003,6 @@ object {
 a,
 a:visited {
   color: #285817; }
-=======
-  .form-popup .clear .subscribe-form {
-    display: none; }
-  .form-popup .form-popup-show {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: fixed;
-    bottom: 300px;
-    width: 100vw;
-    left: 0;
-    margin: 0 auto;
-    padding: 20px 0;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    .form-popup .form-popup-show form {
-      width: 400px;
-      background: white;
-      text-align: center; }
-      .form-popup .form-popup-show form label p {
-        font-family: "Source Sans Pro", sans-serif;
-        line-height: 20px;
-        margin: 15px 0; }
-      .form-popup .form-popup-show form input[type="email"] {
-        width: 300px;
-        height: 30px;
-        margin: 10px 50px;
-        padding: 0 10px; }
-      .form-popup .form-popup-show form button {
-        position: relative;
-        font-size: 16px;
-        bottom: 40px;
-        left: 140px;
-        padding: 6.5px 10px;
-        color: white;
-        background-color: #285817;
-        border-radius: 10%;
-        -webkit-box-shadow: none;
-                box-shadow: none;
-        border: none; }
-    .form-popup .form-popup-show .fa-times {
-      position: absolute;
-      right: 190px;
-      top: 25px; }
-    .form-popup .form-popup-show a,
-    .form-popup .form-popup-show a:visited {
-      color: #285817; }
-  @media all and (min-width: 1000px) {
-    .form-popup #secondary, .form-popup .widget_area {
-      height: 284px;
-      width: 100vw;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-flow: row wrap;
-              flex-flow: row wrap;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
-      -webkit-box-align: start;
-          -ms-flex-align: start;
-              align-items: flex-start;
-      background-color: #eb8e26;
-      padding-top: rem; }
-      .form-popup #secondary .wp-image-62, .form-popup #secondary .wp-image-63, .form-popup .widget_area .wp-image-62, .form-popup .widget_area .wp-image-63 {
-        padding-top: 1.5rem;
-        height: 80px;
-        width: 60px; } }
->>>>>>> bd45e38d8c571c72b164d26f47df5e887ab3e7a9
 
 .page-template-about-us {
   font-family: "Miriam Libre", sans-serif; }
@@ -1827,7 +1742,6 @@ a:visited {
   padding-left: 25px; }
   @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .prop-item {
-      border-bottom: 1px solid #bf6d0a;
       margin-left: 5%;
       margin-right: 5%;
       padding-bottom: 50px;
@@ -2141,6 +2055,56 @@ a:visited {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
 
+.page-template-proposed-park .divider {
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .divider {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .page-template-proposed-park .divider .scroll-up {
+        position: relative;
+        background: #555454;
+        border-radius: 30px;
+        padding: 5px 10px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        z-index: 200; }
+      .page-template-proposed-park .divider .scroll-up-from-bottom {
+        position: relative;
+        background: #555454;
+        border-radius: 30px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding: 5px 10px;
+        width: 60px;
+        height: 50px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        z-index: 200; }
+        .page-template-proposed-park .divider .scroll-up-from-bottom a, .page-template-proposed-park .divider .scroll-up-from-bottom .fa {
+          color: white;
+          text-decoration: none;
+          font-size: 3rem; }
+      .page-template-proposed-park .divider .divider-line {
+        position: absolute;
+        border-bottom: #eb8e26 solid 2px;
+        width: 96vw;
+        margin-top: 20px;
+        z-index: 0; }
+      .page-template-proposed-park .divider a, .page-template-proposed-park .divider .fa {
+        color: white;
+        text-decoration: none; } }
+
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
   background-size: cover;
@@ -2386,11 +2350,7 @@ a:visited {
   .page-template-resources .resources-ul li:nth-child(3) h2 {
     width: 100vw; }
 
-<<<<<<< HEAD
 .page-template-resources .resources-ul .lc-groups-container {
-=======
-.page-template-resources .resources-ul .lc-groups {
->>>>>>> bd45e38d8c571c72b164d26f47df5e887ab3e7a9
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2608,6 +2568,8 @@ a:visited {
     color: #285817;
     line-height: 0.7rem;
     margin-bottom: 0rem; }
+  .error404 .wpcf7 {
+    height: auto; }
   .error404 .wpcf7-form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2623,6 +2585,7 @@ a:visited {
         -ms-flex-align: center;
             align-items: center;
     width: 80vw;
+    height: auto;
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
     margin: 3rem 0rem; }
@@ -2634,12 +2597,25 @@ a:visited {
       font-family: "Source Sans Pro", sans-serif;
       color: #285817; }
     .error404 .wpcf7-form .wpcf7-submit {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column wrap;
+              flex-flow: column wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       background: rgba(255, 255, 255, 0.8);
       font-family: "Source Sans Pro", sans-serif;
       color: #285817; }
       @media all and (min-width: 1000px) {
         .error404 .wpcf7-form .wpcf7-submit {
-          font-size: 1.5rem; } }
+          font-size: 1.2rem; } }
     @media all and (min-width: 1000px) {
       .error404 .wpcf7-form {
         width: 50vw; } }
