@@ -919,13 +919,11 @@ object {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  z-index: 10; }
-  @media all and (min-width: 600px) {
-    .form-popup-show {
-      height: 100vh;
-      background: rgba(0, 0, 0, 0.6);
-      top: 0;
-      padding: 0; } }
+  z-index: 10;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  padding: 0; }
   .form-popup-show form {
     width: 280px;
     background: white;
@@ -946,7 +944,7 @@ object {
       padding: 0 10px; }
       @media all and (min-width: 600px) {
         .form-popup-show form input[type="email"] {
-          width: 240px;
+          width: 235px;
           margin-left: 70px; } }
     .form-popup-show form button {
       position: relative;
