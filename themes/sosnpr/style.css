@@ -713,7 +713,7 @@ object {
     @media all and (min-width: 600px) {
       .site-info .feedback {
         max-width: 450px;
-        max-height: 450px;
+        max-height: 420px;
         min-width: 430px;
         min-height: 430px; } }
     .site-info .feedback .wpcf7 {
@@ -1674,7 +1674,11 @@ a:visited {
       -ms-flex-pack: distribute;
           justify-content: space-around;
       min-height: 180px;
+<<<<<<< HEAD
       background: #d87000; }
+=======
+      background: #bf6d0a; }
+>>>>>>> c5e3748ec6dfe9bb88911605877a5ae52af8fb35
       .page-template-proposed-park .site-content .proposed-banner .banner-list {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1719,7 +1723,11 @@ a:visited {
               flex-direction: column; } }
 
 .page-template-proposed-park .site-content h2 {
+<<<<<<< HEAD
   color: #d87000;
+=======
+  color: #bf6d0a;
+>>>>>>> c5e3748ec6dfe9bb88911605877a5ae52af8fb35
   font-family: "Miriam Libre", sans-serif;
   margin: 10px 0;
   line-height: 30px; }
@@ -1768,6 +1776,11 @@ a:visited {
 
 .page-template-proposed-park .site-content .down {
   display: none; }
+  .page-template-proposed-park .site-content .down i {
+    padding-right: 10px; }
+
+.page-template-proposed-park .site-content .right i {
+  padding-right: 10px; }
 
 @media all and (min-width: 600px) {
   .page-template-proposed-park .site-content .right {
@@ -1782,13 +1795,16 @@ a:visited {
 .page-template-proposed-park .site-content .hide {
   display: none; }
 
-.page-template-proposed-park .site-content i {
-  padding-right: 10px; }
-
 .page-template-proposed-park .site-content .border {
+<<<<<<< HEAD
   border-top: 1px solid #d87000;
   border-left: 4px solid #d87000;
   border-bottom: 1px solid #d87000; }
+=======
+  border-top: 1px solid #bf6d0a;
+  border-left: 4px solid #bf6d0a;
+  border-bottom: 1px solid #bf6d0a; }
+>>>>>>> c5e3748ec6dfe9bb88911605877a5ae52af8fb35
   @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .border {
       border-left: none;
