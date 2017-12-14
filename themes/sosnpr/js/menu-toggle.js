@@ -3,7 +3,7 @@
   var clearMenu = false;
 
 
-  $('.menu-item-106 a').on('click', function (e) {
+  $('.menu-item-106 a').on('click touchstart', function (e) {
     e.preventDefault();
 
     clearMenu = false;
@@ -13,7 +13,7 @@
 
   $('.menu-item-106').addClass('subscribe-button');
 
-  $('.menu-toggle').click(function(e) {
+  $('.menu-toggle').on('click touchstart',function(e) {
     e.preventDefault();
     
     $('.menu1').addClass('menu-show');
@@ -23,7 +23,7 @@
   });
 
     
-  $('html').click(function() {
+  $('html').on('click touchstart',function() {
 
     if(clearMenu){
 
