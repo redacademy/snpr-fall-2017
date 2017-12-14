@@ -102,6 +102,9 @@
 		@include tablet{
 			display: flex;
 			justify-content: center;
+			border-bottom: $orange solid 2px;
+			height: 20px;
+			width: 96vw;
 			.scroll-up{
 				position: relative;
 				background: #555454;
@@ -134,15 +137,6 @@
 					text-decoration: none;
 					font-size: 3rem;
 				}
-			}
-			
-			
-			.divider-line{
-				position: absolute;
-				border-bottom: $orange solid 2px;
-				width: 96vw;
-				margin-top: 20px;
-				z-index: 0;
 			}
 			a, .fa{
 				color: white;

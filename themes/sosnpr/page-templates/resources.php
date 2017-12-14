@@ -67,8 +67,6 @@ get_header();
   <a href="#top" class="scroll-up">
   <i class="fa fa-angle-up" aria-hidden="true"></i>
   </a>
-  <div class="divider-line">
-  </div>
 </section>
 
    <li id="videos">
@@ -84,8 +82,6 @@ get_header();
   <a href="#top" class="scroll-up">
   <i class="fa fa-angle-up" aria-hidden="true"></i>
   </a>
-  <div class="divider-line">
-  </div>
 </section>
 
    <li id="photos">
@@ -101,8 +97,6 @@ get_header();
   <a href="#top" class="scroll-up">
   <i class="fa fa-angle-up" aria-hidden="true"></i>
   </a>
-  <div class="divider-line">
-  </div>
 </section>
 
    <li id="#books">
@@ -118,8 +112,6 @@ get_header();
   <a href="#top" class="scroll-up">
   <i class="fa fa-angle-up" aria-hidden="true"></i>
   </a>
-  <div class="divider-line">
-  </div>
 </section>
 
    <li id="news">
@@ -135,8 +127,6 @@ get_header();
   <a href="#top" class="scroll-up">
   <i class="fa fa-angle-up" aria-hidden="true"></i>
   </a>
-  <div class="divider-line">
-  </div>
 </section>
 
    <li id="radio">
@@ -152,8 +142,6 @@ get_header();
   <a href="#top" class="scroll-up">
   <i class="fa fa-angle-up" aria-hidden="true"></i>
   </a>
-  <div class="divider-line">
-  </div>
   </section>
 
    <div class="lc-groups-container" id="lc-groups">

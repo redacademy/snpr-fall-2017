@@ -1188,7 +1188,10 @@ a:visited {
         display: flex;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                justify-content: center; }
+                justify-content: center;
+        border-bottom: #d87000 solid 2px;
+        height: 20px;
+        width: 96vw; }
         .page-template-about-us .divider .scroll-up {
           position: relative;
           background: #555454;
@@ -1219,12 +1222,6 @@ a:visited {
             color: white;
             text-decoration: none;
             font-size: 3rem; }
-        .page-template-about-us .divider .divider-line {
-          position: absolute;
-          border-bottom: #d87000 solid 2px;
-          width: 96vw;
-          margin-top: 20px;
-          z-index: 0; }
         .page-template-about-us .divider a, .page-template-about-us .divider .fa {
           color: white;
           text-decoration: none; } }
@@ -1405,7 +1402,10 @@ a:visited {
       display: flex;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      border-bottom: #d87000 solid 2px;
+      height: 20px;
+      width: 96vw; }
       .page-template-resources .divider .scroll-up {
         position: relative;
         background: #555454;
@@ -1436,12 +1436,6 @@ a:visited {
           color: white;
           text-decoration: none;
           font-size: 3rem; }
-      .page-template-resources .divider .divider-line {
-        position: absolute;
-        border-bottom: #d87000 solid 2px;
-        width: 96vw;
-        margin-top: 20px;
-        z-index: 0; }
       .page-template-resources .divider a, .page-template-resources .divider .fa {
         color: white;
         text-decoration: none; } }
@@ -2110,7 +2104,10 @@ a:visited {
       display: flex;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      border-bottom: #d87000 solid 2px;
+      height: 20px;
+      width: 96vw; }
       .page-template-proposed-park .divider .scroll-up {
         position: relative;
         background: #555454;
@@ -2141,12 +2138,6 @@ a:visited {
           color: white;
           text-decoration: none;
           font-size: 3rem; }
-      .page-template-proposed-park .divider .divider-line {
-        position: absolute;
-        border-bottom: #d87000 solid 2px;
-        width: 96vw;
-        margin-top: 20px;
-        z-index: 0; }
       .page-template-proposed-park .divider a, .page-template-proposed-park .divider .fa {
         color: white;
         text-decoration: none; } }
@@ -2327,7 +2318,10 @@ a:visited {
       display: flex;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      border-bottom: #d87000 solid 2px;
+      height: 20px;
+      width: 96vw; }
       .page-template-resources .divider .scroll-up {
         position: relative;
         background: #555454;
@@ -2358,12 +2352,6 @@ a:visited {
           color: white;
           text-decoration: none;
           font-size: 3rem; }
-      .page-template-resources .divider .divider-line {
-        position: absolute;
-        border-bottom: #d87000 solid 2px;
-        width: 96vw;
-        margin-top: 20px;
-        z-index: 0; }
       .page-template-resources .divider a, .page-template-resources .divider .fa {
         color: white;
         text-decoration: none; } }
