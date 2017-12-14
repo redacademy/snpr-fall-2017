@@ -2,11 +2,11 @@
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands.jpg) ;
   background-size: cover;
   background-repeat: no-repeat;
- 
+  
   background-position: bottom center;
   height:90vh;
   font-family:$miriam;
-  padding-top:50px;
+  padding-top:20px;
   
   h1{
     color:$forest;
@@ -20,6 +20,9 @@
     }
     padding-top:40px;
     line-height:1;
+    padding-left:20px;
+    padding-right:20px;
+    
   }
   h2{
     text-align:center;
@@ -27,6 +30,8 @@
     font-weight:100;
     padding-bottom:15px;
     color:$forest;
+    padding-left:20px;
+    padding-right:20px;
   }
   .learn-more-button{
     border:none;
@@ -43,9 +48,13 @@
     a{
       color:white;
       text-decoration:none;
+      &:focus{
+      
     }
+    }
+    
   }
-
+  
 }
 
 .recent-updates-header{
@@ -56,15 +65,19 @@
 }
 
 .page-id-101{
-
+  
   .posts-navigation{
     display:flex;
     justify-content:space-around;
     a{
-        color:$brown_orange;
-        text-transform:uppercase;
-        font-family:$miriam;
+      color:$brown_orange;
+      text-transform:uppercase;
+      font-family:$miriam;
+      &:focus{
+        border: 5px solid black;
+      }
     }
+    
   }
   .owl-item{
     height:320px;
@@ -89,47 +102,62 @@
       margin-right:10px;
       
       background-color: rgba(0, 0, 0, 0.4);
-     
+      
       a{
         color:white;
         text-decoration:none;
       }
     }
   }
-
- .page-id-101{
-  .entry-header{
-    color:white;
-    font-family:$source;
-    position:absolute;
-    bottom:30px;
-    padding:10px;
-    font-size:12px;
-   
-    a{
+  
+  .page-id-101{
+    .entry-header{
       color:white;
-      text-decoration:none;
+      font-family:$source;
+      position:absolute;
+      bottom:30px;
+      padding:10px;
+      font-size:12px;
+      
+      a{
+        color:white;
+        text-decoration:none;
+      }
     }
   }
-}
-
+  
 }
 
 
 @media screen and (min-width: 600px){
   .front-page-hero{
-    background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg) ;
-    background-size: 100% 130%;
-    background-repeat: no-repeat;
-   
-    background-position: bottom center;
-    height:90vh;
+    background: url('../../sos_assets/error404/error404.jpg');
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+    
+    align-items: center;
+    
+    background-position: 30% 21%;
     font-family:$miriam;
-    padding-top:50px;
+    padding-top:30px;
     h1{
-      padding-top:0px;
-    }
+      padding-top:15px;
+      font-size:33px;
+      padding-left:20px;
+      padding-left:20px;
 
+    }
+    h2{
+      font-size:20px;
+      padding:20px;
+    }
+    .learn-more-button{
+      font-size:25px;
+    }
+    
   }
 }
 @media screen and (min-width: 1000px){
@@ -142,11 +170,19 @@
     flex-flow: column wrap;
     
     align-items: center;
-   
-      background-position: 30% 21%;
+    
+    background-position: 30% 21%;
     
     font-family:$miriam;
-    
+      h1{
+        font-size:50px;
+      }
+      h2{
+        font-size:28px;
+      }
+      .learn-more-button{
+        font-size:30px;
+      }
 
   }
 }

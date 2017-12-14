@@ -21,6 +21,7 @@ $(".feedback-button").click(function () {
   $('.wpcf7-not-valid-tip').hide();
   $('.wpcf7-response-output').css('padding-bottom', '0');
   $('.wpcf7-response-output').removeClass('center');
+  $('.wpcf7').removeClass('response-width');
   
   remove = false;
 });
@@ -55,18 +56,14 @@ $('.wpcf7-submit').on('click', function(){
     if ( $('.wpcf7-form').find('.wpcf7-not-valid-tip').length > 0){
       $('input').show();
       $('textarea').show();
-      $('.feedback').css('min-height', '465px');
+      $('.feedback').css('min-height', '480px');
       $('.wpcf7-response-output').css('padding-bottom', '0');
     
 
     } else {
       $('.wpcf7-response-output').addClass('center');
-      $('.feedback').css('min-height', '280px');
-      
-      
-
-      
-      
+      $('.feedback').css('min-height', '290px');
+      $('.wpcf7').addClass('response-width');
     }
     
   });
