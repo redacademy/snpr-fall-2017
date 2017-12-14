@@ -30,7 +30,7 @@
         display: flex;
         justify-content: space-around;
         min-height: 180px;
-        background: $main-orange;
+        background: $orange;
         .banner-list {
           display: flex;
           flex-direction: column; // margin: 2% 5%;
@@ -68,7 +68,7 @@
       }
     }
     h2 {
-      color: $main-orange;
+      color: $orange;
       font-family: $miriam;
       margin: 10px 0;
       line-height: 30px;
@@ -138,9 +138,9 @@
       padding-right: 10px;
     }
     .border {
-      border-top: 1px solid $border-orange;
-      border-left: 4px solid $border-orange;
-      border-bottom: 1px solid $border-orange;
+      border-top: 1px solid $orange;
+      border-left: 4px solid $orange;
+      border-bottom: 1px solid $orange;
       @include tablet {
         border-left: none;
         border-top: none;
