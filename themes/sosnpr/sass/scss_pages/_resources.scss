@@ -25,7 +25,7 @@
     @include tablet-footer{
       width: 100vw;
       height: 15rem;
-      background: $main-orange;
+      background: $orange;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -91,7 +91,7 @@
   }
   
   .fa{
-    color: $main-orange;
+    color: $orange;
   }
   
   .hide{
@@ -102,8 +102,8 @@
   }
 
   .borders{
-    border: $main-orange solid 1px;
-    border-left: $main-orange solid 3px;
+    border: $orange solid 1px;
+    border-left: $orange solid 3px;
     margin-top: 20px;
     height: 20vw;
     @include tablet{
@@ -140,7 +140,7 @@
       padding-left: 3rem;
     }
     h2{
-      color: $main-orange;
+      color: $orange;
       font-family: $miriam;
       text-transform: uppercase;
       padding: 3rem 0rem 0rem 3rem;	    
@@ -150,12 +150,12 @@
       font-weight: 300;
     }
     li:nth-child(3) {
-      h2{
-        width: 100vw;
-      }
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
+      h2{
+        width: 100vw;
+      }
     }
     .lc-groups-container{
       display: flex;

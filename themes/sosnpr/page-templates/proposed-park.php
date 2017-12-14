@@ -9,7 +9,7 @@ get_header();
   <main id="main" class="site-main" role="main">
     <article id="post-<?php the_ID();?>" <?php post_class();?>>
       <header class="entry-header custom-hero">
-        <div class="proposed-hero">
+        <div id="top" class="proposed-hero">
         <?php while ( have_posts() ) : the_post(); ?>
 
         <?php get_template_part( 'template-parts/content', 'page' ); ?>

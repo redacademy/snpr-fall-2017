@@ -1,7 +1,7 @@
  .widget-area{
   width: 100vw;
   padding-top: 1rem;
-  background-color: $main-orange;
+  background-color: $orange;
   @include tablet-footer{
     display: flex;
     flex-flow: row wrap;
@@ -19,7 +19,7 @@
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: flex-start;
-    background-color: $main-orange;
+    background-color: $orange;
     padding-top: 40px;
   }
   .widget_text,
@@ -27,7 +27,7 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    background: $main-orange;    
+    background: $orange;    
     
     h2{
       text-transform: uppercase;
@@ -58,7 +58,7 @@
       border: none;
       text-transform: uppercase;
       background: white;      
-      color: $main-orange;
+      color: $orange;
       font-family: $source;      
       font-size: 1.3rem;
       font-weight: 700;
@@ -182,7 +182,6 @@
     top: 20px;
   }
 }
-
 
 a,
 a:visited{
