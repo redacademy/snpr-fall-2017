@@ -848,17 +848,21 @@ object {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background: #d87000; }
-    .widget-area .widget_text h2,
-    .widget-area .textwidget h2 {
+    background: #d87000;
+    text-align: center; }
+    .widget-area .widget_text h2, .widget-area .widget_text .widget-title,
+    .widget-area .textwidget h2,
+    .widget-area .textwidget .widget-title {
       text-transform: uppercase;
       font-family: "Miriam Libre", sans-serif;
       font-size: 1.2rem;
       color: white;
-      text-decoration: none; }
+      text-decoration: none;
+      text-align: center; }
       @media all and (min-width: 600px) {
-        .widget-area .widget_text h2,
-        .widget-area .textwidget h2 {
+        .widget-area .widget_text h2, .widget-area .widget_text .widget-title,
+        .widget-area .textwidget h2,
+        .widget-area .textwidget .widget-title {
           padding-bottom: 20px; } }
     .widget-area .widget_text p,
     .widget-area .textwidget p {
@@ -920,6 +924,8 @@ object {
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
+    .widget-area .widget_custom_html .contact-row p, .widget-area .widget_custom_html .contact-row a {
+      color: white; }
   .widget-area .textwidget .contact {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2609,7 +2615,7 @@ a:visited {
     font-family: "Miriam Libre", sans-serif;
     text-transform: uppercase;
     text-align: center;
-    line-height: 1.5rem;
+    line-height: 3rem;
     padding-top: 5rem; }
     @media all and (min-width: 1000px) {
       .error404 .page-title {
@@ -2639,10 +2645,8 @@ a:visited {
   .error404 .error-p {
     text-align: center;
     color: #285817;
-    line-height: 0.7rem;
+    line-height: 1.5rem;
     margin-bottom: 0rem; }
-  .error404 .wpcf7 {
-    height: auto; }
   .error404 .wpcf7-form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2666,7 +2670,7 @@ a:visited {
       display: none; }
     .error404 .wpcf7-form .wpcf7-text, .error404 .wpcf7-form .wpcf7-textarea {
       max-width: 40vw;
-      max-height: 40vw;
+      max-height: 15vh;
       font-family: "Source Sans Pro", sans-serif;
       color: #285817; }
     .error404 .wpcf7-form .wpcf7-submit {
@@ -2692,6 +2696,11 @@ a:visited {
     @media all and (min-width: 1000px) {
       .error404 .wpcf7-form {
         width: 50vw; } }
+  .error404 .wpcf7 {
+    font-size: 0.8rem;
+    border: transparent; }
+    .error404 .wpcf7 .wpcf7-not-valid-tip {
+      color: #d87000; }
 
 .blog .site-content .updates-hero {
   background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);

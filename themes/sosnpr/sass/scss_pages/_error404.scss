@@ -21,7 +21,7 @@
     font-family: $miriam;
     text-transform: uppercase;
     text-align: center;
-    line-height: 1.5rem;  
+    line-height: 3rem;  
     padding-top: 5rem;  
     @include desktop{
       font-size: 3.5rem;
@@ -44,13 +44,10 @@
   .error-p{
     text-align: center;
     color: $forest;
-    line-height: 0.7rem;
+    line-height: 1.5rem;
     margin-bottom: 0rem;
   }
   
-  .wpcf7{
-    height: auto;
-  }
   .wpcf7-form{
     display: flex;
     flex-flow: column wrap;
@@ -66,7 +63,7 @@
     }
     .wpcf7-text, .wpcf7-textarea{
       max-width: 40vw;
-      max-height: 40vw;
+      max-height: 15vh;
       font-family: $source;
       color: $forest;
     }
@@ -84,6 +81,13 @@
     }
     @include desktop{
       width: 50vw;
+    }
+  }
+  .wpcf7{
+    font-size: 0.8rem;
+    border: transparent;
+    .wpcf7-not-valid-tip{
+      color: $orange;      
     }
   }
 }
