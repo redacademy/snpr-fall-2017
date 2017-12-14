@@ -8,7 +8,7 @@ get_header();
 <div id="primary" class="content-area">
   <main id="main" class="site-main" role="main">
   
-      <header class="entry-header custom-hero">
+      <header id="top" class="entry-header custom-hero">
        
           <?php while ( have_posts() ) : the_post(); ?>
 
@@ -37,6 +37,7 @@ get_header();
         <li>
           <a href="#proposal-history">proposal history</a>
         </li>
+        
       </ul>
 
       <ul class="about-us-content-wrapper">
@@ -55,6 +56,14 @@ get_header();
           </div>
         </li>
 
+      <section class="divider">
+        <a href="#top" class="scroll-up">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </a>
+        <div class="divider-line">
+        </div>
+      </section>
+
         <li id="first-nation-support" class="section-two">
           <?php $props = CFS()->get_field_info( 'first_nation_support' );?> 
           <h2 class="about-us-heading"><?php echo $props['label'];?></h2>
@@ -67,6 +76,14 @@ get_header();
             </div>
           </div>
         </li>
+
+      <section class="divider">
+        <a href="#top" class="scroll-up">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </a>
+        <div class="divider-line">
+        </div>
+      </section>
 
         <li id="community-support" class="section-three">
           <?php $props = CFS()->get_field_info( 'community_support' );?> 
@@ -84,6 +101,14 @@ get_header();
           </div>
         </li>
 
+      <section class="divider">
+        <a href="#top" class="scroll-up">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </a>
+        <div class="divider-line">
+        </div>
+      </section>
+      
         <li id="government-support" class="section-four">
           <?php $props = CFS()->get_field_info( 'provincial_government_support' );?> 
           <h2 class="about-us-heading"><?php echo $props['label'];?></h2>
@@ -100,6 +125,14 @@ get_header();
           </div>
         </li>
 
+      <section class="divider">
+        <a href="#top" class="scroll-up">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </a>
+        <div class="divider-line">
+        </div>
+      </section>
+
         <li id="parks-canada-support" class="section-five">
           <?php $props = CFS()->get_field_info( 'federal_government_parks_canada_support' );?> 
           <h2 class="about-us-heading"><?php echo $props['label'];?></h2>
@@ -115,6 +148,14 @@ get_header();
             
           </div>
         </li>
+
+      <section class="divider">
+        <a href="#top" class="scroll-up">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </a>
+        <div class="divider-line">
+        </div>
+      </section>
 
         <li id="proposal-history" class="section-six"> 
           <?php $props = CFS()->get_field_info( 'proposal_history' );?> 
@@ -152,8 +193,12 @@ get_header();
         </li>
 
       </ul>
-
-   
+      
+  <section class="divider">
+    <a href="#top" class="scroll-up-from-bottom">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </a>
+  </section>
 
   </main><!-- #main -->
 
