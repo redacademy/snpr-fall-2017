@@ -48,12 +48,16 @@
     margin-bottom: 0rem;
   }
   
+  .wpcf7{
+    height: auto;
+  }
   .wpcf7-form{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     width: 80vw;
+    height: auto;
     background: rgba(255,255,255,0.8);    
     padding: 20px;
     margin: 3rem 0rem;
@@ -67,11 +71,15 @@
       color: $forest;
     }
     .wpcf7-submit{
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
       background: rgba(255,255,255,0.8);
       font-family: $source;
       color: $forest;
       @include desktop{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
       }
     }
     @include desktop{

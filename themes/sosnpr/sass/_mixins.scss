@@ -42,7 +42,7 @@
 
 //the orange title for recent updates
 @mixin mobile-orange-title {
-	color: $rugged;
+	color: $orange;
 	font-family: $miriam;
 	font-size: 28px;
 }
@@ -139,7 +139,7 @@
 			
 			.divider-line{
 				position: absolute;
-				border-bottom: $main-orange solid 2px;
+				border-bottom: $orange solid 2px;
 				width: 96vw;
 				margin-top: 20px;
 				z-index: 0;

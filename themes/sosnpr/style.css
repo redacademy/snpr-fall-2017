@@ -714,7 +714,7 @@ object {
     @media all and (min-width: 600px) {
       .site-info .feedback {
         max-width: 450px;
-        max-height: 450px;
+        max-height: 420px;
         min-width: 430px;
         min-height: 430px; } }
     .site-info .feedback .wpcf7 {
@@ -725,7 +725,7 @@ object {
           -ms-flex-pack: center;
               justify-content: center;
       margin: 0;
-      border: 8px solid #eb8e26;
+      border: 8px solid #d87000;
       border-radius: 3%;
       max-width: 96%;
       padding-top: 8px;
@@ -771,7 +771,7 @@ object {
           height: 50px;
           width: 150px;
           margin-top: 15px;
-          background: #eb8e26;
+          background: #d87000;
           color: #fff;
           text-shadow: none;
           -webkit-box-shadow: none;
@@ -782,7 +782,7 @@ object {
             .site-info .feedback .wpcf7 form .wpcf7-submit {
               margin-left: 114px; } }
         .site-info .feedback .wpcf7 form .wpcf7-not-valid-tip {
-          color: #eb8e26;
+          color: #d87000;
           font-family: "Source Sans Pro", sans-serif; }
   .site-info .no-see {
     display: none; }
@@ -803,7 +803,7 @@ object {
 .widget-area {
   width: 100vw;
   padding-top: 1rem;
-  background-color: #eb8e26; }
+  background-color: #d87000; }
   @media all and (min-width: 750px) {
     .widget-area {
       display: -webkit-box;
@@ -832,7 +832,7 @@ object {
       -webkit-box-align: start;
           -ms-flex-align: start;
               align-items: flex-start;
-      background-color: #eb8e26;
+      background-color: #d87000;
       padding-top: 40px; } }
   .widget-area .widget_text,
   .widget-area .textwidget {
@@ -846,7 +846,7 @@ object {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background: #eb8e26; }
+    background: #d87000; }
     .widget-area .widget_text h2,
     .widget-area .textwidget h2 {
       text-transform: uppercase;
@@ -878,7 +878,7 @@ object {
       border: none;
       text-transform: uppercase;
       background: white;
-      color: #eb8e26;
+      color: #d87000;
       font-family: "Source Sans Pro", sans-serif;
       font-size: 1.3rem;
       font-weight: 700;
@@ -1064,7 +1064,7 @@ a:visited {
         -webkit-box-direction: normal;
             -ms-flex-flow: row wrap;
                 flex-flow: row wrap;
-        background-color: #eb8e26; }
+        background-color: #d87000; }
         .page-template-about-us .about-us-page-navigation li {
           -ms-flex-preferred-size: 33%;
               flex-basis: 33%;
@@ -1090,9 +1090,9 @@ a:visited {
       .page-template-about-us .about-us-content-wrapper {
         margin-bottom: 0; } }
     .page-template-about-us .about-us-content-wrapper .list-item-click {
-      border-top: 1px #eb8e26 solid;
-      border-bottom: 1px #eb8e26 solid;
-      border-left: 5px #eb8e26 solid; }
+      border-top: 1px #d87000 solid;
+      border-bottom: 1px #d87000 solid;
+      border-left: 5px #d87000 solid; }
       @media all and (min-width: 600px) {
         .page-template-about-us .about-us-content-wrapper .list-item-click {
           border-top: none;
@@ -1216,7 +1216,7 @@ a:visited {
             font-size: 3rem; }
         .page-template-about-us .divider .divider-line {
           position: absolute;
-          border-bottom: #eb8e26 solid 2px;
+          border-bottom: #d87000 solid 2px;
           width: 96vw;
           margin-top: 20px;
           z-index: 0; }
@@ -1261,7 +1261,7 @@ a:visited {
     .page-template-resources .resources-nav {
       width: 100vw;
       height: 15rem;
-      background: #eb8e26;
+      background: #d87000;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -1358,7 +1358,7 @@ a:visited {
       padding-bottom: 18rem; } }
 
 .page-template-resources .fa {
-  color: #eb8e26; }
+  color: #d87000; }
 
 .page-template-resources .hide {
   display: none; }
@@ -1367,8 +1367,8 @@ a:visited {
       display: block; } }
 
 .page-template-resources .borders {
-  border: #eb8e26 solid 1px;
-  border-left: #eb8e26 solid 3px;
+  border: #d87000 solid 1px;
+  border-left: #d87000 solid 3px;
   margin-top: 20px;
   height: 20vw; }
   @media all and (min-width: 600px) {
@@ -1433,7 +1433,7 @@ a:visited {
           font-size: 3rem; }
       .page-template-resources .divider .divider-line {
         position: absolute;
-        border-bottom: #eb8e26 solid 2px;
+        border-bottom: #d87000 solid 2px;
         width: 96vw;
         margin-top: 20px;
         z-index: 0; }
@@ -1446,7 +1446,7 @@ a:visited {
   padding-left: 3rem; }
 
 .page-template-resources .resources-ul h2 {
-  color: #eb8e26;
+  color: #d87000;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
   padding: 3rem 0rem 0rem 3rem; }
@@ -1528,17 +1528,21 @@ a:visited {
     text-transform: uppercase;
     display: block;
     padding-top: 40px;
-    line-height: 1; }
+    line-height: 1;
+    padding-left: 20px;
+    padding-right: 20px; }
   .front-page-hero h2 {
     text-align: center;
     font-size: 12px;
     font-weight: 100;
     padding-bottom: 15px;
-    color: #285817; }
+    color: #285817;
+    padding-left: 20px;
+    padding-right: 20px; }
   .front-page-hero .learn-more-button {
     border: none;
     border-radius: 1px;
-    background-color: #eb8e26;
+    background-color: #d87000;
     margin-top: 100px;
     color: white;
     text-transform: uppercase;
@@ -1615,7 +1619,13 @@ a:visited {
     font-family: "Miriam Libre", sans-serif;
     padding-top: 50px; }
     .front-page-hero h1 {
-      padding-top: 0px; } }
+      padding-top: 15px;
+      font-size: 33px;
+      padding-left: 20px;
+      padding-left: 20px; }
+    .front-page-hero h2 {
+      font-size: 20px;
+      padding: 20px; } }
 
 @media screen and (min-width: 1000px) {
   .front-page-hero {
@@ -1634,7 +1644,11 @@ a:visited {
         -ms-flex-align: center;
             align-items: center;
     background-position: 30% 21%;
-    font-family: "Miriam Libre", sans-serif; } }
+    font-family: "Miriam Libre", sans-serif; }
+    .front-page-hero h1 {
+      font-size: 50px; }
+    .front-page-hero h2 {
+      font-size: 28px; } }
 
 .page-template-proposed-park .site-content .entry-title {
   color: #285817;
@@ -1677,7 +1691,7 @@ a:visited {
       -ms-flex-pack: distribute;
           justify-content: space-around;
       min-height: 180px;
-      background: #eb8e26; }
+      background: #d87000; }
       .page-template-proposed-park .site-content .proposed-banner .banner-list {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1722,7 +1736,7 @@ a:visited {
               flex-direction: column; } }
 
 .page-template-proposed-park .site-content h2 {
-  color: #eb8e26;
+  color: #d87000;
   font-family: "Miriam Libre", sans-serif;
   margin: 10px 0;
   line-height: 30px; }
@@ -1749,7 +1763,6 @@ a:visited {
   padding-left: 25px; }
   @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .prop-item {
-      border-bottom: 1px solid #bf6d0a;
       margin-left: 5%;
       margin-right: 5%;
       padding-bottom: 50px;
@@ -1772,6 +1785,11 @@ a:visited {
 
 .page-template-proposed-park .site-content .down {
   display: none; }
+  .page-template-proposed-park .site-content .down i {
+    padding-right: 10px; }
+
+.page-template-proposed-park .site-content .right i {
+  padding-right: 10px; }
 
 @media all and (min-width: 600px) {
   .page-template-proposed-park .site-content .right {
@@ -1786,13 +1804,10 @@ a:visited {
 .page-template-proposed-park .site-content .hide {
   display: none; }
 
-.page-template-proposed-park .site-content i {
-  padding-right: 10px; }
-
 .page-template-proposed-park .site-content .border {
-  border-top: 1px solid #CC8005;
-  border-left: 4px solid #CC8005;
-  border-bottom: 1px solid #CC8005; }
+  border-top: 1px solid #d87000;
+  border-left: 4px solid #d87000;
+  border-bottom: 1px solid #d87000; }
   @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .border {
       border-left: none;
@@ -2063,6 +2078,59 @@ a:visited {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
 
+.page-template-proposed-park i, .page-template-proposed-park .fa-angle-up {
+  padding-right: 0px; }
+
+.page-template-proposed-park .divider {
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .divider {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .page-template-proposed-park .divider .scroll-up {
+        position: relative;
+        background: #555454;
+        border-radius: 30px;
+        padding: 5px 10px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        z-index: 200; }
+      .page-template-proposed-park .divider .scroll-up-from-bottom {
+        position: relative;
+        background: #555454;
+        border-radius: 30px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding: 5px 10px;
+        width: 60px;
+        height: 50px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        z-index: 200; }
+        .page-template-proposed-park .divider .scroll-up-from-bottom a, .page-template-proposed-park .divider .scroll-up-from-bottom .fa {
+          color: white;
+          text-decoration: none;
+          font-size: 3rem; }
+      .page-template-proposed-park .divider .divider-line {
+        position: absolute;
+        border-bottom: #d87000 solid 2px;
+        width: 96vw;
+        margin-top: 20px;
+        z-index: 0; }
+      .page-template-proposed-park .divider a, .page-template-proposed-park .divider .fa {
+        color: white;
+        text-decoration: none; } }
+
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
   background-size: cover;
@@ -2100,7 +2168,7 @@ a:visited {
     .page-template-resources .resources-nav {
       width: 100vw;
       height: 15rem;
-      background: #eb8e26;
+      background: #d87000;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -2197,7 +2265,7 @@ a:visited {
       padding-bottom: 18rem; } }
 
 .page-template-resources .fa {
-  color: #eb8e26; }
+  color: #d87000; }
 
 .page-template-resources .hide {
   display: none; }
@@ -2206,8 +2274,8 @@ a:visited {
       display: block; } }
 
 .page-template-resources .borders {
-  border: #eb8e26 solid 1px;
-  border-left: #eb8e26 solid 3px;
+  border: #d87000 solid 1px;
+  border-left: #d87000 solid 3px;
   margin-top: 20px;
   height: 20vw; }
   @media all and (min-width: 600px) {
@@ -2272,7 +2340,7 @@ a:visited {
           font-size: 3rem; }
       .page-template-resources .divider .divider-line {
         position: absolute;
-        border-bottom: #eb8e26 solid 2px;
+        border-bottom: #d87000 solid 2px;
         width: 96vw;
         margin-top: 20px;
         z-index: 0; }
@@ -2285,7 +2353,7 @@ a:visited {
   padding-left: 3rem; }
 
 .page-template-resources .resources-ul h2 {
-  color: #eb8e26;
+  color: #d87000;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
   padding: 3rem 0rem 0rem 3rem; }
@@ -2557,6 +2625,8 @@ a:visited {
     color: #285817;
     line-height: 0.7rem;
     margin-bottom: 0rem; }
+  .error404 .wpcf7 {
+    height: auto; }
   .error404 .wpcf7-form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2572,6 +2642,7 @@ a:visited {
         -ms-flex-align: center;
             align-items: center;
     width: 80vw;
+    height: auto;
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
     margin: 3rem 0rem; }
@@ -2583,12 +2654,25 @@ a:visited {
       font-family: "Source Sans Pro", sans-serif;
       color: #285817; }
     .error404 .wpcf7-form .wpcf7-submit {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column wrap;
+              flex-flow: column wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       background: rgba(255, 255, 255, 0.8);
       font-family: "Source Sans Pro", sans-serif;
       color: #285817; }
       @media all and (min-width: 1000px) {
         .error404 .wpcf7-form .wpcf7-submit {
-          font-size: 1.5rem; } }
+          font-size: 1.2rem; } }
     @media all and (min-width: 1000px) {
       .error404 .wpcf7-form {
         width: 50vw; } }
@@ -2677,7 +2761,7 @@ a:visited {
         left: 70%;
         bottom: 10%;
         color: #fff;
-        background: #eb8e26;
+        background: #d87000;
         -webkit-box-shadow: none;
                 box-shadow: none;
         text-shadow: none;
@@ -2727,10 +2811,10 @@ a:visited {
 
 .blog .site-content .search-pagination {
   margin-bottom: 20px;
-  color: #eb8e26;
+  color: #d87000;
   font-size: 25px; }
   .blog .site-content .search-pagination a {
-    color: #eb8e26;
+    color: #d87000;
     text-decoration: none;
     font-family: "Miriam Libre", sans-serif;
     font-size: 25px; }
@@ -2771,7 +2855,7 @@ a:visited {
           box-shadow: none;
   height: 50px;
   width: 65px;
-  color: #eb8e26; }
+  color: #d87000; }
 
 .main-navigation .search-open,
 .main-navigation .no-js .search {
@@ -2856,67 +2940,123 @@ a:visited {
         .menu1 .menu-menu-1-container ul li a {
           color: #285817; }
       .menu1 .menu-menu-1-container ul .menu-item-106 {
-        background: #eb8e26; }
+        background: #d87000; }
         .menu1 .menu-menu-1-container ul .menu-item-106 a {
           color: white;
           text-align: center; }
-
-.menu-show {
-  display: block; }
-
-.header-logo {
-  height: 50px;
-  width: 50px; }
-
-.menu-non-logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-right: 10px; }
-
-.menu-toggle {
-  min-height: 40px;
-  min-width: 40px;
-  background-color: transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: none;
-  background-image: url(../../sos_assets/ui-icons/hamburger-icon-rugged-orange.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 10px;
-  background-position: center; }
-
-@media screen and (min-width: 600px) {
-  .main-navigation {
-    position: static;
-    width: 100%; }
-  .menu-non-logo .menu1 {
+  .menu1 .menu-show {
+    display: block; }
+  .menu1 .header-logo {
+    height: 50px;
+    width: 50px; }
+  .menu1 .menu-non-logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    position: relative;
-    height: 50px;
-    width: 500px;
+    padding-right: 10px; }
+  .menu1 .menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+    background-color: transparent;
     -webkit-box-shadow: none;
             box-shadow: none;
-    z-index: 10;
-    background: transparent;
-    top: 0;
-    right: 0px;
     border: none;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    .menu-non-logo .menu1 .menu-menu-1-container {
-      padding-left: 0px; }
-      .menu-non-logo .menu1 .menu-menu-1-container ul {
-        width: 500px;
+    background-image: url(../../sos_assets/ui-icons/hamburger-icon-rugged-orange.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px;
+    background-position: center; }
+  @media screen and (min-width: 600px) {
+    .menu1 .main-navigation {
+      position: static;
+      width: 100%; }
+    .menu1 .menu-non-logo .menu1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      position: relative;
+      height: 50px;
+      width: 500px;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      z-index: 10;
+      background: transparent;
+      top: 0;
+      right: 0px;
+      border: none;
+      -ms-flex-line-pack: center;
+          align-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .menu1 .menu-non-logo .menu1 .menu-menu-1-container {
+        padding-left: 0px; }
+        .menu1 .menu-non-logo .menu1 .menu-menu-1-container ul {
+          width: 500px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; }
+          .menu1 .menu-non-logo .menu1 .menu-menu-1-container ul li {
+            text-align: center;
+            line-height: 1;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-family: "Miriam Libre", sans-serif; }
+            .menu1 .menu-non-logo .menu1 .menu-menu-1-container ul li a {
+              color: #d87000;
+              font-family: "Miriam Libre", sans-serif;
+              font-size: 14px; }
+              .menu1 .menu-non-logo .menu1 .menu-menu-1-container ul li a:focus {
+                border: 5px solid black; }
+          .menu1 .menu-non-logo .menu1 .menu-menu-1-container ul .menu-item-106 {
+            padding-left: 15px;
+            padding-right: 15px;
+            background: #d87000; }
+            .menu1 .menu-non-logo .menu1 .menu-menu-1-container ul .menu-item-106 a {
+              color: white;
+              padding-left: 5px;
+              padding-right: 5px; } }
+  @media screen and (min-width: 1000px) {
+    .menu1 .menu-non-logo .search-icon {
+      -webkit-box-ordinal-group: 3;
+          -ms-flex-order: 2;
+              order: 2; }
+    .menu1 .menu-non-logo .menu1 {
+      -webkit-box-ordinal-group: 2;
+          -ms-flex-order: 1;
+              order: 1;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      position: relative;
+      height: 50px;
+      width: 700px;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      z-index: 10;
+      background: transparent;
+      top: 0;
+      right: 0px;
+      border: none;
+      -ms-flex-line-pack: center;
+          align-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .menu1 .menu-non-logo .menu1 .menu-menu-1-container ul {
+        width: 700px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -2926,80 +3066,21 @@ a:visited {
                 flex-direction: row;
         -ms-flex-pack: distribute;
             justify-content: space-around; }
-        .menu-non-logo .menu1 .menu-menu-1-container ul li {
+        .menu1 .menu-non-logo .menu1 .menu-menu-1-container ul li {
           text-align: center;
           line-height: 1;
-          padding-top: 20px;
-          padding-bottom: 20px;
           font-family: "Miriam Libre", sans-serif; }
-          .menu-non-logo .menu1 .menu-menu-1-container ul li a {
-            color: #eb8e26;
-            font-family: "Miriam Libre", sans-serif;
-            font-size: 14px; }
-            .menu-non-logo .menu1 .menu-menu-1-container ul li a:focus {
-              border: 5px solid black; }
-        .menu-non-logo .menu1 .menu-menu-1-container ul .menu-item-106 {
-          padding-left: 15px;
-          padding-right: 15px;
-          background: #eb8e26; }
-          .menu-non-logo .menu1 .menu-menu-1-container ul .menu-item-106 a {
-            color: white;
-            padding-left: 5px;
-            padding-right: 5px; } }
-
-@media screen and (min-width: 1000px) {
-  .menu-non-logo .search-icon {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2; }
-  .menu-non-logo .menu1 {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    position: relative;
-    height: 50px;
-    width: 700px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    z-index: 10;
-    background: transparent;
-    top: 0;
-    right: 0px;
-    border: none;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    .menu-non-logo .menu1 .menu-menu-1-container ul {
-      width: 700px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -ms-flex-pack: distribute;
-          justify-content: space-around; }
-      .menu-non-logo .menu1 .menu-menu-1-container ul li {
-        text-align: center;
-        line-height: 1;
-        font-family: "Miriam Libre", sans-serif; }
-        .menu-non-logo .menu1 .menu-menu-1-container ul li a {
-          color: #eb8e26;
-          font-family: "Miriam Libre", sans-serif;
-          font-size: 20px; }
-      .menu-non-logo .menu1 .menu-menu-1-container ul .menu-item-106 {
-        background: #eb8e26; }
-        .menu-non-logo .menu1 .menu-menu-1-container ul .menu-item-106 a {
-          color: white; } }
+          .menu1 .menu-non-logo .menu1 .menu-menu-1-container ul li a {
+            color: #d87000;
+            font-family: "Miriam Libre", sans-serif; }
+            .menu1 .menu-non-logo .menu1 .menu-menu-1-container ul li a a {
+              color: #d87000;
+              font-family: "Miriam Libre", sans-serif;
+              font-size: 20px; }
+          .menu1 .menu-non-logo .menu1 .menu-menu-1-container ul li .menu-item-106 {
+            background: #d87000; }
+            .menu1 .menu-non-logo .menu1 .menu-menu-1-container ul li .menu-item-106 a {
+              color: white; } }
 
 /*! Flickity v2.0.10
 http://flickity.metafizzy.co
