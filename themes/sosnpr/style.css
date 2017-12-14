@@ -924,6 +924,8 @@ object {
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
+    .widget-area .widget_custom_html .contact-row p, .widget-area .widget_custom_html .contact-row a {
+      color: white; }
   .widget-area .textwidget .contact {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2613,7 +2615,7 @@ a:visited {
     font-family: "Miriam Libre", sans-serif;
     text-transform: uppercase;
     text-align: center;
-    line-height: 1.5rem;
+    line-height: 3rem;
     padding-top: 5rem; }
     @media all and (min-width: 1000px) {
       .error404 .page-title {
@@ -2643,10 +2645,8 @@ a:visited {
   .error404 .error-p {
     text-align: center;
     color: #285817;
-    line-height: 0.7rem;
+    line-height: 1.5rem;
     margin-bottom: 0rem; }
-  .error404 .wpcf7 {
-    height: auto; }
   .error404 .wpcf7-form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2670,7 +2670,7 @@ a:visited {
       display: none; }
     .error404 .wpcf7-form .wpcf7-text, .error404 .wpcf7-form .wpcf7-textarea {
       max-width: 40vw;
-      max-height: 40vw;
+      max-height: 15vh;
       font-family: "Source Sans Pro", sans-serif;
       color: #285817; }
     .error404 .wpcf7-form .wpcf7-submit {
@@ -2696,6 +2696,11 @@ a:visited {
     @media all and (min-width: 1000px) {
       .error404 .wpcf7-form {
         width: 50vw; } }
+  .error404 .wpcf7 {
+    font-size: 0.8rem;
+    border: transparent; }
+    .error404 .wpcf7 .wpcf7-not-valid-tip {
+      color: #d87000; }
 
 .blog .site-content .updates-hero {
   background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);

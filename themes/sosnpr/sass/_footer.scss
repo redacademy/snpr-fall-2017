@@ -96,6 +96,9 @@
     .contact-row{
       display: flex;
       flex-flow: row wrap;
+      p, a{
+        color: white;
+      }
     }
   }
   

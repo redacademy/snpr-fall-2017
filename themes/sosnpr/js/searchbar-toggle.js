@@ -1,6 +1,6 @@
 (function ($) {
   
-    $('.main-navigation  .search-submit').on('click', function (e) {
+    $('.main-navigation  .search-submit').on('click touchstart', function (e) {
       e.preventDefault();
       
       $('.main-navigation  .search-field').stop().animate(
