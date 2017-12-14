@@ -83,8 +83,7 @@
       border-bottom: 1px $orange solid;
       border-left: 5px $orange solid;
       @include tablet{
-        border-top: none;
-        border-left: none;
+        border: none;
       }
     }
     .section-two,.section-four{

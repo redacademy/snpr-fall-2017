@@ -1097,8 +1097,7 @@ a:visited {
       border-left: 5px #d87000 solid; }
       @media all and (min-width: 600px) {
         .page-template-about-us .about-us-content-wrapper .list-item-click {
-          border-top: none;
-          border-left: none; } }
+          border: none; } }
     .page-template-about-us .about-us-content-wrapper .section-two .essay-content .image-wrapper, .page-template-about-us .about-us-content-wrapper .section-four .essay-content .image-wrapper {
       -webkit-box-ordinal-group: 0;
           -ms-flex-order: -1;
