@@ -682,6 +682,7 @@ object {
       -ms-flex-pack: center;
           justify-content: center; }
   .site-info .feedback {
+    z-index: 1000;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -701,7 +702,7 @@ object {
     bottom: 80px;
     border-radius: 3%;
     max-width: 400px;
-    max-height: 450px;
+    max-height: 430px;
     background: #fff;
     -ms-flex-item-align: center;
         align-self: center; }
@@ -713,7 +714,7 @@ object {
     @media all and (min-width: 600px) {
       .site-info .feedback {
         max-width: 450px;
-        max-height: 420px;
+        max-height: 430px;
         min-width: 430px;
         min-height: 430px; } }
     .site-info .feedback .wpcf7 {
@@ -727,7 +728,7 @@ object {
       border: 8px solid #eb8e26;
       border-radius: 3%;
       max-width: 96%;
-      padding-top: 8px;
+      padding-top: 15px;
       padding-bottom: 15px; }
       .site-info .feedback .wpcf7 form {
         display: -webkit-box;
@@ -797,7 +798,8 @@ object {
   .site-info .center {
     margin-bottom: 100px; }
   .site-info .response-width {
-    max-width: 100%; }
+    padding-right: 30px;
+    padding-left: 30px; }
 
 .widget-area {
   width: 100vw;
@@ -1794,7 +1796,8 @@ a:visited {
   @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .border {
       border-left: none;
-      border-top: none; } }
+      border-top: none;
+      border-bottom: none; } }
 
 .page-template-proposed-park .site-content .image img {
   max-width: -webkit-min-content;
