@@ -27,14 +27,16 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    background: $orange;    
+    background: $orange;
+    text-align: center;    
     
-    h2{
+    h2, .widget-title{
       text-transform: uppercase;
       font-family: $miriam;
       font-size: 1.2rem;
       color: white;
       text-decoration: none;
+      text-align: center;
       @include tablet{
         padding-bottom: 20px;
       }

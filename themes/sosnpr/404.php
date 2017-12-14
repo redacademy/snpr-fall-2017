@@ -19,7 +19,7 @@ get_header(); ?>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-					<p class="error-p"><?php echo esc_html( "Sorry, we can't find the page your looking for." ); ?></p>
+					<p class="error-p"><?php echo esc_html( "Sorry, we can't find the page you're looking for." ); ?></p>
 					<p class="error-p"><?php echo esc_html( "Please contact us to request for more information." ); ?></p>
 
 		<?php echo do_shortcode('[contact-form-7 id="100" title="Contact form 1"]'); ?>
