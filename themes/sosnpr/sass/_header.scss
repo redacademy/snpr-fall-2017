@@ -11,7 +11,7 @@
   z-index:1000;
   padding-left:20px;
   
-  
+
 }
 
 .menu1{
@@ -45,7 +45,7 @@
         a{
           color:$forest;
         }
-      }
+      }//li
       .menu-item-106{
         a{
           color:white;
@@ -54,11 +54,14 @@
         //   background:$main_orange;
         // }
         background:$orange;
-      }
-    }
+      }//.menu-item-106
+    }//ul
     
-  }
-  .menu-show {
+  }//.menu-menu-1-container
+
+}
+
+  .menu-show{
     display:block;
   }
   
@@ -92,7 +95,7 @@
       position:static;
       width:100%;
     }
-    .menu-non-logo  {
+    .menu-non-logo{
       
       .menu1{
         
@@ -128,11 +131,11 @@
                 color:$orange;
                 font-family:$miriam;
                 font-size:14px;
-                &:focus{
-                  border: 5px solid black;
-                }
+                // &:focus{
+                //   border: 5px solid black;
+                // }
               }
-            }
+            }//li
             .menu-item-106{
               
               padding-left:15px;
@@ -143,14 +146,18 @@
                 padding-right:5px;
               }
               background:$orange;
-            }
-          }
+            }// menu-item-106
+          }//ul
           
-        }
+        } //.menu-menu-1-container
         
-      }
+      }//menu1
     }
-  }
+  }//600px
+
+
+
+
   @media screen and (min-width: 1000px) {
     
     .menu-non-logo{
@@ -186,13 +193,9 @@
               
               font-family:$miriam;
               a{
-                color:$orange;
+                color: $orange;
                 font-family:$miriam;
-                a{
-                  color:$orange;
-                  font-family:$miriam;
-                  font-size:20px;
-                }
+                font-size:20px;
               }
               .menu-item-106{
                 a{
@@ -201,14 +204,11 @@
                 background:$orange;
               }
               
-            }
+            }//li
             
-          }
+          }//ul
           
-        }}}
-      }}
-        
-        
-        
-        
-        
+        }// .menu-menu-1-container
+      }//.menu1
+    }   //.menu-non-logo
+  } //1000px
