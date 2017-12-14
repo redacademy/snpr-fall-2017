@@ -22,7 +22,7 @@ get_header(); ?>
 					<?php the_post_thumbnail( 'large' ); ?>
 					<div class="button-container">
 					 <p class="post-title"><?php the_title();?></p>
-					 <?php red_starter_posted_on(); ?>
+					 <?php sosnpr_posted_on(); ?>
 					 <a href="<?php echo the_permalink();?>"><button class="read-more">Read More</button></a>
          </div>
         </div>
@@ -31,7 +31,7 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
 
-			<?php red_starter_numbered_pagination(); ?>
+			<?php sosnpr_numbered_pagination(); ?>
       
 		</section>
 

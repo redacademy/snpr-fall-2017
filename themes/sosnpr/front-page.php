@@ -2,7 +2,7 @@
 /**
  * The main template file.
  *
- * @package RED_Starter_Theme
+ * @package SOSNPR_Theme
  */
 
 get_header(); ?>
@@ -38,7 +38,7 @@ get_header(); ?>
 
 			<?php if ( 'post' === get_post_type() ) : ?>
 			<div class="entry-meta">
-				<?php red_starter_posted_on(); ?> 
+				<?php sosnpr_posted_on(); ?> 
 			</div><!-- .entry-meta -->
 				<?php endif; ?>
 			</header><!-- .entry-header -->
