@@ -95,7 +95,6 @@
       cursor: pointer;
       padding-left: 25px;
       @include tablet {
-        border-bottom: 1px solid $brown-orange;
         margin-left: 5%;
         margin-right: 5%;
         padding-bottom: 50px;
@@ -396,6 +395,11 @@
           }
         }
       }
+    }
+  }
+  @include scroll-to-top-buttons-divider{
+    i, .fa-angle-up{
+      padding-right: 0px;
     }
   }
 }

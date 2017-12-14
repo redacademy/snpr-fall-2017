@@ -8,7 +8,7 @@ get_header();
 <div id="primary" class="content-area">
   <main id="main" class="site-main" role="main">
   
-      <header class="entry-header custom-hero">
+      <header id="top" class="entry-header custom-hero">
        
           <?php while ( have_posts() ) : the_post(); ?>
 
@@ -37,6 +37,7 @@ get_header();
         <li>
           <a href="#proposal-history">proposal history</a>
         </li>
+        
       </ul>
 
       <ul class="about-us-content-wrapper">

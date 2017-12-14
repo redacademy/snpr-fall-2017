@@ -44,9 +44,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Front page
 # scss_pages
 	## about us page
+	## 404 page
 	## front page
+	## journal archive (home) page
 	## proposed park page
 	## resources page
+	## search results/no results page
+	## single journal page
 --------------------------------------------------------------*/
 html {
   font-family: sans-serif;
@@ -1574,14 +1578,17 @@ a:visited {
   .page-id-101 .carousel-cell img {
     height: auto; }
   .page-id-101 .carousel-cell .entry-header {
-    color: #CC8005;
+    color: white;
     font-family: "Source Sans Pro", sans-serif;
     position: absolute;
     top: 160px;
     padding: 10px;
-    font-size: 12px; }
+    font-size: 12px;
+    height: 160px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.4); }
     .page-id-101 .carousel-cell .entry-header a {
-      color: #CC8005;
+      color: white;
       text-decoration: none; }
 
 .page-id-101 .page-id-101 .entry-header {
@@ -1620,9 +1627,6 @@ a:visited {
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1742,7 +1746,6 @@ a:visited {
   padding-left: 25px; }
   @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .prop-item {
-      border-bottom: 1px solid #bf6d0a;
       margin-left: 5%;
       margin-right: 5%;
       padding-bottom: 50px;
@@ -2058,6 +2061,59 @@ a:visited {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
 
+.page-template-proposed-park i, .page-template-proposed-park .fa-angle-up {
+  padding-right: 0px; }
+
+.page-template-proposed-park .divider {
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .divider {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .page-template-proposed-park .divider .scroll-up {
+        position: relative;
+        background: #555454;
+        border-radius: 30px;
+        padding: 5px 10px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        z-index: 200; }
+      .page-template-proposed-park .divider .scroll-up-from-bottom {
+        position: relative;
+        background: #555454;
+        border-radius: 30px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding: 5px 10px;
+        width: 60px;
+        height: 50px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        z-index: 200; }
+        .page-template-proposed-park .divider .scroll-up-from-bottom a, .page-template-proposed-park .divider .scroll-up-from-bottom .fa {
+          color: white;
+          text-decoration: none;
+          font-size: 3rem; }
+      .page-template-proposed-park .divider .divider-line {
+        position: absolute;
+        border-bottom: #eb8e26 solid 2px;
+        width: 96vw;
+        margin-top: 20px;
+        z-index: 0; }
+      .page-template-proposed-park .divider a, .page-template-proposed-park .divider .fa {
+        color: white;
+        text-decoration: none; } }
+
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
   background-size: cover;
@@ -2346,6 +2402,37 @@ a:visited {
         max-width: 40vw;
         margin-left: 5rem; } }
 
+.search-results .page-title {
+  padding: 50px 0;
+  margin: 0 100px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e4e4e4; }
+
+.search-results article {
+  margin: 50px 100px; }
+
+.search-results .search-pagination {
+  margin: 50px 100px; }
+
+.search-no-results .page-content {
+  background: url("../../sos_assets/error404/error404.jpg") no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .search-no-results .page-content p {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 50px;
+    width: 50vw;
+    padding-top: 50px; }
+
 .single-hero {
   background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
   background-size: cover;
@@ -2450,11 +2537,7 @@ a:visited {
       text-decoration: none;
       font-size: 10px; }
 
-.error404 .hero-404 {
-  background: url("../../sos_assets/error404/error404.jpg");
-  background-size: cover;
-  height: 90vh;
-  width: 100vw;
+.error404 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2468,56 +2551,114 @@ a:visited {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  @media all and (min-width: 1000px) {
-    .error404 .hero-404 {
-      background-position: 30% 30%; } }
-
-.error404 .page-title {
-  color: #285817;
-  font-family: "Miriam Libre", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 1.5rem; }
-  @media all and (min-width: 1000px) {
-    .error404 .page-title {
-      font-size: 3.5rem; } }
-
-.error404 .page-content {
-  width: 90vw;
-  padding-bottom: 20rem;
-  margin-top: -20px;
-  font-family: "Source Sans Pro", sans-serif; }
-  @media all and (min-width: 1000px) {
-    .error404 .page-content {
-      font-size: 1.2rem;
-      padding-bottom: 25rem; } }
-
-.error404 p {
-  text-align: center;
-  color: #285817;
-  line-height: 0.7rem;
-  margin-bottom: 0rem; }
-
-.error404 .search-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 5rem; }
-
-.error404 .search-field {
-  width: 200px;
-  height: 30px;
-  border: #eb8e26 solid 3px; }
-
-.error404 .search-submit {
-  border: none;
-  background: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  color: #eb8e26; }
+  .error404 .hero-404 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: url("../../sos_assets/error404/error404.jpg");
+    background-size: cover;
+    width: 100vw; }
+    @media all and (min-width: 1000px) {
+      .error404 .hero-404 {
+        background-position: 30% 30%; } }
+  .error404 .page-title {
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5rem;
+    padding-top: 5rem; }
+    @media all and (min-width: 1000px) {
+      .error404 .page-title {
+        font-size: 3.5rem; } }
+  .error404 .page-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90vw;
+    padding-bottom: 20rem;
+    margin-top: -20px;
+    font-family: "Source Sans Pro", sans-serif; }
+    @media all and (min-width: 1000px) {
+      .error404 .page-content {
+        font-size: 1.2rem;
+        padding-bottom: 25rem; } }
+  .error404 .error-p {
+    text-align: center;
+    color: #285817;
+    line-height: 0.7rem;
+    margin-bottom: 0rem; }
+  .error404 .wpcf7 {
+    height: auto; }
+  .error404 .wpcf7-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80vw;
+    height: auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 3rem 0rem; }
+    .error404 .wpcf7-form .para {
+      display: none; }
+    .error404 .wpcf7-form .wpcf7-text, .error404 .wpcf7-form .wpcf7-textarea {
+      max-width: 40vw;
+      max-height: 40vw;
+      font-family: "Source Sans Pro", sans-serif;
+      color: #285817; }
+    .error404 .wpcf7-form .wpcf7-submit {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column wrap;
+              flex-flow: column wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      background: rgba(255, 255, 255, 0.8);
+      font-family: "Source Sans Pro", sans-serif;
+      color: #285817; }
+      @media all and (min-width: 1000px) {
+        .error404 .wpcf7-form .wpcf7-submit {
+          font-size: 1.2rem; } }
+    @media all and (min-width: 1000px) {
+      .error404 .wpcf7-form {
+        width: 50vw; } }
 
 .blog .site-content .updates-hero {
   background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
@@ -2697,7 +2838,7 @@ a:visited {
           box-shadow: none;
   height: 50px;
   width: 65px;
-  color: #CC8005; }
+  color: #eb8e26; }
 
 .main-navigation .search-open,
 .main-navigation .no-js .search {
@@ -2741,7 +2882,7 @@ a:visited {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 92%;
+  width: 100%;
   position: fixed;
   top: 0px;
   z-index: 1000;
@@ -2859,7 +3000,7 @@ a:visited {
           padding-bottom: 20px;
           font-family: "Miriam Libre", sans-serif; }
           .menu-non-logo .menu1 .menu-menu-1-container ul li a {
-            color: #CC8005;
+            color: #eb8e26;
             font-family: "Miriam Libre", sans-serif;
             font-size: 14px; }
         .menu-non-logo .menu1 .menu-menu-1-container ul .menu-item-106 {
@@ -2917,7 +3058,7 @@ a:visited {
         line-height: 1;
         font-family: "Miriam Libre", sans-serif; }
         .menu-non-logo .menu1 .menu-menu-1-container ul li a {
-          color: #CC8005;
+          color: #eb8e26;
           font-family: "Miriam Libre", sans-serif;
           font-size: 20px; }
       .menu-non-logo .menu1 .menu-menu-1-container ul .menu-item-106 {
