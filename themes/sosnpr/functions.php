@@ -56,7 +56,7 @@ add_action( 'after_setup_theme', 'sosnpr_content_width', 0 );
  */
 function sosnpr_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html( 'Sidebar' ),
+		'name'          => esc_html( 'Footer' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
