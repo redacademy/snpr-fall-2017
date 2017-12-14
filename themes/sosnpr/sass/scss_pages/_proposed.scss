@@ -30,7 +30,11 @@
         display: flex;
         justify-content: space-around;
         min-height: 180px;
-        background: $main-orange;
+<<<<<<< HEAD
+        background: $orange;
+=======
+        background: $brown-orange;
+>>>>>>> c5e3748ec6dfe9bb88911605877a5ae52af8fb35
         .banner-list {
           display: flex;
           flex-direction: column; // margin: 2% 5%;
@@ -68,7 +72,11 @@
       }
     }
     h2 {
-      color: $main-orange;
+<<<<<<< HEAD
+      color: $orange;
+=======
+      color: $brown-orange;
+>>>>>>> c5e3748ec6dfe9bb88911605877a5ae52af8fb35
       font-family: $miriam;
       margin: 10px 0;
       line-height: 30px;
@@ -95,7 +103,6 @@
       cursor: pointer;
       padding-left: 25px;
       @include tablet {
-        border-bottom: 1px solid $brown-orange;
         margin-left: 5%;
         margin-right: 5%;
         padding-bottom: 50px;
@@ -119,9 +126,15 @@
     } //down arrow
     .down {
       display: none;
+      i {
+        padding-right: 10px;
+      }
     } //
     //right arrow
     .right {
+      i {
+        padding-right: 10px;
+      }
       @include tablet {
         display: none;
       }
@@ -135,13 +148,17 @@
     .hide {
       display: none;
     }
-    i {
-      padding-right: 10px;
-    }
+    
     .border {
-      border-top: 1px solid $border-orange;
-      border-left: 4px solid $border-orange;
-      border-bottom: 1px solid $border-orange;
+<<<<<<< HEAD
+      border-top: 1px solid $orange;
+      border-left: 4px solid $orange;
+      border-bottom: 1px solid $orange;
+=======
+      border-top: 1px solid $brown-orange;
+      border-left: 4px solid $brown-orange;
+      border-bottom: 1px solid $brown-orange;
+>>>>>>> c5e3748ec6dfe9bb88911605877a5ae52af8fb35
       @include tablet {
         border-left: none;
         border-top: none;
@@ -392,6 +409,11 @@
           }
         }
       }
+    }
+  }
+  @include scroll-to-top-buttons-divider{
+    i, .fa-angle-up{
+      padding-right: 0px;
     }
   }
 }

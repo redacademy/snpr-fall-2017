@@ -49,7 +49,7 @@
     @include tablet{
       display: flex;
       flex-flow: row wrap;
-      background-color: $main-orange;
+      background-color: $orange;
       li{
         flex-basis: 33%;
         text-transform: uppercase;
@@ -79,9 +79,9 @@
       margin-bottom: 0;
     }
     .list-item-click{
-      border-top: 1px $main-orange solid;
-      border-bottom: 1px $main-orange solid;
-      border-left: 5px $main-orange solid;
+      border-top: 1px $orange solid;
+      border-bottom: 1px $orange solid;
+      border-left: 5px $orange solid;
       @include tablet{
         border-top: none;
         border-left: none;
