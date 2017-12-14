@@ -20,6 +20,9 @@
     }
     padding-top:40px;
     line-height:1;
+    padding-left:20px;
+    padding-right:20px;
+    
   }
   h2{
     text-align:center;
@@ -27,6 +30,8 @@
     font-weight:100;
     padding-bottom:15px;
     color:$forest;
+    padding-left:20px;
+    padding-right:20px;
   }
   .learn-more-button{
     border:none;
@@ -127,7 +132,15 @@
     font-family:$miriam;
     padding-top:50px;
     h1{
-      padding-top:0px;
+      padding-top:15px;
+      font-size:33px;
+      padding-left:20px;
+      padding-left:20px;
+
+    }
+    h2{
+      font-size:20px;
+      padding:20px;
     }
 
   }
@@ -146,7 +159,12 @@
       background-position: 30% 21%;
     
     font-family:$miriam;
-    
+      h1{
+        font-size:50px;
+      }
+      h2{
+        font-size:28px;
+      }
 
   }
 }

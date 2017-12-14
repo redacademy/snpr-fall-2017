@@ -1527,13 +1527,17 @@ a:visited {
     text-transform: uppercase;
     display: block;
     padding-top: 40px;
-    line-height: 1; }
+    line-height: 1;
+    padding-left: 20px;
+    padding-right: 20px; }
   .front-page-hero h2 {
     text-align: center;
     font-size: 12px;
     font-weight: 100;
     padding-bottom: 15px;
-    color: #285817; }
+    color: #285817;
+    padding-left: 20px;
+    padding-right: 20px; }
   .front-page-hero .learn-more-button {
     border: none;
     border-radius: 1px;
@@ -1612,7 +1616,13 @@ a:visited {
     font-family: "Miriam Libre", sans-serif;
     padding-top: 50px; }
     .front-page-hero h1 {
-      padding-top: 0px; } }
+      padding-top: 15px;
+      font-size: 33px;
+      padding-left: 20px;
+      padding-left: 20px; }
+    .front-page-hero h2 {
+      font-size: 20px;
+      padding: 20px; } }
 
 @media screen and (min-width: 1000px) {
   .front-page-hero {
@@ -1631,7 +1641,11 @@ a:visited {
         -ms-flex-align: center;
             align-items: center;
     background-position: 30% 21%;
-    font-family: "Miriam Libre", sans-serif; } }
+    font-family: "Miriam Libre", sans-serif; }
+    .front-page-hero h1 {
+      font-size: 50px; }
+    .front-page-hero h2 {
+      font-size: 28px; } }
 
 .page-template-proposed-park .site-content .entry-title {
   color: #285817;
