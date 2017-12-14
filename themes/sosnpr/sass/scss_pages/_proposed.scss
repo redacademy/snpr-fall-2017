@@ -30,7 +30,7 @@
         display: flex;
         justify-content: space-around;
         min-height: 180px;
-        background: $main-orange;
+        background: $brown-orange;
         .banner-list {
           display: flex;
           flex-direction: column; // margin: 2% 5%;
@@ -68,7 +68,7 @@
       }
     }
     h2 {
-      color: $main-orange;
+      color: $brown-orange;
       font-family: $miriam;
       margin: 10px 0;
       line-height: 30px;
@@ -119,9 +119,15 @@
     } //down arrow
     .down {
       display: none;
+      i {
+        padding-right: 10px;
+      }
     } //
     //right arrow
     .right {
+      i {
+        padding-right: 10px;
+      }
       @include tablet {
         display: none;
       }
@@ -135,13 +141,11 @@
     .hide {
       display: none;
     }
-    i {
-      padding-right: 10px;
-    }
+    
     .border {
-      border-top: 1px solid $border-orange;
-      border-left: 4px solid $border-orange;
-      border-bottom: 1px solid $border-orange;
+      border-top: 1px solid $brown-orange;
+      border-left: 4px solid $brown-orange;
+      border-bottom: 1px solid $brown-orange;
       @include tablet {
         border-left: none;
         border-top: none;
