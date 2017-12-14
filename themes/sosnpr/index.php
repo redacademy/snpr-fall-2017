@@ -2,7 +2,7 @@
 /**
  * The main template file.
  *
- * @package RED_Starter_Theme
+ * @package SOSNPR_Theme
  */
 
 get_header(); ?>

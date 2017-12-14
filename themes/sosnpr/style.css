@@ -430,7 +430,7 @@ a {
   a:hover, a:focus, a:active {
     color: midnightblue; }
   a:focus {
-    border: 5px solid black;
+    border: 3px solid #285817;
     outline: thin dotted; }
   a:hover, a:active {
     outline: 0; }
@@ -848,17 +848,21 @@ object {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background: #d87000; }
-    .widget-area .widget_text h2,
-    .widget-area .textwidget h2 {
+    background: #d87000;
+    text-align: center; }
+    .widget-area .widget_text h2, .widget-area .widget_text .widget-title,
+    .widget-area .textwidget h2,
+    .widget-area .textwidget .widget-title {
       text-transform: uppercase;
       font-family: "Miriam Libre", sans-serif;
       font-size: 1.2rem;
       color: white;
-      text-decoration: none; }
+      text-decoration: none;
+      text-align: center; }
       @media all and (min-width: 600px) {
-        .widget-area .widget_text h2,
-        .widget-area .textwidget h2 {
+        .widget-area .widget_text h2, .widget-area .widget_text .widget-title,
+        .widget-area .textwidget h2,
+        .widget-area .textwidget .widget-title {
           padding-bottom: 20px; } }
     .widget-area .widget_text p,
     .widget-area .textwidget p {
