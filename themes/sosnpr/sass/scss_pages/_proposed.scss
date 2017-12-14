@@ -394,5 +394,8 @@
     }
   }
   @include scroll-to-top-buttons-divider{
+    i, .fa-angle-up{
+      padding-right: 0px;
+    }
   }
 }
