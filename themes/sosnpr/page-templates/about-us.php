@@ -60,8 +60,6 @@ get_header();
         <a href="#top" class="scroll-up">
         <i class="fa fa-angle-up" aria-hidden="true"></i>
         </a>
-        <div class="divider-line">
-        </div>
       </section>
 
         <li id="first-nation-support" class="section-two">
@@ -81,8 +79,6 @@ get_header();
         <a href="#top" class="scroll-up">
         <i class="fa fa-angle-up" aria-hidden="true"></i>
         </a>
-        <div class="divider-line">
-        </div>
       </section>
 
         <li id="community-support" class="section-three">
@@ -105,8 +101,6 @@ get_header();
         <a href="#top" class="scroll-up">
         <i class="fa fa-angle-up" aria-hidden="true"></i>
         </a>
-        <div class="divider-line">
-        </div>
       </section>
       
         <li id="government-support" class="section-four">
@@ -129,8 +123,6 @@ get_header();
         <a href="#top" class="scroll-up">
         <i class="fa fa-angle-up" aria-hidden="true"></i>
         </a>
-        <div class="divider-line">
-        </div>
       </section>
 
         <li id="parks-canada-support" class="section-five">
@@ -153,8 +145,6 @@ get_header();
         <a href="#top" class="scroll-up">
         <i class="fa fa-angle-up" aria-hidden="true"></i>
         </a>
-        <div class="divider-line">
-        </div>
       </section>
 
         <li id="proposal-history" class="section-six"> 
