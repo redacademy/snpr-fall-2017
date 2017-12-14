@@ -1190,7 +1190,10 @@ a:visited {
         display: flex;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                justify-content: center; }
+                justify-content: center;
+        border-bottom: #d87000 solid 2px;
+        height: 20px;
+        width: 96vw; }
         .page-template-about-us .divider .scroll-up {
           position: relative;
           background: #555454;
@@ -1221,12 +1224,6 @@ a:visited {
             color: white;
             text-decoration: none;
             font-size: 3rem; }
-        .page-template-about-us .divider .divider-line {
-          position: absolute;
-          border-bottom: #d87000 solid 2px;
-          width: 96vw;
-          margin-top: 20px;
-          z-index: 0; }
         .page-template-about-us .divider a, .page-template-about-us .divider .fa {
           color: white;
           text-decoration: none; } }
@@ -1407,7 +1404,10 @@ a:visited {
       display: flex;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      border-bottom: #d87000 solid 2px;
+      height: 20px;
+      width: 96vw; }
       .page-template-resources .divider .scroll-up {
         position: relative;
         background: #555454;
@@ -1438,12 +1438,6 @@ a:visited {
           color: white;
           text-decoration: none;
           font-size: 3rem; }
-      .page-template-resources .divider .divider-line {
-        position: absolute;
-        border-bottom: #d87000 solid 2px;
-        width: 96vw;
-        margin-top: 20px;
-        z-index: 0; }
       .page-template-resources .divider a, .page-template-resources .divider .fa {
         color: white;
         text-decoration: none; } }
@@ -1548,7 +1542,7 @@ a:visited {
     padding-right: 20px; }
   .front-page-hero .learn-more-button {
     border: none;
-    border-radius: 1px;
+    border-radius: 3px;
     background-color: #d87000;
     margin-top: 100px;
     color: white;
@@ -1556,7 +1550,7 @@ a:visited {
     font-size: 20px;
     -webkit-box-shadow: none;
             box-shadow: none;
-    padding: 15px;
+    padding: 24px;
     font-weight: 100;
     font-family: "Miriam Libre", sans-serif; }
     .front-page-hero .learn-more-button a {
@@ -1567,7 +1561,8 @@ a:visited {
   text-align: center;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
-  color: #bf6d0a; }
+  color: #bf6d0a;
+  padding-top: 13px; }
 
 .page-id-101 .posts-navigation {
   display: -webkit-box;
@@ -1600,7 +1595,8 @@ a:visited {
     font-size: 12px;
     height: 160px;
     margin-right: 10px;
-    background-color: rgba(0, 0, 0, 0.4); }
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(black));
+    background: linear-gradient(rgba(0, 0, 0, 0.4), black); }
     .page-id-101 .carousel-cell .entry-header a {
       color: white;
       text-decoration: none; }
@@ -2112,7 +2108,10 @@ a:visited {
       display: flex;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      border-bottom: #d87000 solid 2px;
+      height: 20px;
+      width: 96vw; }
       .page-template-proposed-park .divider .scroll-up {
         position: relative;
         background: #555454;
@@ -2143,12 +2142,6 @@ a:visited {
           color: white;
           text-decoration: none;
           font-size: 3rem; }
-      .page-template-proposed-park .divider .divider-line {
-        position: absolute;
-        border-bottom: #d87000 solid 2px;
-        width: 96vw;
-        margin-top: 20px;
-        z-index: 0; }
       .page-template-proposed-park .divider a, .page-template-proposed-park .divider .fa {
         color: white;
         text-decoration: none; } }
@@ -2329,7 +2322,10 @@ a:visited {
       display: flex;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      border-bottom: #d87000 solid 2px;
+      height: 20px;
+      width: 96vw; }
       .page-template-resources .divider .scroll-up {
         position: relative;
         background: #555454;
@@ -2360,12 +2356,6 @@ a:visited {
           color: white;
           text-decoration: none;
           font-size: 3rem; }
-      .page-template-resources .divider .divider-line {
-        position: absolute;
-        border-bottom: #d87000 solid 2px;
-        width: 96vw;
-        margin-top: 20px;
-        z-index: 0; }
       .page-template-resources .divider a, .page-template-resources .divider .fa {
         color: white;
         text-decoration: none; } }
@@ -2965,6 +2955,7 @@ a:visited {
         .menu1 .menu-menu-1-container ul li a {
           color: #285817; }
       .menu1 .menu-menu-1-container ul .menu-item-106 {
+        border-radius: 3px;
         background: #d87000; }
         .menu1 .menu-menu-1-container ul .menu-item-106 a {
           color: white;

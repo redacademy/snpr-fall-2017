@@ -13,7 +13,7 @@ Gulp, to compile sass and minify all files
 
 ### Installing
 
-Download a Wordpress core to your computer. Replace WP-CONTENT already in core with this WP-CONTENT. Initialize database in you local machine. Change db name, username, and password to match the initalized database. Open the wordpress site on your local machine. Activate sosnpr theme. Download and install the Custom Field Suite and Contact Form 7 plugins.
+Download a Wordpress core to your computer. Replace WP-CONTENT already in core with this WP-CONTENT. Initialize database in you local machine. Change db name, username, and password to match the initalized database. Open the wordpress site on your local machine. Activate sosnpr theme. Download and install the Custom Field Suite and Contact Form 7 plugins. Install sosnpr-functionality.
 
 
 ## Deployment
