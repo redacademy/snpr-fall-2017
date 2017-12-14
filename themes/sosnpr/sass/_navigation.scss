@@ -14,8 +14,10 @@ a {
 	&:focus,
 	&:active {
 		color: $color__link-hover;
+		
 	}
 	&:focus {
+		border: 5px solid black;
 		outline: thin dotted;
 	}
 	&:hover,

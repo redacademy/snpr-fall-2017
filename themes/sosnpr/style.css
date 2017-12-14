@@ -430,6 +430,7 @@ a {
   a:hover, a:focus, a:active {
     color: midnightblue; }
   a:focus {
+    border: 5px solid black;
     outline: thin dotted; }
   a:hover, a:active {
     outline: 0; }
@@ -682,6 +683,7 @@ object {
       -ms-flex-pack: center;
           justify-content: center; }
   .site-info .feedback {
+    z-index: 1000;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -701,7 +703,7 @@ object {
     bottom: 80px;
     border-radius: 3%;
     max-width: 400px;
-    max-height: 450px;
+    max-height: 430px;
     background: #fff;
     -ms-flex-item-align: center;
         align-self: center; }
@@ -713,7 +715,7 @@ object {
     @media all and (min-width: 600px) {
       .site-info .feedback {
         max-width: 450px;
-        max-height: 420px;
+        max-height: 430px;
         min-width: 430px;
         min-height: 430px; } }
     .site-info .feedback .wpcf7 {
@@ -727,7 +729,7 @@ object {
       border: 8px solid #d87000;
       border-radius: 3%;
       max-width: 96%;
-      padding-top: 8px;
+      padding-top: 15px;
       padding-bottom: 15px; }
       .site-info .feedback .wpcf7 form {
         display: -webkit-box;
@@ -797,7 +799,8 @@ object {
   .site-info .center {
     margin-bottom: 100px; }
   .site-info .response-width {
-    max-width: 100%; }
+    padding-right: 30px;
+    padding-left: 30px; }
 
 .widget-area {
   width: 100vw;
@@ -1094,8 +1097,7 @@ a:visited {
       border-left: 5px #d87000 solid; }
       @media all and (min-width: 600px) {
         .page-template-about-us .about-us-content-wrapper .list-item-click {
-          border-top: none;
-          border-left: none; } }
+          border: none; } }
     .page-template-about-us .about-us-content-wrapper .section-two .essay-content .image-wrapper, .page-template-about-us .about-us-content-wrapper .section-four .essay-content .image-wrapper {
       -webkit-box-ordinal-group: 0;
           -ms-flex-order: -1;
@@ -1571,6 +1573,8 @@ a:visited {
     color: #bf6d0a;
     text-transform: uppercase;
     font-family: "Miriam Libre", sans-serif; }
+    .page-id-101 .posts-navigation a:focus {
+      border: 5px solid black; }
 
 .page-id-101 .owl-item {
   height: 320px; }
@@ -1688,11 +1692,7 @@ a:visited {
       -ms-flex-pack: distribute;
           justify-content: space-around;
       min-height: 180px;
-<<<<<<< HEAD
       background: #d87000; }
-=======
-      background: #bf6d0a; }
->>>>>>> c5e3748ec6dfe9bb88911605877a5ae52af8fb35
       .page-template-proposed-park .site-content .proposed-banner .banner-list {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1737,11 +1737,7 @@ a:visited {
               flex-direction: column; } }
 
 .page-template-proposed-park .site-content h2 {
-<<<<<<< HEAD
   color: #d87000;
-=======
-  color: #bf6d0a;
->>>>>>> c5e3748ec6dfe9bb88911605877a5ae52af8fb35
   font-family: "Miriam Libre", sans-serif;
   margin: 10px 0;
   line-height: 30px; }
@@ -1810,19 +1806,14 @@ a:visited {
   display: none; }
 
 .page-template-proposed-park .site-content .border {
-<<<<<<< HEAD
   border-top: 1px solid #d87000;
   border-left: 4px solid #d87000;
   border-bottom: 1px solid #d87000; }
-=======
-  border-top: 1px solid #bf6d0a;
-  border-left: 4px solid #bf6d0a;
-  border-bottom: 1px solid #bf6d0a; }
->>>>>>> c5e3748ec6dfe9bb88911605877a5ae52af8fb35
   @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .border {
       border-left: none;
-      border-top: none; } }
+      border-top: none;
+      border-bottom: none; } }
 
 .page-template-proposed-park .site-content .image img {
   max-width: -webkit-min-content;
@@ -3089,10 +3080,10 @@ a:visited {
           color: #d87000;
           font-family: "Miriam Libre", sans-serif;
           font-size: 20px; }
-      .menu-non-logo .menu1 .menu-menu-1-container ul .menu-item-106 {
-        background: #d87000; }
-        .menu-non-logo .menu1 .menu-menu-1-container ul .menu-item-106 a {
-          color: white; } }
+        .menu-non-logo .menu1 .menu-menu-1-container ul li .menu-item-106 {
+          background: #d87000; }
+          .menu-non-logo .menu1 .menu-menu-1-container ul li .menu-item-106 a {
+            color: white; } }
 
 /*! Flickity v2.0.10
 http://flickity.metafizzy.co

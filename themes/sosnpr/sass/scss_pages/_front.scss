@@ -2,7 +2,7 @@
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands.jpg) ;
   background-size: cover;
   background-repeat: no-repeat;
- 
+  
   background-position: bottom center;
   height:90vh;
   font-family:$miriam;
@@ -48,9 +48,13 @@
     a{
       color:white;
       text-decoration:none;
+      &:focus{
+      
     }
+    }
+    
   }
-
+  
 }
 
 .recent-updates-header{
@@ -61,15 +65,19 @@
 }
 
 .page-id-101{
-
+  
   .posts-navigation{
     display:flex;
     justify-content:space-around;
     a{
-        color:$brown_orange;
-        text-transform:uppercase;
-        font-family:$miriam;
+      color:$brown_orange;
+      text-transform:uppercase;
+      font-family:$miriam;
+      &:focus{
+        border: 5px solid black;
+      }
     }
+    
   }
   .owl-item{
     height:320px;
@@ -94,30 +102,30 @@
       margin-right:10px;
       
       background-color: rgba(0, 0, 0, 0.4);
-     
+      
       a{
         color:white;
         text-decoration:none;
       }
     }
   }
-
- .page-id-101{
-  .entry-header{
-    color:white;
-    font-family:$source;
-    position:absolute;
-    bottom:30px;
-    padding:10px;
-    font-size:12px;
-   
-    a{
+  
+  .page-id-101{
+    .entry-header{
       color:white;
-      text-decoration:none;
+      font-family:$source;
+      position:absolute;
+      bottom:30px;
+      padding:10px;
+      font-size:12px;
+      
+      a{
+        color:white;
+        text-decoration:none;
+      }
     }
   }
-}
-
+  
 }
 
 
@@ -126,7 +134,7 @@
     background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg) ;
     background-size: 100% 130%;
     background-repeat: no-repeat;
-   
+    
     background-position: bottom center;
     height:90vh;
     font-family:$miriam;
@@ -142,7 +150,7 @@
       font-size:20px;
       padding:20px;
     }
-
+    
   }
 }
 @media screen and (min-width: 1000px){
@@ -155,8 +163,8 @@
     flex-flow: column wrap;
     
     align-items: center;
-   
-      background-position: 30% 21%;
+    
+    background-position: 30% 21%;
     
     font-family:$miriam;
       h1{
