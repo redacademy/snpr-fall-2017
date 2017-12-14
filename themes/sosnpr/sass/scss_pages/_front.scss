@@ -6,7 +6,7 @@
   background-position: bottom center;
   height:90vh;
   font-family:$miriam;
-  padding-top:50px;
+  padding-top:20px;
   
   h1{
     color:$forest;
@@ -131,14 +131,18 @@
 
 @media screen and (min-width: 600px){
   .front-page-hero{
-    background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-quarter.jpg) ;
-    background-size: 100% 130%;
-    background-repeat: no-repeat;
+    background: url('../../sos_assets/error404/error404.jpg');
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
     
-    background-position: bottom center;
-    height:90vh;
+    align-items: center;
+    
+    background-position: 30% 21%;
     font-family:$miriam;
-    padding-top:50px;
+    padding-top:30px;
     h1{
       padding-top:15px;
       font-size:33px;
@@ -149,6 +153,9 @@
     h2{
       font-size:20px;
       padding:20px;
+    }
+    .learn-more-button{
+      font-size:25px;
     }
     
   }
@@ -172,6 +179,9 @@
       }
       h2{
         font-size:28px;
+      }
+      .learn-more-button{
+        font-size:30px;
       }
 
   }
