@@ -1238,7 +1238,7 @@ a:visited {
                 justify-content: center;
         border-bottom: #d87000 solid 2px;
         height: 20px;
-        width: 96vw; }
+        margin: 0 50px; }
         .page-template-about-us .divider .scroll-up {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -1444,7 +1444,7 @@ a:visited {
               justify-content: center;
       border-bottom: #d87000 solid 2px;
       height: 20px;
-      width: 96vw; }
+      margin: 0 50px; }
       .page-template-resources .divider .scroll-up {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1554,7 +1554,7 @@ a:visited {
   background-position: bottom center;
   height: 90vh;
   font-family: "Miriam Libre", sans-serif;
-  padding-top: 30px;
+  padding-top: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2163,7 +2163,7 @@ a:visited {
               justify-content: center;
       border-bottom: #d87000 solid 2px;
       height: 20px;
-      width: 96vw; }
+      margin: 0 50px; }
       .page-template-proposed-park .divider .scroll-up {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -2369,7 +2369,7 @@ a:visited {
               justify-content: center;
       border-bottom: #d87000 solid 2px;
       height: 20px;
-      width: 96vw; }
+      margin: 0 50px; }
       .page-template-resources .divider .scroll-up {
         display: -webkit-box;
         display: -ms-flexbox;
