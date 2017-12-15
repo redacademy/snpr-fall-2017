@@ -194,6 +194,8 @@
     }
   }
 
-  @include scroll-to-top{
+  @include scroll-circle{
+  }
+  @include scroll-half-circle{
   }
 }
