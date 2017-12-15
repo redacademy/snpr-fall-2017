@@ -100,7 +100,7 @@
       display: block;
     }
   }
-
+  
   .borders{
     border: $orange solid 1px;
     border-left: $orange solid 3px;
@@ -110,7 +110,7 @@
       display: none;
     }
   }
-
+  
   .fa-angle-right{
     padding-right: 6.5px;
     @include tablet{
@@ -130,10 +130,10 @@
       padding-left: 0px;
     }
   }
-
-  @include scroll-to-top-buttons-divider{
+  
+  @include scroll-to-top{
   }
-
+  
   .resources-ul{
     p{
       font-weight: 300;

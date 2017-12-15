@@ -213,12 +213,6 @@ get_header();
 
     </article>
 
-    <section class="divider">
-      <a href="#top" class="scroll-up-from-bottom">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-      </a>
-    </section>
-
   </main><!-- #main -->
 
 </div><!-- #primary -->
