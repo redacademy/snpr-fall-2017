@@ -1812,7 +1812,9 @@ a:visited {
 .page-template-proposed-park .site-content h2 {
   color: #d87000;
   font-family: "Miriam Libre", sans-serif;
+  font-weight: 100;
   margin: 10px 0;
+  text-transform: uppercase;
   line-height: 30px; }
   @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content h2 {
