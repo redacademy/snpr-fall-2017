@@ -106,6 +106,10 @@
       height: auto;
     }
     .proposed-hero {
+      padding-top: 50px;
+      @include tablet {
+        padding-top: 0;
+      }
       background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg);
       background-size: cover;
       background-repeat: no-repeat;
@@ -140,7 +144,6 @@
     .hide {
       display: none;
     }
-    
     .border {
       border-top: 1px solid $orange;
       border-left: 4px solid $orange;
@@ -156,7 +159,7 @@
         max-width: min-content;
       }
     } //land
-    .one {
+    .land {
       @include desktop {
         h2 {
           padding-bottom: 20px;
@@ -171,14 +174,13 @@
           .image {
             flex-basis: 50%;
             img {
-              min-height: 330px;
-              align-self: flex-end; // padding-left: 549px - 480px;
+              align-self: flex-end;
             }
           }
         }
       }
     } //location
-    .two {
+    .location {
       @include desktop {
         h2 {
           padding-bottom: 20px;
@@ -196,7 +198,7 @@
         }
       }
     } //regulations
-    .three {
+    .land-use {
       @include desktop {
         h2 {
           padding-bottom: 20px;
@@ -228,6 +230,7 @@
               flex-basis: 50%;
             }
             padding-left: 5%;
+            padding-bottom: 3%;
           }
           .content-container-three {
             flex-basis: 42%;
@@ -251,7 +254,7 @@
         }
       }
     } //why a national park
-    .four {
+    .why {
       @include desktop {
         .content-container {
           display: flex;
@@ -267,7 +270,7 @@
         }
       }
     } //ranch 
-    .five {
+    .ranch {
       @include desktop {
         .content-container {
           display: flex;
@@ -281,7 +284,7 @@
         }
       }
     } //human 
-    .six {
+    .human {
       @include desktop {
         .content-container {
           display: flex;
@@ -297,7 +300,7 @@
         }
       }
     } //ecological 
-    .seven {
+    .ecological {
       @include desktop {
         .content-container {
           display: flex;
@@ -311,7 +314,7 @@
         }
       }
     } //economic
-    .eight {
+    .economic {
       @include desktop {
         padding-bottom: 20px;
         h2 {
@@ -339,6 +342,9 @@
               background-image: url(../../sos_assets/pdf-first.svg);
               background-repeat: no-repeat;
               background-position: 50% 100%;
+              a {
+                padding-top: 150px;
+              }
             }
             .pdf-container:hover {
               background-image: url(../../sos_assets/pdf.svg);
@@ -352,7 +358,7 @@
         }
       }
     } //faq
-    .nine {
+    .faq {
       @include desktop {
         p {
           margin: 0;
@@ -398,8 +404,14 @@
       }
     }
   }
-  @include scroll-to-top-buttons-divider{
+<<<<<<< HEAD
+  @include scroll-to-top-buttons-divider {
+    i,
+    .fa-angle-up {
+=======
+  @include scroll-to-top{
     i, .fa-angle-up{
+>>>>>>> 41a8368d79e1d4fd0861acb1454f775bfef8b78b
       padding-right: 0px;
     }
   }
