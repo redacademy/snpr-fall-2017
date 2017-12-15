@@ -701,7 +701,7 @@ object {
     -ms-flex-line-pack: center;
         align-content: center;
     position: fixed;
-    bottom: 150px;
+    bottom: 90px;
     border-radius: 3%;
     max-width: 320px;
     max-height: 400px;
@@ -719,7 +719,8 @@ object {
         max-height: 430px;
         min-width: 430px;
         min-height: 430px;
-        background: #fff; } }
+        background: #fff;
+        bottom: 150px; } }
     .site-info .feedback .close {
       z-index: 2000;
       position: absolute;
@@ -2110,8 +2111,7 @@ a:visited {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
 
-.page-template-proposed-park i,
-.page-template-proposed-park .fa-angle-up {
+.page-template-proposed-park i, .page-template-proposed-park .fa-angle-up {
   padding-right: 0px; }
 
 .page-template-proposed-park .divider {

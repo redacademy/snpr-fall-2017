@@ -277,18 +277,7 @@ get_header();
 
     </article>
 
-<<<<<<< HEAD
-    <section class="divider">
-      <a href="#top" class="scroll-up-from-bottom">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-      </a>
-    </section>
-
-  </main>
-  <!-- #main -->
-=======
   </main><!-- #main -->
->>>>>>> 41a8368d79e1d4fd0861acb1454f775bfef8b78b
 
 </div>
 <!-- #primary -->
