@@ -8,7 +8,7 @@
   background-position: bottom center;
   height:90vh;
   font-family:$miriam;
-  padding-top:30px;
+  padding-top:35px;
   display:flex;
   flex-direction:column;
   h1{
@@ -49,6 +49,8 @@
     font-weight:100;
     font-family:$miriam;
     text-align:center;
+    padding-right:32px;
+    padding-left:32px;
     a{
       color:white;
       text-decoration:none;
@@ -79,7 +81,7 @@
   .posts-navigation{
     display:flex;
     justify-content:space-around;
-    padding-top:20px;
+    padding-top:15px;
     a{
       color:$brown_orange;
       text-transform:uppercase;
@@ -90,6 +92,10 @@
     }
     
   }
+  .owl-controls .owl-page span{
+    height:8px;
+    width:8px;
+  }
   .owl-item{
     height:320px;
   }
@@ -98,6 +104,9 @@
     height:320px; 
     overflow:hidden;
     
+    article{
+      border-radius:3px;
+    }
     img{
       height:auto;
       
@@ -113,11 +122,15 @@
       margin-right:10px;
       
       background: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,1));
-      
+      .entry-meta{
+      text-transform:uppercase;
+      }
       a{
         color:white;
         text-decoration:none;
+        line-height:1.6;
       }
+      
     }
   }
   
@@ -172,6 +185,12 @@
   }
 }
 @media screen and (min-width: 1000px){
+ 
+  .page-id-101{
+  .posts-navigation{
+    padding-top:20px;
+  }
+}
   .front-page-hero{
     background: url('../../sos_assets/error404/error404.jpg');
     background-size: cover;

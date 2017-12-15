@@ -28,10 +28,10 @@
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<p class="header-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri() . '/sos_assets/logo/svg/lines-rugged-orange.svg'?>" class="header-logo" alt="main site logo"></img></a></p>
+					<p class="header-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri() . '/sos_assets/logo/svg/favicon.svg'?>" class="header-logo" alt="main site logo"></a></p>
 				<div class="menu-non-logo">
 					<div class="search-icon"><?php get_search_form() ?></div>
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" alt="hamburger icon"><?php esc_html( 'Primary Menu' ); ?></button>
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" alt="hamburger icon"><i class="fa fa-bars" aria-hidden="true"></i><?php esc_html( 'Primary Menu' ); ?></button>
 					<div class="menu1">
 					
 					

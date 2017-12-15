@@ -28,7 +28,10 @@
     .stories-container {
       display: flex;
       flex-direction: column;
+
+      @include tablet {
       align-items: center;
+      }
       .journal-container {
         display: flex; // flex-wrap: wrap;
         position: relative;
@@ -39,6 +42,7 @@
         }
         img {
           margin-left: 20px;
+          
           height: auto;
           object-fit: cover;
           object-position: 80% 100%;
@@ -62,13 +66,8 @@
           }
         }
         .button-container {
-          // position: absolute;
-          // bottom: 5px;
-          // background: rgba(0, 0, 0, 0.6);
-          // border: none;
-          // width: 100%;
-          // max-height: 75px;
-          // min-height: 50%;
+          width: 100%;
+          
           @include tablet {
             position: absolute;
             bottom: 5px;
@@ -82,10 +81,11 @@
             min-height: 120px;
           }
           .post-title {
-            // max-width: 500px;
+            
             font-family: $miriam;
             font-weight: 100;
             text-transform: uppercase;
+            // min-width: 90%;
             max-width: 90%;
             font-size: 16px;
             font-weight: bold;
@@ -164,6 +164,7 @@
       }
     }
     .search-pagination {
+      align-self: center;
       margin-bottom: 20px;
       color: $orange;
       font-size: 25px;

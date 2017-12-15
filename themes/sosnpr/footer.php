@@ -7,10 +7,11 @@
 
 ?>
 
-			</div><!-- #content -->
+	</div>
+	<!-- #content -->
 
-			<footer id="colophon" class="site-footer" role="contentinfo">
-				<div class="site-info">
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
 
 <?php
 if ( ! is_active_sidebar( 'footer-1' ) ) {
@@ -47,15 +48,17 @@ if ( ! is_active_sidebar( 'footer-1' ) ) {
 			 <?php echo do_shortcode('[contact-form-7 id="100" title="Contact form 1"]'); ?>
       
 		</div>
-	
-				</div><!-- .site-info -->
-			</footer><!-- #colophon -->
-		</div><!-- #page -->
+		<!-- .site-info -->
+	</footer>
+	<!-- #colophon -->
+	</div>
+	<!-- #page -->
 
-		<?php wp_footer(); ?>
-		
-		
-		
-		
+	<?php wp_footer(); ?>
+
+
+
+
 	</body>
-</html>
+
+	</html>

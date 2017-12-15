@@ -9,7 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-    <div class="front-page-hero" alt="south okanagan grasslands landscape">
+    <div class="front-page-hero">
   <h1> <?php echo get_bloginfo( 'name' )?></h1>
   <h2 class="front-page-blurb"><?php echo get_bloginfo( 'description' )?> </h2>
   <button class="learn-more-button"><a href="<?php echo esc_url( get_permalink( get_page_by_path( 'Proposed Park' ) ) ); ?>">Learn More</a></button>
@@ -64,7 +64,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php 
-// get_sidebar(); 
-?>
 <?php get_footer(); ?>
