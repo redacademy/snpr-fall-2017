@@ -26,7 +26,7 @@ get_header();
           <a href="#first-nation-support">first nation support</a>
         </li>
         <li>
-          <a href="#community-support"> community support</a>
+          <a href="#community-support">community support</a>
         </li>
         <li>
           <a href="#government-support">government support</a>
