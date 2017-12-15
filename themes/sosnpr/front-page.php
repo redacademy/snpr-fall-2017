@@ -9,9 +9,9 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-    <div class="front-page-hero">
-  <h1> <span class="bold-title-span">South Okanagan SimilKameen</span> <span>National Park</span></h1>
-  <h2 class="front-page-blurb">A place where biodiversity is preserved for future generations to enjoy<h2>
+    <div class="front-page-hero" alt="south okanagan grasslands landscape">
+  <h1> <?php echo get_bloginfo( 'name' )?></h1>
+  <h2 class="front-page-blurb"><?php echo get_bloginfo( 'description' )?> </h2>
   <button class="learn-more-button"><a href="<?php echo esc_url( get_permalink( get_page_by_path( 'Proposed Park' ) ) ); ?>">Learn More</a></button>
 	</div>
 	<h1 class="recent-updates-header">Recent Updates</h1>

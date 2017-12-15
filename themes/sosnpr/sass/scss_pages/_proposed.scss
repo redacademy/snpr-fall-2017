@@ -106,6 +106,12 @@
       height: auto;
     }
     .proposed-hero {
+      padding-top: 50px;
+      
+      @include tablet {
+        padding-top: 0;
+      }
+      
       background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg);
       background-size: cover;
       background-repeat: no-repeat;
@@ -171,8 +177,9 @@
           .image {
             flex-basis: 50%;
             img {
-              min-height: 330px;
-              align-self: flex-end; // padding-left: 549px - 480px;
+              // min-height: 330px;
+              // align-self: flex-end; 
+              padding-left: 7%;
             }
           }
         }
@@ -223,11 +230,14 @@
             flex-basis: 42%;
             @media all and (min-width: 1100px) {
               flex-basis: 45%;
+             
             }
             @media all and (min-width: 1200px) {
               flex-basis: 50%;
+              
             }
             padding-left: 5%;
+            padding-bottom: 3%;
           }
           .content-container-three {
             flex-basis: 42%;

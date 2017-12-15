@@ -12,7 +12,7 @@
       h2 {
         text-align: center;
         font-size: 30px;
-        padding-top: 20px;
+        padding-top: 50px;
         color: #629749;
         text-transform: uppercase;
 
@@ -37,28 +37,60 @@
 
 
       .journal-container {
+        display: flex;
+        // flex-wrap: wrap;
         position: relative;
         margin-bottom: 50px;
         border: none;
+
+        @include tablet {
+          display: block;
+        }
+
         img {
+          margin-left: 20px;
+          height: auto;
+          object-fit: cover;
+          object-position: 80% 100%;
+          width: auto;
+          min-width: 150px;
+          max-width: 150px;
           min-height: 150px;
+          max-height: 150px;
+
+          @include tablet {
+            margin-left: 0;
+            min-height: 180px;
+            max-height: 180px;
+            min-width: 600px;
+            max-width: 600px;
+            
+          }
 
           @include desktop {
           min-width: 800px;
+          max-width: 800px;
+          min-height: 240px;
+          max-height: 240px;
           }
 
         }
         .button-container {
           
-          position: absolute;
-          bottom: 5px;
-          background: rgba(0, 0, 0, 0.6);
-          border: none;
-          width: 100%;
-          max-height: 75px;
-          min-height: 50%;
+          // position: absolute;
+          // bottom: 5px;
+          // background: rgba(0, 0, 0, 0.6);
+          // border: none;
+          // width: 100%;
+          // max-height: 75px;
+          // min-height: 50%;
 
           @include tablet {
+            position: absolute;
+            bottom: 5px;
+            border: none;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.6);
             min-height: 100px;
             max-height: 100px;
           }
@@ -68,16 +100,18 @@
           }
 
           .post-title {
-            max-width: 500px;
-            color: #fff;
+            // max-width: 500px;
+            
             font-family: $miriam;
             font-weight: 100;
             text-transform: uppercase;
-            max-width: 70%;
+            max-width: 80%;
             font-size: 14px;
             padding-left: 10px;
+            
 
             @include tablet {
+            color: #fff;
             padding-left: 20px;
             font-size: 15px;
             margin: 10px 0;
@@ -93,6 +127,7 @@
            
           }
           .read-more {
+            display: none;
             position: absolute;
             left: 70%;
             bottom: 10%;
@@ -109,7 +144,7 @@
             padding-top: 3px;
 
             @include tablet {
-            
+            display: inline-block;
             left: 450px;
             bottom: 30px;
             padding-top: 5px;
@@ -135,17 +170,18 @@
             opacity: 1;
           }
           .posted-on {
-            color: #fff;
+            color: gray;
             font-family: $miriam;
             font-size: 14px;
             padding-left: 20px;
             position: absolute;
-            bottom: 45%;
-            left: 70%;
-            max-width: 90px;
+            bottom: 0px;
+            left: 160px;
+            // max-width: 90px;
 
             
             @include tablet {
+              color: #fff;
               position: static;
             }
             
