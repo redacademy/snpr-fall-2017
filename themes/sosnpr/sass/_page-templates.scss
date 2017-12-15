@@ -2,162 +2,143 @@
 # Page Templates
 --------------------------------------------------------------*/
 
+
 /* Front page */
 
 //feedback form
-
-
 .site-info {
   display: flex;
   justify-content: center;
-
-  
-
-.feedback {
- z-index: 1000;
-  
-  .para {
+  .feedback {
+    z-index: 1000;
+    position: relative;
+    .para {
+      font-family: $source;
+      text-align: center;
+    }
+    p {
+      margin: 0;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    bottom: 150px;
+    border-radius: 3%;
+    max-width: 320px; //change
+    max-height: 400px;
+    @include tablet {
+      max-width: 450px;
+      max-height: 430px;
+      min-width: 430px;
+      min-height: 430px;
+      background: #fff;
+    }
+    background: none;
+    align-self: center;
+    .close {
+      z-index: 2000;
+      position: absolute;
+      background: none;
+      border: none;
+      box-shadow: none;
+      top: 7%;
+      right: 7%;
+      color: $brown-orange;
+      font-size: 20px;
+      @include tablet {
+        display: none;
+      }
+    }
+    .wpcf7 {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      border: 8px solid $orange;
+      border-radius: 3%;
+      max-width: 96%;
+      padding-top: 35px;
+      padding-bottom: 35px;
+      background: #fff;
+      @include tablet {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: none;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 90%;
+        margin: 0;
+        input:not(.wpcf7-submit) {
+          max-width: 260px; //change
+          min-width: 260px;
+          min-height: 40px;
+          @include tablet {
+            min-height: 50px;
+            min-width: 370px;
+          }
+          background: #F7F6F6;
+          font-family: $source;
+          padding-left: 10px;
+        }
+        textarea {
+          background: #F7F6F6;
+          font-family: $source;
+          padding-left: 10px;
+          max-height: 60px;
+          min-width: 260px; //change
+          max-width: 260px;
+          @include tablet {
+            max-height: 100px;
+            min-width: 370px;
+            max-width: 370px;
+          }
+        }
+        .wpcf7-submit {
+          margin-left: 56px;
+          @include tablet {
+            margin-left: 114px;
+          }
+          height: 50px;
+          width: 150px;
+          margin-top: 15px;
+          background: $orange;
+          color: #fff;
+          text-shadow: none;
+          box-shadow: none;
+          font-family: $source;
+          font-size: 20px;
+        }
+        .wpcf7-not-valid-tip {
+          color: $orange;
+          font-family: $source;
+        }
+      }
+    }
+  }
+  .no-see {
+    display: none;
+  }
+  .see {
+    display: flex;
+  }
+  .wpcf7-response-output {
+    margin: 0;
+    border: none;
     font-family: $source;
     text-align: center;
+    transition: all 1s ease-in;
   }
-
-  p {
-    margin: 0;
+  .center {
+    margin-bottom: 100px;
+    transition: all 2s ease-in;
   }
-  
-  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  position: fixed;
-  bottom: 80px;
-  border-radius: 3%;
-  max-width: 400px;
-  max-height: 430px;
-
-  @include tablet {
-  max-width: 450px;
-  max-height: 430px;
-  min-width: 430px;
-  min-height: 430px;
+  .response-width {
+    padding-right: 30px;
+    padding-left: 30px;
   }
-  
-  background: #fff;
-  align-self: center;
- 
-  .wpcf7 {
-     display: flex;
-    
-     justify-content: center;  
-     margin: 0;
-     border: 8px solid $orange;
-     border-radius: 3%;
-     max-width: 96%;
-    //  padding-top: 8px;
-    //  padding-bottom: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    
-     form {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       max-width: 90%;
-       margin: 0;
-      
-       
-       
-      input:not(.wpcf7-submit) {
-
-        max-width: 340px;
-        min-width: 340px;
-        min-height: 50px;
-
-        @include tablet {
-        min-height: 50px;
-        min-width: 370px;
-        }
-
-        background: #F7F6F6;
-        font-family: $source;
-        padding-left: 10px;
-      }
-
-     textarea {
-
-      background: #F7F6F6;
-      font-family: $source;
-      padding-left: 10px;
-      max-height: 100px;
-      min-width: 340px;
-      max-width: 340px;
-     
-
-      @include tablet {
-       max-height: 100px;
-       min-width: 370px;
-       max-width: 370px;
-       
-      }
-     }
-     .wpcf7-submit {
-       margin-left: 95px;
-
-      @include tablet {
-       margin-left: 114px;
-      }
-
-       height: 50px;
-       width: 150px;
-       margin-top: 15px;
-       background: $orange;
-       color: #fff;
-       text-shadow: none;
-       box-shadow: none;
-       font-family: $source;
-       font-size: 20px;
-      
-     }
-     .wpcf7-not-valid-tip {
-       color: $orange;
-       font-family: $source;
-     }
-   }
-  }
- }
-
- .no-see {
-   display: none;
- }
-
- .see {
-   display: flex;
- }
-
- .wpcf7-response-output {
-   margin: 0;
-   border: none;
-   font-family: $source;
-   text-align: center;
- }
-
- .center {
-   margin-bottom: 100px;
-   
- }
-
- .response-width {
-   padding-right: 30px;
-   padding-left: 30px;
- }
-
- 
 }
-
-
-
-
-
-

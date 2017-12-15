@@ -54,8 +54,6 @@ get_header();
       <a href="#top" class="scroll-up">
       <i class="fa fa-angle-up" aria-hidden="true"></i>
       </a>
-      <div class="divider-line">
-      </div>
     </section>
 
        <div class="prop-item two" id="location">
@@ -72,8 +70,6 @@ get_header();
     <a href="#top" class="scroll-up">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
-    <div class="divider-line">
-    </div>
   </section>
 
        <div class="prop-item three" id="land-use">
@@ -106,8 +102,6 @@ get_header();
     <a href="#top" class="scroll-up">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
-    <div class="divider-line">
-    </div>
   </section>
 
        <div class="prop-item four" id="why">
@@ -123,8 +117,6 @@ get_header();
     <a href="#top" class="scroll-up">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
-    <div class="divider-line">
-    </div>
   </section>
 
        <div class="prop-item five" id="ranch">
@@ -142,8 +134,6 @@ get_header();
     <a href="#top" class="scroll-up">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
-    <div class="divider-line">
-    </div>
   </section>
 
        <div class="prop-item six" id="human">
@@ -159,8 +149,6 @@ get_header();
     <a href="#top" class="scroll-up">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
-    <div class="divider-line">
-    </div>
   </section>
 
        <div class="prop-item seven" id="ecological">
@@ -178,8 +166,6 @@ get_header();
     <a href="#top" class="scroll-up">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
-    <div class="divider-line">
-    </div>
   </section>
 
        <div class="prop-item eight" id="economic">
@@ -201,8 +187,6 @@ get_header();
     <a href="#top" class="scroll-up">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
-    <div class="divider-line">
-    </div>
   </section>
 
        <div class="prop-item nine" id="faq">
