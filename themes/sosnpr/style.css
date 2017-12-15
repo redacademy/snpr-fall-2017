@@ -1066,7 +1066,7 @@ a:visited {
   font-family: "Miriam Libre", sans-serif; }
   .page-template-about-us .custom-hero {
     color: #285817;
-    background: url(../../sos_assets/about-us/mt-kobauproto.jpg) no-repeat center bottom;
+    background: url(../../sos_assets/about-us/about-us-banner-mobile.jpg) no-repeat center bottom;
     background-size: cover;
     height: 75vh;
     width: 100vw;
@@ -1096,12 +1096,12 @@ a:visited {
           max-width: 75%; }
     @media all and (min-width: 600px) {
       .page-template-about-us .custom-hero {
-        background: url(../../sos_assets/about-us/mt-kobau-quarter.jpg) no-repeat bottom -100px right 0;
+        background: url(../../sos_assets/about-us/about-us-banner-full.jpg) no-repeat bottom 0 right 0;
         background-size: cover;
         max-height: 80vh; } }
     @media all and (min-width: 1000px) {
       .page-template-about-us .custom-hero {
-        background-position: bottom -350px right 0;
+        background-position: bottom -160px right 0;
         max-height: 90vh; } }
   .page-template-about-us .about-us-page-navigation {
     list-style-type: none;

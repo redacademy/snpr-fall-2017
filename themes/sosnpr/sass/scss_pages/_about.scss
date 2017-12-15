@@ -3,7 +3,7 @@
   font-family: $miriam;
   .custom-hero{
     color: $forest;
-    background: url(../../sos_assets/about-us/mt-kobauproto.jpg) no-repeat center bottom;
+    background: url(../../sos_assets/about-us/about-us-banner-mobile.jpg) no-repeat center bottom;
     background-size: cover;
     height: 75vh;
     width: 100vw;
@@ -31,13 +31,13 @@
       }  
     }
     @include tablet{
-      background: url(../../sos_assets/about-us/mt-kobau-quarter.jpg) no-repeat bottom -100px right 0;
+      background: url(../../sos_assets/about-us/about-us-banner-full.jpg) no-repeat bottom 0 right 0;
       // background-position: 0 
       background-size: cover;
       max-height: 80vh;
     }
     @include desktop{
-      background-position: bottom -350px right 0;
+      background-position: bottom -160px right 0;
       max-height: 90vh;
     }
   }
