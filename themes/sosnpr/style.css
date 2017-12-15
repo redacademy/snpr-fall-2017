@@ -684,6 +684,7 @@ object {
           justify-content: center; }
   .site-info .feedback {
     z-index: 1000;
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -700,11 +701,11 @@ object {
     -ms-flex-line-pack: center;
         align-content: center;
     position: fixed;
-    bottom: 80px;
+    bottom: 150px;
     border-radius: 3%;
-    max-width: 400px;
-    max-height: 430px;
-    background: #fff;
+    max-width: 320px;
+    max-height: 400px;
+    background: none;
     -ms-flex-item-align: center;
         align-self: center; }
     .site-info .feedback .para {
@@ -717,7 +718,22 @@ object {
         max-width: 450px;
         max-height: 430px;
         min-width: 430px;
-        min-height: 430px; } }
+        min-height: 430px;
+        background: #fff; } }
+    .site-info .feedback .close {
+      z-index: 2000;
+      position: absolute;
+      background: none;
+      border: none;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      top: 7%;
+      right: 7%;
+      color: #bf6d0a;
+      font-size: 20px; }
+      @media all and (min-width: 600px) {
+        .site-info .feedback .close {
+          display: none; } }
     .site-info .feedback .wpcf7 {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -729,8 +745,14 @@ object {
       border: 8px solid #d87000;
       border-radius: 3%;
       max-width: 96%;
-      padding-top: 15px;
-      padding-bottom: 15px; }
+      padding-top: 35px;
+      padding-bottom: 35px;
+      background: #fff; }
+      @media all and (min-width: 600px) {
+        .site-info .feedback .wpcf7 {
+          padding-top: 15px;
+          padding-bottom: 15px;
+          background: none; } }
       .site-info .feedback .wpcf7 form {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -745,9 +767,9 @@ object {
         max-width: 90%;
         margin: 0; }
         .site-info .feedback .wpcf7 form input:not(.wpcf7-submit) {
-          max-width: 340px;
-          min-width: 340px;
-          min-height: 50px;
+          max-width: 260px;
+          min-width: 260px;
+          min-height: 40px;
           background: #F7F6F6;
           font-family: "Source Sans Pro", sans-serif;
           padding-left: 10px; }
@@ -759,16 +781,16 @@ object {
           background: #F7F6F6;
           font-family: "Source Sans Pro", sans-serif;
           padding-left: 10px;
-          max-height: 100px;
-          min-width: 340px;
-          max-width: 340px; }
+          max-height: 60px;
+          min-width: 260px;
+          max-width: 260px; }
           @media all and (min-width: 600px) {
             .site-info .feedback .wpcf7 form textarea {
               max-height: 100px;
               min-width: 370px;
               max-width: 370px; } }
         .site-info .feedback .wpcf7 form .wpcf7-submit {
-          margin-left: 95px;
+          margin-left: 56px;
           height: 50px;
           width: 150px;
           margin-top: 15px;
@@ -795,9 +817,13 @@ object {
     margin: 0;
     border: none;
     font-family: "Source Sans Pro", sans-serif;
-    text-align: center; }
+    text-align: center;
+    -webkit-transition: all 1s ease-in;
+    transition: all 1s ease-in; }
   .site-info .center {
-    margin-bottom: 100px; }
+    margin-bottom: 100px;
+    -webkit-transition: all 2s ease-in;
+    transition: all 2s ease-in; }
   .site-info .response-width {
     padding-right: 30px;
     padding-left: 30px; }
@@ -1775,12 +1801,16 @@ a:visited {
   height: auto; }
 
 .page-template-proposed-park .site-content .proposed-hero {
+  padding-top: 50px;
   background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
   height: 85vh;
   font-family: "Miriam Libre", sans-serif; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .site-content .proposed-hero {
+      padding-top: 0; } }
   @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .proposed-hero {
       background-image: url(../../sos_assets/proposed-park/horse.jpg); } }
@@ -1843,9 +1873,7 @@ a:visited {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%; }
         .page-template-proposed-park .site-content .one .content-container .image img {
-          min-height: 330px;
-          -ms-flex-item-align: end;
-              align-self: flex-end; } }
+          padding-left: 7%; } }
 
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .site-content .two h2 {
@@ -1893,7 +1921,8 @@ a:visited {
     .page-template-proposed-park .site-content .three .content-container .content-container-two {
       -ms-flex-preferred-size: 42%;
           flex-basis: 42%;
-      padding-left: 5%; } }
+      padding-left: 5%;
+      padding-bottom: 3%; } }
     @media all and (min-width: 1000px) and (min-width: 1100px) {
       .page-template-proposed-park .site-content .three .content-container .content-container-two {
         -ms-flex-preferred-size: 45%;
@@ -2691,7 +2720,7 @@ a:visited {
   .blog .site-content .updates-hero h2 {
     text-align: center;
     font-size: 30px;
-    padding-top: 20px;
+    padding-top: 50px;
     color: #629749;
     text-transform: uppercase; }
     @media all and (min-width: 600px) {
@@ -2715,102 +2744,126 @@ a:visited {
       -ms-flex-align: center;
           align-items: center; }
   .blog .site-content .stories-container .journal-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     position: relative;
     margin-bottom: 50px;
     border: none; }
+    @media all and (min-width: 600px) {
+      .blog .site-content .stories-container .journal-container {
+        display: block; } }
     .blog .site-content .stories-container .journal-container img {
-      min-height: 150px; }
+      margin-left: 20px;
+      height: auto;
+      -o-object-fit: cover;
+         object-fit: cover;
+      -o-object-position: 80% 100%;
+         object-position: 80% 100%;
+      width: auto;
+      min-width: 150px;
+      max-width: 150px;
+      min-height: 150px;
+      max-height: 150px; }
+      @media all and (min-width: 600px) {
+        .blog .site-content .stories-container .journal-container img {
+          margin-left: 0;
+          min-height: 180px;
+          max-height: 180px;
+          min-width: 600px;
+          max-width: 600px; } }
       @media all and (min-width: 1000px) {
         .blog .site-content .stories-container .journal-container img {
-          min-width: 800px; } }
-    .blog .site-content .stories-container .journal-container .button-container {
-      position: absolute;
-      bottom: 5px;
-      background: rgba(0, 0, 0, 0.6);
-      border: none;
-      width: 100%;
-      max-height: 75px;
-      min-height: 50%; }
+          min-width: 800px;
+          max-width: 800px;
+          min-height: 240px;
+          max-height: 240px; } }
+    @media all and (min-width: 600px) {
+      .blog .site-content .stories-container .journal-container .button-container {
+        position: absolute;
+        bottom: 5px;
+        border: none;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        min-height: 100px;
+        max-height: 100px; } }
+    @media all and (min-width: 1000px) {
+      .blog .site-content .stories-container .journal-container .button-container {
+        min-height: 120px; } }
+    .blog .site-content .stories-container .journal-container .button-container .post-title {
+      font-family: "Miriam Libre", sans-serif;
+      font-weight: 100;
+      text-transform: uppercase;
+      max-width: 80%;
+      font-size: 14px;
+      padding-left: 10px; }
       @media all and (min-width: 600px) {
-        .blog .site-content .stories-container .journal-container .button-container {
-          min-height: 100px;
-          max-height: 100px; } }
+        .blog .site-content .stories-container .journal-container .button-container .post-title {
+          color: #fff;
+          padding-left: 20px;
+          font-size: 15px;
+          margin: 10px 0;
+          max-width: 400px; } }
       @media all and (min-width: 1000px) {
-        .blog .site-content .stories-container .journal-container .button-container {
-          min-height: 120px; } }
-      .blog .site-content .stories-container .journal-container .button-container .post-title {
-        max-width: 500px;
-        color: #fff;
-        font-family: "Miriam Libre", sans-serif;
-        font-weight: 100;
-        text-transform: uppercase;
-        max-width: 70%;
-        font-size: 14px;
-        padding-left: 10px; }
-        @media all and (min-width: 600px) {
-          .blog .site-content .stories-container .journal-container .button-container .post-title {
-            padding-left: 20px;
-            font-size: 15px;
-            margin: 10px 0;
-            max-width: 400px; } }
-        @media all and (min-width: 1000px) {
-          .blog .site-content .stories-container .journal-container .button-container .post-title {
-            max-width: 500px;
-            padding-left: 20px;
-            margin: 20px 0;
-            font-size: 18px; } }
-      .blog .site-content .stories-container .journal-container .button-container .read-more {
-        position: absolute;
-        left: 70%;
-        bottom: 10%;
-        color: #fff;
-        background: #d87000;
-        -webkit-box-shadow: none;
-                box-shadow: none;
-        text-shadow: none;
-        font-size: 16px;
-        text-transform: uppercase;
-        border: 3px solid #fff;
-        border-radius: 5px;
-        opacity: 0.8;
-        font-family: "Miriam Libre", sans-serif;
-        padding-top: 3px; }
-        @media all and (min-width: 600px) {
-          .blog .site-content .stories-container .journal-container .button-container .read-more {
-            left: 450px;
-            bottom: 30px;
-            padding-top: 5px;
-            font-size: 16px;
-            text-transform: uppercase;
-            font-family: "Miriam Libre", sans-serif;
-            min-width: 140px;
-            border: 6px solid #fff;
-            border-radius: 5px; } }
-        @media all and (min-width: 1000px) {
-          .blog .site-content .stories-container .journal-container .button-container .read-more {
-            font-size: 20px;
-            min-width: 170px;
-            left: 600px;
-            bottom: 40px;
-            padding-top: 5px; } }
-      .blog .site-content .stories-container .journal-container .button-container .read-more:hover {
-        opacity: 1; }
-      .blog .site-content .stories-container .journal-container .button-container .posted-on {
-        color: #fff;
-        font-family: "Miriam Libre", sans-serif;
-        font-size: 14px;
-        padding-left: 20px;
-        position: absolute;
-        bottom: 45%;
-        left: 70%;
-        max-width: 90px; }
-        @media all and (min-width: 600px) {
-          .blog .site-content .stories-container .journal-container .button-container .posted-on {
-            position: static; } }
-        @media all and (min-width: 1000px) {
-          .blog .site-content .stories-container .journal-container .button-container .posted-on {
-            padding-left: 20px;
-            padding-bottom: 5px; } }
+        .blog .site-content .stories-container .journal-container .button-container .post-title {
+          max-width: 500px;
+          padding-left: 20px;
+          margin: 20px 0;
+          font-size: 18px; } }
+    .blog .site-content .stories-container .journal-container .button-container .read-more {
+      display: none;
+      position: absolute;
+      left: 70%;
+      bottom: 10%;
+      color: #fff;
+      background: #d87000;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      text-shadow: none;
+      font-size: 16px;
+      text-transform: uppercase;
+      border: 3px solid #fff;
+      border-radius: 5px;
+      opacity: 0.8;
+      font-family: "Miriam Libre", sans-serif;
+      padding-top: 3px; }
+      @media all and (min-width: 600px) {
+        .blog .site-content .stories-container .journal-container .button-container .read-more {
+          display: inline-block;
+          left: 450px;
+          bottom: 30px;
+          padding-top: 5px;
+          font-size: 16px;
+          text-transform: uppercase;
+          font-family: "Miriam Libre", sans-serif;
+          min-width: 140px;
+          border: 6px solid #fff;
+          border-radius: 5px; } }
+      @media all and (min-width: 1000px) {
+        .blog .site-content .stories-container .journal-container .button-container .read-more {
+          font-size: 20px;
+          min-width: 170px;
+          left: 600px;
+          bottom: 40px;
+          padding-top: 5px; } }
+    .blog .site-content .stories-container .journal-container .button-container .read-more:hover {
+      opacity: 1; }
+    .blog .site-content .stories-container .journal-container .button-container .posted-on {
+      color: gray;
+      font-family: "Miriam Libre", sans-serif;
+      font-size: 14px;
+      padding-left: 20px;
+      position: absolute;
+      bottom: 0px;
+      left: 160px; }
+      @media all and (min-width: 600px) {
+        .blog .site-content .stories-container .journal-container .button-container .posted-on {
+          color: #fff;
+          position: static; } }
+      @media all and (min-width: 1000px) {
+        .blog .site-content .stories-container .journal-container .button-container .posted-on {
+          padding-left: 20px;
+          padding-bottom: 5px; } }
 
 .blog .site-content .search-pagination {
   margin-bottom: 20px;

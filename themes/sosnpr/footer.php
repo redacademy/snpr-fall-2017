@@ -43,11 +43,11 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
      
      <div class="feedback no-see">
 			 
-			 
+			 <button class="close"> <i class="fa fa-times" aria-hidden="true"></i> </button>
 			 <?php echo do_shortcode('[contact-form-7 id="100" title="Contact form 1"]'); ?>
       
 		</div>
-		
+	
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
