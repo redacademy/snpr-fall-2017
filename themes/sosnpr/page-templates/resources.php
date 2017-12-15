@@ -59,8 +59,6 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide">
        <p><?php echo CFS()->get('reports');?></p>
-       <div class="borders"></div>
-      </div>
    </li>
 
 <div class="divider">
