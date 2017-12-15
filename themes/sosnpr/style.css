@@ -817,16 +817,34 @@ object {
     margin: 0;
     border: none;
     font-family: "Source Sans Pro", sans-serif;
-    text-align: center;
-    -webkit-transition: all 1s ease-in;
-    transition: all 1s ease-in; }
+    text-align: center; }
   .site-info .center {
-    margin-bottom: 100px;
-    -webkit-transition: all 2s ease-in;
-    transition: all 2s ease-in; }
+    margin-bottom: 100px; }
   .site-info .response-width {
     padding-right: 30px;
     padding-left: 30px; }
+  .site-info .fade-in {
+    opacity: 1;
+    -webkit-animation-name: fadeInOpacity;
+            animation-name: fadeInOpacity;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s; }
+
+@-webkit-keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 .widget-area {
   width: 100vw;
@@ -1867,7 +1885,7 @@ a:visited {
   max-width: min-content; }
 
 @media all and (min-width: 1000px) {
-  .page-template-proposed-park .site-content .one {
+  .page-template-proposed-park .site-content .land {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1875,172 +1893,173 @@ a:visited {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-    .page-template-proposed-park .site-content .one h2 {
+    .page-template-proposed-park .site-content .land h2 {
       padding-bottom: 20px; }
-    .page-template-proposed-park .site-content .one .content-container {
+    .page-template-proposed-park .site-content .land .content-container {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
-      .page-template-proposed-park .site-content .one .content-container .text {
+      .page-template-proposed-park .site-content .land .content-container .text {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%; }
-      .page-template-proposed-park .site-content .one .content-container .image {
+      .page-template-proposed-park .site-content .land .content-container .image {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%; }
-        .page-template-proposed-park .site-content .one .content-container .image img {
-          padding-left: 7%; } }
+        .page-template-proposed-park .site-content .land .content-container .image img {
+          -ms-flex-item-align: end;
+              align-self: flex-end; } }
 
 @media all and (min-width: 1000px) {
-  .page-template-proposed-park .site-content .two h2 {
+  .page-template-proposed-park .site-content .location h2 {
     padding-bottom: 20px; }
-  .page-template-proposed-park .site-content .two .content-container {
+  .page-template-proposed-park .site-content .location .content-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     padding-bottom: 25px; }
-    .page-template-proposed-park .site-content .two .content-container .text {
+    .page-template-proposed-park .site-content .location .content-container .text {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
-    .page-template-proposed-park .site-content .two .content-container .image {
+    .page-template-proposed-park .site-content .location .content-container .image {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
       padding-right: 5%; } }
 
 @media all and (min-width: 1000px) {
-  .page-template-proposed-park .site-content .three h2 {
+  .page-template-proposed-park .site-content .land-use h2 {
     padding-bottom: 20px; }
-  .page-template-proposed-park .site-content .three .content-container {
+  .page-template-proposed-park .site-content .land-use .content-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     padding-bottom: 30px; }
-    .page-template-proposed-park .site-content .three .content-container .content-container-one {
+    .page-template-proposed-park .site-content .land-use .content-container .content-container-one {
       -ms-flex-preferred-size: 42%;
           flex-basis: 42%;
       padding-bottom: 25px; } }
     @media all and (min-width: 1000px) and (min-width: 1100px) {
-      .page-template-proposed-park .site-content .three .content-container .content-container-one {
+      .page-template-proposed-park .site-content .land-use .content-container .content-container-one {
         -ms-flex-preferred-size: 45%;
             flex-basis: 45%; } }
     @media all and (min-width: 1000px) and (min-width: 1200px) {
-      .page-template-proposed-park .site-content .three .content-container .content-container-one {
+      .page-template-proposed-park .site-content .land-use .content-container .content-container-one {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%; } }
 
 @media all and (min-width: 1000px) {
-      .page-template-proposed-park .site-content .three .content-container .content-container-one .text:nth-child(2) {
+      .page-template-proposed-park .site-content .land-use .content-container .content-container-one .text:nth-child(2) {
         text-align: right;
         font-weight: bold; }
-    .page-template-proposed-park .site-content .three .content-container .content-container-two {
+    .page-template-proposed-park .site-content .land-use .content-container .content-container-two {
       -ms-flex-preferred-size: 42%;
           flex-basis: 42%;
       padding-left: 5%;
       padding-bottom: 3%; } }
     @media all and (min-width: 1000px) and (min-width: 1100px) {
-      .page-template-proposed-park .site-content .three .content-container .content-container-two {
+      .page-template-proposed-park .site-content .land-use .content-container .content-container-two {
         -ms-flex-preferred-size: 45%;
             flex-basis: 45%; } }
     @media all and (min-width: 1000px) and (min-width: 1200px) {
-      .page-template-proposed-park .site-content .three .content-container .content-container-two {
+      .page-template-proposed-park .site-content .land-use .content-container .content-container-two {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%; } }
 
 @media all and (min-width: 1000px) {
-    .page-template-proposed-park .site-content .three .content-container .content-container-three {
+    .page-template-proposed-park .site-content .land-use .content-container .content-container-three {
       -ms-flex-preferred-size: 42%;
           flex-basis: 42%; } }
     @media all and (min-width: 1000px) and (min-width: 1100px) {
-      .page-template-proposed-park .site-content .three .content-container .content-container-three {
+      .page-template-proposed-park .site-content .land-use .content-container .content-container-three {
         -ms-flex-preferred-size: 45%;
             flex-basis: 45%; } }
     @media all and (min-width: 1000px) and (min-width: 1200px) {
-      .page-template-proposed-park .site-content .three .content-container .content-container-three {
+      .page-template-proposed-park .site-content .land-use .content-container .content-container-three {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%; } }
 
 @media all and (min-width: 1000px) {
-    .page-template-proposed-park .site-content .three .content-container .content-container-four {
+    .page-template-proposed-park .site-content .land-use .content-container .content-container-four {
       -ms-flex-preferred-size: 42%;
           flex-basis: 42%;
       padding-left: 5%; } }
     @media all and (min-width: 1000px) and (min-width: 1100px) {
-      .page-template-proposed-park .site-content .three .content-container .content-container-four {
+      .page-template-proposed-park .site-content .land-use .content-container .content-container-four {
         -ms-flex-preferred-size: 45%;
             flex-basis: 45%; } }
     @media all and (min-width: 1000px) and (min-width: 1200px) {
-      .page-template-proposed-park .site-content .three .content-container .content-container-four {
+      .page-template-proposed-park .site-content .land-use .content-container .content-container-four {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%; } }
 
 @media all and (min-width: 1000px) {
-  .page-template-proposed-park .site-content .four .content-container {
+  .page-template-proposed-park .site-content .why .content-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .page-template-proposed-park .site-content .four .content-container .text {
+    .page-template-proposed-park .site-content .why .content-container .text {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
-    .page-template-proposed-park .site-content .four .content-container .image {
+    .page-template-proposed-park .site-content .why .content-container .image {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
-      .page-template-proposed-park .site-content .four .content-container .image img {
+      .page-template-proposed-park .site-content .why .content-container .image img {
         -ms-flex-item-align: end;
             align-self: flex-end; } }
 
 @media all and (min-width: 1000px) {
-  .page-template-proposed-park .site-content .five .content-container {
+  .page-template-proposed-park .site-content .ranch .content-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .page-template-proposed-park .site-content .five .content-container .image {
+    .page-template-proposed-park .site-content .ranch .content-container .image {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
-    .page-template-proposed-park .site-content .five .content-container .text {
+    .page-template-proposed-park .site-content .ranch .content-container .text {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
       padding-left: 2%; } }
 
 @media all and (min-width: 1000px) {
-  .page-template-proposed-park .site-content .six .content-container {
+  .page-template-proposed-park .site-content .human .content-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .page-template-proposed-park .site-content .six .content-container .image {
+    .page-template-proposed-park .site-content .human .content-container .image {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
-      .page-template-proposed-park .site-content .six .content-container .image img {
+      .page-template-proposed-park .site-content .human .content-container .image img {
         -ms-flex-item-align: end;
             align-self: flex-end; }
-    .page-template-proposed-park .site-content .six .content-container .text {
+    .page-template-proposed-park .site-content .human .content-container .text {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
 
 @media all and (min-width: 1000px) {
-  .page-template-proposed-park .site-content .seven .content-container {
+  .page-template-proposed-park .site-content .ecological .content-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .page-template-proposed-park .site-content .seven .content-container .image {
+    .page-template-proposed-park .site-content .ecological .content-container .image {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
-    .page-template-proposed-park .site-content .seven .content-container .text {
+    .page-template-proposed-park .site-content .ecological .content-container .text {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
       padding-left: 2%; } }
 
 @media all and (min-width: 1000px) {
-  .page-template-proposed-park .site-content .eight {
+  .page-template-proposed-park .site-content .economic {
     padding-bottom: 20px; }
-    .page-template-proposed-park .site-content .eight h2 {
+    .page-template-proposed-park .site-content .economic h2 {
       margin: 0;
       padding: 30px 0 0 0; }
-    .page-template-proposed-park .site-content .eight .content-container {
+    .page-template-proposed-park .site-content .economic .content-container {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
-      .page-template-proposed-park .site-content .eight .content-container .image {
+      .page-template-proposed-park .site-content .economic .content-container .image {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%;
         position: relative;
@@ -2051,10 +2070,10 @@ a:visited {
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column; }
-        .page-template-proposed-park .site-content .eight .content-container .image a {
+        .page-template-proposed-park .site-content .economic .content-container .image a {
           color: #2E84E6;
           font-family: "Source Sans Pro", sans-serif; }
-        .page-template-proposed-park .site-content .eight .content-container .image .pdf-container {
+        .page-template-proposed-park .site-content .economic .content-container .image .pdf-container {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -2072,60 +2091,63 @@ a:visited {
           background-image: url(../../sos_assets/pdf-first.svg);
           background-repeat: no-repeat;
           background-position: 50% 100%; }
-        .page-template-proposed-park .site-content .eight .content-container .image .pdf-container:hover {
+          .page-template-proposed-park .site-content .economic .content-container .image .pdf-container a {
+            padding-top: 150px; }
+        .page-template-proposed-park .site-content .economic .content-container .image .pdf-container:hover {
           background-image: url(../../sos_assets/pdf.svg); }
-      .page-template-proposed-park .site-content .eight .content-container .text {
+      .page-template-proposed-park .site-content .economic .content-container .text {
         margin-top: 10px;
         padding-top: 25px;
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%; } }
 
 @media all and (min-width: 1000px) {
-  .page-template-proposed-park .site-content .nine p {
+  .page-template-proposed-park .site-content .faq p {
     margin: 0; }
-  .page-template-proposed-park .site-content .nine .content-container-one {
+  .page-template-proposed-park .site-content .faq .content-container-one {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     padding-bottom: 15px; }
-    .page-template-proposed-park .site-content .nine .content-container-one .image {
+    .page-template-proposed-park .site-content .faq .content-container-one .image {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
-      .page-template-proposed-park .site-content .nine .content-container-one .image img {
+      .page-template-proposed-park .site-content .faq .content-container-one .image img {
         -ms-flex-item-align: end;
             align-self: flex-end; }
-    .page-template-proposed-park .site-content .nine .content-container-one .text {
+    .page-template-proposed-park .site-content .faq .content-container-one .text {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
-  .page-template-proposed-park .site-content .nine .content-container-two {
+  .page-template-proposed-park .site-content .faq .content-container-two {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     padding-bottom: 20px; }
-    .page-template-proposed-park .site-content .nine .content-container-two .image {
+    .page-template-proposed-park .site-content .faq .content-container-two .image {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
-    .page-template-proposed-park .site-content .nine .content-container-two .text {
+    .page-template-proposed-park .site-content .faq .content-container-two .text {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
       padding-left: 2%; }
-  .page-template-proposed-park .site-content .nine .content-container-three {
+  .page-template-proposed-park .site-content .faq .content-container-three {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .page-template-proposed-park .site-content .nine .content-container-three .image {
+    .page-template-proposed-park .site-content .faq .content-container-three .image {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
-      .page-template-proposed-park .site-content .nine .content-container-three .image img {
+      .page-template-proposed-park .site-content .faq .content-container-three .image img {
         -ms-flex-item-align: end;
             align-self: flex-end;
         height: 100%;
         width: 100%; }
-    .page-template-proposed-park .site-content .nine .content-container-three .text {
+    .page-template-proposed-park .site-content .faq .content-container-three .text {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
 
-.page-template-proposed-park i, .page-template-proposed-park .fa-angle-up {
+.page-template-proposed-park i,
+.page-template-proposed-park .fa-angle-up {
   padding-right: 0px; }
 
 .page-template-proposed-park .divider {
@@ -2806,8 +2828,9 @@ a:visited {
       font-family: "Miriam Libre", sans-serif;
       font-weight: 100;
       text-transform: uppercase;
-      max-width: 80%;
-      font-size: 14px;
+      max-width: 90%;
+      font-size: 16px;
+      font-weight: bold;
       padding-left: 10px; }
       @media all and (min-width: 600px) {
         .blog .site-content .stories-container .journal-container .button-container .post-title {
