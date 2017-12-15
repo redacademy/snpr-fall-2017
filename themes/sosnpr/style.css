@@ -1250,24 +1250,6 @@ a:visited {
           font-weight: 100;
           color: white;
           z-index: 200; }
-        .page-template-about-us .divider .scroll-up-from-bottom {
-          position: relative;
-          background: #555454;
-          border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          padding: 5px 10px;
-          width: 60px;
-          height: 50px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
-          z-index: 200; }
-          .page-template-about-us .divider .scroll-up-from-bottom a, .page-template-about-us .divider .scroll-up-from-bottom .fa {
-            color: white;
-            text-decoration: none;
-            font-size: 3rem; }
         .page-template-about-us .divider a, .page-template-about-us .divider .fa {
           color: white;
           text-decoration: none; } }
@@ -1464,24 +1446,6 @@ a:visited {
         font-weight: 100;
         color: white;
         z-index: 200; }
-      .page-template-resources .divider .scroll-up-from-bottom {
-        position: relative;
-        background: #555454;
-        border-radius: 30px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        padding: 5px 10px;
-        width: 60px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 200; }
-        .page-template-resources .divider .scroll-up-from-bottom a, .page-template-resources .divider .scroll-up-from-bottom .fa {
-          color: white;
-          text-decoration: none;
-          font-size: 3rem; }
       .page-template-resources .divider a, .page-template-resources .divider .fa {
         color: white;
         text-decoration: none; } }
@@ -2175,24 +2139,6 @@ a:visited {
         font-weight: 100;
         color: white;
         z-index: 200; }
-      .page-template-proposed-park .divider .scroll-up-from-bottom {
-        position: relative;
-        background: #555454;
-        border-radius: 30px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        padding: 5px 10px;
-        width: 60px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 200; }
-        .page-template-proposed-park .divider .scroll-up-from-bottom a, .page-template-proposed-park .divider .scroll-up-from-bottom .fa {
-          color: white;
-          text-decoration: none;
-          font-size: 3rem; }
       .page-template-proposed-park .divider a, .page-template-proposed-park .divider .fa {
         color: white;
         text-decoration: none; } }
@@ -2389,24 +2335,6 @@ a:visited {
         font-weight: 100;
         color: white;
         z-index: 200; }
-      .page-template-resources .divider .scroll-up-from-bottom {
-        position: relative;
-        background: #555454;
-        border-radius: 30px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        padding: 5px 10px;
-        width: 60px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 200; }
-        .page-template-resources .divider .scroll-up-from-bottom a, .page-template-resources .divider .scroll-up-from-bottom .fa {
-          color: white;
-          text-decoration: none;
-          font-size: 3rem; }
       .page-template-resources .divider a, .page-template-resources .divider .fa {
         color: white;
         text-decoration: none; } }

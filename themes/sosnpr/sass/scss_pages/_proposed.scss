@@ -404,9 +404,14 @@
       }
     }
   }
+<<<<<<< HEAD
   @include scroll-to-top-buttons-divider {
     i,
     .fa-angle-up {
+=======
+  @include scroll-to-top{
+    i, .fa-angle-up{
+>>>>>>> 41a8368d79e1d4fd0861acb1454f775bfef8b78b
       padding-right: 0px;
     }
   }
