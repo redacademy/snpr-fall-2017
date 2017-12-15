@@ -1625,7 +1625,7 @@ a:visited {
     .page-id-101 .posts-navigation a:focus {
       border: 5px solid black; }
 
-.page-id-101 .owl-controls .owl-page span {
+.page-id-101 .owl-theme .owl-controls .owl-page span {
   height: 8px;
   width: 8px; }
 
@@ -1697,9 +1697,18 @@ a:visited {
       font-size: 20px;
       padding: 20px; }
     .front-page-hero .learn-more-button {
-      font-size: 25px; } }
+      font-size: 25px; }
+  .page-id-101 .owl-theme .owl-controls .owl-page span {
+    height: 8px;
+    width: 8px; }
+  .page-id-101 .carousel-cell .entry-header a {
+    line-height: 1; } }
 
 @media screen and (min-width: 1000px) {
+  .page-id-101 .posts-navigation {
+    padding-top: 25px; }
+  .page-id-101 .carousel-cell .entry-header a {
+    line-height: 1; }
   .front-page-hero {
     background: url("../../sos_assets/error404/error404.jpg");
     background-size: cover;

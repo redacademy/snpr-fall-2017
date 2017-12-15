@@ -92,7 +92,7 @@
     }
     
   }
-  .owl-controls .owl-page span{
+  .owl-theme .owl-controls .owl-page span {
     height:8px;
     width:8px;
   }
@@ -183,12 +183,37 @@
     }
     
   }
+  .page-id-101{
+    .owl-theme .owl-controls .owl-page span{
+      height:8px;
+      width:8px;
+    }
+  }
+  .page-id-101{
+    
+  
+    .carousel-cell{
+      .entry-header{
+        a{
+          line-height:1;
+        }
+      }
+    }
+  }
 }
 @media screen and (min-width: 1000px){
  
   .page-id-101{
   .posts-navigation{
-    padding-top:20px;
+    padding-top:25px;
+  }
+
+  .carousel-cell{
+    .entry-header{
+      a{
+        line-height:1;
+      }
+    }
   }
 }
   .front-page-hero{
