@@ -2,7 +2,7 @@
 /**
  * The template for displaying comments.
  *
- * @package sosnpr_Theme
+ * @package SOSNPR_Theme
  */
 
 /*

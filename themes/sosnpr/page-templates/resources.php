@@ -7,7 +7,7 @@ get_header();
 ?>
 <div id="primary" class="content-area">
   <main id="main" class="site-main" role="main">
-  <header id="top" class="resources-hero">
+  <header id="top" class="resources-hero" alt="mountain-landscape">
   
      <?php while ( have_posts() ) : the_post(); ?>
 
@@ -59,8 +59,6 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide">
        <p><?php echo CFS()->get('reports');?></p>
-       <div class="borders"></div>
-      </div>
    </li>
 
 <div class="divider">
@@ -104,7 +102,7 @@ get_header();
    <h2 class="resources-heading">
    <i class="fa fa-angle-right"></i>
    <i class="fa fa-angle-down"></i>
-     <?php edivops['label'];?></h2>
+     <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('books');?></p></div>
      </li>
 

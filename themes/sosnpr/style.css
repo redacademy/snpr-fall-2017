@@ -1060,7 +1060,7 @@ object {
 
 a,
 a:visited {
-  color: #285817; }
+  color: #fff; }
 
 .page-template-about-us {
   font-family: "Miriam Libre", sans-serif; }
@@ -1238,22 +1238,32 @@ a:visited {
                 justify-content: center;
         border-bottom: #d87000 solid 2px;
         height: 20px;
-        width: 96vw; }
+        margin: 0 50px; }
         .page-template-about-us .divider .scroll-up {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
           position: relative;
+          top: -7px;
           background: #555454;
           border-radius: 30px;
-          padding: 5px 10px;
           width: 50px;
           height: 50px;
           text-align: center;
           font-size: 35px;
           font-weight: 100;
           color: white;
-          z-index: 200; }
+          z-index: 10; }
         .page-template-about-us .divider a, .page-template-about-us .divider .fa {
           color: white;
-          text-decoration: none; } }
+          text-decoration: none;
+          padding: 0; } }
 
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
@@ -1434,22 +1444,32 @@ a:visited {
               justify-content: center;
       border-bottom: #d87000 solid 2px;
       height: 20px;
-      width: 96vw; }
+      margin: 0 50px; }
       .page-template-resources .divider .scroll-up {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         position: relative;
+        top: -7px;
         background: #555454;
         border-radius: 30px;
-        padding: 5px 10px;
         width: 50px;
         height: 50px;
         text-align: center;
         font-size: 35px;
         font-weight: 100;
         color: white;
-        z-index: 200; }
+        z-index: 10; }
       .page-template-resources .divider a, .page-template-resources .divider .fa {
         color: white;
-        text-decoration: none; } }
+        text-decoration: none;
+        padding: 0; } }
 
 .page-template-resources .resources-ul p {
   font-weight: 300;
@@ -1534,7 +1554,11 @@ a:visited {
   background-position: bottom center;
   height: 90vh;
   font-family: "Miriam Libre", sans-serif;
+<<<<<<< HEAD
   padding-top: 30px;
+=======
+  padding-top: 35px;
+>>>>>>> 119625b3102d6829c4080c6fae848f0519554b21
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2156,22 +2180,32 @@ a:visited {
               justify-content: center;
       border-bottom: #d87000 solid 2px;
       height: 20px;
-      width: 96vw; }
+      margin: 0 50px; }
       .page-template-proposed-park .divider .scroll-up {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         position: relative;
+        top: -7px;
         background: #555454;
         border-radius: 30px;
-        padding: 5px 10px;
         width: 50px;
         height: 50px;
         text-align: center;
         font-size: 35px;
         font-weight: 100;
         color: white;
-        z-index: 200; }
+        z-index: 10; }
       .page-template-proposed-park .divider a, .page-template-proposed-park .divider .fa {
         color: white;
-        text-decoration: none; } }
+        text-decoration: none;
+        padding: 0; } }
 
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
@@ -2352,22 +2386,32 @@ a:visited {
               justify-content: center;
       border-bottom: #d87000 solid 2px;
       height: 20px;
-      width: 96vw; }
+      margin: 0 50px; }
       .page-template-resources .divider .scroll-up {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         position: relative;
+        top: -7px;
         background: #555454;
         border-radius: 30px;
-        padding: 5px 10px;
         width: 50px;
         height: 50px;
         text-align: center;
         font-size: 35px;
         font-weight: 100;
         color: white;
-        z-index: 200; }
+        z-index: 10; }
       .page-template-resources .divider a, .page-template-resources .divider .fa {
         color: white;
-        text-decoration: none; } }
+        text-decoration: none;
+        padding: 0; } }
 
 .page-template-resources .resources-ul p {
   font-weight: 300;

@@ -2,7 +2,7 @@
 /**
  * The main template file.
  *
- * @package sosnpr_Theme
+ * @package SOSNPR_Theme
  */
 
 get_header(); ?>
@@ -64,5 +64,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
