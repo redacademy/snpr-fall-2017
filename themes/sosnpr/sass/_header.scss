@@ -2,7 +2,7 @@
   display:flex;
   justify-content:space-between;
   background-color:white;
-  min-height:50px;
+  min-height:40px;
   align-content:center;
   align-items:center;
   width:100%;
@@ -51,8 +51,7 @@
           color:white;
           text-align:center;
         }
-        //   background:$main_orange;
-        // }
+        border-radius:3px;
         background:$orange;
       }//.menu-item-106
     }//ul
