@@ -1526,10 +1526,22 @@ a:visited {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   background-position: bottom center;
   height: 90vh;
   font-family: "Miriam Libre", sans-serif;
-  padding-top: 27px; }
+  padding-top: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
   .front-page-hero h1 {
     color: #285817;
     font-family: "Miriam Libre", sans-serif;
@@ -1561,7 +1573,8 @@ a:visited {
             box-shadow: none;
     padding: 24px;
     font-weight: 100;
-    font-family: "Miriam Libre", sans-serif; }
+    font-family: "Miriam Libre", sans-serif;
+    text-align: center; }
     .front-page-hero .learn-more-button a {
       color: white;
       text-decoration: none; }
@@ -1570,15 +1583,19 @@ a:visited {
   text-align: center;
   font-family: "Miriam Libre", sans-serif;
   text-transform: uppercase;
-  color: #bf6d0a;
-  padding-top: 13px; }
+  padding-top: 28px;
+  padding-bottom: 13px; }
+  .recent-updates-header a {
+    color: #d87000;
+    text-decoration: none; }
 
 .page-id-101 .posts-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around; }
+      justify-content: space-around;
+  padding-top: 20px; }
   .page-id-101 .posts-navigation a {
     color: #bf6d0a;
     text-transform: uppercase;

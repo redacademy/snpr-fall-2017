@@ -14,7 +14,7 @@ get_header(); ?>
   <h2 class="front-page-blurb"><?php echo get_bloginfo( 'description' )?> </h2>
   <button class="learn-more-button"><a href="<?php echo esc_url( get_permalink( get_page_by_path( 'Proposed Park' ) ) ); ?>">Learn More</a></button>
 	</div>
-	<h1 class="recent-updates-header">Recent Updates</h1>
+	<h1 class="recent-updates-header"><a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">Recent Updates</a></h1>
   <div class="owl-carousel">
 		<?php query_posts(array(
 'category__not_in' => array(),
