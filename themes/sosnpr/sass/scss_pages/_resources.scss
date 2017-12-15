@@ -131,7 +131,7 @@
     }
   }
   
-  @include scroll-to-top{
+  @include scroll-circle{
   }
   
   .resources-ul{
@@ -181,5 +181,6 @@
       }
     }
   }
-  
+  @include scroll-half-circle{
+  }
 }

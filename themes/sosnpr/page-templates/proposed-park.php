@@ -57,7 +57,7 @@ get_header();
         <!-- close one -->
 
         <section class="divider">
-          <a href="#top" class="scroll-up">
+          <a href="#top" class="scroll-circle">
       <i class="fa fa-angle-up" aria-hidden="true"></i>
       </a>
         </section>
@@ -78,7 +78,7 @@ get_header();
         <!-- close two -->
 
         <section class="divider">
-          <a href="#top" class="scroll-up">
+          <a href="#top" class="scroll-circle">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
         </section>
@@ -124,7 +124,7 @@ get_header();
         <!-- close three -->
 
         <section class="divider">
-          <a href="#top" class="scroll-up">
+          <a href="#top" class="scroll-circle">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
         </section>
@@ -144,7 +144,7 @@ get_header();
         <!-- closes four-->
 
         <section class="divider">
-          <a href="#top" class="scroll-up">
+          <a href="#top" class="scroll-circle">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
         </section>
@@ -167,7 +167,7 @@ get_header();
         <!-- closes five -->
 
         <section class="divider">
-          <a href="#top" class="scroll-up">
+          <a href="#top" class="scroll-circle">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
         </section>
@@ -188,7 +188,7 @@ get_header();
         <!-- closes six -->
 
         <section class="divider">
-          <a href="#top" class="scroll-up">
+          <a href="#top" class="scroll-circle">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
         </section>
@@ -211,7 +211,7 @@ get_header();
         <!-- closes seven -->
 
         <section class="divider">
-          <a href="#top" class="scroll-up">
+          <a href="#top" class="scroll-circle">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
         </section>
@@ -238,7 +238,7 @@ get_header();
         <!-- closes eight -->
 
         <section class="divider">
-          <a href="#top" class="scroll-up">
+          <a href="#top" class="scroll-circle">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
         </section>
@@ -276,6 +276,12 @@ get_header();
       </section>
 
     </article>
+
+  <div class="divider-clear">
+    <a href="#top" class="scroll-half-circle">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </a>
+  </div>
 
   </main>
   <!-- #main -->

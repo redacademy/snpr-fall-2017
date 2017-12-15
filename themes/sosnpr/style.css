@@ -1239,7 +1239,7 @@ a:visited {
         border-bottom: #d87000 solid 2px;
         height: 20px;
         margin: 0 50px; }
-        .page-template-about-us .divider .scroll-up {
+        .page-template-about-us .divider .scroll-circle {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -1261,6 +1261,41 @@ a:visited {
           color: white;
           z-index: 10; }
         .page-template-about-us .divider a, .page-template-about-us .divider .fa {
+          color: white;
+          text-decoration: none;
+          padding-bottom: 3px; } }
+  .page-template-about-us .divider-clear {
+    display: none; }
+    @media all and (min-width: 600px) {
+      .page-template-about-us .divider-clear {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .page-template-about-us .divider-clear .scroll-half-circle {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          background: #555454;
+          border-radius: 30px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          width: 55px;
+          height: 40px;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 100;
+          color: white;
+          z-index: 10; }
+        .page-template-about-us .divider-clear a, .page-template-about-us .divider-clear .fa {
           color: white;
           text-decoration: none;
           padding: 0; } }
@@ -1445,7 +1480,7 @@ a:visited {
       border-bottom: #d87000 solid 2px;
       height: 20px;
       margin: 0 50px; }
-      .page-template-resources .divider .scroll-up {
+      .page-template-resources .divider .scroll-circle {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1469,7 +1504,7 @@ a:visited {
       .page-template-resources .divider a, .page-template-resources .divider .fa {
         color: white;
         text-decoration: none;
-        padding: 0; } }
+        padding-bottom: 3px; } }
 
 .page-template-resources .resources-ul p {
   font-weight: 300;
@@ -1542,6 +1577,42 @@ a:visited {
         max-width: 40vw;
         margin-left: 5rem; } }
 
+.page-template-resources .divider-clear {
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .divider-clear {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .page-template-resources .divider-clear .scroll-half-circle {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background: #555454;
+        border-radius: 30px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 55px;
+        height: 40px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        z-index: 10; }
+      .page-template-resources .divider-clear a, .page-template-resources .divider-clear .fa {
+        color: white;
+        text-decoration: none;
+        padding: 0; } }
+
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands.jpg);
   background-size: cover;
@@ -1554,11 +1625,7 @@ a:visited {
   background-position: bottom center;
   height: 90vh;
   font-family: "Miriam Libre", sans-serif;
-<<<<<<< HEAD
-  padding-top: 30px;
-=======
   padding-top: 35px;
->>>>>>> 119625b3102d6829c4080c6fae848f0519554b21
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2181,7 +2248,7 @@ a:visited {
       border-bottom: #d87000 solid 2px;
       height: 20px;
       margin: 0 50px; }
-      .page-template-proposed-park .divider .scroll-up {
+      .page-template-proposed-park .divider .scroll-circle {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -2203,6 +2270,46 @@ a:visited {
         color: white;
         z-index: 10; }
       .page-template-proposed-park .divider a, .page-template-proposed-park .divider .fa {
+        color: white;
+        text-decoration: none;
+        padding-bottom: 3px; } }
+
+.page-template-proposed-park i,
+.page-template-proposed-park .fa-angle-up {
+  padding-right: 0px; }
+
+.page-template-proposed-park .divider-clear {
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .divider-clear {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .page-template-proposed-park .divider-clear .scroll-half-circle {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background: #555454;
+        border-radius: 30px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 55px;
+        height: 40px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        z-index: 10; }
+      .page-template-proposed-park .divider-clear a, .page-template-proposed-park .divider-clear .fa {
         color: white;
         text-decoration: none;
         padding: 0; } }
@@ -2387,7 +2494,7 @@ a:visited {
       border-bottom: #d87000 solid 2px;
       height: 20px;
       margin: 0 50px; }
-      .page-template-resources .divider .scroll-up {
+      .page-template-resources .divider .scroll-circle {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -2411,7 +2518,7 @@ a:visited {
       .page-template-resources .divider a, .page-template-resources .divider .fa {
         color: white;
         text-decoration: none;
-        padding: 0; } }
+        padding-bottom: 3px; } }
 
 .page-template-resources .resources-ul p {
   font-weight: 300;
@@ -2483,6 +2590,42 @@ a:visited {
                 flex-flow: column wrap;
         max-width: 40vw;
         margin-left: 5rem; } }
+
+.page-template-resources .divider-clear {
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .divider-clear {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .page-template-resources .divider-clear .scroll-half-circle {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background: #555454;
+        border-radius: 30px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 55px;
+        height: 40px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        z-index: 10; }
+      .page-template-resources .divider-clear a, .page-template-resources .divider-clear .fa {
+        color: white;
+        text-decoration: none;
+        padding: 0; } }
 
 .search-results .page-title {
   padding: 50px 0;

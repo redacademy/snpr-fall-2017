@@ -62,7 +62,7 @@ get_header();
    </li>
 
 <div class="divider">
-  <a href="#top" class="scroll-up">
+  <a href="#top" class="scroll-circle">
   <i class="fa fa-angle-up" aria-hidden="true"></i>
   </a>
 </div>
@@ -77,7 +77,7 @@ get_header();
      </li>
 
 <div class="divider">
-  <a href="#top" class="scroll-up">
+  <a href="#top" class="scroll-circle">
   <i class="fa fa-angle-up" aria-hidden="true"></i>
   </a>
 </div>
@@ -92,7 +92,7 @@ get_header();
      </li>
 
 <div class="divider">
-  <a href="#top" class="scroll-up">
+  <a href="#top" class="scroll-circle">
   <i class="fa fa-angle-up" aria-hidden="true"></i>
   </a>
 </div>
@@ -107,7 +107,7 @@ get_header();
      </li>
 
 <div class="divider">
-  <a href="#top" class="scroll-up">
+  <a href="#top" class="scroll-circle">
   <i class="fa fa-angle-up" aria-hidden="true"></i>
   </a>
 </div>
@@ -122,7 +122,7 @@ get_header();
      </li>
 
 <div class="divider">
-  <a href="#top" class="scroll-up">
+  <a href="#top" class="scroll-circle">
   <i class="fa fa-angle-up" aria-hidden="true"></i>
   </a>
 </div>
@@ -137,7 +137,7 @@ get_header();
      </li>
 
   <div class="divider">
-  <a href="#top" class="scroll-up">
+  <a href="#top" class="scroll-circle">
   <i class="fa fa-angle-up" aria-hidden="true"></i>
   </a>
   </div>
@@ -159,6 +159,16 @@ get_header();
 </div>
 </div>
  </ul>
+ 
+  </div>
+ <div class="divider-clear">
+    <a href="#top" class="scroll-half-circle">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </a>
+  </div>
+
+
+  
 
 </main><!-- #main -->
 
