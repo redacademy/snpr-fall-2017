@@ -51,9 +51,4 @@ get_header(); ?>
 	</div>
 	<!-- #primary -->
 
-<<<<<<< HEAD
-	<?php get_sidebar(); ?>
-	<?php get_footer(); ?>
-=======
 <?php get_footer(); ?>
->>>>>>> 119625b3102d6829c4080c6fae848f0519554b21
