@@ -1554,7 +1554,11 @@ a:visited {
   background-position: bottom center;
   height: 90vh;
   font-family: "Miriam Libre", sans-serif;
+<<<<<<< HEAD
+  padding-top: 30px;
+=======
   padding-top: 35px;
+>>>>>>> 119625b3102d6829c4080c6fae848f0519554b21
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1955,6 +1959,12 @@ a:visited {
         text-align: right;
         font-weight: bold; }
     .page-template-proposed-park .site-content .land-use .content-container .content-container-two {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
       -ms-flex-preferred-size: 42%;
           flex-basis: 42%;
       padding-left: 5%;
@@ -1985,15 +1995,21 @@ a:visited {
     .page-template-proposed-park .site-content .land-use .content-container .content-container-four {
       -ms-flex-preferred-size: 42%;
           flex-basis: 42%;
-      padding-left: 5%; } }
+      padding-left: 5%; }
+      .page-template-proposed-park .site-content .land-use .content-container .content-container-four .text p {
+        padding-left: 5%; } }
     @media all and (min-width: 1000px) and (min-width: 1100px) {
       .page-template-proposed-park .site-content .land-use .content-container .content-container-four {
         -ms-flex-preferred-size: 45%;
-            flex-basis: 45%; } }
+            flex-basis: 45%; }
+        .page-template-proposed-park .site-content .land-use .content-container .content-container-four .text p {
+          padding-left: 10%; } }
     @media all and (min-width: 1000px) and (min-width: 1200px) {
       .page-template-proposed-park .site-content .land-use .content-container .content-container-four {
         -ms-flex-preferred-size: 50%;
-            flex-basis: 50%; } }
+            flex-basis: 50%; }
+        .page-template-proposed-park .site-content .land-use .content-container .content-container-four .text p {
+          padding-left: 15%; } }
 
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .site-content .why .content-container {
@@ -2148,7 +2164,8 @@ a:visited {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
 
-.page-template-proposed-park i, .page-template-proposed-park .fa-angle-up {
+.page-template-proposed-park i,
+.page-template-proposed-park .fa-angle-up {
   padding-right: 0px; }
 
 .page-template-proposed-park .divider {
@@ -2758,10 +2775,12 @@ a:visited {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+          flex-direction: column; }
+  @media all and (min-width: 600px) {
+    .blog .site-content .stories-container {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
   .blog .site-content .stories-container .journal-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2797,95 +2816,99 @@ a:visited {
           max-width: 800px;
           min-height: 240px;
           max-height: 240px; } }
-    @media all and (min-width: 600px) {
-      .blog .site-content .stories-container .journal-container .button-container {
+    .blog .site-content .stories-container .journal-container .button-container {
+      width: 100%; }
+      @media all and (min-width: 600px) {
+        .blog .site-content .stories-container .journal-container .button-container {
+          position: absolute;
+          bottom: 5px;
+          border: none;
+          width: 100%;
+          background: rgba(0, 0, 0, 0.6);
+          min-height: 100px;
+          max-height: 100px; } }
+      @media all and (min-width: 1000px) {
+        .blog .site-content .stories-container .journal-container .button-container {
+          min-height: 120px; } }
+      .blog .site-content .stories-container .journal-container .button-container .post-title {
+        font-family: "Miriam Libre", sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+        max-width: 90%;
+        font-size: 16px;
+        font-weight: bold;
+        padding-left: 10px; }
+        @media all and (min-width: 600px) {
+          .blog .site-content .stories-container .journal-container .button-container .post-title {
+            color: #fff;
+            padding-left: 20px;
+            font-size: 15px;
+            margin: 10px 0;
+            max-width: 400px; } }
+        @media all and (min-width: 1000px) {
+          .blog .site-content .stories-container .journal-container .button-container .post-title {
+            max-width: 500px;
+            padding-left: 20px;
+            margin: 20px 0;
+            font-size: 18px; } }
+      .blog .site-content .stories-container .journal-container .button-container .read-more {
+        display: none;
         position: absolute;
-        bottom: 5px;
-        border: none;
-        width: 100%;
-        background: rgba(0, 0, 0, 0.6);
-        min-height: 100px;
-        max-height: 100px; } }
-    @media all and (min-width: 1000px) {
-      .blog .site-content .stories-container .journal-container .button-container {
-        min-height: 120px; } }
-    .blog .site-content .stories-container .journal-container .button-container .post-title {
-      font-family: "Miriam Libre", sans-serif;
-      font-weight: 100;
-      text-transform: uppercase;
-      max-width: 90%;
-      font-size: 16px;
-      font-weight: bold;
-      padding-left: 10px; }
-      @media all and (min-width: 600px) {
-        .blog .site-content .stories-container .journal-container .button-container .post-title {
-          color: #fff;
-          padding-left: 20px;
-          font-size: 15px;
-          margin: 10px 0;
-          max-width: 400px; } }
-      @media all and (min-width: 1000px) {
-        .blog .site-content .stories-container .journal-container .button-container .post-title {
-          max-width: 500px;
-          padding-left: 20px;
-          margin: 20px 0;
-          font-size: 18px; } }
-    .blog .site-content .stories-container .journal-container .button-container .read-more {
-      display: none;
-      position: absolute;
-      left: 70%;
-      bottom: 10%;
-      color: #fff;
-      background: #d87000;
-      -webkit-box-shadow: none;
-              box-shadow: none;
-      text-shadow: none;
-      font-size: 16px;
-      text-transform: uppercase;
-      border: 3px solid #fff;
-      border-radius: 5px;
-      opacity: 0.8;
-      font-family: "Miriam Libre", sans-serif;
-      padding-top: 3px; }
-      @media all and (min-width: 600px) {
-        .blog .site-content .stories-container .journal-container .button-container .read-more {
-          display: inline-block;
-          left: 450px;
-          bottom: 30px;
-          padding-top: 5px;
-          font-size: 16px;
-          text-transform: uppercase;
-          font-family: "Miriam Libre", sans-serif;
-          min-width: 140px;
-          border: 6px solid #fff;
-          border-radius: 5px; } }
-      @media all and (min-width: 1000px) {
-        .blog .site-content .stories-container .journal-container .button-container .read-more {
-          font-size: 20px;
-          min-width: 170px;
-          left: 600px;
-          bottom: 40px;
-          padding-top: 5px; } }
-    .blog .site-content .stories-container .journal-container .button-container .read-more:hover {
-      opacity: 1; }
-    .blog .site-content .stories-container .journal-container .button-container .posted-on {
-      color: gray;
-      font-family: "Miriam Libre", sans-serif;
-      font-size: 14px;
-      padding-left: 20px;
-      position: absolute;
-      bottom: 0px;
-      left: 160px; }
-      @media all and (min-width: 600px) {
-        .blog .site-content .stories-container .journal-container .button-container .posted-on {
-          color: #fff;
-          position: static; } }
-      @media all and (min-width: 1000px) {
-        .blog .site-content .stories-container .journal-container .button-container .posted-on {
-          padding-left: 20px;
-          padding-bottom: 5px; } }
+        left: 70%;
+        bottom: 10%;
+        color: #fff;
+        background: #d87000;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        font-size: 16px;
+        text-transform: uppercase;
+        border: 3px solid #fff;
+        border-radius: 5px;
+        opacity: 0.8;
+        font-family: "Miriam Libre", sans-serif;
+        padding-top: 3px; }
+        @media all and (min-width: 600px) {
+          .blog .site-content .stories-container .journal-container .button-container .read-more {
+            display: inline-block;
+            left: 450px;
+            bottom: 30px;
+            padding-top: 5px;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-family: "Miriam Libre", sans-serif;
+            min-width: 140px;
+            border: 6px solid #fff;
+            border-radius: 5px; } }
+        @media all and (min-width: 1000px) {
+          .blog .site-content .stories-container .journal-container .button-container .read-more {
+            font-size: 20px;
+            min-width: 170px;
+            left: 600px;
+            bottom: 40px;
+            padding-top: 5px; } }
+      .blog .site-content .stories-container .journal-container .button-container .read-more:hover {
+        opacity: 1; }
+      .blog .site-content .stories-container .journal-container .button-container .posted-on {
+        color: gray;
+        font-family: "Miriam Libre", sans-serif;
+        font-size: 14px;
+        padding-left: 20px;
+        position: absolute;
+        bottom: 0px;
+        left: 160px; }
+        @media all and (min-width: 600px) {
+          .blog .site-content .stories-container .journal-container .button-container .posted-on {
+            color: #fff;
+            position: static; } }
+        @media all and (min-width: 1000px) {
+          .blog .site-content .stories-container .journal-container .button-container .posted-on {
+            padding-left: 20px;
+            padding-bottom: 5px; } }
 
 .blog .site-content .search-pagination {
+  -ms-flex-item-align: center;
+      align-self: center;
   margin-bottom: 20px;
   color: #d87000;
   font-size: 25px; }
