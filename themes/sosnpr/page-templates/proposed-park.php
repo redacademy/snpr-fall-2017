@@ -22,19 +22,19 @@ get_header();
 
       <section class="proposed-banner">
         <ul class="banner-list">
-          <li><a href="#land"><?php echo CFS()->get_field_info( 'the_land' )['label'];?></a></li>
-          <li><a href="#why"><?php echo CFS()->get_field_info( 'why_a_national_park' )['label'];?></a></li>
-          <li><a href="#ecological"><?php echo CFS()->get_field_info( 'ecological_benefits' )['label'];?></a></li>
+          <li><a href="#land">the land</a></li>
+          <li><a href="#why">why a national park</a></li>
+          <li><a href="#ecological">ecological benefits</a></li>
         </ul>
         <ul class="banner-list">
-          <li><a href="#location"><?php echo CFS()->get_field_info( 'location_of_the_park' )['label'];?></a></li>
-          <li><a href="#ranch"><?php echo CFS()->get_field_info( 'ranching_agriculture' )['label'];?></a></li>
-          <li><a href="#economic"><?php echo CFS()->get_field_info( 'economic_benefits' )['label'];?></a></li>
+          <li><a href="#location">location of the park</a></li>
+          <li><a href="#ranch">ranching and agriculture</a></li>
+          <li><a href="#economic">economic benefits</a></li>
         </ul>
         <ul class="banner-list">
-          <li><a href="#land-use"><?php echo CFS()->get_field_info( 'land_use_regulations' )['label'];?></a></li>
-          <li><a href="#human"><?php echo CFS()->get_field_info( 'human_impact' )['label'];?></a></li>
-          <li><a href="#faq"><?php echo CFS()->get_field_info( 'faq' )['label'];?></a></li>
+          <li><a href="#land-use">land use regulations</a></li>
+          <li><a href="#human">human impact</a></li>
+          <li><a href="#faq">faq</a></li>
         </ul>
       </section>
 
@@ -277,7 +277,8 @@ get_header();
 
     </article>
 
-  </main><!-- #main -->
+  </main>
+  <!-- #main -->
 
 </div>
 <!-- #primary -->
