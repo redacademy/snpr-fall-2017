@@ -2110,8 +2110,7 @@ a:visited {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
 
-.page-template-proposed-park i,
-.page-template-proposed-park .fa-angle-up {
+.page-template-proposed-park i, .page-template-proposed-park .fa-angle-up {
   padding-right: 0px; }
 
 .page-template-proposed-park .divider {
