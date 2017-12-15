@@ -49,3 +49,6 @@ Red UX and UI team.
 * The RED staff and other students
 
 
+![Screen Shot](screenshot-desktop.png "desktop")
+![Screen Shot](screenshot-tablet.png "tablet")
+![Screen Shot](screenshot-mobile.png "mobile")
