@@ -82,11 +82,16 @@
     background-color:transparent;
     box-shadow:none;
     border:none;
-    background-image:url(../../sos_assets/ui-icons/hamburger-icon-rugged-orange.svg) ;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding:10px;
-    background-position: center;
+    
+    
+    
+   
+    i{
+      color:$orange;
+      font-size:45px;
+      padding-right:20px;
+      margin-right:5px;
+    }
   }
   
   @media screen and (min-width: 600px) {

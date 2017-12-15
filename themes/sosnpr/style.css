@@ -1594,7 +1594,9 @@ a:visited {
     padding: 24px;
     font-weight: 100;
     font-family: "Miriam Libre", sans-serif;
-    text-align: center; }
+    text-align: center;
+    padding-right: 32px;
+    padding-left: 32px; }
     .front-page-hero .learn-more-button a {
       color: white;
       text-decoration: none; }
@@ -1615,13 +1617,17 @@ a:visited {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-top: 20px; }
+  padding-top: 15px; }
   .page-id-101 .posts-navigation a {
     color: #bf6d0a;
     text-transform: uppercase;
     font-family: "Miriam Libre", sans-serif; }
     .page-id-101 .posts-navigation a:focus {
       border: 5px solid black; }
+
+.page-id-101 .owl-controls .owl-page span {
+  height: 8px;
+  width: 8px; }
 
 .page-id-101 .owl-item {
   height: 320px; }
@@ -1630,6 +1636,8 @@ a:visited {
   padding: 10px;
   height: 320px;
   overflow: hidden; }
+  .page-id-101 .carousel-cell article {
+    border-radius: 3px; }
   .page-id-101 .carousel-cell img {
     height: auto; }
   .page-id-101 .carousel-cell .entry-header {
@@ -1643,9 +1651,12 @@ a:visited {
     margin-right: 10px;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(black));
     background: linear-gradient(rgba(0, 0, 0, 0.4), black); }
+    .page-id-101 .carousel-cell .entry-header .entry-meta {
+      text-transform: uppercase; }
     .page-id-101 .carousel-cell .entry-header a {
       color: white;
-      text-decoration: none; }
+      text-decoration: none;
+      line-height: 1.6; }
 
 .page-id-101 .page-id-101 .entry-header {
   color: white;
@@ -3062,12 +3073,12 @@ a:visited {
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: none;
-  background-image: url(../../sos_assets/ui-icons/hamburger-icon-rugged-orange.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 10px;
-  background-position: center; }
+  border: none; }
+  .menu-toggle i {
+    color: #d87000;
+    font-size: 45px;
+    padding-right: 20px;
+    margin-right: 5px; }
 
 @media screen and (min-width: 600px) {
   .main-navigation {
