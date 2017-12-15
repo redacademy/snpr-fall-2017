@@ -27,7 +27,7 @@
     position: fixed;
     bottom: 150px;
     border-radius: 3%;
-    max-width: 320px; //change
+    max-width: 320px; 
     max-height: 400px;
     @include tablet {
       max-width: 450px;
@@ -131,14 +131,31 @@
     border: none;
     font-family: $source;
     text-align: center;
-    transition: all 1s ease-in;
+    // transition: all 1s ease-in;
   }
   .center {
     margin-bottom: 100px;
-    transition: all 2s ease-in;
+    // transition: all 1s ease-in;
   }
   .response-width {
     padding-right: 30px;
     padding-left: 30px;
+  }
+
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+  }
+  
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }

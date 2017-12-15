@@ -15,18 +15,13 @@
         padding-top: 50px;
         color: #629749;
         text-transform: uppercase;
-
         @include tablet {
-        font-size: 40px;
-        
-        padding-right: 200px;
+          font-size: 40px;
+          padding-right: 200px;
         }
-
         @include desktop {
           font-size: 50px;
-          
           padding-right: 200px;
-
         }
       }
     }
@@ -34,19 +29,14 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-
-
       .journal-container {
-        display: flex;
-        // flex-wrap: wrap;
+        display: flex; // flex-wrap: wrap;
         position: relative;
         margin-bottom: 50px;
         border: none;
-
         @include tablet {
           display: block;
         }
-
         img {
           margin-left: 20px;
           height: auto;
@@ -57,26 +47,21 @@
           max-width: 150px;
           min-height: 150px;
           max-height: 150px;
-
           @include tablet {
             margin-left: 0;
             min-height: 180px;
             max-height: 180px;
             min-width: 600px;
             max-width: 600px;
-            
           }
-
           @include desktop {
-          min-width: 800px;
-          max-width: 800px;
-          min-height: 240px;
-          max-height: 240px;
+            min-width: 800px;
+            max-width: 800px;
+            min-height: 240px;
+            max-height: 240px;
           }
-
         }
         .button-container {
-          
           // position: absolute;
           // bottom: 5px;
           // background: rgba(0, 0, 0, 0.6);
@@ -84,7 +69,6 @@
           // width: 100%;
           // max-height: 75px;
           // min-height: 50%;
-
           @include tablet {
             position: absolute;
             bottom: 5px;
@@ -94,37 +78,31 @@
             min-height: 100px;
             max-height: 100px;
           }
-
           @include desktop {
-          min-height: 120px;
+            min-height: 120px;
           }
-
           .post-title {
             // max-width: 500px;
-            
             font-family: $miriam;
             font-weight: 100;
             text-transform: uppercase;
-            max-width: 80%;
-            font-size: 14px;
+            max-width: 90%;
+            font-size: 16px;
+            font-weight: bold;
             padding-left: 10px;
-            
-
             @include tablet {
-            color: #fff;
-            padding-left: 20px;
-            font-size: 15px;
-            margin: 10px 0;
-            max-width: 400px;
+              color: #fff;
+              padding-left: 20px;
+              font-size: 15px;
+              margin: 10px 0;
+              max-width: 400px;
             }
-
             @include desktop {
-            max-width: 500px;
-            padding-left: 20px;
-            margin: 20px 0;
-            font-size: 18px;
+              max-width: 500px;
+              padding-left: 20px;
+              margin: 20px 0;
+              font-size: 18px;
             }
-           
           }
           .read-more {
             display: none;
@@ -142,22 +120,18 @@
             opacity: 0.8;
             font-family: $miriam;
             padding-top: 3px;
-
             @include tablet {
-            display: inline-block;
-            left: 450px;
-            bottom: 30px;
-            padding-top: 5px;
-           
-            font-size: 16px;
-            text-transform: uppercase;
-            font-family: $miriam;
-            min-width: 140px;
-            border: 6px solid #fff;
-            border-radius: 5px;
-            
+              display: inline-block;
+              left: 450px;
+              bottom: 30px;
+              padding-top: 5px;
+              font-size: 16px;
+              text-transform: uppercase;
+              font-family: $miriam;
+              min-width: 140px;
+              border: 6px solid #fff;
+              border-radius: 5px;
             }
-
             @include desktop {
               font-size: 20px;
               min-width: 170px;
@@ -176,19 +150,14 @@
             padding-left: 20px;
             position: absolute;
             bottom: 0px;
-            left: 160px;
-            // max-width: 90px;
-
-            
+            left: 160px; // max-width: 90px;
             @include tablet {
               color: #fff;
               position: static;
             }
-            
-
-            @include desktop{
-            padding-left: 20px;
-            padding-bottom: 5px;
+            @include desktop {
+              padding-left: 20px;
+              padding-bottom: 5px;
             }
           }
         }
