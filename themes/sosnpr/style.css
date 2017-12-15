@@ -1700,6 +1700,8 @@ a:visited {
       font-size: 25px; } }
 
 @media screen and (min-width: 1000px) {
+  .page-id-101 .posts-navigation {
+    padding-top: 20px; }
   .front-page-hero {
     background: url("../../sos_assets/error404/error404.jpg");
     background-size: cover;
