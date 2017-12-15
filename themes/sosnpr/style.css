@@ -1777,13 +1777,9 @@ a:visited {
 
 @media screen and (min-width: 1000px) {
   .page-id-101 .posts-navigation {
-<<<<<<< HEAD
     padding-top: 25px; }
   .page-id-101 .carousel-cell .entry-header a {
     line-height: 1; }
-=======
-    padding-top: 20px; }
->>>>>>> 6a1ba7e4208f3b39c675da863882c66d1cd708a0
   .front-page-hero {
     background: url("../../sos_assets/error404/error404.jpg");
     background-size: cover;
@@ -3218,8 +3214,10 @@ a:visited {
   display: block; }
 
 .header-logo {
-  height: 50px;
-  width: 50px; }
+  min-height: 40px;
+  min-width: 40px;
+  max-height: 40px;
+  max-height: 40px; }
 
 .menu-non-logo {
   display: -webkit-box;
