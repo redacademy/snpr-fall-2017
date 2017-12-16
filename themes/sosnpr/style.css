@@ -1227,7 +1227,28 @@ a:visited {
           -ms-flex-order: -1;
               order: -1; }
   .page-template-about-us .divider {
-    display: none; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #555454;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 55px;
+    height: 40px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    z-index: 10;
+    position: relative;
+    bottom: 50px; }
     @media all and (min-width: 600px) {
       .page-template-about-us .divider {
         display: -webkit-box;
@@ -1236,69 +1257,42 @@ a:visited {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        border-bottom: #d87000 solid 2px;
-        height: 20px;
-        margin: 0 50px; }
-        .page-template-about-us .divider .scroll-circle {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-              -ms-flex-pack: center;
-                  justify-content: center;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          position: relative;
-          top: -7px;
-          background: #555454;
-          border-radius: 30px;
-          width: 50px;
-          height: 50px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
-          z-index: 10; }
-        .page-template-about-us .divider a, .page-template-about-us .divider .fa {
-          color: white;
-          text-decoration: none;
-          padding-bottom: 3px; } }
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        position: relative;
+        top: -7px;
+        background: #555454;
+        border-radius: 30px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        z-index: 10; } }
   .page-template-about-us .divider-clear {
-    display: none; }
-    @media all and (min-width: 600px) {
-      .page-template-about-us .divider-clear {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center; }
-        .page-template-about-us .divider-clear .scroll-half-circle {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-              -ms-flex-pack: center;
-                  justify-content: center;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          background: #555454;
-          border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
-          z-index: 10; }
-        .page-template-about-us .divider-clear a, .page-template-about-us .divider-clear .fa {
-          color: white;
-          text-decoration: none;
-          padding: 0; } }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #555454;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 55px;
+    height: 40px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    z-index: 10;
+    color: #d87000; }
 
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
@@ -1467,45 +1461,6 @@ a:visited {
     .page-template-resources .resources-content {
       padding-left: 0px; } }
 
-.page-template-resources .divider {
-  display: none; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .divider {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      border-bottom: #d87000 solid 2px;
-      height: 20px;
-      margin: 0 50px; }
-      .page-template-resources .divider .scroll-circle {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -7px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-resources .divider a, .page-template-resources .divider .fa {
-        color: white;
-        text-decoration: none;
-        padding-bottom: 3px; } }
-
 .page-template-resources .resources-ul p {
   font-weight: 300;
   padding-left: 3rem; }
@@ -1576,42 +1531,6 @@ a:visited {
                 flex-flow: column wrap;
         max-width: 40vw;
         margin-left: 5rem; } }
-
-.page-template-resources .divider-clear {
-  display: none; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .divider-clear {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-      .page-template-resources .divider-clear .scroll-half-circle {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        background: #555454;
-        border-radius: 30px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        width: 55px;
-        height: 40px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-resources .divider-clear a, .page-template-resources .divider-clear .fa {
-        color: white;
-        text-decoration: none;
-        padding: 0; } }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands.jpg);
@@ -2246,89 +2165,6 @@ a:visited {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
 
-.page-template-proposed-park i,
-.page-template-proposed-park .fa-angle-up {
-  padding-right: 0px; }
-
-.page-template-proposed-park .divider {
-  display: none; }
-  @media all and (min-width: 600px) {
-    .page-template-proposed-park .divider {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      border-bottom: #d87000 solid 2px;
-      height: 20px;
-      margin: 0 50px; }
-      .page-template-proposed-park .divider .scroll-circle {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -7px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-proposed-park .divider a, .page-template-proposed-park .divider .fa {
-        color: white;
-        text-decoration: none;
-        padding-bottom: 3px; } }
-
-.page-template-proposed-park i,
-.page-template-proposed-park .fa-angle-up {
-  padding-right: 0px; }
-
-.page-template-proposed-park .divider-clear {
-  display: none; }
-  @media all and (min-width: 600px) {
-    .page-template-proposed-park .divider-clear {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-      .page-template-proposed-park .divider-clear .scroll-half-circle {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        background: #555454;
-        border-radius: 30px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        width: 55px;
-        height: 40px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-proposed-park .divider-clear a, .page-template-proposed-park .divider-clear .fa {
-        color: white;
-        text-decoration: none;
-        padding: 0; } }
-
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
   background-size: cover;
@@ -2496,45 +2332,6 @@ a:visited {
     .page-template-resources .resources-content {
       padding-left: 0px; } }
 
-.page-template-resources .divider {
-  display: none; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .divider {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      border-bottom: #d87000 solid 2px;
-      height: 20px;
-      margin: 0 50px; }
-      .page-template-resources .divider .scroll-circle {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -7px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-resources .divider a, .page-template-resources .divider .fa {
-        color: white;
-        text-decoration: none;
-        padding-bottom: 3px; } }
-
 .page-template-resources .resources-ul p {
   font-weight: 300;
   padding-left: 3rem; }
@@ -2605,42 +2402,6 @@ a:visited {
                 flex-flow: column wrap;
         max-width: 40vw;
         margin-left: 5rem; } }
-
-.page-template-resources .divider-clear {
-  display: none; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .divider-clear {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-      .page-template-resources .divider-clear .scroll-half-circle {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        background: #555454;
-        border-radius: 30px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        width: 55px;
-        height: 40px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-resources .divider-clear a, .page-template-resources .divider-clear .fa {
-        color: white;
-        text-decoration: none;
-        padding: 0; } }
 
 .search-results .page-title {
   padding: 50px 0;

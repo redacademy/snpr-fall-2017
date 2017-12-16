@@ -135,15 +135,15 @@ require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/extras.php';
 
 
-// Register Navigation Menus
-function page_nav_menu() {
+// // Register Navigation Menus
+// function page_nav_menu() {
 	
-		$locations = array(
-			'page-nav-about-us' => 'Page navigation menu in About Us page',
-			'page-nav-proposed-park' => 'Page navigation menu in Proposed Park page',
-			'page-nav-resources' => 'Page navigation menu in Resources page',
-		);
-		register_nav_menus( $locations );
+// 		$locations = array(
+// 			'page-nav-about-us' => 'Page navigation menu in About Us page',
+// 			'page-nav-proposed-park' => 'Page navigation menu in Proposed Park page',
+// 			'page-nav-resources' => 'Page navigation menu in Resources page',
+// 		);
+// 		register_nav_menus( $locations );
 	
-	}
-	add_action( 'init', 'page_nav_menu' );
+// 	}
+// 	add_action( 'init', 'page_nav_menu' );

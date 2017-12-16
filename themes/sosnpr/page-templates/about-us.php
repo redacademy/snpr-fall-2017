@@ -54,13 +54,14 @@ get_header();
             </div>
             
           </div>
+          <div class="divider">
+            <a href="#top">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+            </a>
+          </div>
         </li>
 
-      <section class="divider">
-        <a href="#top" class="scroll-circle">
-        <i class="fa fa-angle-up" aria-hidden="true"></i>
-        </a>
-      </section>
+      
 
         <li id="first-nation-support" class="section-two">
           <?php $props = CFS()->get_field_info( 'first_nation_support' );?> 
@@ -73,13 +74,18 @@ get_header();
               <img src="<?php echo CFS()->get('first_nation_support_image');?>" alt="first nation support image">
             </div>
           </div>
+          <div class="divider">
+            <a href="#top">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+            </a>
+          </div>
         </li>
-
+<!-- 
       <section class="divider">
         <a href="#top" class="scroll-circle">
         <i class="fa fa-angle-up" aria-hidden="true"></i>
         </a>
-      </section>
+      </section> -->
 
         <li id="community-support" class="section-three">
           <?php $props = CFS()->get_field_info( 'community_support' );?> 
@@ -95,13 +101,18 @@ get_header();
             </div>
             
           </div>
+          <div class="divider">
+            <a href="#top">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+            </a>
+          </div>
         </li>
 
-      <section class="divider">
+      <!-- <section class="divider">
         <a href="#top" class="scroll-circle">
         <i class="fa fa-angle-up" aria-hidden="true"></i>
         </a>
-      </section>
+      </section> -->
       
         <li id="government-support" class="section-four">
           <?php $props = CFS()->get_field_info( 'provincial_government_support' );?> 
@@ -117,6 +128,7 @@ get_header();
             </div>
             
           </div>
+          
         </li>
 
       <section class="divider">
