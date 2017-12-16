@@ -69,6 +69,7 @@
     }
   }
   .about-us-content-wrapper{
+    
     list-style-type: none;
     margin: 20px 0;
     // padding: 0 40px;
@@ -78,6 +79,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: auto;
     .scroll-up{
       margin: 0 auto;
     }
@@ -105,14 +107,33 @@
     } 
     li{
       padding: 0 30px;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      // position: relative;
       // margin: 20px 0;
       @include tablet{
         padding: 20px 0;
         margin: 30px;
+        border-bottom: 1px $orange solid;
+        a{
+          @include scroll-circle;
+          position: relative;
+          top: 45px;
+          text-decoration: none;
+        }
+        
         &:last-child{
           margin-bottom: 0;
           border: none;
+          a{
+            @include scroll-half-circle;
+            position: relative;
+            top: 20px;
+          }
+          
         }
+        
       }
       .essay-content{
         display: flex;
@@ -122,19 +143,12 @@
         img{
           width: 100%;
           height: 80%;
-          // object-fit: cover;
-
-          // max-width: min-content;
-          // z-index: 1;
         }
         @include desktop{
           display: inline-block;
           flex-basis: 50%;
           width: 50vw;
-          // max-width: 50%;
           position: relative;
-          // top: 20px;
-          // padding-left: 40px;
           padding: 0 20px;
         }
       }
@@ -163,15 +177,12 @@
     
     h2{
       font-size: $font_size-heading2;
+      font-family: $source;
+      font-weight: 300;
       text-transform: uppercase;
       margin: 0;
       padding: 15px 0 15px 20px;
-      
-      // margin-left: 15px;
       color: $brown-orange;
-      @include tablet{
-        // padding-bottom: 0;
-      }
       &::before{
         font-family: FontAwesome;
         content: '\f105  ';
@@ -205,25 +216,6 @@
       }
     }
   }
-  
-  // .divider{
-  //   // @include scroll-circle;
-  
-  //   @include scroll-half-circle;
-  //   position: relative;
-  //   bottom: 50px;
-  //   @include tablet{
-  //     @include scroll-circle;
-  //   }
-  // }
-
-  // .divider-clear{
-  //   @include scroll-half-circle;
-  //   color: $orange;
-  //   a{
-  //     // color: $orange;
-  //   }
-  // }
   
 }
 

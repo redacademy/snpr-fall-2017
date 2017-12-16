@@ -138,9 +138,9 @@
 
 @mixin scroll-half-circle{
 	@content;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
 	background: #555454;
 	border-radius: 30px;  
 	border-bottom-left-radius: 0px;
