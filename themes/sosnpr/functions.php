@@ -85,6 +85,8 @@ add_filter( 'stylesheet_uri', 'sosnpr_minified_css', 10, 2 );
 function sosnpr_scripts() {
 	wp_enqueue_style('sosnpr-font-awesome','https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
+	wp_enqueue_style('sosnpr-google-fonts','https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Source+Sans+Pro:400,700');
+
 	wp_enqueue_style( 'sosnpr-style', get_stylesheet_uri() );
 
 	wp_enqueue_style( 'owl-carousel', 'https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css' );
