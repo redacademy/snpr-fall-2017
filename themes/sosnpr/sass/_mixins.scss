@@ -95,39 +95,77 @@
 
 // scroll to top button(s) and divider
 
-@mixin scroll-to-top{
-	@content;	
-	.divider{
-		display: none;
-		@include tablet{
-			display: flex;
-			justify-content: center;
-			border-bottom: $orange solid 2px;
-			height: 20px;
-			margin: 0 50px;
-			// width: 96vw;
-			.scroll-up{
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				position: relative;
-				top: -7px;
-				background: #555454;
-				border-radius: 30px;     
-				// padding: 5px 10px;
-				width: 50px;
-				height: 50px;
-				text-align: center;
-				font-size: 35px;
-				font-weight: 100;
-				color: white;
-				z-index: 10;
-			}
-			a, .fa{
-				color: white;
-				text-decoration: none;
-				padding: 0;
-			}
-		}
-	}
+// @mixin scroll-circle{
+// 	@content;	
+// 	// .divider{
+// 		// display: none;
+// 		@include scroll-orange-half;
+// 		@include tablet{
+// 			display: flex;
+// 			justify-content: center;
+// 			border-bottom: $orange solid 2px;
+// 			height: 20px;
+// 			margin: 0 50px;
+// 			.scroll-circle{
+				
+// 			}
+// 			a, .fa{
+// 				color: white;
+// 				text-decoration: none;
+// 				padding-bottom: 3px;
+// 			}
+// 		}
+// 	// }
+// }
+
+
+// @mixin scroll-orange-half{
+// 	@content;
+// 	// .divider-clear{
+// 		// display: none;
+// 		// @include tablet{
+// 			display: flex;
+// 			justify-content: center;
+			
+// 			a, .fa{
+// 				color: white;
+// 				text-decoration: none;
+// 				padding: 0;
+// 			}
+// 		// }
+// 	// }
+// }
+
+@mixin scroll-half-circle{
+	@content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #555454;
+	border-radius: 30px;  
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	width: 55px;
+	height: 40px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 100;
+	color: white;
+	z-index: 10;
+}
+@mixin scroll-circle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: -7px;
+	background: #555454;
+	border-radius: 30px;     
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 100;
+	color: white;
+	z-index: 10;
 }

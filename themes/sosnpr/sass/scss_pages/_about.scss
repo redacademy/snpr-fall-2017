@@ -193,7 +193,25 @@
       }
     }
   }
-
-  @include scroll-to-top{
+  
+  .divider{
+    // @include scroll-circle;
+  
+    @include scroll-half-circle;
+    position: relative;
+    bottom: 50px;
+    @include tablet{
+      @include scroll-circle;
+    }
   }
+
+  .divider-clear{
+    @include scroll-half-circle;
+    color: $orange;
+    a{
+      // color: $orange;
+    }
+  }
+  
 }
+

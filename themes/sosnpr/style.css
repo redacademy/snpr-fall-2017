@@ -1227,7 +1227,28 @@ a:visited {
           -ms-flex-order: -1;
               order: -1; }
   .page-template-about-us .divider {
-    display: none; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #555454;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 55px;
+    height: 40px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    z-index: 10;
+    position: relative;
+    bottom: 50px; }
     @media all and (min-width: 600px) {
       .page-template-about-us .divider {
         display: -webkit-box;
@@ -1236,34 +1257,42 @@ a:visited {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        border-bottom: #d87000 solid 2px;
-        height: 20px;
-        margin: 0 50px; }
-        .page-template-about-us .divider .scroll-up {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-              -ms-flex-pack: center;
-                  justify-content: center;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          position: relative;
-          top: -7px;
-          background: #555454;
-          border-radius: 30px;
-          width: 50px;
-          height: 50px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
-          z-index: 10; }
-        .page-template-about-us .divider a, .page-template-about-us .divider .fa {
-          color: white;
-          text-decoration: none;
-          padding: 0; } }
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        position: relative;
+        top: -7px;
+        background: #555454;
+        border-radius: 30px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        z-index: 10; } }
+  .page-template-about-us .divider-clear {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #555454;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 55px;
+    height: 40px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    z-index: 10;
+    color: #d87000; }
 
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
@@ -1432,45 +1461,6 @@ a:visited {
     .page-template-resources .resources-content {
       padding-left: 0px; } }
 
-.page-template-resources .divider {
-  display: none; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .divider {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      border-bottom: #d87000 solid 2px;
-      height: 20px;
-      margin: 0 50px; }
-      .page-template-resources .divider .scroll-up {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -7px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-resources .divider a, .page-template-resources .divider .fa {
-        color: white;
-        text-decoration: none;
-        padding: 0; } }
-
 .page-template-resources .resources-ul p {
   font-weight: 300;
   padding-left: 3rem; }
@@ -1625,7 +1615,7 @@ a:visited {
     .page-id-101 .posts-navigation a:focus {
       border: 5px solid black; }
 
-.page-id-101 .owl-controls .owl-page span {
+.page-id-101 .owl-theme .owl-controls .owl-page span {
   height: 8px;
   width: 8px; }
 
@@ -1697,11 +1687,18 @@ a:visited {
       font-size: 20px;
       padding: 20px; }
     .front-page-hero .learn-more-button {
-      font-size: 25px; } }
+      font-size: 25px; }
+  .page-id-101 .owl-theme .owl-controls .owl-page span {
+    height: 8px;
+    width: 8px; }
+  .page-id-101 .carousel-cell .entry-header a {
+    line-height: 1; } }
 
 @media screen and (min-width: 1000px) {
   .page-id-101 .posts-navigation {
-    padding-top: 20px; }
+    padding-top: 25px; }
+  .page-id-101 .carousel-cell .entry-header a {
+    line-height: 1; }
   .front-page-hero {
     background: url("../../sos_assets/error404/error404.jpg");
     background-size: cover;
@@ -2175,49 +2172,6 @@ a:visited {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
 
-.page-template-proposed-park i,
-.page-template-proposed-park .fa-angle-up {
-  padding-right: 0px; }
-
-.page-template-proposed-park .divider {
-  display: none; }
-  @media all and (min-width: 600px) {
-    .page-template-proposed-park .divider {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      border-bottom: #d87000 solid 2px;
-      height: 20px;
-      margin: 0 50px; }
-      .page-template-proposed-park .divider .scroll-up {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -7px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-proposed-park .divider a, .page-template-proposed-park .divider .fa {
-        color: white;
-        text-decoration: none;
-        padding: 0; } }
-
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
   background-size: cover;
@@ -2385,45 +2339,6 @@ a:visited {
     .page-template-resources .resources-content {
       padding-left: 0px; } }
 
-.page-template-resources .divider {
-  display: none; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .divider {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      border-bottom: #d87000 solid 2px;
-      height: 20px;
-      margin: 0 50px; }
-      .page-template-resources .divider .scroll-up {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -7px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-resources .divider a, .page-template-resources .divider .fa {
-        color: white;
-        text-decoration: none;
-        padding: 0; } }
-
 .page-template-resources .resources-ul p {
   font-weight: 300;
   padding-left: 3rem; }
@@ -2527,11 +2442,7 @@ a:visited {
     padding-top: 50px; }
 
 .single-hero {
-  background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 60%;
-  height: 85vh;
+  height: 15vh;
   margin-bottom: 70px;
   font-family: "Miriam Libre", sans-serif;
   padding-top: 50px; }
@@ -2548,7 +2459,8 @@ a:visited {
 .single-post .site-main {
   padding-right: 20px;
   padding-left: 20px;
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100%; }
 
 .single-post .single-navigation {
   display: -webkit-box;
@@ -2594,10 +2506,6 @@ a:visited {
   .single-post .nav-links .nav-previous {
     width: 100px;
     height: 100px;
-    background-image: url(../../sos_assets/ui-icons/pagination-prev.png);
-    background-size: 200% 200%;
-    background-position: center center;
-    text-align: center;
     vertical-align: bottom;
     position: relative; }
     .single-post .nav-links .nav-previous a {
@@ -2610,13 +2518,38 @@ a:visited {
       padding-left: 21px;
       font-size: 10px;
       text-decoration: none; }
+  .single-post .nav-links .nav-previous:before {
+    content: "\f104";
+    font-family: FontAwesome;
+    position: relative;
+    top: 25px;
+    left: 22px;
+    font-size: 300px;
+    border: 1px black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #555454;
+    border-radius: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    z-index: 0; }
   .single-post .nav-links .nav-next {
     width: 100px;
     height: 100px;
-    background-image: url(../../sos_assets/ui-icons/pagination-next.png);
-    background-size: 200% 200%;
-    background-position: center center;
-    text-align: center;
     vertical-align: bottom;
     position: relative; }
     .single-post .nav-links .nav-next a {
@@ -2626,9 +2559,58 @@ a:visited {
       color: black;
       text-transform: uppercase;
       padding-top: 60px;
-      padding-right: 30px;
+      padding-right: 15px;
       text-decoration: none;
       font-size: 10px; }
+  .single-post .nav-links .nav-next:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    position: relative;
+    top: 25px;
+    left: 26px;
+    font-size: 300px;
+    border: 1px black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #555454;
+    border-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    z-index: 0; }
+
+@media screen and (min-width: 600px) {
+  .single-hero {
+    background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 60%;
+    height: 85vh;
+    margin-bottom: 70px;
+    font-family: "Miriam Libre", sans-serif;
+    padding-top: 50px; }
+    .single-hero h1 {
+      color: #285817;
+      font-family: "Miriam Libre", sans-serif;
+      text-align: center;
+      font-size: 28px;
+      text-transform: uppercase;
+      display: block;
+      padding-top: 15px;
+      line-height: 1; } }
 
 .error404 {
   display: -webkit-box;
@@ -3060,8 +3042,10 @@ a:visited {
   display: block; }
 
 .header-logo {
-  height: 50px;
-  width: 50px; }
+  min-height: 40px;
+  min-width: 40px;
+  max-height: 40px;
+  max-height: 40px; }
 
 .menu-non-logo {
   display: -webkit-box;
