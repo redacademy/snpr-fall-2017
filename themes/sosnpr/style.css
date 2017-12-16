@@ -1078,7 +1078,8 @@ a:visited {
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    margin-top: 40px; }
     .page-template-about-us .custom-hero .post-13 {
       padding-top: 50px; }
       .page-template-about-us .custom-hero .post-13 .entry-header {
