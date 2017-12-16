@@ -1078,7 +1078,8 @@ a:visited {
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    margin-top: 40px; }
     .page-template-about-us .custom-hero .post-13 {
       padding-top: 50px; }
       .page-template-about-us .custom-hero .post-13 .entry-header {
@@ -1595,7 +1596,8 @@ a:visited {
     font-family: "Miriam Libre", sans-serif;
     text-align: center;
     padding-right: 32px;
-    padding-left: 32px; }
+    padding-left: 32px;
+    text-decoration: none; }
     .front-page-hero .learn-more-button a {
       color: white;
       text-decoration: none; }
