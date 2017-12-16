@@ -93,54 +93,11 @@
 	
 }
 
-// scroll to top button(s) and divider
 
-// @mixin scroll-circle{
-// 	@content;	
-// 	// .divider{
-// 		// display: none;
-// 		@include scroll-orange-half;
-// 		@include tablet{
-// 			display: flex;
-// 			justify-content: center;
-// 			border-bottom: $orange solid 2px;
-// 			height: 20px;
-// 			margin: 0 50px;
-// 			.scroll-circle{
-				
-// 			}
-// 			a, .fa{
-// 				color: white;
-// 				text-decoration: none;
-// 				padding-bottom: 3px;
-// 			}
-// 		}
-// 	// }
-// }
-
-
-// @mixin scroll-orange-half{
-// 	@content;
-// 	// .divider-clear{
-// 		// display: none;
-// 		// @include tablet{
-// 			display: flex;
-// 			justify-content: center;
-			
-// 			a, .fa{
-// 				color: white;
-// 				text-decoration: none;
-// 				padding: 0;
-// 			}
-// 		// }
-// 	// }
-// }
+// scroll to top button(s)
 
 @mixin scroll-half-circle{
 	@content;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	background: #555454;
 	border-radius: 30px;  
 	border-bottom-left-radius: 0px;
@@ -158,7 +115,7 @@
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	top: -7px;
+	top: -5px;
 	background: #555454;
 	border-radius: 30px;     
 	width: 50px;
