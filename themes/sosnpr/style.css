@@ -361,7 +361,6 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   border: 1px solid;
-  border-color: #ccc #ccc #bbb;
   border-radius: 3px;
   background: #e6e6e6;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
@@ -385,9 +384,10 @@ input[type="submit"] {
   input[type="reset"]:focus,
   input[type="submit"]:active,
   input[type="submit"]:focus {
-    border-color: #aaa #bbb #bbb;
+    border: 3px solid #285817;
     -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
-            box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
+            box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+    outline: 5px solid #285817; }
 
 /* Fields */
 input[type="text"],
@@ -933,7 +933,7 @@ object {
       font-family: "Source Sans Pro", sans-serif;
       font-size: 1.3rem;
       font-weight: 700;
-      margin-bottom: 1rem; }
+      margin-bottom: 2rem; }
   .widget-area .wp-image-62, .widget-area .wp-image-63 {
     padding-top: 1.5rem;
     height: 80px;
@@ -950,7 +950,7 @@ object {
         -ms-flex-align: start;
             align-items: flex-start;
     line-height: 18px;
-    margin-bottom: 20px; }
+    margin-bottom: 50px; }
     .widget-area .custom-html-widget i {
       font-size: 20px;
       padding-top: 2px;
@@ -960,7 +960,10 @@ object {
       margin: 10px 0px;
       padding-left: 10px;
       border-left: 1px solid #fff;
-      margin-top: 0; }
+      margin-top: 0;
+      font-family: "Source Sans Pro", sans-serif; }
+    .widget-area .custom-html-widget a {
+      font-family: "Source Sans Pro", sans-serif; }
   .widget-area .widget_custom_html .contact-row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1011,31 +1014,31 @@ object {
   .form-popup-show form {
     width: 280px;
     background: white;
-    text-align: center;
-    border-radius: 10%;
-    border: 5px solid #285817; }
+    text-align: center; }
     @media all and (min-width: 600px) {
       .form-popup-show form {
         width: 380px; } }
     .form-popup-show form label p {
       font-family: "Source Sans Pro", sans-serif;
       line-height: 20px;
-      margin: 15px 0; }
+      margin: 15px 0;
+      padding: 0 40px; }
     .form-popup-show form input[type="email"] {
-      width: 190px;
+      font-family: "Source Sans Pro", sans-serif;
+      width: 220px;
       height: 30px;
       margin: 10px 40px;
       padding: 0 10px; }
       @media all and (min-width: 600px) {
         .form-popup-show form input[type="email"] {
-          width: 235px;
+          width: 240px;
           margin-left: 70px; } }
     .form-popup-show form button {
       position: relative;
       font-size: 16px;
       bottom: 40px;
-      left: 108px;
-      padding: 6.5px 10px;
+      left: 105px;
+      padding: 6.5px 12.2px;
       color: white;
       background-color: #285817;
       border-radius: 10%;
@@ -1056,7 +1059,7 @@ object {
     font-size: 22px;
     position: relative;
     right: 15px;
-    top: 20px; }
+    top: 15px; }
 
 a,
 a:visited {
@@ -1075,7 +1078,8 @@ a:visited {
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    margin-top: 40px; }
     .page-template-about-us .custom-hero .post-13 {
       padding-top: 50px; }
       .page-template-about-us .custom-hero .post-13 .entry-header {
@@ -1138,14 +1142,40 @@ a:visited {
     margin: 20px 0;
     padding: 0;
     font-size: 14px;
-    line-height: 20px; }
+    line-height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: auto; }
+    .page-template-about-us .about-us-content-wrapper .scroll-up {
+      margin: 0 auto; }
     @media all and (min-width: 600px) {
       .page-template-about-us .about-us-content-wrapper {
         margin-bottom: 0; } }
     .page-template-about-us .about-us-content-wrapper .list-item-click {
       border-top: 1px #d87000 solid;
       border-bottom: 1px #d87000 solid;
-      border-left: 5px #d87000 solid; }
+      border-left: 7px #d87000 solid; }
+      .page-template-about-us .about-us-content-wrapper .list-item-click a {
+        background: #555454;
+        border-radius: 30px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 55px;
+        height: 40px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        text-decoration: none;
+        background: #d87000; }
       @media all and (min-width: 600px) {
         .page-template-about-us .about-us-content-wrapper .list-item-click {
           border: none; } }
@@ -1154,14 +1184,59 @@ a:visited {
           -ms-flex-order: -1;
               order: -1; }
     .page-template-about-us .about-us-content-wrapper li {
-      padding: 0 30px; }
+      padding: 0 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      height: auto; }
       @media all and (min-width: 600px) {
         .page-template-about-us .about-us-content-wrapper li {
           padding: 20px 0;
-          margin: 30px; }
+          margin: 30px;
+          border-bottom: 1px #d87000 solid; }
+          .page-template-about-us .about-us-content-wrapper li a {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            position: relative;
+            top: -5px;
+            background: #555454;
+            border-radius: 30px;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 100;
+            color: white;
+            position: relative;
+            top: 45px;
+            text-decoration: none; }
           .page-template-about-us .about-us-content-wrapper li:last-child {
             margin-bottom: 0;
-            border: none; } }
+            border: none; }
+            .page-template-about-us .about-us-content-wrapper li:last-child a {
+              background: #555454;
+              border-radius: 30px;
+              border-bottom-left-radius: 0px;
+              border-bottom-right-radius: 0px;
+              width: 55px;
+              height: 40px;
+              text-align: center;
+              font-size: 35px;
+              font-weight: 100;
+              color: white;
+              position: relative;
+              top: 20px; } }
       .page-template-about-us .about-us-content-wrapper li .essay-content {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1169,8 +1244,8 @@ a:visited {
       .page-template-about-us .about-us-content-wrapper li .image-wrapper {
         display: none; }
         .page-template-about-us .about-us-content-wrapper li .image-wrapper img {
-          width: 100%;
-          height: 80%; }
+          width: 85%;
+          height: 90%; }
         @media all and (min-width: 1000px) {
           .page-template-about-us .about-us-content-wrapper li .image-wrapper {
             display: inline-block;
@@ -1199,6 +1274,8 @@ a:visited {
         font-family: "Source Sans Pro", sans-serif; }
     .page-template-about-us .about-us-content-wrapper h2 {
       font-size: 20px;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 300;
       text-transform: uppercase;
       margin: 0;
       padding: 15px 0 15px 20px;
@@ -1226,6 +1303,7 @@ a:visited {
       -webkit-box-ordinal-group: 0;
           -ms-flex-order: -1;
               order: -1; }
+<<<<<<< HEAD
   @media all and (min-width: 600px) {
     .page-template-about-us .divider {
       display: -webkit-box;
@@ -1332,6 +1410,8 @@ a:visited {
           color: white;
           text-decoration: none;
           padding: 0; } }
+=======
+>>>>>>> 02af4c5d919ed02d22760a5a494919b9f66de407
 
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
@@ -1500,6 +1580,7 @@ a:visited {
     .page-template-resources .resources-content {
       padding-left: 0px; } }
 
+<<<<<<< HEAD
 @media all and (min-width: 600px) {
   .page-template-resources .divider {
     display: -webkit-box;
@@ -1537,6 +1618,8 @@ a:visited {
       text-decoration: none;
       padding-bottom: 3px; } }
 
+=======
+>>>>>>> 02af4c5d919ed02d22760a5a494919b9f66de407
 .page-template-resources .resources-ul p {
   font-weight: 300;
   padding-left: 3rem; }
@@ -1608,6 +1691,7 @@ a:visited {
         max-width: 40vw;
         margin-left: 5rem; } }
 
+<<<<<<< HEAD
 .page-template-resources .divider-clear {
   display: none; }
   .page-template-resources .divider-clear .divider-clear {
@@ -1679,6 +1763,8 @@ a:visited {
         text-decoration: none;
         padding: 0; } }
 
+=======
+>>>>>>> 02af4c5d919ed02d22760a5a494919b9f66de407
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands.jpg);
   background-size: cover;
@@ -1733,7 +1819,8 @@ a:visited {
     font-family: "Miriam Libre", sans-serif;
     text-align: center;
     padding-right: 32px;
-    padding-left: 32px; }
+    padding-left: 32px;
+    text-decoration: none; }
     .front-page-hero .learn-more-button a {
       color: white;
       text-decoration: none; }
@@ -1762,7 +1849,7 @@ a:visited {
     .page-id-101 .posts-navigation a:focus {
       border: 5px solid black; }
 
-.page-id-101 .owl-controls .owl-page span {
+.page-id-101 .owl-theme .owl-controls .owl-page span {
   height: 8px;
   width: 8px; }
 
@@ -1834,11 +1921,18 @@ a:visited {
       font-size: 20px;
       padding: 20px; }
     .front-page-hero .learn-more-button {
-      font-size: 25px; } }
+      font-size: 25px; }
+  .page-id-101 .owl-theme .owl-controls .owl-page span {
+    height: 8px;
+    width: 8px; }
+  .page-id-101 .carousel-cell .entry-header a {
+    line-height: 1; } }
 
 @media screen and (min-width: 1000px) {
   .page-id-101 .posts-navigation {
-    padding-top: 20px; }
+    padding-top: 25px; }
+  .page-id-101 .carousel-cell .entry-header a {
+    line-height: 1; }
   .front-page-hero {
     background: url("../../sos_assets/error404/error404.jpg");
     background-size: cover;
@@ -2624,6 +2718,7 @@ a:visited {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
 
+<<<<<<< HEAD
 .page-template-proposed-park i,
 .page-template-proposed-park .fa-angle-up {
   padding-right: 0px; }
@@ -2740,6 +2835,8 @@ a:visited {
         text-decoration: none;
         padding: 0; } }
 
+=======
+>>>>>>> 02af4c5d919ed02d22760a5a494919b9f66de407
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
   background-size: cover;
@@ -2907,6 +3004,7 @@ a:visited {
     .page-template-resources .resources-content {
       padding-left: 0px; } }
 
+<<<<<<< HEAD
 @media all and (min-width: 600px) {
   .page-template-resources .divider {
     display: -webkit-box;
@@ -2944,6 +3042,8 @@ a:visited {
       text-decoration: none;
       padding-bottom: 3px; } }
 
+=======
+>>>>>>> 02af4c5d919ed02d22760a5a494919b9f66de407
 .page-template-resources .resources-ul p {
   font-weight: 300;
   padding-left: 3rem; }
@@ -3015,6 +3115,7 @@ a:visited {
         max-width: 40vw;
         margin-left: 5rem; } }
 
+<<<<<<< HEAD
 .page-template-resources .divider-clear {
   display: none; }
   .page-template-resources .divider-clear .divider-clear {
@@ -3086,6 +3187,8 @@ a:visited {
         text-decoration: none;
         padding: 0; } }
 
+=======
+>>>>>>> 02af4c5d919ed02d22760a5a494919b9f66de407
 .search-results .page-title {
   padding: 50px 0;
   margin: 0 100px;
@@ -3118,11 +3221,7 @@ a:visited {
     padding-top: 50px; }
 
 .single-hero {
-  background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 60%;
-  height: 85vh;
+  height: 15vh;
   margin-bottom: 70px;
   font-family: "Miriam Libre", sans-serif;
   padding-top: 50px; }
@@ -3139,7 +3238,8 @@ a:visited {
 .single-post .site-main {
   padding-right: 20px;
   padding-left: 20px;
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100%; }
 
 .single-post .single-navigation {
   display: -webkit-box;
@@ -3185,10 +3285,6 @@ a:visited {
   .single-post .nav-links .nav-previous {
     width: 100px;
     height: 100px;
-    background-image: url(../../sos_assets/ui-icons/pagination-prev.png);
-    background-size: 200% 200%;
-    background-position: center center;
-    text-align: center;
     vertical-align: bottom;
     position: relative; }
     .single-post .nav-links .nav-previous a {
@@ -3201,13 +3297,38 @@ a:visited {
       padding-left: 21px;
       font-size: 10px;
       text-decoration: none; }
+  .single-post .nav-links .nav-previous:before {
+    content: "\f104";
+    font-family: FontAwesome;
+    position: relative;
+    top: 25px;
+    left: 22px;
+    font-size: 300px;
+    border: 1px black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #555454;
+    border-radius: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    z-index: 0; }
   .single-post .nav-links .nav-next {
     width: 100px;
     height: 100px;
-    background-image: url(../../sos_assets/ui-icons/pagination-next.png);
-    background-size: 200% 200%;
-    background-position: center center;
-    text-align: center;
     vertical-align: bottom;
     position: relative; }
     .single-post .nav-links .nav-next a {
@@ -3217,9 +3338,58 @@ a:visited {
       color: black;
       text-transform: uppercase;
       padding-top: 60px;
-      padding-right: 30px;
+      padding-right: 15px;
       text-decoration: none;
       font-size: 10px; }
+  .single-post .nav-links .nav-next:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    position: relative;
+    top: 25px;
+    left: 26px;
+    font-size: 300px;
+    border: 1px black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #555454;
+    border-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+    z-index: 0; }
+
+@media screen and (min-width: 600px) {
+  .single-hero {
+    background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 60%;
+    height: 85vh;
+    margin-bottom: 70px;
+    font-family: "Miriam Libre", sans-serif;
+    padding-top: 50px; }
+    .single-hero h1 {
+      color: #285817;
+      font-family: "Miriam Libre", sans-serif;
+      text-align: center;
+      font-size: 28px;
+      text-transform: uppercase;
+      display: block;
+      padding-top: 15px;
+      line-height: 1; } }
 
 .error404 {
   display: -webkit-box;
@@ -3651,8 +3821,10 @@ a:visited {
   display: block; }
 
 .header-logo {
-  height: 50px;
-  width: 50px; }
+  min-height: 40px;
+  min-width: 40px;
+  max-height: 40px;
+  max-height: 40px; }
 
 .menu-non-logo {
   display: -webkit-box;

@@ -1,7 +1,7 @@
 (function($){
   var clearForm= false;
 
-  $('.subscribe-button').on('click', function(event){
+  $('.subscribe-button').on('click touchstart', function(event){
 
     event.preventDefault();
 
@@ -11,19 +11,19 @@
     clearForm= false;
   })
 
-  $('#mc-embedded-subscribe-form').on('click',function(){
+  $('#mc-embedded-subscribe-form').on('click touchstart',function(){
     clearForm= false;
   })
 
 
-  $('#mc-embedded-subscribe').on('click',function(){
+  $('#mc-embedded-subscribe').on('click touchstart',function(){
   
     $('#mc-embedded-subscribe-form').submit();
 
     clearForm= false;
   })
 
-  $('html').click(function(){
+  $('html').on('click touchstart',function(){
    
     if (clearForm){
       $('.form-popup').removeClass('form-popup-show');
@@ -31,7 +31,7 @@
     clearForm = true;
   })
 
-  $('#closing-icon').click(function(){
+  $('#closing-icon').on('click touchstart',function(){
     $('.form-popup').removeClass('form-popup-show');
   })
  

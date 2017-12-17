@@ -12,7 +12,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-		<link href="https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Source+Sans+Pro:400,700" rel="stylesheet">
 
 	<?php wp_head(); ?>
 	</head>
@@ -28,7 +27,7 @@
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<p class="header-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri() . '/sos_assets/logo/svg/favicon.svg'?>" class="header-logo" alt="main site logo"></a></p>
+					<p class="header-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri() . '/sos_assets/logo/svg/lines-rugged-orange.svg'?>" class="header-logo" alt="main site logo"></a></p>
 				<div class="menu-non-logo">
 					<div class="search-icon"><?php get_search_form() ?></div>
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" alt="hamburger icon"><i class="fa fa-bars" aria-hidden="true"></i><?php esc_html( 'Primary Menu' ); ?></button>

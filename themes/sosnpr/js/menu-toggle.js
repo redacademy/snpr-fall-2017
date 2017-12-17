@@ -3,16 +3,18 @@
   var clearMenu = false;
 
 
-  $('.menu-item-106 a').on('click touchstart', function (e) {
-    e.preventDefault();
+  // $('.menu-item-106 a').on('click touchstart', function (e) {
+  //   e.preventDefault();
 
-    clearMenu = false;
+  //   clearMenu = false;
 
+    $('.menu-item-106 a').addClass('subscribe-button');
     
-  });
+  // });
 
-  $('.menu-item-106').addClass('subscribe-button');
 
+
+  //function to display/remove menu when click on hamberger icon
   $('.menu-toggle').on('click touchstart',function(e) {
     e.preventDefault();
     
@@ -22,7 +24,7 @@
   
   });
 
-    
+  //below two functions for removing dropdown menu when click off of it
   $('html').on('click touchstart',function() {
 
     if(clearMenu){
@@ -32,16 +34,16 @@
     clearMenu = true;
 
   });
+  $('.menu1').on('click touchstart', function(){
+    clearMenu = false;
+  })
 
-$('.subscribe-button').click(function() {
+ // function for remove the menu when subcribe button is pressed
+$('.subscribe-button').on('click touchstart',function() {
 
   $('.menu1').removeClass('menu-show');
 
 });
-
-   
-   
-    
 
   
   })(jQuery);

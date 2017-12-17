@@ -85,6 +85,8 @@ add_filter( 'stylesheet_uri', 'sosnpr_minified_css', 10, 2 );
 function sosnpr_scripts() {
 	wp_enqueue_style('sosnpr-font-awesome','https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
+	wp_enqueue_style('sosnpr-google-fonts','https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Source+Sans+Pro:400,700');
+
 	wp_enqueue_style( 'sosnpr-style', get_stylesheet_uri() );
 
 	wp_enqueue_style( 'owl-carousel', 'https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css' );
@@ -103,18 +105,17 @@ function sosnpr_scripts() {
 
 	wp_enqueue_script( 'feedback', get_template_directory_uri() . '/build/js/feedback.min.js', array('jquery'), null, true );
 
-	wp_enqueue_script( 'searchbar-toggle', get_template_directory_uri() . '/build/js/searchbar-toggle.min.js', array('jquery','smooth-scroll'), '20130115', true );
+	wp_enqueue_script( 'searchbar-toggle', get_template_directory_uri() . '/build/js/searchbar-toggle.min.js', array('jquery'), '20130115', true );
 
-	wp_enqueue_script( 'about-us-toggle', get_template_directory_uri() . '/build/js/about-us-toggle.min.js', array('jquery', 'menu-toggle', 'smooth-scroll'),null, true );
+	wp_enqueue_script( 'about-us-toggle', get_template_directory_uri() . '/build/js/about-us-toggle.min.js', array('jquery', 'smooth-scroll'),null, true );
 
-	wp_enqueue_script( 'resources-toggle', get_template_directory_uri() . '/build/js/resources-toggle.min.js', array('jquery'),null, true );	
+	wp_enqueue_script( 'resources-toggle', get_template_directory_uri() . '/build/js/resources-toggle.min.js', array('jquery'),null, true );
+
+	wp_enqueue_script( 'menu-toggle', get_template_directory_uri() . '/build/js/menu-toggle.min.js', array('jquery', 'owl-carousel'), false, true );
 
 	wp_enqueue_script( 'mail-subscription', get_template_directory_uri() . '/build/js/mail-subscription.min.js', array('jquery'),null, true );
 
-	wp_enqueue_script('owl-carousel', 'https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js', array('jquery'), false, true );
-
-	
-	wp_enqueue_script( 'menu-toggle', get_template_directory_uri() . '/build/js/menu-toggle.min.js', array('jquery', 'owl-carousel'), false, true );
+	wp_enqueue_script('owl-carousel', 'https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js', array(), false, true );
 
 	wp_enqueue_script( 'sosnpr-owl-carousel', get_template_directory_uri() . '/build/js/owl-carousel.min.js', array('jquery', 'owl-carousel'), false, true );
 
@@ -135,15 +136,15 @@ require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/extras.php';
 
 
-// Register Navigation Menus
-function page_nav_menu() {
+// // Register Navigation Menus
+// function page_nav_menu() {
 	
-		$locations = array(
-			'page-nav-about-us' => 'Page navigation menu in About Us page',
-			'page-nav-proposed-park' => 'Page navigation menu in Proposed Park page',
-			'page-nav-resources' => 'Page navigation menu in Resources page',
-		);
-		register_nav_menus( $locations );
+// 		$locations = array(
+// 			'page-nav-about-us' => 'Page navigation menu in About Us page',
+// 			'page-nav-proposed-park' => 'Page navigation menu in Proposed Park page',
+// 			'page-nav-resources' => 'Page navigation menu in Resources page',
+// 		);
+// 		register_nav_menus( $locations );
 	
-	}
-	add_action( 'init', 'page_nav_menu' );
+// 	}
+// 	add_action( 'init', 'page_nav_menu' );

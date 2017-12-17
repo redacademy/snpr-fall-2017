@@ -448,16 +448,16 @@
       }
     }
   }
-  @include scroll-circle {
-    i,
-    .fa-angle-up {
-      padding-right: 0px;
-    }
-  }
-  @include scroll-half-circle{
-    i,
-    .fa-angle-up {
-      padding-right: 0px;
-    }
-  }
+  // @include scroll-circle {
+  //   i,
+  //   .fa-angle-up {
+  //     padding-right: 0px;
+  //   }
+  // }
+  // @include scroll-half-circle{
+  //   i,
+  //   .fa-angle-up {
+  //     padding-right: 0px;
+  //   }
+  // }
 }
