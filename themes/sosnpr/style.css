@@ -1226,46 +1226,79 @@ a:visited {
       -webkit-box-ordinal-group: 0;
           -ms-flex-order: -1;
               order: -1; }
-  .page-template-about-us .divider {
-    display: none; }
-    @media all and (min-width: 600px) {
-      .page-template-about-us .divider {
+  @media all and (min-width: 600px) {
+    .page-template-about-us .divider {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      border-bottom: #d87000 solid 2px;
+      height: 20px;
+      margin: 0 50px; }
+      .page-template-about-us .divider .scroll-circle {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        border-bottom: #d87000 solid 2px;
-        height: 20px;
-        margin: 0 50px; }
-        .page-template-about-us .divider .scroll-circle {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        position: relative;
+        top: -7px;
+        background: #555454;
+        border-radius: 30px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        z-index: 10; }
+      .page-template-about-us .divider a, .page-template-about-us .divider .fa {
+        color: white;
+        text-decoration: none;
+        padding-bottom: 3px; } }
+  .page-template-about-us .divider-clear {
+    display: none; }
+    .page-template-about-us .divider-clear .divider-clear {
+      display: none; }
+      @media all and (min-width: 600px) {
+        .page-template-about-us .divider-clear .divider-clear {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
           -webkit-box-pack: center;
               -ms-flex-pack: center;
-                  justify-content: center;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          position: relative;
-          top: -7px;
-          background: #555454;
-          border-radius: 30px;
-          width: 50px;
-          height: 50px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
-          z-index: 10; }
-        .page-template-about-us .divider a, .page-template-about-us .divider .fa {
-          color: white;
-          text-decoration: none;
-          padding-bottom: 3px; } }
-  .page-template-about-us .divider-clear {
-    display: none; }
+                  justify-content: center; }
+          .page-template-about-us .divider-clear .divider-clear .scroll-half-circle {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            background: #d87000;
+            border-radius: 30px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            width: 55px;
+            height: 40px;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 100;
+            color: white;
+            z-index: 10; }
+          .page-template-about-us .divider-clear .divider-clear a, .page-template-about-us .divider-clear .divider-clear .fa {
+            color: white;
+            text-decoration: none;
+            padding: 0; } }
     @media all and (min-width: 600px) {
       .page-template-about-us .divider-clear {
         display: -webkit-box;
@@ -1467,44 +1500,42 @@ a:visited {
     .page-template-resources .resources-content {
       padding-left: 0px; } }
 
-.page-template-resources .divider {
-  display: none; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .divider {
+@media all and (min-width: 600px) {
+  .page-template-resources .divider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-bottom: #d87000 solid 2px;
+    height: 20px;
+    margin: 0 50px; }
+    .page-template-resources .divider .scroll-circle {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      border-bottom: #d87000 solid 2px;
-      height: 20px;
-      margin: 0 50px; }
-      .page-template-resources .divider .scroll-circle {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -7px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-resources .divider a, .page-template-resources .divider .fa {
-        color: white;
-        text-decoration: none;
-        padding-bottom: 3px; } }
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: relative;
+      top: -7px;
+      background: #555454;
+      border-radius: 30px;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      font-size: 35px;
+      font-weight: 100;
+      color: white;
+      z-index: 10; }
+    .page-template-resources .divider a, .page-template-resources .divider .fa {
+      color: white;
+      text-decoration: none;
+      padding-bottom: 3px; } }
 
 .page-template-resources .resources-ul p {
   font-weight: 300;
@@ -1579,6 +1610,41 @@ a:visited {
 
 .page-template-resources .divider-clear {
   display: none; }
+  .page-template-resources .divider-clear .divider-clear {
+    display: none; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .divider-clear .divider-clear {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .page-template-resources .divider-clear .divider-clear .scroll-half-circle {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          background: #d87000;
+          border-radius: 30px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          width: 55px;
+          height: 40px;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 100;
+          color: white;
+          z-index: 10; }
+        .page-template-resources .divider-clear .divider-clear a, .page-template-resources .divider-clear .divider-clear .fa {
+          color: white;
+          text-decoration: none;
+          padding: 0; } }
   @media all and (min-width: 600px) {
     .page-template-resources .divider-clear {
       display: -webkit-box;
@@ -1972,6 +2038,50 @@ a:visited {
   max-width: -moz-min-content;
   max-width: min-content; }
 
+.page-template-proposed-park .site-content .land .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .site-content .land .text {
+      -webkit-box-align: left;
+          -ms-flex-align: left;
+              align-items: left; } }
+  .page-template-proposed-park .site-content .land .text a {
+    text-decoration: none; }
+  .page-template-proposed-park .site-content .land .text .close-section {
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background: #d87000;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; }
+    .page-template-proposed-park .site-content .land .text .close-section i {
+      font-size: 30px; }
+    @media all and (min-width: 600px) {
+      .page-template-proposed-park .site-content .land .text .close-section {
+        display: none; } }
+
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .site-content .land {
     display: -webkit-box;
@@ -1996,6 +2106,50 @@ a:visited {
         .page-template-proposed-park .site-content .land .content-container .image img {
           -ms-flex-item-align: end;
               align-self: flex-end; } }
+
+.page-template-proposed-park .site-content .location .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .site-content .location .text {
+      -webkit-box-align: left;
+          -ms-flex-align: left;
+              align-items: left; } }
+  .page-template-proposed-park .site-content .location .text a {
+    text-decoration: none; }
+  .page-template-proposed-park .site-content .location .text .close-section {
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background: #d87000;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; }
+    .page-template-proposed-park .site-content .location .text .close-section i {
+      font-size: 30px; }
+    @media all and (min-width: 600px) {
+      .page-template-proposed-park .site-content .location .text .close-section {
+        display: none; } }
 
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .site-content .location h2 {
@@ -2078,6 +2232,10 @@ a:visited {
       -ms-flex-preferred-size: 42%;
           flex-basis: 42%;
       padding-left: 5%; }
+      .page-template-proposed-park .site-content .land-use .content-container .content-container-four .text .close-section {
+        height: 50px;
+        width: 50px;
+        background: #d87000; }
       .page-template-proposed-park .site-content .land-use .content-container .content-container-four .text p {
         padding-left: 5%; } }
     @media all and (min-width: 1000px) and (min-width: 1100px) {
@@ -2092,6 +2250,50 @@ a:visited {
             flex-basis: 50%; }
         .page-template-proposed-park .site-content .land-use .content-container .content-container-four .text p {
           padding-left: 15%; } }
+
+.page-template-proposed-park .site-content .why .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .site-content .why .text {
+      -webkit-box-align: left;
+          -ms-flex-align: left;
+              align-items: left; } }
+  .page-template-proposed-park .site-content .why .text a {
+    text-decoration: none; }
+  .page-template-proposed-park .site-content .why .text .close-section {
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background: #d87000;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; }
+    .page-template-proposed-park .site-content .why .text .close-section i {
+      font-size: 30px; }
+    @media all and (min-width: 600px) {
+      .page-template-proposed-park .site-content .why .text .close-section {
+        display: none; } }
 
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .site-content .why .content-container {
@@ -2108,6 +2310,50 @@ a:visited {
         -ms-flex-item-align: end;
             align-self: flex-end; } }
 
+.page-template-proposed-park .site-content .ranch .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .site-content .ranch .text {
+      -webkit-box-align: left;
+          -ms-flex-align: left;
+              align-items: left; } }
+  .page-template-proposed-park .site-content .ranch .text a {
+    text-decoration: none; }
+  .page-template-proposed-park .site-content .ranch .text .close-section {
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background: #d87000;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; }
+    .page-template-proposed-park .site-content .ranch .text .close-section i {
+      font-size: 30px; }
+    @media all and (min-width: 600px) {
+      .page-template-proposed-park .site-content .ranch .text .close-section {
+        display: none; } }
+
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .site-content .ranch .content-container {
     display: -webkit-box;
@@ -2120,6 +2366,50 @@ a:visited {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
       padding-left: 2%; } }
+
+.page-template-proposed-park .site-content .human .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .site-content .human .text {
+      -webkit-box-align: left;
+          -ms-flex-align: left;
+              align-items: left; } }
+  .page-template-proposed-park .site-content .human .text a {
+    text-decoration: none; }
+  .page-template-proposed-park .site-content .human .text .close-section {
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background: #d87000;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; }
+    .page-template-proposed-park .site-content .human .text .close-section i {
+      font-size: 30px; }
+    @media all and (min-width: 600px) {
+      .page-template-proposed-park .site-content .human .text .close-section {
+        display: none; } }
 
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .site-content .human .content-container {
@@ -2136,6 +2426,50 @@ a:visited {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
 
+.page-template-proposed-park .site-content .ecological .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .site-content .ecological .text {
+      -webkit-box-align: left;
+          -ms-flex-align: left;
+              align-items: left; } }
+  .page-template-proposed-park .site-content .ecological .text a {
+    text-decoration: none; }
+  .page-template-proposed-park .site-content .ecological .text .close-section {
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background: #d87000;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; }
+    .page-template-proposed-park .site-content .ecological .text .close-section i {
+      font-size: 30px; }
+    @media all and (min-width: 600px) {
+      .page-template-proposed-park .site-content .ecological .text .close-section {
+        display: none; } }
+
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .site-content .ecological .content-container {
     display: -webkit-box;
@@ -2148,6 +2482,50 @@ a:visited {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
       padding-left: 2%; } }
+
+.page-template-proposed-park .site-content .economic .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 600px) {
+    .page-template-proposed-park .site-content .economic .text {
+      -webkit-box-align: left;
+          -ms-flex-align: left;
+              align-items: left; } }
+  .page-template-proposed-park .site-content .economic .text a {
+    text-decoration: none; }
+  .page-template-proposed-park .site-content .economic .text .close-section {
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background: #d87000;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; }
+    .page-template-proposed-park .site-content .economic .text .close-section i {
+      font-size: 30px; }
+    @media all and (min-width: 600px) {
+      .page-template-proposed-park .site-content .economic .text .close-section {
+        display: none; } }
 
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .site-content .economic {
@@ -2250,44 +2628,42 @@ a:visited {
 .page-template-proposed-park .fa-angle-up {
   padding-right: 0px; }
 
-.page-template-proposed-park .divider {
-  display: none; }
-  @media all and (min-width: 600px) {
-    .page-template-proposed-park .divider {
+@media all and (min-width: 600px) {
+  .page-template-proposed-park .divider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-bottom: #d87000 solid 2px;
+    height: 20px;
+    margin: 0 50px; }
+    .page-template-proposed-park .divider .scroll-circle {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      border-bottom: #d87000 solid 2px;
-      height: 20px;
-      margin: 0 50px; }
-      .page-template-proposed-park .divider .scroll-circle {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -7px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-proposed-park .divider a, .page-template-proposed-park .divider .fa {
-        color: white;
-        text-decoration: none;
-        padding-bottom: 3px; } }
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: relative;
+      top: -7px;
+      background: #555454;
+      border-radius: 30px;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      font-size: 35px;
+      font-weight: 100;
+      color: white;
+      z-index: 10; }
+    .page-template-proposed-park .divider a, .page-template-proposed-park .divider .fa {
+      color: white;
+      text-decoration: none;
+      padding-bottom: 3px; } }
 
 .page-template-proposed-park i,
 .page-template-proposed-park .fa-angle-up {
@@ -2295,6 +2671,41 @@ a:visited {
 
 .page-template-proposed-park .divider-clear {
   display: none; }
+  .page-template-proposed-park .divider-clear .divider-clear {
+    display: none; }
+    @media all and (min-width: 600px) {
+      .page-template-proposed-park .divider-clear .divider-clear {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .page-template-proposed-park .divider-clear .divider-clear .scroll-half-circle {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          background: #d87000;
+          border-radius: 30px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          width: 55px;
+          height: 40px;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 100;
+          color: white;
+          z-index: 10; }
+        .page-template-proposed-park .divider-clear .divider-clear a, .page-template-proposed-park .divider-clear .divider-clear .fa {
+          color: white;
+          text-decoration: none;
+          padding: 0; } }
   @media all and (min-width: 600px) {
     .page-template-proposed-park .divider-clear {
       display: -webkit-box;
@@ -2496,44 +2907,42 @@ a:visited {
     .page-template-resources .resources-content {
       padding-left: 0px; } }
 
-.page-template-resources .divider {
-  display: none; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .divider {
+@media all and (min-width: 600px) {
+  .page-template-resources .divider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-bottom: #d87000 solid 2px;
+    height: 20px;
+    margin: 0 50px; }
+    .page-template-resources .divider .scroll-circle {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      border-bottom: #d87000 solid 2px;
-      height: 20px;
-      margin: 0 50px; }
-      .page-template-resources .divider .scroll-circle {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -7px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-resources .divider a, .page-template-resources .divider .fa {
-        color: white;
-        text-decoration: none;
-        padding-bottom: 3px; } }
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: relative;
+      top: -7px;
+      background: #555454;
+      border-radius: 30px;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      font-size: 35px;
+      font-weight: 100;
+      color: white;
+      z-index: 10; }
+    .page-template-resources .divider a, .page-template-resources .divider .fa {
+      color: white;
+      text-decoration: none;
+      padding-bottom: 3px; } }
 
 .page-template-resources .resources-ul p {
   font-weight: 300;
@@ -2608,6 +3017,41 @@ a:visited {
 
 .page-template-resources .divider-clear {
   display: none; }
+  .page-template-resources .divider-clear .divider-clear {
+    display: none; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .divider-clear .divider-clear {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .page-template-resources .divider-clear .divider-clear .scroll-half-circle {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          background: #d87000;
+          border-radius: 30px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          width: 55px;
+          height: 40px;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 100;
+          color: white;
+          z-index: 10; }
+        .page-template-resources .divider-clear .divider-clear a, .page-template-resources .divider-clear .divider-clear .fa {
+          color: white;
+          text-decoration: none;
+          padding: 0; } }
   @media all and (min-width: 600px) {
     .page-template-resources .divider-clear {
       display: -webkit-box;

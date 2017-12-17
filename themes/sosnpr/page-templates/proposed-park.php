@@ -39,7 +39,7 @@ get_header();
       </section>
 
 
-      <section class="proposed-container">
+      <section class="proposed-container" id="start">
 
         <div class="prop-item land" id="land">
           <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
@@ -49,6 +49,9 @@ get_header();
           <div class="content-container">
             <div class="text">
               <?php echo CFS()->get( 'the_land' );?>
+              <a href="#start"><div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div></a>
             </div>
             <div class="image"><img src="<?php echo CFS()->get('land_image');?>" alt="a hiker in neon gazing out reflectively at a river in the valley below"
               /></div>
@@ -71,6 +74,9 @@ get_header();
             <div class="image"><img src="<?php echo CFS()->get('location_image');?>" alt="a map of the southern okanagan" /></div>
             <div class="text">
               <?php echo CFS()->get('location_of_the_park');?>
+              <a href="#start"><div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div></a>
             </div>
           </div>
 
@@ -115,6 +121,7 @@ get_header();
               </div>
               <div class="text">
                 <?php echo CFS()->get('land_four');?>
+                
               </div>
             </div>
 
@@ -137,6 +144,9 @@ get_header();
           <div class="content-container">
             <div class="text">
               <?php echo CFS()->get( 'why_a_national_park' );?>
+              <a href="#start"><div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div></a>
             </div>
             <div class="image"><img src="<?php echo CFS()->get('why_image');?>" alt="an aerial shot of a river" /></div>
           </div>
@@ -160,6 +170,9 @@ get_header();
               /></div>
             <div class="text">
               <?php echo CFS()->get('ranching_agriculture');?>
+              <a href="#start"><div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div></a>
             </div>
           </div>
 
@@ -180,6 +193,9 @@ get_header();
           <div class="content-container">
             <div class="text">
               <?php echo CFS()->get( 'human_impact' );?>
+              <a href="#start"><div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div></a>
             </div>
             <div class="image"><img src="<?php echo CFS()->get('human_image');?>" alt="three men standing on a hill wearing sunglasses and holding papers"
               /></div>
@@ -203,7 +219,10 @@ get_header();
             <div class="image"><img src="<?php echo CFS()->get('ecological_image');?>" alt="several white tail deer grazing next to a lake"
               /></div>
             <div class="text">
-              <?php echo CFS()->get('ecological_benefits');?>
+             <?php echo CFS()->get('ecological_benefits');?>
+              <a href="#start"><div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div></a>
             </div>
           </div>
 
@@ -224,6 +243,9 @@ get_header();
           <div class="content-container">
             <div class="text">
               <?php echo CFS()->get('economic_benefits');?>
+              <a href="#start"><div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div></a>
             </div>
             <div class="image">
               <div class="pdf-container">
@@ -265,6 +287,7 @@ get_header();
           <div class="content-container-three">
             <div class="text">
               <?php echo CFS()->get('faq_three');?>
+              
             </div>
             <div class="image"><img src="<?php echo CFS()->get('faq_image_three');?>" alt="a helicopter over a snowy mountain top with clouds in the background"
               /></div>

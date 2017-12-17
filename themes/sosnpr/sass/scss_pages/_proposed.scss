@@ -162,6 +162,10 @@
       }
     } //land
     .land {
+     
+    
+      @include proposed-button;
+
       @include desktop {
         h2 {
           padding-bottom: 20px;
@@ -183,6 +187,8 @@
       }
     } //location
     .location {
+    @include proposed-button;
+
       @include desktop {
         h2 {
           padding-bottom: 20px;
@@ -246,7 +252,14 @@
             }
           }
           .content-container-four {
+            
+
             .text {
+              .close-section {
+                height: 50px;
+                width: 50px;
+                background: $orange;
+              }
               p {
                 padding-left: 5%;
               }
@@ -274,6 +287,8 @@
       }
     } //why a national park
     .why {
+      @include proposed-button;
+
       @include desktop {
         .content-container {
           display: flex;
@@ -290,6 +305,8 @@
       }
     } //ranch 
     .ranch {
+      @include proposed-button;
+
       @include desktop {
         .content-container {
           display: flex;
@@ -304,6 +321,8 @@
       }
     } //human 
     .human {
+      @include proposed-button;
+
       @include desktop {
         .content-container {
           display: flex;
@@ -320,6 +339,8 @@
       }
     } //ecological 
     .ecological {
+      @include proposed-button;
+
       @include desktop {
         .content-container {
           display: flex;
@@ -334,6 +355,8 @@
       }
     } //economic
     .economic {
+      @include proposed-button;
+
       @include desktop {
         padding-bottom: 20px;
         h2 {
@@ -407,6 +430,8 @@
           }
         }
         .content-container-three {
+          
+
           display: flex;
           .image {
             flex-basis: 50%;
