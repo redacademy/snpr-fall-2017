@@ -550,8 +550,7 @@ a {
   clear: both;
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  display: block; }
+  margin-right: auto; }
 
 /*--------------------------------------------------------------
 # Clearings
@@ -636,8 +635,7 @@ object {
   .wp-caption img[class*="wp-image-"] {
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    display: block; }
+    margin-right: auto; }
   .wp-caption .wp-caption-text {
     margin: 0.8075rem 0; }
 
@@ -1722,6 +1720,8 @@ a:visited {
     font-family: "Miriam Libre", sans-serif; }
     .page-id-101 .posts-navigation a:focus {
       border: 5px solid black; }
+    .page-id-101 .posts-navigation a :hover {
+      color: #2E84E6; }
 
 .page-id-101 .owl-theme .owl-controls .owl-page span {
   height: 8px;
