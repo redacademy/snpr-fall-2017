@@ -44,12 +44,21 @@
         font-family:$miriam;
         a{
           color:$forest;
+
+        }
+        a:hover{
+          color:$hover-blue
         }
       }//li
       .menu-item-106{
         a{
           color:white;
           text-align:center;
+         
+        }
+        a:hover{
+          color:$hover-light-blue;
+          border:1px $hover-light-blue;
         }
         border-radius:3px;
         background:$orange;
@@ -133,6 +142,9 @@
               padding-bottom:20px;
               
               font-family:$miriam;
+              a:hover{
+                color:$hover-blue
+              }
               a{
                 color:$orange;
                 font-family:$miriam;
@@ -150,6 +162,10 @@
                 color:white;
                 padding-left:5px;
                 padding-right:5px;
+              }
+              a:hover{
+                color:$hover-light-blue;
+                border:1px $hover-light-blue;
               }
               background:$orange;
             }// menu-item-106
@@ -198,6 +214,9 @@
               line-height:1;
               
               font-family:$miriam;
+              a:hover{
+                color:$hover-blue
+              }
               a{
                 color: $orange;
                 font-family:$miriam;
@@ -206,6 +225,9 @@
               .menu-item-106{
                 a{
                   color:white;
+                }
+                a:hover{
+                  color:$hover-light-blue;border:1px $hover-light-blue;
                 }
                 background:$orange;
               }

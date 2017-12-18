@@ -1,5 +1,5 @@
 .front-page-hero{
-  background-image: url(../../sos_assets/home-page/south-okanagan-grasslands.jpg) ;
+  background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-2.jpg) ;
   background-size: cover;
   background-repeat: no-repeat;
   align-items:center;
@@ -59,7 +59,9 @@
     }
     
   }
-  
+  .learn-more-button:hover{
+    color:$hover-light-blue;border:1px $hover-light-blue;
+  }
 }
 
 .recent-updates-header{
@@ -72,6 +74,9 @@
   a{
     color:$orange;
     text-decoration:none;
+  }
+  a:hover{
+    color:$hover-blue;
   }
 }
 
@@ -179,6 +184,9 @@
     }
     .learn-more-button{
       font-size:25px;
+      a:hover{
+        color:$hover-light-blue;border:1px $hover-light-blue;
+      }
     }
     
   }
@@ -188,6 +196,7 @@
       width:8px;
     }
   }
+  
   .page-id-101{
     
   
@@ -201,7 +210,7 @@
   }
 }
 @media screen and (min-width: 1000px){
- 
+  
   .page-id-101{
   .posts-navigation{
     padding-top:25px;
@@ -236,6 +245,10 @@
       }
       .learn-more-button{
         font-size:30px;
+        a:hover{
+          color:$hover-light-blue;
+          border:1px $hover-light-blue;
+        }
       }
 
   }
