@@ -93,9 +93,6 @@ function sosnpr_scripts() {
 
 	wp_enqueue_style( 'owl-carousel-theme', 'https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css' );
 
-	
-
-
 	wp_enqueue_script('jquery');
 
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
