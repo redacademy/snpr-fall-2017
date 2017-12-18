@@ -10,7 +10,7 @@
         padding-top: 90px;
         font-size: 54px;
       }
-    }
+    } //close entry title
     .entry-content {
       display: flex;
       justify-content: center;
@@ -23,7 +23,8 @@
           font-size: 18px;
         }
       }
-    } //banner 
+    } //closes entry content
+    //banner 
     .proposed-banner {
       display: none;
       @include tablet {
@@ -94,6 +95,7 @@
       }
     }
     .prop-item {
+      position: relative;
       cursor: pointer;
       padding-left: 25px;
       @include tablet {
@@ -102,34 +104,31 @@
         padding-bottom: 50px;
         padding-left: 0;
         cursor: unset;
-
-        //MODIFIED
-        padding: 20px 0;
-        margin: 30px;
-        border-bottom: 1px $orange solid;
-        a{
-          @include scroll-circle;
-          position: relative;
-          top: 45px;
-          text-decoration: none;
-        }
-        
-        &:last-child{
-          margin-bottom: 0;
+        border-bottom: 1px solid $orange;
+      }
+      .page-top {
+        display: none;
+        @include tablet {
+          height: 40px;
+          width: 40px;
+          border-radius: 50px;
+          display: inline;
+          position: absolute;
+          bottom: -20px;
+          left: 48%;
+          background: #555454;
+          box-shadow: none;
           border: none;
-          a{
-            @include scroll-half-circle;
-            position: relative;
-            top: 20px;
+          i {
+            font-size: 25px;
+            color: #fff;
           }
-          //END MODIFIED
+          
         }
       }
-      // @include tablet{
-        
-        
-      // }
-    }
+    
+      
+    } //close prop item
     .show {
       height: auto;
     }
@@ -162,7 +161,7 @@
       @include tablet {
         display: none;
       }
-    }
+    } //close right arrow
     .see {
       display: inline;
       @include tablet {
@@ -176,25 +175,10 @@
       border-top: 1px solid $orange;
       border-left: 4px solid $orange;
       border-bottom: 1px solid $orange;
-
-//MODIFIED
-      a{
-        @include scroll-half-circle;
-        text-decoration: none;
-        background: $orange;
-        margin: 0 auto;
+      @include tablet {
+        border-top: none;
+        border-left: none;
       }
-      @include tablet{
-        border: none;
-      }
-      // @include tablet {
-      //   border-left: none;
-      //   border-top: none;
-      //   border-bottom: none;
-      // }
-
-
-//END MODIFIED
     }
     .image {
       img {
@@ -202,10 +186,7 @@
       }
     } //land
     .land {
-     
-    
       @include proposed-button;
-
       @include desktop {
         h2 {
           padding-bottom: 20px;
@@ -227,8 +208,7 @@
       }
     } //location
     .location {
-    @include proposed-button;
-
+      @include proposed-button;
       @include desktop {
         h2 {
           padding-bottom: 20px;
@@ -247,6 +227,7 @@
       }
     } //regulations
     .land-use {
+      @include proposed-button;
       @include desktop {
         h2 {
           padding-bottom: 20px;
@@ -292,14 +273,7 @@
             }
           }
           .content-container-four {
-            
-
             .text {
-              .close-section {
-                height: 50px;
-                width: 50px;
-                background: $orange;
-              }
               p {
                 padding-left: 5%;
               }
@@ -328,7 +302,6 @@
     } //why a national park
     .why {
       @include proposed-button;
-
       @include desktop {
         .content-container {
           display: flex;
@@ -346,7 +319,6 @@
     } //ranch 
     .ranch {
       @include proposed-button;
-
       @include desktop {
         .content-container {
           display: flex;
@@ -362,7 +334,6 @@
     } //human 
     .human {
       @include proposed-button;
-
       @include desktop {
         .content-container {
           display: flex;
@@ -380,7 +351,6 @@
     } //ecological 
     .ecological {
       @include proposed-button;
-
       @include desktop {
         .content-container {
           display: flex;
@@ -396,7 +366,6 @@
     } //economic
     .economic {
       @include proposed-button;
-
       @include desktop {
         padding-bottom: 20px;
         h2 {
@@ -441,6 +410,7 @@
       }
     } //faq
     .faq {
+      @include proposed-button;
       @include desktop {
         p {
           margin: 0;
@@ -470,8 +440,6 @@
           }
         }
         .content-container-three {
-          
-
           display: flex;
           .image {
             flex-basis: 50%;
@@ -488,10 +456,4 @@
       }
     }
   }
-
-
-  //MODIFIED
-.scroll-up{
-  margin: 0 auto;
-}
 }
