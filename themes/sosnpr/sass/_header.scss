@@ -79,8 +79,11 @@
     min-width:40px;
     max-height:40px;
     max-height:40px;
-    
+    a:hover{
+    border:5px $hover-light-blue;
   }
+  }
+  
   .menu-non-logo{
     display:flex;
     

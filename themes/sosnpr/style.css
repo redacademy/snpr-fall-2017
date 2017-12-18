@@ -3312,6 +3312,8 @@ a:visited {
   min-width: 40px;
   max-height: 40px;
   max-height: 40px; }
+  .header-logo a:hover {
+    border: 5px #4CD1FE; }
 
 .menu-non-logo {
   display: -webkit-box;
