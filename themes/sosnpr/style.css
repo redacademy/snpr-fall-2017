@@ -1164,18 +1164,78 @@ a:visited {
       border-bottom: 1px #d87000 solid;
       border-left: 7px #d87000 solid; }
       .page-template-about-us .about-us-content-wrapper .list-item-click a {
-        background: #555454;
-        border-radius: 30px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        width: 55px;
-        height: 40px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
         text-decoration: none;
         background: #d87000; }
+        .page-template-about-us .about-us-content-wrapper .list-item-click a .divider-clear {
+          display: none; }
+          .page-template-about-us .about-us-content-wrapper .list-item-click a .divider-clear .divider-clear {
+            display: none; }
+            @media all and (min-width: 600px) {
+              .page-template-about-us .about-us-content-wrapper .list-item-click a .divider-clear .divider-clear {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center; }
+                .page-template-about-us .about-us-content-wrapper .list-item-click a .divider-clear .divider-clear .scroll-half-circle {
+                  display: -webkit-box;
+                  display: -ms-flexbox;
+                  display: flex;
+                  -webkit-box-pack: center;
+                      -ms-flex-pack: center;
+                          justify-content: center;
+                  -webkit-box-align: center;
+                      -ms-flex-align: center;
+                          align-items: center;
+                  background: #d87000;
+                  border-radius: 30px;
+                  border-bottom-left-radius: 0px;
+                  border-bottom-right-radius: 0px;
+                  width: 55px;
+                  height: 40px;
+                  text-align: center;
+                  font-size: 35px;
+                  font-weight: 100;
+                  color: white;
+                  z-index: 10; }
+                .page-template-about-us .about-us-content-wrapper .list-item-click a .divider-clear .divider-clear a, .page-template-about-us .about-us-content-wrapper .list-item-click a .divider-clear .divider-clear .fa {
+                  color: white;
+                  text-decoration: none;
+                  padding: 0; } }
+          @media all and (min-width: 600px) {
+            .page-template-about-us .about-us-content-wrapper .list-item-click a .divider-clear {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center; }
+              .page-template-about-us .about-us-content-wrapper .list-item-click a .divider-clear .scroll-half-circle {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                background: #555454;
+                border-radius: 30px;
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+                width: 55px;
+                height: 40px;
+                text-align: center;
+                font-size: 35px;
+                font-weight: 100;
+                color: white;
+                z-index: 10; }
+              .page-template-about-us .about-us-content-wrapper .list-item-click a .divider-clear a, .page-template-about-us .about-us-content-wrapper .list-item-click a .divider-clear .fa {
+                color: white;
+                text-decoration: none;
+                padding: 0; } }
       @media all and (min-width: 600px) {
         .page-template-about-us .about-us-content-wrapper .list-item-click {
           border: none; } }
@@ -1199,32 +1259,107 @@ a:visited {
           margin: 30px;
           border-bottom: 1px #d87000 solid; }
           .page-template-about-us .about-us-content-wrapper li a {
+            position: relative;
+            top: 45px;
+            text-decoration: none; } }
+    @media all and (min-width: 600px) and (min-width: 600px) {
+      .page-template-about-us .about-us-content-wrapper li a .divider {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        border-bottom: #d87000 solid 2px;
+        height: 20px;
+        margin: 0 50px; }
+        .page-template-about-us .about-us-content-wrapper li a .divider .scroll-circle {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          position: relative;
+          top: -7px;
+          background: #555454;
+          border-radius: 30px;
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 100;
+          color: white;
+          z-index: 10; }
+        .page-template-about-us .about-us-content-wrapper li a .divider a, .page-template-about-us .about-us-content-wrapper li a .divider .fa {
+          color: white;
+          text-decoration: none;
+          padding-bottom: 3px; } }
+      @media all and (min-width: 600px) {
+          .page-template-about-us .about-us-content-wrapper li:last-child {
+            margin-bottom: 0;
+            border: none; }
+            .page-template-about-us .about-us-content-wrapper li:last-child a {
+              position: relative;
+              top: 20px; }
+              .page-template-about-us .about-us-content-wrapper li:last-child a .divider-clear {
+                display: none; }
+                .page-template-about-us .about-us-content-wrapper li:last-child a .divider-clear .divider-clear {
+                  display: none; } }
+          @media all and (min-width: 600px) and (min-width: 600px) {
+            .page-template-about-us .about-us-content-wrapper li:last-child a .divider-clear .divider-clear {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center; }
+              .page-template-about-us .about-us-content-wrapper li:last-child a .divider-clear .divider-clear .scroll-half-circle {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                background: #d87000;
+                border-radius: 30px;
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+                width: 55px;
+                height: 40px;
+                text-align: center;
+                font-size: 35px;
+                font-weight: 100;
+                color: white;
+                z-index: 10; }
+              .page-template-about-us .about-us-content-wrapper li:last-child a .divider-clear .divider-clear a, .page-template-about-us .about-us-content-wrapper li:last-child a .divider-clear .divider-clear .fa {
+                color: white;
+                text-decoration: none;
+                padding: 0; } }
+        @media all and (min-width: 600px) and (min-width: 600px) {
+          .page-template-about-us .about-us-content-wrapper li:last-child a .divider-clear {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
             -webkit-box-pack: center;
                 -ms-flex-pack: center;
-                    justify-content: center;
-            -webkit-box-align: center;
-                -ms-flex-align: center;
-                    align-items: center;
-            position: relative;
-            top: -5px;
-            background: #555454;
-            border-radius: 30px;
-            width: 50px;
-            height: 50px;
-            text-align: center;
-            font-size: 35px;
-            font-weight: 100;
-            color: white;
-            position: relative;
-            top: 45px;
-            text-decoration: none; }
-          .page-template-about-us .about-us-content-wrapper li:last-child {
-            margin-bottom: 0;
-            border: none; }
-            .page-template-about-us .about-us-content-wrapper li:last-child a {
+                    justify-content: center; }
+            .page-template-about-us .about-us-content-wrapper li:last-child a .divider-clear .scroll-half-circle {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
               background: #555454;
               border-radius: 30px;
               border-bottom-left-radius: 0px;
@@ -1235,8 +1370,11 @@ a:visited {
               font-size: 35px;
               font-weight: 100;
               color: white;
-              position: relative;
-              top: 20px; } }
+              z-index: 10; }
+            .page-template-about-us .about-us-content-wrapper li:last-child a .divider-clear a, .page-template-about-us .about-us-content-wrapper li:last-child a .divider-clear .fa {
+              color: white;
+              text-decoration: none;
+              padding: 0; } }
       .page-template-about-us .about-us-content-wrapper li .essay-content {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1303,115 +1441,6 @@ a:visited {
       -webkit-box-ordinal-group: 0;
           -ms-flex-order: -1;
               order: -1; }
-<<<<<<< HEAD
-  @media all and (min-width: 600px) {
-    .page-template-about-us .divider {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      border-bottom: #d87000 solid 2px;
-      height: 20px;
-      margin: 0 50px; }
-      .page-template-about-us .divider .scroll-circle {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -7px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-about-us .divider a, .page-template-about-us .divider .fa {
-        color: white;
-        text-decoration: none;
-        padding-bottom: 3px; } }
-  .page-template-about-us .divider-clear {
-    display: none; }
-    .page-template-about-us .divider-clear .divider-clear {
-      display: none; }
-      @media all and (min-width: 600px) {
-        .page-template-about-us .divider-clear .divider-clear {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-              -ms-flex-pack: center;
-                  justify-content: center; }
-          .page-template-about-us .divider-clear .divider-clear .scroll-half-circle {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                    justify-content: center;
-            -webkit-box-align: center;
-                -ms-flex-align: center;
-                    align-items: center;
-            background: #d87000;
-            border-radius: 30px;
-            border-bottom-left-radius: 0px;
-            border-bottom-right-radius: 0px;
-            width: 55px;
-            height: 40px;
-            text-align: center;
-            font-size: 35px;
-            font-weight: 100;
-            color: white;
-            z-index: 10; }
-          .page-template-about-us .divider-clear .divider-clear a, .page-template-about-us .divider-clear .divider-clear .fa {
-            color: white;
-            text-decoration: none;
-            padding: 0; } }
-    @media all and (min-width: 600px) {
-      .page-template-about-us .divider-clear {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center; }
-        .page-template-about-us .divider-clear .scroll-half-circle {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-              -ms-flex-pack: center;
-                  justify-content: center;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          background: #555454;
-          border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
-          z-index: 10; }
-        .page-template-about-us .divider-clear a, .page-template-about-us .divider-clear .fa {
-          color: white;
-          text-decoration: none;
-          padding: 0; } }
-=======
->>>>>>> 02af4c5d919ed02d22760a5a494919b9f66de407
 
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
@@ -1575,89 +1604,48 @@ a:visited {
   padding-left: 20px; }
   @media all and (min-width: 600px) {
     .page-template-resources .resources-content {
-<<<<<<< HEAD
-      padding-left: 0px; } }
-
-<<<<<<< HEAD
-@media all and (min-width: 600px) {
-  .page-template-resources .divider {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border-bottom: #d87000 solid 2px;
-    height: 20px;
-    margin: 0 50px; }
-    .page-template-resources .divider .scroll-circle {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      position: relative;
-      top: -7px;
-      background: #555454;
-      border-radius: 30px;
-      width: 50px;
-      height: 50px;
-      text-align: center;
-      font-size: 35px;
-      font-weight: 100;
-      color: white;
-      z-index: 10; }
-    .page-template-resources .divider a, .page-template-resources .divider .fa {
-      color: white;
-      text-decoration: none;
-      padding-bottom: 3px; } }
-
-=======
->>>>>>> 02af4c5d919ed02d22760a5a494919b9f66de407
-.page-template-resources .resources-ul p {
-  font-weight: 300;
-  padding-left: 3rem; }
-
-.page-template-resources .resources-ul h2 {
-  color: #d87000;
-  font-family: "Miriam Libre", sans-serif;
-  text-transform: uppercase;
-  padding: 3rem 0rem 0rem 3rem; }
-
-.page-template-resources .resources-ul a {
-  color: #0096ff;
-  font-weight: 300; }
-=======
       padding: 20px 0;
       margin: 30px; }
       .page-template-resources .resources-content .scroll-up {
+        position: relative;
+        top: 45px;
+        text-decoration: none; } }
+    @media all and (min-width: 600px) and (min-width: 600px) {
+      .page-template-resources .resources-content .scroll-up .divider {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -5px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        position: relative;
-        top: 45px;
-        text-decoration: none; } }
->>>>>>> 36bd4760f059d95273b5c7e64369180fd4875789
+        border-bottom: #d87000 solid 2px;
+        height: 20px;
+        margin: 0 50px; }
+        .page-template-resources .resources-content .scroll-up .divider .scroll-circle {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          position: relative;
+          top: -7px;
+          background: #555454;
+          border-radius: 30px;
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 100;
+          color: white;
+          z-index: 10; }
+        .page-template-resources .resources-content .scroll-up .divider a, .page-template-resources .resources-content .scroll-up .divider .fa {
+          color: white;
+          text-decoration: none;
+          padding-bottom: 3px; } }
 
 .page-template-resources .resources-ul {
   display: -webkit-box;
@@ -1702,44 +1690,122 @@ a:visited {
       margin: 30px;
       border-bottom: 1px #d87000 solid; }
       .page-template-resources .resources-ul li .scroll-up {
+        position: relative;
+        top: 45px;
+        text-decoration: none; } }
+    @media all and (min-width: 600px) and (min-width: 600px) {
+      .page-template-resources .resources-ul li .scroll-up .divider {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -5px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        position: relative;
-        top: 45px;
-        text-decoration: none; }
-      .page-template-resources .resources-ul li:last-child {
-        margin-bottom: 0;
-        border: none; }
-        .page-template-resources .resources-ul li:last-child .scroll-up {
+        border-bottom: #d87000 solid 2px;
+        height: 20px;
+        margin: 0 50px; }
+        .page-template-resources .resources-ul li .scroll-up .divider .scroll-circle {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          position: relative;
+          top: -7px;
           background: #555454;
           border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
+          width: 50px;
+          height: 50px;
           text-align: center;
           font-size: 35px;
           font-weight: 100;
           color: white;
+          z-index: 10; }
+        .page-template-resources .resources-ul li .scroll-up .divider a, .page-template-resources .resources-ul li .scroll-up .divider .fa {
+          color: white;
+          text-decoration: none;
+          padding-bottom: 3px; } }
+  @media all and (min-width: 600px) {
+      .page-template-resources .resources-ul li:last-child {
+        margin-bottom: 0;
+        border: none; }
+        .page-template-resources .resources-ul li:last-child .scroll-up {
           position: relative;
-          top: 20px; } }
+          top: 20px; }
+          .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear {
+            display: none; }
+            .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear .divider-clear {
+              display: none; } }
+          @media all and (min-width: 600px) and (min-width: 600px) {
+            .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear .divider-clear {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center; }
+              .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear .divider-clear .scroll-half-circle {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                background: #d87000;
+                border-radius: 30px;
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+                width: 55px;
+                height: 40px;
+                text-align: center;
+                font-size: 35px;
+                font-weight: 100;
+                color: white;
+                z-index: 10; }
+              .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear .divider-clear a, .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear .divider-clear .fa {
+                color: white;
+                text-decoration: none;
+                padding: 0; } }
+        @media all and (min-width: 600px) and (min-width: 600px) {
+          .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center; }
+            .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear .scroll-half-circle {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              background: #555454;
+              border-radius: 30px;
+              border-bottom-left-radius: 0px;
+              border-bottom-right-radius: 0px;
+              width: 55px;
+              height: 40px;
+              text-align: center;
+              font-size: 35px;
+              font-weight: 100;
+              color: white;
+              z-index: 10; }
+            .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear a, .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear .fa {
+              color: white;
+              text-decoration: none;
+              padding: 0; } }
   .page-template-resources .resources-ul .lc-groups-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1756,18 +1822,79 @@ a:visited {
         margin-bottom: 0;
         border: none; }
         .page-template-resources .resources-ul .lc-groups-container .scroll-up {
-          background: #555454;
-          border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
           position: relative;
           top: 20px; }
+          .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear {
+            display: none; }
+            .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear .divider-clear {
+              display: none; } }
+        @media all and (min-width: 600px) and (min-width: 600px) {
+          .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear .divider-clear {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center; }
+            .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear .divider-clear .scroll-half-circle {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              background: #d87000;
+              border-radius: 30px;
+              border-bottom-left-radius: 0px;
+              border-bottom-right-radius: 0px;
+              width: 55px;
+              height: 40px;
+              text-align: center;
+              font-size: 35px;
+              font-weight: 100;
+              color: white;
+              z-index: 10; }
+            .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear .divider-clear a, .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear .divider-clear .fa {
+              color: white;
+              text-decoration: none;
+              padding: 0; } }
+      @media all and (min-width: 600px) and (min-width: 600px) {
+        .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+          .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear .scroll-half-circle {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            background: #555454;
+            border-radius: 30px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            width: 55px;
+            height: 40px;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 100;
+            color: white;
+            z-index: 10; }
+          .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear a, .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear .fa {
+            color: white;
+            text-decoration: none;
+            padding: 0; } }
+    @media all and (min-width: 600px) {
         .page-template-resources .resources-ul .lc-groups-container .lc-groups {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -1799,80 +1926,6 @@ a:visited {
             max-width: 40vw;
             margin-left: 5rem; } }
 
-<<<<<<< HEAD
-.page-template-resources .divider-clear {
-  display: none; }
-  .page-template-resources .divider-clear .divider-clear {
-    display: none; }
-    @media all and (min-width: 600px) {
-      .page-template-resources .divider-clear .divider-clear {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center; }
-        .page-template-resources .divider-clear .divider-clear .scroll-half-circle {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-              -ms-flex-pack: center;
-                  justify-content: center;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          background: #d87000;
-          border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
-          z-index: 10; }
-        .page-template-resources .divider-clear .divider-clear a, .page-template-resources .divider-clear .divider-clear .fa {
-          color: white;
-          text-decoration: none;
-          padding: 0; } }
-  @media all and (min-width: 600px) {
-    .page-template-resources .divider-clear {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-      .page-template-resources .divider-clear .scroll-half-circle {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        background: #555454;
-        border-radius: 30px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        width: 55px;
-        height: 40px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-resources .divider-clear a, .page-template-resources .divider-clear .fa {
-        color: white;
-        text-decoration: none;
-        padding: 0; } }
-
-=======
->>>>>>> 02af4c5d919ed02d22760a5a494919b9f66de407
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands.jpg);
   background-size: cover;
@@ -2189,44 +2242,122 @@ a:visited {
       margin: 30px;
       border-bottom: 1px #d87000 solid; }
       .page-template-proposed-park .site-content .prop-item a {
+        position: relative;
+        top: 45px;
+        text-decoration: none; } }
+    @media all and (min-width: 600px) and (min-width: 600px) {
+      .page-template-proposed-park .site-content .prop-item a .divider {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -5px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        position: relative;
-        top: 45px;
-        text-decoration: none; }
-      .page-template-proposed-park .site-content .prop-item:last-child {
-        margin-bottom: 0;
-        border: none; }
-        .page-template-proposed-park .site-content .prop-item:last-child a {
+        border-bottom: #d87000 solid 2px;
+        height: 20px;
+        margin: 0 50px; }
+        .page-template-proposed-park .site-content .prop-item a .divider .scroll-circle {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          position: relative;
+          top: -7px;
           background: #555454;
           border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
+          width: 50px;
+          height: 50px;
           text-align: center;
           font-size: 35px;
           font-weight: 100;
           color: white;
+          z-index: 10; }
+        .page-template-proposed-park .site-content .prop-item a .divider a, .page-template-proposed-park .site-content .prop-item a .divider .fa {
+          color: white;
+          text-decoration: none;
+          padding-bottom: 3px; } }
+  @media all and (min-width: 600px) {
+      .page-template-proposed-park .site-content .prop-item:last-child {
+        margin-bottom: 0;
+        border: none; }
+        .page-template-proposed-park .site-content .prop-item:last-child a {
           position: relative;
-          top: 20px; } }
+          top: 20px; }
+          .page-template-proposed-park .site-content .prop-item:last-child a .divider-clear {
+            display: none; }
+            .page-template-proposed-park .site-content .prop-item:last-child a .divider-clear .divider-clear {
+              display: none; } }
+          @media all and (min-width: 600px) and (min-width: 600px) {
+            .page-template-proposed-park .site-content .prop-item:last-child a .divider-clear .divider-clear {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center; }
+              .page-template-proposed-park .site-content .prop-item:last-child a .divider-clear .divider-clear .scroll-half-circle {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                background: #d87000;
+                border-radius: 30px;
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+                width: 55px;
+                height: 40px;
+                text-align: center;
+                font-size: 35px;
+                font-weight: 100;
+                color: white;
+                z-index: 10; }
+              .page-template-proposed-park .site-content .prop-item:last-child a .divider-clear .divider-clear a, .page-template-proposed-park .site-content .prop-item:last-child a .divider-clear .divider-clear .fa {
+                color: white;
+                text-decoration: none;
+                padding: 0; } }
+        @media all and (min-width: 600px) and (min-width: 600px) {
+          .page-template-proposed-park .site-content .prop-item:last-child a .divider-clear {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center; }
+            .page-template-proposed-park .site-content .prop-item:last-child a .divider-clear .scroll-half-circle {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              background: #555454;
+              border-radius: 30px;
+              border-bottom-left-radius: 0px;
+              border-bottom-right-radius: 0px;
+              width: 55px;
+              height: 40px;
+              text-align: center;
+              font-size: 35px;
+              font-weight: 100;
+              color: white;
+              z-index: 10; }
+            .page-template-proposed-park .site-content .prop-item:last-child a .divider-clear a, .page-template-proposed-park .site-content .prop-item:last-child a .divider-clear .fa {
+              color: white;
+              text-decoration: none;
+              padding: 0; } }
 
 .page-template-proposed-park .site-content .show {
   height: auto; }
@@ -2272,19 +2403,79 @@ a:visited {
   border-left: 4px solid #d87000;
   border-bottom: 1px solid #d87000; }
   .page-template-proposed-park .site-content .border a {
-    background: #555454;
-    border-radius: 30px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    width: 55px;
-    height: 40px;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 100;
-    color: white;
     text-decoration: none;
     background: #d87000;
     margin: 0 auto; }
+    .page-template-proposed-park .site-content .border a .divider-clear {
+      display: none; }
+      .page-template-proposed-park .site-content .border a .divider-clear .divider-clear {
+        display: none; }
+        @media all and (min-width: 600px) {
+          .page-template-proposed-park .site-content .border a .divider-clear .divider-clear {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center; }
+            .page-template-proposed-park .site-content .border a .divider-clear .divider-clear .scroll-half-circle {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              background: #d87000;
+              border-radius: 30px;
+              border-bottom-left-radius: 0px;
+              border-bottom-right-radius: 0px;
+              width: 55px;
+              height: 40px;
+              text-align: center;
+              font-size: 35px;
+              font-weight: 100;
+              color: white;
+              z-index: 10; }
+            .page-template-proposed-park .site-content .border a .divider-clear .divider-clear a, .page-template-proposed-park .site-content .border a .divider-clear .divider-clear .fa {
+              color: white;
+              text-decoration: none;
+              padding: 0; } }
+      @media all and (min-width: 600px) {
+        .page-template-proposed-park .site-content .border a .divider-clear {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+          .page-template-proposed-park .site-content .border a .divider-clear .scroll-half-circle {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            background: #555454;
+            border-radius: 30px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            width: 55px;
+            height: 40px;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 100;
+            color: white;
+            z-index: 10; }
+          .page-template-proposed-park .site-content .border a .divider-clear a, .page-template-proposed-park .site-content .border a .divider-clear .fa {
+            color: white;
+            text-decoration: none;
+            padding: 0; } }
   @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .border {
       border: none; } }
@@ -2880,131 +3071,9 @@ a:visited {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.page-template-proposed-park i,
-.page-template-proposed-park .fa-angle-up {
-  padding-right: 0px; }
-
-@media all and (min-width: 600px) {
-  .page-template-proposed-park .divider {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border-bottom: #d87000 solid 2px;
-    height: 20px;
-    margin: 0 50px; }
-    .page-template-proposed-park .divider .scroll-circle {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      position: relative;
-      top: -7px;
-      background: #555454;
-      border-radius: 30px;
-      width: 50px;
-      height: 50px;
-      text-align: center;
-      font-size: 35px;
-      font-weight: 100;
-      color: white;
-      z-index: 10; }
-    .page-template-proposed-park .divider a, .page-template-proposed-park .divider .fa {
-      color: white;
-      text-decoration: none;
-      padding-bottom: 3px; } }
-
-.page-template-proposed-park i,
-.page-template-proposed-park .fa-angle-up {
-  padding-right: 0px; }
-
-.page-template-proposed-park .divider-clear {
-  display: none; }
-  .page-template-proposed-park .divider-clear .divider-clear {
-    display: none; }
-    @media all and (min-width: 600px) {
-      .page-template-proposed-park .divider-clear .divider-clear {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center; }
-        .page-template-proposed-park .divider-clear .divider-clear .scroll-half-circle {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-              -ms-flex-pack: center;
-                  justify-content: center;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          background: #d87000;
-          border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
-          z-index: 10; }
-        .page-template-proposed-park .divider-clear .divider-clear a, .page-template-proposed-park .divider-clear .divider-clear .fa {
-          color: white;
-          text-decoration: none;
-          padding: 0; } }
-  @media all and (min-width: 600px) {
-    .page-template-proposed-park .divider-clear {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-      .page-template-proposed-park .divider-clear .scroll-half-circle {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        background: #555454;
-        border-radius: 30px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        width: 55px;
-        height: 40px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-proposed-park .divider-clear a, .page-template-proposed-park .divider-clear .fa {
-        color: white;
-        text-decoration: none;
-        padding: 0; } }
-
-=======
->>>>>>> 02af4c5d919ed02d22760a5a494919b9f66de407
-=======
 .page-template-proposed-park .scroll-up {
   margin: 0 auto; }
 
->>>>>>> 36bd4760f059d95273b5c7e64369180fd4875789
 .page-template-resources .resources-hero {
   background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
   background-size: cover;
@@ -3167,89 +3236,48 @@ a:visited {
   padding-left: 20px; }
   @media all and (min-width: 600px) {
     .page-template-resources .resources-content {
-<<<<<<< HEAD
-      padding-left: 0px; } }
-
-<<<<<<< HEAD
-@media all and (min-width: 600px) {
-  .page-template-resources .divider {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border-bottom: #d87000 solid 2px;
-    height: 20px;
-    margin: 0 50px; }
-    .page-template-resources .divider .scroll-circle {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      position: relative;
-      top: -7px;
-      background: #555454;
-      border-radius: 30px;
-      width: 50px;
-      height: 50px;
-      text-align: center;
-      font-size: 35px;
-      font-weight: 100;
-      color: white;
-      z-index: 10; }
-    .page-template-resources .divider a, .page-template-resources .divider .fa {
-      color: white;
-      text-decoration: none;
-      padding-bottom: 3px; } }
-
-=======
->>>>>>> 02af4c5d919ed02d22760a5a494919b9f66de407
-.page-template-resources .resources-ul p {
-  font-weight: 300;
-  padding-left: 3rem; }
-
-.page-template-resources .resources-ul h2 {
-  color: #d87000;
-  font-family: "Miriam Libre", sans-serif;
-  text-transform: uppercase;
-  padding: 3rem 0rem 0rem 3rem; }
-
-.page-template-resources .resources-ul a {
-  color: #0096ff;
-  font-weight: 300; }
-=======
       padding: 20px 0;
       margin: 30px; }
       .page-template-resources .resources-content .scroll-up {
+        position: relative;
+        top: 45px;
+        text-decoration: none; } }
+    @media all and (min-width: 600px) and (min-width: 600px) {
+      .page-template-resources .resources-content .scroll-up .divider {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -5px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        position: relative;
-        top: 45px;
-        text-decoration: none; } }
->>>>>>> 36bd4760f059d95273b5c7e64369180fd4875789
+        border-bottom: #d87000 solid 2px;
+        height: 20px;
+        margin: 0 50px; }
+        .page-template-resources .resources-content .scroll-up .divider .scroll-circle {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          position: relative;
+          top: -7px;
+          background: #555454;
+          border-radius: 30px;
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 100;
+          color: white;
+          z-index: 10; }
+        .page-template-resources .resources-content .scroll-up .divider a, .page-template-resources .resources-content .scroll-up .divider .fa {
+          color: white;
+          text-decoration: none;
+          padding-bottom: 3px; } }
 
 .page-template-resources .resources-ul {
   display: -webkit-box;
@@ -3294,44 +3322,122 @@ a:visited {
       margin: 30px;
       border-bottom: 1px #d87000 solid; }
       .page-template-resources .resources-ul li .scroll-up {
+        position: relative;
+        top: 45px;
+        text-decoration: none; } }
+    @media all and (min-width: 600px) and (min-width: 600px) {
+      .page-template-resources .resources-ul li .scroll-up .divider {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -5px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        position: relative;
-        top: 45px;
-        text-decoration: none; }
-      .page-template-resources .resources-ul li:last-child {
-        margin-bottom: 0;
-        border: none; }
-        .page-template-resources .resources-ul li:last-child .scroll-up {
+        border-bottom: #d87000 solid 2px;
+        height: 20px;
+        margin: 0 50px; }
+        .page-template-resources .resources-ul li .scroll-up .divider .scroll-circle {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          position: relative;
+          top: -7px;
           background: #555454;
           border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
+          width: 50px;
+          height: 50px;
           text-align: center;
           font-size: 35px;
           font-weight: 100;
           color: white;
+          z-index: 10; }
+        .page-template-resources .resources-ul li .scroll-up .divider a, .page-template-resources .resources-ul li .scroll-up .divider .fa {
+          color: white;
+          text-decoration: none;
+          padding-bottom: 3px; } }
+  @media all and (min-width: 600px) {
+      .page-template-resources .resources-ul li:last-child {
+        margin-bottom: 0;
+        border: none; }
+        .page-template-resources .resources-ul li:last-child .scroll-up {
           position: relative;
-          top: 20px; } }
+          top: 20px; }
+          .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear {
+            display: none; }
+            .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear .divider-clear {
+              display: none; } }
+          @media all and (min-width: 600px) and (min-width: 600px) {
+            .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear .divider-clear {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center; }
+              .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear .divider-clear .scroll-half-circle {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                background: #d87000;
+                border-radius: 30px;
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+                width: 55px;
+                height: 40px;
+                text-align: center;
+                font-size: 35px;
+                font-weight: 100;
+                color: white;
+                z-index: 10; }
+              .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear .divider-clear a, .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear .divider-clear .fa {
+                color: white;
+                text-decoration: none;
+                padding: 0; } }
+        @media all and (min-width: 600px) and (min-width: 600px) {
+          .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center; }
+            .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear .scroll-half-circle {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              background: #555454;
+              border-radius: 30px;
+              border-bottom-left-radius: 0px;
+              border-bottom-right-radius: 0px;
+              width: 55px;
+              height: 40px;
+              text-align: center;
+              font-size: 35px;
+              font-weight: 100;
+              color: white;
+              z-index: 10; }
+            .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear a, .page-template-resources .resources-ul li:last-child .scroll-up .divider-clear .fa {
+              color: white;
+              text-decoration: none;
+              padding: 0; } }
   .page-template-resources .resources-ul .lc-groups-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3348,18 +3454,79 @@ a:visited {
         margin-bottom: 0;
         border: none; }
         .page-template-resources .resources-ul .lc-groups-container .scroll-up {
-          background: #555454;
-          border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
           position: relative;
           top: 20px; }
+          .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear {
+            display: none; }
+            .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear .divider-clear {
+              display: none; } }
+        @media all and (min-width: 600px) and (min-width: 600px) {
+          .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear .divider-clear {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center; }
+            .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear .divider-clear .scroll-half-circle {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              background: #d87000;
+              border-radius: 30px;
+              border-bottom-left-radius: 0px;
+              border-bottom-right-radius: 0px;
+              width: 55px;
+              height: 40px;
+              text-align: center;
+              font-size: 35px;
+              font-weight: 100;
+              color: white;
+              z-index: 10; }
+            .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear .divider-clear a, .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear .divider-clear .fa {
+              color: white;
+              text-decoration: none;
+              padding: 0; } }
+      @media all and (min-width: 600px) and (min-width: 600px) {
+        .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+          .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear .scroll-half-circle {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            background: #555454;
+            border-radius: 30px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            width: 55px;
+            height: 40px;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 100;
+            color: white;
+            z-index: 10; }
+          .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear a, .page-template-resources .resources-ul .lc-groups-container .scroll-up .divider-clear .fa {
+            color: white;
+            text-decoration: none;
+            padding: 0; } }
+    @media all and (min-width: 600px) {
         .page-template-resources .resources-ul .lc-groups-container .lc-groups {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -3391,80 +3558,6 @@ a:visited {
             max-width: 40vw;
             margin-left: 5rem; } }
 
-<<<<<<< HEAD
-.page-template-resources .divider-clear {
-  display: none; }
-  .page-template-resources .divider-clear .divider-clear {
-    display: none; }
-    @media all and (min-width: 600px) {
-      .page-template-resources .divider-clear .divider-clear {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center; }
-        .page-template-resources .divider-clear .divider-clear .scroll-half-circle {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-              -ms-flex-pack: center;
-                  justify-content: center;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          background: #d87000;
-          border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
-          z-index: 10; }
-        .page-template-resources .divider-clear .divider-clear a, .page-template-resources .divider-clear .divider-clear .fa {
-          color: white;
-          text-decoration: none;
-          padding: 0; } }
-  @media all and (min-width: 600px) {
-    .page-template-resources .divider-clear {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-      .page-template-resources .divider-clear .scroll-half-circle {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        background: #555454;
-        border-radius: 30px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        width: 55px;
-        height: 40px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        z-index: 10; }
-      .page-template-resources .divider-clear a, .page-template-resources .divider-clear .fa {
-        color: white;
-        text-decoration: none;
-        padding: 0; } }
-
-=======
->>>>>>> 02af4c5d919ed02d22760a5a494919b9f66de407
 .search-results .page-title {
   padding: 50px 0;
   margin: 0 100px;
