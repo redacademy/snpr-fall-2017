@@ -122,23 +122,12 @@
   
   .resources-content{
     margin: 1.3rem;
-    @include tablet{
-      .scroll-up{
-        @include scroll-circle;
-        position: relative;
-        top: 45px;
-        text-decoration: none;
-      }
-    }
   }
   
   .resources-ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    .scroll-up{
-      margin: 0 auto;
-    }
     p{
       font-weight: 300;
     }
@@ -163,24 +152,6 @@
       @include tablet{
         margin: 30px;
         border-bottom: 1px $orange solid;
-        .scroll-up{
-          @include scroll-circle;
-          position: relative;
-          top: 45px;
-          text-decoration: none;
-        }
-        
-        &:last-child{
-          margin-bottom: 0;
-          border: none;
-          .scroll-up{
-            @include scroll-half-circle;
-            position: relative;
-            top: 20px;
-          }
-          
-        }
-        
       }
     }
   }
