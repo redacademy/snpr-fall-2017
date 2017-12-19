@@ -19,7 +19,7 @@
     // $(this).parent().siblings().children().removeClass('heading-click');
 
     // setTimeout(function(){
-      window.scrollTo(0,430); // scroll to the top
+      window.scrollTo(0,300); // scroll to the top
     // }, 1000);
     
   
