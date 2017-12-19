@@ -3582,6 +3582,9 @@ a:visited {
   width: 65px;
   color: #d87000; }
 
+.main-navigation .search-submit:hover {
+  color: #2E84E6; }
+
 .main-navigation .search-open,
 .main-navigation .no-js .search {
   width: 200px; }
@@ -3680,10 +3683,13 @@ a:visited {
   display: block; }
 
 .header-logo {
-  min-height: 40px;
-  min-width: 40px;
+  min-height: 20px;
+  min-width: 20px;
   max-height: 40px;
   max-height: 40px; }
+
+.header-logo:hover {
+  background-color: #4CD1FE; }
 
 .menu-non-logo {
   display: -webkit-box;
