@@ -90,7 +90,6 @@
     }
   }
   
-  
   .hide{
     display: none;
     @include tablet{
@@ -122,24 +121,13 @@
   }
   
   .resources-content{
-    @include tablet{
-      margin: 30px;
-      .scroll-up{
-        @include scroll-circle;
-        position: relative;
-        top: 45px;
-        text-decoration: none;
-      }
-    }
+    margin: 1.3rem;
   }
   
   .resources-ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    .scroll-up{
-      margin: 0 auto;
-    }
     p{
       font-weight: 300;
     }
@@ -148,7 +136,7 @@
       font-family: $miriam;
       text-transform: uppercase;
       @include tablet{
-        margin-left: 2rem;
+        margin-left: 1.3rem;
       }
     }
     a{
@@ -164,66 +152,75 @@
       @include tablet{
         margin: 30px;
         border-bottom: 1px $orange solid;
-        .scroll-up{
-          @include scroll-circle;
-          position: relative;
-          top: 45px;
-          text-decoration: none;
-        }
-        
-        &:last-child{
-          margin-bottom: 0;
-          border: none;
-          .scroll-up{
-            @include scroll-half-circle;
-            position: relative;
-            top: 20px;
+        a{
+          .fa-angle-up{
+            position: absolute;
+            left: 45%;
+            color: white;
+            background: #404040;
+            border-radius: 50px;
+            padding: 10px 16px;
+            margin-top: -25px;
+            font-size: 2rem;
+            text-decoration: none;
           }
-          
         }
-        
+        a:focus{
+          border: none;
+        }
       }
     }
-    .lc-groups-container{
-      display: flex;
-      flex-flow: column;
-      justify-content: flex-start;
-      @include tablet{
-        margin-bottom: 0;
-        border: none;
-        h2{
-          padding-left: 2rem;
-        }
-        .lc-groups{
-          display: flex;
-          flex-flow: row wrap;
-          justify-content: flex-start;  
-          margin-top: -2rem;  
-          li:nth-child(1) {
-            max-width: 40vw;
-          }
-          li:nth-child(2) {
-            max-width: 40vw;            
-            margin-left: 5rem;
-          }
-        }
-        
+  }
+  
+  .lc-groups-container{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    @include tablet{
+      margin-bottom: 0;
+      border: none;
+      h2{
+        padding-left: 2rem;
       }
+      .lc-groups{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;  
+        margin-top: -2rem;  
+        border-bottom: $orange solid 1px;
+        p{
+          margin-bottom: 0rem;
+        }
+        li:nth-child(1) {
+          max-width: 40vw;
+          border-bottom: none;
+        }
+        li:nth-child(2) {
+          max-width: 40vw;            
+          margin-left: 5rem;
+          border-bottom: none;
+        }
+      }
+      
     }
   }
   
   .owl-carousel2{
     width: 65vw;
     left: 10%;
-    .owl-image{
-      height: 200px;
-      width: 250px;
-    }
-    .owl-controls .owl-pagination span{
-      width: 8px;
-      height: 8px;
-      background: $forest;
+    
+    // Makes images larger; li(4,5) will be skipped
+    // .owl-wrapper, .owl-wrapper-outer{
+      //   zoom: 1.7;
+      // }
+      
+      .owl-image{
+        height: 200px;
+      }
+      .owl-controls .owl-pagination span{
+        width: 8px;
+        height: 8px;
+        background: $forest;
+      } 
     }
   }
-
-}

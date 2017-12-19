@@ -104,10 +104,11 @@
 }
 
 @mixin scroll-circle {
+	@content;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: relative;
+	position: absolute;
 	top: -5px;
 	background: #555454;
 	border-radius: 30px;

@@ -75,11 +75,14 @@
   
   .header-logo{
     
-    min-height:40px;
-    min-width:40px;
+    min-height:20px;
+    min-width:20px;
     max-height:40px;
     max-height:40px;
     
+  }
+  .header-logo:hover{
+    background-color:$hover-light-blue;
   }
   
   .menu-non-logo{

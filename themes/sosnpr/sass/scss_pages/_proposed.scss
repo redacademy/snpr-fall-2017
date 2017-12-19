@@ -72,6 +72,7 @@
       }
     }
     h2 {
+      font-size: $font_size-heading2;
       padding-left: 25px;
       color: $orange;
       font-family: $miriam;
@@ -80,18 +81,18 @@
       text-transform: uppercase;
       line-height: 30px;
       @include tablet {
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding: 20px 0;
       }
     }
-    
     .text {
       height: 0;
       overflow: hidden;
       font-family: $source;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
       @include tablet {
+        padding-right: 0;
+        padding-left: 0;
         height: auto;
         p {
           font-size: 14px;
@@ -102,8 +103,7 @@
     }
     .prop-item {
       position: relative;
-      cursor: pointer;
-      // padding-left: 25px;
+      cursor: pointer; // padding-left: 25px;
       @include tablet {
         margin-left: 5%;
         margin-right: 5%;
@@ -115,31 +115,30 @@
       .page-top {
         display: none;
         @include tablet {
-          height: 40px;
-          width: 40px;
-          border-radius: 50px;
-          display: inline;
+          display: flex;
+          justify-content: center;
+          height: 50px;
+          width: 50px;
+          border-radius: 50px; // display: inline;
           position: absolute;
-          bottom: -20px;
-          left: 48%;
+          bottom: -25px;
+          left: 47%;
           background: #555454;
           box-shadow: none;
           border: none;
           i {
-            font-size: 25px;
+            font-size: 40px;
             color: #fff;
+            padding-bottom: 5px;
+            padding-right: 1px;
           }
-          
         }
-        
       }
       .last {
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
         bottom: 0px;
       }
-    
-      
     } //close prop item
     .show {
       height: auto;
@@ -239,13 +238,9 @@
       }
     } //regulations
     .land-use {
-
-     
       @include proposed-button;
-
       .fish {
         align-items: left;
-        
         @include desktop {
           align-items: flex-end;
         }
@@ -265,12 +260,9 @@
             }
             @media all and (min-width: 1200px) {
               flex-basis: 50%;
-            }
-            // .text:nth-child(2) {
-             
+            } // .text:nth-child(2) {
             //   text-align: right;
             //   font-weight: bold;
-             
             // }
             padding-bottom: 25px;
           }
@@ -409,6 +401,8 @@
               font-family: $source;
             }
             .pdf-container {
+              max-width: 180px;
+              margin-left: 40%;
               display: flex;
               flex-direction: column;
               justify-content: flex-end;
