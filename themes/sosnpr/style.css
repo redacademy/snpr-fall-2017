@@ -960,6 +960,7 @@ object {
       margin: 10px 0px;
       padding-left: 10px;
       border-left: 1px solid #fff;
+      line-height: 1.5rem;
       margin-top: 0;
       font-family: "Source Sans Pro", sans-serif; }
   .widget-area #custom_html-4 a {
@@ -1507,18 +1508,10 @@ a:visited {
   .page-template-resources .resources-ul h2 {
     color: #d87000;
     font-family: "Miriam Libre", sans-serif;
-<<<<<<< HEAD
-    text-transform: uppercase;
-    padding: 3rem 0rem 0rem 0rem; }
-=======
     text-transform: uppercase; }
-<<<<<<< HEAD
     @media all and (min-width: 600px) {
       .page-template-resources .resources-ul h2 {
         margin-left: 2rem; } }
-=======
->>>>>>> 57c13c46cc86c06e76605af8049ff7bf4632bf4a
->>>>>>> 2fb239e2d373ac0009b20ca532efe6f2937f8fae
   .page-template-resources .resources-ul a {
     color: #0096ff;
     font-weight: 300; }
@@ -2893,18 +2886,10 @@ a:visited {
   .page-template-resources .resources-ul h2 {
     color: #d87000;
     font-family: "Miriam Libre", sans-serif;
-<<<<<<< HEAD
-    text-transform: uppercase;
-    padding: 3rem 0rem 0rem 0rem; }
-=======
     text-transform: uppercase; }
-<<<<<<< HEAD
     @media all and (min-width: 600px) {
       .page-template-resources .resources-ul h2 {
         margin-left: 2rem; } }
-=======
->>>>>>> 57c13c46cc86c06e76605af8049ff7bf4632bf4a
->>>>>>> 2fb239e2d373ac0009b20ca532efe6f2937f8fae
   .page-template-resources .resources-ul a {
     color: #0096ff;
     font-weight: 300; }
