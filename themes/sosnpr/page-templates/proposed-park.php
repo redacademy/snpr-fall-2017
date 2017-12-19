@@ -39,7 +39,7 @@ get_header();
       </section>
 
 
-      <section class="proposed-container">
+      <section class="proposed-container" id="start">
 
         <div class="prop-item land" id="land">
           <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
@@ -49,20 +49,22 @@ get_header();
           <div class="content-container">
             <div class="text">
               <?php echo CFS()->get( 'the_land' );?>
+              <a href="#start">
+                <div class="close-section">
+                  <i class="fa fa-angle-up" aria-hidden="true"></i>
+                </div>
+              </a>
+
             </div>
             <div class="image"><img src="<?php echo CFS()->get('land_image');?>" alt="a hiker in neon gazing out reflectively at a river in the valley below"
               /></div>
           </div>
-          <a href="#top" class="scroll-up">
-          <i class="fa fa-angle-up" aria-hidden="true"></i>
-          </a>
+          <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
 
         </div>
         <!-- close one -->
 
-        <!-- <section class="divider">
-          
-        </section> -->
+
 
         <div class="prop-item location" id="location">
           <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
@@ -73,17 +75,18 @@ get_header();
             <div class="image"><img src="<?php echo CFS()->get('location_image');?>" alt="a map of the southern okanagan" /></div>
             <div class="text">
               <?php echo CFS()->get('location_of_the_park');?>
+              <a href="#start">
+                <div class="close-section">
+                  <i class="fa fa-angle-up" aria-hidden="true"></i>
+                </div>
+              </a>
             </div>
           </div>
-          <a href="#top" class="scroll-up">
-          <i class="fa fa-angle-up" aria-hidden="true"></i>
-          </a>
+          <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </div>
         <!-- close two -->
 
-        <!-- <section class="divider">
-          
-        </section> -->
+
 
         <div class="prop-item land-use" id="land-use">
           <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
@@ -117,21 +120,23 @@ get_header();
               </div>
               <div class="text">
                 <?php echo CFS()->get('land_four');?>
+                <a href="#start">
+                  <div class="close-section">
+                    <i class="fa fa-angle-up" aria-hidden="true"></i>
+                  </div>
+                </a>
+
               </div>
             </div>
 
           </div>
           <!-- closes content-container -->
-          <a href="#top" class="scroll-up">
-          <i class="fa fa-angle-up" aria-hidden="true"></i>
-          </a>
+          <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
 
         </div>
         <!-- close three -->
 
-        <!-- <section class="divider">
-          
-        </section> -->
+
 
         <div class="prop-item why" id="why">
           <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
@@ -141,19 +146,19 @@ get_header();
           <div class="content-container">
             <div class="text">
               <?php echo CFS()->get( 'why_a_national_park' );?>
+              <a href="#start">
+                <div class="close-section">
+                  <i class="fa fa-angle-up" aria-hidden="true"></i>
+                </div>
+              </a>
             </div>
             <div class="image"><img src="<?php echo CFS()->get('why_image');?>" alt="an aerial shot of a river" /></div>
           </div>
 
-          <a href="#top" class="scroll-up">
-          <i class="fa fa-angle-up" aria-hidden="true"></i>
-          </a>
+          <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </div>
         <!-- closes four-->
-<!-- 
-        <section class="divider">
-         
-        </section> -->
+
 
         <div class="prop-item ranch" id="ranch">
           <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
@@ -166,17 +171,18 @@ get_header();
               /></div>
             <div class="text">
               <?php echo CFS()->get('ranching_agriculture');?>
+              <a href="#start">
+                <div class="close-section">
+                  <i class="fa fa-angle-up" aria-hidden="true"></i>
+                </div>
+              </a>
             </div>
           </div>
-          <a href="#top" class="scroll-up">
-          <i class="fa fa-angle-up" aria-hidden="true"></i>
-          </a>
+          <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </div>
         <!-- closes five -->
 
-        <!-- <section class="divider">
-         
-        </section> -->
+
 
         <div class="prop-item human" id="human">
           <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
@@ -186,19 +192,20 @@ get_header();
           <div class="content-container">
             <div class="text">
               <?php echo CFS()->get( 'human_impact' );?>
+              <a href="#start">
+                <div class="close-section">
+                  <i class="fa fa-angle-up" aria-hidden="true"></i>
+                </div>
+              </a>
             </div>
             <div class="image"><img src="<?php echo CFS()->get('human_image');?>" alt="three men standing on a hill wearing sunglasses and holding papers"
               /></div>
           </div>
-          <a href="#top" class="scroll-up">
-          <i class="fa fa-angle-up" aria-hidden="true"></i>
-          </a>
+          <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </div>
         <!-- closes six -->
 
-        <!-- <section class="divider">
-          
-        </section> -->
+
 
         <div class="prop-item ecological" id="ecological">
           <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
@@ -211,19 +218,19 @@ get_header();
               /></div>
             <div class="text">
               <?php echo CFS()->get('ecological_benefits');?>
+              <a href="#start">
+                <div class="close-section">
+                  <i class="fa fa-angle-up" aria-hidden="true"></i>
+                </div>
+              </a>
             </div>
           </div>
-          <a href="#top" class="scroll-up">
-          <i class="fa fa-angle-up" aria-hidden="true"></i>
-          </a>
+          <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i>
+</button></a>
         </div>
         <!-- closes seven -->
 
-        <!-- <section class="divider">
-          <a href="#top" class="scroll-up">
-    <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a>
-        </section> -->
+
 
         <div class="prop-item economic" id="economic">
           <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
@@ -233,6 +240,11 @@ get_header();
           <div class="content-container">
             <div class="text">
               <?php echo CFS()->get('economic_benefits');?>
+              <a href="#start">
+                <div class="close-section">
+                  <i class="fa fa-angle-up" aria-hidden="true"></i>
+                </div>
+              </a>
             </div>
             <div class="image">
               <div class="pdf-container">
@@ -242,17 +254,11 @@ get_header();
 
             </div>
           </div>
-          <a href="#top" class="scroll-up">
-          <i class="fa fa-angle-up" aria-hidden="true"></i>
-          </a>
+          <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </div>
         <!-- closes eight -->
 
-        <!-- <section class="divider">
-          <a href="#top" class="scroll-up">
-    <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a>
-        </section> -->
+
 
         <div class="prop-item faq" id="faq">
           <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
@@ -276,25 +282,24 @@ get_header();
           <div class="content-container-three">
             <div class="text">
               <?php echo CFS()->get('faq_three');?>
+              <a href="#start">
+                <div class="close-section">
+                  <i class="fa fa-angle-up" aria-hidden="true"></i>
+                </div>
+              </a>
+
             </div>
             <div class="image"><img src="<?php echo CFS()->get('faq_image_three');?>" alt="a helicopter over a snowy mountain top with clouds in the background"
               /></div>
           </div>
-          <a href="#top" class="scroll-up">
-          <i class="fa fa-angle-up" aria-hidden="true"></i>
-          </a>
+          <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </div>
         <!-- closes nine-->
 
       </section>
 
     </article>
-<!-- 
-  <div class="divider-clear">
-    <a href="#top" class="scroll-half-circle">
-    <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a>
-  </div> -->
+
 
   </main>
   <!-- #main -->

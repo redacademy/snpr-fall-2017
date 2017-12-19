@@ -9,11 +9,9 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	display:block;
 }
 
 //Screen sizes
-
 @mixin tablet {
 	@media all and (min-width: $tablet_width) {
 		@content;
@@ -33,7 +31,6 @@
 }
 
 //Mobile Fonts
-
 //the green title for page headings
 @mixin mobile-title {
 	color: $forest;
@@ -62,9 +59,7 @@
 	font-size: 18px;
 }
 
-
 //Desktop Fonts
-
 //desktop main page title
 @mixin desktop-page-title {
 	color: $forest;
@@ -91,16 +86,13 @@
 	color: $rugged;
 	font-family: $miriam;
 	font-size: 33px;
-	
 }
 
-
-// scroll to top button(s)
-
-@mixin scroll-half-circle{
+//scroll to top button(s)
+@mixin scroll-half-circle {
 	@content;
 	background: #555454;
-	border-radius: 30px;  
+	border-radius: 30px;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
 	width: 55px;
@@ -108,22 +100,55 @@
 	text-align: center;
 	font-size: 35px;
 	font-weight: 100;
-	color: white;
-	// z-index: 10;
+	color: white; // z-index: 10;
 }
-@mixin scroll-circle{
+
+@mixin scroll-circle {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: relative;
 	top: -5px;
 	background: #555454;
-	border-radius: 30px;     
+	border-radius: 30px;
 	width: 50px;
 	height: 50px;
 	text-align: center;
 	font-size: 35px;
 	font-weight: 100;
-	color: white;
-	// z-index: 10;
+	color: white; // z-index: 10;
+}
+
+@mixin proposed-button {
+	.text {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		@include tablet {
+			align-items: left;
+		}
+		a {
+			text-decoration: none;
+		}
+		.close-section {
+			align-self: center;
+			align-items: center;
+			justify-content: center;
+			display: flex;
+			color: #fff;
+			margin: 0;
+			text-align: center;
+			height: 50px;
+			width: 50px;
+			background: $orange;
+			border-top-left-radius: 50%;
+			border-top-right-radius: 50%;
+			i {
+				font-size: 30px;
+			}
+			@include tablet {
+				display: none;
+			}
+		}
+	}
 }

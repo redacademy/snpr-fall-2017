@@ -16,7 +16,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
-			<?php sosnpr_posted_on(); ?> / <?php sosnpr_comment_count(); ?> / <?php sosnpr_posted_by(); ?>
+			<?php sosnpr_posted_on(); ?> / <?php sosnpr_posted_by(); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
