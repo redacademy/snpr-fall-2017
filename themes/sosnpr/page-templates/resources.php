@@ -60,12 +60,9 @@ get_header();
      <div class="resources-content hide">
        <p><?php echo CFS()->get('reports');?></p></div>
 
-<<<<<<< HEAD
        <!-- <a href="#top" class="scroll-up">
         <i class="fa fa-angle-up" aria-hidden="true"></i>
       </a> -->
-=======
->>>>>>> 57c13c46cc86c06e76605af8049ff7bf4632bf4a
    </li>
 
 <!-- <div class="divider">
@@ -82,12 +79,9 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('videos');?></p></div>
 
-<<<<<<< HEAD
      <!-- <a href="#top" class="scroll-up">
       <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a> -->
-=======
->>>>>>> 57c13c46cc86c06e76605af8049ff7bf4632bf4a
      </li>
 
 <!-- <div class="divider">
@@ -102,12 +96,6 @@ get_header();
    <i class="fa fa-angle-right"></i>
    <i class="fa fa-angle-down"></i>
      <?php echo $props['label'];?></h2>
-<<<<<<< HEAD
-     <div class="resources-content hide"><div class="owl-carousel2"><?php echo CFS()->get('photos');?></div></div>
-     <!-- <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a> -->
-=======
      <div class="resources-content hide owl-carousel2">
      
      <?php
@@ -119,7 +107,6 @@ get_header();
   ?>
 
 </div>
->>>>>>> 57c13c46cc86c06e76605af8049ff7bf4632bf4a
      </li>
 
 <!-- <div class="divider">
@@ -136,12 +123,9 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('books');?></p></div>
 
-<<<<<<< HEAD
      <!-- <a href="#top" class="scroll-up">
       <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a> -->
-=======
->>>>>>> 57c13c46cc86c06e76605af8049ff7bf4632bf4a
      </li>
 <!-- 
 <div class="divider">
@@ -158,12 +142,9 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('in_the_news');?></p></div>
 
-<<<<<<< HEAD
      <!-- <a href="#top" class="scroll-up">
       <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a> -->
-=======
->>>>>>> 57c13c46cc86c06e76605af8049ff7bf4632bf4a
      </li>
 <!-- 
 <div class="divider">
@@ -180,12 +161,9 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('radio');?></p></div>
 
-<<<<<<< HEAD
      <!-- <a href="#top" class="scroll-up">
       <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a> -->
-=======
->>>>>>> 57c13c46cc86c06e76605af8049ff7bf4632bf4a
      </li>
 
   <!-- <div class="divider">

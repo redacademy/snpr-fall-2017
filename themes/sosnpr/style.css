@@ -1511,12 +1511,8 @@ a:visited {
   .page-template-resources .resources-ul h2 {
     color: #d87000;
     font-family: "Miriam Libre", sans-serif;
-<<<<<<< HEAD
     text-transform: uppercase;
     padding: 3rem 0rem 0rem 0rem; }
-=======
-    text-transform: uppercase; }
->>>>>>> 57c13c46cc86c06e76605af8049ff7bf4632bf4a
   .page-template-resources .resources-ul a {
     color: #0096ff;
     font-weight: 300; }
@@ -1524,125 +1520,147 @@ a:visited {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
+    .page-template-resources .resources-ul li:nth-child(3) .scroll-up {
+      margin: 0 auto; }
+    .page-template-resources .resources-ul li:nth-child(3) p {
+      font-weight: 300;
+      padding-left: 3rem; }
     .page-template-resources .resources-ul li:nth-child(3) h2 {
-      width: 100vw; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .resources-ul li {
-      padding: 20px 0;
-      margin: 30px;
-      border-bottom: 1px #d87000 solid; }
-      .page-template-resources .resources-ul li .scroll-up {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -5px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        position: relative;
-        top: 45px;
-        text-decoration: none; }
-      .page-template-resources .resources-ul li:last-child {
-        margin-bottom: 0;
-        border: none; }
-        .page-template-resources .resources-ul li:last-child .scroll-up {
-          background: #555454;
-          border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
-          position: relative;
-          top: 20px; } }
-  .page-template-resources .resources-ul .lc-groups-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start; }
+      color: #d87000;
+      font-family: "Miriam Libre", sans-serif;
+      text-transform: uppercase; }
+    .page-template-resources .resources-ul li:nth-child(3) a {
+      color: #0096ff;
+      font-weight: 300; }
+    .page-template-resources .resources-ul li:nth-child(3) li:nth-child(3) {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .page-template-resources .resources-ul li:nth-child(3) li:nth-child(3) h2 {
+        width: 100vw; }
     @media all and (min-width: 600px) {
-      .page-template-resources .resources-ul .lc-groups-container {
-        margin-bottom: 0;
-        border: none; }
-        .page-template-resources .resources-ul .lc-groups-container .scroll-up {
-          background: #555454;
-          border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
-          position: relative;
-          top: 20px; }
-        .page-template-resources .resources-ul .lc-groups-container .lc-groups {
+      .page-template-resources .resources-ul li:nth-child(3) li {
+        padding: 20px 0;
+        margin: 30px;
+        border-bottom: 1px #d87000 solid; }
+        .page-template-resources .resources-ul li:nth-child(3) li .scroll-up {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
-          -webkit-box-orient: horizontal;
-          -webkit-box-direction: normal;
-              -ms-flex-flow: row wrap;
-                  flex-flow: row wrap;
-          -webkit-box-pack: start;
-              -ms-flex-pack: start;
-                  justify-content: flex-start; }
-          .page-template-resources .resources-ul .lc-groups-container .lc-groups li:nth-child(1) {
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          position: relative;
+          top: -5px;
+          background: #555454;
+          border-radius: 30px;
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 100;
+          color: white;
+          position: relative;
+          top: 45px;
+          text-decoration: none; }
+        .page-template-resources .resources-ul li:nth-child(3) li:last-child {
+          margin-bottom: 0;
+          border: none; }
+          .page-template-resources .resources-ul li:nth-child(3) li:last-child .scroll-up {
+            background: #555454;
+            border-radius: 30px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            width: 55px;
+            height: 40px;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 100;
+            color: white;
+            position: relative;
+            top: 20px; } }
+    .page-template-resources .resources-ul li:nth-child(3) .lc-groups-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column;
+              flex-flow: column;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; }
+      @media all and (min-width: 600px) {
+        .page-template-resources .resources-ul li:nth-child(3) .lc-groups-container {
+          margin-bottom: 0;
+          border: none; }
+          .page-template-resources .resources-ul li:nth-child(3) .lc-groups-container .scroll-up {
+            background: #555454;
+            border-radius: 30px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            width: 55px;
+            height: 40px;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 100;
+            color: white;
+            position: relative;
+            top: 20px; }
+          .page-template-resources .resources-ul li:nth-child(3) .lc-groups-container .lc-groups {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: vertical;
+            -webkit-box-orient: horizontal;
             -webkit-box-direction: normal;
-                -ms-flex-flow: column wrap;
-                    flex-flow: column wrap;
-            max-width: 40vw; }
-          .page-template-resources .resources-ul .lc-groups-container .lc-groups li:nth-child(2) {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-flow: column wrap;
-                    flex-flow: column wrap;
-            max-width: 40vw;
-            margin-left: 5rem; } }
-
-.page-template-resources .owl-carousel2 {
-  width: 90vw; }
-  .page-template-resources .owl-carousel2 .owl-outer-wrapper .owl-item {
-    width: 200px;
-    height: 300px; }
-    .page-template-resources .owl-carousel2 .owl-outer-wrapper .owl-item img {
-      background-size: cover; }
+                -ms-flex-flow: row wrap;
+                    flex-flow: row wrap;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start; }
+            .page-template-resources .resources-ul li:nth-child(3) .lc-groups-container .lc-groups li:nth-child(1) {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+                  -ms-flex-flow: column wrap;
+                      flex-flow: column wrap;
+              max-width: 40vw; }
+            .page-template-resources .resources-ul li:nth-child(3) .lc-groups-container .lc-groups li:nth-child(2) {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+                  -ms-flex-flow: column wrap;
+                      flex-flow: column wrap;
+              max-width: 40vw;
+              margin-left: 5rem; } }
+  .page-template-resources .resources-ul .owl-carousel2 {
+    width: 90vw; }
+    .page-template-resources .resources-ul .owl-carousel2 .owl-outer-wrapper .owl-item {
+      width: 200px;
+      height: 300px; }
+      .page-template-resources .resources-ul .owl-carousel2 .owl-outer-wrapper .owl-item img {
+        background-size: cover; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-2.jpg);
@@ -2926,12 +2944,8 @@ a:visited {
   .page-template-resources .resources-ul h2 {
     color: #d87000;
     font-family: "Miriam Libre", sans-serif;
-<<<<<<< HEAD
     text-transform: uppercase;
     padding: 3rem 0rem 0rem 0rem; }
-=======
-    text-transform: uppercase; }
->>>>>>> 57c13c46cc86c06e76605af8049ff7bf4632bf4a
   .page-template-resources .resources-ul a {
     color: #0096ff;
     font-weight: 300; }
@@ -2939,125 +2953,147 @@ a:visited {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
+    .page-template-resources .resources-ul li:nth-child(3) .scroll-up {
+      margin: 0 auto; }
+    .page-template-resources .resources-ul li:nth-child(3) p {
+      font-weight: 300;
+      padding-left: 3rem; }
     .page-template-resources .resources-ul li:nth-child(3) h2 {
-      width: 100vw; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .resources-ul li {
-      padding: 20px 0;
-      margin: 30px;
-      border-bottom: 1px #d87000 solid; }
-      .page-template-resources .resources-ul li .scroll-up {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        top: -5px;
-        background: #555454;
-        border-radius: 30px;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        position: relative;
-        top: 45px;
-        text-decoration: none; }
-      .page-template-resources .resources-ul li:last-child {
-        margin-bottom: 0;
-        border: none; }
-        .page-template-resources .resources-ul li:last-child .scroll-up {
-          background: #555454;
-          border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
-          position: relative;
-          top: 20px; } }
-  .page-template-resources .resources-ul .lc-groups-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start; }
+      color: #d87000;
+      font-family: "Miriam Libre", sans-serif;
+      text-transform: uppercase; }
+    .page-template-resources .resources-ul li:nth-child(3) a {
+      color: #0096ff;
+      font-weight: 300; }
+    .page-template-resources .resources-ul li:nth-child(3) li:nth-child(3) {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .page-template-resources .resources-ul li:nth-child(3) li:nth-child(3) h2 {
+        width: 100vw; }
     @media all and (min-width: 600px) {
-      .page-template-resources .resources-ul .lc-groups-container {
-        margin-bottom: 0;
-        border: none; }
-        .page-template-resources .resources-ul .lc-groups-container .scroll-up {
-          background: #555454;
-          border-radius: 30px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
-          text-align: center;
-          font-size: 35px;
-          font-weight: 100;
-          color: white;
-          position: relative;
-          top: 20px; }
-        .page-template-resources .resources-ul .lc-groups-container .lc-groups {
+      .page-template-resources .resources-ul li:nth-child(3) li {
+        padding: 20px 0;
+        margin: 30px;
+        border-bottom: 1px #d87000 solid; }
+        .page-template-resources .resources-ul li:nth-child(3) li .scroll-up {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
-          -webkit-box-orient: horizontal;
-          -webkit-box-direction: normal;
-              -ms-flex-flow: row wrap;
-                  flex-flow: row wrap;
-          -webkit-box-pack: start;
-              -ms-flex-pack: start;
-                  justify-content: flex-start; }
-          .page-template-resources .resources-ul .lc-groups-container .lc-groups li:nth-child(1) {
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          position: relative;
+          top: -5px;
+          background: #555454;
+          border-radius: 30px;
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 100;
+          color: white;
+          position: relative;
+          top: 45px;
+          text-decoration: none; }
+        .page-template-resources .resources-ul li:nth-child(3) li:last-child {
+          margin-bottom: 0;
+          border: none; }
+          .page-template-resources .resources-ul li:nth-child(3) li:last-child .scroll-up {
+            background: #555454;
+            border-radius: 30px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            width: 55px;
+            height: 40px;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 100;
+            color: white;
+            position: relative;
+            top: 20px; } }
+    .page-template-resources .resources-ul li:nth-child(3) .lc-groups-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column;
+              flex-flow: column;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; }
+      @media all and (min-width: 600px) {
+        .page-template-resources .resources-ul li:nth-child(3) .lc-groups-container {
+          margin-bottom: 0;
+          border: none; }
+          .page-template-resources .resources-ul li:nth-child(3) .lc-groups-container .scroll-up {
+            background: #555454;
+            border-radius: 30px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            width: 55px;
+            height: 40px;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 100;
+            color: white;
+            position: relative;
+            top: 20px; }
+          .page-template-resources .resources-ul li:nth-child(3) .lc-groups-container .lc-groups {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: vertical;
+            -webkit-box-orient: horizontal;
             -webkit-box-direction: normal;
-                -ms-flex-flow: column wrap;
-                    flex-flow: column wrap;
-            max-width: 40vw; }
-          .page-template-resources .resources-ul .lc-groups-container .lc-groups li:nth-child(2) {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-flow: column wrap;
-                    flex-flow: column wrap;
-            max-width: 40vw;
-            margin-left: 5rem; } }
-
-.page-template-resources .owl-carousel2 {
-  width: 90vw; }
-  .page-template-resources .owl-carousel2 .owl-outer-wrapper .owl-item {
-    width: 200px;
-    height: 300px; }
-    .page-template-resources .owl-carousel2 .owl-outer-wrapper .owl-item img {
-      background-size: cover; }
+                -ms-flex-flow: row wrap;
+                    flex-flow: row wrap;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start; }
+            .page-template-resources .resources-ul li:nth-child(3) .lc-groups-container .lc-groups li:nth-child(1) {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+                  -ms-flex-flow: column wrap;
+                      flex-flow: column wrap;
+              max-width: 40vw; }
+            .page-template-resources .resources-ul li:nth-child(3) .lc-groups-container .lc-groups li:nth-child(2) {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+                  -ms-flex-flow: column wrap;
+                      flex-flow: column wrap;
+              max-width: 40vw;
+              margin-left: 5rem; } }
+  .page-template-resources .resources-ul .owl-carousel2 {
+    width: 90vw; }
+    .page-template-resources .resources-ul .owl-carousel2 .owl-outer-wrapper .owl-item {
+      width: 200px;
+      height: 300px; }
+      .page-template-resources .resources-ul .owl-carousel2 .owl-outer-wrapper .owl-item img {
+        background-size: cover; }
 
 .search-results .page-title {
   padding: 50px 0;
