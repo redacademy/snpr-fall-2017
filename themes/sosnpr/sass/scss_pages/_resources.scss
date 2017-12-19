@@ -90,9 +90,6 @@
     }
   }
   
-  .fa{
-    // color: $orange;
-  }
   
   .hide{
     display: none;
@@ -138,54 +135,70 @@
         text-decoration: none;
       }
     }
-    
   }
   
   // @include scroll-circle{
-  // }
-  
-  .resources-ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    .scroll-up{
-      margin: 0 auto;
-    }
-    p{
-      font-weight: 300;
-      padding-left: 3rem;
-    }
-    h2{
-      color: $orange;
-      font-family: $miriam;
-      text-transform: uppercase;
-      padding: 3rem 0rem 0rem 3rem;	    
-    }
-    a{
-      color: rgb(0, 150, 255);
-      font-weight: 300;
-    }
-    li:nth-child(3) {
+    // }
+    
+    .resources-ul{
       display: flex;
-      flex-flow: row wrap;
+      flex-direction: column;
       justify-content: center;
-      h2{
-        width: 100vw;
+      .scroll-up{
+        margin: 0 auto;
       }
-    }
-    li {
-      @include tablet{
-        padding: 20px 0;
-        margin: 30px;
-        border-bottom: 1px $orange solid;
-        .scroll-up{
-          @include scroll-circle;
-          position: relative;
-          top: 45px;
-          text-decoration: none;
+      p{
+        font-weight: 300;
+        padding-left: 3rem;
+      }
+      h2{
+        color: $orange;
+        font-family: $miriam;
+        text-transform: uppercase;
+        padding: 3rem 0rem 0rem 3rem;	    
+      }
+      a{
+        color: rgb(0, 150, 255);
+        font-weight: 300;
+      }
+      li:nth-child(3) {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        h2{
+          width: 100vw;
         }
-        
-        &:last-child{
+      }
+      li {
+        @include tablet{
+          padding: 20px 0;
+          margin: 30px;
+          border-bottom: 1px $orange solid;
+          .scroll-up{
+            @include scroll-circle;
+            position: relative;
+            top: 45px;
+            text-decoration: none;
+          }
+          
+          &:last-child{
+            margin-bottom: 0;
+            border: none;
+            .scroll-up{
+              @include scroll-half-circle;
+              position: relative;
+              top: 20px;
+            }
+            
+          }
+          
+        }
+      }
+      .lc-groups-container{
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        @include tablet{
           margin-bottom: 0;
           border: none;
           .scroll-up{
@@ -193,43 +206,40 @@
             position: relative;
             top: 20px;
           }
+          .lc-groups{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;    
+            li:nth-child(1) {
+              display: flex;
+              flex-flow: column wrap;
+              max-width: 40vw;
+            }
+            li:nth-child(2) {
+              display: flex;
+              flex-flow: column wrap;
+              max-width: 40vw;            
+              margin-left: 5rem;
+            }
+          }
           
         }
-        
       }
     }
-    .lc-groups-container{
-      display: flex;
-      flex-flow: column;
-      justify-content: flex-start;
-      @include tablet{
-        margin-bottom: 0;
-        border: none;
-        .scroll-up{
-          @include scroll-half-circle;
-          position: relative;
-          top: 20px;
-        }
-        .lc-groups{
-          display: flex;
-          flex-flow: row wrap;
-          justify-content: flex-start;    
-          li:nth-child(1) {
-            display: flex;
-            flex-flow: column wrap;
-            max-width: 40vw;
-          }
-          li:nth-child(2) {
-            display: flex;
-            flex-flow: column wrap;
-            max-width: 40vw;            
-            margin-left: 5rem;
+    //resources-ul
+    // @include scroll-half-circle{
+      // }
+      
+      .owl-carousel2{
+        width: 90vw;
+        .owl-outer-wrapper{
+          .owl-item{
+            width: 200px;
+            height: 300px;
+            img{
+              background-size: cover;
+            }
           }
         }
-        
       }
     }
-  }//resources-ul
-  // @include scroll-half-circle{
-  // }
-}

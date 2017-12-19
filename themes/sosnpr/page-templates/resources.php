@@ -96,7 +96,16 @@ get_header();
    <i class="fa fa-angle-right"></i>
    <i class="fa fa-angle-down"></i>
      <?php echo $props['label'];?></h2>
-     <div class="resources-content hide"><div class="owl-carousel2"><?php echo CFS()->get('photos');?></div></div>
+     <div class="resources-content hide"><div class="owl-carousel2">
+     
+     <?php
+     $gallery_images = CFS()->get('photos');
+  foreach ($gallery_images as $image) {
+    echo '<img class="owl-image" src="'.$image["image"].'"/>';
+  }
+  
+  ?>
+
      <a href="#top" class="scroll-up">
       <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>

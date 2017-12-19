@@ -343,7 +343,7 @@ dd {
   margin: 0 1.5rem 1.5rem; }
 
 img {
-  height: auto;
+  max-height: auto;
   /* Make sure images are scaled correctly. */
   max-width: 100%;
   /* Adhere to container width. */ }
@@ -1634,6 +1634,14 @@ a:visited {
             max-width: 40vw;
             margin-left: 5rem; } }
 
+.page-template-resources .owl-carousel2 {
+  width: 90vw; }
+  .page-template-resources .owl-carousel2 .owl-outer-wrapper .owl-item {
+    width: 200px;
+    height: 300px; }
+    .page-template-resources .owl-carousel2 .owl-outer-wrapper .owl-item img {
+      background-size: cover; }
+
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-2.jpg);
   background-size: cover;
@@ -2670,6 +2678,14 @@ a:visited {
                     flex-flow: column wrap;
             max-width: 40vw;
             margin-left: 5rem; } }
+
+.page-template-resources .owl-carousel2 {
+  width: 90vw; }
+  .page-template-resources .owl-carousel2 .owl-outer-wrapper .owl-item {
+    width: 200px;
+    height: 300px; }
+    .page-template-resources .owl-carousel2 .owl-outer-wrapper .owl-item img {
+      background-size: cover; }
 
 .search-results .page-title {
   padding: 50px 0;
