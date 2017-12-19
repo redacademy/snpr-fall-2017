@@ -96,7 +96,7 @@
         if (greatSuccess) {
           
           
-          // $('.wpcf7-response-output').css('padding-bottom', '100px');
+          
           $('input').hide();
           $('textarea').hide();
           

@@ -99,7 +99,7 @@ get_header();
               <div class="text">
                 <?php echo CFS()->get('land_use_regulations');?>
               </div>
-              <div class="text">
+              <div class="text fish">
                 <?php echo CFS()->get('land_two');?>
               </div>
             </div>

@@ -2235,6 +2235,16 @@ a:visited {
       .page-template-proposed-park .site-content .land-use .text .close-section {
         display: none; } }
 
+.page-template-proposed-park .site-content .land-use .fish {
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left; }
+  @media all and (min-width: 1000px) {
+    .page-template-proposed-park .site-content .land-use .fish {
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end; } }
+
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .site-content .land-use h2 {
     padding-bottom: 20px; }
