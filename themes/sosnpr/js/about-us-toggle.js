@@ -27,7 +27,7 @@
     // }, 1000);
     
     // scroll = true;
-    // window.scrollTo(0,300); // scroll to the top
+    window.scrollTo(0,0); // scroll to the top
     
     
   })
