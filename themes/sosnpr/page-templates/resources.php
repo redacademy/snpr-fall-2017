@@ -60,12 +60,6 @@ get_header();
      <div class="resources-content hide">
        <p><?php echo CFS()->get('reports');?></p></div>
 
-<<<<<<< HEAD
-       <!-- <a href="#top" class="scroll-up">
-        <i class="fa fa-angle-up" aria-hidden="true"></i>
-      </a> -->
-=======
->>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
    </li>
 
    <li id="videos">
@@ -76,12 +70,6 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('videos');?></p></div>
 
-<<<<<<< HEAD
-     <!-- <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a> -->
-=======
->>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
      </li>
 
 
@@ -112,12 +100,6 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('books');?></p></div>
 
-<<<<<<< HEAD
-     <!-- <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a> -->
-=======
->>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
      </li>
      
    <li id="news">
@@ -128,12 +110,6 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('in_the_news');?></p></div>
 
-<<<<<<< HEAD
-     <!-- <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a> -->
-=======
->>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
      </li>
 
    <li id="radio">
@@ -144,12 +120,6 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('radio');?></p></div>
 
-<<<<<<< HEAD
-     <!-- <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a> -->
-=======
->>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
      </li>
 
   <div class="lc-groups-container" id="lc-groups">
