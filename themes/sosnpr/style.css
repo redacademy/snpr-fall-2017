@@ -343,7 +343,7 @@ dd {
   margin: 0 1.5rem 1.5rem; }
 
 img {
-  height: auto;
+  max-height: auto;
   /* Make sure images are scaled correctly. */
   max-width: 100%;
   /* Adhere to container width. */ }
@@ -1511,8 +1511,12 @@ a:visited {
   .page-template-resources .resources-ul h2 {
     color: #d87000;
     font-family: "Miriam Libre", sans-serif;
+<<<<<<< HEAD
     text-transform: uppercase;
     padding: 3rem 0rem 0rem 0rem; }
+=======
+    text-transform: uppercase; }
+>>>>>>> 57c13c46cc86c06e76605af8049ff7bf4632bf4a
   .page-template-resources .resources-ul a {
     color: #0096ff;
     font-weight: 300; }
@@ -1632,6 +1636,14 @@ a:visited {
             max-width: 40vw;
             margin-left: 5rem; } }
 
+.page-template-resources .owl-carousel2 {
+  width: 90vw; }
+  .page-template-resources .owl-carousel2 .owl-outer-wrapper .owl-item {
+    width: 200px;
+    height: 300px; }
+    .page-template-resources .owl-carousel2 .owl-outer-wrapper .owl-item img {
+      background-size: cover; }
+
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-2.jpg);
   background-size: cover;
@@ -1720,6 +1732,8 @@ a:visited {
     font-family: "Miriam Libre", sans-serif; }
     .page-id-101 .posts-navigation a:focus {
       border: 5px solid black; }
+    .page-id-101 .posts-navigation a :hover {
+      color: #2E84E6; }
 
 .page-id-101 .owl-theme .owl-controls .owl-page span {
   height: 8px;
@@ -2912,8 +2926,12 @@ a:visited {
   .page-template-resources .resources-ul h2 {
     color: #d87000;
     font-family: "Miriam Libre", sans-serif;
+<<<<<<< HEAD
     text-transform: uppercase;
     padding: 3rem 0rem 0rem 0rem; }
+=======
+    text-transform: uppercase; }
+>>>>>>> 57c13c46cc86c06e76605af8049ff7bf4632bf4a
   .page-template-resources .resources-ul a {
     color: #0096ff;
     font-weight: 300; }
@@ -3032,6 +3050,14 @@ a:visited {
                     flex-flow: column wrap;
             max-width: 40vw;
             margin-left: 5rem; } }
+
+.page-template-resources .owl-carousel2 {
+  width: 90vw; }
+  .page-template-resources .owl-carousel2 .owl-outer-wrapper .owl-item {
+    width: 200px;
+    height: 300px; }
+    .page-template-resources .owl-carousel2 .owl-outer-wrapper .owl-item img {
+      background-size: cover; }
 
 .search-results .page-title {
   padding: 50px 0;
