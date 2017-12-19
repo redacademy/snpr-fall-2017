@@ -108,7 +108,7 @@ function sosnpr_scripts() {
 
 	wp_enqueue_script( 'resources-toggle', get_template_directory_uri() . '/build/js/resources-toggle.min.js', array('jquery'),null, true );
 
-	wp_enqueue_script( 'menu-toggle', get_template_directory_uri() . '/build/js/menu-toggle.min.js', array('jquery', 'owl-carousel'), false, true );
+	wp_enqueue_script( 'menu-toggle', get_template_directory_uri() . '/build/js/menu-toggle.min.js', array('jquery', 'owl-carousel', 'smooth-scroll'), false, true );
 
 	wp_enqueue_script( 'mail-subscription', get_template_directory_uri() . '/build/js/mail-subscription.min.js', array('jquery'),null, true );
 

@@ -934,10 +934,18 @@ object {
       font-size: 1.3rem;
       font-weight: 700;
       margin-bottom: 2rem; }
+    .widget-area .widget_text .subscribe-button:hover,
+    .widget-area .widget_text .feedback-button:hover,
+    .widget-area .textwidget .subscribe-button:hover,
+    .widget-area .textwidget .feedback-button:hover {
+      color: #2E84E6; }
   .widget-area .wp-image-62, .widget-area .wp-image-63 {
-    padding-top: 1.5rem;
-    height: 80px;
+    margin-top: 1.5rem;
+    height: 60px;
     width: 60px; }
+  .widget-area .wp-image-62:hover, .widget-area .wp-image-63:hover {
+    background-color: #2E84E6;
+    border-radius: 50%; }
   .widget-area .custom-html-widget {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1007,7 +1015,7 @@ object {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  z-index: 10;
+  z-index: 100;
   height: 100vh;
   background: rgba(0, 0, 0, 0.6);
   top: 0;
@@ -1166,20 +1174,58 @@ a:visited {
       border-left: 7px #d87000 solid; }
       .page-template-about-us .about-us-content-wrapper .list-item-click a {
         background: #555454;
-        border-radius: 30px;
+        border-radius: 50%;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
-        width: 55px;
-        height: 40px;
+        width: 65px;
+        height: 50px;
         text-align: center;
         font-size: 35px;
         font-weight: 100;
         color: white;
         text-decoration: none;
-        background: #d87000; }
+        background: #d87000;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .page-template-about-us .about-us-content-wrapper .list-item-click a i {
+          font-size: 50px; }
+        @media all and (min-width: 600px) {
+          .page-template-about-us .about-us-content-wrapper .list-item-click a {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            position: relative;
+            top: -5px;
+            background: #555454;
+            border-radius: 30px;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 100;
+            color: white;
+            position: relative;
+            top: 45px;
+            text-decoration: none; }
+            .page-template-about-us .about-us-content-wrapper .list-item-click a i {
+              font-size: 35px; } }
       @media all and (min-width: 600px) {
         .page-template-about-us .about-us-content-wrapper .list-item-click {
-          border: none; } }
+          border: none;
+          border-bottom: 1px #d87000 solid; } }
     .page-template-about-us .about-us-content-wrapper .section-two .essay-content .image-wrapper, .page-template-about-us .about-us-content-wrapper .section-four .essay-content .image-wrapper {
       -webkit-box-ordinal-group: 0;
           -ms-flex-order: -1;
@@ -1227,11 +1273,11 @@ a:visited {
             border: none; }
             .page-template-about-us .about-us-content-wrapper li:last-child a {
               background: #555454;
-              border-radius: 30px;
+              border-radius: 50%;
               border-bottom-left-radius: 0px;
               border-bottom-right-radius: 0px;
-              width: 55px;
-              height: 40px;
+              width: 65px;
+              height: 50px;
               text-align: center;
               font-size: 35px;
               font-weight: 100;
@@ -1549,11 +1595,11 @@ a:visited {
         border: none; }
         .page-template-resources .resources-ul li:last-child .scroll-up {
           background: #555454;
-          border-radius: 30px;
+          border-radius: 50%;
           border-bottom-left-radius: 0px;
           border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
+          width: 65px;
+          height: 50px;
           text-align: center;
           font-size: 35px;
           font-weight: 100;
@@ -1728,7 +1774,10 @@ a:visited {
     .page-id-101 .carousel-cell .entry-header a {
       color: white;
       text-decoration: none;
-      line-height: 1; }
+      line-height: 1;
+      font-size: 16px; }
+    .page-id-101 .carousel-cell .entry-header a:hover {
+      color: #2E84E6; }
 
 .page-id-101 .page-id-101 .entry-header {
   color: white;
@@ -2183,6 +2232,16 @@ a:visited {
     @media all and (min-width: 600px) {
       .page-template-proposed-park .site-content .land-use .text .close-section {
         display: none; } }
+
+.page-template-proposed-park .site-content .land-use .fish {
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left; }
+  @media all and (min-width: 1000px) {
+    .page-template-proposed-park .site-content .land-use .fish {
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end; } }
 
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .site-content .land-use h2 {
@@ -2925,11 +2984,11 @@ a:visited {
         border: none; }
         .page-template-resources .resources-ul li:last-child .scroll-up {
           background: #555454;
-          border-radius: 30px;
+          border-radius: 50%;
           border-bottom-left-radius: 0px;
           border-bottom-right-radius: 0px;
-          width: 55px;
-          height: 40px;
+          width: 65px;
+          height: 50px;
           text-align: center;
           font-size: 35px;
           font-weight: 100;
