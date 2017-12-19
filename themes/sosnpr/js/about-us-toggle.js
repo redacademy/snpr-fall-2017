@@ -22,6 +22,8 @@
     $(this).siblings().removeClass('heading-click');
     $(this).siblings().find('.about-us-essay-hide').removeClass('about-us-essay-show');
     $(this).parent().removeClass('list-item-click');
+
+    $(this).children().css('color', '#fff');
     // setTimeout(function(){
     
     // }, 1000);
