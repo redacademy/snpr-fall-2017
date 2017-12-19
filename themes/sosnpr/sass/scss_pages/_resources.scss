@@ -155,11 +155,11 @@
       color: rgb(0, 150, 255);
       font-weight: 300;
     }
-    // li:nth-child(3) {
-    //   display: flex;
-    //   flex-flow: row wrap;
-    //   justify-content: center;
-    // }
+    li:nth-child(2) {
+      p{
+        max-width: 25rem;
+      }
+    }
     li {
       @include tablet{
         margin: 30px;
@@ -213,16 +213,17 @@
   }
   
   .owl-carousel2{
-    display: flex;
-    justify-content: center;
-    width: 60vw;
-    left: 15%;
-    .owl-item{
-      width: 200px;
-      height: 300px;
-      img{
-        background-size: cover;
-      }
+    width: 65vw;
+    left: 10%;
+    .owl-image{
+      height: 200px;
+      width: 250px;
+    }
+    .owl-controls .owl-pagination span{
+      width: 8px;
+      height: 8px;
+      background: $forest;
     }
   }
+
 }
