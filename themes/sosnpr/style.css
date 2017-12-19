@@ -1511,8 +1511,7 @@ a:visited {
   .page-template-resources .resources-ul h2 {
     color: #d87000;
     font-family: "Miriam Libre", sans-serif;
-    text-transform: uppercase;
-    padding: 3rem 0rem 0rem 3rem; }
+    text-transform: uppercase; }
   .page-template-resources .resources-ul a {
     color: #0096ff;
     font-weight: 300; }
@@ -2916,8 +2915,7 @@ a:visited {
   .page-template-resources .resources-ul h2 {
     color: #d87000;
     font-family: "Miriam Libre", sans-serif;
-    text-transform: uppercase;
-    padding: 3rem 0rem 0rem 3rem; }
+    text-transform: uppercase; }
   .page-template-resources .resources-ul a {
     color: #0096ff;
     font-weight: 300; }

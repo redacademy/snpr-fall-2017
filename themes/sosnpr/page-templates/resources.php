@@ -60,9 +60,6 @@ get_header();
      <div class="resources-content hide">
        <p><?php echo CFS()->get('reports');?></p></div>
 
-       <a href="#top" class="scroll-up">
-        <i class="fa fa-angle-up" aria-hidden="true"></i>
-      </a>
    </li>
 
 <!-- <div class="divider">
@@ -79,9 +76,6 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('videos');?></p></div>
 
-     <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a>
      </li>
 
 <!-- <div class="divider">
@@ -96,7 +90,7 @@ get_header();
    <i class="fa fa-angle-right"></i>
    <i class="fa fa-angle-down"></i>
      <?php echo $props['label'];?></h2>
-     <div class="resources-content hide"><div class="owl-carousel2">
+     <div class="resources-content hide owl-carousel2">
      
      <?php
      $gallery_images = CFS()->get('photos');
@@ -106,9 +100,7 @@ get_header();
   
   ?>
 
-     <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a>
+</div>
      </li>
 
 <!-- <div class="divider">
@@ -125,9 +117,6 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('books');?></p></div>
 
-     <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a>
      </li>
 <!-- 
 <div class="divider">
@@ -144,9 +133,6 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('in_the_news');?></p></div>
 
-     <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a>
      </li>
 <!-- 
 <div class="divider">
@@ -163,9 +149,6 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('radio');?></p></div>
 
-     <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a>
      </li>
 
   <!-- <div class="divider">

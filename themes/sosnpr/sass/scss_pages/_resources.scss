@@ -124,10 +124,8 @@
   .resources-content{
     padding-left: 20px;
     @include tablet{
-      // padding-left: 0px;
       padding: 20px 0;
       margin: 30px;
-      // border-bottom: 1px $orange solid;
       .scroll-up{
         @include scroll-circle;
         position: relative;
@@ -136,9 +134,6 @@
       }
     }
   }
-  
-  // @include scroll-circle{
-    // }
     
     .resources-ul{
       display: flex;
@@ -155,7 +150,6 @@
         color: $orange;
         font-family: $miriam;
         text-transform: uppercase;
-        padding: 3rem 0rem 0rem 3rem;	    
       }
       a{
         color: rgb(0, 150, 255);
@@ -226,14 +220,12 @@
         }
       }
     }
-    //resources-ul
-    // @include scroll-half-circle{
-      // }
       
       .owl-carousel2{
         width: 90vw;
         .owl-outer-wrapper{
           .owl-item{
+
             width: 200px;
             height: 300px;
             img{
