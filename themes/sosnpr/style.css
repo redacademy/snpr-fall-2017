@@ -934,10 +934,18 @@ object {
       font-size: 1.3rem;
       font-weight: 700;
       margin-bottom: 2rem; }
+    .widget-area .widget_text .subscribe-button:hover,
+    .widget-area .widget_text .feedback-button:hover,
+    .widget-area .textwidget .subscribe-button:hover,
+    .widget-area .textwidget .feedback-button:hover {
+      color: #2E84E6; }
   .widget-area .wp-image-62, .widget-area .wp-image-63 {
-    padding-top: 1.5rem;
-    height: 80px;
+    margin-top: 1.5rem;
+    height: 60px;
     width: 60px; }
+  .widget-area .wp-image-62:hover, .widget-area .wp-image-63:hover {
+    background-color: #2E84E6;
+    border-radius: 50%; }
   .widget-area .custom-html-widget {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1768,7 +1776,10 @@ a:visited {
     .page-id-101 .carousel-cell .entry-header a {
       color: white;
       text-decoration: none;
-      line-height: 1; }
+      line-height: 1;
+      font-size: 16px; }
+    .page-id-101 .carousel-cell .entry-header a:hover {
+      color: #2E84E6; }
 
 .page-id-101 .page-id-101 .entry-header {
   color: white;
