@@ -152,6 +152,22 @@
       @include tablet{
         margin: 30px;
         border-bottom: 1px $orange solid;
+        a{
+          .fa-angle-up{
+            position: absolute;
+            left: 45%;
+            color: white;
+            background: #404040;
+            border-radius: 50px;
+            padding: 10px 16px;
+            margin-top: -25px;
+            font-size: 2rem;
+            text-decoration: none;
+          }
+        }
+        a:focus{
+          border: none;
+        }
       }
     }
   }

@@ -55,6 +55,7 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide">
        <p><?php echo CFS()->get('reports');?></p></div>
+       <a href="#top"> <i class="fa fa-angle-up"></i></a>
    </li>
 
    <li id="videos">
@@ -64,8 +65,7 @@ get_header();
    <i class="fa fa-angle-down"></i>
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('videos');?></p></div>
-     <a href="#top" <i class="fa fa-angle-up"></i></a>
-
+     <a href="#top"> <i class="fa fa-angle-up"></i></a>
      </li>
 
    <li id="photos">
@@ -83,6 +83,7 @@ get_header();
   }
   ?>
 </div>
+<a href="#top"> <i class="fa fa-angle-up"></i></a>
      </li>
 
    <li id="#books">
@@ -92,6 +93,7 @@ get_header();
    <i class="fa fa-angle-down"></i>
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('books');?></p></div>
+     <a href="#top"> <i class="fa fa-angle-up"></i></a>
      </li>
      
    <li id="news">
@@ -101,6 +103,7 @@ get_header();
    <i class="fa fa-angle-down"></i>
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('in_the_news');?></p></div>
+     <a href="#top"> <i class="fa fa-angle-up"></i></a>
      </li>
 
    <li id="radio">
@@ -110,6 +113,7 @@ get_header();
    <i class="fa fa-angle-down"></i>
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('radio');?></p></div>
+     <a href="#top"> <i class="fa fa-angle-up"></i></a>
      </li>
 
   <div class="lc-groups-container" id="lc-groups">
@@ -125,6 +129,7 @@ get_header();
       <li>
         <?php $props = CFS()->get_field_info( 'local_conservation_groups_2' );?> 
         <?php echo CFS()->get('local_conservation_groups_2');?>
+        <a href="#top"> <i class="fa fa-angle-up"></i></a>
       </li>
     </div>
   </div>
