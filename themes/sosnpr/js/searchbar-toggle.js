@@ -42,7 +42,7 @@
 
 
   // displaying on click for proposed parks
-   $('.prop-item').on('click touchstart', function(){
+   $('.prop-item').on('click', function(){
     $(this).find('.text').toggleClass('show');
     $(this).toggleClass('border');
     
