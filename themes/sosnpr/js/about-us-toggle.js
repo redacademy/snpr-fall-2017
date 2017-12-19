@@ -1,15 +1,15 @@
 (function($){
   // var scroll = false;
   
-  $(".about-us-heading").on('click touchstart',function(event){
+  $(".about-us-heading").on('click touchend',function(event){
     event.preventDefault();
     
     // if (scroll){
     //   setTimeout(function(){
-    $(this).addClass('heading-click');
-    $(this).parent().addClass('list-item-click');
+    $(this).toggleClass('heading-click');
+    $(this).parent().toggleClass('list-item-click');
     
-    $(this).siblings().find('.about-us-essay-hide').addClass('about-us-essay-show');
+    $(this).siblings().find('.about-us-essay-hide').toggleClass('about-us-essay-show');
     // }, 1000);
     // }
     // scroll = true;
@@ -17,7 +17,7 @@
     
   })
   
-  $('.scroll-up').on('click touchstart', function(){
+  $('.scroll-up').on('click touchend', function(){
     
     $(this).siblings().removeClass('heading-click');
     $(this).siblings().find('.about-us-essay-hide').removeClass('about-us-essay-show');
@@ -27,9 +27,9 @@
     // }, 1000);
     
     // scroll = true;
-    window.scrollTo(0,0); // scroll to the top
+    window.scrollTo(0,450); // scroll to the top
     
-    
+    return false;
   })
   
   
