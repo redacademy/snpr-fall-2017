@@ -39,11 +39,11 @@
   })
 
  // function for remove the menu when subcribe button is pressed
-$('.subscribe-button').on('click touchstart',function() {
+$('.subscribe-button #menu-item-76').on('click touchstart',function() {
 
   $('.menu1').removeClass('menu-show');
 
 });
 
   
-  })(jQuery);
+})(jQuery);
