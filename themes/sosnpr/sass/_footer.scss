@@ -84,18 +84,23 @@
       padding-top: 2px;
       min-width: 30px;
     }
-    p{
+    p, a{
       max-width: 230px;
       margin: 10px 0px;
       padding-left: 10px;
       border-left: 1px solid #fff;
+      line-height: 1.5rem;
       margin-top: 0;
       font-family: $source;
     }
+  }
+  
+  #custom_html-4{
     a{
-      font-family: $source;
+      border-left: 0px;
     }
   }
+  
   .widget_custom_html{
     .contact-row{
       display: flex;
@@ -131,70 +136,71 @@
   padding: 20px 0;
   justify-content: center;
   align-items: center;
-  z-index: 10;
-
+  z-index: 100;
+  
   // @include tablet{
     height: 100vh;
     background: rgba(0,0,0,0.6);
     top: 0;
     padding: 0;
-  // }
-  form{
-    width: 280px;  
-    background: white;
-    text-align: center;
-    // padding: 0 20px;
-    // margin: 0 auto;
-    // border-radius: 10%;
-    // border: 5px solid $forest;
-    @include tablet{
-      width: 380px;
-    }
-    label p{
-      font-family: $source;
-      line-height: $font__line-height-body;
-      margin: 15px 0;
-      padding: 0 40px;
-    }
-    input[type="email"]{
-      font-family: $source;
-      width: 220px;
-      height: 30px;
-      margin: 10px 40px;
-      padding: 0 10px;
+    // }
+    form{
+      width: 280px;  
+      background: white;
+      text-align: center;
+      // padding: 0 20px;
+      // margin: 0 auto;
+      // border-radius: 10%;
+      // border: 5px solid $forest;
       @include tablet{
-        width: 240px;
-        margin-left: 70px;
+        width: 380px;
+      }
+      label p{
+        font-family: $source;
+        line-height: $font__line-height-body;
+        margin: 15px 0;
+        padding: 0 40px;
+      }
+      input[type="email"]{
+        font-family: $source;
+        width: 220px;
+        height: 30px;
+        margin: 10px 40px;
+        padding: 0 10px;
+        @include tablet{
+          width: 240px;
+          margin-left: 70px;
+        }
+      }
+      button{
+        position: relative;
+        font-size: 16px;
+        bottom: 40px;
+        left: 105px;
+        padding: 6.5px 12.2px;
+        color: white;
+        background-color: $forest;
+        border-radius: 10%;
+        box-shadow: none;
+        border: none;
       }
     }
-    button{
+  }
+  .closing-icon{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    
+    .fa-times{
+      cursor: pointer;
+      font-size: 22px;
       position: relative;
-      font-size: 16px;
-      bottom: 40px;
-      left: 105px;
-      padding: 6.5px 12.2px;
-      color: white;
-      background-color: $forest;
-      border-radius: 10%;
-      box-shadow: none;
-      border: none;
+      right: 15px;
+      top: 15px;
     }
   }
-}
-.closing-icon{
-  display: flex;
-  justify-content: flex-end;
-  text-decoration: none;
+  a,
+  a:visited{
+    color: #fff;
+  }  
   
-  .fa-times{
-    cursor: pointer;
-    font-size: 22px;
-    position: relative;
-    right: 15px;
-    top: 15px;
-  }
-}
-a,
-a:visited{
-  color: #fff;
-}  

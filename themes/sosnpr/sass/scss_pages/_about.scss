@@ -95,10 +95,28 @@
         @include scroll-half-circle;
         text-decoration: none;
         background: $orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i{
+          font-size: 50px;
+        }
         // margin: 0 auto;
+        @include tablet{
+        
+          @include scroll-circle;
+          position: relative;
+          top: 45px;
+          text-decoration: none;
+          i{
+            font-size: 35px;
+          }
+          
+        }
       }
       @include tablet{
         border: none;
+        border-bottom: 1px $orange solid;
       }
     }
     .section-two,.section-four{

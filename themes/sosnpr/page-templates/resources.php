@@ -60,16 +60,13 @@ get_header();
      <div class="resources-content hide">
        <p><?php echo CFS()->get('reports');?></p></div>
 
+<<<<<<< HEAD
        <!-- <a href="#top" class="scroll-up">
         <i class="fa fa-angle-up" aria-hidden="true"></i>
       </a> -->
+=======
+>>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
    </li>
-
-<!-- <div class="divider">
-  <a href="#top" class="scroll-circle">
-  <i class="fa fa-angle-up" aria-hidden="true"></i>
-  </a>
-</div> -->
 
    <li id="videos">
    <?php $props = CFS()->get_field_info( 'videos' );?> 
@@ -79,16 +76,14 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('videos');?></p></div>
 
+<<<<<<< HEAD
      <!-- <a href="#top" class="scroll-up">
       <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a> -->
+=======
+>>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
      </li>
 
-<!-- <div class="divider">
-  <a href="#top" class="scroll-circle">
-  <i class="fa fa-angle-up" aria-hidden="true"></i>
-  </a>
-</div> -->
 
    <li id="photos">
    <?php $props = CFS()->get_field_info( 'photos' );?> 
@@ -99,8 +94,8 @@ get_header();
      <div class="resources-content hide owl-carousel2">
      
      <?php
-     $gallery_images = CFS()->get('photos');
-  foreach ($gallery_images as $image) {
+     $photos = CFS()->get('photos');
+  foreach ($photos as $image) {
     echo '<img class="owl-image" src="'.$image["image"].'"/>';
   }
   
@@ -108,12 +103,6 @@ get_header();
 
 </div>
      </li>
-
-<!-- <div class="divider">
-  <a href="#top" class="scroll-circle">
-  <i class="fa fa-angle-up" aria-hidden="true"></i>
-  </a>
-</div> -->
 
    <li id="#books">
    <?php $props = CFS()->get_field_info( 'books' );?> 
@@ -123,17 +112,14 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('books');?></p></div>
 
+<<<<<<< HEAD
      <!-- <a href="#top" class="scroll-up">
       <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a> -->
+=======
+>>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
      </li>
-<!-- 
-<div class="divider">
-  <a href="#top" class="scroll-circle">
-  <i class="fa fa-angle-up" aria-hidden="true"></i>
-  </a>
-</div> -->
-
+     
    <li id="news">
    <?php $props = CFS()->get_field_info( 'in_the_news' );?> 
    <h2 class="resources-heading">
@@ -142,16 +128,13 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('in_the_news');?></p></div>
 
+<<<<<<< HEAD
      <!-- <a href="#top" class="scroll-up">
       <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a> -->
+=======
+>>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
      </li>
-<!-- 
-<div class="divider">
-  <a href="#top" class="scroll-circle">
-  <i class="fa fa-angle-up" aria-hidden="true"></i>
-  </a>
-</div> -->
 
    <li id="radio">
    <?php $props = CFS()->get_field_info( 'radio' );?> 
@@ -161,16 +144,13 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('radio');?></p></div>
 
+<<<<<<< HEAD
      <!-- <a href="#top" class="scroll-up">
       <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a> -->
+=======
+>>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
      </li>
-
-  <!-- <div class="divider">
-  <a href="#top" class="scroll-circle">
-  <i class="fa fa-angle-up" aria-hidden="true"></i>
-  </a>
-  </div> -->
 
   <div class="lc-groups-container" id="lc-groups">
     <?php $props = CFS()->get_field_info( 'local_conservation_groups' );?> 
@@ -180,28 +160,16 @@ get_header();
     <?php echo $props['label'];?></h2>
     <div class="lc-groups resources-content hide">
       <li>
-      <p><?php echo CFS()->get('local_conservation_groups');?></p>
+      <?php echo CFS()->get('local_conservation_groups');?>
       </li>
       <li>
         <?php $props = CFS()->get_field_info( 'local_conservation_groups_2' );?> 
-        <p><?php echo CFS()->get('local_conservation_groups_2');?></p>
+        <?php echo CFS()->get('local_conservation_groups_2');?>
       </li>
     </div>
-    <!-- <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a> -->
   </div>
  </ul>
  
-  <!-- </div> -->
- <!-- <div class="divider-clear">
-    <a href="#top" class="scroll-half-circle">
-    <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a>
-  </div> -->
-
-
-  
 
 </main><!-- #main -->
 
