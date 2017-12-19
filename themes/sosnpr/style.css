@@ -1515,6 +1515,8 @@ a:visited {
   .page-template-resources .resources-ul a {
     color: #0096ff;
     font-weight: 300; }
+  .page-template-resources .resources-ul li:nth-child(2) p {
+    max-width: 25rem; }
   @media all and (min-width: 600px) {
     .page-template-resources .resources-ul li {
       margin: 30px;
@@ -1594,19 +1596,15 @@ a:visited {
             margin-left: 5rem; } }
 
 .page-template-resources .owl-carousel2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 60vw;
-  left: 15%; }
-  .page-template-resources .owl-carousel2 .owl-item {
-    width: 200px;
-    height: 300px; }
-    .page-template-resources .owl-carousel2 .owl-item img {
-      background-size: cover; }
+  width: 65vw;
+  left: 10%; }
+  .page-template-resources .owl-carousel2 .owl-image {
+    height: 200px;
+    width: 250px; }
+  .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
+    width: 8px;
+    height: 8px;
+    background: #285817; }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-2.jpg);
@@ -2893,6 +2891,8 @@ a:visited {
   .page-template-resources .resources-ul a {
     color: #0096ff;
     font-weight: 300; }
+  .page-template-resources .resources-ul li:nth-child(2) p {
+    max-width: 25rem; }
   @media all and (min-width: 600px) {
     .page-template-resources .resources-ul li {
       margin: 30px;
@@ -2972,19 +2972,15 @@ a:visited {
             margin-left: 5rem; } }
 
 .page-template-resources .owl-carousel2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 60vw;
-  left: 15%; }
-  .page-template-resources .owl-carousel2 .owl-item {
-    width: 200px;
-    height: 300px; }
-    .page-template-resources .owl-carousel2 .owl-item img {
-      background-size: cover; }
+  width: 65vw;
+  left: 10%; }
+  .page-template-resources .owl-carousel2 .owl-image {
+    height: 200px;
+    width: 250px; }
+  .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
+    width: 8px;
+    height: 8px;
+    background: #285817; }
 
 .search-results .page-title {
   padding: 50px 0;
