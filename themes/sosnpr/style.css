@@ -1952,6 +1952,7 @@ a:visited {
               flex-direction: column; } }
 
 .page-template-proposed-park .site-content h2 {
+  padding-left: 25px;
   color: #d87000;
   font-family: "Miriam Libre", sans-serif;
   font-weight: 100;
@@ -1967,6 +1968,7 @@ a:visited {
   height: 0;
   overflow: hidden;
   font-family: "Source Sans Pro", sans-serif;
+  padding-left: 10px;
   padding-right: 10px; }
   @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .text {
@@ -1978,8 +1980,7 @@ a:visited {
 
 .page-template-proposed-park .site-content .prop-item {
   position: relative;
-  cursor: pointer;
-  padding-left: 25px; }
+  cursor: pointer; }
   @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .prop-item {
       margin-left: 5%;
@@ -2097,13 +2098,13 @@ a:visited {
     color: #fff;
     margin: 0;
     text-align: center;
-    height: 50px;
+    height: 40px;
     width: 50px;
     background: #d87000;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%; }
     .page-template-proposed-park .site-content .land .text .close-section i {
-      font-size: 30px; }
+      font-size: 40px; }
     @media all and (min-width: 600px) {
       .page-template-proposed-park .site-content .land .text .close-section {
         display: none; } }
@@ -2166,13 +2167,13 @@ a:visited {
     color: #fff;
     margin: 0;
     text-align: center;
-    height: 50px;
+    height: 40px;
     width: 50px;
     background: #d87000;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%; }
     .page-template-proposed-park .site-content .location .text .close-section i {
-      font-size: 30px; }
+      font-size: 40px; }
     @media all and (min-width: 600px) {
       .page-template-proposed-park .site-content .location .text .close-section {
         display: none; } }
@@ -2226,13 +2227,13 @@ a:visited {
     color: #fff;
     margin: 0;
     text-align: center;
-    height: 50px;
+    height: 40px;
     width: 50px;
     background: #d87000;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%; }
     .page-template-proposed-park .site-content .land-use .text .close-section i {
-      font-size: 30px; }
+      font-size: 40px; }
     @media all and (min-width: 600px) {
       .page-template-proposed-park .site-content .land-use .text .close-section {
         display: none; } }
@@ -2271,9 +2272,6 @@ a:visited {
             flex-basis: 50%; } }
 
 @media all and (min-width: 1000px) {
-      .page-template-proposed-park .site-content .land-use .content-container .content-container-one .text:nth-child(2) {
-        text-align: right;
-        font-weight: bold; }
     .page-template-proposed-park .site-content .land-use .content-container .content-container-two {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2360,13 +2358,13 @@ a:visited {
     color: #fff;
     margin: 0;
     text-align: center;
-    height: 50px;
+    height: 40px;
     width: 50px;
     background: #d87000;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%; }
     .page-template-proposed-park .site-content .why .text .close-section i {
-      font-size: 30px; }
+      font-size: 40px; }
     @media all and (min-width: 600px) {
       .page-template-proposed-park .site-content .why .text .close-section {
         display: none; } }
@@ -2419,13 +2417,13 @@ a:visited {
     color: #fff;
     margin: 0;
     text-align: center;
-    height: 50px;
+    height: 40px;
     width: 50px;
     background: #d87000;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%; }
     .page-template-proposed-park .site-content .ranch .text .close-section i {
-      font-size: 30px; }
+      font-size: 40px; }
     @media all and (min-width: 600px) {
       .page-template-proposed-park .site-content .ranch .text .close-section {
         display: none; } }
@@ -2476,13 +2474,13 @@ a:visited {
     color: #fff;
     margin: 0;
     text-align: center;
-    height: 50px;
+    height: 40px;
     width: 50px;
     background: #d87000;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%; }
     .page-template-proposed-park .site-content .human .text .close-section i {
-      font-size: 30px; }
+      font-size: 40px; }
     @media all and (min-width: 600px) {
       .page-template-proposed-park .site-content .human .text .close-section {
         display: none; } }
@@ -2535,13 +2533,13 @@ a:visited {
     color: #fff;
     margin: 0;
     text-align: center;
-    height: 50px;
+    height: 40px;
     width: 50px;
     background: #d87000;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%; }
     .page-template-proposed-park .site-content .ecological .text .close-section i {
-      font-size: 30px; }
+      font-size: 40px; }
     @media all and (min-width: 600px) {
       .page-template-proposed-park .site-content .ecological .text .close-section {
         display: none; } }
@@ -2592,13 +2590,13 @@ a:visited {
     color: #fff;
     margin: 0;
     text-align: center;
-    height: 50px;
+    height: 40px;
     width: 50px;
     background: #d87000;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%; }
     .page-template-proposed-park .site-content .economic .text .close-section i {
-      font-size: 30px; }
+      font-size: 40px; }
     @media all and (min-width: 600px) {
       .page-template-proposed-park .site-content .economic .text .close-section {
         display: none; } }
@@ -2688,13 +2686,13 @@ a:visited {
     color: #fff;
     margin: 0;
     text-align: center;
-    height: 50px;
+    height: 40px;
     width: 50px;
     background: #d87000;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%; }
     .page-template-proposed-park .site-content .faq .text .close-section i {
-      font-size: 30px; }
+      font-size: 40px; }
     @media all and (min-width: 600px) {
       .page-template-proposed-park .site-content .faq .text .close-section {
         display: none; } }

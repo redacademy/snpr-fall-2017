@@ -72,6 +72,7 @@
       }
     }
     h2 {
+      padding-left: 25px;
       color: $orange;
       font-family: $miriam;
       font-weight: 100;
@@ -88,6 +89,7 @@
       height: 0;
       overflow: hidden;
       font-family: $source;
+      padding-left: 10px;
       padding-right: 10px;
       @include tablet {
         height: auto;
@@ -101,7 +103,7 @@
     .prop-item {
       position: relative;
       cursor: pointer;
-      padding-left: 25px;
+      // padding-left: 25px;
       @include tablet {
         margin-left: 5%;
         margin-right: 5%;
@@ -243,6 +245,7 @@
 
       .fish {
         align-items: left;
+        
         @include desktop {
           align-items: flex-end;
         }
@@ -263,12 +266,12 @@
             @media all and (min-width: 1200px) {
               flex-basis: 50%;
             }
-            .text:nth-child(2) {
+            // .text:nth-child(2) {
              
-              text-align: right;
-              font-weight: bold;
+            //   text-align: right;
+            //   font-weight: bold;
              
-            }
+            // }
             padding-bottom: 25px;
           }
           .content-container-two {
