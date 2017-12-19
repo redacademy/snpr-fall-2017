@@ -8,7 +8,7 @@
   background-position: bottom center;
   height:90vh;
   font-family:$miriam;
-  padding-top:35px;
+  padding-top:30px;
   display:flex;
   flex-direction:column;
   h1{
@@ -116,7 +116,8 @@
     }
     img{
       height:auto;
-      
+      border-top-left-radius:3px;
+      border-top-right-radius:3px;
     }
     .entry-header{
       color:white;
@@ -127,7 +128,8 @@
       font-size:12px;
       height:160px;
       margin-right:10px;
-      
+      border-bottom-left-radius:3px;
+      border-bottom-right-radius:3px;
       background: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,1));
       .entry-meta{
       text-transform:uppercase;

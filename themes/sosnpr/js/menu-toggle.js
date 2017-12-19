@@ -18,7 +18,7 @@
   $('.menu-toggle').on('click touchstart',function(e) {
     e.preventDefault();
     
-    $('.menu1').addClass('menu-show');
+    $('.menu1').addClass('menu-show').focus('menu1');
     
     clearMenu = false;
     
@@ -50,7 +50,7 @@
     
     setTimeout(function(){
       $('.menu1').removeClass('menu-show');
-    }, 100);
+    }, 500);
     
   });
   
