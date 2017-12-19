@@ -56,6 +56,7 @@ get_header();
      <div class="resources-content hide">
        <p><?php echo CFS()->get('reports');?></p></div>
    </li>
+   
    <li id="videos">
    <?php $props = CFS()->get_field_info( 'videos' );?> 
    <h2 class="resources-heading">
@@ -64,6 +65,7 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('videos');?></p></div>
      </li>
+
    <li id="photos">
    <?php $props = CFS()->get_field_info( 'photos' );?> 
    <h2 class="resources-heading">
@@ -77,10 +79,10 @@ get_header();
   foreach ($photos as $image) {
     echo '<img class="owl-image" src="'.$image["image"].'"/>';
   }
-  
   ?>
 </div>
      </li>
+
    <li id="#books">
    <?php $props = CFS()->get_field_info( 'books' );?> 
    <h2 class="resources-heading">
@@ -98,6 +100,7 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('in_the_news');?></p></div>
      </li>
+
    <li id="radio">
    <?php $props = CFS()->get_field_info( 'radio' );?> 
    <h2 class="resources-heading">
@@ -106,6 +109,7 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('radio');?></p></div>
      </li>
+
   <div class="lc-groups-container" id="lc-groups">
     <?php $props = CFS()->get_field_info( 'local_conservation_groups' );?> 
     <h2 class="resources-heading">
