@@ -10,13 +10,10 @@ get_header();
   <header id="top" class="resources-hero">
   
      <?php while ( have_posts() ) : the_post(); ?>
-
      <?php get_template_part( 'template-parts/content', 'page' ); ?>
-
      <?php endwhile; // End of the loop. ?>
   
  </header>
-
 <section class="resources-nav">
   <div class="nav-links">
   <ul class="resources-nav-1">
@@ -48,7 +45,6 @@ get_header();
   </ul>
 </div>
 </section>
-
  <ul class="resources-ul">
  
    <li id="reports">
@@ -59,15 +55,7 @@ get_header();
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide">
        <p><?php echo CFS()->get('reports');?></p></div>
-
-<<<<<<< HEAD
-       <!-- <a href="#top" class="scroll-up">
-        <i class="fa fa-angle-up" aria-hidden="true"></i>
-      </a> -->
-=======
->>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
    </li>
-
    <li id="videos">
    <?php $props = CFS()->get_field_info( 'videos' );?> 
    <h2 class="resources-heading">
@@ -75,23 +63,14 @@ get_header();
    <i class="fa fa-angle-down"></i>
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('videos');?></p></div>
-
-<<<<<<< HEAD
-     <!-- <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a> -->
-=======
->>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
      </li>
-
-
    <li id="photos">
    <?php $props = CFS()->get_field_info( 'photos' );?> 
    <h2 class="resources-heading">
    <i class="fa fa-angle-right"></i>
    <i class="fa fa-angle-down"></i>
      <?php echo $props['label'];?></h2>
-     <div class="resources-content hide owl-carousel2">
+     <div class="resources-content owl-carousel2 hide">
      
      <?php
      $photos = CFS()->get('photos');
@@ -100,10 +79,8 @@ get_header();
   }
   
   ?>
-
 </div>
      </li>
-
    <li id="#books">
    <?php $props = CFS()->get_field_info( 'books' );?> 
    <h2 class="resources-heading">
@@ -111,13 +88,6 @@ get_header();
    <i class="fa fa-angle-down"></i>
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('books');?></p></div>
-
-<<<<<<< HEAD
-     <!-- <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a> -->
-=======
->>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
      </li>
      
    <li id="news">
@@ -127,15 +97,7 @@ get_header();
    <i class="fa fa-angle-down"></i>
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('in_the_news');?></p></div>
-
-<<<<<<< HEAD
-     <!-- <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a> -->
-=======
->>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
      </li>
-
    <li id="radio">
    <?php $props = CFS()->get_field_info( 'radio' );?> 
    <h2 class="resources-heading">
@@ -143,15 +105,7 @@ get_header();
    <i class="fa fa-angle-down"></i>
      <?php echo $props['label'];?></h2>
      <div class="resources-content hide"><p><?php echo CFS()->get('radio');?></p></div>
-
-<<<<<<< HEAD
-     <!-- <a href="#top" class="scroll-up">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a> -->
-=======
->>>>>>> e1728b407f43b33a042d8e5dcb0ada965e0f2da8
      </li>
-
   <div class="lc-groups-container" id="lc-groups">
     <?php $props = CFS()->get_field_info( 'local_conservation_groups' );?> 
     <h2 class="resources-heading">
@@ -170,8 +124,6 @@ get_header();
   </div>
  </ul>
  
-
 </main><!-- #main -->
-
 </div><!-- #primary -->
 <?php get_footer();?>
