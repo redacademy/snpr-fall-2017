@@ -56,6 +56,9 @@
             text-decoration: none;
             text-transform: uppercase;
           }
+          a:hover {
+            color: $hover-light-blue;
+          }
         }
       }
     } //fields container
@@ -125,6 +128,12 @@
           }
           
         }
+        
+      }
+      .last {
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        bottom: 0px;
       }
     
       
@@ -137,7 +146,7 @@
       @include tablet {
         padding-top: 0;
       }
-      background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg);
+      background-image: url(../../sos_assets/proposed-park/horse-mobile.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom center;

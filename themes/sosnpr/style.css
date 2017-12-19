@@ -1100,7 +1100,7 @@ a:visited {
           max-width: 75%; }
     @media all and (min-width: 600px) {
       .page-template-about-us .custom-hero {
-        background: url(../../sos_assets/about-us/about-us-banner-full.jpg) no-repeat bottom 0 right 0;
+        background: url(../../sos_assets/about-us/about-us-banner-large.jpg) no-repeat bottom 0 right 0;
         background-size: cover;
         max-height: 80vh; } }
     @media all and (min-width: 1000px) {
@@ -1305,7 +1305,7 @@ a:visited {
               order: -1; }
 
 .page-template-resources .resources-hero {
-  background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
+  background: url(../../sos_assets/resources/river.jpg);
   background-size: cover;
   height: 100vh;
   width: 100vw;
@@ -1507,10 +1507,18 @@ a:visited {
   .page-template-resources .resources-ul h2 {
     color: #d87000;
     font-family: "Miriam Libre", sans-serif;
+<<<<<<< HEAD
+    text-transform: uppercase;
+    padding: 3rem 0rem 0rem 0rem; }
+=======
     text-transform: uppercase; }
+<<<<<<< HEAD
     @media all and (min-width: 600px) {
       .page-template-resources .resources-ul h2 {
         margin-left: 2rem; } }
+=======
+>>>>>>> 57c13c46cc86c06e76605af8049ff7bf4632bf4a
+>>>>>>> 2fb239e2d373ac0009b20ca532efe6f2937f8fae
   .page-template-resources .resources-ul a {
     color: #0096ff;
     font-weight: 300; }
@@ -1883,7 +1891,9 @@ a:visited {
         .page-template-proposed-park .site-content .proposed-banner .banner-list a {
           color: #fff;
           text-decoration: none;
-          text-transform: uppercase; } }
+          text-transform: uppercase; }
+        .page-template-proposed-park .site-content .proposed-banner .banner-list a:hover {
+          color: #4CD1FE; } }
 
 .page-template-proposed-park .site-content .proposed-container .image {
   display: none; }
@@ -1952,13 +1962,17 @@ a:visited {
         .page-template-proposed-park .site-content .prop-item .page-top i {
           font-size: 25px;
           color: #fff; } }
+  .page-template-proposed-park .site-content .prop-item .last {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    bottom: 0px; }
 
 .page-template-proposed-park .site-content .show {
   height: auto; }
 
 .page-template-proposed-park .site-content .proposed-hero {
   padding-top: 50px;
-  background-image: url(../../sos_assets/proposed-park/horse-riding-near-mt-kobau-quarter.jpg);
+  background-image: url(../../sos_assets/proposed-park/horse-mobile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -2677,7 +2691,7 @@ a:visited {
           flex-basis: 50%; } }
 
 .page-template-resources .resources-hero {
-  background: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
+  background: url(../../sos_assets/resources/river.jpg);
   background-size: cover;
   height: 100vh;
   width: 100vw;
@@ -2879,10 +2893,18 @@ a:visited {
   .page-template-resources .resources-ul h2 {
     color: #d87000;
     font-family: "Miriam Libre", sans-serif;
+<<<<<<< HEAD
+    text-transform: uppercase;
+    padding: 3rem 0rem 0rem 0rem; }
+=======
     text-transform: uppercase; }
+<<<<<<< HEAD
     @media all and (min-width: 600px) {
       .page-template-resources .resources-ul h2 {
         margin-left: 2rem; } }
+=======
+>>>>>>> 57c13c46cc86c06e76605af8049ff7bf4632bf4a
+>>>>>>> 2fb239e2d373ac0009b20ca532efe6f2937f8fae
   .page-template-resources .resources-ul a {
     color: #0096ff;
     font-weight: 300; }
@@ -3308,7 +3330,7 @@ a:visited {
       color: #d87000; }
 
 .blog .site-content .updates-hero {
-  background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
+  background-image: url(../../sos_assets/resources/river.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 60%;
@@ -3319,7 +3341,7 @@ a:visited {
     text-align: center;
     font-size: 30px;
     padding-top: 50px;
-    color: #629749;
+    color: #285817;
     text-transform: uppercase; }
     @media all and (min-width: 600px) {
       .blog .site-content .updates-hero h2 {
