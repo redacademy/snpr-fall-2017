@@ -292,7 +292,7 @@ get_header();
             <div class="image"><img src="<?php echo CFS()->get('faq_image_three');?>" alt="a helicopter over a snowy mountain top with clouds in the background"
               /></div>
           </div>
-          <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
+          <a href="#top"><button class="page-top last"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </div>
         <!-- closes nine-->
 
