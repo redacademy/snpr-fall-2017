@@ -18,7 +18,10 @@
     // $(this).parent().siblings().removeClass('list-item-click');
     // $(this).parent().siblings().children().removeClass('heading-click');
 
-    window.scrollTo(0,420); // scroll to the top
+    // setTimeout(function(){
+      window.scrollTo(0,430); // scroll to the top
+    // }, 1000);
+    
   
   })
 
