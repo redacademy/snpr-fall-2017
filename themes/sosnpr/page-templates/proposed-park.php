@@ -42,9 +42,10 @@ get_header();
       <section class="proposed-container" id="start">
 
         <div class="prop-item land" id="land">
-          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+          <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
             <?php echo CFS()->get_field_info( 'the_land' )['label'];?>
           </h2>
+          
 
           <div class="content-container">
             <div class="text">
@@ -54,6 +55,7 @@ get_header();
                   <i class="fa fa-angle-up" aria-hidden="true"></i>
                 </div>
               </a>
+              
 
             </div>
             <div class="image"><img src="<?php echo CFS()->get('land_image');?>" alt="a hiker in neon gazing out reflectively at a river in the valley below"
@@ -67,9 +69,10 @@ get_header();
 
 
         <div class="prop-item location" id="location">
-          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+          <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
             <?php echo CFS()->get_field_info( 'location_of_the_park' )['label'];?>
           </h2>
+          
 
           <div class="content-container">
             <div class="image"><img src="<?php echo CFS()->get('location_image');?>" alt="a map of the southern okanagan" /></div>
@@ -89,7 +92,7 @@ get_header();
 
 
         <div class="prop-item land-use" id="land-use">
-          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+          <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
             <?php echo CFS()->get_field_info( 'land_use_regulations' )['label'];?>
           </h2>
 
@@ -139,7 +142,7 @@ get_header();
 
 
         <div class="prop-item why" id="why">
-          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+          <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
             <?php echo CFS()->get_field_info( 'why_a_national_park' )['label'];?>
           </h2>
 
@@ -161,7 +164,7 @@ get_header();
 
 
         <div class="prop-item ranch" id="ranch">
-          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+          <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
             <?php echo CFS()->get_field_info( 'ranching_agriculture' )['label'];?>
           </h2>
 
@@ -185,7 +188,7 @@ get_header();
 
 
         <div class="prop-item human" id="human">
-          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+          <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
             <?php echo CFS()->get_field_info( 'human_impact' )['label'];?>
           </h2>
 
@@ -208,7 +211,7 @@ get_header();
 
 
         <div class="prop-item ecological" id="ecological">
-          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+          <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
             <?php echo CFS()->get_field_info( 'ecological_benefits' )['label'];?>
           </h2>
 
@@ -233,7 +236,7 @@ get_header();
 
 
         <div class="prop-item economic" id="economic">
-          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+          <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
             <?php echo CFS()->get_field_info( 'economic_benefits' )['label'];?>
           </h2>
 
@@ -261,7 +264,7 @@ get_header();
 
 
         <div class="prop-item faq" id="faq">
-          <h2><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+          <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
             <?php echo CFS()->get_field_info( 'faq' )['label'];?>
           </h2>
 

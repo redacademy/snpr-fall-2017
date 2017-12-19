@@ -138,13 +138,13 @@
 			color: #fff;
 			margin: 0;
 			text-align: center;
-			height: 50px;
+			height: 40px;
 			width: 50px;
 			background: $orange;
 			border-top-left-radius: 50%;
 			border-top-right-radius: 50%;
 			i {
-				font-size: 30px;
+				font-size: 40px;
 			}
 			@include tablet {
 				display: none;
