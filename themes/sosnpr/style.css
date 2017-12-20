@@ -3492,7 +3492,8 @@ a:visited {
   background-position: 0 60%;
   height: 85vh;
   font-family: "Miriam Libre", sans-serif;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  padding-top: 20px; }
   .blog .site-content .updates-hero h2 {
     text-align: center;
     font-size: 30px;
