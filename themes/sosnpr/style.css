@@ -1240,8 +1240,8 @@ a:visited {
             top: -5px;
             background: #555454;
             border-radius: 30px;
-            width: 50px;
-            height: 50px;
+            width: 45px;
+            height: 45px;
             text-align: center;
             font-size: 35px;
             font-weight: 100;
@@ -1288,8 +1288,8 @@ a:visited {
             top: -5px;
             background: #555454;
             border-radius: 30px;
-            width: 50px;
-            height: 50px;
+            width: 45px;
+            height: 45px;
             text-align: center;
             font-size: 35px;
             font-weight: 100;
@@ -1672,11 +1672,11 @@ a:visited {
     .page-template-resources .desktop-button .fa-angle-up {
       display: block;
       position: absolute;
-      left: 50%;
+      left: 52%;
       color: white;
       background: #555454;
       border-radius: 50px;
-      padding: 5px 12px;
+      padding: 5px 11px;
       margin-top: -20px;
       font-size: 2rem;
       text-decoration: none; } }
@@ -3098,11 +3098,11 @@ a:visited {
     .page-template-resources .desktop-button .fa-angle-up {
       display: block;
       position: absolute;
-      left: 50%;
+      left: 52%;
       color: white;
       background: #555454;
       border-radius: 50px;
-      padding: 5px 12px;
+      padding: 5px 11px;
       margin-top: -20px;
       font-size: 2rem;
       text-decoration: none; } }
