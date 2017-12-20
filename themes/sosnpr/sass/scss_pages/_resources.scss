@@ -19,8 +19,11 @@
       align-items: center;
     }
     h1{
-      padding-top: 3rem;
+      padding-top: 8rem;
       font-size: 3rem;
+      @include desktop{
+        padding-top: 0rem;
+      }
     }
     .entry-content{
       p{
@@ -28,7 +31,9 @@
         font-size: 1.2rem;
         line-height: 1.2rem;
       }
-      max-width: 30vw;
+      @include desktop{
+        max-width: 30vw;
+      }
     }
   }
   
