@@ -90,9 +90,7 @@
       color:$brown_orange;
       text-transform:uppercase;
       font-family:$miriam;
-      &:focus{
-        border: 0.5px solid black;
-      }
+     
       :hover{
         color:$hover-blue;
       }
