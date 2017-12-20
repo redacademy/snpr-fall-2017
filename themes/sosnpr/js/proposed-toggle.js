@@ -20,7 +20,7 @@
      $(this).parents().find('.down').removeClass('see');
      $(this).parents().find('.right').removeClass('hide');
      
-     window.scrollTo(0, 500);
+     window.scrollTo(0, 350);
    });
  
  });
