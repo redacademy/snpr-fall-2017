@@ -91,7 +91,7 @@
       text-transform:uppercase;
       font-family:$miriam;
       &:focus{
-        border: 5px solid black;
+        border: 0.5px solid black;
       }
       :hover{
         color:$hover-blue;
