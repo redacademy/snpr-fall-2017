@@ -125,7 +125,7 @@
       }
     } 
     li{
-      padding: 0 30px;
+      padding: 0 10px; //modified
       display: flex;
       flex-direction: column;
       height: auto;
@@ -194,14 +194,14 @@
       }
     }
     
-    h2{
+    h2{ //modified
       font-size: $font_size-heading2;
-      font-family: $source;
-      font-weight: 300;
+      font-family: $miriam;
+      font-weight: 100;
       text-transform: uppercase;
       margin: 0;
-      padding: 15px 0 15px 20px;
-      color: $brown-orange;
+      padding: 10px 0 10px 20px;
+      color: $orange;
       &::before{
         font-family: FontAwesome;
         content: '\f105  ';
@@ -215,6 +215,7 @@
       &::before{
         font-family: FontAwesome;
         content: '\f107  ';
+       
         @include tablet{
           content: none;
         }

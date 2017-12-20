@@ -1,14 +1,14 @@
 # SOSNPR themes
 
-blah blah blahh
-edit!
+A custom WordPress theme built for South Okanagan Similkameen National Park.
+
 ## Installation
 
 ### 1. Download me (don't clone me!)
 
 Then add me to your `wp-content` directory.
 
-### 2. Rename the `redstarter-master` directory
+### 2. Rename the `sosnpr` directory
 
 Make sure that the theme directory name is project appropriate!
 

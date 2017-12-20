@@ -25,6 +25,7 @@
     }
 });
 $('.owl-carousel2').owlCarousel({
+    center:true,
     nav:true,
     dots:true,
     dotsEach:true,
