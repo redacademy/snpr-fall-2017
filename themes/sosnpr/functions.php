@@ -108,7 +108,7 @@ function sosnpr_scripts() {
 
 	wp_enqueue_script( 'about-us-toggle', get_template_directory_uri() . '/build/js/about-us-toggle.min.js', array('jquery', 'smooth-scroll'),null, true );
 
-	wp_enqueue_script( 'resources-page', get_template_directory_uri() . '/build/js/resources-toggle.min.js', array('jquery'),null, true );
+	wp_enqueue_script( 'resources-page', get_template_directory_uri() . '/build/js/resources-page.min.js', array('jquery'),null, true );
 
 	wp_enqueue_script( 'menu-toggle', get_template_directory_uri() . '/build/js/menu-toggle.min.js', array('jquery', 'owl-carousel', 'smooth-scroll'), false, true );
 

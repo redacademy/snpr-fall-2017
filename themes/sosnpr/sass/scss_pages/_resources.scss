@@ -69,6 +69,7 @@
   }
   
   .post-17{
+    max-width: 80vw;
     .entry-header{
       color: $forest;
       font-family: $miriam;
@@ -98,23 +99,20 @@
   }
   
   .borders{
+    position: relative;
     border: $orange solid 1px;
     border-left: $orange solid 3px;
+    border-right: none;
     margin-top: 20px;
-    height: 20vw;
+    padding-left: 1rem;
+    margin-left: -2.5rem;
     @include tablet{
       display: none;
     }
   }
   
-  .fa-angle-right{
-    padding-right: 6.5px;
-    @include tablet{
-      display: none;
-    }
-  }
   
-  .fa-angle-down{
+  .fa-angle-down, .fa-angle-right{
     @include tablet{
       display: none;
     }    
@@ -122,6 +120,7 @@
   
   .resources-content{
     margin: 1.3rem;
+    padding-bottom: 10px;
   }
   
   .resources-ul{
@@ -149,25 +148,12 @@
       }
     }
     li {
+      a:focus{
+        border: none;
+      }
       @include tablet{
         margin: 30px;
         border-bottom: 1px $orange solid;
-        a{
-          .fa-angle-up{
-            position: absolute;
-            left: 45%;
-            color: white;
-            background: #404040;
-            border-radius: 50px;
-            padding: 10px 16px;
-            margin-top: -25px;
-            font-size: 2rem;
-            text-decoration: none;
-          }
-        }
-        a:focus{
-          border: none;
-        }
       }
     }
   }
@@ -197,18 +183,26 @@
         }
         li:nth-child(2) {
           max-width: 40vw;            
-          margin-left: 5rem;
           border-bottom: none;
+          margin-top: -45px;
+          @include desktop{
+            margin-left: 5rem;
+            margin-top: 30px;
+          }
         }
       }
-      
     }
   }
   
   .owl-carousel2{
     width: 65vw;
-    left: 10%;
-    
+    left:3%;
+    @include tablet{
+      left: 10%;
+    }
+    @include desktop{
+      left: 13%;
+    }
     // Makes images larger; li(4,5) will be skipped
     // .owl-wrapper, .owl-wrapper-outer{
       //   zoom: 1.7;
@@ -218,9 +212,64 @@
         height: 200px;
       }
       .owl-controls .owl-pagination span{
-        width: 8px;
-        height: 8px;
+        width: 5px;
+        height: 5px;
         background: $forest;
-      } 
+        @include tablet{
+          width: 8px;
+          height: 8px;
+        }
+      }
+    }
+    
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      height: 100vh;
+      width: 100vw;
+      background: rgba(black,0.3);
+    }
+    
+    .mobile-button{
+      .fa-angle-up{
+        position: absolute;
+        left: 50%;
+        margin-top: -5px;
+        color: white;
+        background: $orange;
+        border-radius: 50px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding: 0px 14px;
+        font-size: 2.3rem;
+        text-decoration: none;
+        @include tablet{
+          display: none;
+        }
+      }
+    }
+    
+    .desktop-button{
+      .fa-angle-up{
+        display: none;
+        @include tablet{
+          display: block;
+          position: absolute;
+          left: 50%;
+          color: white;
+          background: #555454;
+          border-radius: 50px;
+          padding: 7px 14px;
+          margin-top: -25px;
+          font-size: 2.3rem;
+          text-decoration: none;
+        }
+      }
+    }
+    
+    .li-container{
+      @include tablet{
+        border-bottom: none;
+      }
     }
   }
