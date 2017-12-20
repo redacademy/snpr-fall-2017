@@ -3648,6 +3648,8 @@ a:visited {
     text-decoration: none;
     font-family: "Miriam Libre", sans-serif;
     font-size: 25px; }
+  .blog .site-content .search-pagination .current {
+    text-decoration: underline; }
 
 .main-navigation .search-field {
   width: 0px;
