@@ -847,6 +847,35 @@ object {
   100% {
     opacity: 1; } }
 
+.search .site-content .page-title {
+  font-size: 24px;
+  font-family: "Miriam Libre", sans-serif;
+  color: #285817;
+  margin: 0;
+  text-align: center; }
+  @media all and (min-width: 600px) {
+    .search .site-content .page-title {
+      font-size: 30px; } }
+
+.search .site-content article {
+  border-bottom: 1px solid #d87000;
+  margin: 0 5%; }
+  .search .site-content article .entry-header {
+    min-width: 90%; }
+    .search .site-content article .entry-header .entry-title {
+      min-width: 90%; }
+      .search .site-content article .entry-header .entry-title a {
+        color: #d87000;
+        font-size: 18px;
+        text-decoration: none;
+        font-family: "Miriam Libre", sans-serif; }
+      .search .site-content article .entry-header .entry-title a:hover {
+        text-decoration: underline; }
+  .search .site-content article .entry-meta {
+    display: none; }
+  .search .site-content article .entry-summary p {
+    font-family: "Source Sans Pro", sans-serif; }
+
 .widget-area {
   width: 100vw;
   padding-top: 1rem;
