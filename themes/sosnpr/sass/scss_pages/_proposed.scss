@@ -117,17 +117,17 @@
         @include tablet {
           display: flex;
           justify-content: center;
-          height: 50px;
-          width: 50px;
+          height: 45px;
+          width: 45px;
           border-radius: 50px; // display: inline;
           position: absolute;
           bottom: -25px;
-          left: 47%;
+          left: 50%;
           background: #555454;
           box-shadow: none;
           border: none;
           i {
-            font-size: 40px;
+            font-size: 2rem;
             color: #fff;
             padding-bottom: 5px;
             padding-right: 1px;
@@ -137,6 +137,7 @@
       .last {
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
+        height: 35px;
         bottom: 0px;
       }
     } //close prop item
@@ -429,7 +430,12 @@
     } //faq
     .faq {
       @include proposed-button;
+      
+      @include tablet {
+        border-bottom: none;
+      }
       @include desktop {
+        
         p {
           margin: 0;
         }

@@ -9,6 +9,7 @@
       height: 85vh;
       font-family: $miriam;
       margin-bottom: 70px;
+      padding-top: 20px;
       h2 {
         text-align: center;
         font-size: 30px;
@@ -17,11 +18,11 @@
         text-transform: uppercase;
         @include tablet {
           font-size: 40px;
-          padding-right: 200px;
+          
         }
         @include desktop {
           font-size: 50px;
-          padding-right: 200px;
+          
         }
       }
     }
@@ -103,6 +104,14 @@
               margin: 20px 0;
               font-size: 18px;
             }
+            a {
+              color: #434242;;
+              text-decoration: none;
+
+              @include tablet {
+                color: #fff;
+              }
+            }
           }
           .read-more {
             display: none;
@@ -173,6 +182,9 @@
         text-decoration: none;
         font-family: $miriam;
         font-size: 25px;
+      }
+      .current{
+        text-decoration: underline;
       }
     }
   }

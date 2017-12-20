@@ -1002,6 +1002,8 @@ object {
       font-family: "Source Sans Pro", sans-serif; }
   .widget-area #custom_html-4 a {
     border-left: 0px; }
+  .widget-area #custom_html-4 a:hover {
+    color: #4CD1FE; }
   .widget-area .widget_custom_html .contact-row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1012,6 +1014,8 @@ object {
             flex-flow: row wrap; }
     .widget-area .widget_custom_html .contact-row p, .widget-area .widget_custom_html .contact-row a {
       color: white; }
+    .widget-area .widget_custom_html .contact-row a:hover {
+      color: #4CD1FE; }
   .widget-area .textwidget .contact {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1126,7 +1130,7 @@ a:visited {
       .page-template-about-us .custom-hero .post-13 .entry-header {
         text-align: center; }
         .page-template-about-us .custom-hero .post-13 .entry-header .entry-title {
-          font-size: 28px;
+          font-size: 3rem;
           text-transform: uppercase; }
       .page-template-about-us .custom-hero .post-13 .entry-content {
         display: -webkit-box;
@@ -1136,7 +1140,7 @@ a:visited {
             -ms-flex-pack: center;
                 justify-content: center; }
         .page-template-about-us .custom-hero .post-13 .entry-content p {
-          font-size: 12px;
+          font-size: 1.2rem;
           text-align: center;
           max-width: 75%; }
     @media all and (min-width: 600px) {
@@ -1206,11 +1210,11 @@ a:visited {
       border-left: 7px #d87000 solid; }
       .page-template-about-us .about-us-content-wrapper .list-item-click a {
         background: #555454;
-        border-radius: 50%;
+        border-radius: 50px;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
-        width: 65px;
-        height: 50px;
+        width: 50px;
+        height: 35px;
         text-align: center;
         font-size: 35px;
         font-weight: 100;
@@ -1243,8 +1247,8 @@ a:visited {
             top: -5px;
             background: #555454;
             border-radius: 30px;
-            width: 45px;
-            height: 45px;
+            width: 42px;
+            height: 42px;
             text-align: center;
             font-size: 35px;
             font-weight: 100;
@@ -1291,8 +1295,8 @@ a:visited {
             top: -5px;
             background: #555454;
             border-radius: 30px;
-            width: 45px;
-            height: 45px;
+            width: 42px;
+            height: 42px;
             text-align: center;
             font-size: 35px;
             font-weight: 100;
@@ -1305,11 +1309,11 @@ a:visited {
             border: none; }
             .page-template-about-us .about-us-content-wrapper li:last-child a {
               background: #555454;
-              border-radius: 50%;
+              border-radius: 50px;
               border-bottom-left-radius: 0px;
               border-bottom-right-radius: 0px;
-              width: 65px;
-              height: 50px;
+              width: 50px;
+              height: 35px;
               text-align: center;
               font-size: 35px;
               font-weight: 100;
@@ -1413,13 +1417,20 @@ a:visited {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; } }
+  .page-template-resources .resources-hero h1 {
+    padding-top: 3rem;
+    font-size: 3rem; }
+  .page-template-resources .resources-hero .entry-content p {
+    font-family: 'Miriam Libre', 'sans-serif';
+    font-size: 1.2rem;
+    line-height: 1.2rem; }
 
 .page-template-resources .resources-nav {
   display: none; }
   @media all and (min-width: 750px) {
     .page-template-resources .resources-nav {
       width: 100vw;
-      height: 15rem;
+      height: 12rem;
       background: #d87000;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1451,7 +1462,7 @@ a:visited {
         text-decoration: none;
         text-transform: uppercase;
         font-family: "Source Sans Pro", sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 3rem;
         font-family: "Miriam Libre", sans-serif; }
       .page-template-resources .resources-nav .resources-nav-1 {
@@ -1568,6 +1579,9 @@ a:visited {
     font-weight: 300; }
   .page-template-resources .resources-ul li:nth-child(2) p {
     max-width: 25rem; }
+  .page-template-resources .resources-ul li p {
+    font-family: "Source Sans Pro", sans-serif, "sans-serif";
+    line-height: 1.5rem; }
   .page-template-resources .resources-ul li a:focus {
     border: none; }
   @media all and (min-width: 600px) {
@@ -1623,7 +1637,7 @@ a:visited {
 .page-template-resources .owl-carousel2 {
   display: none;
   width: 65vw;
-  left: 3%; }
+  left: 13%; }
   @media all and (min-width: 600px) {
     .page-template-resources .owl-carousel2 {
       display: block;
@@ -1696,7 +1710,7 @@ a:visited {
       border-radius: 50px;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
-      padding: 0px 14px;
+      padding: 1px 15px;
       margin-top: -2rem;
       font-size: 2rem;
       text-decoration: none; } }
@@ -1794,8 +1808,6 @@ a:visited {
     color: #bf6d0a;
     text-transform: uppercase;
     font-family: "Miriam Libre", sans-serif; }
-    .page-id-101 .posts-navigation a:focus {
-      border: 5px solid black; }
     .page-id-101 .posts-navigation a :hover {
       color: #2E84E6; }
 
@@ -2057,24 +2069,25 @@ a:visited {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        height: 50px;
-        width: 50px;
+        height: 45px;
+        width: 45px;
         border-radius: 50px;
         position: absolute;
         bottom: -25px;
-        left: 47%;
+        left: 50%;
         background: #555454;
         -webkit-box-shadow: none;
                 box-shadow: none;
         border: none; }
         .page-template-proposed-park .site-content .prop-item .page-top i {
-          font-size: 40px;
+          font-size: 2rem;
           color: #fff;
           padding-bottom: 5px;
           padding-right: 1px; } }
   .page-template-proposed-park .site-content .prop-item .last {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
+    height: 35px;
     bottom: 0px; }
 
 .page-template-proposed-park .site-content .show {
@@ -2764,6 +2777,10 @@ a:visited {
       .page-template-proposed-park .site-content .faq .text .close-section {
         display: none; } }
 
+@media all and (min-width: 600px) {
+  .page-template-proposed-park .site-content .faq {
+    border-bottom: none; } }
+
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .site-content .faq p {
     margin: 0; }
@@ -2839,13 +2856,20 @@ a:visited {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; } }
+  .page-template-resources .resources-hero h1 {
+    padding-top: 3rem;
+    font-size: 3rem; }
+  .page-template-resources .resources-hero .entry-content p {
+    font-family: 'Miriam Libre', 'sans-serif';
+    font-size: 1.2rem;
+    line-height: 1.2rem; }
 
 .page-template-resources .resources-nav {
   display: none; }
   @media all and (min-width: 750px) {
     .page-template-resources .resources-nav {
       width: 100vw;
-      height: 15rem;
+      height: 12rem;
       background: #d87000;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2877,7 +2901,7 @@ a:visited {
         text-decoration: none;
         text-transform: uppercase;
         font-family: "Source Sans Pro", sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 3rem;
         font-family: "Miriam Libre", sans-serif; }
       .page-template-resources .resources-nav .resources-nav-1 {
@@ -2994,6 +3018,9 @@ a:visited {
     font-weight: 300; }
   .page-template-resources .resources-ul li:nth-child(2) p {
     max-width: 25rem; }
+  .page-template-resources .resources-ul li p {
+    font-family: "Source Sans Pro", sans-serif, "sans-serif";
+    line-height: 1.5rem; }
   .page-template-resources .resources-ul li a:focus {
     border: none; }
   @media all and (min-width: 600px) {
@@ -3049,7 +3076,7 @@ a:visited {
 .page-template-resources .owl-carousel2 {
   display: none;
   width: 65vw;
-  left: 3%; }
+  left: 13%; }
   @media all and (min-width: 600px) {
     .page-template-resources .owl-carousel2 {
       display: block;
@@ -3122,7 +3149,7 @@ a:visited {
       border-radius: 50px;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
-      padding: 0px 14px;
+      padding: 1px 15px;
       margin-top: -2rem;
       font-size: 2rem;
       text-decoration: none; } }
@@ -3333,7 +3360,7 @@ a:visited {
       color: #285817;
       font-family: "Miriam Libre", sans-serif;
       text-align: center;
-      font-size: 28px;
+      font-size: 40px;
       text-transform: uppercase;
       display: block;
       padding-top: 15px;
@@ -3472,7 +3499,8 @@ a:visited {
   background-position: 0 60%;
   height: 85vh;
   font-family: "Miriam Libre", sans-serif;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  padding-top: 20px; }
   .blog .site-content .updates-hero h2 {
     text-align: center;
     font-size: 30px;
@@ -3481,12 +3509,10 @@ a:visited {
     text-transform: uppercase; }
     @media all and (min-width: 600px) {
       .blog .site-content .updates-hero h2 {
-        font-size: 40px;
-        padding-right: 200px; } }
+        font-size: 40px; } }
     @media all and (min-width: 1000px) {
       .blog .site-content .updates-hero h2 {
-        font-size: 50px;
-        padding-right: 200px; } }
+        font-size: 50px; } }
 
 .blog .site-content .stories-container {
   display: -webkit-box;
@@ -3571,6 +3597,12 @@ a:visited {
             padding-left: 20px;
             margin: 20px 0;
             font-size: 18px; } }
+        .blog .site-content .stories-container .journal-container .button-container .post-title a {
+          color: #434242;
+          text-decoration: none; }
+          @media all and (min-width: 600px) {
+            .blog .site-content .stories-container .journal-container .button-container .post-title a {
+              color: #fff; } }
       .blog .site-content .stories-container .journal-container .button-container .read-more {
         display: none;
         position: absolute;
@@ -3637,6 +3669,8 @@ a:visited {
     text-decoration: none;
     font-family: "Miriam Libre", sans-serif;
     font-size: 25px; }
+  .blog .site-content .search-pagination .current {
+    text-decoration: underline; }
 
 .main-navigation .search-field {
   width: 0px;

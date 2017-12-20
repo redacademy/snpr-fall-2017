@@ -41,11 +41,11 @@
   // $('.li-gallery').detach();
   $('.resources-heading').on('click', function(){
     // $('.resources-content').addClass('owl-carousel2');
-    $(this).parent().find('.resources-content').removeClass('hide');
-    $(this).parent().addClass('borders');
-    $(this).find('.fa-angle-right').addClass('hide');
-    $(this).find('.fa-angle-down').removeClass('hide');
-
+    $(this).parent().find('.resources-content').toggleClass('hide');
+    $(this).parent().toggleClass('borders');
+    $(this).find('.fa-angle-right').toggleClass('hide');
+    $(this).find('.fa-angle-down').toggleClass('hide');
+    
 
     if($(this).hasClass('owl-block')){
       console.log('resource owl present');
@@ -82,6 +82,8 @@
     });
     
   });
+
+  window.scrollTo(0,400);
 
 
 })(jQuery);
