@@ -430,7 +430,7 @@ a {
   a:hover, a:focus, a:active {
     color: midnightblue; }
   a:focus {
-    border: 3px solid #285817;
+    border: 0.5px solid #285817;
     outline: thin dotted; }
   a:hover, a:active {
     outline: 0; }
@@ -847,6 +847,35 @@ object {
   100% {
     opacity: 1; } }
 
+.search .site-content .page-title {
+  font-size: 24px;
+  font-family: "Miriam Libre", sans-serif;
+  color: #285817;
+  margin: 0;
+  text-align: center; }
+  @media all and (min-width: 600px) {
+    .search .site-content .page-title {
+      font-size: 30px; } }
+
+.search .site-content article {
+  border-bottom: 1px solid #d87000;
+  margin: 0 5%; }
+  .search .site-content article .entry-header {
+    min-width: 90%; }
+    .search .site-content article .entry-header .entry-title {
+      min-width: 90%; }
+      .search .site-content article .entry-header .entry-title a {
+        color: #d87000;
+        font-size: 18px;
+        text-decoration: none;
+        font-family: "Miriam Libre", sans-serif; }
+      .search .site-content article .entry-header .entry-title a:hover {
+        text-decoration: underline; }
+  .search .site-content article .entry-meta {
+    display: none; }
+  .search .site-content article .entry-summary p {
+    font-family: "Source Sans Pro", sans-serif; }
+
 .widget-area {
   width: 100vw;
   padding-top: 1rem;
@@ -1214,8 +1243,8 @@ a:visited {
             top: -5px;
             background: #555454;
             border-radius: 30px;
-            width: 50px;
-            height: 50px;
+            width: 45px;
+            height: 45px;
             text-align: center;
             font-size: 35px;
             font-weight: 100;
@@ -1262,8 +1291,8 @@ a:visited {
             top: -5px;
             background: #555454;
             border-radius: 30px;
-            width: 50px;
-            height: 50px;
+            width: 45px;
+            height: 45px;
             text-align: center;
             font-size: 35px;
             font-weight: 100;
@@ -1468,24 +1497,25 @@ a:visited {
             -ms-flex-align: center;
                 align-items: center; } }
 
-.page-template-resources .post-17 .entry-header {
-  color: #285817;
-  font-family: "Miriam Libre", sans-serif;
-  text-transform: uppercase;
-  text-align: center; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .post-17 .entry-header {
-      font-size: 1.8rem; } }
-
-.page-template-resources .post-17 .entry-content {
-  color: #285817;
-  font-family: "Source Sans Pro", sans-serif;
-  padding-bottom: 15rem;
-  text-align: center; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .post-17 .entry-content {
-      font-size: 1.5rem;
-      padding-bottom: 18rem; } }
+.page-template-resources .post-17 {
+  max-width: 80vw; }
+  .page-template-resources .post-17 .entry-header {
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    text-transform: uppercase;
+    text-align: center; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .post-17 .entry-header {
+        font-size: 1.8rem; } }
+  .page-template-resources .post-17 .entry-content {
+    color: #285817;
+    font-family: "Source Sans Pro", sans-serif;
+    padding-bottom: 15rem;
+    text-align: center; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .post-17 .entry-content {
+        font-size: 1.5rem;
+        padding-bottom: 18rem; } }
 
 .page-template-resources .hide {
   display: none; }
@@ -1494,26 +1524,23 @@ a:visited {
       display: block; } }
 
 .page-template-resources .borders {
+  position: relative;
   border: #d87000 solid 1px;
   border-left: #d87000 solid 3px;
-  margin-top: 20px;
-  height: 20vw; }
+  border-right: none;
+  padding-left: 1rem;
+  margin-left: -2.5rem; }
   @media all and (min-width: 600px) {
     .page-template-resources .borders {
       display: none; } }
 
-.page-template-resources .fa-angle-right {
-  padding-right: 6.5px; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .fa-angle-right {
-      display: none; } }
-
 @media all and (min-width: 600px) {
-  .page-template-resources .fa-angle-down {
+  .page-template-resources .fa-angle-down, .page-template-resources .fa-angle-right {
     display: none; } }
 
 .page-template-resources .resources-content {
-  margin: 1.3rem; }
+  margin: 1.3rem;
+  padding-bottom: 10px; }
 
 .page-template-resources .resources-ul {
   display: -webkit-box;
@@ -1531,7 +1558,8 @@ a:visited {
   .page-template-resources .resources-ul h2 {
     color: #d87000;
     font-family: "Miriam Libre", sans-serif;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: 300; }
     @media all and (min-width: 600px) {
       .page-template-resources .resources-ul h2 {
         margin-left: 1.3rem; } }
@@ -1540,22 +1568,12 @@ a:visited {
     font-weight: 300; }
   .page-template-resources .resources-ul li:nth-child(2) p {
     max-width: 25rem; }
+  .page-template-resources .resources-ul li a:focus {
+    border: none; }
   @media all and (min-width: 600px) {
     .page-template-resources .resources-ul li {
-      margin: 30px;
-      border-bottom: 1px #d87000 solid; }
-      .page-template-resources .resources-ul li a .fa-angle-up {
-        position: absolute;
-        left: 45%;
-        color: white;
-        background: #404040;
-        border-radius: 50px;
-        padding: 10px 16px;
-        margin-top: -25px;
-        font-size: 2rem;
-        text-decoration: none; }
-      .page-template-resources .resources-ul li a:focus {
-        border: none; } }
+      margin: 30px 30px 30px 0px;
+      border-bottom: 1px #d87000 solid; } }
 
 .page-template-resources .lc-groups-container {
   display: -webkit-box;
@@ -1585,8 +1603,7 @@ a:visited {
         -webkit-box-pack: start;
             -ms-flex-pack: start;
                 justify-content: flex-start;
-        margin-top: -2rem;
-        border-bottom: #d87000 solid 1px; }
+        margin-top: -2rem; }
         .page-template-resources .lc-groups-container .lc-groups p {
           margin-bottom: 0rem; }
         .page-template-resources .lc-groups-container .lc-groups li:nth-child(1) {
@@ -1594,18 +1611,102 @@ a:visited {
           border-bottom: none; }
         .page-template-resources .lc-groups-container .lc-groups li:nth-child(2) {
           max-width: 40vw;
-          margin-left: 5rem;
           border-bottom: none; } }
+      @media all and (min-width: 600px) and (min-width: 600px) {
+        .page-template-resources .lc-groups-container .lc-groups li:nth-child(2) {
+          margin-top: 1.85rem; } }
+      @media all and (min-width: 600px) and (min-width: 1000px) {
+        .page-template-resources .lc-groups-container .lc-groups li:nth-child(2) {
+          margin-left: 5rem;
+          margin-top: 30px; } }
 
 .page-template-resources .owl-carousel2 {
+  display: none;
   width: 65vw;
-  left: 10%; }
+  left: 3%; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .owl-carousel2 {
+      display: block;
+      left: 10%; } }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .owl-carousel2 {
+      display: block;
+      left: 13%; } }
   .page-template-resources .owl-carousel2 .owl-image {
+    display: none;
     height: 200px; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .owl-carousel2 .owl-image {
+        display: block; } }
   .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
-    width: 8px;
-    height: 8px;
+    display: none;
+    width: 5px;
+    height: 5px;
     background: #285817; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
+        display: block;
+        width: 8px;
+        height: 8px; } }
+
+@media all and (min-width: 600px) {
+  .page-template-resources .li-container {
+    border-bottom: none; } }
+
+.page-template-resources .mobile-button .fa-angle-up {
+  position: absolute;
+  left: 48%;
+  margin-top: -5px;
+  color: white;
+  background: #d87000;
+  border-radius: 50px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 0px 14px;
+  font-size: 2.3rem;
+  text-decoration: none; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .mobile-button .fa-angle-up {
+      display: none; } }
+
+.page-template-resources .desktop-button .fa-angle-up {
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .desktop-button .fa-angle-up {
+      display: block;
+      position: absolute;
+      left: 50%;
+      color: white;
+      background: #555454;
+      border-radius: 50px;
+      padding: 5px 11px;
+      margin-top: -20px;
+      font-size: 2rem;
+      text-decoration: none; } }
+
+.page-template-resources .desktop-button-end .fa-angle-up {
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .desktop-button-end .fa-angle-up {
+      display: block;
+      position: absolute;
+      left: 50%;
+      color: white;
+      background: #555454;
+      border-radius: 50px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      padding: 0px 14px;
+      margin-top: -2rem;
+      font-size: 2rem;
+      text-decoration: none; } }
+
+.page-template-resources .modal-overlay {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.3); }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-2.jpg);
@@ -2822,24 +2923,25 @@ a:visited {
             -ms-flex-align: center;
                 align-items: center; } }
 
-.page-template-resources .post-17 .entry-header {
-  color: #285817;
-  font-family: "Miriam Libre", sans-serif;
-  text-transform: uppercase;
-  text-align: center; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .post-17 .entry-header {
-      font-size: 1.8rem; } }
-
-.page-template-resources .post-17 .entry-content {
-  color: #285817;
-  font-family: "Source Sans Pro", sans-serif;
-  padding-bottom: 15rem;
-  text-align: center; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .post-17 .entry-content {
-      font-size: 1.5rem;
-      padding-bottom: 18rem; } }
+.page-template-resources .post-17 {
+  max-width: 80vw; }
+  .page-template-resources .post-17 .entry-header {
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    text-transform: uppercase;
+    text-align: center; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .post-17 .entry-header {
+        font-size: 1.8rem; } }
+  .page-template-resources .post-17 .entry-content {
+    color: #285817;
+    font-family: "Source Sans Pro", sans-serif;
+    padding-bottom: 15rem;
+    text-align: center; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .post-17 .entry-content {
+        font-size: 1.5rem;
+        padding-bottom: 18rem; } }
 
 .page-template-resources .hide {
   display: none; }
@@ -2848,26 +2950,23 @@ a:visited {
       display: block; } }
 
 .page-template-resources .borders {
+  position: relative;
   border: #d87000 solid 1px;
   border-left: #d87000 solid 3px;
-  margin-top: 20px;
-  height: 20vw; }
+  border-right: none;
+  padding-left: 1rem;
+  margin-left: -2.5rem; }
   @media all and (min-width: 600px) {
     .page-template-resources .borders {
       display: none; } }
 
-.page-template-resources .fa-angle-right {
-  padding-right: 6.5px; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .fa-angle-right {
-      display: none; } }
-
 @media all and (min-width: 600px) {
-  .page-template-resources .fa-angle-down {
+  .page-template-resources .fa-angle-down, .page-template-resources .fa-angle-right {
     display: none; } }
 
 .page-template-resources .resources-content {
-  margin: 1.3rem; }
+  margin: 1.3rem;
+  padding-bottom: 10px; }
 
 .page-template-resources .resources-ul {
   display: -webkit-box;
@@ -2885,7 +2984,8 @@ a:visited {
   .page-template-resources .resources-ul h2 {
     color: #d87000;
     font-family: "Miriam Libre", sans-serif;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: 300; }
     @media all and (min-width: 600px) {
       .page-template-resources .resources-ul h2 {
         margin-left: 1.3rem; } }
@@ -2894,22 +2994,12 @@ a:visited {
     font-weight: 300; }
   .page-template-resources .resources-ul li:nth-child(2) p {
     max-width: 25rem; }
+  .page-template-resources .resources-ul li a:focus {
+    border: none; }
   @media all and (min-width: 600px) {
     .page-template-resources .resources-ul li {
-      margin: 30px;
-      border-bottom: 1px #d87000 solid; }
-      .page-template-resources .resources-ul li a .fa-angle-up {
-        position: absolute;
-        left: 45%;
-        color: white;
-        background: #404040;
-        border-radius: 50px;
-        padding: 10px 16px;
-        margin-top: -25px;
-        font-size: 2rem;
-        text-decoration: none; }
-      .page-template-resources .resources-ul li a:focus {
-        border: none; } }
+      margin: 30px 30px 30px 0px;
+      border-bottom: 1px #d87000 solid; } }
 
 .page-template-resources .lc-groups-container {
   display: -webkit-box;
@@ -2939,8 +3029,7 @@ a:visited {
         -webkit-box-pack: start;
             -ms-flex-pack: start;
                 justify-content: flex-start;
-        margin-top: -2rem;
-        border-bottom: #d87000 solid 1px; }
+        margin-top: -2rem; }
         .page-template-resources .lc-groups-container .lc-groups p {
           margin-bottom: 0rem; }
         .page-template-resources .lc-groups-container .lc-groups li:nth-child(1) {
@@ -2948,18 +3037,102 @@ a:visited {
           border-bottom: none; }
         .page-template-resources .lc-groups-container .lc-groups li:nth-child(2) {
           max-width: 40vw;
-          margin-left: 5rem;
           border-bottom: none; } }
+      @media all and (min-width: 600px) and (min-width: 600px) {
+        .page-template-resources .lc-groups-container .lc-groups li:nth-child(2) {
+          margin-top: 1.85rem; } }
+      @media all and (min-width: 600px) and (min-width: 1000px) {
+        .page-template-resources .lc-groups-container .lc-groups li:nth-child(2) {
+          margin-left: 5rem;
+          margin-top: 30px; } }
 
 .page-template-resources .owl-carousel2 {
+  display: none;
   width: 65vw;
-  left: 10%; }
+  left: 3%; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .owl-carousel2 {
+      display: block;
+      left: 10%; } }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .owl-carousel2 {
+      display: block;
+      left: 13%; } }
   .page-template-resources .owl-carousel2 .owl-image {
+    display: none;
     height: 200px; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .owl-carousel2 .owl-image {
+        display: block; } }
   .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
-    width: 8px;
-    height: 8px;
+    display: none;
+    width: 5px;
+    height: 5px;
     background: #285817; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
+        display: block;
+        width: 8px;
+        height: 8px; } }
+
+@media all and (min-width: 600px) {
+  .page-template-resources .li-container {
+    border-bottom: none; } }
+
+.page-template-resources .mobile-button .fa-angle-up {
+  position: absolute;
+  left: 48%;
+  margin-top: -5px;
+  color: white;
+  background: #d87000;
+  border-radius: 50px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 0px 14px;
+  font-size: 2.3rem;
+  text-decoration: none; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .mobile-button .fa-angle-up {
+      display: none; } }
+
+.page-template-resources .desktop-button .fa-angle-up {
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .desktop-button .fa-angle-up {
+      display: block;
+      position: absolute;
+      left: 50%;
+      color: white;
+      background: #555454;
+      border-radius: 50px;
+      padding: 5px 11px;
+      margin-top: -20px;
+      font-size: 2rem;
+      text-decoration: none; } }
+
+.page-template-resources .desktop-button-end .fa-angle-up {
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .desktop-button-end .fa-angle-up {
+      display: block;
+      position: absolute;
+      left: 50%;
+      color: white;
+      background: #555454;
+      border-radius: 50px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      padding: 0px 14px;
+      margin-top: -2rem;
+      font-size: 2rem;
+      text-decoration: none; } }
+
+.page-template-resources .modal-overlay {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.3); }
 
 .search-results .page-title {
   padding: 50px 0;
@@ -3012,6 +3185,9 @@ a:visited {
   padding-left: 20px;
   font-family: "Source Sans Pro", sans-serif;
   width: 100%; }
+
+.single-post .entry-content a {
+  color: #d87000; }
 
 .single-post .single-navigation {
   display: -webkit-box;
@@ -3145,7 +3321,7 @@ a:visited {
 
 @media screen and (min-width: 600px) {
   .single-hero {
-    background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
+    background-image: url(../../sos_assets/resources/river.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 60%;

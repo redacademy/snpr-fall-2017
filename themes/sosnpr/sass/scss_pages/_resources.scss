@@ -69,6 +69,7 @@
   }
   
   .post-17{
+    max-width: 80vw;
     .entry-header{
       color: $forest;
       font-family: $miriam;
@@ -98,23 +99,19 @@
   }
   
   .borders{
+    position: relative;
     border: $orange solid 1px;
     border-left: $orange solid 3px;
-    margin-top: 20px;
-    height: 20vw;
+    border-right: none;
+    padding-left: 1rem;
+    margin-left: -2.5rem;
     @include tablet{
       display: none;
     }
   }
   
-  .fa-angle-right{
-    padding-right: 6.5px;
-    @include tablet{
-      display: none;
-    }
-  }
   
-  .fa-angle-down{
+  .fa-angle-down, .fa-angle-right{
     @include tablet{
       display: none;
     }    
@@ -122,6 +119,7 @@
   
   .resources-content{
     margin: 1.3rem;
+    padding-bottom: 10px;
   }
   
   .resources-ul{
@@ -135,6 +133,7 @@
       color: $orange;
       font-family: $miriam;
       text-transform: uppercase;
+      font-weight: 300;
       @include tablet{
         margin-left: 1.3rem;
       }
@@ -149,25 +148,12 @@
       }
     }
     li {
+      a:focus{
+        border: none;
+      }
       @include tablet{
-        margin: 30px;
+        margin: 30px 30px 30px 0px;
         border-bottom: 1px $orange solid;
-        a{
-          .fa-angle-up{
-            position: absolute;
-            left: 45%;
-            color: white;
-            background: #404040;
-            border-radius: 50px;
-            padding: 10px 16px;
-            margin-top: -25px;
-            font-size: 2rem;
-            text-decoration: none;
-          }
-        }
-        a:focus{
-          border: none;
-        }
       }
     }
   }
@@ -186,8 +172,8 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: flex-start;  
-        margin-top: -2rem;  
-        border-bottom: $orange solid 1px;
+        margin-top: -2rem; 
+        // border-bottom: $orange solid 1px;
         p{
           margin-bottom: 0rem;
         }
@@ -197,30 +183,79 @@
         }
         li:nth-child(2) {
           max-width: 40vw;            
-          margin-left: 5rem;
           border-bottom: none;
+          @include tablet{
+            margin-top: 1.85rem;
+          }
+          @include desktop{
+            margin-left: 5rem;
+            margin-top: 30px;
+          }
         }
       }
-      
     }
   }
   
   .owl-carousel2{
+    display: none;
     width: 65vw;
-    left: 10%;
-    
+    left:3%;
+    @include tablet{
+      display: block;
+      left: 10%;
+    }
+    @include desktop{
+      display: block;
+      left: 13%;
+    }
     // Makes images larger; li(4,5) will be skipped
     // .owl-wrapper, .owl-wrapper-outer{
       //   zoom: 1.7;
       // }
       
       .owl-image{
+        display: none;
         height: 200px;
+        @include tablet{
+          display: block;
+        }
       }
       .owl-controls .owl-pagination span{
-        width: 8px;
-        height: 8px;
+        display: none;
+        width: 5px;
+        height: 5px;
         background: $forest;
-      } 
+        @include tablet{
+          display: block;
+          width: 8px;
+          height: 8px;
+        }
+      }
+    }
+    
+    .li-container{
+      @include tablet{
+        border-bottom: none;
+      }
+    }
+    
+    .mobile-button{
+     @include mobile-button;
+    }
+    
+    .desktop-button{
+      @include desktop-button;
+    }
+
+    .desktop-button-end{
+      @include desktop-button-end;
+    }
+    
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      height: 100vh;
+      width: 100vw;
+      background: rgba(black,0.3);
     }
   }
