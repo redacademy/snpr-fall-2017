@@ -1002,6 +1002,8 @@ object {
       font-family: "Source Sans Pro", sans-serif; }
   .widget-area #custom_html-4 a {
     border-left: 0px; }
+  .widget-area #custom_html-4 a:hover {
+    color: #4CD1FE; }
   .widget-area .widget_custom_html .contact-row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1012,6 +1014,8 @@ object {
             flex-flow: row wrap; }
     .widget-area .widget_custom_html .contact-row p, .widget-area .widget_custom_html .contact-row a {
       color: white; }
+    .widget-area .widget_custom_html .contact-row a:hover {
+      color: #4CD1FE; }
   .widget-area .textwidget .contact {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1203,11 +1207,11 @@ a:visited {
       border-left: 7px #d87000 solid; }
       .page-template-about-us .about-us-content-wrapper .list-item-click a {
         background: #555454;
-        border-radius: 50%;
+        border-radius: 50px;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
-        width: 65px;
-        height: 50px;
+        width: 50px;
+        height: 35px;
         text-align: center;
         font-size: 35px;
         font-weight: 100;
@@ -1240,8 +1244,8 @@ a:visited {
             top: -5px;
             background: #555454;
             border-radius: 30px;
-            width: 45px;
-            height: 45px;
+            width: 42px;
+            height: 42px;
             text-align: center;
             font-size: 35px;
             font-weight: 100;
@@ -1288,8 +1292,8 @@ a:visited {
             top: -5px;
             background: #555454;
             border-radius: 30px;
-            width: 45px;
-            height: 45px;
+            width: 42px;
+            height: 42px;
             text-align: center;
             font-size: 35px;
             font-weight: 100;
@@ -1302,11 +1306,11 @@ a:visited {
             border: none; }
             .page-template-about-us .about-us-content-wrapper li:last-child a {
               background: #555454;
-              border-radius: 50%;
+              border-radius: 50px;
               border-bottom-left-radius: 0px;
               border-bottom-right-radius: 0px;
-              width: 65px;
-              height: 50px;
+              width: 50px;
+              height: 35px;
               text-align: center;
               font-size: 35px;
               font-weight: 100;
@@ -1572,6 +1576,9 @@ a:visited {
     font-weight: 300; }
   .page-template-resources .resources-ul li:nth-child(2) p {
     max-width: 25rem; }
+  .page-template-resources .resources-ul li p {
+    font-family: "Source Sans Pro", sans-serif, "sans-serif";
+    line-height: 1.5rem; }
   .page-template-resources .resources-ul li a:focus {
     border: none; }
   @media all and (min-width: 600px) {
@@ -1700,7 +1707,7 @@ a:visited {
       border-radius: 50px;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
-      padding: 0px 14px;
+      padding: 1px 15px;
       margin-top: -2rem;
       font-size: 2rem;
       text-decoration: none; } }
@@ -1798,8 +1805,6 @@ a:visited {
     color: #bf6d0a;
     text-transform: uppercase;
     font-family: "Miriam Libre", sans-serif; }
-    .page-id-101 .posts-navigation a:focus {
-      border: 5px solid black; }
     .page-id-101 .posts-navigation a :hover {
       color: #2E84E6; }
 
@@ -2061,24 +2066,25 @@ a:visited {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        height: 50px;
-        width: 50px;
+        height: 45px;
+        width: 45px;
         border-radius: 50px;
         position: absolute;
         bottom: -25px;
-        left: 47%;
+        left: 50%;
         background: #555454;
         -webkit-box-shadow: none;
                 box-shadow: none;
         border: none; }
         .page-template-proposed-park .site-content .prop-item .page-top i {
-          font-size: 40px;
+          font-size: 2rem;
           color: #fff;
           padding-bottom: 5px;
           padding-right: 1px; } }
   .page-template-proposed-park .site-content .prop-item .last {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
+    height: 35px;
     bottom: 0px; }
 
 .page-template-proposed-park .site-content .show {
@@ -3009,6 +3015,9 @@ a:visited {
     font-weight: 300; }
   .page-template-resources .resources-ul li:nth-child(2) p {
     max-width: 25rem; }
+  .page-template-resources .resources-ul li p {
+    font-family: "Source Sans Pro", sans-serif, "sans-serif";
+    line-height: 1.5rem; }
   .page-template-resources .resources-ul li a:focus {
     border: none; }
   @media all and (min-width: 600px) {
@@ -3137,7 +3146,7 @@ a:visited {
       border-radius: 50px;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
-      padding: 0px 14px;
+      padding: 1px 15px;
       margin-top: -2rem;
       font-size: 2rem;
       text-decoration: none; } }
@@ -3348,7 +3357,7 @@ a:visited {
       color: #285817;
       font-family: "Miriam Libre", sans-serif;
       text-align: center;
-      font-size: 28px;
+      font-size: 40px;
       text-transform: uppercase;
       display: block;
       padding-top: 15px;
@@ -3487,7 +3496,8 @@ a:visited {
   background-position: 0 60%;
   height: 85vh;
   font-family: "Miriam Libre", sans-serif;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  padding-top: 20px; }
   .blog .site-content .updates-hero h2 {
     text-align: center;
     font-size: 30px;
@@ -3656,6 +3666,8 @@ a:visited {
     text-decoration: none;
     font-family: "Miriam Libre", sans-serif;
     font-size: 25px; }
+  .blog .site-content .search-pagination .current {
+    text-decoration: underline; }
 
 .main-navigation .search-field {
   width: 0px;

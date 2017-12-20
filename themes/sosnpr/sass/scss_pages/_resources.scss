@@ -159,6 +159,10 @@
       }
     }
     li {
+      p{
+        font-family: $source, 'sans-serif';
+        line-height: 1.5rem;
+      }
       a:focus{
         border: none;
       }
