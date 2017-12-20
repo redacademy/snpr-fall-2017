@@ -3208,6 +3208,11 @@ a:visited {
     padding-top: 15px;
     line-height: 1; }
 
+.single-post .entry-header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 .single-post .site-main {
   padding-right: 20px;
   padding-left: 20px;
