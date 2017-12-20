@@ -10,14 +10,13 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    // align-items: center;
     .post-13{
       padding-top: 50px;
       // color: 
       .entry-header{
         text-align: center;
         .entry-title{
-          font-size: $font_size-heading1;
+          font-size: 3rem;
           text-transform: uppercase;
         }
       }
@@ -25,7 +24,7 @@
         display: flex;
         justify-content: center;
         p{
-        font-size: $font_size-paragraph-secondary;
+        font-size: 1.2rem;
         text-align: center;
         max-width: 75%;
         } 

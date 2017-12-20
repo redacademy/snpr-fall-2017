@@ -18,13 +18,24 @@
       justify-content: center;
       align-items: center;
     }
+    h1{
+      padding-top: 3rem;
+      font-size: 3rem;
+    }
+    .entry-content{
+      p{
+        font-family: 'Miriam Libre', 'sans-serif';
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+      }
+    }
   }
   
   .resources-nav{
     display: none;
     @include tablet-footer{
       width: 100vw;
-      height: 15rem;
+      height: 12rem;
       background: $orange;
       display: flex;
       justify-content: center;
@@ -43,7 +54,7 @@
         text-decoration: none;
         text-transform: uppercase;
         font-family: $source;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 3rem;
         font-family: $miriam;      
       }
@@ -152,7 +163,7 @@
         border: none;
       }
       @include tablet{
-        margin: 30px;
+        margin: 30px 30px 30px 0px;
         border-bottom: 1px $orange solid;
       }
     }
@@ -199,7 +210,7 @@
   .owl-carousel2{
     display: none;
     width: 65vw;
-    left:3%;
+    left:13%;
     @include tablet{
       display: block;
       left: 10%;
@@ -240,13 +251,13 @@
     }
     
     .mobile-button{
-     @include mobile-button;
+      @include mobile-button;
     }
     
     .desktop-button{
       @include desktop-button;
     }
-
+    
     .desktop-button-end{
       @include desktop-button-end;
     }
