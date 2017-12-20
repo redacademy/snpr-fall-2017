@@ -1497,7 +1497,8 @@ a:visited {
   border-left: #d87000 solid 3px;
   border-right: none;
   margin-top: 20px;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+  margin-left: -2.5rem; }
   @media all and (min-width: 600px) {
     .page-template-resources .borders {
       display: none; } }
@@ -1520,8 +1521,7 @@ a:visited {
           flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: -2rem; }
+          justify-content: center; }
   .page-template-resources .resources-ul p {
     font-weight: 300; }
   .page-template-resources .resources-ul h2 {
@@ -2889,7 +2889,8 @@ a:visited {
   border-left: #d87000 solid 3px;
   border-right: none;
   margin-top: 20px;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+  margin-left: -2.5rem; }
   @media all and (min-width: 600px) {
     .page-template-resources .borders {
       display: none; } }
@@ -2912,8 +2913,7 @@ a:visited {
           flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: -2rem; }
+          justify-content: center; }
   .page-template-resources .resources-ul p {
     font-weight: 300; }
   .page-template-resources .resources-ul h2 {
