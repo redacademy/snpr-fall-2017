@@ -58,7 +58,7 @@
     }
     // $('.resources-content').append('.li-gallery');
     
-    $('.mobile-button').on('click', function(){
+    $('.mobile-button').on('click touchstart', function(){
     $('.li-container').removeClass('borders');
     $(this).parents().find('.resources-content').addClass('hide');
     $('.fa-angle-right').removeClass('hide');
