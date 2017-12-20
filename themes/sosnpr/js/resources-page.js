@@ -33,9 +33,7 @@
     });
     
     $('.owl-carousel2 .owl-controls .owl-pagination span').css('display', 'block');
-
    }
-
 
   // if ($('.resources-ul').length){
   
@@ -64,6 +62,8 @@
     $('.mobile-button').on('click', function(){
     $('.li-container').removeClass('borders');
     $(this).parents().find('.resources-content').addClass('hide');
+    $('.fa-angle-right').removeClass('hide');
+    $('.fa-angle-down').addClass('hide');
     });
 
   });
