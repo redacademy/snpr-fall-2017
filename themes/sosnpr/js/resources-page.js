@@ -39,7 +39,7 @@
   
   $('.resources-ul .fa-angle-down').toggleClass('hide');
   // $('.li-gallery').detach();
-  $('.resources-heading').on('click', function(){
+  $('.resources-heading').on('click touchstart', function(){
     // $('.resources-content').addClass('owl-carousel2');
     $(this).parent().find('.resources-content').toggleClass('hide');
     $(this).parent().toggleClass('borders');
@@ -58,7 +58,7 @@
     }
     // $('.resources-content').append('.li-gallery');
     
-    $('.mobile-button').on('click', function(){
+    $('.mobile-button').on('click touchstart', function(){
     $('.li-container').removeClass('borders');
     $(this).parents().find('.resources-content').addClass('hide');
     $('.fa-angle-right').removeClass('hide');
