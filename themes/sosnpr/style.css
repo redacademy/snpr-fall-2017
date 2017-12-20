@@ -1002,6 +1002,8 @@ object {
       font-family: "Source Sans Pro", sans-serif; }
   .widget-area #custom_html-4 a {
     border-left: 0px; }
+  .widget-area #custom_html-4 a:hover {
+    color: #4CD1FE; }
   .widget-area .widget_custom_html .contact-row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1012,6 +1014,8 @@ object {
             flex-flow: row wrap; }
     .widget-area .widget_custom_html .contact-row p, .widget-area .widget_custom_html .contact-row a {
       color: white; }
+    .widget-area .widget_custom_html .contact-row a:hover {
+      color: #4CD1FE; }
   .widget-area .textwidget .contact {
     display: -webkit-box;
     display: -ms-flexbox;
