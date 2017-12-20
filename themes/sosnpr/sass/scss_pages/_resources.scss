@@ -196,9 +196,7 @@
   
   .owl-carousel2{
     width: 65vw;
-    @include tablet{
-      left: 12%;
-    }
+    left: 12%;
     @include desktop{
       left: 14%;
     }
