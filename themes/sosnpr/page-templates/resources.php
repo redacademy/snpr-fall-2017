@@ -47,7 +47,7 @@ get_header();
 </section>
  <ul class="resources-ul" id="resources-ul">
  
-   <li id="reports" class="li-container resources-reports">
+   <li id="reports" class="li-container">
      <?php $props = CFS()->get_field_info('reports');?> 
      <h2 class="resources-heading">
      <i class="fa fa-angle-right"></i>
@@ -60,7 +60,7 @@ get_header();
      <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
    </li>
 
-   <li id="videos" class="li-container resources-videos">
+   <li id="videos" class="li-container">
    <?php $props = CFS()->get_field_info('videos');?> 
    <h2 class="resources-heading">
    <i class="fa fa-angle-right"></i>
@@ -72,7 +72,7 @@ get_header();
      <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
      </li>
 
-   <li id="photos" class="li-container resources-photos">
+   <li id="photos" class="li-container">
    <?php $props = CFS()->get_field_info('photos');?> 
    <h2 class="resources-heading owl-block">
    <i class="fa fa-angle-right"></i>
@@ -92,7 +92,7 @@ get_header();
 <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
 </li>
 
-   <li id="#books" class="li-container resources-books">
+   <li id="#books" class="li-container">
    <?php $props = CFS()->get_field_info('books');?> 
    <h2 class="resources-heading">
    <i class="fa fa-angle-right"></i>
@@ -106,7 +106,7 @@ get_header();
      <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
      </li>
      
-   <li id="news" class="li-container resources-news">
+   <li id="news" class="li-container">
    <?php $props = CFS()->get_field_info('in_the_news');?> 
    <h2 class="resources-heading">
    <i class="fa fa-angle-right"></i>
@@ -118,7 +118,7 @@ get_header();
      <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
      </li>
 
-   <li id="radio" class="li-container resources-radio">
+   <li id="radio" class="li-container">
    <?php $props = CFS()->get_field_info('radio');?> 
    <h2 class="resources-heading">
    <i class="fa fa-angle-right"></i>
@@ -130,7 +130,7 @@ get_header();
      <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
      </li>
 
-  <div class="li-container lc-groups-container resources-groups" id="lc-groups">
+  <div class="li-container lc-groups-container" id="lc-groups">
     <?php $props = CFS()->get_field_info('local_conservation_groups');?> 
     <h2 class="resources-heading">
     <i class="fa fa-angle-right"></i>
