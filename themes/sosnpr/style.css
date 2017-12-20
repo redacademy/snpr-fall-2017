@@ -1576,6 +1576,9 @@ a:visited {
     font-weight: 300; }
   .page-template-resources .resources-ul li:nth-child(2) p {
     max-width: 25rem; }
+  .page-template-resources .resources-ul li p {
+    font-family: "Source Sans Pro", sans-serif, "sans-serif";
+    line-height: 1.5rem; }
   .page-template-resources .resources-ul li a:focus {
     border: none; }
   @media all and (min-width: 600px) {
@@ -3009,6 +3012,9 @@ a:visited {
     font-weight: 300; }
   .page-template-resources .resources-ul li:nth-child(2) p {
     max-width: 25rem; }
+  .page-template-resources .resources-ul li p {
+    font-family: "Source Sans Pro", sans-serif, "sans-serif";
+    line-height: 1.5rem; }
   .page-template-resources .resources-ul li a:focus {
     border: none; }
   @media all and (min-width: 600px) {
