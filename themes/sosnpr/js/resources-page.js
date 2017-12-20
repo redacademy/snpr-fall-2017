@@ -3,7 +3,7 @@
 
   function initOwlMobile(){
 
-    console.log('callback run');
+    // console.log('callback run');
 
     $('.owl-carousel2').owlCarousel({
       center:true,
@@ -39,7 +39,7 @@
   
   $('.resources-ul .fa-angle-down').toggleClass('hide');
   // $('.li-gallery').detach();
-  $('.resources-heading').on('click touchstart', function(){
+  $('.resources-heading').on('click', function(){
     // $('.resources-content').addClass('owl-carousel2');
     $(this).parent().find('.resources-content').toggleClass('hide');
     $(this).parent().toggleClass('borders');
@@ -48,17 +48,17 @@
     
 
     if($(this).hasClass('owl-block')){
-      console.log('resource owl present');
+      // console.log('resource owl present');
       $('.owl-carousel2').css('display', 'block');
       $('.owl-image').css('display', 'block');
       
 
-      setTimeout(initOwlMobile(), 1000);
+      setTimeout(initOwlMobile(), 500);
       
     }
     // $('.resources-content').append('.li-gallery');
     
-    $('.mobile-button').on('click touchstart', function(){
+    $('.mobile-button').on('click', function(){
     $('.li-container').removeClass('borders');
     $(this).parents().find('.resources-content').addClass('hide');
     $('.fa-angle-right').removeClass('hide');
