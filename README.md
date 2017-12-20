@@ -2,7 +2,7 @@
 
 Community project with South Okanagan Similkameen National Park Reserve. Built with WordPress.
 
-### Installation
+## Installation
 
 ### 1. Download WordPress core
 Then replace WP-CONTENT already in core with this WP-CONTENT. 
@@ -14,11 +14,7 @@ Initialize a new database in you local machine. Change db name, username, and pa
 Open the wordpress dashboard on your local machine. Under the Appearance->Themes, activate SOSNPR Theme. 
 
 ### 4. Plugins
-Go to wordpress dashboard Plugins section, install and activate Custom Field Suite and Contact Form 7. Activate SOSNPR Functionality.
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+Go to wordpress dashboard Plugins section, install and activate Custom Field Suite and Contact Form 7. 
 
 ## Built With
 
@@ -32,10 +28,6 @@ Add additional notes about how to deploy this on a live system
 * Owl Carousel
 * DPLOY RED is an FTP/SFTP deployment tool built in node.js, based on DPLOY.
 
-## Contributing
-
-RED Academy UX and UI team.
-
 ## Authors
 
 * **Colin Matson-Jones**
@@ -46,6 +38,7 @@ RED Academy UX and UI team.
 ## Acknowledgments
 
 * The RED staff and students who offered tips and advice
+* RED Academy UX and UI team for the website design.
 
 ## Screenshots
 ![Screen Shot](screenshot-desktop.png "desktop")
