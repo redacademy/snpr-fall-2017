@@ -161,5 +161,54 @@
   }
 }
 
+//search page 
+
+.search {
+  .site-content {
+     
+    .page-title {
+     
+      font-size: 24px;
+      font-family: $miriam;
+      color: $forest;
+      margin: 0;
+      text-align: center;
+      @include tablet {
+        font-size: 30px;
+      }
+    }
+
+    article {
+      border-bottom: 1px solid $orange;
+      margin: 0 5%;
+    .entry-header {
+      min-width: 90%;
+    .entry-title {
+      min-width: 90%;
+    a {
+      color: $orange;
+      font-size: 18px;
+      text-decoration: none;
+      font-family: $miriam;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    }
+  }
+
+  .entry-meta {
+    display: none;
+  }
+
+  .entry-summary {
+    p {
+      font-family: $source;
+    }
+  }
+    }
+  }
+}
+
 
 

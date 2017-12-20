@@ -430,7 +430,7 @@ a {
   a:hover, a:focus, a:active {
     color: midnightblue; }
   a:focus {
-    border: 3px solid #285817;
+    border: 0.5px solid #285817;
     outline: thin dotted; }
   a:hover, a:active {
     outline: 0; }
@@ -846,6 +846,35 @@ object {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+.search .site-content .page-title {
+  font-size: 24px;
+  font-family: "Miriam Libre", sans-serif;
+  color: #285817;
+  margin: 0;
+  text-align: center; }
+  @media all and (min-width: 600px) {
+    .search .site-content .page-title {
+      font-size: 30px; } }
+
+.search .site-content article {
+  border-bottom: 1px solid #d87000;
+  margin: 0 5%; }
+  .search .site-content article .entry-header {
+    min-width: 90%; }
+    .search .site-content article .entry-header .entry-title {
+      min-width: 90%; }
+      .search .site-content article .entry-header .entry-title a {
+        color: #d87000;
+        font-size: 18px;
+        text-decoration: none;
+        font-family: "Miriam Libre", sans-serif; }
+      .search .site-content article .entry-header .entry-title a:hover {
+        text-decoration: underline; }
+  .search .site-content article .entry-meta {
+    display: none; }
+  .search .site-content article .entry-summary p {
+    font-family: "Source Sans Pro", sans-serif; }
 
 .widget-area {
   width: 100vw;
@@ -3118,6 +3147,9 @@ a:visited {
   font-family: "Source Sans Pro", sans-serif;
   width: 100%; }
 
+.single-post .entry-content a {
+  color: #d87000; }
+
 .single-post .single-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3250,7 +3282,7 @@ a:visited {
 
 @media screen and (min-width: 600px) {
   .single-hero {
-    background-image: url(../../sos_assets/resources/similkameen-river-bend-dam-quarter.jpg);
+    background-image: url(../../sos_assets/resources/river.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 60%;
