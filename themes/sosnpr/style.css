@@ -1054,6 +1054,9 @@ object {
       -webkit-box-shadow: none;
               box-shadow: none;
       border: none; }
+      .form-popup-show form button .fa-angle-right {
+        display: inline-block;
+        padding: 0; }
 
 .closing-icon {
   display: -webkit-box;
