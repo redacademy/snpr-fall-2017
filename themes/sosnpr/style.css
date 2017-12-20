@@ -888,7 +888,10 @@ object {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-flow: row wrap;
-              flex-flow: row wrap; } }
+              flex-flow: row wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
   .widget-area a,
   .widget-area a:visited {
     margin: 0rem 0.5rem;
