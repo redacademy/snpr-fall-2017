@@ -19,14 +19,16 @@ Go to wordpress dashboard Plugins section, install and activate Custom Field Sui
 ## Built With
 
 * WordPress, PHP
-* Gulp
+* Owl Carousel
 * Sass
 * JQuery
 
 ## Tools used when building 
 
-* Owl Carousel
-* DPLOY RED is an FTP/SFTP deployment tool built in node.js, based on DPLOY.
+* DPLOY RED 
+An FTP/SFTP deployment tool built in node.js, based on DPLOY.
+* Gulp
+To compile sass and minify files for production
 
 ## Authors
 
