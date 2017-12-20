@@ -1958,7 +1958,11 @@ a:visited {
     color: #285817; }
     @media all and (min-width: 600px) {
       .page-template-proposed-park .site-content .entry-content p {
-        font-size: 18px; } }
+        font-size: 18px;
+        max-width: 60%; } }
+    @media all and (min-width: 1000px) {
+      .page-template-proposed-park .site-content .entry-content p {
+        max-width: 50%; } }
 
 .page-template-proposed-park .site-content .proposed-banner {
   display: none; }

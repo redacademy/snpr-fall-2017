@@ -21,6 +21,10 @@
         color: $forest;
         @include tablet {
           font-size: 18px;
+          max-width: 60%;
+        }
+        @include desktop {
+          max-width: 50%;
         }
       }
     } //closes entry content
