@@ -63,7 +63,10 @@
     $(this).parents().find('.resources-content').addClass('hide');
     $('.fa-angle-right').removeClass('hide');
     $('.fa-angle-down').addClass('hide');
+    window.scrollTo(0,400);
     });
+    
+
 
   });
 // }
@@ -80,10 +83,8 @@
       $(this).remove();
       // $(this).detach();
     });
-    
   });
 
-  window.scrollTo(0,400);
 
 
 })(jQuery);
