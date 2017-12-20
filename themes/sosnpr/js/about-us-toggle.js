@@ -1,7 +1,7 @@
 (function($){
   // var scroll = false;
   
-  $(".about-us-heading").on('click',function(event){
+  $(".about-us-heading").on('click touchstart',function(event){
     event.preventDefault();
     
     // if (scroll){
@@ -17,7 +17,7 @@
     
   })
   
-  $('.scroll-up').on('click', function(){
+  $('.scroll-up').on('click touchstart', function(){
     
     $(this).siblings().removeClass('heading-click');
     $(this).siblings().find('.about-us-essay-hide').removeClass('about-us-essay-show');

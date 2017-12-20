@@ -1420,10 +1420,12 @@ a:visited {
   .page-template-resources .resources-hero h1 {
     padding-top: 3rem;
     font-size: 3rem; }
-  .page-template-resources .resources-hero .entry-content p {
-    font-family: 'Miriam Libre', 'sans-serif';
-    font-size: 1.2rem;
-    line-height: 1.2rem; }
+  .page-template-resources .resources-hero .entry-content {
+    max-width: 30vw; }
+    .page-template-resources .resources-hero .entry-content p {
+      font-family: 'Miriam Libre', 'sans-serif';
+      font-size: 1.2rem;
+      line-height: 1.2rem; }
 
 .page-template-resources .resources-nav {
   display: none; }
@@ -1604,8 +1606,6 @@ a:visited {
     .page-template-resources .lc-groups-container {
       margin-bottom: 0;
       border: none; }
-      .page-template-resources .lc-groups-container h2 {
-        padding-left: 2rem; }
       .page-template-resources .lc-groups-container .lc-groups {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1689,7 +1689,7 @@ a:visited {
     .page-template-resources .desktop-button .fa-angle-up {
       display: block;
       position: absolute;
-      left: 49%;
+      left: 48%;
       color: white;
       background: #555454;
       border-radius: 50px;
@@ -1704,7 +1704,7 @@ a:visited {
     .page-template-resources .desktop-button-end .fa-angle-up {
       display: block;
       position: absolute;
-      left: 50%;
+      left: 47%;
       color: white;
       background: #555454;
       border-radius: 50px;
@@ -2863,10 +2863,12 @@ a:visited {
   .page-template-resources .resources-hero h1 {
     padding-top: 3rem;
     font-size: 3rem; }
-  .page-template-resources .resources-hero .entry-content p {
-    font-family: 'Miriam Libre', 'sans-serif';
-    font-size: 1.2rem;
-    line-height: 1.2rem; }
+  .page-template-resources .resources-hero .entry-content {
+    max-width: 30vw; }
+    .page-template-resources .resources-hero .entry-content p {
+      font-family: 'Miriam Libre', 'sans-serif';
+      font-size: 1.2rem;
+      line-height: 1.2rem; }
 
 .page-template-resources .resources-nav {
   display: none; }
@@ -3047,8 +3049,6 @@ a:visited {
     .page-template-resources .lc-groups-container {
       margin-bottom: 0;
       border: none; }
-      .page-template-resources .lc-groups-container h2 {
-        padding-left: 2rem; }
       .page-template-resources .lc-groups-container .lc-groups {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -3132,7 +3132,7 @@ a:visited {
     .page-template-resources .desktop-button .fa-angle-up {
       display: block;
       position: absolute;
-      left: 49%;
+      left: 48%;
       color: white;
       background: #555454;
       border-radius: 50px;
@@ -3147,7 +3147,7 @@ a:visited {
     .page-template-resources .desktop-button-end .fa-angle-up {
       display: block;
       position: absolute;
-      left: 50%;
+      left: 47%;
       color: white;
       background: #555454;
       border-radius: 50px;
@@ -3210,6 +3210,11 @@ a:visited {
     display: block;
     padding-top: 15px;
     line-height: 1; }
+
+.single-post .entry-header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 .single-post .site-main {
   padding-right: 20px;
@@ -3553,6 +3558,10 @@ a:visited {
       max-width: 150px;
       min-height: 150px;
       max-height: 150px; }
+      @media all and (min-width: 600px) {
+        .blog .site-content .stories-container .journal-container img {
+          -o-object-position: 0 50%;
+             object-position: 0 50%; } }
       @media all and (min-width: 600px) {
         .blog .site-content .stories-container .journal-container img {
           margin-left: 0;

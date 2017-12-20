@@ -28,6 +28,7 @@
         font-size: 1.2rem;
         line-height: 1.2rem;
       }
+      max-width: 30vw;
     }
   }
   
@@ -180,9 +181,6 @@
     @include tablet{
       margin-bottom: 0;
       border: none;
-      h2{
-        padding-left: 2rem;
-      }
       .lc-groups{
         display: flex;
         flex-flow: row wrap;
