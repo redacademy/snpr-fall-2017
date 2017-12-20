@@ -107,6 +107,9 @@
     a{
       border-left: 0px;
     }
+    a:hover{
+      color: $hover-light-blue;
+    }
   }
   
   .widget_custom_html{
@@ -115,6 +118,9 @@
       flex-flow: row wrap;
       p, a{
         color: white;
+      }
+      a:hover{
+        color: $hover-light-blue;
       }
     }
   }
