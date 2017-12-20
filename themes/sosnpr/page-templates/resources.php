@@ -92,7 +92,7 @@ get_header();
 <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
 </li>
 
-   <li id="#books" class="li-container">
+   <li id="books" class="li-container">
    <?php $props = CFS()->get_field_info('books');?> 
    <h2 class="resources-heading">
    <i class="fa fa-angle-right"></i>

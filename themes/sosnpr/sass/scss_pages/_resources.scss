@@ -18,6 +18,17 @@
       justify-content: center;
       align-items: center;
     }
+    h1{
+      padding-top: 3rem;
+      font-size: 3rem;
+    }
+    .entry-content{
+      p{
+        font-family: 'Miriam Libre', 'sans-serif';
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+      }
+    }
   }
   
   .resources-nav{
@@ -240,13 +251,13 @@
     }
     
     .mobile-button{
-     @include mobile-button;
+      @include mobile-button;
     }
     
     .desktop-button{
       @include desktop-button;
     }
-
+    
     .desktop-button-end{
       @include desktop-button-end;
     }

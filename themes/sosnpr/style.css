@@ -888,10 +888,7 @@ object {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-flow: row wrap;
-              flex-flow: row wrap;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; } }
+              flex-flow: row wrap; } }
   .widget-area a,
   .widget-area a:visited {
     margin: 0rem 0.5rem;
@@ -1126,7 +1123,7 @@ a:visited {
       .page-template-about-us .custom-hero .post-13 .entry-header {
         text-align: center; }
         .page-template-about-us .custom-hero .post-13 .entry-header .entry-title {
-          font-size: 28px;
+          font-size: 3rem;
           text-transform: uppercase; }
       .page-template-about-us .custom-hero .post-13 .entry-content {
         display: -webkit-box;
@@ -1136,7 +1133,7 @@ a:visited {
             -ms-flex-pack: center;
                 justify-content: center; }
         .page-template-about-us .custom-hero .post-13 .entry-content p {
-          font-size: 12px;
+          font-size: 1.2rem;
           text-align: center;
           max-width: 75%; }
     @media all and (min-width: 600px) {
@@ -1413,6 +1410,13 @@ a:visited {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; } }
+  .page-template-resources .resources-hero h1 {
+    padding-top: 3rem;
+    font-size: 3rem; }
+  .page-template-resources .resources-hero .entry-content p {
+    font-family: 'Miriam Libre', 'sans-serif';
+    font-size: 1.2rem;
+    line-height: 1.2rem; }
 
 .page-template-resources .resources-nav {
   display: none; }
@@ -2839,6 +2843,13 @@ a:visited {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; } }
+  .page-template-resources .resources-hero h1 {
+    padding-top: 3rem;
+    font-size: 3rem; }
+  .page-template-resources .resources-hero .entry-content p {
+    font-family: 'Miriam Libre', 'sans-serif';
+    font-size: 1.2rem;
+    line-height: 1.2rem; }
 
 .page-template-resources .resources-nav {
   display: none; }
