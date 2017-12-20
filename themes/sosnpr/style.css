@@ -1805,8 +1805,6 @@ a:visited {
     color: #bf6d0a;
     text-transform: uppercase;
     font-family: "Miriam Libre", sans-serif; }
-    .page-id-101 .posts-navigation a:focus {
-      border: 5px solid black; }
     .page-id-101 .posts-navigation a :hover {
       color: #2E84E6; }
 
@@ -2776,6 +2774,10 @@ a:visited {
       .page-template-proposed-park .site-content .faq .text .close-section {
         display: none; } }
 
+@media all and (min-width: 600px) {
+  .page-template-proposed-park .site-content .faq {
+    border-bottom: none; } }
+
 @media all and (min-width: 1000px) {
   .page-template-proposed-park .site-content .faq p {
     margin: 0; }
@@ -3355,7 +3357,7 @@ a:visited {
       color: #285817;
       font-family: "Miriam Libre", sans-serif;
       text-align: center;
-      font-size: 28px;
+      font-size: 40px;
       text-transform: uppercase;
       display: block;
       padding-top: 15px;
@@ -3494,7 +3496,8 @@ a:visited {
   background-position: 0 60%;
   height: 85vh;
   font-family: "Miriam Libre", sans-serif;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  padding-top: 20px; }
   .blog .site-content .updates-hero h2 {
     text-align: center;
     font-size: 30px;
@@ -3503,12 +3506,10 @@ a:visited {
     text-transform: uppercase; }
     @media all and (min-width: 600px) {
       .blog .site-content .updates-hero h2 {
-        font-size: 40px;
-        padding-right: 200px; } }
+        font-size: 40px; } }
     @media all and (min-width: 1000px) {
       .blog .site-content .updates-hero h2 {
-        font-size: 50px;
-        padding-right: 200px; } }
+        font-size: 50px; } }
 
 .blog .site-content .stories-container {
   display: -webkit-box;
@@ -3593,6 +3594,12 @@ a:visited {
             padding-left: 20px;
             margin: 20px 0;
             font-size: 18px; } }
+        .blog .site-content .stories-container .journal-container .button-container .post-title a {
+          color: #434242;
+          text-decoration: none; }
+          @media all and (min-width: 600px) {
+            .blog .site-content .stories-container .journal-container .button-container .post-title a {
+              color: #fff; } }
       .blog .site-content .stories-container .journal-container .button-container .read-more {
         display: none;
         position: absolute;
@@ -3659,6 +3666,8 @@ a:visited {
     text-decoration: none;
     font-family: "Miriam Libre", sans-serif;
     font-size: 25px; }
+  .blog .site-content .search-pagination .current {
+    text-decoration: underline; }
 
 .main-navigation .search-field {
   width: 0px;

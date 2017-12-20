@@ -23,14 +23,14 @@ get_header(); ?>
 				<div class="journal-container">
 
 
-					<?php if ( has_post_thumbnail() ) {
-						the_post_thumbnail( 'large' ); }
+					<?php if ( has_post_thumbnail() ) { ?>
+						<a href="<?php echo the_permalink();?>"> <?php the_post_thumbnail( 'large' ); ?></a> <?php }
 						else { ?>
-					<img src="<?php echo get_template_directory_uri() . '/sos_assets/owl-conservation.jpg'?>" alt="a friendly owl" />
+					 <a href="<?php echo the_permalink();?>"><img src="<?php echo get_template_directory_uri() . '/sos_assets/owl-conservation.jpg'?>" alt="a friendly owl" /></a>
 					<?php } ?>
 					<div class="button-container">
 						<p class="post-title">
-							<?php the_title();?>
+							<a href="<?php echo the_permalink();?>"><?php the_title();?></a>
 						</p>
 						<?php sosnpr_posted_on(); ?>
 						<a href="<?php echo the_permalink();?>"><button class="read-more">Read More</button></a>
