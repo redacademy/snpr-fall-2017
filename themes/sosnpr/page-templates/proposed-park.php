@@ -45,17 +45,17 @@ get_header();
           <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
             <?php echo CFS()->get_field_info( 'the_land' )['label'];?>
           </h2>
-          
+
 
           <div class="content-container">
             <div class="text">
               <?php echo CFS()->get( 'the_land' );?>
-              <a href="#start">
-                <div class="close-section">
-                  <i class="fa fa-angle-up" aria-hidden="true"></i>
-                </div>
-              </a>
-              
+
+              <div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div>
+
+
 
             </div>
             <div class="image"><img src="<?php echo CFS()->get('land_image');?>" alt="a hiker in neon gazing out reflectively at a river in the valley below"
@@ -72,17 +72,17 @@ get_header();
           <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
             <?php echo CFS()->get_field_info( 'location_of_the_park' )['label'];?>
           </h2>
-          
+
 
           <div class="content-container">
             <div class="image"><img src="<?php echo CFS()->get('location_image');?>" alt="a map of the southern okanagan" /></div>
             <div class="text">
               <?php echo CFS()->get('location_of_the_park');?>
-              <a href="#start">
-                <div class="close-section">
-                  <i class="fa fa-angle-up" aria-hidden="true"></i>
-                </div>
-              </a>
+
+              <div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div>
+
             </div>
           </div>
           <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
@@ -123,11 +123,11 @@ get_header();
               </div>
               <div class="text">
                 <?php echo CFS()->get('land_four');?>
-                <a href="#start">
-                  <div class="close-section">
-                    <i class="fa fa-angle-up" aria-hidden="true"></i>
-                  </div>
-                </a>
+
+                <div class="close-section">
+                  <i class="fa fa-angle-up" aria-hidden="true"></i>
+                </div>
+
 
               </div>
             </div>
@@ -149,11 +149,11 @@ get_header();
           <div class="content-container">
             <div class="text">
               <?php echo CFS()->get( 'why_a_national_park' );?>
-              <a href="#start">
-                <div class="close-section">
-                  <i class="fa fa-angle-up" aria-hidden="true"></i>
-                </div>
-              </a>
+
+              <div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div>
+
             </div>
             <div class="image"><img src="<?php echo CFS()->get('why_image');?>" alt="an aerial shot of a river" /></div>
           </div>
@@ -174,11 +174,11 @@ get_header();
               /></div>
             <div class="text">
               <?php echo CFS()->get('ranching_agriculture');?>
-              <a href="#start">
-                <div class="close-section">
-                  <i class="fa fa-angle-up" aria-hidden="true"></i>
-                </div>
-              </a>
+
+              <div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div>
+
             </div>
           </div>
           <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
@@ -195,11 +195,11 @@ get_header();
           <div class="content-container">
             <div class="text">
               <?php echo CFS()->get( 'human_impact' );?>
-              <a href="#start">
-                <div class="close-section">
-                  <i class="fa fa-angle-up" aria-hidden="true"></i>
-                </div>
-              </a>
+
+              <div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div>
+
             </div>
             <div class="image"><img src="<?php echo CFS()->get('human_image');?>" alt="three men standing on a hill wearing sunglasses and holding papers"
               /></div>
@@ -221,11 +221,11 @@ get_header();
               /></div>
             <div class="text">
               <?php echo CFS()->get('ecological_benefits');?>
-              <a href="#start">
-                <div class="close-section">
-                  <i class="fa fa-angle-up" aria-hidden="true"></i>
-                </div>
-              </a>
+
+              <div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div>
+
             </div>
           </div>
           <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i>
@@ -243,11 +243,11 @@ get_header();
           <div class="content-container">
             <div class="text">
               <?php echo CFS()->get('economic_benefits');?>
-              <a href="#start">
-                <div class="close-section">
-                  <i class="fa fa-angle-up" aria-hidden="true"></i>
-                </div>
-              </a>
+
+              <div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div>
+
             </div>
             <div class="image">
               <div class="pdf-container">
@@ -285,11 +285,11 @@ get_header();
           <div class="content-container-three">
             <div class="text">
               <?php echo CFS()->get('faq_three');?>
-              <a href="#start">
-                <div class="close-section">
-                  <i class="fa fa-angle-up" aria-hidden="true"></i>
-                </div>
-              </a>
+
+              <div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div>
+
 
             </div>
             <div class="image"><img src="<?php echo CFS()->get('faq_image_three');?>" alt="a helicopter over a snowy mountain top with clouds in the background"
