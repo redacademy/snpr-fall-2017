@@ -1588,31 +1588,37 @@ a:visited {
           margin-top: 30px; } }
 
 .page-template-resources .owl-carousel2 {
+  display: none;
   width: 65vw;
   left: 3%; }
   @media all and (min-width: 600px) {
     .page-template-resources .owl-carousel2 {
+      display: block;
       left: 10%; } }
   @media all and (min-width: 1000px) {
     .page-template-resources .owl-carousel2 {
+      display: block;
       left: 13%; } }
   .page-template-resources .owl-carousel2 .owl-image {
+    display: none;
     height: 200px; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .owl-carousel2 .owl-image {
+        display: block; } }
   .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
+    display: none;
     width: 5px;
     height: 5px;
     background: #285817; }
     @media all and (min-width: 600px) {
       .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
+        display: block;
         width: 8px;
         height: 8px; } }
 
-.page-template-resources .modal-overlay {
-  position: fixed;
-  top: 0;
-  height: 100vh;
-  width: 100vw;
-  background: rgba(0, 0, 0, 0.3); }
+@media all and (min-width: 600px) {
+  .page-template-resources .li-container {
+    border-bottom: none; } }
 
 .page-template-resources .mobile-button .fa-angle-up {
   position: absolute;
@@ -1645,9 +1651,12 @@ a:visited {
       font-size: 2.3rem;
       text-decoration: none; } }
 
-@media all and (min-width: 600px) {
-  .page-template-resources .li-container {
-    border-bottom: none; } }
+.page-template-resources .modal-overlay {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.3); }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-2.jpg);
@@ -2987,31 +2996,37 @@ a:visited {
           margin-top: 30px; } }
 
 .page-template-resources .owl-carousel2 {
+  display: none;
   width: 65vw;
   left: 3%; }
   @media all and (min-width: 600px) {
     .page-template-resources .owl-carousel2 {
+      display: block;
       left: 10%; } }
   @media all and (min-width: 1000px) {
     .page-template-resources .owl-carousel2 {
+      display: block;
       left: 13%; } }
   .page-template-resources .owl-carousel2 .owl-image {
+    display: none;
     height: 200px; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .owl-carousel2 .owl-image {
+        display: block; } }
   .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
+    display: none;
     width: 5px;
     height: 5px;
     background: #285817; }
     @media all and (min-width: 600px) {
       .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
+        display: block;
         width: 8px;
         height: 8px; } }
 
-.page-template-resources .modal-overlay {
-  position: fixed;
-  top: 0;
-  height: 100vh;
-  width: 100vw;
-  background: rgba(0, 0, 0, 0.3); }
+@media all and (min-width: 600px) {
+  .page-template-resources .li-container {
+    border-bottom: none; } }
 
 .page-template-resources .mobile-button .fa-angle-up {
   position: absolute;
@@ -3044,9 +3059,12 @@ a:visited {
       font-size: 2.3rem;
       text-decoration: none; } }
 
-@media all and (min-width: 600px) {
-  .page-template-resources .li-container {
-    border-bottom: none; } }
+.page-template-resources .modal-overlay {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.3); }
 
 .search-results .page-title {
   padding: 50px 0;
