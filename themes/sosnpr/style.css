@@ -876,6 +876,23 @@ object {
   .search .site-content article .entry-summary p {
     font-family: "Source Sans Pro", sans-serif; }
 
+.search-no-results .site-content .page-content p {
+  min-width: 75%;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #285817;
+  font-size: 20px;
+  line-height: 25px; }
+  @media all and (min-width: 600px) {
+    .search-no-results .site-content .page-content p {
+      line-height: 30px;
+      font-size: 24px;
+      min-width: 60%; } }
+  @media all and (min-width: 1000px) {
+    .search-no-results .site-content .page-content p {
+      line-height: 45px;
+      font-size: 34px;
+      min-width: 50%; } }
+
 .widget-area {
   width: 100vw;
   padding-top: 1rem;
