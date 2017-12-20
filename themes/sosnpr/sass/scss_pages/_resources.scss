@@ -196,9 +196,12 @@
   
   .owl-carousel2{
     width: 65vw;
-    left: 12%;
+    left:3%;
+    @include tablet{
+      left: 10%;
+    }
     @include desktop{
-      left: 14%;
+      left: 13%;
     }
     // Makes images larger; li(4,5) will be skipped
     // .owl-wrapper, .owl-wrapper-outer{
@@ -209,10 +212,14 @@
         height: 200px;
       }
       .owl-controls .owl-pagination span{
-        width: 8px;
-        height: 8px;
+        width: 5px;
+        height: 5px;
         background: $forest;
-      } 
+        @include tablet{
+          width: 8px;
+          height: 8px;
+        }
+      }
     }
     
     .modal-overlay {

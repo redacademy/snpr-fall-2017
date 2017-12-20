@@ -1589,16 +1589,23 @@ a:visited {
 
 .page-template-resources .owl-carousel2 {
   width: 65vw;
-  left: 12%; }
+  left: 3%; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .owl-carousel2 {
+      left: 10%; } }
   @media all and (min-width: 1000px) {
     .page-template-resources .owl-carousel2 {
-      left: 14%; } }
+      left: 13%; } }
   .page-template-resources .owl-carousel2 .owl-image {
     height: 200px; }
   .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
-    width: 8px;
-    height: 8px;
+    width: 5px;
+    height: 5px;
     background: #285817; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
+        width: 8px;
+        height: 8px; } }
 
 .page-template-resources .modal-overlay {
   position: fixed;
@@ -2981,16 +2988,23 @@ a:visited {
 
 .page-template-resources .owl-carousel2 {
   width: 65vw;
-  left: 12%; }
+  left: 3%; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .owl-carousel2 {
+      left: 10%; } }
   @media all and (min-width: 1000px) {
     .page-template-resources .owl-carousel2 {
-      left: 14%; } }
+      left: 13%; } }
   .page-template-resources .owl-carousel2 .owl-image {
     height: 200px; }
   .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
-    width: 8px;
-    height: 8px;
+    width: 5px;
+    height: 5px;
     background: #285817; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
+        width: 8px;
+        height: 8px; } }
 
 .page-template-resources .modal-overlay {
   position: fixed;
