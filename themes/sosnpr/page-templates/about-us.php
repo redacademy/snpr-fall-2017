@@ -80,12 +80,7 @@ get_header();
             </a>
           
         </li>
-<!-- 
-      <section class="divider">
-        <a href="#top" class="scroll-circle">
-        <i class="fa fa-angle-up" aria-hidden="true"></i>
-        </a>
-      </section> -->
+
 
         <li id="community-support" class="section-three">
           <?php $props = CFS()->get_field_info( 'community_support' );?> 
@@ -108,11 +103,7 @@ get_header();
           
         </li>
 
-      <!-- <section class="divider">
-        <a href="#top" class="scroll-circle">
-        <i class="fa fa-angle-up" aria-hidden="true"></i>
-        </a>
-      </section> -->
+    
       
         <li id="government-support" class="section-four">
           <?php $props = CFS()->get_field_info( 'provincial_government_support' );?> 
@@ -133,11 +124,6 @@ get_header();
           </a>
         </li>
 
-      <!-- <section class="divider">
-        <a href="#top" class="scroll-circle">
-        <i class="fa fa-angle-up" aria-hidden="true"></i>
-        </a>
-      </section> -->
 
         <li id="parks-canada-support" class="section-five">
           <?php $props = CFS()->get_field_info( 'federal_government_parks_canada_support' );?> 
@@ -158,11 +144,7 @@ get_header();
           </a>
         </li>
 
-      <!-- <section class="divider">
-        <a href="#top" class="scroll-circle">
-        <i class="fa fa-angle-up" aria-hidden="true"></i>
-        </a>
-      </section> -->
+     
 
         <li id="proposal-history" class="section-six"> 
           <?php $props = CFS()->get_field_info( 'proposal_history' );?> 
@@ -203,11 +185,7 @@ get_header();
         </li>
 
       </ul>
-  <!-- <div class="divider-clear">
-    <a href="#top" class="scroll-half-circle">
-    <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a>
-  </div> -->
+
 
   </main><!-- #main -->
 
