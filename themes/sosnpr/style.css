@@ -1465,24 +1465,25 @@ a:visited {
             -ms-flex-align: center;
                 align-items: center; } }
 
-.page-template-resources .post-17 .entry-header {
-  color: #285817;
-  font-family: "Miriam Libre", sans-serif;
-  text-transform: uppercase;
-  text-align: center; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .post-17 .entry-header {
-      font-size: 1.8rem; } }
-
-.page-template-resources .post-17 .entry-content {
-  color: #285817;
-  font-family: "Source Sans Pro", sans-serif;
-  padding-bottom: 15rem;
-  text-align: center; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .post-17 .entry-content {
-      font-size: 1.5rem;
-      padding-bottom: 18rem; } }
+.page-template-resources .post-17 {
+  max-width: 80vw; }
+  .page-template-resources .post-17 .entry-header {
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    text-transform: uppercase;
+    text-align: center; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .post-17 .entry-header {
+        font-size: 1.8rem; } }
+  .page-template-resources .post-17 .entry-content {
+    color: #285817;
+    font-family: "Source Sans Pro", sans-serif;
+    padding-bottom: 15rem;
+    text-align: center; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .post-17 .entry-content {
+        font-size: 1.5rem;
+        padding-bottom: 18rem; } }
 
 .page-template-resources .hide {
   display: none; }
@@ -1493,16 +1494,11 @@ a:visited {
 .page-template-resources .borders {
   border: #d87000 solid 1px;
   border-left: #d87000 solid 3px;
+  border-right: none;
   margin-top: 20px;
-  height: 20vw; }
+  padding-left: 1rem; }
   @media all and (min-width: 600px) {
     .page-template-resources .borders {
-      display: none; } }
-
-.page-template-resources .fa-angle-right {
-  padding-right: 6.5px; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .fa-angle-right {
       display: none; } }
 
 @media all and (min-width: 600px) {
@@ -1541,16 +1537,6 @@ a:visited {
     .page-template-resources .resources-ul li {
       margin: 30px;
       border-bottom: 1px #d87000 solid; }
-      .page-template-resources .resources-ul li a .fa-angle-up {
-        position: absolute;
-        left: 45%;
-        color: white;
-        background: #404040;
-        border-radius: 50px;
-        padding: 10px 16px;
-        margin-top: -25px;
-        font-size: 2rem;
-        text-decoration: none; }
       .page-template-resources .resources-ul li a:focus {
         border: none; } }
 
@@ -1595,14 +1581,59 @@ a:visited {
           border-bottom: none; } }
 
 .page-template-resources .owl-carousel2 {
-  width: 65vw;
-  left: 10%; }
+  width: 65vw; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .owl-carousel2 {
+      left: 12%; } }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .owl-carousel2 {
+      left: 14%; } }
   .page-template-resources .owl-carousel2 .owl-image {
     height: 200px; }
   .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
     width: 8px;
     height: 8px;
     background: #285817; }
+
+.page-template-resources .modal-overlay {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.3); }
+
+.page-template-resources .mobile-button {
+  left: 50%;
+  color: white;
+  background: #d87000;
+  border-radius: 50px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 0px 14px;
+  font-size: 2.3rem;
+  text-decoration: none; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .mobile-button {
+      display: none; } }
+
+.page-template-resources .desktop-button .fa-angle-up {
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .desktop-button .fa-angle-up {
+      display: block;
+      position: absolute;
+      left: 50%;
+      color: white;
+      background: #555454;
+      border-radius: 50px;
+      padding: 7px 14px;
+      margin-top: -25px;
+      font-size: 2.3rem;
+      text-decoration: none; } }
+
+@media all and (min-width: 600px) {
+  .page-template-resources .li-container {
+    border-bottom: none; } }
 
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-2.jpg);
@@ -2808,24 +2839,25 @@ a:visited {
             -ms-flex-align: center;
                 align-items: center; } }
 
-.page-template-resources .post-17 .entry-header {
-  color: #285817;
-  font-family: "Miriam Libre", sans-serif;
-  text-transform: uppercase;
-  text-align: center; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .post-17 .entry-header {
-      font-size: 1.8rem; } }
-
-.page-template-resources .post-17 .entry-content {
-  color: #285817;
-  font-family: "Source Sans Pro", sans-serif;
-  padding-bottom: 15rem;
-  text-align: center; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .post-17 .entry-content {
-      font-size: 1.5rem;
-      padding-bottom: 18rem; } }
+.page-template-resources .post-17 {
+  max-width: 80vw; }
+  .page-template-resources .post-17 .entry-header {
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    text-transform: uppercase;
+    text-align: center; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .post-17 .entry-header {
+        font-size: 1.8rem; } }
+  .page-template-resources .post-17 .entry-content {
+    color: #285817;
+    font-family: "Source Sans Pro", sans-serif;
+    padding-bottom: 15rem;
+    text-align: center; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .post-17 .entry-content {
+        font-size: 1.5rem;
+        padding-bottom: 18rem; } }
 
 .page-template-resources .hide {
   display: none; }
@@ -2836,16 +2868,11 @@ a:visited {
 .page-template-resources .borders {
   border: #d87000 solid 1px;
   border-left: #d87000 solid 3px;
+  border-right: none;
   margin-top: 20px;
-  height: 20vw; }
+  padding-left: 1rem; }
   @media all and (min-width: 600px) {
     .page-template-resources .borders {
-      display: none; } }
-
-.page-template-resources .fa-angle-right {
-  padding-right: 6.5px; }
-  @media all and (min-width: 600px) {
-    .page-template-resources .fa-angle-right {
       display: none; } }
 
 @media all and (min-width: 600px) {
@@ -2884,16 +2911,6 @@ a:visited {
     .page-template-resources .resources-ul li {
       margin: 30px;
       border-bottom: 1px #d87000 solid; }
-      .page-template-resources .resources-ul li a .fa-angle-up {
-        position: absolute;
-        left: 45%;
-        color: white;
-        background: #404040;
-        border-radius: 50px;
-        padding: 10px 16px;
-        margin-top: -25px;
-        font-size: 2rem;
-        text-decoration: none; }
       .page-template-resources .resources-ul li a:focus {
         border: none; } }
 
@@ -2938,14 +2955,59 @@ a:visited {
           border-bottom: none; } }
 
 .page-template-resources .owl-carousel2 {
-  width: 65vw;
-  left: 10%; }
+  width: 65vw; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .owl-carousel2 {
+      left: 12%; } }
+  @media all and (min-width: 1000px) {
+    .page-template-resources .owl-carousel2 {
+      left: 14%; } }
   .page-template-resources .owl-carousel2 .owl-image {
     height: 200px; }
   .page-template-resources .owl-carousel2 .owl-controls .owl-pagination span {
     width: 8px;
     height: 8px;
     background: #285817; }
+
+.page-template-resources .modal-overlay {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.3); }
+
+.page-template-resources .mobile-button {
+  left: 50%;
+  color: white;
+  background: #d87000;
+  border-radius: 50px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 0px 14px;
+  font-size: 2.3rem;
+  text-decoration: none; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .mobile-button {
+      display: none; } }
+
+.page-template-resources .desktop-button .fa-angle-up {
+  display: none; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .desktop-button .fa-angle-up {
+      display: block;
+      position: absolute;
+      left: 50%;
+      color: white;
+      background: #555454;
+      border-radius: 50px;
+      padding: 7px 14px;
+      margin-top: -25px;
+      font-size: 2.3rem;
+      text-decoration: none; } }
+
+@media all and (min-width: 600px) {
+  .page-template-resources .li-container {
+    border-bottom: none; } }
 
 .search-results .page-title {
   padding: 50px 0;
