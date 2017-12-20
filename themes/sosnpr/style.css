@@ -430,7 +430,7 @@ a {
   a:hover, a:focus, a:active {
     color: midnightblue; }
   a:focus {
-    border: 3px solid #285817;
+    border: 0.5px solid #285817;
     outline: thin dotted; }
   a:hover, a:active {
     outline: 0; }
@@ -3099,6 +3099,9 @@ a:visited {
   padding-left: 20px;
   font-family: "Source Sans Pro", sans-serif;
   width: 100%; }
+
+.single-post .entry-content a {
+  color: #d87000; }
 
 .single-post .single-navigation {
   display: -webkit-box;

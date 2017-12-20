@@ -28,6 +28,11 @@
     font-family:$source;
     width:100%;
   }
+  .entry-content{
+    a{
+      color:$orange;
+    }
+  }
 .single-navigation{
   display:flex;
   justify-content:space-between;
