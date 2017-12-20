@@ -48,7 +48,7 @@ get_header();
  <ul class="resources-ul" id="resources-ul">
  
    <li id="reports" class="li-container resources-reports">
-     <?php $props = CFS()->get_field_info( 'reports' );?> 
+     <?php $props = CFS()->get_field_info('reports');?> 
      <h2 class="resources-heading">
      <i class="fa fa-angle-right"></i>
      <i class="fa fa-angle-down"></i>
@@ -61,7 +61,7 @@ get_header();
    </li>
 
    <li id="videos" class="li-container resources-videos">
-   <?php $props = CFS()->get_field_info( 'videos' );?> 
+   <?php $props = CFS()->get_field_info('videos');?> 
    <h2 class="resources-heading">
    <i class="fa fa-angle-right"></i>
    <i class="fa fa-angle-down"></i>
@@ -73,7 +73,7 @@ get_header();
      </li>
 
    <li id="photos" class="li-container resources-photos">
-   <?php $props = CFS()->get_field_info( 'photos' );?> 
+   <?php $props = CFS()->get_field_info('photos');?> 
    <h2 class="resources-heading owl-block">
    <i class="fa fa-angle-right"></i>
    <i class="fa fa-angle-down"></i>
@@ -93,7 +93,7 @@ get_header();
 </li>
 
    <li id="#books" class="li-container resources-books">
-   <?php $props = CFS()->get_field_info( 'books' );?> 
+   <?php $props = CFS()->get_field_info('books');?> 
    <h2 class="resources-heading">
    <i class="fa fa-angle-right"></i>
    <i class="fa fa-angle-down"></i>
@@ -107,7 +107,7 @@ get_header();
      </li>
      
    <li id="news" class="li-container resources-news">
-   <?php $props = CFS()->get_field_info( 'in_the_news' );?> 
+   <?php $props = CFS()->get_field_info('in_the_news');?> 
    <h2 class="resources-heading">
    <i class="fa fa-angle-right"></i>
    <i class="fa fa-angle-down"></i>
@@ -119,7 +119,7 @@ get_header();
      </li>
 
    <li id="radio" class="li-container resources-radio">
-   <?php $props = CFS()->get_field_info( 'radio' );?> 
+   <?php $props = CFS()->get_field_info('radio');?> 
    <h2 class="resources-heading">
    <i class="fa fa-angle-right"></i>
    <i class="fa fa-angle-down"></i>
@@ -131,7 +131,7 @@ get_header();
      </li>
 
   <div class="li-container lc-groups-container resources-groups" id="lc-groups">
-    <?php $props = CFS()->get_field_info( 'local_conservation_groups' );?> 
+    <?php $props = CFS()->get_field_info('local_conservation_groups');?> 
     <h2 class="resources-heading">
     <i class="fa fa-angle-right"></i>
     <i class="fa fa-angle-down"></i>
@@ -141,10 +141,11 @@ get_header();
       <?php echo CFS()->get('local_conservation_groups');?>
       </li>
       <li>
-        <?php $props = CFS()->get_field_info( 'local_conservation_groups_2' );?> 
+        <?php $props = CFS()->get_field_info('local_conservation_groups_2');?> 
         <?php echo CFS()->get('local_conservation_groups_2');?>
         <a class="mobile-button" href="#resources-ul"> <i class="fa fa-angle-up"></i></a>
       </div>
+      <a class="desktop-button-end" href="#top"> <i class="fa fa-angle-up"></i></a>
      </li>
     </div>
   </div>

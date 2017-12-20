@@ -58,7 +58,6 @@
     }
     // $('.resources-content').append('.li-gallery');
     
-
     $('.mobile-button').on('click', function(){
     $('.li-container').removeClass('borders');
     $(this).parents().find('.resources-content').addClass('hide');

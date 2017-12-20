@@ -103,7 +103,6 @@
     border: $orange solid 1px;
     border-left: $orange solid 3px;
     border-right: none;
-    margin-top: 20px;
     padding-left: 1rem;
     margin-left: -2.5rem;
     @include tablet{
@@ -134,6 +133,7 @@
       color: $orange;
       font-family: $miriam;
       text-transform: uppercase;
+      font-weight: 300;
       @include tablet{
         margin-left: 1.3rem;
       }
@@ -172,8 +172,8 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: flex-start;  
-        margin-top: -2rem;  
-        border-bottom: $orange solid 1px;
+        margin-top: -2rem; 
+        // border-bottom: $orange solid 1px;
         p{
           margin-bottom: 0rem;
         }
@@ -184,7 +184,9 @@
         li:nth-child(2) {
           max-width: 40vw;            
           border-bottom: none;
-          margin-top: -45px;
+          @include tablet{
+            margin-top: 1.85rem;
+          }
           @include desktop{
             margin-left: 5rem;
             margin-top: 30px;
@@ -238,40 +240,15 @@
     }
     
     .mobile-button{
-      .fa-angle-up{
-        position: absolute;
-        left: 45%;
-        margin-top: -5px;
-        color: white;
-        background: $orange;
-        border-radius: 50px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        padding: 0px 14px;
-        font-size: 2.3rem;
-        text-decoration: none;
-        @include tablet{
-          display: none;
-        }
-      }
+     @include mobile-button;
     }
     
     .desktop-button{
-      .fa-angle-up{
-        display: none;
-        @include tablet{
-          display: block;
-          position: absolute;
-          left: 50%;
-          color: white;
-          background: #555454;
-          border-radius: 50px;
-          padding: 7px 14px;
-          margin-top: -25px;
-          font-size: 2.3rem;
-          text-decoration: none;
-        }
-      }
+      @include desktop-button;
+    }
+
+    .desktop-button-end{
+      @include desktop-button-end;
     }
     
     .modal-overlay {
@@ -281,66 +258,4 @@
       width: 100vw;
       background: rgba(black,0.3);
     }
-    
-    // .resources-reports{
-      //   display: flex;
-      //   flex-flow: column;
-      //   order: 1;
-      //   @include tablet{
-        //     order: 1;
-        //   }
-        // }
-        // .resources-videos{
-          //   display: flex;
-          //   flex-flow: column;
-          //   order: 2;
-          //   @include tablet{
-            //     order: 2;
-            //   }
-            // }
-            // .resources-photos{
-              //   order: 7;
-              //   display: flex;
-              //   flex-flow: column;
-              //   .resources-heading{
-                //     text-align: center;
-                //     padding: 2rem 1rem 0px 0px;
-                //     color: $forest;
-                //   }
-                //   @include tablet{
-                  //     order: 3;
-                  //   }
-                  // }
-                  // .resources-books{
-                    //   display: flex;
-                    //   flex-flow: column;
-                    //   order: 3;
-                    //   @include tablet{
-                      //     order: 4;
-                      //   }
-                      // }
-                      // .resources-news{
-                        //   display: flex;
-                        //   flex-flow: column;
-                        //   order: 4;
-                        //   @include tablet{
-                          //     order: 5;
-                          //   }
-                          // }
-                          // .resources-radio{
-                            //   display: flex;
-                            //   flex-flow: column;
-                            //   order: 5;
-                            //   @include tablet{
-                              //     order: 6;
-                              //   }
-                              // }
-                              // .resources-groups{
-                                //   display: flex;
-                                //   flex-flow: column;
-                                //   order: 6;
-                                //   @include tablet{
-                                  //     order: 7;
-                                  //   }
-                                  // }
-                                }
+  }
