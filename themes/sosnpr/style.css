@@ -3557,6 +3557,10 @@ a:visited {
       max-height: 150px; }
       @media all and (min-width: 600px) {
         .blog .site-content .stories-container .journal-container img {
+          -o-object-position: 0 50%;
+             object-position: 0 50%; } }
+      @media all and (min-width: 600px) {
+        .blog .site-content .stories-container .journal-container img {
           margin-left: 0;
           min-height: 180px;
           max-height: 180px;
