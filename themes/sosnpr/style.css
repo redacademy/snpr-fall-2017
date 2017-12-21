@@ -1440,7 +1440,7 @@ a:visited {
       .page-template-resources .resources-hero h1 {
         padding-top: 0rem; } }
   .page-template-resources .resources-hero .entry-content p {
-    font-family: 'Miriam Libre', 'sans-serif';
+    font-family: "Miriam Libre", sans-serif, "sans-serif";
     font-size: 1.2rem;
     line-height: 1.2rem; }
   @media all and (min-width: 1000px) {
@@ -1486,7 +1486,7 @@ a:visited {
         font-family: "Source Sans Pro", sans-serif;
         font-size: 1.2rem;
         line-height: 3rem;
-        font-family: "Miriam Libre", sans-serif; }
+        font-family: "Source Sans Pro", sans-serif; }
       .page-template-resources .resources-nav .resources-nav-1 {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1587,7 +1587,8 @@ a:visited {
       -ms-flex-pack: center;
           justify-content: center; }
   .page-template-resources .resources-ul p {
-    font-weight: 300; }
+    font-weight: 300;
+    font-family: "Source Sans Pro", sans-serif, "sans-serif"; }
   .page-template-resources .resources-ul h2 {
     color: #d87000;
     font-family: "Miriam Libre", sans-serif;
@@ -1683,9 +1684,11 @@ a:visited {
         width: 8px;
         height: 8px; } }
 
-@media all and (min-width: 600px) {
-  .page-template-resources .li-container {
-    border-bottom: none; } }
+.page-template-resources .li-container {
+  font-family: "Source Sans Pro", sans-serif, "sans-serif"; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .li-container {
+      border-bottom: none; } }
 
 .page-template-resources .mobile-button .fa-angle-up {
   position: absolute;
@@ -1828,7 +1831,7 @@ a:visited {
     color: #bf6d0a;
     text-transform: uppercase;
     font-family: "Miriam Libre", sans-serif; }
-    .page-id-101 .posts-navigation a :hover {
+    .page-id-101 .posts-navigation a:hover {
       color: #2E84E6; }
 
 .page-id-101 .owl-theme .owl-controls .owl-page span {
@@ -2887,7 +2890,7 @@ a:visited {
       .page-template-resources .resources-hero h1 {
         padding-top: 0rem; } }
   .page-template-resources .resources-hero .entry-content p {
-    font-family: 'Miriam Libre', 'sans-serif';
+    font-family: "Miriam Libre", sans-serif, "sans-serif";
     font-size: 1.2rem;
     line-height: 1.2rem; }
   @media all and (min-width: 1000px) {
@@ -2933,7 +2936,7 @@ a:visited {
         font-family: "Source Sans Pro", sans-serif;
         font-size: 1.2rem;
         line-height: 3rem;
-        font-family: "Miriam Libre", sans-serif; }
+        font-family: "Source Sans Pro", sans-serif; }
       .page-template-resources .resources-nav .resources-nav-1 {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -3034,7 +3037,8 @@ a:visited {
       -ms-flex-pack: center;
           justify-content: center; }
   .page-template-resources .resources-ul p {
-    font-weight: 300; }
+    font-weight: 300;
+    font-family: "Source Sans Pro", sans-serif, "sans-serif"; }
   .page-template-resources .resources-ul h2 {
     color: #d87000;
     font-family: "Miriam Libre", sans-serif;
@@ -3130,9 +3134,11 @@ a:visited {
         width: 8px;
         height: 8px; } }
 
-@media all and (min-width: 600px) {
-  .page-template-resources .li-container {
-    border-bottom: none; } }
+.page-template-resources .li-container {
+  font-family: "Source Sans Pro", sans-serif, "sans-serif"; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .li-container {
+      border-bottom: none; } }
 
 .page-template-resources .mobile-button .fa-angle-up {
   position: absolute;
