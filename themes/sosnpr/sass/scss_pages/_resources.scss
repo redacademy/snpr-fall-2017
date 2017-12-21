@@ -27,7 +27,7 @@
     }
     .entry-content{
       p{
-        font-family: 'Miriam Libre', 'sans-serif';
+        font-family: $miriam, 'sans-serif';
         font-size: 1.2rem;
         line-height: 1.2rem;
       }
@@ -62,7 +62,7 @@
         font-family: $source;
         font-size: 1.2rem;
         line-height: 3rem;
-        font-family: $miriam;      
+        font-family: $source;      
       }
       .resources-nav-1{
         display: flex;
@@ -145,6 +145,7 @@
     justify-content: center;
     p{
       font-weight: 300;
+      font-family: $source, 'sans-serif';
     }
     h2{
       color: $orange;
@@ -252,6 +253,7 @@
     }
     
     .li-container{
+      font-family: $source, 'sans-serif';
       @include tablet{
         border-bottom: none;
       }
