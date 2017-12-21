@@ -1829,7 +1829,7 @@ a:visited {
     color: #bf6d0a;
     text-transform: uppercase;
     font-family: "Miriam Libre", sans-serif; }
-    .page-id-101 .posts-navigation a :hover {
+    .page-id-101 .posts-navigation a:hover {
       color: #2E84E6; }
 
 .page-id-101 .owl-theme .owl-controls .owl-page span {
