@@ -849,52 +849,6 @@ object {
   100% {
     opacity: 1; } }
 
-.search .site-content .page-title {
-  font-size: 24px;
-  font-family: "Miriam Libre", sans-serif;
-  color: #285817;
-  margin: 0;
-  text-align: center; }
-  @media all and (min-width: 600px) {
-    .search .site-content .page-title {
-      font-size: 30px; } }
-
-.search .site-content article {
-  border-bottom: 1px solid #d87000;
-  margin: 0 5%; }
-  .search .site-content article .entry-header {
-    min-width: 90%; }
-    .search .site-content article .entry-header .entry-title {
-      min-width: 90%; }
-      .search .site-content article .entry-header .entry-title a {
-        color: #d87000;
-        font-size: 18px;
-        text-decoration: none;
-        font-family: "Miriam Libre", sans-serif; }
-      .search .site-content article .entry-header .entry-title a:hover {
-        text-decoration: underline; }
-  .search .site-content article .entry-meta {
-    display: none; }
-  .search .site-content article .entry-summary p {
-    font-family: "Source Sans Pro", sans-serif; }
-
-.search-no-results .site-content .page-content p {
-  min-width: 75%;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #285817;
-  font-size: 20px;
-  line-height: 25px; }
-  @media all and (min-width: 600px) {
-    .search-no-results .site-content .page-content p {
-      line-height: 30px;
-      font-size: 24px;
-      min-width: 60%; } }
-  @media all and (min-width: 1000px) {
-    .search-no-results .site-content .page-content p {
-      line-height: 45px;
-      font-size: 34px;
-      min-width: 50%; } }
-
 .widget-area {
   width: 100vw;
   padding-top: 1rem;
@@ -3198,36 +3152,51 @@ a:visited {
   width: 100vw;
   background: rgba(0, 0, 0, 0.3); }
 
-.search-results .page-title {
-  padding: 50px 0;
-  margin: 0 100px;
-  text-transform: uppercase;
-  border-bottom: 1px solid #e4e4e4; }
+.search .site-content .page-title {
+  font-size: 24px;
+  font-family: "Miriam Libre", sans-serif;
+  color: #285817;
+  margin: 0;
+  text-align: center; }
+  @media all and (min-width: 600px) {
+    .search .site-content .page-title {
+      font-size: 30px; } }
 
-.search-results article {
-  margin: 50px 100px; }
+.search .site-content article {
+  border-bottom: 1px solid #d87000;
+  margin: 0 5%; }
+  .search .site-content article .entry-header {
+    min-width: 90%; }
+    .search .site-content article .entry-header .entry-title {
+      min-width: 90%; }
+      .search .site-content article .entry-header .entry-title a {
+        color: #d87000;
+        font-size: 18px;
+        text-decoration: none;
+        font-family: "Miriam Libre", sans-serif; }
+      .search .site-content article .entry-header .entry-title a:hover {
+        text-decoration: underline; }
+  .search .site-content article .entry-meta {
+    display: none; }
+  .search .site-content article .entry-summary p {
+    font-family: "Source Sans Pro", sans-serif; }
 
-.search-results .search-pagination {
-  margin: 50px 100px; }
-
-.search-no-results .page-content {
-  background: url("../../sos_assets/error404/error404.jpg") no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .search-no-results .page-content p {
-    font-size: 2.5rem;
-    text-transform: capitalize;
-    text-align: center;
-    line-height: 50px;
-    width: 50vw;
-    padding-top: 50px; }
+.search-no-results .site-content .page-content p {
+  min-width: 75%;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #285817;
+  font-size: 20px;
+  line-height: 25px; }
+  @media all and (min-width: 600px) {
+    .search-no-results .site-content .page-content p {
+      line-height: 30px;
+      font-size: 24px;
+      min-width: 60%; } }
+  @media all and (min-width: 1000px) {
+    .search-no-results .site-content .page-content p {
+      line-height: 45px;
+      font-size: 34px;
+      min-width: 50%; } }
 
 .single-hero {
   height: 15vh;
