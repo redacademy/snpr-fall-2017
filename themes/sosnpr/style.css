@@ -735,6 +735,8 @@ object {
       @media all and (min-width: 600px) {
         .site-info .feedback .close {
           display: none; } }
+    .site-info .feedback .lower {
+      top: 9%; }
     .site-info .feedback .wpcf7 {
       display: -webkit-box;
       display: -ms-flexbox;

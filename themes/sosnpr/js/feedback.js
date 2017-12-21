@@ -24,6 +24,7 @@
     $('.wpcf7-response-output').css('padding-bottom', '0');
     $('.wpcf7-response-output').removeClass('center');
     $('.wpcf7').removeClass('response-width');
+    $('.close').removeClass('lower');
     
     
     
@@ -72,6 +73,7 @@
         $('textarea').show();
         $('.feedback').css('min-height', '480px');
         $('.wpcf7-response-output').css('padding-bottom', '0');
+        $('.close').addClass('lower');
         
         
       } else {
