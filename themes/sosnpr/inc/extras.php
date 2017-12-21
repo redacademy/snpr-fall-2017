@@ -50,3 +50,11 @@ function remove_empty_p( $content ){
 	return preg_replace('#<p>(\s|&nbsp;)*+(<br\s*/*>)*(\s|&nbsp;)*</p>#i', '', $content);
 };
 	add_filter( 'the_content', 'remove_empty_p', 20, 1 );
+
+	//Hide the editor of themes as well as plugins
+	add_action('admin_init','sosnpr_remove_editor',102);
+
+	function sosnpr_remove_editor(){
+		remove_submenu_page('themes.php', 'theme-editor.php');
+		remove_submenu_page('plugins.php', 'plugin-editor.php');
+	}
