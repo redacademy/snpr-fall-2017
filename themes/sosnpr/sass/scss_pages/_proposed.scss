@@ -34,11 +34,11 @@
       @include tablet {
         display: flex;
         justify-content: space-around;
-        min-height: 180px;
+        min-height: 100px;
         background: $orange;
         .banner-list {
           display: flex;
-          flex-direction: column; // margin: 2% 5%;
+          flex-direction: column; 
           text-align: center;
           margin: 1% 0;
           padding: 0;

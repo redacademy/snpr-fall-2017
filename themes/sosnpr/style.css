@@ -1956,7 +1956,7 @@ a:visited {
       display: flex;
       -ms-flex-pack: distribute;
           justify-content: space-around;
-      min-height: 180px;
+      min-height: 100px;
       background: #d87000; }
       .page-template-proposed-park .site-content .proposed-banner .banner-list {
         display: -webkit-box;

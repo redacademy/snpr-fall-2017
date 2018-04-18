@@ -189,7 +189,7 @@ get_header();
             <div class="image"><img src="<?php echo CFS()->get('ecological_image');?>" alt="several white tail deer grazing next to a lake"
               /></div>
             <div class="text">
-              <?php echo CFS()->get('ecological_benefits');?>
+              <?php echo CFS()->get('local_benefits');?>
 
               <div class="close-section">
                 <i class="fa fa-angle-up" aria-hidden="true"></i>
