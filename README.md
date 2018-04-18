@@ -25,9 +25,9 @@ Go to wordpress dashboard Plugins section, install and activate Custom Field Sui
 
 ## Tools used when building 
 
-* DPLOY RED 
+* **DPLOY RED**  
 An FTP/SFTP deployment tool built in node.js, based on DPLOY.
-* Gulp
+* **Gulp**  
 To compile sass and minify files for production
 
 ## Authors

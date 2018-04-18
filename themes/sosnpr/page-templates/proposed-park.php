@@ -23,11 +23,11 @@ get_header();
       <section class="proposed-banner">
         <ul class="banner-list">
           <li><a href="#land">the land</a></li>
-          <li><a href="#why">why a national park</a></li>
+          <li><a href="#why">why a national park reserve</a></li>
           <li><a href="#ecological">ecological benefits</a></li>
         </ul>
         <ul class="banner-list">
-          <li><a href="#location">location of the park</a></li>
+          <li><a href="#location">proposal history</a></li>
           <li><a href="#ranch">ranching and agriculture</a></li>
           <li><a href="#economic">economic benefits</a></li>
         </ul>
@@ -70,7 +70,7 @@ get_header();
 
         <div class="prop-item location" id="location">
           <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-            <?php echo CFS()->get_field_info( 'location_of_the_park' )['label'];?>
+            <?php echo CFS()->get_field_info( 'proposal_history' )['label'];?>
           </h2>
 
 
