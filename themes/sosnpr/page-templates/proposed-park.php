@@ -23,17 +23,14 @@ get_header();
       <section class="proposed-banner">
         <ul class="banner-list">
           <li><a href="#land">the land</a></li>
-          <li><a href="#why">why a national park reserve</a></li>
-          <li><a href="#ecological">ecological benefits</a></li>
-        </ul>
-        <ul class="banner-list">
-          <li><a href="#location">proposal history</a></li>
-          <li><a href="#ranch">ranching and agriculture</a></li>
-          <li><a href="#economic">economic benefits</a></li>
+          <li><a href="#human">human impact</a></li>
         </ul>
         <ul class="banner-list">
           <li><a href="#land-use">land use regulations</a></li>
-          <li><a href="#human">human impact</a></li>
+          <li><a href="#benefits">local benefits</a></li>
+        </ul>
+        <ul class="banner-list">
+          <li><a href="#why">why a national park reserve</a></li>
           <li><a href="#faq">faq</a></li>
         </ul>
       </section>
@@ -46,48 +43,31 @@ get_header();
             <?php echo CFS()->get_field_info( 'the_land' )['label'];?>
           </h2>
 
-
           <div class="content-container">
+            <div class="content-container-one">
             <div class="text">
               <?php echo CFS()->get( 'the_land' );?>
 
               <div class="close-section">
-                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              <i class="fa fa-angle-up" aria-hidden="true"></i>
               </div>
-
-
-
             </div>
+
+            
             <div class="image"><img src="<?php echo CFS()->get('land_image');?>" alt="a hiker in neon gazing out reflectively at a river in the valley below"
               /></div>
-          </div>
-          <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
-
-        </div>
-        <!-- close one -->
-
-
-
-        <div class="prop-item location" id="location">
-          <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-            <?php echo CFS()->get_field_info( 'proposal_history' )['label'];?>
-          </h2>
-
-
-          <div class="content-container">
+            </div>
+            <div class="content-container-two">
             <div class="image"><img src="<?php echo CFS()->get('location_image');?>" alt="a map of the southern okanagan" /></div>
             <div class="text">
               <?php echo CFS()->get('proposal_history');?>
 
-              <div class="close-section">
-                <i class="fa fa-angle-up" aria-hidden="true"></i>
-              </div>
-
+            </div>
             </div>
           </div>
           <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </div>
-        <!-- close two -->
+        <!-- close the land -->
 
 
 
@@ -137,7 +117,7 @@ get_header();
           <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
 
         </div>
-        <!-- close three -->
+        <!-- close regulations -->
 
 
 
@@ -160,16 +140,29 @@ get_header();
 
           <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </div>
-        <!-- closes four-->
+        <!-- closes why national park-->
 
 
-        <div class="prop-item ranch" id="ranch">
+        <div class="prop-item human" id="human">
           <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-            <?php echo CFS()->get_field_info( 'ranching_agriculture' )['label'];?>
+            <?php echo CFS()->get_field_info( 'human_impact' )['label'];?>
           </h2>
 
+          <div class="content-container-one">
+            <div class="text">
+              <?php echo CFS()->get( 'human_impact' );?>
 
-          <div class="content-container">
+              <div class="close-section">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+              </div>
+
+            </div>
+            <div class="image"><img src="<?php echo CFS()->get('human_image');?>" alt="three men standing on a hill wearing sunglasses and holding papers"
+              /></div>
+          </div>
+
+
+          <div class="content-container-two">
             <div class="image"><img src="<?php echo CFS()->get('ranch_image');?>" alt="a standing brown cow and a sitting white cow staring at the photographer through some light foliage"
               /></div>
             <div class="text">
@@ -183,40 +176,16 @@ get_header();
           </div>
           <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </div>
-        <!-- closes five -->
+        <!--close human impact -->
 
 
-
-        <div class="prop-item human" id="human">
+        <div class="prop-item benefits" id="benefits">
           <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-            <?php echo CFS()->get_field_info( 'human_impact' )['label'];?>
-          </h2>
-
-          <div class="content-container">
-            <div class="text">
-              <?php echo CFS()->get( 'human_impact' );?>
-
-              <div class="close-section">
-                <i class="fa fa-angle-up" aria-hidden="true"></i>
-              </div>
-
-            </div>
-            <div class="image"><img src="<?php echo CFS()->get('human_image');?>" alt="three men standing on a hill wearing sunglasses and holding papers"
-              /></div>
-          </div>
-          <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
-        </div>
-        <!-- closes six -->
-
-
-
-        <div class="prop-item ecological" id="ecological">
-          <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-            <?php echo CFS()->get_field_info( 'ecological_benefits' )['label'];?>
+            <?php echo CFS()->get_field_info( 'local_benefits' )['label'];?>
           </h2>
 
 
-          <div class="content-container">
+          <div class="content-container-one">
             <div class="image"><img src="<?php echo CFS()->get('ecological_image');?>" alt="several white tail deer grazing next to a lake"
               /></div>
             <div class="text">
@@ -228,19 +197,9 @@ get_header();
 
             </div>
           </div>
-          <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i>
-</button></a>
-        </div>
-        <!-- closes seven -->
 
 
-
-        <div class="prop-item economic" id="economic">
-          <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-            <?php echo CFS()->get_field_info( 'economic_benefits' )['label'];?>
-          </h2>
-
-          <div class="content-container">
+          <div class="content-container-two">
             <div class="text">
               <?php echo CFS()->get('economic_benefits');?>
 
@@ -259,7 +218,7 @@ get_header();
           </div>
           <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </div>
-        <!-- closes eight -->
+        <!-- closes local benefits -->
 
 
 
@@ -293,11 +252,12 @@ get_header();
 
             </div>
             <div class="image"><img src="<?php echo CFS()->get('faq_image_three');?>" alt="a helicopter over a snowy mountain top with clouds in the background"
-              /></div>
+              />
+            </div>
           </div>
           <a href="#top"><button class="page-top last"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </div>
-        <!-- closes nine-->
+        <!-- closes FAQ-->
 
       </section>
 

@@ -1991,10 +1991,12 @@ a:visited {
         .page-template-proposed-park .site-content .proposed-banner .banner-list a:hover {
           color: #4CD1FE; } }
 
-.page-template-proposed-park .site-content .proposed-container .image {
+.page-template-proposed-park .site-content .proposed-container .image,
+.page-template-proposed-park .site-content .proposed-container .image-two {
   display: none; }
   @media all and (min-width: 1000px) {
-    .page-template-proposed-park .site-content .proposed-container .image {
+    .page-template-proposed-park .site-content .proposed-container .image,
+    .page-template-proposed-park .site-content .proposed-container .image-two {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -2016,18 +2018,21 @@ a:visited {
     .page-template-proposed-park .site-content h2 {
       padding: 20px 0; } }
 
-.page-template-proposed-park .site-content .text {
+.page-template-proposed-park .site-content .text,
+.page-template-proposed-park .site-content .text-two {
   height: 0;
   overflow: hidden;
   font-family: "Source Sans Pro", sans-serif;
   padding-left: 30px;
   padding-right: 30px; }
   @media all and (min-width: 600px) {
-    .page-template-proposed-park .site-content .text {
+    .page-template-proposed-park .site-content .text,
+    .page-template-proposed-park .site-content .text-two {
       padding-right: 0;
       padding-left: 0;
       height: auto; }
-      .page-template-proposed-park .site-content .text p {
+      .page-template-proposed-park .site-content .text p,
+      .page-template-proposed-park .site-content .text-two p {
         font-size: 14px;
         margin-bottom: 8px;
         margin-top: 0; } }
@@ -2182,79 +2187,49 @@ a:visited {
             flex-direction: column; }
     .page-template-proposed-park .site-content .land h2 {
       padding-bottom: 20px; }
-    .page-template-proposed-park .site-content .land .content-container {
+    .page-template-proposed-park .site-content .land .content-container-one,
+    .page-template-proposed-park .site-content .land .content-container-two {
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex; }
-      .page-template-proposed-park .site-content .land .content-container .text {
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .page-template-proposed-park .site-content .land .content-container-one .text,
+      .page-template-proposed-park .site-content .land .content-container-two .text {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+        padding-top: 10px; }
+      .page-template-proposed-park .site-content .land .content-container-one .image,
+      .page-template-proposed-park .site-content .land .content-container-two .image {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%; }
-      .page-template-proposed-park .site-content .land .content-container .image {
-        -ms-flex-preferred-size: 50%;
-            flex-basis: 50%; }
-        .page-template-proposed-park .site-content .land .content-container .image img {
+        .page-template-proposed-park .site-content .land .content-container-one .image img,
+        .page-template-proposed-park .site-content .land .content-container-two .image img {
           -ms-flex-item-align: end;
-              align-self: flex-end; } }
-
-.page-template-proposed-park .site-content .location .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  @media all and (min-width: 600px) {
-    .page-template-proposed-park .site-content .location .text {
-      -webkit-box-align: left;
-          -ms-flex-align: left;
-              align-items: left; } }
-  .page-template-proposed-park .site-content .location .text a {
-    text-decoration: none; }
-  .page-template-proposed-park .site-content .location .text .close-section {
-    -ms-flex-item-align: center;
-        align-self: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    color: #fff;
-    margin: 0;
-    text-align: center;
-    height: 40px;
-    width: 50px;
-    background: #d87000;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%; }
-    .page-template-proposed-park .site-content .location .text .close-section i {
-      font-size: 40px; }
-    @media all and (min-width: 600px) {
-      .page-template-proposed-park .site-content .location .text .close-section {
-        display: none; } }
-
-@media all and (min-width: 1000px) {
-  .page-template-proposed-park .site-content .location h2 {
-    padding-bottom: 20px; }
-  .page-template-proposed-park .site-content .location .content-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-bottom: 25px; }
-    .page-template-proposed-park .site-content .location .content-container .text {
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%; }
-    .page-template-proposed-park .site-content .location .content-container .image {
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%;
-      padding-right: 5%; } }
+              align-self: flex-end; }
+    .page-template-proposed-park .site-content .land .content-container-one, .page-template-proposed-park .site-content .land .content-container-two {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      width: 100%; }
+    .page-template-proposed-park .site-content .land .content-container-one .text {
+      padding-top: 10px;
+      padding-right: 15px; }
+    .page-template-proposed-park .site-content .land .content-container-two {
+      margin-top: 50px; }
+      .page-template-proposed-park .site-content .land .content-container-two .text {
+        margin-left: 20px; }
+      .page-template-proposed-park .site-content .land .content-container-two .image {
+        -ms-flex-item-align: start;
+            align-self: flex-start;
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+        padding-right: 15%; } }
 
 .page-template-proposed-park .site-content .land-use .text {
   display: -webkit-box;
@@ -2446,63 +2421,6 @@ a:visited {
         -ms-flex-item-align: end;
             align-self: flex-end; } }
 
-.page-template-proposed-park .site-content .ranch .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  @media all and (min-width: 600px) {
-    .page-template-proposed-park .site-content .ranch .text {
-      -webkit-box-align: left;
-          -ms-flex-align: left;
-              align-items: left; } }
-  .page-template-proposed-park .site-content .ranch .text a {
-    text-decoration: none; }
-  .page-template-proposed-park .site-content .ranch .text .close-section {
-    -ms-flex-item-align: center;
-        align-self: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    color: #fff;
-    margin: 0;
-    text-align: center;
-    height: 40px;
-    width: 50px;
-    background: #d87000;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%; }
-    .page-template-proposed-park .site-content .ranch .text .close-section i {
-      font-size: 40px; }
-    @media all and (min-width: 600px) {
-      .page-template-proposed-park .site-content .ranch .text .close-section {
-        display: none; } }
-
-@media all and (min-width: 1000px) {
-  .page-template-proposed-park .site-content .ranch .content-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .page-template-proposed-park .site-content .ranch .content-container .image {
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%; }
-    .page-template-proposed-park .site-content .ranch .content-container .text {
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%;
-      padding-left: 2%; } }
-
 .page-template-proposed-park .site-content .human .text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2548,78 +2466,33 @@ a:visited {
         display: none; } }
 
 @media all and (min-width: 1000px) {
-  .page-template-proposed-park .site-content .human .content-container {
+  .page-template-proposed-park .site-content .human .content-container-one {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .page-template-proposed-park .site-content .human .content-container .image {
+    .page-template-proposed-park .site-content .human .content-container-one .image {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
-      .page-template-proposed-park .site-content .human .content-container .image img {
+      .page-template-proposed-park .site-content .human .content-container-one .image img {
         -ms-flex-item-align: end;
             align-self: flex-end; }
-    .page-template-proposed-park .site-content .human .content-container .text {
+    .page-template-proposed-park .site-content .human .content-container-one .text {
       -ms-flex-preferred-size: 50%;
-          flex-basis: 50%; } }
-
-.page-template-proposed-park .site-content .ecological .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  @media all and (min-width: 600px) {
-    .page-template-proposed-park .site-content .ecological .text {
-      -webkit-box-align: left;
-          -ms-flex-align: left;
-              align-items: left; } }
-  .page-template-proposed-park .site-content .ecological .text a {
-    text-decoration: none; }
-  .page-template-proposed-park .site-content .ecological .text .close-section {
-    -ms-flex-item-align: center;
-        align-self: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+          flex-basis: 50%; }
+  .page-template-proposed-park .site-content .human .content-container-two {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    color: #fff;
-    margin: 0;
-    text-align: center;
-    height: 40px;
-    width: 50px;
-    background: #d87000;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%; }
-    .page-template-proposed-park .site-content .ecological .text .close-section i {
-      font-size: 40px; }
-    @media all and (min-width: 600px) {
-      .page-template-proposed-park .site-content .ecological .text .close-section {
-        display: none; } }
-
-@media all and (min-width: 1000px) {
-  .page-template-proposed-park .site-content .ecological .content-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .page-template-proposed-park .site-content .ecological .content-container .image {
+    margin-top: 50px; }
+    .page-template-proposed-park .site-content .human .content-container-two .image {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; }
-    .page-template-proposed-park .site-content .ecological .content-container .text {
+    .page-template-proposed-park .site-content .human .content-container-two .text {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
       padding-left: 2%; } }
 
-.page-template-proposed-park .site-content .economic .text {
+.page-template-proposed-park .site-content .benefits .text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2631,13 +2504,13 @@ a:visited {
       -ms-flex-align: center;
           align-items: center; }
   @media all and (min-width: 600px) {
-    .page-template-proposed-park .site-content .economic .text {
+    .page-template-proposed-park .site-content .benefits .text {
       -webkit-box-align: left;
           -ms-flex-align: left;
               align-items: left; } }
-  .page-template-proposed-park .site-content .economic .text a {
+  .page-template-proposed-park .site-content .benefits .text a {
     text-decoration: none; }
-  .page-template-proposed-park .site-content .economic .text .close-section {
+  .page-template-proposed-park .site-content .benefits .text .close-section {
     -ms-flex-item-align: center;
         align-self: center;
     -webkit-box-align: center;
@@ -2657,65 +2530,72 @@ a:visited {
     background: #d87000;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%; }
-    .page-template-proposed-park .site-content .economic .text .close-section i {
+    .page-template-proposed-park .site-content .benefits .text .close-section i {
       font-size: 40px; }
     @media all and (min-width: 600px) {
-      .page-template-proposed-park .site-content .economic .text .close-section {
+      .page-template-proposed-park .site-content .benefits .text .close-section {
         display: none; } }
 
 @media all and (min-width: 1000px) {
-  .page-template-proposed-park .site-content .economic {
-    padding-bottom: 20px; }
-    .page-template-proposed-park .site-content .economic h2 {
-      margin: 0;
-      padding: 30px 0 0 0; }
-    .page-template-proposed-park .site-content .economic .content-container {
+  .page-template-proposed-park .site-content .benefits .content-container-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .page-template-proposed-park .site-content .benefits .content-container-one .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+    .page-template-proposed-park .site-content .benefits .content-container-one .text {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      padding-left: 2%; }
+  .page-template-proposed-park .site-content .benefits .content-container-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px; }
+    .page-template-proposed-park .site-content .benefits .content-container-two .image {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      position: relative;
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex; }
-      .page-template-proposed-park .site-content .economic .content-container .image {
-        -ms-flex-preferred-size: 50%;
-            flex-basis: 50%;
-        position: relative;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .page-template-proposed-park .site-content .benefits .content-container-two .image a {
+        color: #2e84e6;
+        font-family: "Source Sans Pro", sans-serif; }
+      .page-template-proposed-park .site-content .benefits .content-container-two .image .pdf-container {
+        max-width: 180px;
+        margin-left: 40%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
-                flex-direction: column; }
-        .page-template-proposed-park .site-content .economic .content-container .image a {
-          color: #2E84E6;
-          font-family: "Source Sans Pro", sans-serif; }
-        .page-template-proposed-park .site-content .economic .content-container .image .pdf-container {
-          max-width: 180px;
-          margin-left: 40%;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-orient: vertical;
-          -webkit-box-direction: normal;
-              -ms-flex-direction: column;
-                  flex-direction: column;
-          -webkit-box-pack: end;
-              -ms-flex-pack: end;
-                  justify-content: flex-end;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          min-height: 200px;
-          background-image: url(../../sos_assets/pdf-first.svg);
-          background-repeat: no-repeat;
-          background-position: 50% 100%; }
-          .page-template-proposed-park .site-content .economic .content-container .image .pdf-container a {
-            padding-top: 150px; }
-        .page-template-proposed-park .site-content .economic .content-container .image .pdf-container:hover {
-          background-image: url(../../sos_assets/pdf.svg); }
-      .page-template-proposed-park .site-content .economic .content-container .text {
-        margin-top: 10px;
-        padding-top: 25px;
-        -ms-flex-preferred-size: 50%;
-            flex-basis: 50%; } }
+                flex-direction: column;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        min-height: 200px;
+        background-image: url(../../sos_assets/pdf-first.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 100%; }
+        .page-template-proposed-park .site-content .benefits .content-container-two .image .pdf-container a {
+          padding-top: 150px; }
+      .page-template-proposed-park .site-content .benefits .content-container-two .image .pdf-container:hover {
+        background-image: url(../../sos_assets/pdf.svg); }
+    .page-template-proposed-park .site-content .benefits .content-container-two .text {
+      margin-top: 10px;
+      padding-top: 25px;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
 
 .page-template-proposed-park .site-content .faq .text {
   display: -webkit-box;
