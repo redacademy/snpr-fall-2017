@@ -29,7 +29,7 @@
           // Must change focus!
           var $target = $(target);
           $target.focus();
-          if ($target.is(":focus") || $target.is(":active")) { // Checking if the target was focused
+          if ($target.is(':focus') || $target.is(':active')) { // Checking if the target was focused
             return false;
           } else {
             $target.focus(); // Set focus again

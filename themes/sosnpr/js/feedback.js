@@ -10,10 +10,10 @@
   var remove;
   
   
-  $(".feedback-button").on('click touchstart', function () {
+  $('.feedback-button').on('click touchstart', function () {
     
     
-    $(".feedback").toggleClass('see');
+    $('.feedback').toggleClass('see');
     $('.wpcf7-form').trigger('reset');
     $('input').show();
     $('textarea').show();
@@ -32,14 +32,14 @@
   });
   
   
-  $(".feedback").on('click touchstart', function () {
+  $('.feedback').on('click touchstart', function () {
     remove = false;
   });
   
   
-  $("html").on('click touchstart', function () {
+  $('html').on('click touchstart', function () {
     if (remove) {
-      $(".feedback").removeClass('see');
+      $('.feedback').removeClass('see');
       
     }
     remove = true;

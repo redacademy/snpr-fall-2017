@@ -1,7 +1,7 @@
 (function($){
   // var scroll = false;
   
-  $(".about-us-heading").on('click touchstart',function(event){
+  $('.about-us-heading').on('click touchstart',function(event){
     event.preventDefault();
     
     // if (scroll){

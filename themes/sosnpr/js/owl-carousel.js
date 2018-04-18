@@ -27,11 +27,11 @@
 
 if($('.owl-carousel2').length){
 
-    if($('.owl-carousel2').css('display') == 'none'){
-        console.log('owl is hidden ');
+    if($('.owl-carousel2').css('display') === 'none'){
+        // console.log('owl is hidden ');
     }
-    else if($('.owl-carousel2').css('display') == 'block') {
-        console.log('owl is visible');
+    else if($('.owl-carousel2').css('display') === 'block') {
+        // console.log('owl is visible');
         $('.owl-carousel2').owlCarousel({
             center:true,
             nav:true,
