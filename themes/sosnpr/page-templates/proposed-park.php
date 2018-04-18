@@ -77,7 +77,7 @@ get_header();
           <div class="content-container">
             <div class="image"><img src="<?php echo CFS()->get('location_image');?>" alt="a map of the southern okanagan" /></div>
             <div class="text">
-              <?php echo CFS()->get('location_of_the_park');?>
+              <?php echo CFS()->get('proposal_history');?>
 
               <div class="close-section">
                 <i class="fa fa-angle-up" aria-hidden="true"></i>
