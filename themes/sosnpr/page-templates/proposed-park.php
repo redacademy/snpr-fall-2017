@@ -256,7 +256,7 @@ get_header();
             </div>
           </div>
           <a href="#top"><button class="page-top last"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
-        </div>
+        
         <!-- closes FAQ-->
 
       </section>
