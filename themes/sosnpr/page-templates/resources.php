@@ -20,27 +20,19 @@ get_header();
       <li>
         <a href="#reports">Reports</a>
       </li>
-      <li>
-        <a href="#books">Books</a>
-      </li>
+
   </ul>
   <ul class="resources-nav-2">
-      <li>
-        <a href="#videos">Videos</a>
-      </li>
-      <li>
-        <a href="#news">In the News</a>
-      </li>
-      <li>
-        <a href="#lc-groups">Local Conservation Groups</a>
-      </li>
+    <li>
+      <a href="#books">Books</a>
+    </li>
+    <li>
+      <a href="#lc-groups">Local Conservation Groups</a>
+    </li>
   </ul>
   <ul class="resources-nav-3">
       <li>
-        <a href="#photos">Photos</a>
-      </li>
-      <li>
-        <a href="#radio">Radio</a>
+        <a href="#support">Support For The Park</a>
       </li>
   </ul>
 </div>
@@ -60,38 +52,6 @@ get_header();
      <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
    </li>
 
-   <li id="videos" class="li-container">
-   <?php $props = CFS()->get_field_info('videos');?> 
-   <h2 class="resources-heading">
-   <i class="fa fa-angle-right"></i>
-   <i class="fa fa-angle-down"></i>
-     <?php echo $props['label'];?></h2>
-     <div class="resources-content hide"><p><?php echo CFS()->get('videos');?></p>
-     <a class="mobile-button" href="#resources-ul"> <i class="fa fa-angle-up"></i></a>
-      </div>
-     <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
-     </li>
-
-   <li id="photos" class="li-container">
-   <?php $props = CFS()->get_field_info('photos');?> 
-   <h2 class="resources-heading owl-block">
-   <i class="fa fa-angle-right"></i>
-   <i class="fa fa-angle-down"></i>
-     <?php echo $props['label'];?></h2>
-     <div class="resources-content hide">
-       <div class="owl-carousel2">
-     <?php
-     $photos = CFS()->get('photos');
-  foreach ($photos as $image) {
-    echo '<img class="owl-image" src="'.$image["image"].'"/>';
-  }
-  ?>
-      </div>
-<a class="mobile-button" href="#resources-ul"> <i class="fa fa-angle-up"></i></a>
-</div>
-<a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
-</li>
-
    <li id="books" class="li-container">
    <?php $props = CFS()->get_field_info('books');?> 
    <h2 class="resources-heading">
@@ -102,30 +62,6 @@ get_header();
      <div class="resources-content hide">
        <p><?php echo CFS()->get('books');?></p>
        <a class="mobile-button" href="#resources-ul"> <i class="fa fa-angle-up"></i></a>
-      </div>
-     <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
-     </li>
-     
-   <li id="news" class="li-container">
-   <?php $props = CFS()->get_field_info('in_the_news');?> 
-   <h2 class="resources-heading">
-   <i class="fa fa-angle-right"></i>
-   <i class="fa fa-angle-down"></i>
-     <?php echo $props['label'];?></h2>
-     <div class="resources-content hide"><p><?php echo CFS()->get('in_the_news');?></p>
-     <a class="mobile-button" href="#resources-ul"> <i class="fa fa-angle-up"></i></a>
-      </div>
-     <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
-     </li>
-
-   <li id="radio" class="li-container">
-   <?php $props = CFS()->get_field_info('radio');?> 
-   <h2 class="resources-heading">
-   <i class="fa fa-angle-right"></i>
-   <i class="fa fa-angle-down"></i>
-     <?php echo $props['label'];?></h2>
-     <div class="resources-content hide"><p><?php echo CFS()->get('radio');?></p>
-     <a class="mobile-button" href="#resources-ul"> <i class="fa fa-angle-up"></i></a>
       </div>
      <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
      </li>
@@ -145,9 +81,25 @@ get_header();
         <?php echo CFS()->get('local_conservation_groups_2');?>
         <a class="mobile-button" href="#resources-ul"> <i class="fa fa-angle-up"></i></a>
       </div>
+      <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
+     </li>
+    </div>
+
+  <div class="li-container support" id="support">
+    <?php $props = CFS()->get_field_info('support_for_the_park');?> 
+    <h2 class="resources-heading">
+    <i class="fa fa-angle-right"></i>
+    <i class="fa fa-angle-down"></i>
+    <?php echo $props['label'];?></h2>
+    <div class="lc-groups resources-content hide">
+      <p><?php echo CFS()->get('support_for_the_park');?></p>
+        <a class="mobile-button" href="#resources-ul"> <i class="fa fa-angle-up"></i></a>
+      </div>
       <a class="desktop-button-end" href="#top"> <i class="fa fa-angle-up"></i></a>
      </li>
     </div>
+
+
   </div>
   </div>
  </ul>
