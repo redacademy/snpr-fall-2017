@@ -1,4 +1,4 @@
-.page-template-resources{
+.page-template-resources, .page-template-media-centre{
   .resources-hero{
     background: url(../../sos_assets/resources/river.jpg);
     background-size: cover;
@@ -41,7 +41,7 @@
     display: none;
     @include tablet-footer{
       width: 100vw;
-      height: 12rem;
+      min-height: 120px;
       background: $orange;
       display: flex;
       justify-content: center;
@@ -85,7 +85,7 @@
     }
   }
   
-  .post-17{
+  .post-17, .post-13{
     max-width: 80vw;
     .entry-header{
       color: $forest;

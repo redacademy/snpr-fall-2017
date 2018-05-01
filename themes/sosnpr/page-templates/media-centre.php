@@ -20,16 +20,14 @@ get_header();
       <li>
         <a href="#videos">Videos</a>
       </li>
-  </ul>
-  <ul class="resources-nav-2">
       <li>
         <a href="#news">In the News</a>
       </li>
+  </ul>
+  <ul class="resources-nav-2">
       <li>
         <a href="#photos">Photos</a>
       </li>
-  </ul>
-  <ul class="resources-nav-3">
       <li>
         <a href="#radio">Radio</a>
       </li>
@@ -82,7 +80,7 @@ get_header();
      <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
   </li>
 
-  <li id="radio" class="li-container">
+  <div id="radio" class="li-container radio">
    <?php $props = CFS()->get_field_info('radio');?> 
    <h2 class="resources-heading">
    <i class="fa fa-angle-right"></i>
@@ -91,8 +89,9 @@ get_header();
      <div class="resources-content hide"><p><?php echo CFS()->get('radio');?></p>
      <a class="mobile-button" href="#resources-ul"> <i class="fa fa-angle-up"></i></a>
       </div>
-     <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
-  </li>
+     <a class="desktop-button-end" href="#top"> <i class="fa fa-angle-up"></i></a>
+    
+    </div>
 </ul>
 </main>
 </div>
