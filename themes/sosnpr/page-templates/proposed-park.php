@@ -179,7 +179,7 @@ get_header();
         <!--close human impact -->
 
 
-        <div class="prop-item benefits" id="benefits">
+        <section class="prop-item benefits" id="benefits">
           <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
             <?php echo CFS()->get_field_info( 'local_benefits' )['label'];?>
           </h2>
@@ -218,12 +218,12 @@ get_header();
           </div>
 
           <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
-        </div>
+        </section>
         <!-- closes local benefits -->
 
 
 
-        <div class="prop-item faq" id="faq">
+        <section class="prop-item faq" id="faq">
           <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
             <?php echo CFS()->get_field_info( 'faq' )['label'];?>
           </h2>
@@ -257,7 +257,7 @@ get_header();
             </div>
           </div>
           <a href="#top"><button class="page-top last"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
-        </div>
+        </section>
         <!-- closes FAQ-->
 
       </section>
