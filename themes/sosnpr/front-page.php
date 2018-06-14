@@ -14,7 +14,7 @@ get_header(); ?>
     <div class="front-page-hero">
 			<h1> <?php echo get_bloginfo( 'name' )?></h1>
 			<h2 class="front-page-blurb"><?php echo get_bloginfo( 'description' )?> </h2>
-			<a href="<?php echo esc_url( get_permalink( get_page_by_path( 'Proposed Park' ) ) ); ?>" class="learn-more-button">Learn More</a>
+			<a href="<?php echo esc_url( get_permalink( get_page_by_path( 'The Park' ) ) ); ?>" class="learn-more-button">Learn More</a>
 		</div>
 
 		<!-- end of front-page-hero -->
