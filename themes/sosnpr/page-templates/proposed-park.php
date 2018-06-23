@@ -22,7 +22,7 @@ get_header();
 
       <section class="proposed-banner">
         <ul class="banner-list">
-          <li><a href="#land">the land</a></li>
+          <li><a href="#land">the place</a></li>
           <li><a href="#human">human impact</a></li>
         </ul>
         <ul class="banner-list">
@@ -40,13 +40,13 @@ get_header();
 
         <div class="prop-item land" id="land">
           <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-            <?php echo CFS()->get_field_info( 'the_land' )['label'];?>
+            <?php echo CFS()->get_field_info( 'the_place' )['label'];?>
           </h2>
 
           <div class="content-container">
             <div class="content-container-one">
             <div class="text">
-              <?php echo CFS()->get( 'the_land' );?>
+              <?php echo CFS()->get( 'the_place' );?>
 
               <div class="close-section">
               <i class="fa fa-angle-up" aria-hidden="true"></i>
