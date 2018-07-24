@@ -936,6 +936,12 @@ object {
       font-size: 1.3rem;
       font-weight: 700;
       margin-bottom: 2rem; }
+      @media all and (min-width: 750px) {
+        .widget-area .widget_text .subscribe-button,
+        .widget-area .widget_text .feedback-button,
+        .widget-area .textwidget .subscribe-button,
+        .widget-area .textwidget .feedback-button {
+          margin-top: 2.125rem; } }
     .widget-area .widget_text .subscribe-button:hover,
     .widget-area .widget_text .feedback-button:hover,
     .widget-area .textwidget .subscribe-button:hover,

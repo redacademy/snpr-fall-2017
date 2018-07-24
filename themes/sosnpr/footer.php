@@ -42,12 +42,15 @@ if ( ! is_active_sidebar( 'footer-1' ) ) {
 <!--End mc_embed_signup-->
 
      
-     <div class="feedback no-see">
+    <!-- <div class="feedback no-see"> -->
+
+			<!-- saved and commented this out in case you'll need to return the feedback btn with the same functions again in the future -->
 			 
-			 <button class="close"> <i class="fa fa-times" aria-hidden="true"></i> </button>
-			 <?php echo do_shortcode('[contact-form-7 id="100" title="Contact form 1"]'); ?>
+			 <!-- <button class="close"> <i class="fa fa-times" aria-hidden="true"></i> </button> -->
+			 <?php /* echo do_shortcode('[contact-form-7 id="100" title="Contact form 1"]'); */ ?>
       
-		</div>
+		<!-- </div> -->
+
 		<!-- .site-info -->
 	</footer>
 	<!-- #colophon -->
