@@ -60,7 +60,7 @@ get_header();
             <div class="content-container-two">
             <div class="image"><img src="<?php echo CFS()->get('location_image');?>" alt="a map of the southern okanagan" /></div>
             <div class="text">
-              <?php echo CFS()->get('proposal_history');?>
+              <?php echo CFS()->get('park_proposal_history');?>
 
             </div>
             </div>
