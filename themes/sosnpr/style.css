@@ -1044,14 +1044,16 @@ object {
       line-height: 20px;
       margin: 15px 0;
       padding: 0 40px; }
-    .form-popup-show form input[type="email"] {
+    .form-popup-show form input[type="email"],
+    .form-popup-show form input[type="text"] {
       font-family: "Source Sans Pro", sans-serif;
       width: 220px;
       height: 30px;
       margin: 10px 40px;
       padding: 0 10px; }
       @media all and (min-width: 600px) {
-        .form-popup-show form input[type="email"] {
+        .form-popup-show form input[type="email"],
+        .form-popup-show form input[type="text"] {
           width: 240px;
           margin-left: 70px; } }
     .form-popup-show form button {

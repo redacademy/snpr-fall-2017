@@ -178,7 +178,8 @@
         margin: 15px 0;
         padding: 0 40px;
       }
-      input[type="email"]{
+      input[type="email"],
+      input[type="text"]{
         font-family: $source;
         width: 220px;
         height: 30px;
