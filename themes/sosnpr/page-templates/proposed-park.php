@@ -93,12 +93,12 @@ get_header();
 
         <div class="prop-item human" id="human">
           <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-            <?php echo CFS()->get_field_info( 'human_impact' )['label'];?>
+            <?php echo CFS()->get_field_info( 'the_opportunity' )['label'];?>
           </h2>
 
           <div class="content-container-one">
             <div class="text">
-              <?php echo CFS()->get( 'human_impact' );?>
+              <?php echo CFS()->get( 'the_opportunity' );?>
 
               <div class="close-section">
                 <i class="fa fa-angle-up" aria-hidden="true"></i>
@@ -124,7 +124,7 @@ get_header();
           </div>
           <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </div>
-        <!--close human impact -->
+        <!--close the opportunity -->
 
 
         <section class="prop-item benefits" id="benefits">
