@@ -69,58 +69,6 @@ get_header();
         </div>
         <!-- close the land -->
 
-
-
-        <div class="prop-item land-use" id="land-use">
-          <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-            <?php echo CFS()->get_field_info( 'land_use_regulations' )['label'];?>
-          </h2>
-
-          <div class="content-container">
-
-            <div class="content-container-one">
-              <div class="text">
-                <?php echo CFS()->get('land_use_regulations');?>
-              </div>
-              <div class="text fish">
-                <?php echo CFS()->get('land_two');?>
-              </div>
-            </div>
-
-            <div class="content-container-two">
-              <div class="image"><img src="<?php echo CFS()->get('land_use_one');?>" alt="a pristine lake with a graphic in the top left corner that has a fish with a checkmark indicating that fishing will still be allowed"
-                /></div>
-            </div>
-
-            <div class="content-container-three">
-              <div class="image"><img src="<?php echo CFS()->get('land_use_two');?>" alt="a brown field with two graphics, one of a person shooting a rifle and one of an atv, both with exes"
-                /></div>
-            </div>
-
-            <div class="content-container-four">
-              <div class="text">
-                <?php echo CFS()->get('land_three');?>
-              </div>
-              <div class="text">
-                <?php echo CFS()->get('land_four');?>
-
-                <div class="close-section">
-                  <i class="fa fa-angle-up" aria-hidden="true"></i>
-                </div>
-
-
-              </div>
-            </div>
-
-          </div>
-          <!-- closes content-container -->
-          <a href="#top"><button class="page-top"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
-
-        </div>
-        <!-- close regulations -->
-
-
-
         <div class="prop-item why" id="why">
           <h2 class="title"><span class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></span><span class="down"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
             <?php echo CFS()->get_field_info( 'why_a_national_park' )['label'];?>
@@ -283,7 +231,7 @@ get_header();
               <div class="image"><img src="<?php echo CFS()->get('land_use_two');?>" alt="a brown field with two graphics, one of a person shooting a rifle and one of an atv, both with exes"
                 /></div>
             </div>
-          </div>
+          </div><!-- closes content-container -->
           
           <a href="#top"><button class="page-top last"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </section>
