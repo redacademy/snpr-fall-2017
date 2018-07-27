@@ -23,11 +23,12 @@ get_header();
       <section class="proposed-banner">
         <ul class="banner-list">
           <li><a href="#land">the place</a></li>
-          <li><a href="#human">the opportunity</a></li>
+          <li><a href="#why">why a national park reserve</a></li>
         </ul>
         <ul class="banner-list">
+          <li><a href="#human">the opportunity</a></li>
           <li><a href="#benefits">local benefits</a></li>
-          <li><a href="#why">why a national park reserve</a></li>
+          
         </ul>
         <ul class="banner-list">
           <li><a href="#faq">faq</a></li>
