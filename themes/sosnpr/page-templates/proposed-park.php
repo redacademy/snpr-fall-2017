@@ -26,11 +26,10 @@ get_header();
           <li><a href="#human">human impact</a></li>
         </ul>
         <ul class="banner-list">
-          <li><a href="#land-use">land use regulations</a></li>
           <li><a href="#benefits">local benefits</a></li>
+          <li><a href="#why">why a national park reserve</a></li>
         </ul>
         <ul class="banner-list">
-          <li><a href="#why">why a national park reserve</a></li>
           <li><a href="#faq">faq</a></li>
         </ul>
       </section>
