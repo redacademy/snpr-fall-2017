@@ -428,7 +428,12 @@
     
     .faq {
       @include proposed-button;
-
+      .fish {
+        align-items: left;
+        @include desktop {
+          align-items: flex-end;
+        }
+      }
       @include tablet {
         border-bottom: none;
       }
@@ -473,6 +478,75 @@
           .text {
             flex-basis: 50%;
           }
+        }
+        .content-container {
+          display: flex;
+          flex-wrap: wrap;
+          padding-bottom: 30px;
+          padding-top: 2%;
+        }
+        .content-container-four {
+          flex-basis: 42%;
+          @media all and (min-width: 1100px) {
+            flex-basis: 45%;
+          }
+          @media all and (min-width: 1200px) {
+            flex-basis: 50%;
+          } 
+          padding-bottom: 25px;
+        }
+        .content-container-five {
+          display: flex;
+          justify-content: flex-end;
+          flex-basis: 42%;
+          flex-direction: column;
+          @media all and (min-width: 1100px) {
+            flex-basis: 45%;
+          }
+          @media all and (min-width: 1200px) {
+            flex-basis: 50%;
+          }
+          padding-left: 5%;
+          padding-bottom: 3%;
+        }
+        .content-container-six {
+          flex-basis: 42%;
+          @media all and (min-width: 1100px) {
+            flex-basis: 45%;
+          }
+          @media all and (min-width: 1200px) {
+            flex-basis: 50%;
+          }
+        }
+        .content-container-seven {
+          .image {
+            img {
+              align-self: flex-end;
+            }
+          }
+          .text {
+            p {
+              padding-left: 5%;
+            }
+          }
+          flex-basis: 42%;
+          @media all and (min-width: 1100px) {
+            flex-basis: 45%;
+            .text {
+              p {
+                padding-left: 10%;
+              }
+            }
+          }
+          @media all and (min-width: 1200px) {
+            flex-basis: 50%;
+            .text {
+              p {
+                padding-left: 15%;
+              }
+            }
+          }
+          padding-left: 5%;
         }
       }
     }

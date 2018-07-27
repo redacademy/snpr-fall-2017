@@ -245,17 +245,46 @@ get_header();
           <div class="content-container-three">
             <div class="text">
               <?php echo CFS()->get('faq_three');?>
-
-              <div class="close-section">
-                <i class="fa fa-angle-up" aria-hidden="true"></i>
-              </div>
-
-
             </div>
             <div class="image"><img src="<?php echo CFS()->get('faq_image_three');?>" alt="a helicopter over a snowy mountain top with clouds in the background"
               />
             </div>
           </div>
+          <div class="content-container">
+            
+            <div class="content-container-four">
+              <div class="image"><img src="<?php echo CFS()->get('land_use_one');?>" alt="a pristine lake with a graphic in the top left corner that has a fish with a checkmark indicating that fishing will still be allowed"
+                /></div>
+            </div>
+          
+            <div class="content-container-five">
+              <div class="text">
+                <?php echo CFS()->get('faq_land_use_reg');?>
+              </div>
+              <div class="text fish">
+                <?php echo CFS()->get('faq_land_use_two');?>
+              </div>
+            </div>
+
+            <div class="content-container-six">
+              <div class="text">
+                <?php echo CFS()->get('faq_land_use_three');?>
+              </div>
+              <div class="text">
+                <?php echo CFS()->get('faq_land_use_four');?>
+
+                <div class="close-section">
+                  <i class="fa fa-angle-up" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-container-seven">
+              <div class="image"><img src="<?php echo CFS()->get('land_use_two');?>" alt="a brown field with two graphics, one of a person shooting a rifle and one of an atv, both with exes"
+                /></div>
+            </div>
+          </div>
+          
           <a href="#top"><button class="page-top last"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
         </section>
         <!-- closes FAQ-->

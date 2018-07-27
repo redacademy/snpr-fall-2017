@@ -2376,6 +2376,16 @@ a:visited {
       .page-template-proposed-park .site-content .faq .text .close-section {
         display: none; } }
 
+.page-template-proposed-park .site-content .faq .fish {
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left; }
+  @media all and (min-width: 1000px) {
+    .page-template-proposed-park .site-content .faq .fish {
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end; } }
+
 @media all and (min-width: 600px) {
   .page-template-proposed-park .site-content .faq {
     border-bottom: none; } }
@@ -2423,7 +2433,88 @@ a:visited {
         width: 100%; }
     .page-template-proposed-park .site-content .faq .content-container-three .text {
       -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+  .page-template-proposed-park .site-content .faq .content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 30px;
+    padding-top: 2%; }
+  .page-template-proposed-park .site-content .faq .content-container-four {
+    -ms-flex-preferred-size: 42%;
+        flex-basis: 42%;
+    padding-bottom: 25px; } }
+  @media all and (min-width: 1000px) and (min-width: 1100px) {
+    .page-template-proposed-park .site-content .faq .content-container-four {
+      -ms-flex-preferred-size: 45%;
+          flex-basis: 45%; } }
+  @media all and (min-width: 1000px) and (min-width: 1200px) {
+    .page-template-proposed-park .site-content .faq .content-container-four {
+      -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .site-content .faq .content-container-five {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -ms-flex-preferred-size: 42%;
+        flex-basis: 42%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 5%;
+    padding-bottom: 3%; } }
+  @media all and (min-width: 1000px) and (min-width: 1100px) {
+    .page-template-proposed-park .site-content .faq .content-container-five {
+      -ms-flex-preferred-size: 45%;
+          flex-basis: 45%; } }
+  @media all and (min-width: 1000px) and (min-width: 1200px) {
+    .page-template-proposed-park .site-content .faq .content-container-five {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .site-content .faq .content-container-six {
+    -ms-flex-preferred-size: 42%;
+        flex-basis: 42%; } }
+  @media all and (min-width: 1000px) and (min-width: 1100px) {
+    .page-template-proposed-park .site-content .faq .content-container-six {
+      -ms-flex-preferred-size: 45%;
+          flex-basis: 45%; } }
+  @media all and (min-width: 1000px) and (min-width: 1200px) {
+    .page-template-proposed-park .site-content .faq .content-container-six {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-proposed-park .site-content .faq .content-container-seven {
+    -ms-flex-preferred-size: 42%;
+        flex-basis: 42%;
+    padding-left: 5%; }
+    .page-template-proposed-park .site-content .faq .content-container-seven .image img {
+      -ms-flex-item-align: end;
+          align-self: flex-end; }
+    .page-template-proposed-park .site-content .faq .content-container-seven .text p {
+      padding-left: 5%; } }
+  @media all and (min-width: 1000px) and (min-width: 1100px) {
+    .page-template-proposed-park .site-content .faq .content-container-seven {
+      -ms-flex-preferred-size: 45%;
+          flex-basis: 45%; }
+      .page-template-proposed-park .site-content .faq .content-container-seven .text p {
+        padding-left: 10%; } }
+  @media all and (min-width: 1000px) and (min-width: 1200px) {
+    .page-template-proposed-park .site-content .faq .content-container-seven {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+      .page-template-proposed-park .site-content .faq .content-container-seven .text p {
+        padding-left: 15%; } }
 
 .page-template-resources .resources-hero, .page-template-media-centre .resources-hero {
   background: url(../../sos_assets/resources/river.jpg);
