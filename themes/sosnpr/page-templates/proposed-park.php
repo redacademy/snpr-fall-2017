@@ -23,7 +23,7 @@ get_header();
       <section class="proposed-banner">
         <ul class="banner-list">
           <li><a href="#land">the place</a></li>
-          <li><a href="#human">human impact</a></li>
+          <li><a href="#human">the opportunity</a></li>
         </ul>
         <ul class="banner-list">
           <li><a href="#benefits">local benefits</a></li>
