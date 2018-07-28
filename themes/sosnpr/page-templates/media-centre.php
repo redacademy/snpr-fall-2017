@@ -28,7 +28,7 @@ get_header();
             <a href="#photos">Photos</a>
           </li>
           <li>
-            <a href="#radio">Radio</a>
+            <a href="#updates">Recent Updates</a>
           </li>
         </ul>
       </div>
@@ -86,7 +86,7 @@ get_header();
         <a class="desktop-button" href="#top"> <i class="fa fa-angle-up"></i></a>
       </li>
     </ul>
-    <div class="recent-updates">
+    <div id="updates" class="recent-updates">
         <h2 class="resources-heading-owl">
           <a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">Recent Updates</a>
         </h2>
