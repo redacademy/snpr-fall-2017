@@ -1,14 +1,19 @@
 .front-page-hero{
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-2.jpg) ;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   align-items:center;
+
+  @include tablet {
+    background-size: cover;
+    padding-top:30px;
+  }
   
   align-content:center;
   background-position: bottom center;
   height:90vh;
   font-family:$miriam;
-  padding-top:30px;
+  padding-top:60px;
   display:flex;
   flex-direction:column;
   h1{
