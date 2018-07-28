@@ -1437,6 +1437,27 @@ a:visited {
   width: 100vw;
   background: rgba(0, 0, 0, 0.3); }
 
+@media all and (min-width: 600px) {
+  .page-template-resources .recent-updates, .page-template-media-centre .recent-updates {
+    padding-bottom: 1.625rem; } }
+
+.page-template-resources .recent-updates .resources-heading-owl, .page-template-media-centre .recent-updates .resources-heading-owl {
+  margin-left: 3.75rem;
+  color: #d87000;
+  font-family: "Miriam Libre", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .recent-updates .resources-heading-owl, .page-template-media-centre .recent-updates .resources-heading-owl {
+      margin-left: 5.05rem; } }
+  .page-template-resources .recent-updates .resources-heading-owl a,
+  .page-template-resources .recent-updates .resources-heading-owl a:visited, .page-template-media-centre .recent-updates .resources-heading-owl a,
+  .page-template-media-centre .recent-updates .resources-heading-owl a:visited {
+    color: #d87000;
+    text-decoration: none; }
+  .page-template-resources .recent-updates .resources-heading-owl a:hover, .page-template-media-centre .recent-updates .resources-heading-owl a:hover {
+    color: #2E84E6; }
+
 .front-page-hero {
   background-image: url(../../sos_assets/home-page/south-okanagan-grasslands-2.jpg);
   background-size: cover;
@@ -1512,38 +1533,47 @@ a:visited {
   .recent-updates-header a:hover {
     color: #2E84E6; }
 
-.page-id-101 .posts-navigation {
+.page-id-101 .posts-navigation,
+.page-id-13 .posts-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-top: 15px; }
-  .page-id-101 .posts-navigation a {
+  .page-id-101 .posts-navigation a,
+  .page-id-13 .posts-navigation a {
     color: #bf6d0a;
     text-transform: uppercase;
     font-family: "Miriam Libre", sans-serif; }
-    .page-id-101 .posts-navigation a:hover {
+    .page-id-101 .posts-navigation a:hover,
+    .page-id-13 .posts-navigation a:hover {
       color: #2E84E6; }
 
-.page-id-101 .owl-theme .owl-controls .owl-page span {
+.page-id-101 .owl-theme .owl-controls .owl-page span,
+.page-id-13 .owl-theme .owl-controls .owl-page span {
   height: 8px;
   width: 8px; }
 
-.page-id-101 .owl-item {
+.page-id-101 .owl-item,
+.page-id-13 .owl-item {
   height: 320px; }
 
-.page-id-101 .carousel-cell {
+.page-id-101 .carousel-cell,
+.page-id-13 .carousel-cell {
   padding: 10px;
   height: 320px;
   overflow: hidden; }
-  .page-id-101 .carousel-cell article {
+  .page-id-101 .carousel-cell article,
+  .page-id-13 .carousel-cell article {
     border-radius: 3px; }
-  .page-id-101 .carousel-cell img {
+  .page-id-101 .carousel-cell img,
+  .page-id-13 .carousel-cell img {
     height: auto;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
-  .page-id-101 .carousel-cell .entry-header {
+  .page-id-101 .carousel-cell .entry-header,
+  .page-id-13 .carousel-cell .entry-header {
     color: white;
     font-family: "Source Sans Pro", sans-serif;
     position: absolute;
@@ -1556,24 +1586,33 @@ a:visited {
     border-bottom-right-radius: 3px;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(black));
     background: linear-gradient(rgba(0, 0, 0, 0.4), black); }
-    .page-id-101 .carousel-cell .entry-header .entry-meta {
+    .page-id-101 .carousel-cell .entry-header .entry-meta,
+    .page-id-13 .carousel-cell .entry-header .entry-meta {
       text-transform: uppercase; }
-    .page-id-101 .carousel-cell .entry-header a {
+    .page-id-101 .carousel-cell .entry-header a,
+    .page-id-13 .carousel-cell .entry-header a {
       color: white;
       text-decoration: none;
       line-height: 1;
       font-size: 16px; }
-    .page-id-101 .carousel-cell .entry-header a:hover {
+    .page-id-101 .carousel-cell .entry-header a:hover,
+    .page-id-13 .carousel-cell .entry-header a:hover {
       color: #2E84E6; }
 
-.page-id-101 .page-id-101 .entry-header {
+.page-id-101 .page-id-101 .entry-header,
+.page-id-101 .page-id-13 .entry-header,
+.page-id-13 .page-id-101 .entry-header,
+.page-id-13 .page-id-13 .entry-header {
   color: white;
   font-family: "Source Sans Pro", sans-serif;
   position: absolute;
   bottom: 30px;
   padding: 10px;
   font-size: 12px; }
-  .page-id-101 .page-id-101 .entry-header a {
+  .page-id-101 .page-id-101 .entry-header a,
+  .page-id-101 .page-id-13 .entry-header a,
+  .page-id-13 .page-id-101 .entry-header a,
+  .page-id-13 .page-id-13 .entry-header a {
     color: white;
     text-decoration: none; }
 
@@ -1609,16 +1648,20 @@ a:visited {
       .front-page-hero .learn-more-button a:hover {
         color: #4CD1FE;
         border: 1px #4CD1FE; }
-  .page-id-101 .owl-theme .owl-controls .owl-page span {
+  .page-id-101 .owl-theme .owl-controls .owl-page span,
+  .page-id-13 .owl-theme .owl-controls .owl-page span {
     height: 8px;
     width: 8px; }
-  .page-id-101 .carousel-cell .entry-header a {
+  .page-id-101 .carousel-cell .entry-header a,
+  .page-id-13 .carousel-cell .entry-header a {
     line-height: 1; } }
 
 @media screen and (min-width: 1000px) {
-  .page-id-101 .posts-navigation {
+  .page-id-101 .posts-navigation,
+  .page-id-13 .posts-navigation {
     padding-top: 25px; }
-  .page-id-101 .carousel-cell .entry-header a {
+  .page-id-101 .carousel-cell .entry-header a,
+  .page-id-13 .carousel-cell .entry-header a {
     line-height: 1; }
   .front-page-hero {
     background: url("../../sos_assets/error404/error404.jpg");
@@ -2726,6 +2769,27 @@ a:visited {
   height: 100vh;
   width: 100vw;
   background: rgba(0, 0, 0, 0.3); }
+
+@media all and (min-width: 600px) {
+  .page-template-resources .recent-updates, .page-template-media-centre .recent-updates {
+    padding-bottom: 1.625rem; } }
+
+.page-template-resources .recent-updates .resources-heading-owl, .page-template-media-centre .recent-updates .resources-heading-owl {
+  margin-left: 3.75rem;
+  color: #d87000;
+  font-family: "Miriam Libre", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300; }
+  @media all and (min-width: 600px) {
+    .page-template-resources .recent-updates .resources-heading-owl, .page-template-media-centre .recent-updates .resources-heading-owl {
+      margin-left: 5.05rem; } }
+  .page-template-resources .recent-updates .resources-heading-owl a,
+  .page-template-resources .recent-updates .resources-heading-owl a:visited, .page-template-media-centre .recent-updates .resources-heading-owl a,
+  .page-template-media-centre .recent-updates .resources-heading-owl a:visited {
+    color: #d87000;
+    text-decoration: none; }
+  .page-template-resources .recent-updates .resources-heading-owl a:hover, .page-template-media-centre .recent-updates .resources-heading-owl a:hover {
+    color: #2E84E6; }
 
 .search .site-content .page-title {
   font-size: 24px;

@@ -1,5 +1,5 @@
 .page-template-resources, .page-template-media-centre{
-  .resources-hero{
+  .resources-hero {
     background: url(../../sos_assets/resources/river.jpg);
     background-size: cover;
     height: 100vh;
@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     
-    @include tablet{
+    @include tablet {
       background-size: cover;
       background-repeat: none;
       background-position: 0% 60%;
@@ -21,25 +21,25 @@
     h1{
       padding-top: 8rem;
       font-size: 3rem;
-      @include desktop{
+      @include desktop {
         padding-top: 0rem;
       }
     }
-    .entry-content{
-      p{
+    .entry-content {
+      p {
         font-family: $miriam, 'sans-serif';
         font-size: 1.2rem;
         line-height: 1.2rem;
       }
-      @include desktop{
+      @include desktop {
         max-width: 30vw;
       }
     }
   }
   
-  .resources-nav{
+  .resources-nav {
     display: none;
-    @include tablet-footer{
+    @include tablet-footer {
       width: 100vw;
       min-height: 120px;
       background: $orange;
@@ -85,7 +85,7 @@
     }
   }
   
-  .post-17, .post-13{
+  .post-17, .post-13 {
     max-width: 80vw;
     .entry-header{
       color: $forest;
@@ -215,7 +215,7 @@
     }
   }
   
-  .owl-carousel2{
+  .owl-carousel2 {
     display: none;
     width: 65vw;
     left:13%;
@@ -232,50 +232,73 @@
       //   zoom: 1.7;
       // }
       
-      .owl-image{
-        display: none;
-        height: 200px;
-        @include tablet{
-          display: block;
-        }
-      }
-      .owl-controls .owl-pagination span{
-        display: none;
-        width: 5px;
-        height: 5px;
-        background: $forest;
-        @include tablet{
-          display: block;
-          width: 8px;
-          height: 8px;
-        }
-      }
-    }
-    
-    .li-container{
-      font-family: $source, 'sans-serif';
+    .owl-image{
+      display: none;
+      height: 200px;
       @include tablet{
-        border-bottom: none;
+        display: block;
       }
     }
-    
-    .mobile-button{
-      @include mobile-button;
-    }
-    
-    .desktop-button{
-      @include desktop-button;
-    }
-    
-    .desktop-button-end{
-      @include desktop-button-end;
-    }
-    
-    .modal-overlay {
-      position: fixed;
-      top: 0;
-      height: 100vh;
-      width: 100vw;
-      background: rgba(black,0.3);
+    .owl-controls .owl-pagination span{
+      display: none;
+      width: 5px;
+      height: 5px;
+      background: $forest;
+      @include tablet{
+        display: block;
+        width: 8px;
+        height: 8px;
+      }
     }
   }
+    
+  .li-container{
+    font-family: $source, 'sans-serif';
+    @include tablet{
+      border-bottom: none;
+    }
+  }
+    
+  .mobile-button{
+    @include mobile-button;
+  }
+    
+  .desktop-button{
+    @include desktop-button;
+  }
+    
+  .desktop-button-end{
+    @include desktop-button-end;
+  }
+    
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(black,0.3);
+  }
+  .recent-updates {
+    @include tablet {
+      padding-bottom: 1.625rem;
+    }
+    .resources-heading-owl {
+      margin-left: 3.75rem;
+      color: $orange;
+      font-family: $miriam;
+      text-transform: uppercase;
+      font-weight: 300;
+      @include tablet{
+        margin-left: 5.05rem;
+      }
+      a,
+      a:visited {
+        color:$orange;
+        text-decoration:none;
+      }
+      a:hover{
+        color:$hover-blue;
+      }
+    }
+  }
+} 
