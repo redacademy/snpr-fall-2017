@@ -1439,7 +1439,8 @@ a:visited {
 
 @media all and (min-width: 600px) {
   .page-template-resources .recent-updates, .page-template-media-centre .recent-updates {
-    padding-bottom: 1.625rem; } }
+    padding-bottom: 1.625rem;
+    padding-top: 1.875rem; } }
 
 .page-template-resources .recent-updates .resources-heading-owl, .page-template-media-centre .recent-updates .resources-heading-owl {
   margin-left: 3.75rem;
@@ -2772,7 +2773,8 @@ a:visited {
 
 @media all and (min-width: 600px) {
   .page-template-resources .recent-updates, .page-template-media-centre .recent-updates {
-    padding-bottom: 1.625rem; } }
+    padding-bottom: 1.625rem;
+    padding-top: 1.875rem; } }
 
 .page-template-resources .recent-updates .resources-heading-owl, .page-template-media-centre .recent-updates .resources-heading-owl {
   margin-left: 3.75rem;
