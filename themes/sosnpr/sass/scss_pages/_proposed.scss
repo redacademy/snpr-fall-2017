@@ -3,9 +3,8 @@
     .entry-title {
       @include mobile-title;
       text-align: center;
-      padding-top: 60px;
+      padding-top: 8rem;
       text-transform: uppercase;
-      color: $forest;
       @include tablet {
         padding-top: 90px;
         font-size: 54px;

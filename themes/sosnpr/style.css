@@ -1127,14 +1127,23 @@ a:visited {
               align-items: center; } }
   .page-template-resources .resources-hero h1, .page-template-media-centre .resources-hero h1 {
     padding-top: 8rem;
-    font-size: 3rem; }
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    font-size: 28px; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .resources-hero h1, .page-template-media-centre .resources-hero h1 {
+        font-size: 3rem; } }
     @media all and (min-width: 1000px) {
       .page-template-resources .resources-hero h1, .page-template-media-centre .resources-hero h1 {
         padding-top: 0rem; } }
   .page-template-resources .resources-hero .entry-content p, .page-template-media-centre .resources-hero .entry-content p {
-    font-family: "Miriam Libre", sans-serif, "sans-serif";
-    font-size: 1.2rem;
-    line-height: 1.2rem; }
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    font-size: 12px; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .resources-hero .entry-content p, .page-template-media-centre .resources-hero .entry-content p {
+        font-size: 1.2rem;
+        line-height: 1.2rem; } }
   @media all and (min-width: 1000px) {
     .page-template-resources .resources-hero .entry-content, .page-template-media-centre .resources-hero .entry-content {
       max-width: 30vw; } }
@@ -1471,7 +1480,7 @@ a:visited {
   background-position: bottom center;
   height: 90vh;
   font-family: "Miriam Libre", sans-serif;
-  padding-top: 60px;
+  padding-top: 8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1486,8 +1495,8 @@ a:visited {
   .front-page-hero h1 {
     color: #285817;
     font-family: "Miriam Libre", sans-serif;
-    text-align: center;
     font-size: 28px;
+    text-align: center;
     text-transform: uppercase;
     display: block;
     padding-top: 40px;
@@ -1700,9 +1709,8 @@ a:visited {
   font-family: "Miriam Libre", sans-serif;
   font-size: 28px;
   text-align: center;
-  padding-top: 60px;
-  text-transform: uppercase;
-  color: #285817; }
+  padding-top: 8rem;
+  text-transform: uppercase; }
   @media all and (min-width: 600px) {
     .page-template-proposed-park .site-content .entry-title {
       padding-top: 90px;
@@ -2465,14 +2473,23 @@ a:visited {
               align-items: center; } }
   .page-template-resources .resources-hero h1, .page-template-media-centre .resources-hero h1 {
     padding-top: 8rem;
-    font-size: 3rem; }
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    font-size: 28px; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .resources-hero h1, .page-template-media-centre .resources-hero h1 {
+        font-size: 3rem; } }
     @media all and (min-width: 1000px) {
       .page-template-resources .resources-hero h1, .page-template-media-centre .resources-hero h1 {
         padding-top: 0rem; } }
   .page-template-resources .resources-hero .entry-content p, .page-template-media-centre .resources-hero .entry-content p {
-    font-family: "Miriam Libre", sans-serif, "sans-serif";
-    font-size: 1.2rem;
-    line-height: 1.2rem; }
+    color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    font-size: 12px; }
+    @media all and (min-width: 600px) {
+      .page-template-resources .resources-hero .entry-content p, .page-template-media-centre .resources-hero .entry-content p {
+        font-size: 1.2rem;
+        line-height: 1.2rem; } }
   @media all and (min-width: 1000px) {
     .page-template-resources .resources-hero .entry-content, .page-template-media-centre .resources-hero .entry-content {
       max-width: 30vw; } }
@@ -3154,7 +3171,6 @@ a:visited {
   background-repeat: no-repeat;
   background-position: 0 60%;
   height: 85vh;
-  font-family: "Miriam Libre", sans-serif;
   margin-bottom: 70px;
   padding-top: 60px; }
   @media all and (min-width: 600px) {
@@ -3162,9 +3178,10 @@ a:visited {
       padding-top: 20px; } }
   .blog .site-content .updates-hero h2 {
     text-align: center;
-    font-size: 30px;
-    padding-top: 50px;
     color: #285817;
+    font-family: "Miriam Libre", sans-serif;
+    font-size: 28px;
+    padding-top: 50px;
     text-transform: uppercase; }
     @media all and (min-width: 600px) {
       .blog .site-content .updates-hero h2 {

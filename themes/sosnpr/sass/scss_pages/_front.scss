@@ -13,14 +13,12 @@
   background-position: bottom center;
   height:90vh;
   font-family:$miriam;
-  padding-top:60px;
+  padding-top:8rem;
   display:flex;
   flex-direction:column;
   h1{
-    color:$forest;
-    font-family:$miriam;
+    @include mobile-title;
     text-align:center;
-    font-size:28px;
     text-transform:uppercase;
     display:block;
     // .bold-title-span{

@@ -20,16 +20,21 @@
     }
     h1{
       padding-top: 8rem;
-      font-size: 3rem;
+      @include mobile-title;
+      @include tablet {
+        font-size: 3rem;
+      }
       @include desktop {
         padding-top: 0rem;
       }
     }
     .entry-content {
       p {
-        font-family: $miriam, 'sans-serif';
-        font-size: 1.2rem;
-        line-height: 1.2rem;
+        @include mobile-description;
+        @include tablet {
+          font-size: 1.2rem;
+          line-height: 1.2rem;
+        }
       }
       @include desktop {
         max-width: 30vw;
