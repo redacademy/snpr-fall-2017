@@ -3493,6 +3493,24 @@ a:visited {
   min-height: 60px;
   min-width: 20px;
   max-height: 70px; }
+  @media all and (min-width: 600px) {
+    .header-logo {
+      height: auto;
+      min-width: 60px;
+      max-width: 100px;
+      min-height: unset;
+      max-height: unset; }
+      .header-logo img {
+        max-width: 100px; } }
+  @media all and (min-width: 750px) {
+    .header-logo {
+      min-height: 60px;
+      min-width: 20px;
+      max-height: 70px;
+      max-width: unset;
+      width: unset; }
+      .header-logo img {
+        max-width: 100%; } }
 
 .header-logo:hover {
   background-color: #4CD1FE; }
@@ -3529,7 +3547,8 @@ a:visited {
             justify-content: space-between;
     position: relative;
     height: 50px;
-    width: 500px;
+    max-width: 440px;
+    min-width: 400px;
     -webkit-box-shadow: none;
             box-shadow: none;
     z-index: 10;
@@ -3545,7 +3564,8 @@ a:visited {
     .menu-non-logo .menu1 .menu-menu-1-container {
       padding-left: 0px; }
       .menu-non-logo .menu1 .menu-menu-1-container ul {
-        width: 500px;
+        max-width: 440px;
+        min-width: 400px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -3578,6 +3598,16 @@ a:visited {
           .menu-non-logo .menu1 .menu-menu-1-container ul .menu-item-106 a:hover {
             color: #4CD1FE;
             border: 1px #4CD1FE; } }
+
+@media all and (min-width: 750px) {
+  .menu-non-logo .menu1 {
+    max-width: unset;
+    min-width: unset;
+    width: 500px; }
+    .menu-non-logo .menu1 .menu-menu-1-container ul {
+      max-width: unset;
+      min-width: unset;
+      width: 500px; } }
 
 @media screen and (min-width: 1000px) {
   .menu-non-logo .search-icon {

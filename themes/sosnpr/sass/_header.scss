@@ -74,10 +74,30 @@
   }
   
   .header-logo{
-    
     min-height:60px;
     min-width:20px;
     max-height:70px;
+    @include tablet {
+      height: auto;
+      min-width: 60px;
+      max-width: 100px;
+      min-height: unset;
+      max-height: unset;
+      img {
+        max-width: 100px;
+      }
+    }
+    @include tablet-footer {
+      min-height:60px;
+      min-width:20px;
+      max-height:70px;
+      max-width: unset;
+      width: unset;
+      img {
+        max-width: 100%;
+      }
+    }
+    
     
   }
   .header-logo:hover{
@@ -121,7 +141,8 @@
         justify-content: space-between;
         position:relative;
         height:50px;
-        width:500px;
+        max-width:440px;
+        min-width: 400px;
         box-shadow:none;
         z-index: 10;
         background:transparent;
@@ -134,7 +155,8 @@
         .menu-menu-1-container{
           padding-left:0px;
           ul{
-            width:500px;
+            max-width:440px;
+            min-width: 400px;
             display:flex;
             flex-direction:row;
             justify-content:space-around;
@@ -180,7 +202,22 @@
     }
   }//600px
 
-
+  @include tablet-footer {
+    .menu-non-logo{
+      .menu1 {
+        max-width: unset;
+        min-width: unset;
+        width:500px;
+        .menu-menu-1-container {
+          ul {
+            max-width: unset;
+            min-width: unset;
+            width:500px;
+          }
+        }
+      }
+    }
+  }
 
 
   @media screen and (min-width: 1000px) {
